@@ -1,0 +1,1000 @@
+00:29.486.207	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	Handle notification for key = TrustedFrontLux and property = 175.2296	
+00:29.486.259	Default	backboardd (68)	com.apple.CoreBrightness.AABC	default	trusted Lux: 173.8135, trusted front Lux: 173.8135, trusted capped Lux: 173.8135	
+00:29.486.285	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[10]: _Esensor_filtered=173.8135 _Esensor_trusted=173.8135 _Esensor_aggregated=173.8135	
+00:29.486.319	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayContaineriOS	BuiltIn	Notification block key=Lux, value=173.8135
+	
+00:29.486.348	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	Handle notification for key = Lux and property = 173.8135	
+00:29.486.410	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[10]: _Esensor_trusted=173.8135 _state=kAABStateAutoBrightness _proxState=kProxNone _touchIsObstucted=0 _settings._internal._dimPolicy=kDimPolicyFullDimming 3 _orientation=kIOHIDDisplayOrientationTypeAmbiguous	
+00:29.486.441	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	E 173.8135, Ecapped 173.8135, EmaxCap -1.0000 => finalE 173.8135	
+00:29.486.462	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[1/1] Esensor_device: 160.3781 als->_Esensor_filtered: 173.8135 _Esensor_trusted: 173.8135  L: 192.8772 L_reflected: 1.1065	
+00:29.486.522	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[10]: dimRestriction=kDimRestrictionUnrestricted	
+00:29.486.568	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	Superbright EDR restrictions [would be]: CLTM 1,512.3809, UPO 2,175.0000, bottom [lower] restriction 1.0000, nits cap hdr: 2,175.0000, after BDM: 1,600.0000	
+00:29.486.592	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	Ambient change - SetLibEDRBrightness - physicalBrightness:118.8318, maxLum: 1,600.0000, edrState: 0, lux: 173.8135, brightness boost: 1.1381
+	
+00:29.486.615	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	SetLibEDRBrightness to currentBrightness=118.8318, maxBrightness=1,600.0000, currentLux=173.8135, compensationBoost=1.1381	
+00:29.486.641	Debug	backboardd (68)	CoreBrightness	Default	CBEDRServerDisplayBrightness: display: 0 | target: 118.8318 | max: 1,600.0000 | ambient: 173.8135 | boost=1.1381	
+00:29.486.666	Info	backboardd (68)	libEDR	Default	libEDR - EDRServerSetDisplayBrightnessForDisplay: (display: 0, targetBrightness: 118.8318, maxLuminance: 1,600.0000, ambientIlluminance: 173.8135, brightnessScaler: 1.1381)
+	
+00:29.486.713	Info	backboardd (68)	libEDR	Default	libEDR - NotificationCallback: (type: kEDRNotifyBrightness, display: 0, brightness: 0.0743, backlight: 0.0743, edrScaler: 1.0000, maxLuminance: 1,600.0000, ambientIlluminance: 173.8135, brightnessScaler: 1.1381)
+	
+00:29.486.735	Info	backboardd (68)	libEDR	Default	libEDR - PostNotification: (display: 0, brightness: 0.0743, backlight: 0.0743, edrScaling: 1.0000, maxLuminance: 1,600.0000, ambientIlluminance: 173.8135, brightnessScaler: 1.1381)
+	
+00:29.486.763	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	Set capped lux to IOMFB 173.8135 (187.0525)	
+00:29.488.145	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[4]: 	
+00:29.488.185	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[200]: inputs: L=192.8772 (shouldRamp=true dimRestriction=kDimRestrictionUnrestricted _Esensor_trusted=173.8135) curveChanged=0	
+00:29.488.201	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	now=753,594,884.4267 delta=3.7527 fade->period=5.0000 portion=0.7505 fade->Fstart=0.0066 fade->Ftarget=0.0072 Factor=0.0070
+	
+00:29.488.218	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[200]: _fastRampMode=0 dimRestriction=kDimRestrictionUnrestricted L_newtarget=192.8772 _L_current=76.2887 _L_minimum=192.4365	
+00:29.488.231	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	Display fade callback: updateBrightness = 0, updateVirtual = 0, updateEDRHeadroom = 0, forceSyncDBVUpdate = 1	
+00:29.488.261	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	Pivoting - RIGHT restriction: L_device 205.5501 -> 118.8318, ScalerMax = 0.5060, Fmax = 0.5200	
+00:29.488.284	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	Superbright EDR restrictions [would be]: CLTM 1,512.3809, UPO 2,175.0000, bottom [lower] restriction 1.0000, nits cap hdr: 2,175.0000, after BDM: 1,600.0000	
+00:29.488.306	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	SetLogicalBrightnessInternal caps: cltm 1,512.3809,  weakcap: 2,175.0000, gl.scalar: 1.0000, dyn.sl: 0.5200, edrcap: 1,600.0000	
+00:29.488.325	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	Caps after global scaling: nitsCap=551.2000 nitsCapEDR=1,600.0000	
+00:29.488.346	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	SLBI other current=1,600.0000, calculated=1,600.0000	
+00:29.488.407	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	Factor=1.0000 Lcurrent=205.5501 maxRestriction=1,512.3809 minRestriction=1.0000 maxPanel=1,060.0000 minPanel=1.0000 L_device=118.8318	
+00:29.488.455	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	S=0.5414	
+00:29.488.472	Info	backboardd (68)	com.apple.CoreBrightness.Display	default	SyncDBV Composition | Nits.Cap=551.2000 MaxRestriction.Cap=1,512.3809 WeakRestriction.Cap=2,175.0000 PAAB.Scalar=1.0000 RightFactor.Current=0.5200 RightFactor.Overriden=NO BrightDotMitigation.Enabled=YES BrightDotMitigation.Cap=1,600.0000 EDR.Enabled=YES EDR.IsEngaged=YES EDR.Cap=1,600.0000 EDR.FadePeriod=0.0000 Panel.Max=1,060.0000 Aurora.IsBoostingBrightness=NO PreStrobe.Changed=NO PreStrobe.IsActive=NO PreStrobe.Cap=0.0000 PreStrobe.CachedNits=0.0000	
+00:29.488.605	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	PLT	shallUpdateBacklight: Pstart=0.7645 Pcurrent=0.7645 Pnewtarget=0.7554 Pdelta=-0.0091 Pthreshold_dim=0.0500 (0.1000 * 0.5000) Pthreshold_brighten=0.1000 (0.1000 * 1.0000) plt_x=0.2500 plt_y=0.3700 plt_z=0.1000	
+00:29.488.635	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[200]: _L_target=205.5501 Pnewtarget=0.7554 Ptarget=0.7645 Pdelta=-0.0091  	
+00:29.488.708	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[200]: systemShallUpdateBacklight=false L_target=192.8772 timeConstant=0.0000	
+00:29.488.785	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	Handle notification for key = TrustedLux and property = 173.8135	
+00:29.488.930	Info	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	Set trusted lux = 173.8135	
+00:29.488.993	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayContaineriOS	BuiltIn	Notification block key=TrustedLux, value=173.8135
+	
+00:29.489.096	Debug	backboardd (68)	com.apple.CoreBrightness.CBALSEvent	default	Tristimulus values: XYZ[0]=53.5514, XYZ[1]=51.0499, XYZ[2]=19.7559 | CCT1=3,321.6794	
+00:29.489.126	Debug	backboardd (68)	com.apple.CoreBrightness.CBALSNode	default	<private>	
+00:29.489.159	Debug	backboardd (68)	com.apple.CoreBrightness.CBBrightestALSFilter	default	ALS events <private>	
+00:29.489.189	Info	backboardd (68)	com.apple.CoreBrightness.CBColorPolicyFilter	default	HarmonyPolicy: Sample IS  from mitigated region	
+00:29.489.213	Info	backboardd (68)	com.apple.CoreBrightness.CBColorPolicyFilter	default	HarmonyPolicy: BaselineHarmony: mitigatedStr, for (lux, nits): 160.0000, 1,083.0000 = 0.1200 (rounded)	
+00:29.489.236	Info	backboardd (68)	com.apple.CoreBrightness.CBColorPolicyFilter	default	HarmonyPolicy: Sample IS NOT from CE region	
+00:29.489.263	Info	backboardd (68)	com.apple.CoreBrightness.CBColorPolicyFilter	default	HarmonyPolicy: Incoming ALS sample, pushed to queue: <private>	
+00:29.489.312	Info	backboardd (68)	com.apple.CoreBrightness.CBColorPolicyFilter	default	HarmonyPolicy: _filteredALS: <private>, _filtered strength: 0.2700	
+00:29.489.333	Debug	backboardd (68)	com.apple.CoreBrightness.CBColorModule.Primary	default	ALS event with orientation = 1	
+00:29.489.357	Info	backboardd (68)	com.apple.CoreBrightness.CBColorModule.Primary	default	HarmonyPolicy: Using Baseline	
+00:29.489.378	Debug	backboardd (68)	com.apple.CoreBrightness.CBColorModule.Primary	default	input ambient color sample: xy = (0.4306;0.4105)	
+00:29.489.434	Debug	backboardd (68)	CoreBrightness	Default	LOWLUX 51.0499
+	
+00:29.489.469	Debug	backboardd (68)	CoreBrightness	Default	[ColorEffects.c:_CFXRestrictLowAmbientColor] xy=(0.4306,0.4105), CCT = 3,166.0000, CCT1 = 3,321.6794	
+00:29.489.499	Debug	backboardd (68)	CoreBrightness	Default	Restrict: (16.7072, 16.7072) -> (13.4224, 46.8677)
+	
+00:29.489.541	Debug	backboardd (68)	CoreBrightness	Default	60.6829 16.7072 58.3377 -> ANGLE 1.6846 -> BIN 2	
+00:29.489.571	Debug	backboardd (68)	CoreBrightness	Default	BIN 13: (0.4306, 0.4105) fitting in (0.4150, 0.3821)-(0.4373, 0.3893)-(0.4303, 0.4173)
+	
+00:29.489.587	Default	backboardd (68)	com.apple.coreanimation	Brightness	Display 1 setting ambient lux to 173.8135
+	
+00:29.489.618	Info	backboardd (68)	com.apple.CoreBrightness.CBColorModule.Primary	default	Set ambient color sample ALS event = [Orientation = 1; Illuminance = 160.000000; xy = (0.430626,0.410510); XYZ = (53.551407,51.049938,19.755867); CCT1 = 3321.679443; Integration time = 0.002906; Gain = 33554432; Obstructed = 0; First = 0, mitigation = 1, timestamp = 87744521]	
+00:29.489.638	Default	backboardd (68)	com.apple.coreanimation	Brightness	Display 1 setting contrast enhancer to 0.0070
+	
+00:29.489.691	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	SyncDBV Telemetry | Transaction.ID=14,113 Latency=32.0000ms	
+00:29.489.775	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	Handle notification for key = DisplayBrightness and property = <private>	
+00:29.489.818	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayContaineriOS	BuiltIn	Notification block key=DisplayBrightness, value=<private>
+	
+00:29.489.854	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	Handle notification for key = FrameSynchronizedBrightnessTransaction and property = <private>	
+00:29.489.886	Info	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	HDR CAPS | RTPLC: [None] 1,600.0000, currentNitCap: 1,600.0000, dynSliderCap: 551.2000, Nits: 118.8318	
+00:29.489.932	Info	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	CBEDR statusInfo: <private>	
+00:29.489.987	Debug	backboardd (68)	com.apple.CoreBrightness.CBIndicatorBrightnessModule	default	updateRamp called, isRampRunning: NO, silState: 4, currentSDR: 118.8318, currentMIB: 115.9970, targetMIB: 1.0000, MIB: 1.0000	
+00:29.490.021	Debug	backboardd (68)	com.apple.CoreBrightness.CBIndicatorBrightnessModule	default	updateRamp finished, isRampRunning: NO, silState: 4, currentSDR: 118.8318, currentMIB: 115.9970, targetMIB: 1.0000, MIB: 1.0000	
+00:29.490.051	Default	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	HDR | _edrState: 2, forceRamp: NO	
+00:29.490.078	Default	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	Pushing sdrBrightness: 118.8318, capped _appliedHeadroom: 8.0000, brightnessLimit: 1,235.8503, potentialHeadroom: 8.0000, Ambient: 173.8135 to CA, HDRBrightness: 950.6542, [None] rtplcCap: 1,600.0000	
+00:29.490.118	Default	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	SyncDBV Transaction | ID=14,115 SDR.Nits=118.8318 HDR.Nits=950.6542 HDR.State=Engaged BrightnessLimit=1,235.8503 IndicatorBrightness.Nits=0.0000 IndicatorBrightness.Cap=1,235.8503 Headroom.Current=8.0000 Headroom.Maximum=8.0000 AppliedCompensations=1.3000 Aurora.Factor=1.0000 Aurora.RampInProgress=NO Lux=173.8135 RTPLC.State=None RTPLC.Cap=1,600.0000 RTPLC.CapApplied=NO PeakAPCE.Cap=0.0500 Nits.Cap=1,600.0000 DynamicSlider.Cap=551.2000 Twilight.Strength=0.0000 Ammolite.Strength=0.0000 ContrastEnhancer.Strength=0.0070	
+00:29.490.232	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayContaineriOS	BuiltIn	Notification block key=BrightnessTransaction, value=<private>
+	
+00:29.490.262	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayContaineriOS	BuiltIn	Notification block key=CBCACommit, value=<private>
+	
+00:29.490.288	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayContaineriOS	BuiltIn	Notification block key=FrameSynchronizedBrightnessTransaction, value=<private>
+	
+00:29.490.363	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=RLuxStats value=<private>	
+00:29.490.393	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=RLuxStats property=<private>	
+00:29.490.438	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	passed for client 58881740544	
+00:29.490.554	Default	backboardd (68)	com.apple.coreanimation	Brightness	Display 1 commitBrightness sdr: -1.0000, headroom: -1.0000, ambient lux: 173.8135, filtered ambient: -1.0000, limit: -1.0000, low ambient strength: -1.0000, high ambient strength: -1.0000, brightness ctl disabled 18,446,744,073,709,551,615
+	
+00:29.490.582	Default	backboardd (68)	com.apple.coreanimation	Brightness	Display 1 commitBrightness sdr: 118.8318, headroom: 8.0000, ambient lux: 173.8135, filtered ambient: -1.0000, limit: 1,235.8503, low ambient strength: 0.0000, high ambient strength: 0.0000, brightness ctl disabled 18,446,744,073,709,551,615
+	
+00:29.490.604	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=<private> value=<private>	
+00:29.490.659	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=<private> property=<private>	
+00:29.490.702	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=TrustedLux value=173.8135	
+00:29.490.736	Debug	PerfPowerServices (1452)	com.apple.CoreBrightness	default	key=<private> property=<private> queue=0x97ede5100 clientBlock=0x97e365e90	
+00:29.490.760	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=TrustedLux property=173.8135	
+00:29.490.823	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	passed for client 58870513280	
+00:29.490.861	Info	PerfPowerServices (1452)	com.apple.CoreBrightness.BSCI	default	use_synchronous_remote=1	
+00:29.490.938	Default	PerfPowerServices (1452)	com.apple.xpc	connection	[0x97ef066c0] activating connection: mach=1 listener=0 peer=0 name=com.apple.backlightd	
+00:29.490.961	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=<private> value=173.8135	
+00:29.490.987	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=<private> property=173.8135	
+00:29.491.014	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=TrustedFrontLux value=175.2296	
+00:29.491.043	Debug	locationd (74)	com.apple.CoreBrightness	default	key=<private> property=173.8135 queue=0x838c59d80 clientBlock=0x838ae4840	
+00:29.491.089	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=TrustedFrontLux property=175.2296	
+00:29.491.150	Default	PerfPowerServices (1452)	com.apple.CoreBrightness	default	Register notification block	
+00:29.491.155	Debug	locationd (74)	com.apple.locationd.Position	Outdoor	AmbientLight,context,<private>,startTime,<private>,lux,<private>	
+00:29.491.232	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=<private> value=175.2296	
+00:29.491.275	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=<private> property=175.2296	
+00:29.491.335	Default	backboardd (68)	com.apple.xpc	connection	[0xdb5089cc0] activating connection: mach=0 listener=0 peer=1 name=com.apple.backlightd.peer[1452].0xdb5089cc0	
+00:29.491.364	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=Lux value=173.8135	
+00:29.491.446	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=Lux property=173.8135	
+00:29.491.529	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=<private> value=173.8135	
+00:29.491.555	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=<private> property=173.8135	
+00:29.491.570	Info	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	client=58903571232 key=<private>	
+00:29.491.621	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=TrustedLux value=173.8135	
+00:29.491.689	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=TrustedLux property=173.8135	
+00:29.491.718	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	passed for client 58870513280	
+00:29.491.791	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=<private> value=173.8135	
+00:29.491.827	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=<private> property=173.8135	
+00:29.491.835	Debug	locationd (74)	com.apple.CoreBrightness	default	key=<private> property=173.8135 queue=0x838c59d80 clientBlock=0x838ae4840	
+00:29.491.871	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=DisplayBrightness value=<private>	
+00:29.491.902	Debug	locationd (74)	com.apple.locationd.Position	Outdoor	AmbientLight,context,<private>,startTime,<private>,lux,<private>	
+00:29.491.951	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=DisplayBrightness property=<private>	
+00:29.491.977	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	passed for client 58881740544	
+00:29.492.069	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=<private> value=<private>	
+00:29.492.089	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=<private> property=<private>	
+00:29.492.110	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=BrightnessTransaction value=<private>	
+00:29.492.127	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=BrightnessTransaction property=<private>	
+00:29.492.133	Debug	PerfPowerServices (1452)	com.apple.CoreBrightness	default	key=<private> property=<private> queue=0x97ede5100 clientBlock=0x97e365e90	
+00:29.492.148	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=<private> value=<private>	
+00:29.492.166	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=<private> property=<private>	
+00:29.492.186	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=CBCACommit value=<private>	
+00:29.492.203	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=CBCACommit property=<private>	
+00:29.492.264	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=<private> value=<private>	
+00:29.492.284	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=<private> property=<private>	
+00:29.492.325	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=FrameSynchronizedBrightnessTransaction value=<private>	
+00:29.492.345	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=FrameSynchronizedBrightnessTransaction property=<private>	
+00:29.492.385	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=<private> value=<private>	
+00:29.492.404	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=<private> property=<private>	
+00:29.492.464	Debug	backboardd (68)	com.apple.CoreBrightness.CBColorModule.Primary	default	key=<private> result=<private>	
+00:29.492.486	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayContaineriOS	BuiltIn	key=<private> result=<private>	
+00:29.492.506	Info	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=<private> result=<private>	
+00:29.492.699	Debug	PerfPowerServices (1452)	com.apple.CoreBrightness.Client	Default	BSC dealloc	
+00:29.492.733	Default	PerfPowerServices (1452)	com.apple.CoreBrightness	default	Register notification block	
+00:29.492.768	Default	PerfPowerServices (1452)	com.apple.xpc	connection	[0x97ef066c0] invalidated because the current process cancelled the connection by calling xpc_connection_cancel()	
+00:29.492.811	Default	backboardd (68)	com.apple.xpc	connection	[0xdb5089cc0] invalidated because the client process (pid 1,452) either cancelled the connection or exited	
+00:29.492.820	Debug	PerfPowerServices (1452)	com.apple.powerlog	display	Received notification for CBrLuxStats: <private>	
+00:29.492.875	Debug	PerfPowerServices (1452)	com.apple.CoreBrightness.BSCI	default	BSCI dealloc	
+00:29.492.897	Default	PerfPowerServices (1452)	com.apple.CoreBrightness	default	Register notification block	
+00:29.503.981	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	now=753,594,884.4425 delta=3.7685 fade->period=5.0000 portion=0.7537 fade->Fstart=0.0066 fade->Ftarget=0.0072 Factor=0.0070
+	
+00:29.504.041	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	Display fade callback: updateBrightness = 0, updateVirtual = 0, updateEDRHeadroom = 0, forceSyncDBVUpdate = 1	
+00:29.504.067	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	Pivoting - RIGHT restriction: L_device 205.5501 -> 118.8318, ScalerMax = 0.5060, Fmax = 0.5200	
+00:29.504.093	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	Superbright EDR restrictions [would be]: CLTM 1,512.3809, UPO 2,175.0000, bottom [lower] restriction 1.0000, nits cap hdr: 2,175.0000, after BDM: 1,600.0000	
+00:29.504.111	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	SetLogicalBrightnessInternal caps: cltm 1,512.3809,  weakcap: 2,175.0000, gl.scalar: 1.0000, dyn.sl: 0.5200, edrcap: 1,600.0000	
+00:29.504.224	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	Caps after global scaling: nitsCap=551.2000 nitsCapEDR=1,600.0000	
+00:29.504.317	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	SLBI other current=1,600.0000, calculated=1,600.0000	
+00:29.504.444	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	Factor=1.0000 Lcurrent=205.5501 maxRestriction=1,512.3809 minRestriction=1.0000 maxPanel=1,060.0000 minPanel=1.0000 L_device=118.8318	
+00:29.504.545	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	SyncDBV Telemetry | Transaction.ID=14,114 Latency=32.0000ms	
+00:29.504.604	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	S=0.5414	
+00:29.504.663	Info	backboardd (68)	com.apple.CoreBrightness.Display	default	SyncDBV Composition | Nits.Cap=551.2000 MaxRestriction.Cap=1,512.3809 WeakRestriction.Cap=2,175.0000 PAAB.Scalar=1.0000 RightFactor.Current=0.5200 RightFactor.Overriden=NO BrightDotMitigation.Enabled=YES BrightDotMitigation.Cap=1,600.0000 EDR.Enabled=YES EDR.IsEngaged=YES EDR.Cap=1,600.0000 EDR.FadePeriod=0.0000 Panel.Max=1,060.0000 Aurora.IsBoostingBrightness=NO PreStrobe.Changed=NO PreStrobe.IsActive=NO PreStrobe.Cap=0.0000 PreStrobe.CachedNits=0.0000	
+00:29.504.786	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	Handle notification for key = DisplayBrightness and property = <private>	
+00:29.504.956	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayContaineriOS	BuiltIn	Notification block key=DisplayBrightness, value=<private>
+	
+00:29.505.004	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	Handle notification for key = FrameSynchronizedBrightnessTransaction and property = <private>	
+00:29.505.037	Info	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	HDR CAPS | RTPLC: [None] 1,600.0000, currentNitCap: 1,600.0000, dynSliderCap: 551.2000, Nits: 118.8318	
+00:29.505.102	Info	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	CBEDR statusInfo: <private>	
+00:29.505.148	Debug	backboardd (68)	com.apple.CoreBrightness.CBIndicatorBrightnessModule	default	updateRamp called, isRampRunning: NO, silState: 4, currentSDR: 118.8318, currentMIB: 115.9970, targetMIB: 1.0000, MIB: 1.0000	
+00:29.505.180	Debug	backboardd (68)	com.apple.CoreBrightness.CBIndicatorBrightnessModule	default	updateRamp finished, isRampRunning: NO, silState: 4, currentSDR: 118.8318, currentMIB: 115.9970, targetMIB: 1.0000, MIB: 1.0000	
+00:29.505.215	Default	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	HDR | _edrState: 2, forceRamp: NO	
+00:29.505.248	Default	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	Pushing sdrBrightness: 118.8318, capped _appliedHeadroom: 8.0000, brightnessLimit: 1,235.8503, potentialHeadroom: 8.0000, Ambient: 173.8135 to CA, HDRBrightness: 950.6542, [None] rtplcCap: 1,600.0000	
+00:29.505.278	Default	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	SyncDBV Transaction | ID=14,116 SDR.Nits=118.8318 HDR.Nits=950.6542 HDR.State=Engaged BrightnessLimit=1,235.8503 IndicatorBrightness.Nits=0.0000 IndicatorBrightness.Cap=1,235.8503 Headroom.Current=8.0000 Headroom.Maximum=8.0000 AppliedCompensations=1.3000 Aurora.Factor=1.0000 Aurora.RampInProgress=NO Lux=173.8135 RTPLC.State=None RTPLC.Cap=1,600.0000 RTPLC.CapApplied=NO PeakAPCE.Cap=0.0500 Nits.Cap=1,600.0000 DynamicSlider.Cap=551.2000 Twilight.Strength=0.0000 Ammolite.Strength=0.0000 ContrastEnhancer.Strength=0.0070	
+00:29.505.359	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayContaineriOS	BuiltIn	Notification block key=BrightnessTransaction, value=<private>
+	
+00:29.505.384	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayContaineriOS	BuiltIn	Notification block key=CBCACommit, value=<private>
+	
+00:29.505.424	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayContaineriOS	BuiltIn	Notification block key=FrameSynchronizedBrightnessTransaction, value=<private>
+	
+00:29.505.477	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=DisplayBrightness value=<private>	
+00:29.505.537	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=DisplayBrightness property=<private>	
+00:29.505.560	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	passed for client 58881740544	
+00:29.505.645	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=<private> value=<private>	
+00:29.505.664	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=<private> property=<private>	
+00:29.505.685	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=BrightnessTransaction value=<private>	
+00:29.505.749	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=BrightnessTransaction property=<private>	
+00:29.505.761	Debug	PerfPowerServices (1452)	com.apple.CoreBrightness	default	key=<private> property=<private> queue=0x97ede5100 clientBlock=0x97e365e90	
+00:29.505.778	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=<private> value=<private>	
+00:29.505.827	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=<private> property=<private>	
+00:29.505.896	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=CBCACommit value=<private>	
+00:29.505.946	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=CBCACommit property=<private>	
+00:29.506.008	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=<private> value=<private>	
+00:29.506.056	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=<private> property=<private>	
+00:29.506.100	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=FrameSynchronizedBrightnessTransaction value=<private>	
+00:29.506.158	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=FrameSynchronizedBrightnessTransaction property=<private>	
+00:29.506.236	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=<private> value=<private>	
+00:29.506.269	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=<private> property=<private>	
+00:29.506.489	Default	backboardd (68)	com.apple.coreanimation	Brightness	Display 1 setting contrast enhancer to 0.0070
+	
+00:29.507.415	Default	backboardd (68)	com.apple.coreanimation	Brightness	Display 1 commitBrightness sdr: 118.8318, headroom: 8.0000, ambient lux: 173.8135, filtered ambient: -1.0000, limit: 1,235.8503, low ambient strength: 0.0000, high ambient strength: 0.0000, brightness ctl disabled 18,446,744,073,709,551,615
+	
+00:29.520.606	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	now=753,594,884.4591 delta=3.7851 fade->period=5.0000 portion=0.7570 fade->Fstart=0.0066 fade->Ftarget=0.0072 Factor=0.0070
+	
+00:29.520.649	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	Display fade callback: updateBrightness = 0, updateVirtual = 0, updateEDRHeadroom = 0, forceSyncDBVUpdate = 1	
+00:29.520.683	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	Pivoting - RIGHT restriction: L_device 205.5501 -> 118.8318, ScalerMax = 0.5060, Fmax = 0.5200	
+00:29.520.714	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	Superbright EDR restrictions [would be]: CLTM 1,512.3809, UPO 2,175.0000, bottom [lower] restriction 1.0000, nits cap hdr: 2,175.0000, after BDM: 1,600.0000	
+00:29.520.746	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	SetLogicalBrightnessInternal caps: cltm 1,512.3809,  weakcap: 2,175.0000, gl.scalar: 1.0000, dyn.sl: 0.5200, edrcap: 1,600.0000	
+00:29.520.772	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	Caps after global scaling: nitsCap=551.2000 nitsCapEDR=1,600.0000	
+00:29.520.805	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	SLBI other current=1,600.0000, calculated=1,600.0000	
+00:29.520.835	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	Factor=1.0000 Lcurrent=205.5501 maxRestriction=1,512.3809 minRestriction=1.0000 maxPanel=1,060.0000 minPanel=1.0000 L_device=118.8318	
+00:29.521.036	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	S=0.5414	
+00:29.521.072	Info	backboardd (68)	com.apple.CoreBrightness.Display	default	SyncDBV Composition | Nits.Cap=551.2000 MaxRestriction.Cap=1,512.3809 WeakRestriction.Cap=2,175.0000 PAAB.Scalar=1.0000 RightFactor.Current=0.5200 RightFactor.Overriden=NO BrightDotMitigation.Enabled=YES BrightDotMitigation.Cap=1,600.0000 EDR.Enabled=YES EDR.IsEngaged=YES EDR.Cap=1,600.0000 EDR.FadePeriod=0.0000 Panel.Max=1,060.0000 Aurora.IsBoostingBrightness=NO PreStrobe.Changed=NO PreStrobe.IsActive=NO PreStrobe.Cap=0.0000 PreStrobe.CachedNits=0.0000	
+00:29.521.226	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	SyncDBV Telemetry | Transaction.ID=14,115 Latency=28.0000ms	
+00:29.521.417	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	Handle notification for key = FrameSynchronizedBrightnessTransaction and property = <private>	
+00:29.521.523	Info	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	HDR CAPS | RTPLC: [None] 1,600.0000, currentNitCap: 1,600.0000, dynSliderCap: 551.2000, Nits: 118.8318	
+00:29.521.590	Info	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	CBEDR statusInfo: <private>	
+00:29.521.647	Debug	backboardd (68)	com.apple.CoreBrightness.CBIndicatorBrightnessModule	default	updateRamp called, isRampRunning: NO, silState: 4, currentSDR: 118.8318, currentMIB: 115.9970, targetMIB: 1.0000, MIB: 1.0000	
+00:29.521.687	Debug	backboardd (68)	com.apple.CoreBrightness.CBIndicatorBrightnessModule	default	updateRamp finished, isRampRunning: NO, silState: 4, currentSDR: 118.8318, currentMIB: 115.9970, targetMIB: 1.0000, MIB: 1.0000	
+00:29.521.751	Default	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	HDR | _edrState: 2, forceRamp: NO	
+00:29.521.787	Default	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	Pushing sdrBrightness: 118.8318, capped _appliedHeadroom: 8.0000, brightnessLimit: 1,235.8503, potentialHeadroom: 8.0000, Ambient: 173.8135 to CA, HDRBrightness: 950.6542, [None] rtplcCap: 1,600.0000	
+00:29.521.850	Default	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	SyncDBV Transaction | ID=14,117 SDR.Nits=118.8318 HDR.Nits=950.6542 HDR.State=Engaged BrightnessLimit=1,235.8503 IndicatorBrightness.Nits=0.0000 IndicatorBrightness.Cap=1,235.8503 Headroom.Current=8.0000 Headroom.Maximum=8.0000 AppliedCompensations=1.3000 Aurora.Factor=1.0000 Aurora.RampInProgress=NO Lux=173.8135 RTPLC.State=None RTPLC.Cap=1,600.0000 RTPLC.CapApplied=NO PeakAPCE.Cap=0.0500 Nits.Cap=1,600.0000 DynamicSlider.Cap=551.2000 Twilight.Strength=0.0000 Ammolite.Strength=0.0000 ContrastEnhancer.Strength=0.0070	
+00:29.522.061	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayContaineriOS	BuiltIn	Notification block key=BrightnessTransaction, value=<private>
+	
+00:29.522.127	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayContaineriOS	BuiltIn	Notification block key=CBCACommit, value=<private>
+	
+00:29.522.165	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayContaineriOS	BuiltIn	Notification block key=FrameSynchronizedBrightnessTransaction, value=<private>
+	
+00:29.522.221	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	Handle notification for key = DisplayBrightness and property = <private>	
+00:29.522.280	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayContaineriOS	BuiltIn	Notification block key=DisplayBrightness, value=<private>
+	
+00:29.522.356	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=BrightnessTransaction value=<private>	
+00:29.522.388	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=BrightnessTransaction property=<private>	
+00:29.522.425	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=<private> value=<private>	
+00:29.522.453	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=<private> property=<private>	
+00:29.522.500	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=CBCACommit value=<private>	
+00:29.522.529	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=CBCACommit property=<private>	
+00:29.522.593	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=<private> value=<private>	
+00:29.522.624	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=<private> property=<private>	
+00:29.522.685	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=FrameSynchronizedBrightnessTransaction value=<private>	
+00:29.522.715	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=FrameSynchronizedBrightnessTransaction property=<private>	
+00:29.522.813	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=<private> value=<private>	
+00:29.522.846	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=<private> property=<private>	
+00:29.522.931	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=DisplayBrightness value=<private>	
+00:29.522.983	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=DisplayBrightness property=<private>	
+00:29.523.016	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	passed for client 58881740544	
+00:29.523.146	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=<private> value=<private>	
+00:29.523.177	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=<private> property=<private>	
+00:29.523.276	Debug	PerfPowerServices (1452)	com.apple.CoreBrightness	default	key=<private> property=<private> queue=0x97ede5100 clientBlock=0x97e365e90	
+00:29.523.287	Default	backboardd (68)	com.apple.coreanimation	Brightness	Display 1 setting contrast enhancer to 0.0070
+	
+00:29.524.143	Default	backboardd (68)	com.apple.coreanimation	Brightness	Display 1 commitBrightness sdr: 118.8318, headroom: 8.0000, ambient lux: 173.8135, filtered ambient: -1.0000, limit: 1,235.8503, low ambient strength: 0.0000, high ambient strength: 0.0000, brightness ctl disabled 18,446,744,073,709,551,615
+	
+00:29.537.433	Debug	audiomxd (105)	com.apple.MediaSafetyNet	periodic	MediaSafetyNet state: UI(Elsewhere) Cam(N/A) Mic(Cold:<private>) Pill(Unknown) Kbd(Hidden) CameraException(None) consistency: Consistent	
+00:29.537.459	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	now=753,594,884.4759 delta=3.8020 fade->period=5.0000 portion=0.7604 fade->Fstart=0.0066 fade->Ftarget=0.0072 Factor=0.0070
+	
+00:29.537.512	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	Display fade callback: updateBrightness = 0, updateVirtual = 0, updateEDRHeadroom = 0, forceSyncDBVUpdate = 1	
+00:29.537.558	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	Pivoting - RIGHT restriction: L_device 205.5501 -> 118.8318, ScalerMax = 0.5060, Fmax = 0.5200	
+00:29.537.603	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	Superbright EDR restrictions [would be]: CLTM 1,512.3809, UPO 2,175.0000, bottom [lower] restriction 1.0000, nits cap hdr: 2,175.0000, after BDM: 1,600.0000	
+00:29.537.648	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	SetLogicalBrightnessInternal caps: cltm 1,512.3809,  weakcap: 2,175.0000, gl.scalar: 1.0000, dyn.sl: 0.5200, edrcap: 1,600.0000	
+00:29.537.944	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	SyncDBV Telemetry | Transaction.ID=14,116 Latency=36.0000ms	
+00:29.538.038	Debug	DTServiceHub (360)	DVTInstrumentsFoundation	Default	Data Size: 101,442, Rows Sent: 1,372, Stack depth: 4,240	
+00:29.538.058	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	Caps after global scaling: nitsCap=551.2000 nitsCapEDR=1,600.0000	
+00:29.538.266	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	SLBI other current=1,600.0000, calculated=1,600.0000	
+00:29.538.375	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	Factor=1.0000 Lcurrent=205.5501 maxRestriction=1,512.3809 minRestriction=1.0000 maxPanel=1,060.0000 minPanel=1.0000 L_device=118.8318	
+00:29.538.537	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	S=0.5414	
+00:29.538.572	Info	backboardd (68)	com.apple.CoreBrightness.Display	default	SyncDBV Composition | Nits.Cap=551.2000 MaxRestriction.Cap=1,512.3809 WeakRestriction.Cap=2,175.0000 PAAB.Scalar=1.0000 RightFactor.Current=0.5200 RightFactor.Overriden=NO BrightDotMitigation.Enabled=YES BrightDotMitigation.Cap=1,600.0000 EDR.Enabled=YES EDR.IsEngaged=YES EDR.Cap=1,600.0000 EDR.FadePeriod=0.0000 Panel.Max=1,060.0000 Aurora.IsBoostingBrightness=NO PreStrobe.Changed=NO PreStrobe.IsActive=NO PreStrobe.Cap=0.0000 PreStrobe.CachedNits=0.0000	
+00:29.539.232	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	Handle notification for key = DisplayBrightness and property = <private>	
+00:29.539.297	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayContaineriOS	BuiltIn	Notification block key=DisplayBrightness, value=<private>
+	
+00:29.539.377	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	Handle notification for key = FrameSynchronizedBrightnessTransaction and property = <private>	
+00:29.539.437	Info	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	HDR CAPS | RTPLC: [None] 1,600.0000, currentNitCap: 1,600.0000, dynSliderCap: 551.2000, Nits: 118.8318	
+00:29.539.493	Info	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	CBEDR statusInfo: <private>	
+00:29.539.561	Debug	backboardd (68)	com.apple.CoreBrightness.CBIndicatorBrightnessModule	default	updateRamp called, isRampRunning: NO, silState: 4, currentSDR: 118.8318, currentMIB: 115.9970, targetMIB: 1.0000, MIB: 1.0000	
+00:29.539.609	Debug	backboardd (68)	com.apple.CoreBrightness.CBIndicatorBrightnessModule	default	updateRamp finished, isRampRunning: NO, silState: 4, currentSDR: 118.8318, currentMIB: 115.9970, targetMIB: 1.0000, MIB: 1.0000	
+00:29.539.698	Default	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	HDR | _edrState: 2, forceRamp: NO	
+00:29.539.847	Default	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	Pushing sdrBrightness: 118.8318, capped _appliedHeadroom: 8.0000, brightnessLimit: 1,235.8503, potentialHeadroom: 8.0000, Ambient: 173.8135 to CA, HDRBrightness: 950.6542, [None] rtplcCap: 1,600.0000	
+00:29.540.008	Default	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	SyncDBV Transaction | ID=14,118 SDR.Nits=118.8318 HDR.Nits=950.6542 HDR.State=Engaged BrightnessLimit=1,235.8503 IndicatorBrightness.Nits=0.0000 IndicatorBrightness.Cap=1,235.8503 Headroom.Current=8.0000 Headroom.Maximum=8.0000 AppliedCompensations=1.3000 Aurora.Factor=1.0000 Aurora.RampInProgress=NO Lux=173.8135 RTPLC.State=None RTPLC.Cap=1,600.0000 RTPLC.CapApplied=NO PeakAPCE.Cap=0.0500 Nits.Cap=1,600.0000 DynamicSlider.Cap=551.2000 Twilight.Strength=0.0000 Ammolite.Strength=0.0000 ContrastEnhancer.Strength=0.0070	
+00:29.540.201	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayContaineriOS	BuiltIn	Notification block key=BrightnessTransaction, value=<private>
+	
+00:29.540.257	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayContaineriOS	BuiltIn	Notification block key=CBCACommit, value=<private>
+	
+00:29.540.357	Default	backboardd (68)	com.apple.coreanimation	Brightness	Display 1 setting contrast enhancer to 0.0070
+	
+00:29.540.408	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayContaineriOS	BuiltIn	Notification block key=FrameSynchronizedBrightnessTransaction, value=<private>
+	
+00:29.540.601	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=DisplayBrightness value=<private>	
+00:29.540.689	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=DisplayBrightness property=<private>	
+00:29.540.737	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	passed for client 58881740544	
+00:29.540.976	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=<private> value=<private>	
+00:29.541.122	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=<private> property=<private>	
+00:29.541.247	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=BrightnessTransaction value=<private>	
+00:29.541.357	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=BrightnessTransaction property=<private>	
+00:29.541.376	Debug	PerfPowerServices (1452)	com.apple.CoreBrightness	default	key=<private> property=<private> queue=0x97ede5100 clientBlock=0x97e365e90	
+00:29.541.450	Default	backboardd (68)	com.apple.coreanimation	Brightness	Display 1 commitBrightness sdr: 118.8318, headroom: 8.0000, ambient lux: 173.8135, filtered ambient: -1.0000, limit: 1,235.8503, low ambient strength: 0.0000, high ambient strength: 0.0000, brightness ctl disabled 18,446,744,073,709,551,615
+	
+00:29.541.514	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=<private> value=<private>	
+00:29.541.671	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=<private> property=<private>	
+00:29.541.824	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=CBCACommit value=<private>	
+00:29.541.962	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=CBCACommit property=<private>	
+00:29.542.066	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=<private> value=<private>	
+00:29.542.149	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=<private> property=<private>	
+00:29.542.265	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=FrameSynchronizedBrightnessTransaction value=<private>	
+00:29.542.359	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=FrameSynchronizedBrightnessTransaction property=<private>	
+00:29.542.413	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=<private> value=<private>	
+00:29.542.472	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=<private> property=<private>	
+00:29.546.025	Debug	audiomxd (105)	com.apple.locationd.Motion	Motion	Ping timer fired, resetting watchdog	
+00:29.553.952	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	now=753,594,884.4924 delta=3.8185 fade->period=5.0000 portion=0.7637 fade->Fstart=0.0066 fade->Ftarget=0.0072 Factor=0.0070
+	
+00:29.554.003	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	Display fade callback: updateBrightness = 0, updateVirtual = 0, updateEDRHeadroom = 0, forceSyncDBVUpdate = 1	
+00:29.554.040	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	Pivoting - RIGHT restriction: L_device 205.5501 -> 118.8318, ScalerMax = 0.5060, Fmax = 0.5200	
+00:29.554.074	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	Superbright EDR restrictions [would be]: CLTM 1,512.3809, UPO 2,175.0000, bottom [lower] restriction 1.0000, nits cap hdr: 2,175.0000, after BDM: 1,600.0000	
+00:29.554.101	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	SetLogicalBrightnessInternal caps: cltm 1,512.3809,  weakcap: 2,175.0000, gl.scalar: 1.0000, dyn.sl: 0.5200, edrcap: 1,600.0000	
+00:29.554.254	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	Caps after global scaling: nitsCap=551.2000 nitsCapEDR=1,600.0000	
+00:29.554.694	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	SyncDBV Telemetry | Transaction.ID=14,117 Latency=36.0000ms	
+00:29.554.739	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	SLBI other current=1,600.0000, calculated=1,600.0000	
+00:29.554.856	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	Factor=1.0000 Lcurrent=205.5501 maxRestriction=1,512.3809 minRestriction=1.0000 maxPanel=1,060.0000 minPanel=1.0000 L_device=118.8318	
+00:29.554.959	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	S=0.5414	
+00:29.555.012	Info	backboardd (68)	com.apple.CoreBrightness.Display	default	SyncDBV Composition | Nits.Cap=551.2000 MaxRestriction.Cap=1,512.3809 WeakRestriction.Cap=2,175.0000 PAAB.Scalar=1.0000 RightFactor.Current=0.5200 RightFactor.Overriden=NO BrightDotMitigation.Enabled=YES BrightDotMitigation.Cap=1,600.0000 EDR.Enabled=YES EDR.IsEngaged=YES EDR.Cap=1,600.0000 EDR.FadePeriod=0.0000 Panel.Max=1,060.0000 Aurora.IsBoostingBrightness=NO PreStrobe.Changed=NO PreStrobe.IsActive=NO PreStrobe.Cap=0.0000 PreStrobe.CachedNits=0.0000	
+00:29.555.426	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	Handle notification for key = DisplayBrightness and property = <private>	
+00:29.555.532	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayContaineriOS	BuiltIn	Notification block key=DisplayBrightness, value=<private>
+	
+00:29.555.608	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	Handle notification for key = FrameSynchronizedBrightnessTransaction and property = <private>	
+00:29.555.658	Info	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	HDR CAPS | RTPLC: [None] 1,600.0000, currentNitCap: 1,600.0000, dynSliderCap: 551.2000, Nits: 118.8318	
+00:29.555.765	Info	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	CBEDR statusInfo: <private>	
+00:29.555.895	Debug	backboardd (68)	com.apple.CoreBrightness.CBIndicatorBrightnessModule	default	updateRamp called, isRampRunning: NO, silState: 4, currentSDR: 118.8318, currentMIB: 115.9970, targetMIB: 1.0000, MIB: 1.0000	
+00:29.556.012	Debug	backboardd (68)	com.apple.CoreBrightness.CBIndicatorBrightnessModule	default	updateRamp finished, isRampRunning: NO, silState: 4, currentSDR: 118.8318, currentMIB: 115.9970, targetMIB: 1.0000, MIB: 1.0000	
+00:29.556.089	Default	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	HDR | _edrState: 2, forceRamp: NO	
+00:29.556.179	Default	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	Pushing sdrBrightness: 118.8318, capped _appliedHeadroom: 8.0000, brightnessLimit: 1,235.8503, potentialHeadroom: 8.0000, Ambient: 173.8135 to CA, HDRBrightness: 950.6542, [None] rtplcCap: 1,600.0000	
+00:29.556.299	Default	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	SyncDBV Transaction | ID=14,119 SDR.Nits=118.8318 HDR.Nits=950.6542 HDR.State=Engaged BrightnessLimit=1,235.8503 IndicatorBrightness.Nits=0.0000 IndicatorBrightness.Cap=1,235.8503 Headroom.Current=8.0000 Headroom.Maximum=8.0000 AppliedCompensations=1.3000 Aurora.Factor=1.0000 Aurora.RampInProgress=NO Lux=173.8135 RTPLC.State=None RTPLC.Cap=1,600.0000 RTPLC.CapApplied=NO PeakAPCE.Cap=0.0500 Nits.Cap=1,600.0000 DynamicSlider.Cap=551.2000 Twilight.Strength=0.0000 Ammolite.Strength=0.0000 ContrastEnhancer.Strength=0.0070	
+00:29.556.431	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayContaineriOS	BuiltIn	Notification block key=BrightnessTransaction, value=<private>
+	
+00:29.556.472	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayContaineriOS	BuiltIn	Notification block key=CBCACommit, value=<private>
+	
+00:29.556.582	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayContaineriOS	BuiltIn	Notification block key=FrameSynchronizedBrightnessTransaction, value=<private>
+	
+00:29.556.671	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=DisplayBrightness value=<private>	
+00:29.556.732	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=DisplayBrightness property=<private>	
+00:29.556.829	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	passed for client 58881740544	
+00:29.557.052	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=<private> value=<private>	
+00:29.557.135	Default	backboardd (68)	com.apple.coreanimation	Brightness	Display 1 setting contrast enhancer to 0.0070
+	
+00:29.557.153	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=<private> property=<private>	
+00:29.557.300	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=BrightnessTransaction value=<private>	
+00:29.557.302	Debug	PerfPowerServices (1452)	com.apple.CoreBrightness	default	key=<private> property=<private> queue=0x97ede5100 clientBlock=0x97e365e90	
+00:29.557.415	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=BrightnessTransaction property=<private>	
+00:29.557.517	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=<private> value=<private>	
+00:29.557.634	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=<private> property=<private>	
+00:29.557.832	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=CBCACommit value=<private>	
+00:29.557.962	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=CBCACommit property=<private>	
+00:29.558.083	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=<private> value=<private>	
+00:29.558.190	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=<private> property=<private>	
+00:29.558.254	Default	backboardd (68)	com.apple.coreanimation	Brightness	Display 1 commitBrightness sdr: 118.8318, headroom: 8.0000, ambient lux: 173.8135, filtered ambient: -1.0000, limit: 1,235.8503, low ambient strength: 0.0000, high ambient strength: 0.0000, brightness ctl disabled 18,446,744,073,709,551,615
+	
+00:29.558.297	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=FrameSynchronizedBrightnessTransaction value=<private>	
+00:29.558.412	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=FrameSynchronizedBrightnessTransaction property=<private>	
+00:29.558.516	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=<private> value=<private>	
+00:29.558.622	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=<private> property=<private>	
+00:29.570.755	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	now=753,594,884.5092 delta=3.8353 fade->period=5.0000 portion=0.7671 fade->Fstart=0.0066 fade->Ftarget=0.0072 Factor=0.0070
+	
+00:29.570.801	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	Display fade callback: updateBrightness = 0, updateVirtual = 0, updateEDRHeadroom = 0, forceSyncDBVUpdate = 1	
+00:29.570.830	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	Pivoting - RIGHT restriction: L_device 205.5501 -> 118.8318, ScalerMax = 0.5060, Fmax = 0.5200	
+00:29.570.857	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	Superbright EDR restrictions [would be]: CLTM 1,512.3809, UPO 2,175.0000, bottom [lower] restriction 1.0000, nits cap hdr: 2,175.0000, after BDM: 1,600.0000	
+00:29.570.879	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	SetLogicalBrightnessInternal caps: cltm 1,512.3809,  weakcap: 2,175.0000, gl.scalar: 1.0000, dyn.sl: 0.5200, edrcap: 1,600.0000	
+00:29.570.899	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	Caps after global scaling: nitsCap=551.2000 nitsCapEDR=1,600.0000	
+00:29.570.976	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	SLBI other current=1,600.0000, calculated=1,600.0000	
+00:29.571.295	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	SyncDBV Telemetry | Transaction.ID=14,118 Latency=28.0000ms	
+00:29.571.327	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	Factor=1.0000 Lcurrent=205.5501 maxRestriction=1,512.3809 minRestriction=1.0000 maxPanel=1,060.0000 minPanel=1.0000 L_device=118.8318	
+00:29.571.479	Info	backboardd (68)	com.apple.CoreBrightness.Display	default	SyncDBV Composition | Nits.Cap=551.2000 MaxRestriction.Cap=1,512.3809 WeakRestriction.Cap=2,175.0000 PAAB.Scalar=1.0000 RightFactor.Current=0.5200 RightFactor.Overriden=NO BrightDotMitigation.Enabled=YES BrightDotMitigation.Cap=1,600.0000 EDR.Enabled=YES EDR.IsEngaged=YES EDR.Cap=1,600.0000 EDR.FadePeriod=0.0000 Panel.Max=1,060.0000 Aurora.IsBoostingBrightness=NO PreStrobe.Changed=NO PreStrobe.IsActive=NO PreStrobe.Cap=0.0000 PreStrobe.CachedNits=0.0000	
+00:29.571.491	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	S=0.5414	
+00:29.571.717	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	Handle notification for key = FrameSynchronizedBrightnessTransaction and property = <private>	
+00:29.571.851	Info	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	HDR CAPS | RTPLC: [None] 1,600.0000, currentNitCap: 1,600.0000, dynSliderCap: 551.2000, Nits: 118.8318	
+00:29.571.895	Info	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	CBEDR statusInfo: <private>	
+00:29.572.043	Debug	backboardd (68)	com.apple.CoreBrightness.CBIndicatorBrightnessModule	default	updateRamp called, isRampRunning: NO, silState: 4, currentSDR: 118.8318, currentMIB: 115.9970, targetMIB: 1.0000, MIB: 1.0000	
+00:29.572.073	Debug	backboardd (68)	com.apple.CoreBrightness.CBIndicatorBrightnessModule	default	updateRamp finished, isRampRunning: NO, silState: 4, currentSDR: 118.8318, currentMIB: 115.9970, targetMIB: 1.0000, MIB: 1.0000	
+00:29.572.097	Default	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	HDR | _edrState: 2, forceRamp: NO	
+00:29.572.138	Default	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	Pushing sdrBrightness: 118.8318, capped _appliedHeadroom: 8.0000, brightnessLimit: 1,235.8503, potentialHeadroom: 8.0000, Ambient: 173.8135 to CA, HDRBrightness: 950.6542, [None] rtplcCap: 1,600.0000	
+00:29.572.211	Default	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	SyncDBV Transaction | ID=14,120 SDR.Nits=118.8318 HDR.Nits=950.6542 HDR.State=Engaged BrightnessLimit=1,235.8503 IndicatorBrightness.Nits=0.0000 IndicatorBrightness.Cap=1,235.8503 Headroom.Current=8.0000 Headroom.Maximum=8.0000 AppliedCompensations=1.3000 Aurora.Factor=1.0000 Aurora.RampInProgress=NO Lux=173.8135 RTPLC.State=None RTPLC.Cap=1,600.0000 RTPLC.CapApplied=NO PeakAPCE.Cap=0.0500 Nits.Cap=1,600.0000 DynamicSlider.Cap=551.2000 Twilight.Strength=0.0000 Ammolite.Strength=0.0000 ContrastEnhancer.Strength=0.0070	
+00:29.572.329	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayContaineriOS	BuiltIn	Notification block key=BrightnessTransaction, value=<private>
+	
+00:29.572.421	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayContaineriOS	BuiltIn	Notification block key=CBCACommit, value=<private>
+	
+00:29.572.456	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayContaineriOS	BuiltIn	Notification block key=FrameSynchronizedBrightnessTransaction, value=<private>
+	
+00:29.572.484	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	Handle notification for key = DisplayBrightness and property = <private>	
+00:29.572.517	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayContaineriOS	BuiltIn	Notification block key=DisplayBrightness, value=<private>
+	
+00:29.572.577	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=BrightnessTransaction value=<private>	
+00:29.572.607	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=BrightnessTransaction property=<private>	
+00:29.572.643	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=<private> value=<private>	
+00:29.572.727	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=<private> property=<private>	
+00:29.572.810	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=CBCACommit value=<private>	
+00:29.572.852	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=CBCACommit property=<private>	
+00:29.572.899	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=<private> value=<private>	
+00:29.572.941	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=<private> property=<private>	
+00:29.572.995	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=FrameSynchronizedBrightnessTransaction value=<private>	
+00:29.573.062	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=FrameSynchronizedBrightnessTransaction property=<private>	
+00:29.573.092	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=<private> value=<private>	
+00:29.573.136	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=<private> property=<private>	
+00:29.573.166	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=DisplayBrightness value=<private>	
+00:29.573.223	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=DisplayBrightness property=<private>	
+00:29.573.252	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	passed for client 58881740544	
+00:29.573.405	Default	backboardd (68)	com.apple.coreanimation	Brightness	Display 1 setting contrast enhancer to 0.0070
+	
+00:29.573.407	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=<private> value=<private>	
+00:29.573.441	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=<private> property=<private>	
+00:29.573.629	Debug	PerfPowerServices (1452)	com.apple.CoreBrightness	default	key=<private> property=<private> queue=0x97ede5100 clientBlock=0x97e365e90	
+00:29.574.363	Default	backboardd (68)	com.apple.coreanimation	Brightness	Display 1 commitBrightness sdr: 118.8318, headroom: 8.0000, ambient lux: 173.8135, filtered ambient: -1.0000, limit: 1,235.8503, low ambient strength: 0.0000, high ambient strength: 0.0000, brightness ctl disabled 18,446,744,073,709,551,615
+	
+00:29.577.349	Default	Unknown (0)	AppleT8140	Default	AppleH17PPlatformErrorHandler::_dcsWritePTD: 112109103114 3 offset f00 @ <private>[0x3003d0f00] <- 6
+
+	
+00:29.577.374	Default	Unknown (0)	AppleT8140	Default	AppleH17PPlatformErrorHandler::_dcsHandleDCSOdtsEvent: _dcsOdtsBelowThresholdCount = 12
+
+	
+00:29.577.377	Default	Unknown (0)	AppleT8140	Default	AppleH17PPlatformErrorHandler::_dcsHandleDCSOdtsEvent: start next polling
+
+	
+00:29.582.358	Debug	thermalmonitord (64)	libIOReport.dylib	Default	iterated 1 channels with 1 iterations	
+00:29.584.180	Debug	thermalmonitord (64)	libIOReport.dylib	Default	iterated 14 channels with 14 iterations	
+00:29.587.306	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	now=753,594,884.5258 delta=3.8518 fade->period=5.0000 portion=0.7704 fade->Fstart=0.0066 fade->Ftarget=0.0072 Factor=0.0071
+	
+00:29.587.355	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	Display fade callback: updateBrightness = 0, updateVirtual = 0, updateEDRHeadroom = 0, forceSyncDBVUpdate = 1	
+00:29.587.391	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	Pivoting - RIGHT restriction: L_device 205.5501 -> 118.8318, ScalerMax = 0.5060, Fmax = 0.5200	
+00:29.587.423	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	Superbright EDR restrictions [would be]: CLTM 1,512.3809, UPO 2,175.0000, bottom [lower] restriction 1.0000, nits cap hdr: 2,175.0000, after BDM: 1,600.0000	
+00:29.587.451	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	SetLogicalBrightnessInternal caps: cltm 1,512.3809,  weakcap: 2,175.0000, gl.scalar: 1.0000, dyn.sl: 0.5200, edrcap: 1,600.0000	
+00:29.587.512	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	Caps after global scaling: nitsCap=551.2000 nitsCapEDR=1,600.0000	
+00:29.587.920	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	SyncDBV Telemetry | Transaction.ID=14,119 Latency=28.0000ms	
+00:29.587.984	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	SLBI other current=1,600.0000, calculated=1,600.0000	
+00:29.588.088	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	Factor=1.0000 Lcurrent=205.5501 maxRestriction=1,512.3809 minRestriction=1.0000 maxPanel=1,060.0000 minPanel=1.0000 L_device=118.8318	
+00:29.588.189	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	S=0.5414	
+00:29.588.221	Info	backboardd (68)	com.apple.CoreBrightness.Display	default	SyncDBV Composition | Nits.Cap=551.2000 MaxRestriction.Cap=1,512.3809 WeakRestriction.Cap=2,175.0000 PAAB.Scalar=1.0000 RightFactor.Current=0.5200 RightFactor.Overriden=NO BrightDotMitigation.Enabled=YES BrightDotMitigation.Cap=1,600.0000 EDR.Enabled=YES EDR.IsEngaged=YES EDR.Cap=1,600.0000 EDR.FadePeriod=0.0000 Panel.Max=1,060.0000 Aurora.IsBoostingBrightness=NO PreStrobe.Changed=NO PreStrobe.IsActive=NO PreStrobe.Cap=0.0000 PreStrobe.CachedNits=0.0000	
+00:29.588.505	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	Handle notification for key = DisplayBrightness and property = <private>	
+00:29.588.929	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayContaineriOS	BuiltIn	Notification block key=DisplayBrightness, value=<private>
+	
+00:29.589.041	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	Handle notification for key = FrameSynchronizedBrightnessTransaction and property = <private>	
+00:29.589.091	Info	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	HDR CAPS | RTPLC: [None] 1,600.0000, currentNitCap: 1,600.0000, dynSliderCap: 551.2000, Nits: 118.8318	
+00:29.589.136	Info	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	CBEDR statusInfo: <private>	
+00:29.589.177	Debug	backboardd (68)	com.apple.CoreBrightness.CBIndicatorBrightnessModule	default	updateRamp called, isRampRunning: NO, silState: 4, currentSDR: 118.8318, currentMIB: 115.9970, targetMIB: 1.0000, MIB: 1.0000	
+00:29.589.215	Debug	backboardd (68)	com.apple.CoreBrightness.CBIndicatorBrightnessModule	default	updateRamp finished, isRampRunning: NO, silState: 4, currentSDR: 118.8318, currentMIB: 115.9970, targetMIB: 1.0000, MIB: 1.0000	
+00:29.589.249	Default	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	HDR | _edrState: 2, forceRamp: NO	
+00:29.589.281	Default	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	Pushing sdrBrightness: 118.8318, capped _appliedHeadroom: 8.0000, brightnessLimit: 1,235.8503, potentialHeadroom: 8.0000, Ambient: 173.8135 to CA, HDRBrightness: 950.6542, [None] rtplcCap: 1,600.0000	
+00:29.589.332	Default	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	SyncDBV Transaction | ID=14,121 SDR.Nits=118.8318 HDR.Nits=950.6542 HDR.State=Engaged BrightnessLimit=1,235.8503 IndicatorBrightness.Nits=0.0000 IndicatorBrightness.Cap=1,235.8503 Headroom.Current=8.0000 Headroom.Maximum=8.0000 AppliedCompensations=1.3000 Aurora.Factor=1.0000 Aurora.RampInProgress=NO Lux=173.8135 RTPLC.State=None RTPLC.Cap=1,600.0000 RTPLC.CapApplied=NO PeakAPCE.Cap=0.0500 Nits.Cap=1,600.0000 DynamicSlider.Cap=551.2000 Twilight.Strength=0.0000 Ammolite.Strength=0.0000 ContrastEnhancer.Strength=0.0071	
+00:29.589.462	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayContaineriOS	BuiltIn	Notification block key=BrightnessTransaction, value=<private>
+	
+00:29.589.504	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayContaineriOS	BuiltIn	Notification block key=CBCACommit, value=<private>
+	
+00:29.589.538	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayContaineriOS	BuiltIn	Notification block key=FrameSynchronizedBrightnessTransaction, value=<private>
+	
+00:29.589.648	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=DisplayBrightness value=<private>	
+00:29.589.702	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=DisplayBrightness property=<private>	
+00:29.589.739	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	passed for client 58881740544	
+00:29.589.921	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=<private> value=<private>	
+00:29.589.952	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=<private> property=<private>	
+00:29.589.987	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=BrightnessTransaction value=<private>	
+00:29.590.085	Debug	PerfPowerServices (1452)	com.apple.CoreBrightness	default	key=<private> property=<private> queue=0x97ede5100 clientBlock=0x97e365e90	
+00:29.590.092	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=BrightnessTransaction property=<private>	
+00:29.590.136	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=<private> value=<private>	
+00:29.590.212	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=<private> property=<private>	
+00:29.590.250	Default	backboardd (68)	com.apple.coreanimation	Brightness	Display 1 setting contrast enhancer to 0.0070
+	
+00:29.590.377	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=CBCACommit value=<private>	
+00:29.590.444	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=CBCACommit property=<private>	
+00:29.590.530	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=<private> value=<private>	
+00:29.590.566	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=<private> property=<private>	
+00:29.590.657	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=FrameSynchronizedBrightnessTransaction value=<private>	
+00:29.590.755	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=FrameSynchronizedBrightnessTransaction property=<private>	
+00:29.590.817	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=<private> value=<private>	
+00:29.590.874	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=<private> property=<private>	
+00:29.591.191	Default	backboardd (68)	com.apple.coreanimation	Brightness	Display 1 commitBrightness sdr: 118.8318, headroom: 8.0000, ambient lux: 173.8135, filtered ambient: -1.0000, limit: 1,235.8503, low ambient strength: 0.0000, high ambient strength: 0.0000, brightness ctl disabled 18,446,744,073,709,551,615
+	
+00:29.603.897	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	now=753,594,884.5424 delta=3.8684 fade->period=5.0000 portion=0.7737 fade->Fstart=0.0066 fade->Ftarget=0.0072 Factor=0.0071
+	
+00:29.603.935	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	Display fade callback: updateBrightness = 0, updateVirtual = 0, updateEDRHeadroom = 0, forceSyncDBVUpdate = 1	
+00:29.603.966	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	Pivoting - RIGHT restriction: L_device 205.5501 -> 118.8318, ScalerMax = 0.5060, Fmax = 0.5200	
+00:29.603.993	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	Superbright EDR restrictions [would be]: CLTM 1,512.3809, UPO 2,175.0000, bottom [lower] restriction 1.0000, nits cap hdr: 2,175.0000, after BDM: 1,600.0000	
+00:29.604.016	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	SetLogicalBrightnessInternal caps: cltm 1,512.3809,  weakcap: 2,175.0000, gl.scalar: 1.0000, dyn.sl: 0.5200, edrcap: 1,600.0000	
+00:29.604.038	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	Caps after global scaling: nitsCap=551.2000 nitsCapEDR=1,600.0000	
+00:29.604.059	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	SLBI other current=1,600.0000, calculated=1,600.0000	
+00:29.604.084	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	Factor=1.0000 Lcurrent=205.5501 maxRestriction=1,512.3809 minRestriction=1.0000 maxPanel=1,060.0000 minPanel=1.0000 L_device=118.8318	
+00:29.604.132	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	S=0.5414	
+00:29.604.162	Info	backboardd (68)	com.apple.CoreBrightness.Display	default	SyncDBV Composition | Nits.Cap=551.2000 MaxRestriction.Cap=1,512.3809 WeakRestriction.Cap=2,175.0000 PAAB.Scalar=1.0000 RightFactor.Current=0.5200 RightFactor.Overriden=NO BrightDotMitigation.Enabled=YES BrightDotMitigation.Cap=1,600.0000 EDR.Enabled=YES EDR.IsEngaged=YES EDR.Cap=1,600.0000 EDR.FadePeriod=0.0000 Panel.Max=1,060.0000 Aurora.IsBoostingBrightness=NO PreStrobe.Changed=NO PreStrobe.IsActive=NO PreStrobe.Cap=0.0000 PreStrobe.CachedNits=0.0000	
+00:29.604.374	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	Handle notification for key = DisplayBrightness and property = <private>	
+00:29.604.563	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayContaineriOS	BuiltIn	Notification block key=DisplayBrightness, value=<private>
+	
+00:29.604.645	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	Handle notification for key = FrameSynchronizedBrightnessTransaction and property = <private>	
+00:29.604.710	Info	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	HDR CAPS | RTPLC: [None] 1,600.0000, currentNitCap: 1,600.0000, dynSliderCap: 551.2000, Nits: 118.8318	
+00:29.604.770	Info	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	CBEDR statusInfo: <private>	
+00:29.604.862	Debug	backboardd (68)	com.apple.CoreBrightness.CBIndicatorBrightnessModule	default	updateRamp called, isRampRunning: NO, silState: 4, currentSDR: 118.8318, currentMIB: 115.9970, targetMIB: 1.0000, MIB: 1.0000	
+00:29.604.904	Debug	backboardd (68)	com.apple.CoreBrightness.CBIndicatorBrightnessModule	default	updateRamp finished, isRampRunning: NO, silState: 4, currentSDR: 118.8318, currentMIB: 115.9970, targetMIB: 1.0000, MIB: 1.0000	
+00:29.604.965	Default	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	HDR | _edrState: 2, forceRamp: NO	
+00:29.605.037	Default	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	Pushing sdrBrightness: 118.8318, capped _appliedHeadroom: 8.0000, brightnessLimit: 1,235.8503, potentialHeadroom: 8.0000, Ambient: 173.8135 to CA, HDRBrightness: 950.6542, [None] rtplcCap: 1,600.0000	
+00:29.605.078	Default	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	SyncDBV Transaction | ID=14,122 SDR.Nits=118.8318 HDR.Nits=950.6542 HDR.State=Engaged BrightnessLimit=1,235.8503 IndicatorBrightness.Nits=0.0000 IndicatorBrightness.Cap=1,235.8503 Headroom.Current=8.0000 Headroom.Maximum=8.0000 AppliedCompensations=1.3000 Aurora.Factor=1.0000 Aurora.RampInProgress=NO Lux=173.8135 RTPLC.State=None RTPLC.Cap=1,600.0000 RTPLC.CapApplied=NO PeakAPCE.Cap=0.0500 Nits.Cap=1,600.0000 DynamicSlider.Cap=551.2000 Twilight.Strength=0.0000 Ammolite.Strength=0.0000 ContrastEnhancer.Strength=0.0071	
+00:29.605.250	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayContaineriOS	BuiltIn	Notification block key=BrightnessTransaction, value=<private>
+	
+00:29.605.332	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayContaineriOS	BuiltIn	Notification block key=CBCACommit, value=<private>
+	
+00:29.605.418	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayContaineriOS	BuiltIn	Notification block key=FrameSynchronizedBrightnessTransaction, value=<private>
+	
+00:29.605.502	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	SyncDBV Telemetry | Transaction.ID=14,120 Latency=24.0000ms	
+00:29.605.574	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=DisplayBrightness value=<private>	
+00:29.605.626	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=DisplayBrightness property=<private>	
+00:29.605.660	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	passed for client 58881740544	
+00:29.605.814	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=<private> value=<private>	
+00:29.605.840	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=<private> property=<private>	
+00:29.605.867	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=BrightnessTransaction value=<private>	
+00:29.605.889	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=BrightnessTransaction property=<private>	
+00:29.605.913	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=<private> value=<private>	
+00:29.605.965	Debug	PerfPowerServices (1452)	com.apple.CoreBrightness	default	key=<private> property=<private> queue=0x97ede5100 clientBlock=0x97e365e90	
+00:29.605.983	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=<private> property=<private>	
+00:29.606.085	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=CBCACommit value=<private>	
+00:29.606.166	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=CBCACommit property=<private>	
+00:29.606.232	Default	appleh16camerad (129)	com.apple.isp	general	skip buffer size in (float)8,192, acc size 65,536
+
+	
+00:29.606.245	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=<private> value=<private>	
+00:29.606.398	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=<private> property=<private>	
+00:29.606.430	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=FrameSynchronizedBrightnessTransaction value=<private>	
+00:29.606.451	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=FrameSynchronizedBrightnessTransaction property=<private>	
+00:29.606.534	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=<private> value=<private>	
+00:29.606.577	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=<private> property=<private>	
+00:29.606.681	Default	backboardd (68)	com.apple.coreanimation	Brightness	Display 1 setting contrast enhancer to 0.0071
+	
+00:29.606.706	Error	appleh16camerad (129)	com.apple.isp	photon	GetLuxInfo - GetLuxInfo: Sending lux, ret = 0x0
+	
+00:29.606.798	Info	appleh16camerad (129)	com.apple.isp	daemon	Sent reply to client: rc 0 (pid <private>), num pending requests = 0
+	
+00:29.606.831	Default	backboardd (68)	com.apple.xpc	connection	[0xdb4bd3000] invalidated because the current process cancelled the connection by calling xpc_connection_cancel()	
+00:29.606.861	Default	backboardd (68)	com.apple.CoreBrightness.CBGrimaldiModule	default	RearLuxOutput <private>	
+00:29.606.996	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayContaineriOS	BuiltIn	Notification block key=RLuxOutput, value=<private>
+	
+00:29.607.039	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	Handle notification for key = RLuxOutput and property = <private>	
+00:29.607.048	Default	appleh16camerad (129)	com.apple.xpc	connection	[0x9c22483c0] invalidated because the client process (pid 68) either cancelled the connection or exited	
+00:29.607.163	Debug	backboardd (68)	com.apple.CoreBrightness.CBGrimaldiModule	default	Rear Lux Dictionary: lux = 53.4515, gain = 0.0000, numSamples= 1, absoluteTime = 1,168,777,407,278, StrobeCoex = 0, JasperCoex = 0, GainChanged = 0 (sample 1/1)	
+00:29.607.260	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=RLuxOutput value=<private>	
+00:29.607.289	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=RLuxOutput property=<private>	
+00:29.607.321	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=<private> value=<private>	
+00:29.607.325	Info	appleh16camerad (129)	com.apple.isp	daemon	Client disconnecting (pid <private>)
+	
+00:29.607.403	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=<private> property=<private>	
+00:29.607.611	Default	backboardd (68)	com.apple.coreanimation	Brightness	Display 1 commitBrightness sdr: 118.8318, headroom: 8.0000, ambient lux: 173.8135, filtered ambient: -1.0000, limit: 1,235.8503, low ambient strength: 0.0000, high ambient strength: 0.0000, brightness ctl disabled 18,446,744,073,709,551,615
+	
+00:29.607.872	Default	Unknown (0)	AppleCS42L79Audio	Default	enableFlickerBias inEnable:0	
+00:29.608.076	Default	Unknown (0)	AppleCS42L79Audio	Default	Read  Adr:10010 Val:2ff	
+00:29.608.227	Default	Unknown (0)	AppleCS42L79Audio	Default	Write Adr:10010 Val:ff	
+00:29.608.234	Default	Unknown (0)	AppleCS42L79Audio	Default	MClk Enable:0 client:8 mask:24	
+00:29.608.236	Default	Unknown (0)	AppleCS42L79Audio	Default	FlickerBiasRequest Enable=0 ret:0	
+00:29.608.256	Error	Unknown (0)	AppleSPU	Default	Error setting grimaldi power state	
+00:29.608.435	Default	appleh16camerad (129)	com.apple.coreaudio	aurioc	AURemoteIO.cpp:1,697 Stopping AURemoteIO(0x9c22d4040)	
+00:29.608.486	Default	Unknown (0)	AppleH16PhotonDetector	Default	AppleH16PhotonDetectorUserClient:free - Freeing UserClient for process appleh16camerad (pid 129)
+	
+00:29.608.541	Debug	audiomxd (105)	com.apple.coreaudio	aurios	RemoteIOServer.cpp:2,069 ->AUIOServer_StopIO 0x696cb	
+00:29.608.611	Debug	audiomxd (105)	com.apple.coreaudio	aqme	MEDeviceStreamClient.cpp:447 -> 0x4ac442200 <RemoteIOClient@0x4ad474700(@0x4ad474780); input; CMSession(appleh16camerad[129], 0xffffffff)>	
+00:29.608.661	Debug	audiomxd (105)	AudioToolbox	Default	MEDeviceStreamClient.cpp:388 runningClientCount: 0	
+00:29.608.698	Default	audiomxd (105)	com.apple.coreaudio	aqme	MEDeviceStreamClient.cpp:479 AQME Device-VirtualAudioDevice_Hawking: client stopping: <RemoteIOClient@0x4ad474700(@0x4ad474780); input; CMSession(appleh16camerad[129], 0xffffffff)>; running count now 0	
+00:29.611.108	Debug	DTServiceHub (360)	DVTInstrumentsFoundation	Default	Data Size: 100,870, Rows Sent: 1,373, Stack depth: 4,244	
+00:29.620.603	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	now=753,594,884.5591 delta=3.8851 fade->period=5.0000 portion=0.7770 fade->Fstart=0.0066 fade->Ftarget=0.0072 Factor=0.0071
+	
+00:29.620.644	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	Display fade callback: updateBrightness = 0, updateVirtual = 0, updateEDRHeadroom = 0, forceSyncDBVUpdate = 1	
+00:29.620.673	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	Pivoting - RIGHT restriction: L_device 205.5501 -> 118.8318, ScalerMax = 0.5060, Fmax = 0.5200	
+00:29.620.698	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	Superbright EDR restrictions [would be]: CLTM 1,512.3809, UPO 2,175.0000, bottom [lower] restriction 1.0000, nits cap hdr: 2,175.0000, after BDM: 1,600.0000	
+00:29.620.718	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	SetLogicalBrightnessInternal caps: cltm 1,512.3809,  weakcap: 2,175.0000, gl.scalar: 1.0000, dyn.sl: 0.5200, edrcap: 1,600.0000	
+00:29.620.741	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	Caps after global scaling: nitsCap=551.2000 nitsCapEDR=1,600.0000	
+00:29.620.761	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	SLBI other current=1,600.0000, calculated=1,600.0000	
+00:29.620.792	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	Factor=1.0000 Lcurrent=205.5501 maxRestriction=1,512.3809 minRestriction=1.0000 maxPanel=1,060.0000 minPanel=1.0000 L_device=118.8318	
+00:29.620.889	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	S=0.5414	
+00:29.620.912	Info	backboardd (68)	com.apple.CoreBrightness.Display	default	SyncDBV Composition | Nits.Cap=551.2000 MaxRestriction.Cap=1,512.3809 WeakRestriction.Cap=2,175.0000 PAAB.Scalar=1.0000 RightFactor.Current=0.5200 RightFactor.Overriden=NO BrightDotMitigation.Enabled=YES BrightDotMitigation.Cap=1,600.0000 EDR.Enabled=YES EDR.IsEngaged=YES EDR.Cap=1,600.0000 EDR.FadePeriod=0.0000 Panel.Max=1,060.0000 Aurora.IsBoostingBrightness=NO PreStrobe.Changed=NO PreStrobe.IsActive=NO PreStrobe.Cap=0.0000 PreStrobe.CachedNits=0.0000	
+00:29.621.096	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	Handle notification for key = DisplayBrightness and property = <private>	
+00:29.621.215	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayContaineriOS	BuiltIn	Notification block key=DisplayBrightness, value=<private>
+	
+00:29.621.345	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	SyncDBV Telemetry | Transaction.ID=14,121 Latency=24.0000ms	
+00:29.621.417	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	Handle notification for key = FrameSynchronizedBrightnessTransaction and property = <private>	
+00:29.621.453	Info	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	HDR CAPS | RTPLC: [None] 1,600.0000, currentNitCap: 1,600.0000, dynSliderCap: 551.2000, Nits: 118.8318	
+00:29.621.512	Info	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	CBEDR statusInfo: <private>	
+00:29.621.564	Debug	backboardd (68)	com.apple.CoreBrightness.CBIndicatorBrightnessModule	default	updateRamp called, isRampRunning: NO, silState: 4, currentSDR: 118.8318, currentMIB: 115.9970, targetMIB: 1.0000, MIB: 1.0000	
+00:29.621.591	Debug	backboardd (68)	com.apple.CoreBrightness.CBIndicatorBrightnessModule	default	updateRamp finished, isRampRunning: NO, silState: 4, currentSDR: 118.8318, currentMIB: 115.9970, targetMIB: 1.0000, MIB: 1.0000	
+00:29.621.644	Default	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	HDR | _edrState: 2, forceRamp: NO	
+00:29.621.675	Default	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	Pushing sdrBrightness: 118.8318, capped _appliedHeadroom: 8.0000, brightnessLimit: 1,235.8503, potentialHeadroom: 8.0000, Ambient: 173.8135 to CA, HDRBrightness: 950.6542, [None] rtplcCap: 1,600.0000	
+00:29.621.710	Default	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	SyncDBV Transaction | ID=14,123 SDR.Nits=118.8318 HDR.Nits=950.6542 HDR.State=Engaged BrightnessLimit=1,235.8503 IndicatorBrightness.Nits=0.0000 IndicatorBrightness.Cap=1,235.8503 Headroom.Current=8.0000 Headroom.Maximum=8.0000 AppliedCompensations=1.3000 Aurora.Factor=1.0000 Aurora.RampInProgress=NO Lux=173.8135 RTPLC.State=None RTPLC.Cap=1,600.0000 RTPLC.CapApplied=NO PeakAPCE.Cap=0.0500 Nits.Cap=1,600.0000 DynamicSlider.Cap=551.2000 Twilight.Strength=0.0000 Ammolite.Strength=0.0000 ContrastEnhancer.Strength=0.0071	
+00:29.621.847	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayContaineriOS	BuiltIn	Notification block key=BrightnessTransaction, value=<private>
+	
+00:29.621.909	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayContaineriOS	BuiltIn	Notification block key=CBCACommit, value=<private>
+	
+00:29.621.965	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayContaineriOS	BuiltIn	Notification block key=FrameSynchronizedBrightnessTransaction, value=<private>
+	
+00:29.622.076	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=DisplayBrightness value=<private>	
+00:29.622.125	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=DisplayBrightness property=<private>	
+00:29.622.157	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	passed for client 58881740544	
+00:29.622.315	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=<private> value=<private>	
+00:29.622.340	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=<private> property=<private>	
+00:29.622.367	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=BrightnessTransaction value=<private>	
+00:29.622.392	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=BrightnessTransaction property=<private>	
+00:29.622.417	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=<private> value=<private>	
+00:29.622.439	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=<private> property=<private>	
+00:29.622.463	Debug	PerfPowerServices (1452)	com.apple.CoreBrightness	default	key=<private> property=<private> queue=0x97ede5100 clientBlock=0x97e365e90	
+00:29.622.464	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=CBCACommit value=<private>	
+00:29.622.488	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=CBCACommit property=<private>	
+00:29.622.549	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=<private> value=<private>	
+00:29.622.603	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=<private> property=<private>	
+00:29.622.709	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=FrameSynchronizedBrightnessTransaction value=<private>	
+00:29.622.739	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=FrameSynchronizedBrightnessTransaction property=<private>	
+00:29.622.805	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=<private> value=<private>	
+00:29.622.857	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=<private> property=<private>	
+00:29.623.119	Default	backboardd (68)	com.apple.coreanimation	Brightness	Display 1 setting contrast enhancer to 0.0071
+	
+00:29.624.011	Default	backboardd (68)	com.apple.coreanimation	Brightness	Display 1 commitBrightness sdr: 118.8318, headroom: 8.0000, ambient lux: 173.8135, filtered ambient: -1.0000, limit: 1,235.8503, low ambient strength: 0.0000, high ambient strength: 0.0000, brightness ctl disabled 18,446,744,073,709,551,615
+	
+00:29.626.286	Default	audiomxd (105)	com.apple.coreaudio	va_hplayr	VirtualAudioQueue.h:169 :769:: Client request to stop IO proc ID 0x4acaf5e00 on VAD: '[ type: vhaw; id: 151; addr: 0x4acc41900; context id: 0; hidden: 0; VA strms: { i/156/0x4ac0538e0,  }; agg dev: [ id: 130; addr: 0x104e0c350; uid: "VAD [vhaw] AggDev 3"; virt strms: { i/0x4ac90c300,  	
+00:29.626.309	Debug	audiomxd (105)	com.apple.coreaudio	aqme	AQMEIO_HAL.cpp:2,726 Audio device stopped by mix engine, after waiting on state guard	
+00:29.626.350	Default	audiomxd (105)	CoreAudio	Default	HALS_IOContext_Legacy_Impl.cpp:486  HALS_IOContext_Legacy_Impl::Server_Internal_StopIOProcID: 133 Flicker (VAD [vhaw] AggDev 3):	
+00:29.626.374	Default	audiomxd (105)	com.apple.coreaudio	va_aggdev	VirtualAudioQueue.h:169 :492:: IOProc (AggregateDevice 130, IO type NonNullIOProc) running state is now not running (0).	
+00:29.626.409	Debug	audiomxd (105)	com.apple.coreaudio	aurios	RemoteIOServer.cpp:2,073 <-AUIOServer_StopIO 0x696cb	
+00:29.626.419	Default	audiomxd (105)	CoreAudio	Default	HALS_IOContext_Legacy_Impl.cpp:492  HALS_IOContext_Legacy_Impl::Server_Internal_StopIOProcID: stopping 0x21 state: Prewarm: 0 Play: 1 State: Running IOProc 0x21: yes	
+00:29.626.420	Default	audiomxd (105)	com.apple.coreaudio	va_aggdev	VirtualAudioQueue.h:169 :596:: Stopping IO type 0 on AggregateDevice 130.	
+00:29.626.504	Debug	appleh16camerad (129)	com.apple.coreaudio	aurioc	AURemoteIO.cpp:2,341 AURIOCallbackReceiver_TerminateOwnIOThread	
+00:29.626.507	Default	audiomxd (105)	CoreAudio	Default	HALS_IOEngine2.cpp:2,239  HALS_IOEngine2::StopIO: stopping IO on device <private>	
+00:29.626.564	Default	Unknown (0)	AppleCS42L79Audio	Default	AppleCS42L79Audio::notifySecondaryActiveChangeGated(Flicker) enable:0 direction:1 	
+00:29.626.568	Debug	appleh16camerad (129)	com.apple.coreaudio	aurioc	AURemoteIO.cpp:2,053 AURemoteIO@0x9c22d4040: IOThread exiting	
+00:29.626.579	Default	Unknown (0)	AppleCS42L79Audio	Default	disableFlicker Ch:7	
+00:29.626.687	Debug	appleh16camerad (129)	com.apple.coreaudio	aurioc	AURemoteIO.cpp:1,720 <-AURemoteIO::Stop	
+00:29.626.720	Debug	appleh16camerad (129)	com.apple.coreaudio	aurioc	AURemoteIO.cpp:1,255 ->AURemoteIO(0x9c22d4040)::Cleanup	
+00:29.626.728	Default	audiomxd (105)	com.apple.coreaudio	AMCP	187,303 HALS_IOEngine2.cpp:2,635 HALS_IOEngine2::_StopIO(89) called on Context 133  current state: Prewarm: 0 Play: 1 State: Running	
+00:29.626.755	Default	appleh16camerad (129)	com.apple.coreaudio	aurioc	AURemoteIO.cpp:1,697 Stopping AURemoteIO(0x9c22d4040)	
+00:29.626.769	Default	Unknown (0)	AppleCS42L79Audio	Default	Read  Adr:450004 Val:5004d4c	
+00:29.626.812	Debug	appleh16camerad (129)	com.apple.coreaudio	aurioc	AURemoteIO.cpp:1,720 <-AURemoteIO::Stop	
+00:29.626.909	Debug	audiomxd (105)	com.apple.coreaudio	aurios	RemoteIOServer.cpp:1,924 AUIOServer_Cleanup	
+00:29.626.920	Default	Unknown (0)	AppleCS42L79Audio	Default	Write Adr:450004 Val:4d4c	
+00:29.626.948	Debug	appleh16camerad (129)	com.apple.coreaudio	aurioc	AURemoteIO.cpp:1,263 <-AURemoteIO::Cleanup	
+00:29.627.065	Default	Unknown (0)	AppleCS42L79Audio	Default	Write Adr:10000 Val:f203	
+00:29.627.066	Debug	appleh16camerad (129)	com.apple.coreaudio	aurioc	AURemoteIO.cpp:453 ->AURemoteIO@0x9c22d4040 destructor	
+00:29.627.069	Default	Unknown (0)	AppleCS42L79Audio	Default	disableFlicker Ch:8	
+00:29.627.117	Default	appleh16camerad (129)	com.apple.coreaudio	aurioc	AURemoteIO.cpp:1,697 Stopping AURemoteIO(0x9c22d4040)	
+00:29.627.152	Debug	appleh16camerad (129)	com.apple.coreaudio	aurioc	AURemoteIO.cpp:1,720 <-AURemoteIO::Stop	
+00:29.627.218	Debug	audiomxd (105)	com.apple.coreaudio	aurios	RemoteIOServer.cpp:1,851 AUIOServer_DisposeInstance	
+00:29.627.223	Default	Unknown (0)	AppleCS42L79Audio	Default	Read  Adr:450008 Val:6	
+00:29.627.273	Debug	audiomxd (105)	com.apple.coreaudio	aqme	AQMixEngine.cpp:968 ->AQMEDevice(0x4ac442200)::RemoveIOClient <RemoteIOClient@0x4ad474700(@0x4ad474780); input; CMSession(appleh16camerad[129], 0xffffffff)>	
+00:29.627.298	Debug	audiomxd (105)	com.apple.coreaudio	aqme	MEInputManager.cpp:40 MEInputManager(0x4aca9dd80)::RemoveInputClient 0x4ad474780	
+00:29.627.318	Debug	audiomxd (105)	com.apple.coreaudio	aqme	MEInputManager.cpp:60 MEInputManager::RemoveInputClient 0x4ad474780, disposed	
+00:29.627.365	Default	Unknown (0)	AppleCS42L79Audio	Default	Write Adr:450008 Val:0	
+00:29.627.397	Debug	appleh16camerad (129)	com.apple.coreaudio	aurioc	AURemoteIO.cpp:485 <-AURemoteIO@0x9c22d4040 destructor	
+00:29.627.512	Default	Unknown (0)	AppleCS42L79Audio	Default	Write Adr:10000 Val:f003	
+00:29.627.637	Debug	appleh16camerad (129)	com.apple.isp	general	H16ISPFlickerDetectorStopDataCollection - Success
+	
+00:29.627.667	Debug	appleh16camerad (129)	com.apple.isp	general	FlickerDetector: Released resource access
+
+	
+00:29.627.675	Default	Unknown (0)	AppleCS42L79Audio	Default	Read  Adr:470000 Val:406	
+00:29.627.685	Debug	appleh16camerad (129)	com.apple.isp	general	FlickerDetector: FlickerResourceArbiterClientDelegate cleanup at shutting down
+
+	
+00:29.627.700	Default	appleh16camerad (129)	com.apple.isp	general	H16ISPFlickerDetectorDispose - Success
+	
+00:29.627.719	Default	appleh16camerad (129)	com.apple.isp	daemon	Removing client: pid <private>
+	
+00:29.627.733	Default	appleh16camerad (129)	com.apple.isp	daemon	Total number of connections: 0
+	
+00:29.627.820	Default	Unknown (0)	AppleCS42L79Audio	Default	Write Adr:470000 Val:404	
+00:29.627.824	Default	Unknown (0)	AppleCS42L79Audio	Default	Disable Route ASP:2 Tx:1 Ch:2 Start:7	
+00:29.627.973	Default	Unknown (0)	AppleCS42L79Audio	Default	Read  Adr:470024 Val:180	
+00:29.628.117	Default	Unknown (0)	AppleCS42L79Audio	Default	Write Adr:470024 Val:0	
+00:29.628.121	Default	Unknown (0)	AppleCS42L79Audio	Default	Set Internal MClk client:4  mask:20	
+00:29.628.263	Default	Unknown (0)	AppleCS42L79Audio	Default	Write Adr:30000 Val:0	
+00:29.629.133	Default	Unknown (0)	AppleCS42L79Audio	Default	MClk Enable:0 client:4 mask:20	
+00:29.629.147	Default	Unknown (0)	AppleARMIISAudio	Default	+ Flicker::stopIOEngineGated()	
+00:29.629.152	Default	Unknown (0)	AppleARMIISAudio	Default	+ Flicker stopTransport	
+00:29.632.555	Default	Unknown (0)	AppleARMIISAudio	Default	- Flicker stopTransport ret=success(0)	
+00:29.632.584	Default	Unknown (0)	AppleARMIISAudio	Default	- Flicker::stopIOEngineGated() ret=success(0)	
+00:29.632.595	Default	Unknown (0)	AppleEmbeddedAudio	Default	Flicker: off
+	
+00:29.632.622	Default	audiomxd (105)	CoreAudio	Default	HALS_IOA2Device.cpp:2,266  HALS_IOA2Device::IOAudio2DeviceNotificationPortMessageHandler: <private>|86 +++++++++------>	
+00:29.632.704	Default	audiomxd (105)	CoreAudio	Default	HALS_IOA2Device.cpp:2,343  HALS_IOA2Device::IOAudio2DeviceNotificationPortMessageHandler: <private>|86 <------+++++++++	
+00:29.632.879	Default	audiomxd (105)	CoreAudio	Default	HALS_IOContext_Legacy_Impl.cpp:2,013  IO Stopped Context 133 after 9,216 frames.	
+00:29.632.968	Default	audiomxd (105)	CoreAudio	Default	HALS_IOContext_Legacy_Impl.cpp:2,037  HALS_IOContext_Legacy_Impl::IOWorkLoopDeinit: 133 Flicker (VAD [vhaw] AggDev 3): stopping with error 0	
+00:29.632.976	Default	audiomxd (105)	CoreAudio	Default	HALB_PowerAssertion.cpp:157  HALB_PowerAssertion::Release: releasing power assertion ID 32,775 of type 'PreventUserIdleSystemSleep' with name: 'com.apple.audio.VAD [vhaw] AggDev 3.context.preventuseridlesleep' taken at <private> for 0.2294 seconds	
+00:29.633.101	Debug	audiomxd (105)	com.apple.coreaudio	aqme	AQMEIO_HAL.cpp:3,469 aqmeio@0x4af3b4f00 IsRunning 0	
+00:29.633.247	Debug	audiomxd (105)	com.apple.coreaudio	AMCP	187,303 HALS_IOContext_Legacy_Impl.cpp:2,046 Completed HALS_IOContext_Legacy_Impl::IOWorkLoopDeinit	
+00:29.633.457	Default	audiomxd (105)	com.apple.coreaudio	va_vadevc	VirtualAudio_IONotificationManager.cpp:184 UpdateAndNotify() - need to notify I/O state = 1 new I/O running state = 0 previous I/O running state = 1	
+00:29.633.500	Default	audiomxd (105)	com.apple.coreaudio	va_vadevc	VirtualAudio_IONotificationManager.cpp:192 Sending notification "com.apple.coreaudio.IORunning" of I/O running state 0 forced notification = 0	
+00:29.634.046	Default	powerexperienced (125)	com.apple.powerexperienced	signalMonitor	Audio playback stopped. Dropping a resource hint	
+00:29.634.130	Default	powerexperienced (125)	com.apple.PowerExperienceFramework	ResourceConnection	ResourceConnection:updateResourceHint <private> with state 0	
+00:29.634.494	Default	powerexperienced (125)	com.apple.powerexperienced	resourcemanager	updating resource state for <private>:AudioPlayback from 1 to 0	
+00:29.634.536	Info	powerexperienced (125)	com.apple.powerexperienced	InUseChargingMode	evaluatePowerMode resources <private>	
+00:29.634.574	Default	powerexperienced (125)	com.apple.powerexperienced	RestrictedPerfMode	evaluatePowerMode: <private>: 0 display 1, carPlaySession 0, nFCSession 0, audioSession 0, sleepInProgress 0, wakeInProgress 0, onenessSession 0, siriAudio 0, pluggedIn 0 (allowOnCharger: 0)	
+00:29.634.711	Debug	powerexperienced (125)	com.apple.defaults	User Defaults	looked up value <private> for key resources in CFPrefsPlistSource<0xdbc044d80> (Domain: com.apple.powerexperienced.resourcemanager, User: kCFPreferencesCurrentUser, ByHost: No, Container: (null), Contents Need Refresh: No) via CFPrefsSearchListSource<0xdbc044b80> (Domain: com.apple.powerexperienced.resourcemanager, Container: (null))	
+00:29.634.759	Debug	powerexperienced (125)	com.apple.powerexperienced	resourcemanager	savedResourcesMutable <private>	
+00:29.635.088	Debug	powerexperienced (125)	com.apple.defaults	User Defaults	setting <private> in CFPrefsPlistSource<0xdbc044d80> (Domain: com.apple.powerexperienced.resourcemanager, User: kCFPreferencesCurrentUser, ByHost: No, Container: (null), Contents Need Refresh: No)	
+00:29.635.540	Debug	cfprefsd (107)	com.apple.defaults	cfprefsd	Process 125 (powerexperienced) sent a request related to { com.apple.powerexperienced.resourcemanager, user: root, kCFPreferencesAnyHost, /var/root/Library/Preferences/com.apple.powerexperienced.resourcemanager.plist, managed: 0 } (0xd3c1cf0c0)	
+00:29.635.645	Debug	cfprefsd (107)	com.apple.defaults	cfprefsd	Process 125 (powerexperienced) wrote the key(s) resources in { com.apple.powerexperienced.resourcemanager, root, kCFPreferencesAnyHost, /var/root/Library/Preferences/com.apple.powerexperienced.resourcemanager.plist, managed: 0 }	
+00:29.637.435	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	now=753,594,884.5759 delta=3.9019 fade->period=5.0000 portion=0.7804 fade->Fstart=0.0066 fade->Ftarget=0.0072 Factor=0.0071
+	
+00:29.637.477	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	Display fade callback: updateBrightness = 0, updateVirtual = 0, updateEDRHeadroom = 0, forceSyncDBVUpdate = 1	
+00:29.637.504	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	Pivoting - RIGHT restriction: L_device 205.5501 -> 118.8318, ScalerMax = 0.5060, Fmax = 0.5200	
+00:29.637.529	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	Superbright EDR restrictions [would be]: CLTM 1,512.3809, UPO 2,175.0000, bottom [lower] restriction 1.0000, nits cap hdr: 2,175.0000, after BDM: 1,600.0000	
+00:29.637.550	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	SetLogicalBrightnessInternal caps: cltm 1,512.3809,  weakcap: 2,175.0000, gl.scalar: 1.0000, dyn.sl: 0.5200, edrcap: 1,600.0000	
+00:29.637.570	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	Caps after global scaling: nitsCap=551.2000 nitsCapEDR=1,600.0000	
+00:29.637.590	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	SLBI other current=1,600.0000, calculated=1,600.0000	
+00:29.637.744	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	Factor=1.0000 Lcurrent=205.5501 maxRestriction=1,512.3809 minRestriction=1.0000 maxPanel=1,060.0000 minPanel=1.0000 L_device=118.8318	
+00:29.637.890	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	SyncDBV Telemetry | Transaction.ID=14,122 Latency=36.0000ms	
+00:29.637.896	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	S=0.5414	
+00:29.637.913	Info	backboardd (68)	com.apple.CoreBrightness.Display	default	SyncDBV Composition | Nits.Cap=551.2000 MaxRestriction.Cap=1,512.3809 WeakRestriction.Cap=2,175.0000 PAAB.Scalar=1.0000 RightFactor.Current=0.5200 RightFactor.Overriden=NO BrightDotMitigation.Enabled=YES BrightDotMitigation.Cap=1,600.0000 EDR.Enabled=YES EDR.IsEngaged=YES EDR.Cap=1,600.0000 EDR.FadePeriod=0.0000 Panel.Max=1,060.0000 Aurora.IsBoostingBrightness=NO PreStrobe.Changed=NO PreStrobe.IsActive=NO PreStrobe.Cap=0.0000 PreStrobe.CachedNits=0.0000	
+00:29.638.125	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	Handle notification for key = FrameSynchronizedBrightnessTransaction and property = <private>	
+00:29.638.227	Info	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	HDR CAPS | RTPLC: [None] 1,600.0000, currentNitCap: 1,600.0000, dynSliderCap: 551.2000, Nits: 118.8318	
+00:29.638.269	Info	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	CBEDR statusInfo: <private>	
+00:29.638.303	Debug	backboardd (68)	com.apple.CoreBrightness.CBIndicatorBrightnessModule	default	updateRamp called, isRampRunning: NO, silState: 4, currentSDR: 118.8318, currentMIB: 115.9970, targetMIB: 1.0000, MIB: 1.0000	
+00:29.638.328	Debug	backboardd (68)	com.apple.CoreBrightness.CBIndicatorBrightnessModule	default	updateRamp finished, isRampRunning: NO, silState: 4, currentSDR: 118.8318, currentMIB: 115.9970, targetMIB: 1.0000, MIB: 1.0000	
+00:29.638.369	Default	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	HDR | _edrState: 2, forceRamp: NO	
+00:29.638.399	Default	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	Pushing sdrBrightness: 118.8318, capped _appliedHeadroom: 8.0000, brightnessLimit: 1,235.8503, potentialHeadroom: 8.0000, Ambient: 173.8135 to CA, HDRBrightness: 950.6542, [None] rtplcCap: 1,600.0000	
+00:29.638.482	Default	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	SyncDBV Transaction | ID=14,124 SDR.Nits=118.8318 HDR.Nits=950.6542 HDR.State=Engaged BrightnessLimit=1,235.8503 IndicatorBrightness.Nits=0.0000 IndicatorBrightness.Cap=1,235.8503 Headroom.Current=8.0000 Headroom.Maximum=8.0000 AppliedCompensations=1.3000 Aurora.Factor=1.0000 Aurora.RampInProgress=NO Lux=173.8135 RTPLC.State=None RTPLC.Cap=1,600.0000 RTPLC.CapApplied=NO PeakAPCE.Cap=0.0500 Nits.Cap=1,600.0000 DynamicSlider.Cap=551.2000 Twilight.Strength=0.0000 Ammolite.Strength=0.0000 ContrastEnhancer.Strength=0.0071	
+00:29.638.644	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayContaineriOS	BuiltIn	Notification block key=BrightnessTransaction, value=<private>
+	
+00:29.638.704	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayContaineriOS	BuiltIn	Notification block key=CBCACommit, value=<private>
+	
+00:29.638.734	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayContaineriOS	BuiltIn	Notification block key=FrameSynchronizedBrightnessTransaction, value=<private>
+	
+00:29.638.763	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	Handle notification for key = DisplayBrightness and property = <private>	
+00:29.638.801	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayContaineriOS	BuiltIn	Notification block key=DisplayBrightness, value=<private>
+	
+00:29.638.858	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=BrightnessTransaction value=<private>	
+00:29.638.886	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=BrightnessTransaction property=<private>	
+00:29.638.919	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=<private> value=<private>	
+00:29.638.942	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=<private> property=<private>	
+00:29.638.968	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=CBCACommit value=<private>	
+00:29.638.990	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=CBCACommit property=<private>	
+00:29.639.018	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=<private> value=<private>	
+00:29.639.039	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=<private> property=<private>	
+00:29.639.064	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=FrameSynchronizedBrightnessTransaction value=<private>	
+00:29.639.086	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=FrameSynchronizedBrightnessTransaction property=<private>	
+00:29.639.137	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=<private> value=<private>	
+00:29.639.165	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=<private> property=<private>	
+00:29.639.194	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=DisplayBrightness value=<private>	
+00:29.639.235	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=DisplayBrightness property=<private>	
+00:29.639.261	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	passed for client 58881740544	
+00:29.639.383	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=<private> value=<private>	
+00:29.639.407	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=<private> property=<private>	
+00:29.639.512	Debug	PerfPowerServices (1452)	com.apple.CoreBrightness	default	key=<private> property=<private> queue=0x97ede5100 clientBlock=0x97e365e90	
+00:29.639.777	Default	backboardd (68)	com.apple.coreanimation	Brightness	Display 1 setting contrast enhancer to 0.0071
+	
+00:29.640.630	Default	backboardd (68)	com.apple.coreanimation	Brightness	Display 1 commitBrightness sdr: 118.8318, headroom: 8.0000, ambient lux: 173.8135, filtered ambient: -1.0000, limit: 1,235.8503, low ambient strength: 0.0000, high ambient strength: 0.0000, brightness ctl disabled 18,446,744,073,709,551,615
+	
+00:29.653.940	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	now=753,594,884.5924 delta=3.9184 fade->period=5.0000 portion=0.7837 fade->Fstart=0.0066 fade->Ftarget=0.0072 Factor=0.0071
+	
+00:29.653.981	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	Display fade callback: updateBrightness = 0, updateVirtual = 0, updateEDRHeadroom = 0, forceSyncDBVUpdate = 1	
+00:29.654.014	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	Pivoting - RIGHT restriction: L_device 205.5501 -> 118.8318, ScalerMax = 0.5060, Fmax = 0.5200	
+00:29.654.045	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	Superbright EDR restrictions [would be]: CLTM 1,512.3809, UPO 2,175.0000, bottom [lower] restriction 1.0000, nits cap hdr: 2,175.0000, after BDM: 1,600.0000	
+00:29.654.072	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	SetLogicalBrightnessInternal caps: cltm 1,512.3809,  weakcap: 2,175.0000, gl.scalar: 1.0000, dyn.sl: 0.5200, edrcap: 1,600.0000	
+00:29.654.097	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	Caps after global scaling: nitsCap=551.2000 nitsCapEDR=1,600.0000	
+00:29.654.123	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	SLBI other current=1,600.0000, calculated=1,600.0000	
+00:29.654.151	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	Factor=1.0000 Lcurrent=205.5501 maxRestriction=1,512.3809 minRestriction=1.0000 maxPanel=1,060.0000 minPanel=1.0000 L_device=118.8318	
+00:29.654.378	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	S=0.5414	
+00:29.654.406	Info	backboardd (68)	com.apple.CoreBrightness.Display	default	SyncDBV Composition | Nits.Cap=551.2000 MaxRestriction.Cap=1,512.3809 WeakRestriction.Cap=2,175.0000 PAAB.Scalar=1.0000 RightFactor.Current=0.5200 RightFactor.Overriden=NO BrightDotMitigation.Enabled=YES BrightDotMitigation.Cap=1,600.0000 EDR.Enabled=YES EDR.IsEngaged=YES EDR.Cap=1,600.0000 EDR.FadePeriod=0.0000 Panel.Max=1,060.0000 Aurora.IsBoostingBrightness=NO PreStrobe.Changed=NO PreStrobe.IsActive=NO PreStrobe.Cap=0.0000 PreStrobe.CachedNits=0.0000	
+00:29.654.550	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	SyncDBV Telemetry | Transaction.ID=14,123 Latency=28.0000ms	
+00:29.654.776	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	Handle notification for key = FrameSynchronizedBrightnessTransaction and property = <private>	
+00:29.654.865	Info	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	HDR CAPS | RTPLC: [None] 1,600.0000, currentNitCap: 1,600.0000, dynSliderCap: 551.2000, Nits: 118.8318	
+00:29.654.966	Info	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	CBEDR statusInfo: <private>	
+00:29.655.031	Debug	backboardd (68)	com.apple.CoreBrightness.CBIndicatorBrightnessModule	default	updateRamp called, isRampRunning: NO, silState: 4, currentSDR: 118.8318, currentMIB: 115.9970, targetMIB: 1.0000, MIB: 1.0000	
+00:29.655.145	Debug	backboardd (68)	com.apple.CoreBrightness.CBIndicatorBrightnessModule	default	updateRamp finished, isRampRunning: NO, silState: 4, currentSDR: 118.8318, currentMIB: 115.9970, targetMIB: 1.0000, MIB: 1.0000	
+00:29.655.223	Default	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	HDR | _edrState: 2, forceRamp: NO	
+00:29.655.259	Default	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	Pushing sdrBrightness: 118.8318, capped _appliedHeadroom: 8.0000, brightnessLimit: 1,235.8503, potentialHeadroom: 8.0000, Ambient: 173.8135 to CA, HDRBrightness: 950.6542, [None] rtplcCap: 1,600.0000	
+00:29.655.467	Default	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	SyncDBV Transaction | ID=14,125 SDR.Nits=118.8318 HDR.Nits=950.6542 HDR.State=Engaged BrightnessLimit=1,235.8503 IndicatorBrightness.Nits=0.0000 IndicatorBrightness.Cap=1,235.8503 Headroom.Current=8.0000 Headroom.Maximum=8.0000 AppliedCompensations=1.3000 Aurora.Factor=1.0000 Aurora.RampInProgress=NO Lux=173.8135 RTPLC.State=None RTPLC.Cap=1,600.0000 RTPLC.CapApplied=NO PeakAPCE.Cap=0.0500 Nits.Cap=1,600.0000 DynamicSlider.Cap=551.2000 Twilight.Strength=0.0000 Ammolite.Strength=0.0000 ContrastEnhancer.Strength=0.0071	
+00:29.655.609	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayContaineriOS	BuiltIn	Notification block key=BrightnessTransaction, value=<private>
+	
+00:29.655.677	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayContaineriOS	BuiltIn	Notification block key=CBCACommit, value=<private>
+	
+00:29.655.716	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayContaineriOS	BuiltIn	Notification block key=FrameSynchronizedBrightnessTransaction, value=<private>
+	
+00:29.655.752	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	Handle notification for key = DisplayBrightness and property = <private>	
+00:29.655.790	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayContaineriOS	BuiltIn	Notification block key=DisplayBrightness, value=<private>
+	
+00:29.655.867	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=BrightnessTransaction value=<private>	
+00:29.655.910	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=BrightnessTransaction property=<private>	
+00:29.656.007	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=<private> value=<private>	
+00:29.656.119	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=<private> property=<private>	
+00:29.656.180	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=CBCACommit value=<private>	
+00:29.656.213	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=CBCACommit property=<private>	
+00:29.656.252	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=<private> value=<private>	
+00:29.656.352	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=<private> property=<private>	
+00:29.656.424	Default	backboardd (68)	com.apple.coreanimation	Brightness	Display 1 setting contrast enhancer to 0.0071
+	
+00:29.656.447	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=FrameSynchronizedBrightnessTransaction value=<private>	
+00:29.656.538	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=FrameSynchronizedBrightnessTransaction property=<private>	
+00:29.656.628	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=<private> value=<private>	
+00:29.656.689	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=<private> property=<private>	
+00:29.656.736	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=DisplayBrightness value=<private>	
+00:29.656.876	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=DisplayBrightness property=<private>	
+00:29.656.912	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	passed for client 58881740544	
+00:29.657.104	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=<private> value=<private>	
+00:29.657.133	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=<private> property=<private>	
+00:29.657.306	Debug	PerfPowerServices (1452)	com.apple.CoreBrightness	default	key=<private> property=<private> queue=0x97ede5100 clientBlock=0x97e365e90	
+00:29.657.439	Default	backboardd (68)	com.apple.coreanimation	Brightness	Display 1 commitBrightness sdr: 118.8318, headroom: 8.0000, ambient lux: 173.8135, filtered ambient: -1.0000, limit: 1,235.8503, low ambient strength: 0.0000, high ambient strength: 0.0000, brightness ctl disabled 18,446,744,073,709,551,615
+	
+00:29.670.724	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	now=753,594,884.6092 delta=3.9352 fade->period=5.0000 portion=0.7870 fade->Fstart=0.0066 fade->Ftarget=0.0072 Factor=0.0071
+	
+00:29.670.770	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	Display fade callback: updateBrightness = 0, updateVirtual = 0, updateEDRHeadroom = 0, forceSyncDBVUpdate = 1	
+00:29.670.813	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	Pivoting - RIGHT restriction: L_device 205.5501 -> 118.8318, ScalerMax = 0.5060, Fmax = 0.5200	
+00:29.670.846	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	Superbright EDR restrictions [would be]: CLTM 1,512.3809, UPO 2,175.0000, bottom [lower] restriction 1.0000, nits cap hdr: 2,175.0000, after BDM: 1,600.0000	
+00:29.670.874	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	SetLogicalBrightnessInternal caps: cltm 1,512.3809,  weakcap: 2,175.0000, gl.scalar: 1.0000, dyn.sl: 0.5200, edrcap: 1,600.0000	
+00:29.670.907	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	Caps after global scaling: nitsCap=551.2000 nitsCapEDR=1,600.0000	
+00:29.671.029	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	SLBI other current=1,600.0000, calculated=1,600.0000	
+00:29.671.360	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	SyncDBV Telemetry | Transaction.ID=14,124 Latency=28.0000ms	
+00:29.671.701	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	Factor=1.0000 Lcurrent=205.5501 maxRestriction=1,512.3809 minRestriction=1.0000 maxPanel=1,060.0000 minPanel=1.0000 L_device=118.8318	
+00:29.671.779	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	S=0.5414	
+00:29.671.993	Info	backboardd (68)	com.apple.CoreBrightness.Display	default	SyncDBV Composition | Nits.Cap=551.2000 MaxRestriction.Cap=1,512.3809 WeakRestriction.Cap=2,175.0000 PAAB.Scalar=1.0000 RightFactor.Current=0.5200 RightFactor.Overriden=NO BrightDotMitigation.Enabled=YES BrightDotMitigation.Cap=1,600.0000 EDR.Enabled=YES EDR.IsEngaged=YES EDR.Cap=1,600.0000 EDR.FadePeriod=0.0000 Panel.Max=1,060.0000 Aurora.IsBoostingBrightness=NO PreStrobe.Changed=NO PreStrobe.IsActive=NO PreStrobe.Cap=0.0000 PreStrobe.CachedNits=0.0000	
+00:29.672.155	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	Handle notification for key = FrameSynchronizedBrightnessTransaction and property = <private>	
+00:29.672.720	Info	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	HDR CAPS | RTPLC: [None] 1,600.0000, currentNitCap: 1,600.0000, dynSliderCap: 551.2000, Nits: 118.8318	
+00:29.672.773	Info	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	CBEDR statusInfo: <private>	
+00:29.672.822	Debug	backboardd (68)	com.apple.CoreBrightness.CBIndicatorBrightnessModule	default	updateRamp called, isRampRunning: NO, silState: 4, currentSDR: 118.8318, currentMIB: 115.9970, targetMIB: 1.0000, MIB: 1.0000	
+00:29.672.862	Debug	backboardd (68)	com.apple.CoreBrightness.CBIndicatorBrightnessModule	default	updateRamp finished, isRampRunning: NO, silState: 4, currentSDR: 118.8318, currentMIB: 115.9970, targetMIB: 1.0000, MIB: 1.0000	
+00:29.672.941	Default	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	HDR | _edrState: 2, forceRamp: NO	
+00:29.672.981	Default	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	Pushing sdrBrightness: 118.8318, capped _appliedHeadroom: 8.0000, brightnessLimit: 1,235.8503, potentialHeadroom: 8.0000, Ambient: 173.8135 to CA, HDRBrightness: 950.6542, [None] rtplcCap: 1,600.0000	
+00:29.673.026	Default	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	SyncDBV Transaction | ID=14,126 SDR.Nits=118.8318 HDR.Nits=950.6542 HDR.State=Engaged BrightnessLimit=1,235.8503 IndicatorBrightness.Nits=0.0000 IndicatorBrightness.Cap=1,235.8503 Headroom.Current=8.0000 Headroom.Maximum=8.0000 AppliedCompensations=1.3000 Aurora.Factor=1.0000 Aurora.RampInProgress=NO Lux=173.8135 RTPLC.State=None RTPLC.Cap=1,600.0000 RTPLC.CapApplied=NO PeakAPCE.Cap=0.0500 Nits.Cap=1,600.0000 DynamicSlider.Cap=551.2000 Twilight.Strength=0.0000 Ammolite.Strength=0.0000 ContrastEnhancer.Strength=0.0071	
+00:29.673.163	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayContaineriOS	BuiltIn	Notification block key=BrightnessTransaction, value=<private>
+	
+00:29.673.239	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayContaineriOS	BuiltIn	Notification block key=CBCACommit, value=<private>
+	
+00:29.673.279	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayContaineriOS	BuiltIn	Notification block key=FrameSynchronizedBrightnessTransaction, value=<private>
+	
+00:29.673.315	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	Handle notification for key = DisplayBrightness and property = <private>	
+00:29.673.372	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayContaineriOS	BuiltIn	Notification block key=DisplayBrightness, value=<private>
+	
+00:29.673.450	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=BrightnessTransaction value=<private>	
+00:29.673.502	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=BrightnessTransaction property=<private>	
+00:29.673.565	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=<private> value=<private>	
+00:29.673.596	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=<private> property=<private>	
+00:29.673.669	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=CBCACommit value=<private>	
+00:29.673.770	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=CBCACommit property=<private>	
+00:29.673.828	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=<private> value=<private>	
+00:29.673.844	Default	backboardd (68)	com.apple.coreanimation	Brightness	Display 1 setting contrast enhancer to 0.0071
+	
+00:29.674.025	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=<private> property=<private>	
+00:29.674.139	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=FrameSynchronizedBrightnessTransaction value=<private>	
+00:29.674.254	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=FrameSynchronizedBrightnessTransaction property=<private>	
+00:29.674.298	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=<private> value=<private>	
+00:29.674.360	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=<private> property=<private>	
+00:29.674.475	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=DisplayBrightness value=<private>	
+00:29.674.610	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=DisplayBrightness property=<private>	
+00:29.674.656	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	passed for client 58881740544	
+00:29.674.806	Default	backboardd (68)	com.apple.coreanimation	Brightness	Display 1 commitBrightness sdr: 118.8318, headroom: 8.0000, ambient lux: 173.8135, filtered ambient: -1.0000, limit: 1,235.8503, low ambient strength: 0.0000, high ambient strength: 0.0000, brightness ctl disabled 18,446,744,073,709,551,615
+	
+00:29.674.824	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=<private> value=<private>	
+00:29.674.935	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=<private> property=<private>	
+00:29.675.152	Debug	PerfPowerServices (1452)	com.apple.CoreBrightness	default	key=<private> property=<private> queue=0x97ede5100 clientBlock=0x97e365e90	
+00:29.678.176	Debug	DTServiceHub (360)	DVTInstrumentsFoundation	Default	Data Size: 100,542, Rows Sent: 1,378, Stack depth: 4,245	
+00:29.678.394	Default	Unknown (0)	AppleT8140	Default	AppleH17PPlatformErrorHandler::_dcsWritePTD: 112109103114 3 offset f00 @ <private>[0x3003d0f00] <- 6
+
+	
+00:29.678.418	Default	Unknown (0)	AppleT8140	Default	AppleH17PPlatformErrorHandler::_dcsHandleDCSOdtsEvent: _dcsOdtsBelowThresholdCount = 13
+
+	
+00:29.678.421	Default	Unknown (0)	AppleT8140	Default	AppleH17PPlatformErrorHandler::_dcsHandleDCSOdtsEvent: start next polling
+
+	
+00:29.687.281	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	now=753,594,884.6258 delta=3.9518 fade->period=5.0000 portion=0.7904 fade->Fstart=0.0066 fade->Ftarget=0.0072 Factor=0.0071
+	
+00:29.687.321	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	Display fade callback: updateBrightness = 0, updateVirtual = 0, updateEDRHeadroom = 0, forceSyncDBVUpdate = 1	
+00:29.687.344	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	Pivoting - RIGHT restriction: L_device 205.5501 -> 118.8318, ScalerMax = 0.5060, Fmax = 0.5200	
+00:29.687.366	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	Superbright EDR restrictions [would be]: CLTM 1,512.3809, UPO 2,175.0000, bottom [lower] restriction 1.0000, nits cap hdr: 2,175.0000, after BDM: 1,600.0000	
+00:29.687.385	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	SetLogicalBrightnessInternal caps: cltm 1,512.3809,  weakcap: 2,175.0000, gl.scalar: 1.0000, dyn.sl: 0.5200, edrcap: 1,600.0000	
+00:29.687.402	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	Caps after global scaling: nitsCap=551.2000 nitsCapEDR=1,600.0000	
+00:29.687.419	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	SLBI other current=1,600.0000, calculated=1,600.0000	
+00:29.687.488	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	Factor=1.0000 Lcurrent=205.5501 maxRestriction=1,512.3809 minRestriction=1.0000 maxPanel=1,060.0000 minPanel=1.0000 L_device=118.8318	
+00:29.687.557	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	S=0.5414	
+00:29.687.564	Info	backboardd (68)	com.apple.CoreBrightness.Display	default	SyncDBV Composition | Nits.Cap=551.2000 MaxRestriction.Cap=1,512.3809 WeakRestriction.Cap=2,175.0000 PAAB.Scalar=1.0000 RightFactor.Current=0.5200 RightFactor.Overriden=NO BrightDotMitigation.Enabled=YES BrightDotMitigation.Cap=1,600.0000 EDR.Enabled=YES EDR.IsEngaged=YES EDR.Cap=1,600.0000 EDR.FadePeriod=0.0000 Panel.Max=1,060.0000 Aurora.IsBoostingBrightness=NO PreStrobe.Changed=NO PreStrobe.IsActive=NO PreStrobe.Cap=0.0000 PreStrobe.CachedNits=0.0000	
+00:29.687.889	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	SyncDBV Telemetry | Transaction.ID=14,125 Latency=32.0000ms	
+00:29.688.047	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	Handle notification for key = FrameSynchronizedBrightnessTransaction and property = <private>	
+00:29.688.317	Info	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	HDR CAPS | RTPLC: [None] 1,600.0000, currentNitCap: 1,600.0000, dynSliderCap: 551.2000, Nits: 118.8318	
+00:29.688.358	Info	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	CBEDR statusInfo: <private>	
+00:29.688.388	Debug	backboardd (68)	com.apple.CoreBrightness.CBIndicatorBrightnessModule	default	updateRamp called, isRampRunning: NO, silState: 4, currentSDR: 118.8318, currentMIB: 115.9970, targetMIB: 1.0000, MIB: 1.0000	
+00:29.688.410	Debug	backboardd (68)	com.apple.CoreBrightness.CBIndicatorBrightnessModule	default	updateRamp finished, isRampRunning: NO, silState: 4, currentSDR: 118.8318, currentMIB: 115.9970, targetMIB: 1.0000, MIB: 1.0000	
+00:29.688.429	Default	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	HDR | _edrState: 2, forceRamp: NO	
+00:29.688.451	Default	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	Pushing sdrBrightness: 118.8318, capped _appliedHeadroom: 8.0000, brightnessLimit: 1,235.8503, potentialHeadroom: 8.0000, Ambient: 173.8135 to CA, HDRBrightness: 950.6542, [None] rtplcCap: 1,600.0000	
+00:29.688.481	Default	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	SyncDBV Transaction | ID=14,127 SDR.Nits=118.8318 HDR.Nits=950.6542 HDR.State=Engaged BrightnessLimit=1,235.8503 IndicatorBrightness.Nits=0.0000 IndicatorBrightness.Cap=1,235.8503 Headroom.Current=8.0000 Headroom.Maximum=8.0000 AppliedCompensations=1.3000 Aurora.Factor=1.0000 Aurora.RampInProgress=NO Lux=173.8135 RTPLC.State=None RTPLC.Cap=1,600.0000 RTPLC.CapApplied=NO PeakAPCE.Cap=0.0500 Nits.Cap=1,600.0000 DynamicSlider.Cap=551.2000 Twilight.Strength=0.0000 Ammolite.Strength=0.0000 ContrastEnhancer.Strength=0.0071	
+00:29.688.572	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayContaineriOS	BuiltIn	Notification block key=BrightnessTransaction, value=<private>
+	
+00:29.688.635	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayContaineriOS	BuiltIn	Notification block key=CBCACommit, value=<private>
+	
+00:29.688.678	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayContaineriOS	BuiltIn	Notification block key=FrameSynchronizedBrightnessTransaction, value=<private>
+	
+00:29.688.703	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	Handle notification for key = DisplayBrightness and property = <private>	
+00:29.688.731	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayContaineriOS	BuiltIn	Notification block key=DisplayBrightness, value=<private>
+	
+00:29.688.781	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=BrightnessTransaction value=<private>	
+00:29.688.807	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=BrightnessTransaction property=<private>	
+00:29.688.838	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=<private> value=<private>	
+00:29.688.856	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=<private> property=<private>	
+00:29.688.877	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=CBCACommit value=<private>	
+00:29.688.895	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=CBCACommit property=<private>	
+00:29.688.915	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=<private> value=<private>	
+00:29.688.932	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=<private> property=<private>	
+00:29.688.952	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=FrameSynchronizedBrightnessTransaction value=<private>	
+00:29.688.969	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=FrameSynchronizedBrightnessTransaction property=<private>	
+00:29.689.005	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=<private> value=<private>	
+00:29.689.038	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=<private> property=<private>	
+00:29.689.064	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=DisplayBrightness value=<private>	
+00:29.689.105	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=DisplayBrightness property=<private>	
+00:29.689.127	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	passed for client 58881740544	
+00:29.689.272	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=<private> value=<private>	
+00:29.689.296	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=<private> property=<private>	
+00:29.689.455	Debug	PerfPowerServices (1452)	com.apple.CoreBrightness	default	key=<private> property=<private> queue=0x97ede5100 clientBlock=0x97e365e90	
+00:29.689.913	Default	backboardd (68)	com.apple.coreanimation	Brightness	Display 1 setting contrast enhancer to 0.0071
+	
+00:29.690.835	Default	backboardd (68)	com.apple.coreanimation	Brightness	Display 1 commitBrightness sdr: 118.8318, headroom: 8.0000, ambient lux: 173.8135, filtered ambient: -1.0000, limit: 1,235.8503, low ambient strength: 0.0000, high ambient strength: 0.0000, brightness ctl disabled 18,446,744,073,709,551,615
+	
+00:29.698.012	Debug	backboardd (68)	com.apple.BackBoard	MotionEvents	Motion event usagePage:0xff0c usage:1 	
+00:29.698.206	Info	locationd (74)	com.apple.locationd.Motion	AOP	{"msg":"received AOP log", "log":72 Bytes}	
+00:29.703.961	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	now=753,594,884.6424 delta=3.9685 fade->period=5.0000 portion=0.7937 fade->Fstart=0.0066 fade->Ftarget=0.0072 Factor=0.0071
+	
+00:29.704.004	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	Display fade callback: updateBrightness = 0, updateVirtual = 0, updateEDRHeadroom = 0, forceSyncDBVUpdate = 1	
+00:29.704.033	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	Pivoting - RIGHT restriction: L_device 205.5501 -> 118.8318, ScalerMax = 0.5060, Fmax = 0.5200	
+00:29.704.058	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	Superbright EDR restrictions [would be]: CLTM 1,512.3809, UPO 2,175.0000, bottom [lower] restriction 1.0000, nits cap hdr: 2,175.0000, after BDM: 1,600.0000	
+00:29.704.079	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	SetLogicalBrightnessInternal caps: cltm 1,512.3809,  weakcap: 2,175.0000, gl.scalar: 1.0000, dyn.sl: 0.5200, edrcap: 1,600.0000	
+00:29.704.099	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	Caps after global scaling: nitsCap=551.2000 nitsCapEDR=1,600.0000	
+00:29.704.119	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	SLBI other current=1,600.0000, calculated=1,600.0000	
+00:29.704.165	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	Factor=1.0000 Lcurrent=205.5501 maxRestriction=1,512.3809 minRestriction=1.0000 maxPanel=1,060.0000 minPanel=1.0000 L_device=118.8318	
+00:29.704.237	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	S=0.5414	
+00:29.704.267	Info	backboardd (68)	com.apple.CoreBrightness.Display	default	SyncDBV Composition | Nits.Cap=551.2000 MaxRestriction.Cap=1,512.3809 WeakRestriction.Cap=2,175.0000 PAAB.Scalar=1.0000 RightFactor.Current=0.5200 RightFactor.Overriden=NO BrightDotMitigation.Enabled=YES BrightDotMitigation.Cap=1,600.0000 EDR.Enabled=YES EDR.IsEngaged=YES EDR.Cap=1,600.0000 EDR.FadePeriod=0.0000 Panel.Max=1,060.0000 Aurora.IsBoostingBrightness=NO PreStrobe.Changed=NO PreStrobe.IsActive=NO PreStrobe.Cap=0.0000 PreStrobe.CachedNits=0.0000	
+00:29.704.501	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	SyncDBV Telemetry | Transaction.ID=14,126 Latency=32.0000ms	
+00:29.704.614	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	Handle notification for key = DisplayBrightness and property = <private>	
+00:29.704.654	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayContaineriOS	BuiltIn	Notification block key=DisplayBrightness, value=<private>
+	
+00:29.704.722	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	Handle notification for key = FrameSynchronizedBrightnessTransaction and property = <private>	
+00:29.704.763	Info	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	HDR CAPS | RTPLC: [None] 1,600.0000, currentNitCap: 1,600.0000, dynSliderCap: 551.2000, Nits: 118.8318	
+00:29.704.805	Info	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	CBEDR statusInfo: <private>	
+00:29.704.851	Debug	backboardd (68)	com.apple.CoreBrightness.CBIndicatorBrightnessModule	default	updateRamp called, isRampRunning: NO, silState: 4, currentSDR: 118.8318, currentMIB: 115.9970, targetMIB: 1.0000, MIB: 1.0000	
+00:29.704.877	Debug	backboardd (68)	com.apple.CoreBrightness.CBIndicatorBrightnessModule	default	updateRamp finished, isRampRunning: NO, silState: 4, currentSDR: 118.8318, currentMIB: 115.9970, targetMIB: 1.0000, MIB: 1.0000	
+00:29.704.914	Default	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	HDR | _edrState: 2, forceRamp: NO	
+00:29.704.954	Default	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	Pushing sdrBrightness: 118.8318, capped _appliedHeadroom: 8.0000, brightnessLimit: 1,235.8503, potentialHeadroom: 8.0000, Ambient: 173.8135 to CA, HDRBrightness: 950.6542, [None] rtplcCap: 1,600.0000	
+00:29.704.992	Default	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	SyncDBV Transaction | ID=14,128 SDR.Nits=118.8318 HDR.Nits=950.6542 HDR.State=Engaged BrightnessLimit=1,235.8503 IndicatorBrightness.Nits=0.0000 IndicatorBrightness.Cap=1,235.8503 Headroom.Current=8.0000 Headroom.Maximum=8.0000 AppliedCompensations=1.3000 Aurora.Factor=1.0000 Aurora.RampInProgress=NO Lux=173.8135 RTPLC.State=None RTPLC.Cap=1,600.0000 RTPLC.CapApplied=NO PeakAPCE.Cap=0.0500 Nits.Cap=1,600.0000 DynamicSlider.Cap=551.2000 Twilight.Strength=0.0000 Ammolite.Strength=0.0000 ContrastEnhancer.Strength=0.0071	
+00:29.705.175	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayContaineriOS	BuiltIn	Notification block key=BrightnessTransaction, value=<private>
+	
+00:29.705.217	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayContaineriOS	BuiltIn	Notification block key=CBCACommit, value=<private>
+	
+00:29.705.245	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayContaineriOS	BuiltIn	Notification block key=FrameSynchronizedBrightnessTransaction, value=<private>
+	
+00:29.705.305	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=DisplayBrightness value=<private>	
+00:29.705.387	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=DisplayBrightness property=<private>	
+00:29.705.420	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	passed for client 58881740544	
+00:29.705.549	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=<private> value=<private>	
+00:29.705.572	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=<private> property=<private>	
+00:29.705.600	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=BrightnessTransaction value=<private>	
+00:29.705.621	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=BrightnessTransaction property=<private>	
+00:29.705.688	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=<private> value=<private>	
+00:29.705.705	Debug	PerfPowerServices (1452)	com.apple.CoreBrightness	default	key=<private> property=<private> queue=0x97ede5100 clientBlock=0x97e365e90	
+00:29.705.763	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=<private> property=<private>	
+00:29.705.826	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=CBCACommit value=<private>	
+00:29.705.882	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=CBCACommit property=<private>	
+00:29.705.980	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=<private> value=<private>	
+00:29.706.045	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=<private> property=<private>	
+00:29.706.105	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=FrameSynchronizedBrightnessTransaction value=<private>	
+00:29.706.166	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=FrameSynchronizedBrightnessTransaction property=<private>	
+00:29.706.233	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=<private> value=<private>	
+00:29.706.305	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=<private> property=<private>	
+00:29.706.493	Debug	backboardd (68)	com.apple.BackBoard	MotionEvents	Motion event usagePage:0xff0c usage:1 	
+00:29.706.562	Default	backboardd (68)	com.apple.coreanimation	Brightness	Display 1 setting contrast enhancer to 0.0071
+	
+00:29.706.663	Debug	locationd (74)	com.apple.locationd.Motion	Motion	visitKFFilteredPressure,nowAP,753,594,884.6451,nowAOP,349,897,652,843,filteredPressure,102,628.0938,pressureTimestamp,349,894,932,498,kfElevation,-108.3260,wallTimePressureCorrected,753,594,881.9248,wallTimeKFCorrected,753,594,884.6112,temperatureDerivative,0.0000,absAltUnc,-0.0000	
+00:29.706.799	Debug	locationd (74)	com.apple.locationd.Motion	Altimeter	received KF filtered pressure from AOP,now,<private>,filteredPressureTimestamp,<private>,filteredPressure,<private>,kfTimestamp,<private>,kfElevation,<private>,kfPressure,<private> temperature,<private>,absAltUnc,<private>	
+00:29.706.862	Debug	locationd (74)	com.apple.locationd.Motion	Altimeter	{"msg":"kfPressure source updated with", "timestamp_s":"<private>", "kfPressure":"<private>", "kfElevation":"<private>", "absAltUncertainty":"<private>"}	
+00:29.707.436	Debug	SpringBoard (34)	com.apple.defaults	User Defaults	looked up value <private> for key CCUIUserInvocationCount in CFPrefsPlistSource<0x301813e00> (Domain: com.apple.springboard, User: kCFPreferencesCurrentUser, ByHost: No, Container: (null), Contents Need Refresh: No) via CFPrefsSearchListSource<0x30181d900> (Domain: com.apple.springboard, Container: (null))	
+00:29.707.535	Default	backboardd (68)	com.apple.coreanimation	Brightness	Display 1 commitBrightness sdr: 118.8318, headroom: 8.0000, ambient lux: 173.8135, filtered ambient: -1.0000, limit: 1,235.8503, low ambient strength: 0.0000, high ambient strength: 0.0000, brightness ctl disabled 18,446,744,073,709,551,615
+	
+00:29.720.639	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	now=753,594,884.6591 delta=3.9851 fade->period=5.0000 portion=0.7970 fade->Fstart=0.0066 fade->Ftarget=0.0072 Factor=0.0071
+	
+00:29.720.701	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	Display fade callback: updateBrightness = 0, updateVirtual = 0, updateEDRHeadroom = 0, forceSyncDBVUpdate = 1	
+00:29.720.747	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	Pivoting - RIGHT restriction: L_device 205.5501 -> 118.8318, ScalerMax = 0.5060, Fmax = 0.5200	
+00:29.720.788	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	Superbright EDR restrictions [would be]: CLTM 1,512.3809, UPO 2,175.0000, bottom [lower] restriction 1.0000, nits cap hdr: 2,175.0000, after BDM: 1,600.0000	
+00:29.720.832	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	SetLogicalBrightnessInternal caps: cltm 1,512.3809,  weakcap: 2,175.0000, gl.scalar: 1.0000, dyn.sl: 0.5200, edrcap: 1,600.0000	
+00:29.721.342	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	SyncDBV Telemetry | Transaction.ID=14,127 Latency=36.0000ms	
+00:29.721.432	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	Caps after global scaling: nitsCap=551.2000 nitsCapEDR=1,600.0000	
+00:29.721.512	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	SLBI other current=1,600.0000, calculated=1,600.0000	
+00:29.721.590	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	Factor=1.0000 Lcurrent=205.5501 maxRestriction=1,512.3809 minRestriction=1.0000 maxPanel=1,060.0000 minPanel=1.0000 L_device=118.8318	
+00:29.721.735	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	S=0.5414	
+00:29.721.771	Info	backboardd (68)	com.apple.CoreBrightness.Display	default	SyncDBV Composition | Nits.Cap=551.2000 MaxRestriction.Cap=1,512.3809 WeakRestriction.Cap=2,175.0000 PAAB.Scalar=1.0000 RightFactor.Current=0.5200 RightFactor.Overriden=NO BrightDotMitigation.Enabled=YES BrightDotMitigation.Cap=1,600.0000 EDR.Enabled=YES EDR.IsEngaged=YES EDR.Cap=1,600.0000 EDR.FadePeriod=0.0000 Panel.Max=1,060.0000 Aurora.IsBoostingBrightness=NO PreStrobe.Changed=NO PreStrobe.IsActive=NO PreStrobe.Cap=0.0000 PreStrobe.CachedNits=0.0000	
+00:29.721.989	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	Handle notification for key = DisplayBrightness and property = <private>	
+00:29.722.041	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayContaineriOS	BuiltIn	Notification block key=DisplayBrightness, value=<private>
+	
+00:29.722.188	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	Handle notification for key = FrameSynchronizedBrightnessTransaction and property = <private>	
+00:29.722.238	Info	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	HDR CAPS | RTPLC: [None] 1,600.0000, currentNitCap: 1,600.0000, dynSliderCap: 551.2000, Nits: 118.8318	
+00:29.722.283	Info	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	CBEDR statusInfo: <private>	
+00:29.722.380	Debug	backboardd (68)	com.apple.CoreBrightness.CBIndicatorBrightnessModule	default	updateRamp called, isRampRunning: NO, silState: 4, currentSDR: 118.8318, currentMIB: 115.9970, targetMIB: 1.0000, MIB: 1.0000	
+00:29.722.458	Debug	backboardd (68)	com.apple.CoreBrightness.CBIndicatorBrightnessModule	default	updateRamp finished, isRampRunning: NO, silState: 4, currentSDR: 118.8318, currentMIB: 115.9970, targetMIB: 1.0000, MIB: 1.0000	
+00:29.722.493	Default	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	HDR | _edrState: 2, forceRamp: NO	
+00:29.722.561	Default	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	Pushing sdrBrightness: 118.8318, capped _appliedHeadroom: 8.0000, brightnessLimit: 1,235.8503, potentialHeadroom: 8.0000, Ambient: 173.8135 to CA, HDRBrightness: 950.6542, [None] rtplcCap: 1,600.0000	
+00:29.722.612	Default	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	SyncDBV Transaction | ID=14,129 SDR.Nits=118.8318 HDR.Nits=950.6542 HDR.State=Engaged BrightnessLimit=1,235.8503 IndicatorBrightness.Nits=0.0000 IndicatorBrightness.Cap=1,235.8503 Headroom.Current=8.0000 Headroom.Maximum=8.0000 AppliedCompensations=1.3000 Aurora.Factor=1.0000 Aurora.RampInProgress=NO Lux=173.8135 RTPLC.State=None RTPLC.Cap=1,600.0000 RTPLC.CapApplied=NO PeakAPCE.Cap=0.0500 Nits.Cap=1,600.0000 DynamicSlider.Cap=551.2000 Twilight.Strength=0.0000 Ammolite.Strength=0.0000 ContrastEnhancer.Strength=0.0071	
+00:29.722.748	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayContaineriOS	BuiltIn	Notification block key=BrightnessTransaction, value=<private>
+	
+00:29.722.789	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayContaineriOS	BuiltIn	Notification block key=CBCACommit, value=<private>
+	
+00:29.722.828	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayContaineriOS	BuiltIn	Notification block key=FrameSynchronizedBrightnessTransaction, value=<private>
+	
+00:29.722.900	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=DisplayBrightness value=<private>	
+00:29.722.961	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=DisplayBrightness property=<private>	
+00:29.723.000	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	passed for client 58881740544	
+00:29.723.163	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=<private> value=<private>	
+00:29.723.194	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=<private> property=<private>	
+00:29.723.253	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=BrightnessTransaction value=<private>	
+00:29.723.286	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=BrightnessTransaction property=<private>	
+00:29.723.327	Debug	PerfPowerServices (1452)	com.apple.CoreBrightness	default	key=<private> property=<private> queue=0x97ede5100 clientBlock=0x97e365e90	
+00:29.723.343	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=<private> value=<private>	
+00:29.723.379	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=<private> property=<private>	
+00:29.723.470	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=CBCACommit value=<private>	
+00:29.723.568	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=CBCACommit property=<private>	

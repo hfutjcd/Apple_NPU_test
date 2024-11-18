@@ -1,0 +1,1000 @@
+00:14.733.809	Default	backboardd (68)	com.apple.CoreBrightness.ColourSensorFilterPlugin	default	[ALS] ts=48,684.1753 lux=166.6399<private> xy=(0.4297 0.4092) chs=[992.0000 2,624.0000 6,618.0000 9,514.0000 9,959.0000] CCT1=3,329.0107 gain=512x mode=<private> subsamples=24 rawLux=172.8751 nits=1,083 xTalk=[9 18 34 46 61] status=0xb copyEvent=0	
+00:14.733.985	Debug	locationd (74)	com.apple.locationd.Position	Position	AmbientLight,DecisionTree,x,174.9747,y,166.6399,z,65.5824,out,3	
+00:14.734.019	Debug	backboardd (68)	com.apple.CoreBrightness.CBColorModule.Primary	default	key=ALSIntegrationMode result=	
+00:14.734.065	Debug	locationd (74)	com.apple.locationd.Position	Position	AmbientLightDecisionTreeOutput,3	
+00:14.734.085	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[4]: 	
+00:14.734.127	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[2]: ALSIntegrationMode	
+00:14.734.178	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[2]: ALSIntegrationMode result=3	
+00:14.734.218	Debug	backboardd (68)	com.apple.CoreBrightness.CBABModuleiOS	default	key=ALSIntegrationMode result=3	
+00:14.734.255	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayContaineriOS	BuiltIn	key=ALSIntegrationMode result=3	
+00:14.734.300	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[4]: _plugInEnabled=1	
+00:14.734.337	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[4]: 0xdb4ccd900 0xdb61f9110	
+00:14.734.383	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[10]: 166.6399 	
+00:14.734.421	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[10]: als->_Esensor_device=166.6399	
+00:14.734.536	Debug	backboardd (68)	com.apple.CoreBrightness.CBALSEvent	default	Tristimulus values: XYZ[0]=55.6962, XYZ[1]=53.0431, XYZ[2]=20.8755 | CCT1=3,329.0107	
+00:14.734.587	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[2]: _luxFilter=3 als->_Ehistory_max=8	
+00:14.734.670	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[10]: Median filter computed on 8 samples	
+00:14.734.711	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	Median filter computed on 8 samples	
+00:14.734.810	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[10]: ts=48,684.1758 Esensor=169.8032 Emedian=151.3841	
+00:14.734.919	Info	backboardd (68)	com.apple.CoreBrightness.AABRear.CBRearALSModule	default	Copy Grimaldi Lux = 52.25583	
+00:14.734.962	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	E 151.3841, Ecapped 151.3841, EmaxCap -1.0000 => finalE 151.3841	
+00:14.735.063	Debug	backboardd (68)	com.apple.CoreBrightness.AABRear	default	AABRear: shouldUseRearLuxFrontLux called with (fLux:151.3841, rLux:52.2558, cap: 1,853.4945)	
+00:14.735.112	Debug	backboardd (68)	com.apple.CoreBrightness.AABRear	default	AABRear: using rear? 0	
+00:14.735.202	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	E 151.3841, Ecapped 151.3841, EmaxCap -1.0000 => finalE 151.3841	
+00:14.735.274	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayContaineriOS	BuiltIn	Notification block key=RLuxStats, value=<private>
+	
+00:14.735.327	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	Handle notification for key = RLuxStats and property = <private>	
+00:14.735.408	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[10]: _Esensor_filtered=151.3841 _Esensor_trusted=151.3841 _Esensor_aggregated=151.3841	
+00:14.735.475	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[10]: _Esensor_trusted=151.3841 _state=kAABStateAutoBrightness _proxState=kProxNone _touchIsObstucted=0 _settings._internal._dimPolicy=kDimPolicyFullDimming 3 _orientation=kIOHIDDisplayOrientationTypeAmbiguous	
+00:14.735.521	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	E 151.3841, Ecapped 151.3841, EmaxCap -1.0000 => finalE 151.3841	
+00:14.735.562	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[1/1] Esensor_device: 166.6399 als->_Esensor_filtered: 151.3841 _Esensor_trusted: 151.3841  L: 191.4493 L_reflected: 0.9637	
+00:14.735.619	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[10]: dimRestriction=kDimRestrictionUnrestricted	
+00:14.735.663	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[4]: 	
+00:14.735.708	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[200]: inputs: L=191.4493 (shouldRamp=true dimRestriction=kDimRestrictionUnrestricted _Esensor_trusted=151.3841) curveChanged=0	
+00:14.735.749	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[200]: _fastRampMode=0 dimRestriction=kDimRestrictionUnrestricted L_newtarget=191.4493 _L_current=76.2887 _L_minimum=191.4493	
+00:14.735.801	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	PLT	shallUpdateBacklight: Pstart=0.7645 Pcurrent=0.7645 Pnewtarget=0.7543 Pdelta=-0.0102 Pthreshold_dim=0.0500 (0.1000 * 0.5000) Pthreshold_brighten=0.1000 (0.1000 * 1.0000) plt_x=0.2500 plt_y=0.3700 plt_z=0.1000	
+00:14.735.866	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[200]: _L_target=205.5501 Pnewtarget=0.7543 Ptarget=0.7645 Pdelta=-0.0102  	
+00:14.735.943	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[200]: systemShallUpdateBacklight=false L_target=191.4493 timeConstant=0.0000	
+00:14.736.056	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=RLuxStats value=<private>	
+00:14.736.103	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=RLuxStats property=<private>	
+00:14.736.155	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	passed for client 58881740544	
+00:14.736.341	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=<private> value=<private>	
+00:14.736.384	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=<private> property=<private>	
+00:14.736.519	Debug	backboardd (68)	com.apple.CoreBrightness.CBALSEvent	default	Tristimulus values: XYZ[0]=55.6962, XYZ[1]=53.0431, XYZ[2]=20.8755 | CCT1=3,329.0107	
+00:14.736.533	Debug	PerfPowerServices (1452)	com.apple.CoreBrightness	default	key=<private> property=<private> queue=0x97ede5100 clientBlock=0x97e365e90	
+00:14.736.565	Debug	backboardd (68)	com.apple.CoreBrightness.CBALSNode	default	<private>	
+00:14.736.612	Debug	backboardd (68)	com.apple.CoreBrightness.CBBrightestALSFilter	default	ALS events <private>	
+00:14.736.734	Info	backboardd (68)	com.apple.CoreBrightness.CBColorPolicyFilter	default	HarmonyPolicy: Sample IS  from mitigated region	
+00:14.736.746	Info	PerfPowerServices (1452)	com.apple.CoreBrightness.BSCI	default	use_synchronous_remote=1	
+00:14.736.838	Info	backboardd (68)	com.apple.CoreBrightness.CBColorPolicyFilter	default	HarmonyPolicy: BaselineHarmony: mitigatedStr, for (lux, nits): 166.0000, 1,083.0000 = 0.1200 (rounded)	
+00:14.736.873	Default	PerfPowerServices (1452)	com.apple.xpc	connection	[0x97ef066c0] activating connection: mach=1 listener=0 peer=0 name=com.apple.backlightd	
+00:14.736.888	Info	backboardd (68)	com.apple.CoreBrightness.CBColorPolicyFilter	default	HarmonyPolicy: Sample IS NOT from CE region	
+00:14.737.038	Info	backboardd (68)	com.apple.CoreBrightness.CBColorPolicyFilter	default	HarmonyPolicy: Incoming ALS sample, pushed to queue: <private>	
+00:14.737.194	Default	PerfPowerServices (1452)	com.apple.CoreBrightness	default	Register notification block	
+00:14.737.210	Info	backboardd (68)	com.apple.CoreBrightness.CBColorPolicyFilter	default	HarmonyPolicy: _filteredALS: <private>, _filtered strength: 0.2700	
+00:14.737.253	Debug	backboardd (68)	com.apple.CoreBrightness.CBColorModule.Primary	default	ALS event with orientation = 1	
+00:14.737.301	Info	backboardd (68)	com.apple.CoreBrightness.CBColorModule.Primary	default	HarmonyPolicy: Using Baseline	
+00:14.737.339	Debug	backboardd (68)	com.apple.CoreBrightness.CBColorModule.Primary	default	input ambient color sample: xy = (0.4297;0.4092)	
+00:14.737.518	Default	backboardd (68)	com.apple.xpc	connection	[0xdb508a300] activating connection: mach=0 listener=0 peer=1 name=com.apple.backlightd.peer[1452].0xdb508a300	
+00:14.737.541	Debug	backboardd (68)	CoreBrightness	Default	LOWLUX 53.0431
+	
+00:14.737.646	Debug	backboardd (68)	CoreBrightness	Default	[ColorEffects.c:_CFXRestrictLowAmbientColor] xy=(0.4297,0.4092), CCT = 3,173.0000, CCT1 = 3,329.0107	
+00:14.737.705	Debug	backboardd (68)	CoreBrightness	Default	Restrict: (16.8740, 16.8740) -> (13.7197, 46.7848)
+	
+00:14.737.713	Info	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	client=58903570912 key=<private>	
+00:14.737.762	Debug	backboardd (68)	CoreBrightness	Default	59.9641 16.8740 57.5410 -> ANGLE 1.6782 -> BIN 2	
+00:14.737.929	Debug	backboardd (68)	CoreBrightness	Default	BIN 13: (0.4297, 0.4092) fitting in (0.4150, 0.3821)-(0.4373, 0.3893)-(0.4303, 0.4173)
+	
+00:14.738.049	Info	backboardd (68)	com.apple.CoreBrightness.CBColorModule.Primary	default	Set ambient color sample ALS event = [Orientation = 1; Illuminance = 166.000000; xy = (0.429705,0.409237); XYZ = (55.696178,53.043129,20.875511); CCT1 = 3329.010742; Integration time = 0.002906; Gain = 33554432; Obstructed = 0; First = 0, mitigation = 1, timestamp = 87729769]	
+00:14.738.138	Debug	backboardd (68)	com.apple.CoreBrightness.CBColorModule.Primary	default	key=<private> result=<private>	
+00:14.738.190	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayContaineriOS	BuiltIn	key=<private> result=<private>	
+00:14.738.233	Info	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=<private> result=<private>	
+00:14.738.572	Debug	PerfPowerServices (1452)	com.apple.CoreBrightness.Client	Default	BSC dealloc	
+00:14.738.641	Default	PerfPowerServices (1452)	com.apple.CoreBrightness	default	Register notification block	
+00:14.738.708	Default	PerfPowerServices (1452)	com.apple.xpc	connection	[0x97ef066c0] invalidated because the current process cancelled the connection by calling xpc_connection_cancel()	
+00:14.738.764	Default	backboardd (68)	com.apple.xpc	connection	[0xdb508a300] invalidated because the client process (pid 1,452) either cancelled the connection or exited	
+00:14.738.788	Debug	PerfPowerServices (1452)	com.apple.powerlog	display	Received notification for CBrLuxStats: <private>	
+00:14.738.883	Debug	PerfPowerServices (1452)	com.apple.CoreBrightness.BSCI	default	BSCI dealloc	
+00:14.738.929	Default	PerfPowerServices (1452)	com.apple.CoreBrightness	default	Register notification block	
+00:14.744.336	Default	Unknown (0)	AppleH16CameraInterface	Default	PearlCamFrameReceived - frameCount=0x2, timeStamp=0x7a31f2d372e, currentISPTime=0x7a31f343c53, currentSysTime=0x1100b4d3150, rawAddr=100040dc000, metaAddr=100044a4000, totDescriptors=79
+	
+00:14.744.360	Default	Unknown (0)	AppleH16CameraInterface	Default	PearlCamFrameReceived - isFaceDetected=1, isBracketedCaptureFrame=0, isUserEngaged=0, hasAttention=0, hasGlasses=1, hasOcclusion=0, hasEyeOcclusion=0, fIDfsmFDStatus=2 , sensorTemp=33, isFIDValidFrame=1, isERDataValid=0, isMDDataValid=0, isAttnDataValid=1
+	
+00:14.744.369	Default	Unknown (0)	AppleH16CameraInterface	Default	PearlCamFrameReceived - referenceImageType=270 (RefSurface), projectorMode=3, projectorSubMode=4,096, projectorProbeMode=0, fIDPowerProfile=2, bracketingMode=255
+	
+00:14.744.435	Debug	Unknown (0)	ApplePearlSEPDriver	Default	cameraMessageCallback <- message:<private>
+	
+00:14.744.439	Debug	Unknown (0)	ApplePearlSEPDriver	Default	queueCameraMessage <- message:(<private>, type:6)
+	
+00:14.744.444	Debug	Unknown (0)	ApplePearlSEPDriver	Default	queueCameraMessage -> err:0x0
+	
+00:14.744.446	Debug	Unknown (0)	ApplePearlSEPDriver	Default	cameraMessageCallback -> err:0x0
+	
+00:14.744.455	Debug	Unknown (0)	ApplePearlSEPDriver	Default	cameraMessageHandler: Message type: SendBuffers (6)
+	
+00:14.744.464	Debug	Unknown (0)	ApplePearlSEPDriver	Default	handleCameraMessage_SendBuffers <- message:<private>
+	
+00:14.744.480	Debug	Unknown (0)	ApplePearlSEPDriver	Default	IOPearlCameraFrame::init -> result:1 (frameId:[115:1], _framesHeldCount:1)
+	
+00:14.744.485	Default	Unknown (0)	ApplePearlSEPDriver	Default	handleCameraMessage_SendBuffers: [2]Cam --> frameId:[115:1], frameType:1, _commandMode:PresenceDetect (4), _cameraState:FaceDetect (3), delay:0ms, _framesHeld:1)
+	
+00:14.744.490	Debug	Unknown (0)	ApplePearlSEPDriver	Default	analyticsReceivedFrame <- frame:<private>
+	
+00:14.744.494	Debug	Unknown (0)	ApplePearlSEPDriver	Default	analyticsHelperFuncProcessFrameEngagementInfo <- engagementInfo: 0x10
+	
+00:14.744.501	Default	Unknown (0)	ApplePearlSEPDriver	Default	IOPearlCameraFrame::getFaceDetectInfo: FD Distance: 260, ER Distance: 0, ER Status: 0, Frame Number: 2 Camera Obstruction: FALSE
+	
+00:14.744.505	Debug	Unknown (0)	ApplePearlSEPDriver	Default	sendFaceDetectResultToClients: _faceDetected:0
+	
+00:14.744.507	Debug	Unknown (0)	IOBiometricFamily	Default	MCDataMessaging::messageClients <- type:0xe3ff8001, version:1, argument:0x40, argSize:42, argData:<private>, msgAbsTime:0
+	
+00:14.744.513	Debug	Unknown (0)	IOBiometricFamily	Default	MCDataMessaging::enqueueData <- dataStruct:<private>, dataStructSize:82
+	
+00:14.744.539	Debug	Unknown (0)	IOBiometricFamily	Default	MCDataMessaging::messageClients -> 0xe00002c7
+	
+00:14.744.542	Debug	Unknown (0)	ApplePearlSEPDriver	Default	loggingFaceDetectQueueEnqueue <- inFrame:<private>
+	
+00:14.744.584	Debug	biometrickitd (116)	com.apple.BiometricKit	Daemon-Pearl	__serviceStatus 0x104d14900(<private>) --> serviceStatus:type:inValue:
+	
+00:14.744.660	Debug	biometrickitd (116)	com.apple.BiometricKit	Daemon-Common	serviceStatus:type:inValue: 43,223 0xe3ff8000 1,802,594,116(0x6b716744)
+	
+00:14.744.700	Debug	biometrickitd (116)	com.apple.BiometricKit	Daemon-Pearl	performRequestMessageDataCommand:size:outData: 0x1100b4d41d7 42 0x16b716510
+	
+00:14.744.762	Debug	biometrickitd (116)	com.apple.BiometricKit	Daemon-Pearl	performCommand:inValue:inData:inSize:outData:outSize: --> performCommand:version:inValue:inData:inSize:outData:outSize:
+	
+00:14.744.790	Debug	biometrickitd (116)	com.apple.BiometricKit	Daemon-Pearl	performCommand:version:inValue:inData:inSize:outData:outSize: 7 1 0 0x16b716478 8 0x52e29aa40 0x16b716470
+	
+00:14.744.923	Debug	biometrickitd (116)	com.apple.BiometricKit	Daemon-Pearl	performCommand:version:inValue:inData:inSize:outData:outSize: -> [0: Undefined error: 0]
+	
+00:14.744.951	Debug	biometrickitd (116)	com.apple.BiometricKit	Daemon-Pearl	performRequestMessageDataCommand -> 0
+	
+00:14.744.981	Debug	biometrickitd (116)	com.apple.BiometricKit	Daemon-Common	serviceStatus:type:inValue: MCDMExtractMessageData 3,825,172,481 1,168,420,717,015 1 0x0 42 <private> 64(0x40) 1,168,420,717,015
+	
+00:14.745.008	Debug	biometrickitd (116)	com.apple.BiometricKit	Daemon-Pearl	serviceStatus:version:ordinal:data:timestamp: 0xe3ff8001 0x1 0x40 <private> 1,168,420,717,015
+	
+00:14.745.034	Debug	biometrickitd (116)	com.apple.BiometricKit	Daemon-Common	serviceStatus:version:ordinal:data:timestamp: 0xe3ff8001 0x1 0x40 <private> 1,168,420,717,015
+	
+00:14.745.060	Debug	biometrickitd (116)	com.apple.BiometricKit	Daemon-Pearl	statusMessage:withData:timestamp: 64 <private> 1,168,420,717,015
+	
+00:14.745.095	Debug	biometrickitd (116)	com.apple.BiometricKit	Daemon-Pearl	faceInfo:0x52e29aa40
+	
+00:14.745.130	Debug	biometrickitd (116)	com.apple.BiometricKit	Daemon-Pearl	details:<private>
+	
+00:14.745.326	Debug	biometrickitd (116)	com.apple.BiometricKit	Daemon-Common	cancelWithClient: <private>
+	
+00:14.745.512	Default	backboardd (68)	com.apple.BiometricKit	Framework-API	BKFaceDetectOperation::statusMessage: 64
+	
+00:14.745.586	Default	backboardd (68)	com.apple.BiometricKit	Framework-Internal	BKFaceDetectOperation::statusMessage: 0xdb4865c00(<private>) faceDetectStateChanged: 0
+	
+00:14.745.630	Default	backboardd (68)	com.apple.BiometricKit	Framework-API	BKOperation::statusMessage: 64
+	
+00:14.745.642	Debug	biometrickitd (116)	com.apple.BiometricKit	Daemon-Pearl	performCommand:inValue:inData:inSize:outData:outSize: --> performCommand:version:inValue:inData:inSize:outData:outSize:
+	
+00:14.745.664	Default	backboardd (68)	com.apple.BiometricKit	Framework-API	BKOperation::changeState 2
+	
+00:14.745.678	Default	backboardd (68)	com.apple.AttentionAwareness	AttentionAwareness	48,684.1977: <BiokitOperation: 0xdb4865c00> operation 0xdb6f0afa0 currentOperation 0xdb6f0afa0 faceDetectStateChanged FACE NOT FOUND pitch: 2 yaw: 0 roll: 0 orientation: Portrait attentionScore: 0faceDetectionScore: 99	
+00:14.745.694	Default	backboardd (68)	com.apple.BiometricKit	Framework-API	BKOperation::changeState -> void
+	
+00:14.745.729	Default	backboardd (68)	com.apple.BiometricKit	Framework-API	BKOperation::statusMessage: -> void
+	
+00:14.745.731	Default	backboardd (68)	com.apple.AttentionAwareness	AttentionAwareness	48,684.1978: cameraActivityNotification 1 received	
+00:14.745.771	Debug	biometrickitd (116)	com.apple.BiometricKit	Daemon-Pearl	performCommand:version:inValue:inData:inSize:outData:outSize: 6 1 0 0x0 0 0x0 0x0
+	
+00:14.745.821	Default	backboardd (68)	com.apple.BiometricKit	Framework-API	BKFaceDetectOperation::statusMessage: -> void
+	
+00:14.745.944	Debug	Unknown (0)	ApplePearlSEPDriver	Default	analyticsCurrentEventCancel <- _analyticsCurrentEvent:1,003
+	
+00:14.745.947	Debug	Unknown (0)	ApplePearlSEPDriver	Default	analyticsCurrentEventStop <- _analyticsCurrentEvent:1,003
+	
+00:14.745.949	Debug	Unknown (0)	ApplePearlSEPDriver	Default	analyticsFaceDetectStop <- 
+	
+00:14.745.951	Debug	Unknown (0)	ApplePearlSEPDriver	Default	analyticsCurrentEventFinish <- _analyticsCurrentEvent:1,003
+	
+00:14.745.959	Debug	Unknown (0)	IOBiometricFamily	Default	MCDataMessaging::messageClients <- type:0xe3ff8001, version:1, argument:0x63, argSize:0, argData:0x0, msgAbsTime:0
+	
+00:14.745.962	Default	backboardd (68)	com.apple.AttentionAwareness	AttentionAwareness	48,684.1980: <AWPearlAttentionSampler: 0xdb40cc140> (samplingSuppressed: false unitTestSampling: false) updateFaceState:withFaceMetadata: FACE NOT FOUND at   48684.19796	
+00:14.745.980	Debug	Unknown (0)	IOBiometricFamily	Default	MCDataMessaging::messageClients -> 0xe00002c7
+	
+00:14.745.982	Debug	Unknown (0)	ApplePearlSEPDriver	Default	resetSecureFaceDetectState <- 
+	
+00:14.745.985	Default	Unknown (0)	IOBiometricFamily	Default	IOBiometricService::switchCommandMode: PresenceDetect (4) -> Idle (1)
+	
+00:14.745.988	Default	Unknown (0)	ApplePearlSEPDriver	Default	handleCommandModeSwitch: PresenceDetect (4) -> Idle (1)
+	
+00:14.745.990	Debug	Unknown (0)	ApplePearlSEPDriver	Default	loggingFaceDetectQueueHandleResult <- 
+	
+00:14.745.993	Debug	Unknown (0)	ApplePearlSEPDriver	Default	loggingFaceDetectQueueHandleResult -> err:0x0
+	
+00:14.745.994	Debug	Unknown (0)	ApplePearlSEPDriver	Default	gatherSequenceInfo <- 
+	
+00:14.745.996	Info	Unknown (0)	ApplePearlSEPDriver	Default	gatherSequenceInfo: lastSequenceNumber:114, _loggingCurrentSequenceId.number:115
+	
+00:14.746.000	Debug	Unknown (0)	ApplePearlSEPDriver	Default	commandCancel -> err:0x0
+	
+00:14.746.002	Debug	Unknown (0)	ApplePearlSEPDriver	Default	checkCameraState <- msDelay:0
+	
+00:14.746.010	Debug	Unknown (0)	IOBiometricFamily	Default	IOBiometricService::unlockCommandAccess <- 
+	
+00:14.746.096	Debug	biometrickitd (116)	com.apple.BiometricKit	Daemon-Pearl	performCommand:version:inValue:inData:inSize:outData:outSize: -> [0: Undefined error: 0]
+	
+00:14.746.098	Debug	Unknown (0)	ApplePearlSEPDriver	Default	makeProcessingThreadsNonRealTime -> err:0x0
+	
+00:14.746.102	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamInFrameReceiverBufferPool:ShowBuffers - PearlCam Pool Buffer (in-use): surface-id:cb, DART:10003b78000, size:1,851,520
+	
+00:14.746.103	Debug	Unknown (0)	ApplePearlSEPDriver	Default	stopCamera -> err:0x0
+	
+00:14.746.106	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamInFrameReceiverBufferPool:ShowBuffers - PearlCam Pool Buffer (in-use): surface-id:df, DART:100039ac000, size:1,851,520
+	
+00:14.746.107	Debug	Unknown (0)	ApplePearlSEPDriver	Default	unmapScheme3IOBMD <- S3DynamicIOBMD:<private>
+	
+00:14.746.109	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamInFrameReceiverBufferPool:ShowBuffers - PearlCam Pool Buffer (in-use): surface-id:e2, DART:100037e0000, size:1,851,520
+	
+00:14.746.112	Debug	Unknown (0)	AppleSEPGenericTransfer	Default	AppleSEPGenericTransfer::getEndpoint: -> 0, 	
+00:14.746.114	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamInFrameReceiverBufferPool:ShowBuffers - PearlCam Pool Buffer (in-use): surface-id:dc, DART:10003614000, size:1,851,520
+	
+00:14.746.116	Debug	Unknown (0)	ApplePearlSEPDriver	Default	unmapScheme3IOBMD -> err:0x0
+	
+00:14.746.117	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamInFrameReceiverBufferPool:ShowBuffers - PearlCam Pool Buffer (in-use): surface-id:db, DART:10003448000, size:1,851,520
+	
+00:14.746.120	Info	Unknown (0)	ApplePearlSEPDriver	Default	sendMessageToCamera: messageType:PowerOff (1)
+	
+00:14.746.121	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamInFrameReceiverBufferPool:ShowBuffers - PearlCam Pool Buffer (in-use): surface-id:da, DART:1000327c000, size:1,851,520
+	
+00:14.746.123	Info	Unknown (0)	ApplePearlSEPDriver	Default	switchCameraState: Idle (2) -> PoweredOff (1)
+	
+00:14.746.125	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamInFrameReceiverBufferPool:ShowBuffers - PearlCam Pool Buffer (in-use): surface-id:d7, DART:100030b0000, size:1,851,520
+	
+00:14.746.127	Debug	Unknown (0)	ApplePearlSEPDriver	Default	stopAndPowerOffCamera -> err:0x0
+	
+00:14.746.129	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamInFrameReceiverBufferPool:ShowBuffers - PearlCam Pool Buffer (in-use): surface-id:d6, DART:10002ee4000, size:1,851,520
+	
+00:14.746.131	Debug	Unknown (0)	IOBiometricFamily	Default	IOBiometricService::unlockCommandAccess <- 
+	
+00:14.746.133	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamInFrameReceiverBufferPool:ShowBuffers - PearlCam Pool Buffer (in-use): surface-id:e6, DART:10002d18000, size:1,851,520
+	
+00:14.746.135	Debug	Unknown (0)	ApplePearlSEPDriver	Default	cameraStateHandler -> void
+	
+00:14.746.137	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamInFrameReceiverBufferPool:ShowBuffers - PearlCam Pool Buffer (in-use): surface-id:d5, DART:100042a8000, size:1,851,520
+	
+00:14.746.141	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamInFrameReceiverBufferPool:ShowBuffers - PearlCam Pool Buffer (free):   surface-id:47, DART:1000241c000, size:1,851,520
+	
+00:14.746.145	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamInFrameReceiverBufferPool:ShowBuffers - PearlCam Pool Buffer (free):   surface-id:95, DART:100025e8000, size:1,851,520
+	
+00:14.746.149	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamInFrameReceiverBufferPool:ShowBuffers - PearlCam Pool Buffer (free):   surface-id:99, DART:100027b4000, size:1,851,520
+	
+00:14.746.152	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamInFrameReceiverBufferPool:ShowBuffers - PearlCam Pool Buffer (free):   surface-id:b7, DART:10002980000, size:1,851,520
+	
+00:14.746.155	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamInFrameReceiverBufferPool:ShowBuffers - PearlCam Pool Buffer (free):   surface-id:cd, DART:10002b4c000, size:1,851,520
+	
+00:14.746.158	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamInFrameReceiverBufferPool:ShowBuffers - PearlCam Pool Buffer (free):   surface-id:d3, DART:100040dc000, size:1,851,520
+	
+00:14.746.162	Default	Unknown (0)	AppleH16CameraInterface	Default	PearlCam Pool: poolID=141, inUseCount=12, freeCount=6, totalCount=18, fNumBuffersSentToFirmware=12, totalMemoryAllocated: 571,392
+
+	
+00:14.746.166	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamInFrameReceiverBufferPool:ShowBuffers - PearlCam Pool Buffer (in-use): surface-id:fb, DART:10004498000, size:31,744
+	
+00:14.746.169	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamInFrameReceiverBufferPool:ShowBuffers - PearlCam Pool Buffer (in-use): surface-id:fc, DART:1000448c000, size:31,744
+	
+00:14.746.172	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamInFrameReceiverBufferPool:ShowBuffers - PearlCam Pool Buffer (in-use): surface-id:fa, DART:10004480000, size:31,744
+	
+00:14.746.176	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamInFrameReceiverBufferPool:ShowBuffers - PearlCam Pool Buffer (in-use): surface-id:f8, DART:10004474000, size:31,744
+	
+00:14.746.179	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamInFrameReceiverBufferPool:ShowBuffers - PearlCam Pool Buffer (in-use): surface-id:f9, DART:100023dc000, size:31,744
+	
+00:14.746.183	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamInFrameReceiverBufferPool:ShowBuffers - PearlCam Pool Buffer (in-use): surface-id:f7, DART:100023d0000, size:31,744
+	
+00:14.746.186	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamInFrameReceiverBufferPool:ShowBuffers - PearlCam Pool Buffer (in-use): surface-id:f6, DART:100023c4000, size:31,744
+	
+00:14.746.189	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamInFrameReceiverBufferPool:ShowBuffers - PearlCam Pool Buffer (in-use): surface-id:f5, DART:100023b8000, size:31,744
+	
+00:14.746.193	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamInFrameReceiverBufferPool:ShowBuffers - PearlCam Pool Buffer (in-use): surface-id:f1, DART:1000235c000, size:31,744
+	
+00:14.746.196	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamInFrameReceiverBufferPool:ShowBuffers - PearlCam Pool Buffer (in-use): surface-id:f0, DART:10002350000, size:31,744
+	
+00:14.746.199	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamInFrameReceiverBufferPool:ShowBuffers - PearlCam Pool Buffer (in-use): surface-id:fd, DART:10002344000, size:31,744
+	
+00:14.746.202	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamInFrameReceiverBufferPool:ShowBuffers - PearlCam Pool Buffer (in-use): surface-id:ef, DART:100044b0000, size:31,744
+	
+00:14.746.205	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamInFrameReceiverBufferPool:ShowBuffers - PearlCam Pool Buffer (free):   surface-id:e8, DART:100022dc000, size:31,744
+	
+00:14.746.209	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamInFrameReceiverBufferPool:ShowBuffers - PearlCam Pool Buffer (free):   surface-id:e9, DART:100022e8000, size:31,744
+	
+00:14.746.212	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamInFrameReceiverBufferPool:ShowBuffers - PearlCam Pool Buffer (free):   surface-id:ea, DART:100022f4000, size:31,744
+	
+00:14.746.215	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamInFrameReceiverBufferPool:ShowBuffers - PearlCam Pool Buffer (free):   surface-id:eb, DART:10002300000, size:31,744
+	
+00:14.746.218	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamInFrameReceiverBufferPool:ShowBuffers - PearlCam Pool Buffer (free):   surface-id:ed, DART:10002338000, size:31,744
+	
+00:14.746.221	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamInFrameReceiverBufferPool:ShowBuffers - PearlCam Pool Buffer (free):   surface-id:ee, DART:100044a4000, size:31,744
+	
+00:14.746.225	Default	Unknown (0)	AppleH16CameraInterface	Default	PearlCam Pool: poolID=158, inUseCount=12, freeCount=6, totalCount=18, fNumBuffersSentToFirmware=12, totalMemoryAllocated: 2,064,384
+
+	
+00:14.746.229	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamInFrameReceiverBufferPool:ShowBuffers - PearlCam Pool Buffer (in-use): surface-id:145, DART:0, size:114,688
+	
+00:14.746.232	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamInFrameReceiverBufferPool:ShowBuffers - PearlCam Pool Buffer (in-use): surface-id:144, DART:0, size:114,688
+	
+00:14.746.234	Debug	biometrickitd (116)	com.apple.BiometricKit	Daemon-Common	cancelWithClient: -> 0
+	
+00:14.746.236	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamInFrameReceiverBufferPool:ShowBuffers - PearlCam Pool Buffer (in-use): surface-id:143, DART:0, size:114,688
+	
+00:14.746.239	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamInFrameReceiverBufferPool:ShowBuffers - PearlCam Pool Buffer (in-use): surface-id:142, DART:0, size:114,688
+	
+00:14.746.243	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamInFrameReceiverBufferPool:ShowBuffers - PearlCam Pool Buffer (in-use): surface-id:141, DART:0, size:114,688
+	
+00:14.746.246	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamInFrameReceiverBufferPool:ShowBuffers - PearlCam Pool Buffer (in-use): surface-id:117, DART:0, size:114,688
+	
+00:14.746.249	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamInFrameReceiverBufferPool:ShowBuffers - PearlCam Pool Buffer (in-use): surface-id:109, DART:0, size:114,688
+	
+00:14.746.252	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamInFrameReceiverBufferPool:ShowBuffers - PearlCam Pool Buffer (in-use): surface-id:108, DART:0, size:114,688
+	
+00:14.746.255	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamInFrameReceiverBufferPool:ShowBuffers - PearlCam Pool Buffer (in-use): surface-id:107, DART:0, size:114,688
+	
+00:14.746.258	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamInFrameReceiverBufferPool:ShowBuffers - PearlCam Pool Buffer (in-use): surface-id:106, DART:0, size:114,688
+	
+00:14.746.261	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamInFrameReceiverBufferPool:ShowBuffers - PearlCam Pool Buffer (in-use): surface-id:105, DART:0, size:114,688
+	
+00:14.746.265	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamInFrameReceiverBufferPool:ShowBuffers - PearlCam Pool Buffer (in-use): surface-id:104, DART:0, size:114,688
+	
+00:14.746.268	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamInFrameReceiverBufferPool:ShowBuffers - PearlCam Pool Buffer (free):   surface-id:fe, DART:0, size:114,688
+	
+00:14.746.271	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamInFrameReceiverBufferPool:ShowBuffers - PearlCam Pool Buffer (free):   surface-id:ff, DART:0, size:114,688
+	
+00:14.746.274	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamInFrameReceiverBufferPool:ShowBuffers - PearlCam Pool Buffer (free):   surface-id:100, DART:0, size:114,688
+	
+00:14.746.278	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamInFrameReceiverBufferPool:ShowBuffers - PearlCam Pool Buffer (free):   surface-id:101, DART:0, size:114,688
+	
+00:14.746.281	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamInFrameReceiverBufferPool:ShowBuffers - PearlCam Pool Buffer (free):   surface-id:102, DART:0, size:114,688
+	
+00:14.746.284	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamInFrameReceiverBufferPool:ShowBuffers - PearlCam Pool Buffer (free):   surface-id:103, DART:0, size:114,688
+	
+00:14.746.287	Default	Unknown (0)	AppleH16CameraInterface	Default	totalPearlStreamingBuffersAllocationSize=35,963,136
+
+	
+00:14.746.313	Default	backboardd (68)	com.apple.AttentionAwareness	AttentionAwareness	48,684.1983: <AWPearlAttentionSampler: 0xdb40cc140> (samplingSuppressed: false unitTestSampling: false) ignoring invalid AWAttentionSamplerState transition (Unknown -> Absent)	
+00:14.746.416	Default	backboardd (68)	com.apple.AttentionAwareness	AttentionAwareness	48,684.1984: <AWScheduler: 0xdb4044540> (identifier: Face detect scheduler) attentionSampler state change (updateFaceState:withFaceMetadata: FACE NOT FOUND at   48684.19796)	
+00:14.746.426	Default	Unknown (0)	AppleH16CameraInterface	Default	ISPCPU (Print:125,399:58,471:416): [Flow]Stop DeferRawBufAllocationService...
+	
+00:14.746.447	Default	Unknown (0)	AppleH16CameraInterface	Default	ISPCPU (Print:125,400:58,472:417): [Flow]DeferRawBufAllocationService Stop done! total 0.02 ms
+	
+00:14.746.474	Default	biometrickitd (116)	com.apple.BiometricKit	Daemon-Pearl	sending status message 64 to <private>
+	
+00:14.746.503	Default	Unknown (0)	AppleH16CameraInterface	Default	ISPCPU (Print:125,401:58,473:418): [AlgoCtrl]FD suspend done! suspend 1 
+	
+00:14.746.505	Default	Unknown (0)	AppleH16CameraInterface	Default	ISPCPU (Print:125,402:58,474:419): [Flow]Stop PDAF...
+	
+00:14.746.518	Default	Unknown (0)	AppleH16CameraInterface	Default	ISPCPU (Print:125,403:58,475:420): [Flow]PDAF Stop done! total 0.01 ms
+	
+00:14.746.519	Default	Unknown (0)	AppleH16CameraInterface	Default	ISPCPU (Print:125,404:58,476:421): [Flow]Stop LSC...
+	
+00:14.746.636	Default	backboardd (68)	com.apple.AttentionAwareness	AttentionAwareness	48,684.1986: <AWScheduler: 0xdb4044540> (identifier: Face detect scheduler) attentionSampler state change (updateFaceState:withFaceMetadata: FACE NOT FOUND at   48684.19796)	
+00:14.746.671	Default	Unknown (0)	AppleH16CameraInterface	Default	ISPCPU (Print:125,405:58,477:422): [Flow]LSC Stop done! total 0.15 ms
+	
+00:14.746.679	Default	Unknown (0)	AppleH16CameraInterface	Default	ISPCPU (Print:125,406:58,478:423): FlowAEIR03:ChannelCleanUp: autoSuspendMask 0x0, ch 3
+	
+00:14.746.691	Default	biometrickitd (116)	com.apple.BiometricKit	Daemon-Pearl	sending status message 64 to <private>
+	
+00:14.746.762	Default	Unknown (0)	AppleH16CameraInterface	Default	ISPCPU (Print:125,407:58,479:424): TM: Ch 3 Receiving CMD of flush captured frames
+	
+00:14.746.772	Default	Unknown (0)	AppleH16CameraInterface	Default	ISPCPU (Print:125,408:58,480:425): TMH9: ch 3 is not in sync
+	
+00:14.746.775	Default	Unknown (0)	AppleH16CameraInterface	Default	ISPCPU (Print:125,409:58,481:426): TM: Reset TM capture param ch 3
+	
+00:14.746.780	Default	Unknown (0)	AppleH16CameraInterface	Default	ISPCPU (Print:125,410:58,482:427): [Flow]Stop AlgoControl...
+	
+00:14.746.854	Debug	biometrickitd (116)	com.apple.BiometricKit	Daemon-Pearl	statusMessage:withData:timestamp: -> void (_ <private>)
+	
+00:14.746.973	Debug	biometrickitd (116)	com.apple.BiometricKit	Daemon-Pearl	serviceStatus:type:inValue: -> 0x0
+	
+00:14.747.108	Debug	biometrickitd (116)	com.apple.BiometricKit	Daemon-Pearl	__serviceStatus 0x104d14900(<private>) --> serviceStatus:type:inValue:
+	
+00:14.747.216	Debug	biometrickitd (116)	com.apple.BiometricKit	Daemon-Common	serviceStatus:type:inValue: 43,227 0xe3ff8000 1,802,602,308(0x6b718744)
+	
+00:14.747.331	Debug	biometrickitd (116)	com.apple.BiometricKit	Daemon-Common	serviceStatus:type:inValue: MCDMExtractMessageData 3,825,172,481 0 1 0x63 0  99(0x63) 1,168,420,751,852
+	
+00:14.747.402	Debug	biometrickitd (116)	com.apple.BiometricKit	Daemon-Pearl	serviceStatus:version:ordinal:data:timestamp: 0xe3ff8001 0x1 0x63  1,168,420,751,852
+	
+00:14.747.537	Debug	biometrickitd (116)	com.apple.BiometricKit	Daemon-Common	serviceStatus:version:ordinal:data:timestamp: 0xe3ff8001 0x1 0x63  1,168,420,751,852
+	
+00:14.747.656	Debug	biometrickitd (116)	com.apple.BiometricKit	Daemon-Pearl	statusMessage:withData:timestamp: 99  1,168,420,751,852
+	
+00:14.747.835	Debug	biometrickitd (116)	com.apple.BiometricKit	Daemon-Common	switchToNextBioOperation: 0
+	
+00:14.747.947	Default	backboardd (68)	com.apple.BiometricKit	Framework-API	BKFaceDetectOperation::statusMessage: 1,051
+	
+00:14.747.961	Debug	biometrickitd (116)	com.apple.BiometricKit	Daemon-Common	resumeQueuedBioOperation
+	
+00:14.747.981	Info	biometrickitd (116)	com.apple.locationd.Motion	Orientation	Received deviceOrientationBlocking	
+00:14.747.988	Default	backboardd (68)	com.apple.BiometricKit	Framework-API	BKOperation::operationEndsWithReason: 4 (_cid 3,749,547,185)
+	
+00:14.748.020	Default	backboardd (68)	com.apple.BiometricKit	Framework-API	BKOperation::changeState 4
+	
+00:14.748.050	Default	backboardd (68)	com.apple.BiometricKit	Framework-API	BKOperation::changeState -> void
+	
+00:14.748.107	Debug	biometrickitd (116)	com.apple.BiometricKit	Daemon-Common	resumeQueuedBioOperation: -> void
+	
+00:14.748.172	Default	backboardd (68)	com.apple.AttentionAwareness	AttentionAwareness	48,684.2002: <BiokitOperation: 0xdb4865c00> operation 0xdb6f0afa0 currentOperation 0xdb6f0afa0 (timeout       0.00000) finishedWithReason Timeout	
+00:14.748.385	Default	backboardd (68)	com.apple.BiometricKit	Framework-API	BKOperation::operationEndsWithReason: -> void
+	
+00:14.748.404	Default	biometrickitd (116)	com.apple.BiometricKit	Daemon-Common	updateActiveOperationNotificationWithOverride: posted value = 0
+	
+00:14.748.459	Default	backboardd (68)	com.apple.AttentionAwareness	AttentionAwareness	48,684.2005: cameraActivityNotification 2 received	
+00:14.748.585	Default	backboardd (68)	com.apple.BiometricKit	Framework-API	BKOperation::statusMessage: 1,051
+	
+00:14.748.602	Debug	biometrickitd (116)	com.apple.BiometricKit	Daemon-Common	switchToNextBioOperation: -> void
+	
+00:14.748.705	Default	backboardd (68)	com.apple.AttentionAwareness	AttentionAwareness	48,684.2007: Operation end reason 4 received	
+00:14.748.767	Debug	biometrickitd (116)	com.apple.BiometricKit	Daemon-Common	cancelWithClient: <private>
+	
+00:14.748.792	Default	biometrickitd (116)	com.apple.BiometricKit	Daemon-Pearl	sending status message 1,051 to <private>
+	
+00:14.748.836	Default	backboardd (68)	com.apple.BiometricKit	Framework-API	BKOperation::statusMessage: -> void
+	
+00:14.748.898	Debug	biometrickitd (116)	com.apple.BiometricKit	Daemon-Pearl	performCommand:inValue:inData:inSize:outData:outSize: --> performCommand:version:inValue:inData:inSize:outData:outSize:
+	
+00:14.748.998	Debug	biometrickitd (116)	com.apple.BiometricKit	Daemon-Pearl	statusMessage:withData:timestamp: -> void (_ <private>)
+	
+00:14.749.062	Default	backboardd (68)	com.apple.BiometricKit	Framework-API	BKFaceDetectOperation::statusMessage: -> void
+	
+00:14.749.114	Debug	biometrickitd (116)	com.apple.BiometricKit	Daemon-Pearl	performCommand:version:inValue:inData:inSize:outData:outSize: 6 1 0 0x0 0 0x0 0x0
+	
+00:14.749.231	Debug	biometrickitd (116)	com.apple.BiometricKit	Daemon-Pearl	serviceStatus:type:inValue: -> 0x0
+	
+00:14.749.348	Debug	Unknown (0)	ApplePearlSEPDriver	Default	ApplePearlUserClient::externalMethod <- selector:0, arguments:<private>, dispatch:0x0, target:0x0, reference:0x0
+	
+00:14.749.360	Debug	Unknown (0)	ApplePearlSEPDriver	Default	ApplePearlUserClient::extPerform <- inObj:<private>, inRef:0x0, inArg:<private>
+	
+00:14.749.378	Debug	Unknown (0)	IOBiometricFamily	Default	IOBiometricService::performCommand <- inData:<private>, outData:0x0, outSize:<private> --> performCommandGated
+	
+00:14.749.382	Debug	Unknown (0)	IOBiometricFamily	Default	IOBiometricService::performCommandGated <- inData:<private>, outData:0x0, outSize:<private>
+	
+00:14.749.393	Debug	Unknown (0)	ApplePearlSEPDriver	Default	performSpecificCommandGated <- cmd:<private>, payload:<private>, payloadSize:0 outData:0x0, outSize:<private>
+	
+00:14.749.396	Default	Unknown (0)	ApplePearlSEPDriver	Default	performSpecificCommandGated: command:Cancel (6), value:0, inLength:0, outLength:0
+	
+00:14.749.400	Debug	Unknown (0)	ApplePearlSEPDriver	Default	waitForInstantMatchCancelEnabled <- 
+	
+00:14.749.402	Debug	Unknown (0)	ApplePearlSEPDriver	Default	waitForInstantMatchCancelEnabled -> err:0x0
+	
+00:14.749.403	Debug	Unknown (0)	IOBiometricFamily	Default	IOBiometricService::lockCommandAccess <- 
+	
+00:14.749.407	Debug	Unknown (0)	ApplePearlSEPDriver	Default	checkCameraState <- msDelay:0
+	
+00:14.749.413	Debug	Unknown (0)	IOBiometricFamily	Default	IOBiometricService::unlockCommandAccess <- 
+	
+00:14.749.414	Debug	Unknown (0)	ApplePearlSEPDriver	Default	performSpecificCommandGated -> err:0x0
+	
+00:14.749.417	Debug	Unknown (0)	IOBiometricFamily	Default	IOBiometricService::performCommandGated -> err:0x0
+	
+00:14.749.420	Debug	Unknown (0)	ApplePearlSEPDriver	Default	ApplePearlUserClient::extPerform -> err:0x0
+	
+00:14.749.431	Debug	Unknown (0)	ApplePearlSEPDriver	Default	ApplePearlUserClient::externalMethod -> err:0x0
+	
+00:14.749.432	Debug	Unknown (0)	ApplePearlSEPDriver	Default	cameraStateHandler <- sender:<private>
+	
+00:14.749.436	Debug	biometrickitd (116)	com.apple.BiometricKit	Daemon-Pearl	__serviceStatus 0x104d14900(<private>) --> serviceStatus:type:inValue:
+	
+00:14.749.437	Debug	Unknown (0)	IOBiometricFamily	Default	IOBiometricService::lockCommandAccess <- 
+	
+00:14.749.439	Debug	biometrickitd (116)	com.apple.BiometricKit	Daemon-Pearl	performCommand:version:inValue:inData:inSize:outData:outSize: -> [0: Undefined error: 0]
+	
+00:14.749.440	Default	Unknown (0)	ApplePearlSEPDriver	Default	cameraStateHandler: _commandMode:Idle (1), _cameraState:PoweredOff (1), _faceDetected:0, _failedCommand:0, _newOperationStarted:0
+	
+00:14.749.444	Debug	Unknown (0)	ApplePearlSEPDriver	Default	analyticsCurrentEventStop <- _analyticsCurrentEvent:1,003
+	
+00:14.749.447	Debug	Unknown (0)	ApplePearlSEPDriver	Default	analyticsFaceDetectStop <- 
+	
+00:14.749.449	Debug	Unknown (0)	ApplePearlSEPDriver	Default	stopAndPowerOffCamera <- msPowerOffDelay:0
+	
+00:14.749.451	Debug	Unknown (0)	ApplePearlSEPDriver	Default	stopAndPowerOffCamera -> err:0x0
+	
+00:14.749.452	Debug	Unknown (0)	IOBiometricFamily	Default	IOBiometricService::unlockCommandAccess <- 
+	
+00:14.749.454	Debug	Unknown (0)	ApplePearlSEPDriver	Default	cameraStateHandler -> void
+	
+00:14.749.534	Default	biometrickitd (116)	com.apple.locationd.Motion	Orientation	Got cached orientation 1	
+00:14.749.539	Debug	biometrickitd (116)	com.apple.BiometricKit	Daemon-Common	serviceStatus:type:inValue: 43,231 0xe3ff8000 1,802,594,116(0x6b716744)
+	
+00:14.749.603	Debug	backboardd (68)	com.apple.BackBoard	MotionEvents	Motion event usagePage:0xff0c usage:1 	
+00:14.749.619	Debug	biometrickitd (116)	com.apple.BiometricKit	Daemon-Common	cancelWithClient: -> 0
+	
+00:14.749.660	Debug	biometrickitd (116)	com.apple.BiometricKit	Daemon-Common	serviceStatus:type:inValue: MCDMExtractMessageData 3,825,172,481 0 1 0x3ec 0  1,004(0x3ec) 1,168,420,754,444
+	
+00:14.749.690	Info	locationd (74)	com.apple.locationd.Motion	AOP	{"msg":"received AOP log", "log":72 Bytes}	
+00:14.749.809	Debug	biometrickitd (116)	com.apple.BiometricKit	Daemon-Pearl	serviceStatus:version:ordinal:data:timestamp: 0xe3ff8001 0x1 0x3ec  1,168,420,754,444
+	
+00:14.749.860	Default	biometrickitd (116)	com.apple.locationd.Motion	Orientation	Stopping orientation updates, latest 1, last significant 0	
+00:14.749.950	Debug	biometrickitd (116)	com.apple.BiometricKit	Daemon-Common	serviceStatus:version:ordinal:data:timestamp: 0xe3ff8001 0x1 0x3ec  1,168,420,754,444
+	
+00:14.750.057	Debug	biometrickitd (116)	com.apple.locationd.Motion	Accessory	unregistering for keyboard updates	
+00:14.750.171	Default	Unknown (0)	AppleH16CameraInterface	Default	ISPCPU (Print:125,411:58,483:428): [Flow]AlgoControl Stop done! total 3.39 ms
+	
+00:14.750.175	Default	Unknown (0)	AppleH16CameraInterface	Default	ISPCPU (Print:125,412:58,484:429): [Flow]Stop AlgoControlServer...
+	
+00:14.750.226	Debug	biometrickitd (116)	com.apple.locationd.Motion	Motion	[CLIoHidInterface] Apply all dirty device properties	
+00:14.750.264	Debug	biometrickitd (116)	com.apple.BiometricKit	Daemon-Pearl	statusMessage:withData:timestamp: 1,004  1,168,420,754,444
+	
+00:14.750.455	Debug	backboardd (68)	com.apple.iohid	service	0x10000099d: set property:ReportInterval value:0 client:05581CB2-4280-49DA-85D6-D7159BDF0232	
+00:14.750.464	Default	backboardd (68)	com.apple.BiometricKit	Framework-API	BKDevicePearl::statusMessage: 1,004
+	
+00:14.750.476	Default	biometrickitd (116)	com.apple.BiometricKit	Daemon-Pearl	sending status message 1,004 to <private>
+	
+00:14.750.493	Default	backboardd (68)	com.apple.iohid	service	0x10000099d: set report interval:0 client:05581CB2-4280-49DA-85D6-D7159BDF0232	
+00:14.750.497	Default	backboardd (68)	com.apple.BiometricKit	Framework-API	BKDevicePearl::statusMessage: -> void
+	
+00:14.750.544	Default	biometrickitd (116)	com.apple.locationd.Motion	Motion	[CLIoHidInterface] Property for usage pair {32, 138}: {ReportInterval = 0} was set successfully	
+00:14.750.615	Debug	backboardd (68)	com.apple.BackBoard	MotionEvents	Motion event usagePage:0xff0c usage:1 	
+00:14.750.639	Info	biometrickitd (116)	com.apple.locationd.Motion	Motion	Opening hid driver interface for usage pair {32, 138}, hidServiceRef <private>	
+00:14.750.640	Default	SpringBoard (34)	com.apple.BiometricKit	Framework-API	BKDevicePearl::statusMessage: 1,004
+	
+00:14.750.684	Debug	locationd (74)	com.apple.locationd.Motion	AOP	MotionCoprocessor received TimeSync data machTimestamp,<private>,oscarTimestamp,<private>	
+00:14.750.755	Default	Unknown (0)	IOHIDFamily	Default	AppleSPUHIDDevice:0x100000930 close by AppleSPUHIDDeviceUserClient:0x100006cdd (0x0)
+	
+00:14.750.758	Default	SpringBoard (34)	com.apple.BiometricKit	Framework-API	BKDevicePearl::statusMessage: -> void
+	
+00:14.750.806	Debug	biometrickitd (116)	com.apple.BiometricKit	Daemon-Pearl	statusMessage:withData:timestamp: -> void (_ )
+	
+00:14.751.047	Debug	biometrickitd (116)	com.apple.CFBundle	plugin	RemoveInstanceForFactory: Removed instance on 0x52e0bc180 for <CFUUID 0x52e003cc0> 44F6B535-C083-49EF-BFF0-138653A21786	
+00:14.751.139	Debug	biometrickitd (116)	com.apple.locationd.Motion	Motion	[CLIoHidInterface] Adding match entry for usage pair {65,292, 3}	
+00:14.751.225	Debug	biometrickitd (116)	com.apple.locationd.Motion	Motion	[CLIoHidInterface] Setting matching multiple for 1 events	
+00:14.751.340	Debug	biometrickitd (116)	com.apple.BiometricKit	Daemon-Pearl	serviceStatus:type:inValue: -> 0x0
+	
+00:14.751.467	Debug	biometrickitd (116)	com.apple.BiometricKit	Daemon-Pearl	__serviceStatus 0x104d14900(<private>) --> serviceStatus:type:inValue:
+	
+00:14.751.649	Debug	biometrickitd (116)	com.apple.BiometricKit	Daemon-Common	serviceStatus:type:inValue: 43,235 0xe3ff8000 1,802,602,308(0x6b718744)
+	
+00:14.751.713	Debug	biometrickitd (116)	com.apple.BiometricKit	Daemon-Common	serviceStatus:type:inValue: MCDMExtractMessageData 3,825,172,481 0 1 0x3f3 0  1,011(0x3f3) 1,168,420,754,844
+	
+00:14.751.714	Default	backboardd (68)	com.apple.iohid	default	Connection: 05581CB2-4280-49DA-85D6-D7159BDF0232 not entitled to match protected service: 4294969844	
+00:14.751.788	Debug	biometrickitd (116)	com.apple.BiometricKit	Daemon-Pearl	serviceStatus:version:ordinal:data:timestamp: 0xe3ff8001 0x1 0x3f3  1,168,420,754,844
+	
+00:14.751.851	Default	backboardd (68)	com.apple.iohid	default	Connection: 05581CB2-4280-49DA-85D6-D7159BDF0232 not entitled to match protected service: 4294969854	
+00:14.751.925	Debug	biometrickitd (116)	com.apple.BiometricKit	Daemon-Common	serviceStatus:version:ordinal:data:timestamp: 0xe3ff8001 0x1 0x3f3  1,168,420,754,844
+	
+00:14.752.014	Debug	biometrickitd (116)	com.apple.BiometricKit	Daemon-Pearl	statusMessage:withData:timestamp: 1,011  1,168,420,754,844
+	
+00:14.752.200	Info	biometrickitd (116)	com.apple.locationd.Motion	Motion	[CLIoHidInterface] Invalidating hid service refs	
+00:14.752.237	Default	backboardd (68)	com.apple.BiometricKit	Framework-API	BKDevicePearl::statusMessage: 1,011
+	
+00:14.752.256	Debug	biometrickitd (116)	com.apple.locationd.Motion	Motion	[CLIoHidInterface] Device,hidUsagePage,65,292,hidUsage,3,hasCallback,1,serviceRef,<private>	
+00:14.752.264	Default	biometrickitd (116)	com.apple.BiometricKit	Daemon-Pearl	sending status message 1,011 to <private>
+	
+00:14.752.293	Default	SpringBoard (34)	com.apple.BiometricKit	Framework-API	BKDevicePearl::statusMessage: 1,011
+	
+00:14.752.349	Default	SpringBoard (34)	com.apple.BiometricKit	Framework-API	BKDevicePearl::statusMessage: -> void
+	
+00:14.752.357	Default	backboardd (68)	com.apple.BiometricKit	Framework-API	BKDevicePearl::statusMessage: -> void
+	
+00:14.752.382	Debug	biometrickitd (116)	com.apple.locationd.Motion	Motion	[CLIoHidInterface] Device,hidUsagePage,32,hidUsage,138,hasCallback,0,serviceRef,<private>	
+00:14.752.487	Debug	biometrickitd (116)	com.apple.locationd.Motion	Motion	[CLIoHidInterface] 	Property: ReportInterval = 0,dirty,1	
+00:14.752.572	Info	biometrickitd (116)	com.apple.locationd.Motion	Motion	[CLIoHidInterface] Refreshing service refs	
+00:14.752.685	Debug	biometrickitd (116)	com.apple.locationd.Motion	Motion	[CLIoHidInterface] Check service ref <private> with usage pair {65,292, 3} locationID 0 as a potential match	
+00:14.752.799	Default	biometrickitd (116)	com.apple.locationd.Motion	Motion	[CLIoHidInterface] Service ref with usage pair {65,292, 3} is <private> with matching properties <private>	
+00:14.752.935	Debug	biometrickitd (116)	com.apple.BiometricKit	Daemon-Pearl	statusMessage:withData:timestamp: -> void (_ )
+	
+00:14.752.995	Debug	DTServiceHub (360)	DVTInstrumentsFoundation	Default	Data Size: 101,090, Rows Sent: 1,288, Stack depth: 3,886	
+00:14.753.013	Debug	biometrickitd (116)	com.apple.BiometricKit	Daemon-Pearl	serviceStatus:type:inValue: -> 0x0
+	
+00:14.777.871	Default	MonoProxyTunnel (390)	com.apple.containermanager	unspecified	container_create_or_lookup_app_group_path_by_app_group_identifier: success	
+00:14.778.155	Default	Unknown (0)	ApplePPMCPMS	Default	ApplePPMCPMS::admissionCheckOfValue:client 4, timescale 1, level 0
+
+	
+00:14.778.189	Default	Unknown (0)	ApplePPMCPMS	Default	ApplePPMPolicyCPMS::resolveClientBudgets:Budget Trace: clientId 4, Timescale 1, Requested Budget 0, Granted Budget 0, Thermal Budget 4,294,967,295, PowerBudgetUPO 0 
+
+	
+00:14.778.213	Default	Unknown (0)	ApplePPMCPMS	Default	ApplePPMCPMS::admissionCheckOfValue:granted client 4, timescale 1, level 0 budget 0
+
+	
+00:14.778.217	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamIn:ISP_PPMAdmissionCheck_gated - admission check: clientIndex=0, subClientID=1; budgetReq=0; budgetAlloc=0; result=0x0
+	
+00:14.778.222	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamIn:ISP_StopCamera_gated - subClientID=1; channelMask=0x8; budgetReq=0; budgetAlloc=0; result=0x0; numPreviewFrames=2; numStillCaptureFrames=0
+	
+00:14.778.226	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamIn:UpdateSensorStateInIORegForChannel - channel: 3, name: Streaming, state: 0, priority: 1
+	
+00:14.778.451	Debug	WirelessRadioManagerd (48)	com.apple.telephony.iokit	controller	void ctu::iokit::sCameraServiceCallbackInternal(void *, io_service_t, uint32_t, void *): messageType: 0xe0000130	
+00:14.778.711	Debug	WirelessRadioManagerd (48)	com.apple.telephony.iokit	controller	#D Front IR Camera Mode: "<private>"	
+00:14.778.758	Debug	WirelessRadioManagerd (48)	com.apple.telephony.iokit	controller	#D Front IR Camera Active: 0x0	
+00:14.779.124	Debug	MonoProxyTunnel (390)	com.apple.CFBundle	resources	Resource lookup at <private>
+	Request       : InfoPlist type: strings
+	Result        : None
+	
+00:14.779.192	Debug	MonoProxyTunnel (390)	com.apple.CFBundle	resources	Resource lookup at <private>
+	Request       : InfoPlist type: stringsdict
+	Result        : None
+	
+00:14.780.879	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamIn:UpdateSensorStateInIORegForChannel - channel: 3, name: Active, state: 0, priority: 1
+	
+00:14.780.977	Debug	WirelessRadioManagerd (48)	com.apple.telephony.iokit	controller	void ctu::iokit::sCameraServiceCallbackInternal(void *, io_service_t, uint32_t, void *): messageType: 0xe0000130	
+00:14.781.109	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamIn:ISP_FlushInactiveDARTMappings_gated - result: 0x0
+	
+00:14.781.120	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamInFrameReceiverBufferPool:ReleasePremap - Releasing Premapped pool (poolID:144 TotalNumBuffers:18 [free:6 inUse:12] IsPreMapped:1)
+	
+00:14.781.125	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamIn:ISP_ReleasePreMappedClientSurface_gated - surfaceID=227, size=1,851,520, dartMapBase=10003f10000 
+	
+00:14.781.132	Debug	WirelessRadioManagerd (48)	com.apple.telephony.iokit	controller	#D Front IR Camera Active: 0x0	
+00:14.781.136	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamIn:ISP_ReleasePreMappedClientSurface_gated - surfaceID=228, size=1,851,520, dartMapBase=10003d44000 
+	
+00:14.781.143	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamIn:ISP_ReleasePreMappedClientSurface_gated - surfaceID=203, size=1,851,520, dartMapBase=10003b78000 
+	
+00:14.781.149	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamIn:ISP_ReleasePreMappedClientSurface_gated - surfaceID=223, size=1,851,520, dartMapBase=100039ac000 
+	
+00:14.781.154	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamIn:ISP_ReleasePreMappedClientSurface_gated - surfaceID=226, size=1,851,520, dartMapBase=100037e0000 
+	
+00:14.781.160	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamIn:ISP_ReleasePreMappedClientSurface_gated - surfaceID=220, size=1,851,520, dartMapBase=10003614000 
+	
+00:14.781.166	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamIn:ISP_ReleasePreMappedClientSurface_gated - surfaceID=219, size=1,851,520, dartMapBase=10003448000 
+	
+00:14.781.171	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamIn:ISP_ReleasePreMappedClientSurface_gated - surfaceID=218, size=1,851,520, dartMapBase=1000327c000 
+	
+00:14.781.176	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamIn:ISP_ReleasePreMappedClientSurface_gated - surfaceID=215, size=1,851,520, dartMapBase=100030b0000 
+	
+00:14.781.181	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamIn:ISP_ReleasePreMappedClientSurface_gated - surfaceID=214, size=1,851,520, dartMapBase=10002ee4000 
+	
+00:14.781.187	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamIn:ISP_ReleasePreMappedClientSurface_gated - surfaceID=230, size=1,851,520, dartMapBase=10002d18000 
+	
+00:14.781.193	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamIn:ISP_ReleasePreMappedClientSurface_gated - surfaceID=213, size=1,851,520, dartMapBase=100042a8000 
+	
+00:14.781.199	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamIn:ISP_ReleasePreMappedClientSurface_gated - surfaceID=71, size=1,851,520, dartMapBase=1000241c000 
+	
+00:14.781.206	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamIn:ISP_ReleasePreMappedClientSurface_gated - surfaceID=149, size=1,851,520, dartMapBase=100025e8000 
+	
+00:14.781.218	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamIn:ISP_ReleasePreMappedClientSurface_gated - surfaceID=153, size=1,851,520, dartMapBase=100027b4000 
+	
+00:14.781.224	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamIn:ISP_ReleasePreMappedClientSurface_gated - surfaceID=183, size=1,851,520, dartMapBase=10002980000 
+	
+00:14.781.229	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamIn:ISP_ReleasePreMappedClientSurface_gated - surfaceID=205, size=1,851,520, dartMapBase=10002b4c000 
+	
+00:14.781.235	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamIn:ISP_ReleasePreMappedClientSurface_gated - surfaceID=211, size=1,851,520, dartMapBase=100040dc000 
+	
+00:14.781.240	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamInFrameReceiverBufferPool:ReleasePremap - Releasing Premapped pool (poolID:141 TotalNumBuffers:18 [free:6 inUse:12] IsPreMapped:1)
+	
+00:14.781.243	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamIn:ISP_ReleasePreMappedClientSurface_gated - surfaceID=251, size=31,744, dartMapBase=10004498000 
+	
+00:14.781.248	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamIn:ISP_ReleasePreMappedClientSurface_gated - surfaceID=252, size=31,744, dartMapBase=1000448c000 
+	
+00:14.781.254	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamIn:ISP_ReleasePreMappedClientSurface_gated - surfaceID=250, size=31,744, dartMapBase=10004480000 
+	
+00:14.781.259	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamIn:ISP_ReleasePreMappedClientSurface_gated - surfaceID=248, size=31,744, dartMapBase=10004474000 
+	
+00:14.781.264	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamIn:ISP_ReleasePreMappedClientSurface_gated - surfaceID=249, size=31,744, dartMapBase=100023dc000 
+	
+00:14.781.271	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamIn:ISP_ReleasePreMappedClientSurface_gated - surfaceID=247, size=31,744, dartMapBase=100023d0000 
+	
+00:14.781.276	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamIn:ISP_ReleasePreMappedClientSurface_gated - surfaceID=246, size=31,744, dartMapBase=100023c4000 
+	
+00:14.781.281	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamIn:ISP_ReleasePreMappedClientSurface_gated - surfaceID=245, size=31,744, dartMapBase=100023b8000 
+	
+00:14.781.287	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamIn:ISP_ReleasePreMappedClientSurface_gated - surfaceID=241, size=31,744, dartMapBase=1000235c000 
+	
+00:14.781.293	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamIn:ISP_ReleasePreMappedClientSurface_gated - surfaceID=240, size=31,744, dartMapBase=10002350000 
+	
+00:14.781.299	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamIn:ISP_ReleasePreMappedClientSurface_gated - surfaceID=253, size=31,744, dartMapBase=10002344000 
+	
+00:14.781.304	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamIn:ISP_ReleasePreMappedClientSurface_gated - surfaceID=239, size=31,744, dartMapBase=100044b0000 
+	
+00:14.781.309	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamIn:ISP_ReleasePreMappedClientSurface_gated - surfaceID=232, size=31,744, dartMapBase=100022dc000 
+	
+00:14.781.315	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamIn:ISP_ReleasePreMappedClientSurface_gated - surfaceID=233, size=31,744, dartMapBase=100022e8000 
+	
+00:14.781.320	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamIn:ISP_ReleasePreMappedClientSurface_gated - surfaceID=234, size=31,744, dartMapBase=100022f4000 
+	
+00:14.781.326	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamIn:ISP_ReleasePreMappedClientSurface_gated - surfaceID=235, size=31,744, dartMapBase=10002300000 
+	
+00:14.781.331	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamIn:ISP_ReleasePreMappedClientSurface_gated - surfaceID=237, size=31,744, dartMapBase=10002338000 
+	
+00:14.781.336	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamIn:ISP_ReleasePreMappedClientSurface_gated - surfaceID=238, size=31,744, dartMapBase=100044a4000 
+	
+00:14.781.347	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamIn:ISP_DestroyMultiCameraSession_gated - Destroying multicam session: Client=Kernel (numClientsWithSession=0)
+	
+00:14.781.570	Debug	backboardd (68)	com.apple.BackBoard	MotionEvents	Motion event usagePage:0xff0c usage:1 	
+00:14.781.659	Debug	locationd (74)	com.apple.locationd.Motion	Motion	visitKFFilteredPressure,nowAP,753,594,869.7203,nowAOP,349,882,727,941,filteredPressure,102,628.0312,pressureTimestamp,349,880,004,736,kfElevation,-107.6856,wallTimePressureCorrected,753,594,866.9970,wallTimeKFCorrected,753,594,869.6834,temperatureDerivative,0.0000,absAltUnc,-0.0000	
+00:14.781.751	Debug	locationd (74)	com.apple.locationd.Motion	Altimeter	received KF filtered pressure from AOP,now,<private>,filteredPressureTimestamp,<private>,filteredPressure,<private>,kfTimestamp,<private>,kfElevation,<private>,kfPressure,<private> temperature,<private>,absAltUnc,<private>	
+00:14.781.784	Debug	locationd (74)	com.apple.locationd.Motion	Altimeter	{"msg":"kfPressure source updated with", "timestamp_s":"<private>", "kfPressure":"<private>", "kfElevation":"<private>", "absAltUncertainty":"<private>"}	
+00:14.788.324	Default	Unknown (0)	AppleH16CameraInterface	Default	ISPCPU (Print:125,512:58,584:529): [MSC] L924 lens controller ch3 BLOCK STOP  called; ts: 349882734 ms
+	
+00:14.788.346	Default	Unknown (0)	AppleH16CameraInterface	Default	ISPCPU (Print:125,513:58,585:530): [MSC] L939 lens controller ch3 BLOCK STOP  dt: 0.02 ms; ts: 349882734 ms
+	
+00:14.788.485	Default	Unknown (0)	AppleH16CameraInterface	Default	ISPCPU (Print:125,514:58,586:531): TMH9: group[0]: syncChMask 0x0, startedChMask 0x0, masterCh 255, chStarted 0, masterChSwitched 0
+	
+00:14.788.490	Default	Unknown (0)	AppleH16CameraInterface	Default	ISPCPU (Print:125,515:58,587:532): TMH9: group[1]: syncChMask 0x0, startedChMask 0x0, masterCh 255, chStarted 0, masterChSwitched 0
+	
+00:14.788.493	Default	Unknown (0)	AppleH16CameraInterface	Default	ISPCPU (Print:125,516:58,588:533): TMH9: group[2]: syncChMask 0x0, startedChMask 0x0, masterCh 255, chStarted 0, masterChSwitched 0
+	
+00:14.788.502	Default	Unknown (0)	AppleH16CameraInterface	Default	ISPCPU (Print:125,517:58,589:534): queue 0 size:6
+	
+00:14.788.594	Default	Unknown (0)	AppleH16CameraInterface	Default	ISPCPU (Print:125,518:58,590:535): SIFQChainSet: index 0 bank 0 reg 3218f0008 SIFQs 0
+	
+00:14.788.598	Default	Unknown (0)	AppleH16CameraInterface	Default	ISPCPU (Print:125,519:58,591:536): queue 0 size:6
+	
+00:14.788.674	Default	Unknown (0)	AppleH16CameraInterface	Default	ISPCPU (Print:125,520:58,592:537): SIFQChainSet: index 0 bank 1 reg 3218f0008 SIFQs 0
+	
+00:14.788.677	Default	Unknown (0)	AppleH16CameraInterface	Default	ISPCPU (Print:125,521:58,593:538): queue 0 size:6
+	
+00:14.788.758	Default	Unknown (0)	AppleH16CameraInterface	Default	ISPCPU (Print:125,522:58,594:539): SIFQChainSet: index 1 bank 0 reg 321900008 SIFQs 0
+	
+00:14.788.761	Default	Unknown (0)	AppleH16CameraInterface	Default	ISPCPU (Print:125,523:58,595:540): queue 0 size:6
+	
+00:14.789.627	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamIn:ISP_ReleaseChannel_gated - channel: 2 (process: Kernel)
+	
+00:14.789.677	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamIn:ISP_ReleaseChannel_gated - channel: 5 (process: Kernel)
+	
+00:14.789.688	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamIn:ISP_ReleaseChannel_gated - channel: 0 (process: Kernel)
+	
+00:14.789.695	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamIn:ISP_ReleaseChannel_gated - channel: 1 (process: Kernel)
+	
+00:14.789.702	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamIn:ISP_ReleaseChannel_gated - channel: 4 (process: Kernel)
+	
+00:14.789.709	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamIn:ISP_ReleaseChannel_gated - channel: 3 (process: Kernel)
+	
+00:14.789.741	Debug	Unknown (0)	ApplePearlSEPDriver	Default	cameraMessageCallback <- message:<private>
+	
+00:14.789.744	Debug	Unknown (0)	ApplePearlSEPDriver	Default	queueCameraMessage <- message:(<private>, type:4)
+	
+00:14.789.750	Debug	WirelessRadioManagerd (48)	com.apple.telephony.iokit	controller	void ctu::iokit::sCameraServiceCallbackInternal(void *, io_service_t, uint32_t, void *): messageType: 0x2172656c	
+00:14.789.751	Debug	Unknown (0)	ApplePearlSEPDriver	Default	queueCameraMessage -> err:0x0
+	
+00:14.789.753	Debug	Unknown (0)	ApplePearlSEPDriver	Default	cameraMessageCallback -> err:0x0
+	
+00:14.789.763	Debug	Unknown (0)	ApplePearlSEPDriver	Default	cameraMessageHandler: Message type: FaceDetectStatus (4)
+	
+00:14.789.771	Debug	Unknown (0)	ApplePearlSEPDriver	Default	handleCameraMessage_FaceDetectStatus <- message:<private>
+	
+00:14.789.775	Default	Unknown (0)	ApplePearlSEPDriver	Default	handleCameraMessage_FaceDetectStatus: _faceDetected:0
+	
+00:14.789.777	Debug	Unknown (0)	ApplePearlSEPDriver	Default	analyticsReceivedFaceDetectResult <- statistics:<private>, faceDetected:0
+	
+00:14.789.781	Debug	Unknown (0)	ApplePearlSEPDriver	Default	analyticsFaceDetectResult <- fdResult:12
+	
+00:14.789.783	Debug	Unknown (0)	ApplePearlSEPDriver	Default	analyticsCurrentEventFinish <- _analyticsCurrentEvent:1,003
+	
+00:14.789.786	Info	Unknown (0)	ApplePearlSEPDriver	Default	analyticsCurrentEventFinish: Send data for _analyticsCurrentEvent: 1,003
+	
+00:14.789.788	Default	Unknown (0)	ApplePearlSEPDriver	Default	loggingMessage <- msgType:1,003, eventTime:0, data:<private>, dataSize:95, dataTimeId:0, seqId:0x0
+	
+00:14.789.797	Debug	Unknown (0)	IOBiometricFamily	Default	MCDataMessaging::messageClients <- type:0xe3ff8006, version:1, argument:<private>, argSize:130, argData:0x0, msgAbsTime:0
+	
+00:14.789.801	Debug	Unknown (0)	IOBiometricFamily	Default	MCDataMessaging::enqueueData <- dataStruct:<private>, dataStructSize:170
+	
+00:14.789.825	Debug	Unknown (0)	IOBiometricFamily	Default	MCDataMessaging::messageClients -> 0xe00002c7
+	
+00:14.789.828	Debug	Unknown (0)	ApplePearlSEPDriver	Default	loggingMessage -> result:0xe00002c7
+	
+00:14.789.830	Debug	Unknown (0)	ApplePearlSEPDriver	Default	analyticsClearEventContext <- 
+	
+00:14.789.833	Debug	Unknown (0)	ApplePearlSEPDriver	Default	handleCameraStatisticsPhaseMessage <- statistics:<private>, phase:AttCheck (4)
+	
+00:14.789.843	Default	Unknown (0)	ApplePearlSEPDriver	Default	handleCameraStatisticsPhaseMessage: phase:AttCheck (4), flood:2, sparse:0, dense:0
+	
+00:14.789.845	Debug	Unknown (0)	ApplePearlSEPDriver	Default	handleCameraStatisticsPhaseMessage -> err:0x0
+	
+00:14.789.847	Debug	Unknown (0)	ApplePearlSEPDriver	Default	handleResultStatisticsPhaseMessage <- pass:0, phase:AttCheck (4)
+	
+00:14.789.850	Debug	Unknown (0)	ApplePearlSEPDriver	Default	handleResultStatisticsPhaseMessage -> err:0x0
+	
+00:14.789.851	Debug	Unknown (0)	ApplePearlSEPDriver	Default	handleCameraMessage_FaceDetectStatus -> err:0x0
+	
+00:14.789.859	Debug	Unknown (0)	ApplePearlSEPDriver	Default	cameraFrameHandler <- commandMode:1, _cameraState:1
+	
+00:14.789.862	Debug	Unknown (0)	ApplePearlSEPDriver	Default	cameraFrameHandler -> err:0x0
+	
+00:14.789.881	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16PearlCam:SendNotificationMessageToClient - Sending 3 notification to client
+	
+00:14.789.887	Debug	Unknown (0)	ApplePearlSEPDriver	Default	cameraMessageCallback <- message:<private>
+	
+00:14.789.889	Debug	Unknown (0)	ApplePearlSEPDriver	Default	queueCameraMessage <- message:(<private>, type:10)
+	
+00:14.789.893	Debug	biometrickitd (116)	com.apple.BiometricKit	Daemon-Pearl	__serviceStatus 0x104d14900(<private>) --> serviceStatus:type:inValue:
+	
+00:14.789.895	Debug	Unknown (0)	ApplePearlSEPDriver	Default	queueCameraMessage -> err:0x0
+	
+00:14.789.896	Debug	Unknown (0)	ApplePearlSEPDriver	Default	cameraMessageCallback -> err:0x0
+	
+00:14.789.898	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16PearlCam:PearlCamStateEntryProc_IDLE - PearlCamStateEntryProc_IDLE
+	
+00:14.789.904	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16PearlCam:checkForWork - dequeued PearlCamPowerOffMessage
+	
+00:14.789.906	Debug	Unknown (0)	ApplePearlSEPDriver	Default	cameraMessageHandler: Message type: Notification (10)
+	
+00:14.789.908	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16PearlCam:PearlCamMessageHandler_PowerOff - PearlCamMessageHandler_PowerOff
+	
+00:14.789.911	Debug	Unknown (0)	ApplePearlSEPDriver	Default	handleCameraMessage_Notification <- message:(<private>, notificationType:3)
+	
+00:14.789.913	Info	Unknown (0)	ApplePearlSEPDriver	Default	handleCameraMessage_Notification: StreamingStopped (3)
+	
+00:14.789.916	Debug	Unknown (0)	ApplePearlSEPDriver	Default	handleCameraStatisticsTotalMessage <- statistics:<private>, sequenceType:Attention (2)
+	
+00:14.789.920	Info	Unknown (0)	ApplePearlSEPDriver	Default	handleCameraStatisticsTotalMessage: seqType: 2, total: 2, standby: 0, coolDown: 0, 0, 0, 0
+	
+00:14.789.923	Debug	Unknown (0)	ApplePearlSEPDriver	Default	handleCameraStatisticsTotalMessage -> err:0x0
+	
+00:14.789.924	Debug	Unknown (0)	ApplePearlSEPDriver	Default	handleCameraMessage_Notification -> err:0x0
+	
+00:14.789.928	Debug	Unknown (0)	ApplePearlSEPDriver	Default	cameraFrameHandler <- commandMode:1, _cameraState:1
+	
+00:14.789.930	Debug	Unknown (0)	ApplePearlSEPDriver	Default	cameraFrameHandler -> err:0x0
+	
+00:14.789.945	Debug	biometrickitd (116)	com.apple.BiometricKit	Daemon-Common	serviceStatus:type:inValue: 43,239 0xe3ff8000 1,802,020,676(0x6b68a744)
+	
+00:14.790.002	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16PearlCam:PearlCamPowerOffCamera - flow execution time was 272,238 usec
+	
+00:14.790.005	Debug	biometrickitd (116)	com.apple.BiometricKit	Daemon-Pearl	performRequestMessageDataCommand:size:outData: 0x1100b5dd7a8 130 0x16b68a510
+	
+00:14.790.009	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamIn:ISP_PowerOffCamera_gated - (fPowerEvent=0, fOutstandingPowerUpRequests=0)
+	
+00:14.790.012	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamIn:ISP_PowerOffCamera_gated - requesting ISP power down
+	
+00:14.790.013	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamIn:ISP_PowerOffCamera_gated - set fPowerEvent from 0 to kH16ISPPowerEventType_PowerOffPending, fOutstandingPowerUpRequests = 0 isPowered: 1
+	
+00:14.790.044	Debug	biometrickitd (116)	com.apple.BiometricKit	Daemon-Pearl	performCommand:inValue:inData:inSize:outData:outSize: --> performCommand:version:inValue:inData:inSize:outData:outSize:
+	
+00:14.790.083	Default	Unknown (0)	ApplePPMCPMS	Default	ApplePPMCPMS::admissionCheckOfValue:client 3, timescale 1, level 0
+
+	
+00:14.790.092	Default	Unknown (0)	AppleH16ANEInterface	Default	ANE0: powerStateWillChangeTo_gated :H11ANEIn:: IPC peer ISP will power down
+	
+00:14.790.102	Default	Unknown (0)	ApplePPMCPMS	Default	ApplePPMPolicyCPMS::resolveClientBudgets:Budget Trace: clientId 3, Timescale 1, Requested Budget 0, Granted Budget 0, Thermal Budget 4,294,967,295, PowerBudgetUPO 11,993 
+
+	
+00:14.790.118	Debug	biometrickitd (116)	com.apple.BiometricKit	Daemon-Pearl	performCommand:version:inValue:inData:inSize:outData:outSize: 7 1 0 0x16b68a478 8 0x52e038000 0x16b68a470
+	
+00:14.790.119	Default	Unknown (0)	ApplePPMCPMS	Default	ApplePPMCPMS::admissionCheckOfValue:granted client 3, timescale 1, level 0 budget 0
+
+	
+00:14.790.123	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamIn:ISP_PPMActivityStopped_gated - activity stopped: clientIndex=0, subClientID=0; budgetAlloc=4; result=0x0
+	
+00:14.790.130	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16PearlCam:PearlCamStateEntryProc_OFF - PearlCamStateEntryProc_OFF
+	
+00:14.790.168	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamIn:setPowerStateGated - 0
+	
+00:14.790.179	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamIn:setPowerStateGated - (turn off) - change fPowerEvent from 2 to PowerOffPending, HasActiveKernelClients=0
+	
+00:14.790.183	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamIn:power_off_hardware - powering off hardware
+	
+00:14.790.186	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamIn:ISP_Suspend - suspending
+	
+00:14.790.215	Debug	Unknown (0)	ApplePearlSEPDriver	Default	ApplePearlUserClient::externalMethod <- selector:0, arguments:<private>, dispatch:0x0, target:0x0, reference:0x0
+	
+00:14.790.222	Debug	Unknown (0)	ApplePearlSEPDriver	Default	ApplePearlUserClient::extPerform <- inObj:<private>, inRef:0x0, inArg:<private>
+	
+00:14.790.240	Debug	Unknown (0)	IOBiometricFamily	Default	IOBiometricService::performCommand <- inData:<private>, outData:<private>, outSize:<private> --> performCommandGated
+	
+00:14.790.250	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamIn:ISP_Suspend - s2r flag addr offset = 0x10001574e68, expected value = 0xcafe4b0b
+
+	
+00:14.790.278	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamIn::H16ISPSharedMemorySurfaces:targetPhysicalAddressToHostVirtualAddress - in CTRR region: physicalAddress: 22,498,920, fFWCTRRMemSurface.physicalAddress: 0, size: 1fec000n
+	
+00:14.790.364	Debug	Unknown (0)	IOBiometricFamily	Default	IOBiometricService::performCommandGated <- inData:<private>, outData:<private>, outSize:<private>
+	
+00:14.791.065	Info	Unknown (0)	IOHIDFamily	Default	IOHIDLibUserClient:0x100000aac resourceNotificationGated client not privileged
+
+	
+00:14.791.756	Debug	Unknown (0)	ApplePearlSEPDriver	Default	performSpecificCommandGated <- cmd:<private>, payload:<private>, payloadSize:8 outData:<private>, outSize:<private>
+	
+00:14.791.764	Default	Unknown (0)	ApplePearlSEPDriver	Default	performSpecificCommandGated: command:RequestMessageData (7), value:0, inLength:8, outLength:130
+	
+00:14.791.768	Debug	Unknown (0)	IOBiometricFamily	Default	MCDataMessaging::pullMessageData <- absoluteTimeId:1,168,421,803,944, outData:<private>, outSize:<private>
+	
+00:14.791.775	Debug	Unknown (0)	IOBiometricFamily	Default	MCDataMessaging::pullMessageData -> err:0x0
+	
+00:14.791.777	Debug	Unknown (0)	ApplePearlSEPDriver	Default	performSpecificCommandGated -> err:0x0
+	
+00:14.791.779	Debug	Unknown (0)	IOBiometricFamily	Default	IOBiometricService::performCommandGated: Bytes written = 130
+	
+00:14.791.782	Debug	Unknown (0)	IOBiometricFamily	Default	IOBiometricService::performCommandGated -> err:0x0
+	
+00:14.791.786	Debug	Unknown (0)	ApplePearlSEPDriver	Default	ApplePearlUserClient::extPerform -> err:0x0
+	
+00:14.791.798	Debug	Unknown (0)	ApplePearlSEPDriver	Default	ApplePearlUserClient::externalMethod -> err:0x0
+	
+00:14.791.811	Debug	biometrickitd (116)	com.apple.BiometricKit	Daemon-Pearl	performCommand:version:inValue:inData:inSize:outData:outSize: -> [0: Undefined error: 0]
+	
+00:14.791.860	Debug	biometrickitd (116)	com.apple.BiometricKit	Daemon-Pearl	performRequestMessageDataCommand -> 0
+	
+00:14.791.903	Debug	biometrickitd (116)	com.apple.BiometricKit	Daemon-Common	serviceStatus:type:inValue: MCDMExtractMessageData 3,825,172,486 1,168,421,803,944 1 0x0 130 <private> 0(0x0) 1,168,421,803,944
+	
+00:14.791.938	Debug	biometrickitd (116)	com.apple.BiometricKit	Daemon-Pearl	serviceStatus:version:ordinal:data:timestamp: 0xe3ff8006 0x1 0x0 <private> 1,168,421,803,944
+	
+00:14.791.983	Debug	biometrickitd (116)	com.apple.BiometricKit	Daemon-Pearl	serviceStatus:type:inValue: -> 0x0
+	
+00:14.792.011	Debug	biometrickitd (116)	com.apple.BiometricKit	Daemon-Pearl	analyticsKernelMessage: 1
+	
+00:14.792.122	Debug	biometrickitd (116)	com.apple.BiometricKit	Daemon-Pearl	PearlCoreAnalytics sendFaceDetectEventAnalytics: fdMessage: 1
+	
+00:14.792.243	Debug	biometrickitd (116)	com.apple.BiometricKit	Daemon-Pearl	PearlCoreAnalytics postSimpleCoreAnalyticsEvent eventName: com.apple.biometrickit.pearl.faceDetectAttempt awdMetric: 0x52e09a880
+	
+00:14.792.318	Debug	biometrickitd (116)	com.apple.BiometricKit	Daemon-Pearl	PearlCoreAnalyticsEvent reset event: com.apple.biometrickit.pearl.faceDetectAttempt
+	
+00:14.792.396	Debug	biometrickitd (116)	com.apple.BiometricKit	Daemon-Common	BiometricKitCoreAnalyticsEvent(com.apple.biometrickit.pearl.faceDetectAttempt) reset event
+	
+00:14.792.536	Debug	biometrickitd (116)	com.apple.BiometricKit	Daemon-Pearl	PearlCoreAnalyticsEvent postEvent: com.apple.biometrickit.pearl.faceDetectAttempt
+	
+00:14.792.574	Debug	biometrickitd (116)	com.apple.BiometricKit	Daemon-Common	BiometricKitCoreAnalyticsEvent(com.apple.biometrickit.pearl.faceDetectAttempt) dictionaryRepresentation: 0
+	
+00:14.792.608	Debug	UserEventAgent (31)	com.apple.iokit.matching	Default	firstMatchIteratorCallback - for token 1445	
+00:14.792.643	Debug	biometrickitd (116)	com.apple.BiometricKit	Daemon-Common	BiometricKitCoreAnalyticsEvent(com.apple.biometrickit.pearl.faceDetectAttempt) isPasscodeSet
+	
+00:14.792.857	Debug	biometrickitd (116)	com.apple.BiometricKit	Daemon-Common	BiometricKitCoreAnalyticsEvent(com.apple.biometrickit.pearl.faceDetectAttempt) isPasscodeSet: 1
+	
+00:14.792.928	Debug	biometrickitd (116)	com.apple.BiometricKit	Daemon-Common	BiometricKitCoreAnalyticsEvent(com.apple.biometrickit.pearl.faceDetectAttempt) dictionaryRepresentation: 0 _privateProperties: <private>
+	
+00:14.793.016	Debug	biometrickitd (116)	com.apple.BiometricKit	Daemon-Common	BiometricKitCoreAnalyticsEvent(com.apple.biometrickit.pearl.faceDetectAttempt) postEvent
+	
+00:14.793.346	Debug	biometrickitd (116)	BiometricKit	Default	PearlCA: sendEvent: com.apple.biometrickit.pearl.faceDetectAttempt (print 1 of 2): 
+<private>
+	
+00:14.793.381	Debug	biometrickitd (116)	BiometricKit	Default	PearlCA: sendEvent: com.apple.biometrickit.pearl.faceDetectAttempt (print 2 of 2): 
+<private>
+	
+00:14.793.524	Debug	biometrickitd (116)	com.apple.BiometricKit	Daemon-Common	BiometricKitCoreAnalyticsEvent(com.apple.biometrickit.pearl.faceDetectAttempt) postEvent - AnalyticsSendEventLazy result: 1
+	
+00:14.793.561	Debug	biometrickitd (116)	com.apple.BiometricKit	Daemon-Pearl	PearlCoreAnalyticsEvent reset event: com.apple.biometrickit.pearl.faceDetectAttempt
+	
+00:14.793.599	Debug	biometrickitd (116)	com.apple.BiometricKit	Daemon-Common	BiometricKitCoreAnalyticsEvent(com.apple.biometrickit.pearl.faceDetectAttempt) reset event
+	
+00:14.793.647	Default	biometrickitd (116)	com.apple.BiometricKit	Daemon-Pearl	PearlCoreAnalyticsEvent postEvent: com.apple.biometrickit.pearl.faceDetectAttempt result:1
+	
+00:14.793.705	Debug	biometrickitd (116)	com.apple.BiometricKit	Daemon-Pearl	PearlCoreAnalytics postSimpleCoreAnalyticsEvent eventName: com.apple.biometrickit.pearl.attentionCheck awdMetric: 0x52e09a880
+	
+00:14.793.763	Debug	biometrickitd (116)	com.apple.BiometricKit	Daemon-Pearl	PearlCoreAnalyticsEvent reset event: com.apple.biometrickit.pearl.attentionCheck
+	
+00:14.793.832	Debug	biometrickitd (116)	com.apple.BiometricKit	Daemon-Common	BiometricKitCoreAnalyticsEvent(com.apple.biometrickit.pearl.attentionCheck) reset event
+	
+00:14.793.923	Debug	biometrickitd (116)	com.apple.BiometricKit	Daemon-Pearl	PearlCoreAnalyticsEvent postEvent: com.apple.biometrickit.pearl.attentionCheck
+	
+00:14.793.988	Debug	biometrickitd (116)	com.apple.BiometricKit	Daemon-Common	BiometricKitCoreAnalyticsEvent(com.apple.biometrickit.pearl.attentionCheck) dictionaryRepresentation: 0
+	
+00:14.794.056	Debug	biometrickitd (116)	com.apple.BiometricKit	Daemon-Common	BiometricKitCoreAnalyticsEvent(com.apple.biometrickit.pearl.attentionCheck) isPasscodeSet
+	
+00:14.794.190	Debug	biometrickitd (116)	com.apple.BiometricKit	Daemon-Common	BiometricKitCoreAnalyticsEvent(com.apple.biometrickit.pearl.attentionCheck) isPasscodeSet: 1
+	
+00:14.794.252	Debug	biometrickitd (116)	com.apple.BiometricKit	Daemon-Common	BiometricKitCoreAnalyticsEvent(com.apple.biometrickit.pearl.attentionCheck) dictionaryRepresentation: 0 _privateProperties: <private>
+	
+00:14.794.307	Debug	UserEventAgent (31)	com.apple.iokit.matching	Default	firstMatchIteratorCallback - stream fire for token 1445	
+00:14.794.330	Debug	biometrickitd (116)	com.apple.BiometricKit	Daemon-Common	BiometricKitCoreAnalyticsEvent(com.apple.biometrickit.pearl.attentionCheck) postEvent
+	
+00:14.794.492	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamIn:ISP_Suspend - ProjUse: D=0, DLP=0, S=0, SLP=0, F=8,550, PA=0, PB=0, SB=0, CD100=0, CD250=0, CD400=0, FAE=2,850
+	
+00:14.794.632	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16PearlCam:PearlCam_GetBufferBufferUseStatistics - fInUseBufferHighWaterMark=13 
+	
+00:14.794.641	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamIn:ISP_Suspend - disable timer
+	
+00:14.794.644	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamIn:ISP_Suspend - disable self IPC EP
+	
+00:14.794.646	Debug	biometrickitd (116)	BiometricKit	Default	PearlCA: sendEvent: com.apple.biometrickit.pearl.attentionCheck (print 1 of 2): 
+<private>
+	
+00:14.794.648	Default	Unknown (0)	AppleH16CameraInterface	Default	IspAneIPCEndPoints:enableFWIPCEP_gated - send CISP_CMD_IPC_ENDPOINT_UNSET2 to FW, self state: 4
+	
+00:14.794.673	Debug	biometrickitd (116)	BiometricKit	Default	PearlCA: sendEvent: com.apple.biometrickit.pearl.attentionCheck (print 2 of 2): 
+<private>
+	
+00:14.794.762	Debug	biometrickitd (116)	com.apple.BiometricKit	Daemon-Common	BiometricKitCoreAnalyticsEvent(com.apple.biometrickit.pearl.attentionCheck) postEvent - AnalyticsSendEventLazy result: 1
+	
+00:14.794.790	Debug	biometrickitd (116)	com.apple.BiometricKit	Daemon-Pearl	PearlCoreAnalyticsEvent reset event: com.apple.biometrickit.pearl.attentionCheck
+	
+00:14.794.832	Debug	biometrickitd (116)	com.apple.BiometricKit	Daemon-Common	BiometricKitCoreAnalyticsEvent(com.apple.biometrickit.pearl.attentionCheck) reset event
+	
+00:14.794.869	Default	biometrickitd (116)	com.apple.BiometricKit	Daemon-Pearl	PearlCoreAnalyticsEvent postEvent: com.apple.biometrickit.pearl.attentionCheck result:1
+	
+00:14.794.936	Debug	biometrickitd (116)	com.apple.BiometricKit	Daemon-Pearl	PearlCoreAnalytics sendFaceDetectEventAnalytics: -> void
+	
+00:14.794.989	Debug	WirelessRadioManagerd (48)	com.apple.telephony.iokit	controller	void ctu::iokit::sCameraServiceCallbackInternal(void *, io_service_t, uint32_t, void *): messageType: 0x2172656c	
+00:14.795.017	Debug	biometrickitd (116)	com.apple.BiometricKit	Daemon-Pearl	analyticsKernelMessage: -> void
+	
+00:14.795.273	Default	appleh16camerad (129)	com.apple.isp	daemon	Removing client: kernel
+	
+00:14.795.308	Debug	WirelessRadioManagerd (48)	com.apple.telephony.iokit	controller	void ctu::iokit::sCameraServiceCallbackInternal(void *, io_service_t, uint32_t, void *): messageType: 0x2172656c	
+00:14.795.363	Default	appleh16camerad (129)	com.apple.isp	daemon	Total number of connections: 0
+	
+00:14.795.467	Debug	WirelessRadioManagerd (48)	com.apple.telephony.iokit	controller	void ctu::iokit::sCameraServiceCallbackInternal(void *, io_service_t, uint32_t, void *): messageType: 0x2172656c	
+00:14.795.499	Debug	biometrickitd (116)	com.apple.CoreAnalytics.event	send	<private> <private>	
+00:14.795.657	Default	backboardd (68)	com.apple.CoreBrightness.CBGrimaldiModule	default	Requesting lux from APDS	
+00:14.796.982	Info	appleh16camerad (129)	com.apple.CoreAnalytics	client	Dropping "com.apple.applecamerad.PearlMemoryUsage" as it isn't used in any transform (not in the config or budgeted?)	
+00:14.797.364	Error	appleh16camerad (129)	com.apple.isp	general	Failed to send the com.apple.applecamerad.PearlMemoryUsage event into the diagnostics system 0
+
+	
+00:14.797.386	Debug	WirelessRadioManagerd (48)	com.apple.telephony.iokit	controller	void ctu::iokit::sCameraServiceCallbackInternal(void *, io_service_t, uint32_t, void *): messageType: 0x2172656c	
+00:14.797.504	Error	appleh16camerad (129)	com.apple.isp	general	Failed to send Pearl Statistics into the diagnostics system 0
+
+	
+00:14.797.754	Error	appleh16camerad (129)	com.apple.isp	daemon	Failed to send report to analyticsd: e00002bc
+
+	
+00:14.798.357	Info	appleh16camerad (129)	com.apple.CoreAnalytics	client	Dropping "com.apple.applecamerad.FaultManagementStatus" as it isn't used in any transform (not in the config or budgeted?)	
+00:14.798.395	Default	backboardd (68)	com.apple.xpc	connection	[0xdb4bd1300] activating connection: mach=1 listener=0 peer=0 name=com.apple.appleh16camerad	
+00:14.798.515	Debug	DTServiceHub (360)	DVTInstrumentsFoundation	Default	Data Size: 100,834, Rows Sent: 1,306, Stack depth: 4,062	
+00:14.800.197	Error	appleh16camerad (129)	com.apple.isp	general	Failed to send the com.apple.applecamerad.FaultManagementStatus event into the diagnostics system 0
+
+	
+00:14.800.287	Default	mDNSResponder (206)	com.apple.mDNSResponder	mDNS	[A(38fa3ecb, abad23aa)] Sent a previous IPv4 mDNS response over multicast	
+00:14.800.556	Default	mDNSResponder (206)	com.apple.mDNSResponder	mDNS	[A(38fa3ecb, 17c4a526)] Sent a previous IPv6 mDNS response over multicast	
+00:14.800.633	Debug	appleh16camerad (129)	com.apple.CoreAnalytics.event	send	<private> <private>	
+00:14.800.751	Default	mDNSResponder (206)	com.apple.mDNSResponder	mDNS	[A(3f6e43c, 1d26dfc9)] Sent a previous IPv6 mDNS response over multicast	
+00:14.800.985	Default	mDNSResponder (206)	com.apple.mDNSResponder	mDNS	[A(42987d2c, ec9e962a)] Sent a previous IPv4 mDNS response over multicast	
+00:14.801.002	Debug	appleh16camerad (129)	com.apple.CoreAnalytics.event	send	<private> <private>	
+00:14.801.075	Debug	WirelessRadioManagerd (48)	com.apple.telephony.iokit	controller	void ctu::iokit::sCameraServiceCallbackInternal(void *, io_service_t, uint32_t, void *): messageType: 0x2172656c	
+00:14.801.128	Default	mDNSResponder (206)	com.apple.mDNSResponder	mDNS	[A(42987d2c, 2200d1c6)] Sent a previous IPv6 mDNS response over multicast	
+00:14.801.211	Debug	appleh16camerad (129)	com.apple.CoreAnalytics.event	send	<private> <private>	
+00:14.801.283	Debug	appleh16camerad (129)	com.apple.CoreAnalytics.event	send	<private> <private>	
+00:14.801.378	Debug	appleh16camerad (129)	com.apple.CoreAnalytics.event	send	<private> <private>	
+00:14.801.444	Debug	WirelessRadioManagerd (48)	com.apple.telephony.iokit	controller	void ctu::iokit::sCameraServiceCallbackInternal(void *, io_service_t, uint32_t, void *): messageType: 0xe0000200	

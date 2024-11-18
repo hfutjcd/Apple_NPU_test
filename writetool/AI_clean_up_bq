@@ -1,0 +1,1000 @@
+00:07.143.476	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	Display fade callback: updateBrightness = 0, updateVirtual = 0, updateEDRHeadroom = 0, forceSyncDBVUpdate = 1	
+00:07.143.484	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	Pivoting - RIGHT restriction: L_device 205.5501 -> 118.8318, ScalerMax = 0.5060, Fmax = 0.5200	
+00:07.143.490	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	Superbright EDR restrictions [would be]: CLTM 1,512.3809, UPO 2,175.0000, bottom [lower] restriction 1.0000, nits cap hdr: 2,175.0000, after BDM: 1,600.0000	
+00:07.143.496	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	SetLogicalBrightnessInternal caps: cltm 1,512.3809,  weakcap: 2,175.0000, gl.scalar: 1.0000, dyn.sl: 0.5200, edrcap: 1,600.0000	
+00:07.143.501	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	Caps after global scaling: nitsCap=551.2000 nitsCapEDR=1,600.0000	
+00:07.143.507	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	SLBI other current=1,600.0000, calculated=1,600.0000	
+00:07.143.516	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	Factor=1.0000 Lcurrent=205.5501 maxRestriction=1,512.3809 minRestriction=1.0000 maxPanel=1,060.0000 minPanel=1.0000 L_device=118.8318	
+00:07.143.545	Info	runningboardd (33)	com.apple.runningboard	assertion	Processing invalidation queue with 1 assertions	
+00:07.143.659	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	S=0.5414	
+00:07.143.668	Info	backboardd (68)	com.apple.CoreBrightness.Display	default	SyncDBV Composition | Nits.Cap=551.2000 MaxRestriction.Cap=1,512.3809 WeakRestriction.Cap=2,175.0000 PAAB.Scalar=1.0000 RightFactor.Current=0.5200 RightFactor.Overriden=NO BrightDotMitigation.Enabled=YES BrightDotMitigation.Cap=1,600.0000 EDR.Enabled=YES EDR.IsEngaged=NO EDR.Cap=1,600.0000 EDR.FadePeriod=0.0000 Panel.Max=1,060.0000 Aurora.IsBoostingBrightness=NO PreStrobe.Changed=NO PreStrobe.IsActive=NO PreStrobe.Cap=0.0000 PreStrobe.CachedNits=0.0000	
+00:07.143.732	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	Handle notification for key = DisplayBrightness and property = <private>	
+00:07.143.789	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayContaineriOS	BuiltIn	Notification block key=DisplayBrightness, value=<private>
+	
+00:07.143.876	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	Handle notification for key = FrameSynchronizedBrightnessTransaction and property = <private>	
+00:07.143.919	Info	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	HDR CAPS | RTPLC: [None] 1,600.0000, currentNitCap: 551.2000, dynSliderCap: 551.2000, Nits: 118.8318	
+00:07.143.975	Info	runningboardd (33)	com.apple.runningboard	assertion	Removing 1 assertions	
+00:07.143.998	Debug	cloudd (151)	com.apple.cloudkit	CK	Discarding container: <private>	
+00:07.144.001	Info	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	CBEDR statusInfo: <private>	
+00:07.144.033	Debug	cloudd (151)	com.apple.cloudkit	CK	Discarding container: <private>	
+00:07.144.045	Debug	backboardd (68)	com.apple.CoreBrightness.CBIndicatorBrightnessModule	default	updateRamp called, isRampRunning: NO, silState: 4, currentSDR: 118.8318, currentMIB: 115.9970, targetMIB: 1.0000, MIB: 1.0000	
+00:07.144.106	Debug	cloudd (151)	com.apple.cloudkit	CK	Discarding container 0xc36115e00	
+00:07.144.117	Info	runningboardd (33)	com.apple.runningboard	assertion	Removing 0 assertions	
+00:07.144.140	Debug	backboardd (68)	com.apple.CoreBrightness.CBIndicatorBrightnessModule	default	updateRamp finished, isRampRunning: NO, silState: 4, currentSDR: 118.8318, currentMIB: 115.9970, targetMIB: 1.0000, MIB: 1.0000	
+00:07.144.184	Debug	cloudd (151)	com.apple.cloudkit	CK	Discarding container: <private>	
+00:07.144.186	Default	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	HDR | _edrState: 0, forceRamp: NO	
+00:07.144.199	Debug	runningboardd (33)	com.apple.runningboard	assertion	Now tracking 80 assertions (34 holds 26).	
+00:07.144.203	Debug	cloudd (151)	com.apple.cloudkit	CK	<private> in dealloc	
+00:07.144.262	Debug	runningboardd (33)	com.apple.runningboard	assertion	Removing assertion 33-34-9647 on [osservice<com.apple.SpringBoard>:34]	
+00:07.144.288	Default	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	Pushing sdrBrightness: 118.8318, capped _appliedHeadroom: 1.0000, brightnessLimit: 551.2000, potentialHeadroom: 8.0000, Ambient: 246.1711 to CA, HDRBrightness: 118.8318, [None] rtplcCap: 1,600.0000	
+00:07.144.400	Default	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	SyncDBV Transaction | ID=13,499 SDR.Nits=118.8318 HDR.Nits=118.8318 HDR.State=Off BrightnessLimit=551.2000 IndicatorBrightness.Nits=0.0000 IndicatorBrightness.Cap=551.2000 Headroom.Current=1.0000 Headroom.Maximum=8.0000 AppliedCompensations=1.3000 Aurora.Factor=1.0000 Aurora.RampInProgress=NO Lux=246.1711 RTPLC.State=None RTPLC.Cap=1,600.0000 RTPLC.CapApplied=NO PeakAPCE.Cap=0.0800 Nits.Cap=551.2000 DynamicSlider.Cap=551.2000 Twilight.Strength=0.0000 Ammolite.Strength=0.0000 ContrastEnhancer.Strength=0.0105	
+00:07.144.490	Default	backboardd (68)	com.apple.coreanimation	Brightness	Display 1 commitBrightness sdr: 118.8318, headroom: 1.0000, ambient lux: 246.1711, filtered ambient: -1.0000, limit: 551.2000, low ambient strength: 0.0000, high ambient strength: 0.0000, brightness ctl disabled 18,446,744,073,709,551,615
+	
+00:07.144.508	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayContaineriOS	BuiltIn	Notification block key=BrightnessTransaction, value=<private>
+	
+00:07.144.562	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayContaineriOS	BuiltIn	Notification block key=CBCACommit, value=<private>
+	
+00:07.144.582	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayContaineriOS	BuiltIn	Notification block key=FrameSynchronizedBrightnessTransaction, value=<private>
+	
+00:07.144.586	Debug	runningboardd (33)	com.apple.runningboard	assertion	> app<com.apple.Spotlight((null))> ['com.apple.frontboard.after-life.subordinate'] [33-34-193]	
+00:07.144.626	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=DisplayBrightness value=<private>	
+00:07.144.660	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=DisplayBrightness property=<private>	
+00:07.144.695	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	passed for client 58881740544	
+00:07.144.744	Debug	runningboardd (33)	com.apple.runningboard	assertion	> app<com.apple.ScreenshotServicesService(9123D57A-D0E6-47C6-938F-C289AA99CB36)> ['com.apple.frontboard.after-life.interrupted'] [33-34-2570]	
+00:07.144.896	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=<private> value=<private>	
+00:07.144.929	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=<private> property=<private>	
+00:07.144.963	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=BrightnessTransaction value=<private>	
+00:07.145.035	Debug	PerfPowerServices (1452)	com.apple.CoreBrightness	default	key=<private> property=<private> queue=0x97ede5100 clientBlock=0x97e365e90	
+00:07.145.071	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=BrightnessTransaction property=<private>	
+00:07.145.170	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=<private> value=<private>	
+00:07.145.257	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=<private> property=<private>	
+00:07.145.396	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=CBCACommit value=<private>	
+00:07.145.428	Debug	runningboardd (33)	com.apple.runningboard	assertion	> app<com.apple.mobilecal(9123D57A-D0E6-47C6-938F-C289AA99CB36)> ['com.apple.frontboard.after-life.interrupted'] [33-34-663]	
+00:07.145.456	Debug	runningboardd (33)	com.apple.runningboard	assertion	Updating events for assertion: 33-34-9647 (target:[osservice<com.apple.SpringBoard>:34])	
+00:07.145.466	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=CBCACommit property=<private>	
+00:07.145.512	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=<private> value=<private>	
+00:07.145.578	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=<private> property=<private>	
+00:07.145.588	Debug	runningboardd (33)	com.apple.runningboard	assertion	Removing events for context: 33-34-9647 (target:[osservice<com.apple.SpringBoard>:34])	
+00:07.145.658	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=FrameSynchronizedBrightnessTransaction value=<private>	
+00:07.145.720	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=FrameSynchronizedBrightnessTransaction property=<private>	
+00:07.145.790	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=<private> value=<private>	
+00:07.145.832	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=<private> property=<private>	
+00:07.145.901	Debug	runningboardd (33)	com.apple.runningboard	assertion	> xpcservice<com.apple.MercuryPoster([osservice<com.apple.SpringBoard>:34])>{vt hash: 126936722}[uuid:00000000-0000-0000-0000-000000000001] ['FBWorkspace (ForegroundSuspended)'] [33-34-9634]	
+00:07.146.073	Debug	runningboardd (33)	com.apple.runningboard	assertion	> osservice<com.apple.SpringBoard> ['creating 34<UIRootWindow:0x66222c000> visibility'] [33-34-7]	
+00:07.146.177	Debug	cloudd (151)	com.apple.cloudkit	CK	<private> in dealloc	
+00:07.146.193	Debug	runningboardd (33)	com.apple.runningboard	assertion	> osservice<com.apple.SpringBoard> ['injecting inherited from "UIRootWindow:0x66222c000" to 34<UIScene:com.apple.frontboard.systemappservices/FBSceneManager:com.apple.springboard>'] [33-34-8]	
+00:07.146.283	Debug	runningboardd (33)	com.apple.runningboard	assertion	> osservice<com.apple.DragUI.druid> ['injecting inherited from "UIRootWindow:0x66222c000" to 461<UIScene:com.apple.frontboard.systemappservices/com.apple.SpringBoard.SceneWorkspace.DruidUI:SUIS-DruidUI%3A%5BMain%5D%20-%201>'] [33-34-9626]	
+00:07.146.374	Debug	runningboardd (33)	com.apple.runningboard	assertion	> osservice<com.apple.DragUI.druid> ['com.apple.frontboard.after-life.subordinate'] [33-34-522]	
+00:07.146.520	Debug	runningboardd (33)	com.apple.runningboard	assertion	> xpcservice<com.apple.MercuryPoster([osservice<com.apple.SpringBoard>:34])>{vt hash: 126936722}[uuid:00000000-0000-0000-0000-000000000001] ['injecting inherited from "UIScene:com.apple.frontboard.systemappservices/FBSceneManager:com.apple.springboard" to 263<UIScene:com.apple.frontboard.systemappservices/PosterKit:0A1E8006-7053-41A4-9C0B-6AEE9AE29DD1>'] [33-34-61]	
+00:07.146.608	Debug	runningboardd (33)	com.apple.runningboard	assertion	> osservice<com.apple.SpringBoard> ['FBSystemShell'] [33-34-4]	
+00:07.146.670	Debug	runningboardd (33)	com.apple.runningboard	assertion	> osservice<com.apple.SpringBoard> ['creating 34<UIRootWindow:0x662261400> visibility'] [33-34-10]	
+00:07.146.717	Debug	runningboardd (33)	com.apple.runningboard	assertion	> xpcservice<com.apple.MercuryPoster([osservice<com.apple.SpringBoard>:34])>{vt hash: 126936722}[uuid:00000000-0000-0000-0000-000000000001] ['com.apple.frontboard.after-life.subordinate'] [33-34-47]	
+00:07.146.761	Debug	runningboardd (33)	com.apple.runningboard	assertion	> app<com.apple.Preferences((null))> ['com.apple.frontboard.after-life.interrupted'] [33-34-9538]	
+00:07.146.811	Debug	runningboardd (33)	com.apple.runningboard	assertion	> osservice<com.apple.SpringBoard> ['FBSystemApp-PreventIdleSleep'] [33-34-9620]	
+00:07.147.049	Debug	runningboardd (33)	com.apple.runningboard	assertion	> osservice<com.apple.DragUI.druid> ['FBWorkspace (ForegroundFocal)'] [33-34-523]	
+00:07.147.060	Debug	backboardd (68)	com.apple.BackBoard	MotionEvents	Motion event usagePage:0xff0c usage:1 	
+00:07.147.288	Debug	runningboardd (33)	com.apple.runningboard	assertion	> xpcservice<com.apple.MercuryPoster([osservice<com.apple.SpringBoard>:34])>{vt hash: 126936722}[uuid:00000000-0000-0000-0000-000000000001] ['<MercuryPoster: 0x1fa1b5600; 6AEE9AE29DD1>'] [33-34-46]	
+00:07.147.342	Info	locationd (74)	com.apple.locationd.Position	Position	#pbio forwarding 1 samples to fuser	
+00:07.147.393	Info	locationd (74)	com.apple.locationd.Position	Position	LocationController,got IO samples,mct,349,875.0939,count,1,propagation_us,62.3334	
+00:07.147.434	Debug	locationd (74)	com.apple.locationd.Position	LCFusion	InertialOdometry,PDR,cannot compute course,sample mct,349,873.8263,GDistanceMoved,0.0000,dPosX,0.0000,dPosY,0.0000	
+00:07.147.446	Debug	runningboardd (33)	com.apple.runningboard	assertion	> app<com.apple.family(9123D57A-D0E6-47C6-938F-C289AA99CB36)> ['com.apple.frontboard.after-life.interrupted'] [33-34-931]	
+00:07.147.461	Debug	locationd (74)	com.apple.locationd.Position	LCFusion	InertialOdometry,PDR,consumed IO sample,mct,349,873.8263,RefF,1,sample_interval_s,1.0000,isPDRValid,1,dPosXYZ_m,0.0000,0.0000,-0.0053,isVDRValid,1,dVelXYZ_mps,-0.0363,-0.0369,-0.0329,GDis,0.0000,GSpeedRate,0.0518	
+00:07.147.506	Debug	locationd (74)	com.apple.locationd.Position	LCFusion	InertialOdometry,Batch IO cumsum,prev IO mct,349,872.8313,curr IO mct,349,873.8263,dTime,0.9951,IO_Context,1,HorizSpeed_dt_s,1.0000,HSpeed_mps,0.0518,GDistMoved_dt_s,1.0000,GDis_m,0.0000,VDis_m,-0.0053,CumSumGDistMoved_dt_s,349,804.8829,CumSumGDist_m,2.7413	
+00:07.147.535	Debug	locationd (74)	com.apple.locationd.Position	Position	#CLProactiveLoc,rvo,IO,d_X,0.0000,d_Y,0.0000,d_Z,-0.0053,cumulativeX,2.7411,cumulativeY,0.1190,cumulativeZ,2.8114	
+00:07.147.588	Debug	runningboardd (33)	com.apple.runningboard	assertion	> osservice<com.apple.SpringBoard> ['injecting inherited from "UIRootWindow:0x66222c000" to 34<UIScene:com.apple.frontboard.systemappservices/FBSceneManager:SystemAperture>'] [33-34-12]	
+00:07.147.662	Debug	runningboardd (33)	com.apple.runningboard	assertion	> osservice<com.apple.SpringBoard> ['injecting inherited from "UIRootWindow:0x66222c000" to 34<UIScene:com.apple.frontboard.systemappservices/FBSceneManager:SuperHighLevelSystemAperture>'] [33-34-13]	
+00:07.147.806	Debug	runningboardd (33)	com.apple.runningboard	assertion	> xpcservice<com.apple.MercuryPoster([osservice<com.apple.SpringBoard>:34])>{vt hash: 126936722}[uuid:00000000-0000-0000-0000-000000000001] ['injecting inherited from "UIScene:com.apple.frontboard.systemappservices/FBSceneManager:com.apple.springboard" to 263<UIScene:com.apple.frontboard.systemappservices/PosterKit:0A1E8006-7053-41A4-9C0B-6AEE9AE29DD1>'] [33-34-57]	
+00:07.147.892	Debug	runningboardd (33)	com.apple.runningboard	assertion	> app<com.apple.mobileslideshow(9123D57A-D0E6-47C6-938F-C289AA99CB36)> ['FBWorkspace (ForegroundFocal)'] [33-34-9642]	
+00:07.147.952	Debug	runningboardd (33)	com.apple.runningboard	assertion	> osservice<com.apple.SpringBoard> ['RB Underlying Assertion'] [33-33-1]	
+00:07.148.013	Debug	runningboardd (33)	com.apple.runningboard	assertion	> app<com.apple.mobileslideshow(9123D57A-D0E6-47C6-938F-C289AA99CB36)> ['injecting inherited from "UIScene:com.apple.frontboard.systemappservices/FBSceneManager:com.apple.springboard" to 1680<UIScene:com.apple.frontboard.systemappservices/FBSceneManager:sceneID%3Acom.apple.mobileslideshow-default>'] [33-34-9644]	
+00:07.148.075	Debug	runningboardd (33)	com.apple.runningboard	assertion	> app<com.apple.chrono.WidgetRenderer-Default((null))> ['com.apple.frontboard.after-life.subordinate'] [33-34-43]	
+00:07.148.133	Debug	runningboardd (33)	com.apple.runningboard	assertion	> app<com.apple.mobileslideshow(9123D57A-D0E6-47C6-938F-C289AA99CB36)> ['com.apple.frontboard.after-life.interrupted'] [33-34-9451]	
+00:07.148.191	Debug	runningboardd (33)	com.apple.runningboard	assertion	> osservice<com.apple.SpringBoard> ['ProactiveEventTracker'] [33-34-9650]	
+00:07.148.293	Info	runningboardd (33)	com.apple.runningboard	assertion	osservice<com.apple.SpringBoard> is now targeted by 9 assertions	
+00:07.148.341	Debug	runningboardd (33)	com.apple.runningboard	assertion	> 34 ['creating 34<UIRootWindow:0x66222c000> visibility'] [33-34-7]	
+00:07.148.383	Debug	runningboardd (33)	com.apple.runningboard	assertion	> 34 ['creating 34<UIRootWindow:0x662261400> visibility'] [33-34-10]	
+00:07.148.425	Debug	runningboardd (33)	com.apple.runningboard	assertion	> 34 ['injecting inherited from "UIRootWindow:0x66222c000" to 34<UIScene:com.apple.frontboard.systemappservices/FBSceneManager:SystemAperture>'] [33-34-12]	
+00:07.148.466	Debug	runningboardd (33)	com.apple.runningboard	assertion	> 34 ['injecting inherited from "UIRootWindow:0x66222c000" to 34<UIScene:com.apple.frontboard.systemappservices/FBSceneManager:com.apple.springboard>'] [33-34-8]	
+00:07.148.505	Debug	runningboardd (33)	com.apple.runningboard	assertion	> 34 ['injecting inherited from "UIRootWindow:0x66222c000" to 34<UIScene:com.apple.frontboard.systemappservices/FBSceneManager:SuperHighLevelSystemAperture>'] [33-34-13]	
+00:07.148.546	Debug	runningboardd (33)	com.apple.runningboard	assertion	> 34 ['RB Underlying Assertion'] [33-33-1]	
+00:07.148.586	Debug	runningboardd (33)	com.apple.runningboard	assertion	> 34 ['ProactiveEventTracker'] [33-34-9650]	
+00:07.148.625	Debug	runningboardd (33)	com.apple.runningboard	assertion	> 34 ['FBSystemShell'] [33-34-4]	
+00:07.148.666	Debug	runningboardd (33)	com.apple.runningboard	assertion	> 34 ['FBSystemApp-PreventIdleSleep'] [33-34-9620]	
+00:07.148.799	Debug	runningboardd (33)	com.apple.runningboard	general	Not starting a new timer for 48,680.1547 since timer will fire at 48,680.1547	
+00:07.149.973	Debug	backboardd (68)	com.apple.BackBoard	MotionEvents	Motion event usagePage:0xff0c usage:1 	
+00:07.150.076	Debug	locationd (74)	com.apple.locationd.Motion	Motion	visitKFFilteredPressure,nowAP,753,594,862.0888,nowAOP,349,875,096,310,filteredPressure,102,626.9297,pressureTimestamp,349,872,375,018,kfElevation,-107.7714,wallTimePressureCorrected,753,594,859.3673,wallTimeKFCorrected,753,594,862.0537,temperatureDerivative,0.0000,absAltUnc,-0.0000	
+00:07.150.156	Debug	locationd (74)	com.apple.locationd.Motion	Altimeter	received KF filtered pressure from AOP,now,<private>,filteredPressureTimestamp,<private>,filteredPressure,<private>,kfTimestamp,<private>,kfElevation,<private>,kfPressure,<private> temperature,<private>,absAltUnc,<private>	
+00:07.150.192	Debug	locationd (74)	com.apple.locationd.Motion	Altimeter	{"msg":"kfPressure source updated with", "timestamp_s":"<private>", "kfPressure":"<private>", "kfElevation":"<private>", "absAltUncertainty":"<private>"}	
+00:07.161.844	Default	backboardd (68)	com.apple.coreanimation	Brightness	Display 1 setting ambient lux to 246.1711
+	
+00:07.161.881	Default	backboardd (68)	com.apple.coreanimation	Brightness	Display 1 setting contrast enhancer to 0.0105
+	
+00:07.173.443	Info	bluetoothd (94)	com.apple.bluetooth	Stack.LE	 Invalid Dual mode support indication in AD flags 0x00000000.	
+00:07.173.626	Info	bluetoothd (94)	com.apple.bluetooth	Server.LE.Scan	Setting mfgr data:<private> len:25 id:4c	
+00:07.173.859	Info	bluetoothd (94)	com.apple.bluetooth	Server.LE.Scan	getDeviceEncryptionKey address:<private> key:<private>	
+00:07.173.924	Info	bluetoothd (94)	com.apple.bluetooth	Server.LE.Scan	getDeviceEncryptionKey SN:<private> key:<private>	
+00:07.173.973	Debug	bluetoothd (94)	com.apple.bluetooth	Server.MagicPairing	Decrypt AccessoryStatus ADV failed: no key, D0:5E:6B:0F:6E:80	
+00:07.174.015	Debug	bluetoothd (94)	com.apple.bluetooth	Server.LE.Scan	Found device "787756E1-D8EF-D562-7B24-01BAEE4B39CF Random D0:5E:6B:0F:6E:80 RSSI:-88 with data:RSSI: 0 dB (non-saturated), MFR Data: 4C 00 12 02 2A 03 07 11 06 97 7A 4B 56 F7 43 1C 83 6D 24 31 2C 21 B6 2F 69[AppleTypesBitmap:0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001000000000010000000], connectable, sourceCore: MainCore, IsELNAOn: 0, IsPassup: 0, IsFromSCCompensation0, IsCoexDenied0, 	
+00:07.174.089	Debug	bluetoothd (94)	com.apple.bluetooth	Server.LE.Scan	doesDeviceMatch: fAdvDataMap size:6 fMaxNumOfReportsInMap:200 fAdvDataMap size:6 Puck?:1 roomInMap:1	
+00:07.174.193	Debug	bluetoothd (94)	com.apple.bluetooth	Server.App	moreAvailable=0, isFromADVBuffer=0	
+00:07.174.497	Debug	bluetoothd (94)	com.apple.bluetooth	Server.LE.Scan	Show dup for given rule with puck type 0x12	
+00:07.174.542	Info	bluetoothd (94)	com.apple.bluetooth	Server.LE.Scan	Device "787756E1-D8EF-D562-7B24-01BAEE4B39CF" matched MFG data	
+00:07.174.589	Debug	bluetoothd (94)	com.apple.bluetooth	Server.LE.Scan	doesDeviceMatch: fAdvDataMap size:143 fMaxNumOfReportsInMap:200 fAdvDataMap size:143 Puck?:1 roomInMap:1	
+00:07.174.655	Debug	bluetoothd (94)	com.apple.bluetooth	Server.XPC	createXpcAdvData sending data:<private> length:6 originalLength:25 lenError:0	
+00:07.174.704	Debug	bluetoothd (94)	com.apple.bluetooth	Server.App	moreAvailable=0, isFromADVBuffer=0	
+00:07.174.752	Debug	bluetoothd (94)	com.apple.bluetooth	WirelessProximity	WPDScanManager didDiscoverPeripheral:<private> RSSI-88	
+00:07.174.908	Debug	bluetoothd (94)	com.apple.bluetooth	Server.LE.Scan	Show dup for given rule with puck type 0x12	
+00:07.174.949	Info	bluetoothd (94)	com.apple.bluetooth	Server.LE.Scan	Device "787756E1-D8EF-D562-7B24-01BAEE4B39CF" matched MFG data	
+00:07.174.971	Info	bluetoothd (94)	com.apple.bluetooth	WirelessProximity	Telling process <private> (<private>) about discovered device (<private>) of type 7 with data <private>	
+00:07.174.990	Debug	bluetoothd (94)	com.apple.bluetooth	Server.LE.Scan	doesDeviceMatch: fAdvDataMap size:143 fMaxNumOfReportsInMap:200 fAdvDataMap size:143 Puck?:1 roomInMap:1	
+00:07.175.046	Debug	bluetoothd (94)	com.apple.bluetooth	Server.XPC	createXpcAdvData sending data:<private> length:6 originalLength:25 lenError:0	
+00:07.175.091	Debug	bluetoothd (94)	com.apple.bluetooth	Server.App	moreAvailable=0, isFromADVBuffer=0	
+00:07.175.132	Debug	locationd (74)	com.apple.locationd.Core	AvengerScanner	{"msg":"didDiscoverPeripheral", "ClientId":CLDurianService, "peripheral":<private>, "advertisementData":<private>}	
+00:07.175.249	Debug	locationd (74)	com.apple.locationd.Core	Harvester	{"msg":"#CLAvengerReconciler advertisement reconciled: ", "ownerUUID":<private>, "nonownerUUID":<private>, "address":<private>, "uuidMap":<private>}	
+00:07.175.261	Debug	bluetoothd (94)	com.apple.bluetooth	Server.LE.Scan	Show dup for given rule with puck type 0x12	
+00:07.175.306	Info	bluetoothd (94)	com.apple.bluetooth	Server.LE.Scan	Device "787756E1-D8EF-D562-7B24-01BAEE4B39CF" matched MFG data	
+00:07.175.329	Debug	locationd (74)	com.apple.locationd.Core	Harvester	{"msg":"#CLAvengerReconciler: creating CLAvengerScannerReconciledInformation", "reconciledInformation.description":<private>}	
+00:07.175.350	Debug	bluetoothd (94)	com.apple.bluetooth	Server.LE.Scan	doesDeviceMatch: fAdvDataMap size:143 fMaxNumOfReportsInMap:200 fAdvDataMap size:143 Puck?:1 roomInMap:1	
+00:07.175.401	Debug	bluetoothd (94)	com.apple.bluetooth	Server.XPC	createXpcAdvData sending data:<private> length:6 originalLength:25 lenError:0	
+00:07.175.448	Debug	locationd (74)	com.apple.locationd.Core	AvengerScanner	{"msg":"didDiscoverPeripheral", "ClientId":CLSubHarvesterAvenger, "peripheral":<private>, "advertisementData":<private>}	
+00:07.175.518	Default	locationd (74)	com.apple.locationd.Position	Proximity	{"msg":"#durian onAvengerAdvertisement", "address":<private>, "date":Mon Nov 18 11:54:22 2024, "data":<private>, "status":<private>, "needsmaint":<private>, "isWild":<private>, "uuid":<private>}	
+00:07.175.530	Debug	locationd (74)	com.apple.locationd.Core	Harvester	{"msg":"#CLAvengerReconciler advertisement reconciled: ", "ownerUUID":<private>, "nonownerUUID":<private>, "address":<private>, "uuidMap":<private>}	
+00:07.175.599	Debug	locationd (74)	com.apple.locationd.Core	Harvester	{"msg":"#CLAvengerReconciler: creating CLAvengerScannerReconciledInformation", "reconciledInformation.description":<private>}	
+00:07.175.621	Debug	bluetoothd (94)	com.apple.bluetooth	Server.App	moreAvailable=0, isFromADVBuffer=0	
+00:07.175.704	Default	locationd (74)	com.apple.locationd.Core	Harvester	{"msg":"onAvengerAdvertisementDetected: got avenger advertisement", "subHarvester":11}	
+00:07.175.775	Debug	sharingd (72)	com.apple.sharing	SFBLEScanner	Prox: WPPairing foundDevice: 787756e1-d8ef-d562-7b24-01baee4b39cf, with info: {
+    "WPPairingKeyName" : "Unknown",
+    "WPPairingKeyDeviceTime" : 753594862.112272,
+    "WPPairingKeyAdvertisingChannel" : 39,
+    "WPPairingKeyRSSI" : -88,
+    "WPPairingKeyDeviceAddress" : d05e6b0f 6e80                       |^^k^n^          | (6 bytes),
+    "WPPairingKeyPaired" : false,
+}	
+00:07.175.781	Default	locationd (74)	com.apple.locationd.Core	Harvester	{"msg":"convertToSPAdvertisement", "address":<private>, "data":<private>, "date":<private>, "rssi":<private>, "status":<private>, "reserved":<private>, "subHarvester":11}	
+00:07.175.829	Debug	bluetoothd (94)	com.apple.bluetooth	Server.LE.Scan	No match found for device "787756E1-D8EF-D562-7B24-01BAEE4B39CF"	
+00:07.175.847	Default	locationd (74)	com.apple.locationd.Core	Harvester	{"msg":"onAvengerAdvertisementDetected: advertisement is near-owner from other people and do not process it", "subHarvester":11}	
+00:07.175.875	Debug	bluetoothd (94)	com.apple.bluetooth	Server.LE.Scan	Show dup for given rule with puck type 0x12	
+00:07.175.894	Debug	sharingd (72)	com.apple.bluetooth	MobileBluetoothFramework	BTDeviceFromIdentifier over XPC	
+00:07.175.965	Debug	sharingd (72)	com.apple.bluetooth	MobileBluetoothFramework	sendSyncMsg service:<private>, sessionName:<private> msgId:kCBMsgIdDeviceFromIdentifierMsg fwSessionPtr:bf448c060	
+00:07.175.971	Debug	locationd (74)	com.apple.locationd.Core	AvengerScanner	{"msg":"didDiscoverPeripheral", "ClientId":CLTrackingAvoidanceService, "peripheral":<private>, "advertisementData":<private>}	
+00:07.176.022	Info	bluetoothd (94)	com.apple.bluetooth	Server.LE.Scan	Device "787756E1-D8EF-D562-7B24-01BAEE4B39CF" matched MFG data	
+00:07.176.125	Info	bluetoothd (94)	com.apple.bluetooth	Server.XPC	Received MBFramework XPC message "kCBMsgIdDeviceFromIdentifierMsg" from session "com.apple.sharingd-MBF-72-130"	
+00:07.176.146	Debug	locationd (74)	com.apple.locationd.Core	Harvester	{"msg":"#CLAvengerReconciler advertisement reconciled: ", "ownerUUID":<private>, "nonownerUUID":<private>, "address":<private>, "uuidMap":<private>}	
+00:07.176.242	Debug	bluetoothd (94)	com.apple.bluetooth	Server.LE.Scan	doesDeviceMatch: fAdvDataMap size:94 fMaxNumOfReportsInMap:200 fAdvDataMap size:94 Puck?:1 roomInMap:1	
+00:07.176.296	Debug	locationd (74)	com.apple.locationd.Core	Harvester	{"msg":"#CLAvengerReconciler: creating CLAvengerScannerReconciledInformation", "reconciledInformation.description":<private>}	
+00:07.176.318	Info	bluetoothd (94)	com.apple.bluetooth	Stack.LE	 Invalid Dual mode support indication in AD flags 0x00000000.	
+00:07.176.320	Debug	bluetoothd (94)	com.apple.bluetooth	Server.XPC	BTDeviceMsgHandler::handleBTDeviceFromIdentifierMsg sessionID:f47b0000	
+00:07.176.386	Debug	bluetoothd (94)	com.apple.bluetooth	Server.XPC	createXpcAdvData sending data:<private> length:6 originalLength:25 lenError:0	
+00:07.176.441	Info	bluetoothd (94)	com.apple.bluetooth	Server.LE.Scan	Setting mfgr data:<private> len:6 id:4c	
+00:07.176.451	Debug	locationd (74)	com.apple.locationd.Position	TrackingAvoidance	#ut received advertisement	
+00:07.176.595	Debug	locationd (74)	com.apple.locationd.Position	GeneralCLX	TaMetricEvent, onAvengerAdvertisement, id, <private>, <private>, <private>, 3	
+00:07.176.640	Debug	bluetoothd (94)	com.apple.bluetooth	Server.App	moreAvailable=0, isFromADVBuffer=0	
+00:07.176.716	Default	locationd (74)	com.apple.tracking-avoidance	Events	<private>	
+00:07.176.721	Info	bluetoothd (94)	com.apple.bluetooth	Server.XPC	Handled MBFramework XPC message "kCBMsgIdDeviceFromIdentifierMsg" from session "com.apple.sharingd-MBF-72-130"	
+00:07.176.799	Debug	sharingd (72)	com.apple.bluetooth	MobileBluetoothFramework	kCBMsgIdDeviceFromIdentifierMsg reply result:8	
+00:07.176.919	Default	sharingd (72)	com.apple.sharing	BLEAdv	BLE Prox found SFBLEDevice ID bb002d7c-09ee-1000-8000-001ff3fb80df, RSSI -88 (0)t~U, Ch 39, AdvD <4c00071106977a4b56f7431c836d24312c21b62f69>, ST AccessoryStatus, Nm 'BBVEPAQE', Paired no, Cnx no, OBC=?	
+00:07.177.000	Debug	locationd (74)	com.apple.tracking-avoidance	Status	#TAStore not adding TASPAdvertisement due to owner advertisement type:<private>	
+00:07.177.006	Debug	sharingd (72)	com.apple.sharing	SDNearbyAgentCore	Skip reporting device found SFDevice ID bb002d7c-09ee-1000-8000-001ff3fb80df, RSSI -88 (0)~U, DT Generic with low RSSI to SFDeviceDiscovery (AAContextManger), 0x2 < Prox >, cflags 0x9 < AdvData Attrs >, ScanRate Normal, RSSI >= -70	
+00:07.177.021	Debug	bluetoothd (94)	com.apple.bluetooth	Server.LE.Scan	No match found for device "787756E1-D8EF-D562-7B24-01BAEE4B39CF"	
+00:07.177.053	Debug	bluetoothd (94)	com.apple.bluetooth	Server.LE.Scan	Agents: com.apple.bluetoothd-central-94-1 hashedUUIDs=0 Nbmatchrules=2 ServiceUUID=0 | com.apple.locationd-central-74-54 hashedUUIDs=0 Nbmatchrules=1 ServiceUUID=2 | com.apple.locationd-central-74-62 hashedUUIDs=0 Nbmatchrules=1 ServiceUUID=2 | com.apple.locationd-central-74-69 hashedUUIDs=0 Nbmatchrules=1 ServiceUUID=2 | com.apple.locationd-central-74-124 hashedUUIDs=0 Nbmatchrules=1 ServiceUUID=2 | 	
+00:07.177.058	Debug	sharingd (72)	com.apple.sharing	SDNearbyAgentCore	Skip reporting device found SFDevice ID bb002d7c-09ee-1000-8000-001ff3fb80df, RSSI -88 (0)~U, DT Generic with low RSSI to SFDeviceDiscovery (PPA), 0x2 < Prox >, cflags 0xD < AdvData RSSI Attrs >, ScanRate Aggressive, RSSI >= -60	
+00:07.177.106	Debug	sharingd (72)	com.apple.sharing	SDNearbyAgentCore	Skip reporting device found SFDevice ID bb002d7c-09ee-1000-8000-001ff3fb80df, RSSI -88 (0)~U, DT Generic with low RSSI to SFDeviceDiscovery (SmartRouting), 0x2 < Prox >, cflags 0x9 < AdvData Attrs >, ScanRate Normal, RSSI >= -70	
+00:07.177.155	Debug	bluetoothd (94)	com.apple.bluetooth	Server.LE.Scan	Found device "3DA17E56-3769-7C0B-1AF5-3A09E88AEDDF Random C5:D7:F5:B8:2D:BF RSSI:-98 with data:RSSI: 0 dB (non-saturated), MFR Data: 4C 00 12 02 00 03[AppleTypesBitmap:0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001000000000000000000], non-connectable, sourceCore: MainCore, IsELNAOn: 0, IsPassup: 0, IsFromSCCompensation0, IsCoexDenied0, 	
+00:07.177.218	Debug	locationd (74)	com.apple.locationd.Core	AvengerScanner	{"msg":"didDiscoverPeripheral", "ClientId":CLAvengerObservationReporterService, "peripheral":<private>, "advertisementData":<private>}	
+00:07.177.272	Debug	locationd (74)	com.apple.locationd.Core	Harvester	{"msg":"#CLAvengerReconciler advertisement reconciled: ", "ownerUUID":<private>, "nonownerUUID":<private>, "address":<private>, "uuidMap":<private>}	
+00:07.177.297	Debug	bluetoothd (94)	com.apple.CFBundle	strings	Bundle: <private>, key: bt_type_generic, value: , table: CBLocalizable, localizationNames: , result: Bluetooth Device	
+00:07.177.320	Debug	locationd (74)	com.apple.locationd.Core	Harvester	{"msg":"#CLAvengerReconciler: creating CLAvengerScannerReconciledInformation", "reconciledInformation.description":<private>}	
+00:07.177.355	Debug	bluetoothd (94)	com.apple.bluetooth	Server.LE.Scan	Show dup for given rule with puck type 0x12	
+00:07.177.414	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	SyncDBV Telemetry | Transaction.ID=13,499 Latency=36.0000ms	
+00:07.177.478	Info	bluetoothd (94)	com.apple.bluetooth	Server.LE.Scan	Device "3DA17E56-3769-7C0B-1AF5-3A09E88AEDDF" matched MFG data	
+00:07.177.529	Info	bluetoothd (94)	com.apple.bluetooth	CBStackBLEScanner	Device found changed: CBDevice 787756E1-D8EF-D562-7B24-01BAEE4B39CF, BDA D0:5E:6B:0F:6E:80, Nm 'Bluetooth Device', DsFl 0x20000000080 < AccessoryStatus ObjectDiscoveryNearOwner >, DvF 0x40000000000 < Connectable >, RSSI -88, Ch 39, Battery L +100% R -67% C -86%, FV '109.131.28', AdTsMC <349875120107>, AMfD <4c 00 12 02 2a 03 07 11 06 97 7a 4b 56 f7 43 1c 83 6d 24 31 2c 21 b6 2f 69>, asFl 0x1 < LidClosed >, asLO 3, asOT 6h, odBS High, odMd NearOwner, odNO d05e6b0f6e80, odPI HeGn, odPK NULL, ppPI 0x7A97 (?), ppST 0x06 (AccessoryStatus), CF 0x80200000000 < RSSI Attributes >	
+00:07.177.555	Debug	bluetoothd (94)	com.apple.bluetooth	Server.LE.Scan	doesDeviceMatch: fAdvDataMap size:143 fMaxNumOfReportsInMap:200 fAdvDataMap size:143 Puck?:1 roomInMap:1	
+00:07.177.648	Debug	bluetoothd (94)	com.apple.CFBundle	strings	Bundle: <private>, key: bt_type_generic, value: , table: CBLocalizable, localizationNames: , result: Bluetooth Device	
+00:07.177.722	Debug	bluetoothd (94)	com.apple.bluetooth	Server.XPC	createXpcAdvData sending data:<private> length:6 originalLength:6 lenError:0	
+00:07.177.930	Debug	bluetoothd (94)	com.apple.bluetooth	Server.App	moreAvailable=0, isFromADVBuffer=0	
+00:07.178.155	Debug	bluetoothd (94)	com.apple.bluetooth	Server.LE.Scan	Show dup for given rule with puck type 0x12	
+00:07.178.183	Info	bluetoothd (94)	com.apple.bluetooth	Server.LE.Scan	Device "3DA17E56-3769-7C0B-1AF5-3A09E88AEDDF" matched MFG data	
+00:07.178.250	Debug	locationd (74)	com.apple.locationd.Core	AvengerScanner	{"msg":"didDiscoverPeripheral", "ClientId":CLDurianService, "peripheral":<private>, "advertisementData":<private>}	
+00:07.178.274	Debug	bluetoothd (94)	com.apple.bluetooth	Server.LE.Scan	doesDeviceMatch: fAdvDataMap size:143 fMaxNumOfReportsInMap:200 fAdvDataMap size:143 Puck?:1 roomInMap:1	
+00:07.178.302	Debug	locationd (74)	com.apple.locationd.Core	Harvester	{"msg":"#CLAvengerReconciler advertisement reconciled: ", "ownerUUID":<private>, "nonownerUUID":<private>, "address":<private>, "uuidMap":<private>}	
+00:07.178.404	Debug	locationd (74)	com.apple.locationd.Core	Harvester	{"msg":"#CLAvengerReconciler: creating CLAvengerScannerReconciledInformation", "reconciledInformation.description":<private>}	
+00:07.178.436	Debug	bluetoothd (94)	com.apple.bluetooth	Server.XPC	createXpcAdvData sending data:<private> length:6 originalLength:6 lenError:0	
+00:07.178.454	Info	aonsensed (70)	com.apple.bluetooth	CBDiscovery	Device found: CBDevice 787756E1-D8EF-D562-7B24-01BAEE4B39CF, BDA D0:5E:6B:0F:6E:80, Nm 'Bluetooth Device', DsFl 0x20000000080 < AccessoryStatus ObjectDiscoveryNearOwner >, DvF 0x40000000000 < Connectable >, RSSI -88, Ch 39, Battery L +100% R -67% C -86%, FV '109.131.28', AdTsMC <349875120107>, AMfD <4c 00 12 02 2a 03 07 11 06 97 7a 4b 56 f7 43 1c 83 6d 24 31 2c 21 b6 2f 69>, asFl 0x1 < LidClosed >, asLO 3, asOT 6h, odBS High, odMd NearOwner, odNO d05e6b0f6e80, odPI HeGn, odPK NULL, ppPI 0x7A97 (?), ppST 0x06 (AccessoryStatus), CF 0x80200000000 < RSSI Attributes >	
+00:07.178.478	Debug	locationd (74)	com.apple.locationd.Position	Proximity	{"msg":"#durian onAvengerAdvertisement - not durian/hawkeye or not Apple advertisement", "status":0}	
+00:07.178.507	Debug	bluetoothd (94)	com.apple.bluetooth	Server.App	moreAvailable=0, isFromADVBuffer=0	
+00:07.178.650	Debug	aonsensed (70)	com.apple.aonsensed	core	#BT,onDeviceFound,<private>	
+00:07.178.711	Debug	bluetoothd (94)	com.apple.bluetooth	Server.LE.Scan	Show dup for given rule with puck type 0x12	
+00:07.178.748	Info	aonsensed (70)	com.apple.aonsensed	core	#BT,onAdvertisements,notif,count:1,time:cfa 753594862.117512, mat 48676.630744, mct 349875.125241,screenOn:true,simulated:false,delayMs,-301,198,489.3625	
+00:07.178.799	Debug	locationd (74)	com.apple.locationd.Core	AvengerScanner	{"msg":"didDiscoverPeripheral", "ClientId":CLSubHarvesterAvenger, "peripheral":<private>, "advertisementData":<private>}	
+00:07.178.822	Info	aonsensed (70)	com.apple.aonsensed	core	Leeching ALBtNotification, clients count 1	
+00:07.178.831	Info	bluetoothd (94)	com.apple.bluetooth	Server.LE.Scan	Device "3DA17E56-3769-7C0B-1AF5-3A09E88AEDDF" matched MFG data	
+00:07.178.847	Debug	locationd (74)	com.apple.locationd.Core	Harvester	{"msg":"#CLAvengerReconciler advertisement reconciled: ", "ownerUUID":<private>, "nonownerUUID":<private>, "address":<private>, "uuidMap":<private>}	
+00:07.178.935	Debug	locationd (74)	com.apple.locationd.Core	Harvester	{"msg":"#CLAvengerReconciler: creating CLAvengerScannerReconciledInformation", "reconciledInformation.description":<private>}	
+00:07.178.936	Debug	bluetoothd (94)	com.apple.bluetooth	Server.LE.Scan	doesDeviceMatch: fAdvDataMap size:143 fMaxNumOfReportsInMap:200 fAdvDataMap size:143 Puck?:1 roomInMap:1	
+00:07.178.988	Debug	aonsensed (70)	com.apple.aonsensed	core	#BT,serializedData,notif,results,count,1,last,true,data,135 bytes	
+00:07.179.003	Debug	bluetoothd (94)	com.apple.bluetooth	Server.XPC	createXpcAdvData sending data:<private> length:6 originalLength:6 lenError:0	
+00:07.179.077	Default	locationd (74)	com.apple.locationd.Core	Harvester	{"msg":"onAvengerAdvertisementDetected: got avenger advertisement", "subHarvester":11}	
+00:07.179.083	Info	aonsensed (70)	com.apple.aonsensed	core	leeching to <NSXPCConnection: 0x53605c6e0> connection from pid 148 on mach service named com.apple.aonsensed.xpc	
+00:07.179.168	Debug	bluetoothd (94)	com.apple.bluetooth	Server.App	moreAvailable=0, isFromADVBuffer=0	
+00:07.179.228	Default	locationd (74)	com.apple.locationd.Core	Harvester	{"msg":"convertToSPAdvertisement", "address":<private>, "data":<private>, "date":<private>, "rssi":<private>, "status":<private>, "reserved":<private>, "subHarvester":11}	
+00:07.179.279	Info	nearbyd (148)	com.apple.aonsensed	xpc	receive <private>	
+00:07.179.374	Debug	nearbyd (148)	com.apple.aonsensed	xpc	onData,callback,<private>	
+00:07.179.382	Default	locationd (74)	com.apple.locationd.Core	Harvester	{"msg":"onAvengerAdvertisementDetected: advertisement is near-owner from other people and do not process it", "subHarvester":11}	
+00:07.179.399	Debug	bluetoothd (94)	com.apple.bluetooth	Server.LE.Scan	No match found for device "3DA17E56-3769-7C0B-1AF5-3A09E88AEDDF"	
+00:07.179.495	Info	nearbyd (148)	com.apple.aonsensed	core	#BT,dataCallback,results,1,last,1	
+00:07.179.579	Debug	locationd (74)	com.apple.locationd.Core	AvengerScanner	{"msg":"didDiscoverPeripheral", "ClientId":CLTrackingAvoidanceService, "peripheral":<private>, "advertisementData":<private>}	
+00:07.179.597	Debug	nearbyd (148)	nearbyd	Default	#AONSenseSampleProvider #QE_Log - screen state for this notification: <private> with Advertisement count: 1	
+00:07.179.632	Debug	locationd (74)	com.apple.locationd.Core	Harvester	{"msg":"#CLAvengerReconciler advertisement reconciled: ", "ownerUUID":<private>, "nonownerUUID":<private>, "address":<private>, "uuidMap":<private>}	
+00:07.179.633	Debug	nearbyd (148)	nearbyd	Default	#AONSenseSampleProvider - non-airpods sample received. Dropping	
+00:07.179.656	Debug	bluetoothd (94)	com.apple.bluetooth	Server.LE.Scan	Show dup for given rule with puck type 0x12	
+00:07.179.671	Debug	locationd (74)	com.apple.locationd.Core	Harvester	{"msg":"#CLAvengerReconciler: creating CLAvengerScannerReconciledInformation", "reconciledInformation.description":<private>}	
+00:07.179.713	Info	bluetoothd (94)	com.apple.bluetooth	Server.LE.Scan	Device "3DA17E56-3769-7C0B-1AF5-3A09E88AEDDF" matched MFG data	
+00:07.179.809	Debug	locationd (74)	com.apple.locationd.Position	TrackingAvoidance	#ut received advertisement	
+00:07.179.894	Debug	bluetoothd (94)	com.apple.bluetooth	Server.LE.Scan	doesDeviceMatch: fAdvDataMap size:94 fMaxNumOfReportsInMap:200 fAdvDataMap size:94 Puck?:1 roomInMap:1	
+00:07.179.938	Debug	locationd (74)	com.apple.locationd.Position	GeneralCLX	TaMetricEvent, onAvengerAdvertisement, id, <private>, <private>, <private>, 3	
+00:07.179.979	Info	bluetoothd (94)	com.apple.bluetooth	Stack.LE	 Invalid Dual mode support indication in AD flags 0x00000000.	
+00:07.179.989	Debug	bluetoothd (94)	com.apple.bluetooth	Server.XPC	createXpcAdvData sending data:<private> length:6 originalLength:6 lenError:0	
+00:07.180.042	Default	locationd (74)	com.apple.tracking-avoidance	Events	<private>	
+00:07.180.091	Info	bluetoothd (94)	com.apple.bluetooth	Server.LE.Scan	Setting mfgr data:<private> len:6 id:4c	
+00:07.180.283	Debug	locationd (74)	com.apple.tracking-avoidance	Status	#TAStore not adding TASPAdvertisement due to irrelevant device type:<private>	
+00:07.180.387	Debug	bluetoothd (94)	com.apple.bluetooth	Server.App	moreAvailable=0, isFromADVBuffer=0	
+00:07.180.505	Debug	bluetoothd (94)	com.apple.bluetooth	Server.LE.Scan	No match found for device "3DA17E56-3769-7C0B-1AF5-3A09E88AEDDF"	
+00:07.180.528	Debug	bluetoothd (94)	com.apple.bluetooth	Server.LE.Scan	Agents: com.apple.locationd-central-74-54 hashedUUIDs=0 Nbmatchrules=1 ServiceUUID=2 | com.apple.locationd-central-74-62 hashedUUIDs=0 Nbmatchrules=1 ServiceUUID=2 | com.apple.locationd-central-74-69 hashedUUIDs=0 Nbmatchrules=1 ServiceUUID=2 | com.apple.locationd-central-74-124 hashedUUIDs=0 Nbmatchrules=1 ServiceUUID=2 | 	
+00:07.180.578	Debug	locationd (74)	com.apple.locationd.Core	AvengerScanner	{"msg":"didDiscoverPeripheral", "ClientId":CLAvengerObservationReporterService, "peripheral":<private>, "advertisementData":<private>}	
+00:07.180.618	Debug	locationd (74)	com.apple.locationd.Core	Harvester	{"msg":"#CLAvengerReconciler advertisement reconciled: ", "ownerUUID":<private>, "nonownerUUID":<private>, "address":<private>, "uuidMap":<private>}	
+00:07.180.648	Debug	locationd (74)	com.apple.locationd.Core	Harvester	{"msg":"#CLAvengerReconciler: creating CLAvengerScannerReconciledInformation", "reconciledInformation.description":<private>}	
+00:07.180.691	Debug	bluetoothd (94)	com.apple.bluetooth	Server.LE.Scan	Found device "F03F66E9-2EC2-4B6E-A174-B5981BEDC4A7 Random F4:BA:49:D9:E3:0E RSSI:-93 with data:RSSI: 0 dB (non-saturated), MFR Data: 4C 00 12 02 00 00[AppleTypesBitmap:0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001000000000000000000], non-connectable, sourceCore: MainCore, IsELNAOn: 0, IsPassup: 0, IsFromSCCompensation0, IsCoexDenied0, 	
+00:07.180.697	Debug	bluetoothd (94)	com.apple.CFBundle	strings	Bundle: <private>, key: bt_type_generic, value: , table: CBLocalizable, localizationNames: , result: Bluetooth Device	
+00:07.180.909	Debug	bluetoothd (94)	com.apple.bluetooth	Server.LE.Scan	Show dup for given rule with puck type 0x12	
+00:07.181.030	Info	bluetoothd (94)	com.apple.bluetooth	Server.LE.Scan	Device "F03F66E9-2EC2-4B6E-A174-B5981BEDC4A7" matched MFG data	
+00:07.181.161	Debug	bluetoothd (94)	com.apple.bluetooth	Server.LE.Scan	doesDeviceMatch: fAdvDataMap size:143 fMaxNumOfReportsInMap:200 fAdvDataMap size:143 Puck?:1 roomInMap:1	
+00:07.181.204	Debug	Photos (1680)	com.apple.photos.backend	ChangeHandling	Change handling notification: Resuming low priority notifications at QoS: QOS_CLASS_BACKGROUND	
+00:07.181.302	Debug	bluetoothd (94)	com.apple.bluetooth	Server.XPC	createXpcAdvData sending data:<private> length:6 originalLength:6 lenError:0	
+00:07.181.334	Debug	bluetoothd (94)	com.apple.bluetooth	Server.App	moreAvailable=0, isFromADVBuffer=0	
+00:07.181.531	Debug	bluetoothd (94)	com.apple.bluetooth	Server.LE.Scan	Show dup for given rule with puck type 0x12	
+00:07.181.553	Info	bluetoothd (94)	com.apple.bluetooth	Server.LE.Scan	Device "F03F66E9-2EC2-4B6E-A174-B5981BEDC4A7" matched MFG data	
+00:07.181.574	Debug	bluetoothd (94)	com.apple.bluetooth	Server.LE.Scan	doesDeviceMatch: fAdvDataMap size:143 fMaxNumOfReportsInMap:200 fAdvDataMap size:143 Puck?:1 roomInMap:1	
+00:07.181.601	Debug	locationd (74)	com.apple.locationd.Core	AvengerScanner	{"msg":"didDiscoverPeripheral", "ClientId":CLDurianService, "peripheral":<private>, "advertisementData":<private>}	
+00:07.181.605	Debug	bluetoothd (94)	com.apple.bluetooth	Server.XPC	createXpcAdvData sending data:<private> length:6 originalLength:6 lenError:0	
+00:07.181.630	Debug	bluetoothd (94)	com.apple.bluetooth	Server.App	moreAvailable=0, isFromADVBuffer=0	
+00:07.181.646	Debug	locationd (74)	com.apple.locationd.Core	Harvester	{"msg":"#CLAvengerReconciler advertisement reconciled: ", "ownerUUID":<private>, "nonownerUUID":<private>, "address":<private>, "uuidMap":<private>}	
+00:07.181.684	Debug	locationd (74)	com.apple.locationd.Core	Harvester	{"msg":"#CLAvengerReconciler: creating CLAvengerScannerReconciledInformation", "reconciledInformation.description":<private>}	
+00:07.181.722	Debug	bluetoothd (94)	com.apple.bluetooth	Server.LE.Scan	Show dup for given rule with puck type 0x12	
+00:07.181.730	Debug	locationd (74)	com.apple.locationd.Position	Proximity	{"msg":"#durian onAvengerAdvertisement - not durian/hawkeye or not Apple advertisement", "status":0}	
+00:07.181.742	Info	bluetoothd (94)	com.apple.bluetooth	Server.LE.Scan	Device "F03F66E9-2EC2-4B6E-A174-B5981BEDC4A7" matched MFG data	
+00:07.181.789	Debug	bluetoothd (94)	com.apple.bluetooth	Server.LE.Scan	doesDeviceMatch: fAdvDataMap size:143 fMaxNumOfReportsInMap:200 fAdvDataMap size:143 Puck?:1 roomInMap:1	
+00:07.181.791	Debug	locationd (74)	com.apple.locationd.Core	AvengerScanner	{"msg":"didDiscoverPeripheral", "ClientId":CLSubHarvesterAvenger, "peripheral":<private>, "advertisementData":<private>}	
+00:07.181.827	Debug	locationd (74)	com.apple.locationd.Core	Harvester	{"msg":"#CLAvengerReconciler advertisement reconciled: ", "ownerUUID":<private>, "nonownerUUID":<private>, "address":<private>, "uuidMap":<private>}	
+00:07.181.845	Debug	bluetoothd (94)	com.apple.bluetooth	Server.XPC	createXpcAdvData sending data:<private> length:6 originalLength:6 lenError:0	
+00:07.181.859	Debug	locationd (74)	com.apple.locationd.Core	Harvester	{"msg":"#CLAvengerReconciler: creating CLAvengerScannerReconciledInformation", "reconciledInformation.description":<private>}	
+00:07.181.870	Debug	bluetoothd (94)	com.apple.bluetooth	Server.App	moreAvailable=0, isFromADVBuffer=0	
+00:07.181.908	Default	locationd (74)	com.apple.locationd.Core	Harvester	{"msg":"onAvengerAdvertisementDetected: got avenger advertisement", "subHarvester":11}	
+00:07.181.945	Default	locationd (74)	com.apple.locationd.Core	Harvester	{"msg":"convertToSPAdvertisement", "address":<private>, "data":<private>, "date":<private>, "rssi":<private>, "status":<private>, "reserved":<private>, "subHarvester":11}	
+00:07.181.992	Debug	bluetoothd (94)	com.apple.bluetooth	Server.LE.Scan	No match found for device "F03F66E9-2EC2-4B6E-A174-B5981BEDC4A7"	
+00:07.182.015	Debug	bluetoothd (94)	com.apple.bluetooth	Server.LE.Scan	Show dup for given rule with puck type 0x12	
+00:07.182.032	Info	bluetoothd (94)	com.apple.bluetooth	Server.LE.Scan	Device "F03F66E9-2EC2-4B6E-A174-B5981BEDC4A7" matched MFG data	
+00:07.182.058	Default	locationd (74)	com.apple.locationd.Core	Harvester	{"msg":"onAvengerAdvertisementDetected: advertisement is near-owner from other people and do not process it", "subHarvester":11}	
+00:07.182.066	Debug	locationd (74)	com.apple.locationd.Core	AvengerScanner	{"msg":"didDiscoverPeripheral", "ClientId":CLTrackingAvoidanceService, "peripheral":<private>, "advertisementData":<private>}	
+00:07.182.103	Debug	bluetoothd (94)	com.apple.bluetooth	Server.LE.Scan	doesDeviceMatch: fAdvDataMap size:94 fMaxNumOfReportsInMap:200 fAdvDataMap size:94 Puck?:1 roomInMap:1	
+00:07.182.192	Debug	bluetoothd (94)	com.apple.bluetooth	Server.XPC	createXpcAdvData sending data:<private> length:6 originalLength:6 lenError:0	
+00:07.182.222	Debug	locationd (74)	com.apple.locationd.Core	Harvester	{"msg":"#CLAvengerReconciler advertisement reconciled: ", "ownerUUID":<private>, "nonownerUUID":<private>, "address":<private>, "uuidMap":<private>}	
+00:07.182.265	Debug	bluetoothd (94)	com.apple.bluetooth	Server.App	moreAvailable=0, isFromADVBuffer=0	
+00:07.182.302	Debug	locationd (74)	com.apple.locationd.Core	Harvester	{"msg":"#CLAvengerReconciler: creating CLAvengerScannerReconciledInformation", "reconciledInformation.description":<private>}	
+00:07.182.411	Debug	bluetoothd (94)	com.apple.bluetooth	Server.LE.Scan	No match found for device "F03F66E9-2EC2-4B6E-A174-B5981BEDC4A7"	
+00:07.182.435	Debug	bluetoothd (94)	com.apple.bluetooth	Server.LE.Scan	Agents: com.apple.locationd-central-74-54 hashedUUIDs=0 Nbmatchrules=1 ServiceUUID=2 | com.apple.locationd-central-74-62 hashedUUIDs=0 Nbmatchrules=1 ServiceUUID=2 | com.apple.locationd-central-74-69 hashedUUIDs=0 Nbmatchrules=1 ServiceUUID=2 | com.apple.locationd-central-74-124 hashedUUIDs=0 Nbmatchrules=1 ServiceUUID=2 | 	
+00:07.182.438	Debug	locationd (74)	com.apple.locationd.Position	TrackingAvoidance	#ut received advertisement	
+00:07.182.480	Debug	locationd (74)	com.apple.locationd.Core	AvengerScanner	{"msg":"didDiscoverPeripheral", "ClientId":CLAvengerObservationReporterService, "peripheral":<private>, "advertisementData":<private>}	
+00:07.182.504	Debug	bluetoothd (94)	com.apple.CFBundle	strings	Bundle: <private>, key: bt_type_generic, value: , table: CBLocalizable, localizationNames: , result: Bluetooth Device	
+00:07.182.535	Debug	locationd (74)	com.apple.locationd.Position	GeneralCLX	TaMetricEvent, onAvengerAdvertisement, id, <private>, <private>, <private>, 3	
+00:07.182.617	Debug	locationd (74)	com.apple.locationd.Core	Harvester	{"msg":"#CLAvengerReconciler advertisement reconciled: ", "ownerUUID":<private>, "nonownerUUID":<private>, "address":<private>, "uuidMap":<private>}	
+00:07.182.671	Default	locationd (74)	com.apple.tracking-avoidance	Events	<private>	
+00:07.182.717	Debug	locationd (74)	com.apple.locationd.Core	Harvester	{"msg":"#CLAvengerReconciler: creating CLAvengerScannerReconciledInformation", "reconciledInformation.description":<private>}	
+00:07.182.860	Debug	locationd (74)	com.apple.tracking-avoidance	Status	#TAStore not adding TASPAdvertisement due to irrelevant device type:<private>	
+00:07.187.217	Debug	DTServiceHub (360)	DVTInstrumentsFoundation	Default	Data Size: 101,104, Rows Sent: 1,238, Stack depth: 4,683	
+00:07.239.344	Debug	remoted (51)	com.apple.xpc.remote	channel	[0x53614c190] Header recieved. <private>	
+00:07.239.461	Debug	remoted (51)	com.apple.xpc.remote	channel	[0x53614c190] Enqueueing body read of 80 bytes	
+00:07.239.607	Debug	remoted (51)	com.apple.xpc.remote	channel	[0x53614c190] Body received.	
+00:07.239.670	Info	remoted (51)	com.apple.xpc.remote	channel	Delivering 43	
+00:07.239.735	Info	remoted (51)	com.apple.xpc.remote	connection	[0x5360c5400] Message 2b received (wanting reply), dispatching handler block	
+00:07.239.939	Default	remoted (51)	com.apple.RemoteServiceDiscovery	remoted	coredevice-4> Responding to heartbeat request with sequence number 20	
+00:07.240.006	Info	remoted (51)	com.apple.xpc.remote	connection	[0x5360c5400] Sending outgoing reply	
+00:07.240.053	Info	remoted (51)	com.apple.xpc.remote	channel	[0x53614c280] Starting write of msg_id 43 (48 bytes).	
+00:07.240.134	Info	remoted (51)	com.apple.xpc.remote	connection	[0x5360c5400] Handler block for 2b complete, re-arming	
+00:07.240.188	Debug	remoted (51)	com.apple.xpc.remote	channel	[0x53614c190] Arming read	
+00:07.240.324	Info	remoted (51)	com.apple.xpc.remote	channel	[0x53614c280] Send of msg_id 43 completed successfully	
+00:07.240.380	Info	remoted (51)	com.apple.xpc.remote	connection	[0x5360c5400] Reply send completed	
+00:07.243.327	Debug	wifid (50)	IO80211	Default	_writeEventBuffer: processing event 153/'APPLE80211_M_CHANNEL_SWITCH_EVENT'
+	
+00:07.243.330	Debug	wifid (50)	IO80211	Default	_writeEventBuffer: processing event 153/'APPLE80211_M_CHANNEL_SWITCH_EVENT'
+	
+00:07.243.524	Debug	wifid (50)	IO80211	Default	_writeEventBuffer: processing event 153/'APPLE80211_M_CHANNEL_SWITCH_EVENT'
+	
+00:07.243.583	Debug	wifid (50)	IO80211	Default	_writeEventBuffer: processing event 153/'APPLE80211_M_CHANNEL_SWITCH_EVENT'
+	
+00:07.243.588	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	now=753,594,862.1823 delta=0.8884 fade->period=2.0000 portion=0.4442 fade->Fstart=0.0110 fade->Ftarget=0.0098 Factor=0.0104
+	
+00:07.243.607	Debug	wifid (50)	IO80211	Default	_writeEventBuffer: processing event 153/'APPLE80211_M_CHANNEL_SWITCH_EVENT'
+	
+00:07.243.628	Debug	wifid (50)	IO80211	Default	_writeEventBuffer: processing event 153/'APPLE80211_M_CHANNEL_SWITCH_EVENT'
+	
+00:07.243.650	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	Display fade callback: updateBrightness = 0, updateVirtual = 0, updateEDRHeadroom = 0, forceSyncDBVUpdate = 1	
+00:07.243.660	Debug	wifid (50)	IO80211	Default	_writeEventBuffer: processing event 153/'APPLE80211_M_CHANNEL_SWITCH_EVENT'
+	
+00:07.243.671	Debug	wifid (50)	IO80211	Default	_writeEventBuffer: processing event 153/'APPLE80211_M_CHANNEL_SWITCH_EVENT'
+	
+00:07.243.698	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	Pivoting - RIGHT restriction: L_device 205.5501 -> 118.8318, ScalerMax = 0.5060, Fmax = 0.5200	
+00:07.243.739	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	Superbright EDR restrictions [would be]: CLTM 1,512.3809, UPO 2,175.0000, bottom [lower] restriction 1.0000, nits cap hdr: 2,175.0000, after BDM: 1,600.0000	
+00:07.243.782	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	SetLogicalBrightnessInternal caps: cltm 1,512.3809,  weakcap: 2,175.0000, gl.scalar: 1.0000, dyn.sl: 0.5200, edrcap: 1,600.0000	
+00:07.243.824	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	Caps after global scaling: nitsCap=551.2000 nitsCapEDR=1,600.0000	
+00:07.243.827	Debug	wifid (50)	IO80211	Default	_writeEventBuffer: processing event 153/'APPLE80211_M_CHANNEL_SWITCH_EVENT'
+	
+00:07.243.872	Debug	wifip2pd (248)	IO80211	Default	_writeEventBuffer: processing event 153/'APPLE80211_M_CHANNEL_SWITCH_EVENT'
+	
+00:07.244.031	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	SLBI other current=1,600.0000, calculated=1,600.0000	
+00:07.244.249	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	Factor=1.0000 Lcurrent=205.5501 maxRestriction=1,512.3809 minRestriction=1.0000 maxPanel=1,060.0000 minPanel=1.0000 L_device=118.8318	
+00:07.244.457	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	S=0.5414	
+00:07.244.472	Debug	wifid (50)	IO80211	Default	_writeEventBuffer: processing event 153/'APPLE80211_M_CHANNEL_SWITCH_EVENT'
+	
+00:07.244.495	Info	backboardd (68)	com.apple.CoreBrightness.Display	default	SyncDBV Composition | Nits.Cap=551.2000 MaxRestriction.Cap=1,512.3809 WeakRestriction.Cap=2,175.0000 PAAB.Scalar=1.0000 RightFactor.Current=0.5200 RightFactor.Overriden=NO BrightDotMitigation.Enabled=YES BrightDotMitigation.Cap=1,600.0000 EDR.Enabled=YES EDR.IsEngaged=NO EDR.Cap=1,600.0000 EDR.FadePeriod=0.0000 Panel.Max=1,060.0000 Aurora.IsBoostingBrightness=NO PreStrobe.Changed=NO PreStrobe.IsActive=NO PreStrobe.Cap=0.0000 PreStrobe.CachedNits=0.0000	
+00:07.244.928	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	Handle notification for key = DisplayBrightness and property = <private>	
+00:07.245.039	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayContaineriOS	BuiltIn	Notification block key=DisplayBrightness, value=<private>
+	
+00:07.245.139	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	Handle notification for key = FrameSynchronizedBrightnessTransaction and property = <private>	
+00:07.245.206	Info	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	HDR CAPS | RTPLC: [None] 1,600.0000, currentNitCap: 551.2000, dynSliderCap: 551.2000, Nits: 118.8318	
+00:07.245.383	Info	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	CBEDR statusInfo: <private>	
+00:07.245.494	Debug	backboardd (68)	com.apple.CoreBrightness.CBIndicatorBrightnessModule	default	updateRamp called, isRampRunning: NO, silState: 4, currentSDR: 118.8318, currentMIB: 115.9970, targetMIB: 1.0000, MIB: 1.0000	
+00:07.245.721	Debug	backboardd (68)	com.apple.CoreBrightness.CBIndicatorBrightnessModule	default	updateRamp finished, isRampRunning: NO, silState: 4, currentSDR: 118.8318, currentMIB: 115.9970, targetMIB: 1.0000, MIB: 1.0000	
+00:07.245.862	Default	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	HDR | _edrState: 0, forceRamp: NO	
+00:07.245.970	Default	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	Pushing sdrBrightness: 118.8318, capped _appliedHeadroom: 1.0000, brightnessLimit: 551.2000, potentialHeadroom: 8.0000, Ambient: 246.1711 to CA, HDRBrightness: 118.8318, [None] rtplcCap: 1,600.0000	
+00:07.246.044	Default	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	SyncDBV Transaction | ID=13,500 SDR.Nits=118.8318 HDR.Nits=118.8318 HDR.State=Off BrightnessLimit=551.2000 IndicatorBrightness.Nits=0.0000 IndicatorBrightness.Cap=551.2000 Headroom.Current=1.0000 Headroom.Maximum=8.0000 AppliedCompensations=1.3000 Aurora.Factor=1.0000 Aurora.RampInProgress=NO Lux=246.1711 RTPLC.State=None RTPLC.Cap=1,600.0000 RTPLC.CapApplied=NO PeakAPCE.Cap=0.0800 Nits.Cap=551.2000 DynamicSlider.Cap=551.2000 Twilight.Strength=0.0000 Ammolite.Strength=0.0000 ContrastEnhancer.Strength=0.0104	
+00:07.246.287	Default	backboardd (68)	com.apple.coreanimation	Brightness	Display 1 commitBrightness sdr: 118.8318, headroom: 1.0000, ambient lux: 246.1711, filtered ambient: -1.0000, limit: 551.2000, low ambient strength: 0.0000, high ambient strength: 0.0000, brightness ctl disabled 18,446,744,073,709,551,615
+	
+00:07.246.465	Debug	wifip2pd (248)	IO80211	Default	_writeEventBuffer: processing event 153/'APPLE80211_M_CHANNEL_SWITCH_EVENT'
+	
+00:07.246.636	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayContaineriOS	BuiltIn	Notification block key=BrightnessTransaction, value=<private>
+	
+00:07.246.694	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayContaineriOS	BuiltIn	Notification block key=CBCACommit, value=<private>
+	
+00:07.246.729	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayContaineriOS	BuiltIn	Notification block key=FrameSynchronizedBrightnessTransaction, value=<private>
+	
+00:07.246.821	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=DisplayBrightness value=<private>	
+00:07.246.923	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=DisplayBrightness property=<private>	
+00:07.246.999	Debug	wifip2pd (248)	IO80211	Default	_writeEventBuffer: processing event 153/'APPLE80211_M_CHANNEL_SWITCH_EVENT'
+	
+00:07.247.015	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	passed for client 58881740544	
+00:07.247.184	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=<private> value=<private>	
+00:07.247.216	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=<private> property=<private>	
+00:07.247.274	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=BrightnessTransaction value=<private>	
+00:07.247.312	Debug	wifip2pd (248)	IO80211	Default	_writeEventBuffer: processing event 153/'APPLE80211_M_CHANNEL_SWITCH_EVENT'
+	
+00:07.247.320	Debug	PerfPowerServices (1452)	com.apple.CoreBrightness	default	key=<private> property=<private> queue=0x97ede5100 clientBlock=0x97e365e90	
+00:07.247.365	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=BrightnessTransaction property=<private>	
+00:07.247.404	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=<private> value=<private>	
+00:07.247.461	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=<private> property=<private>	
+00:07.247.474	Debug	wifip2pd (248)	IO80211	Default	_writeEventBuffer: processing event 153/'APPLE80211_M_CHANNEL_SWITCH_EVENT'
+	
+00:07.247.520	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=CBCACommit value=<private>	
+00:07.247.609	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=CBCACommit property=<private>	
+00:07.247.709	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=<private> value=<private>	
+00:07.247.804	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=<private> property=<private>	
+00:07.247.861	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=FrameSynchronizedBrightnessTransaction value=<private>	
+00:07.247.893	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=FrameSynchronizedBrightnessTransaction property=<private>	
+00:07.247.954	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=<private> value=<private>	
+00:07.248.023	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=<private> property=<private>	
+00:07.248.580	Default	accountsd (39)	com.apple.xpc	connection	[0xbb4c37e80] invalidated because the client process (pid 1,691) either cancelled the connection or exited	
+00:07.248.719	Debug	accountsd (39)	com.apple.accounts	core	"Connection <private> for <private> was closed."	
+00:07.248.983	Debug	accountsd (39)	com.apple.accounts	daemon	@"Clearing accounts cached for type: <private>"	
+00:07.249.194	Debug	accountsd (39)	com.apple.accounts	daemon	@"Clearing type cached for com.apple.account.AppleAccount"	
+00:07.249.220	Default	backupd (1691)	com.apple.accounts	core	"The connection to ACDAccountStore was invalidated."	
+00:07.249.372	Default	backupd (1691)	com.apple.xpc	connection	[0xd4a4b4140] invalidated because the current process cancelled the connection by calling xpc_connection_cancel()	
+00:07.251.096	Debug	usermanagerd (103)	com.apple.usermanagerd	sideeffect	Found kernel persona that is the at-spawn persona for PID: 1,691, ID: 100, Type: 4, Name: E34BDF0A-B0BF-4107-8A5B-99A812B18CC6, UID: 501	
+00:07.251.413	Debug	usermanagerd (103)	com.apple.usermanagerd	legacy	In UMSyncServer: entitlement OK, calling fetchPersonaSession with profileInfo:{
+    UserPersonaType = 0;
+} for pid:1,691 with asid:18,446,744,073,709,551,615	
+00:07.251.612	Debug	usermanagerd (103)	com.apple.usermanagerd	sideeffect	Found kernel persona with ID: 100, Type: 4, Name: E34BDF0A-B0BF-4107-8A5B-99A812B18CC6, UID: 501	
+00:07.251.684	Debug	usermanagerd (103)	com.apple.usermanagerd	legacy	personaWithType:inArray: by type:0	
+00:07.251.805	Debug	usermanagerd (103)	com.apple.usermanagerd	legacy	personaWithType:inArray: by type:0 EXISTS, returning	
+00:07.251.973	Debug	usermanagerd (103)	com.apple.usermanagerd	legacy	Found persona and returning: {
+    UserPersonaID = 1000;
+    UserPersonaNickName = Personal;
+    UserPersonaObserverService =     (
+        "com.apple.searchd.personaobserver"
+    );
+    UserPersonaType = 0;
+    UserPersonaUniqueString = "9123D57A-D0E6-47C6-938F-C289AA99CB36";
+    UserPersonaUserODUUID = "121C3D05-9530-4A11-B252-DA3FB88351F8";
+}	
+00:07.252.120	Debug	usermanagerd (103)	com.apple.usermanagerd	legacy	fetchpersona:{
+    UserPersonaID = 1000;
+    UserPersonaNickName = Personal;
+    UserPersonaObserverService =     (
+        "com.apple.searchd.personaobserver"
+    );
+    UserPersonaType = 0;
+    UserPersonaUniqueString = "9123D57A-D0E6-47C6-938F-C289AA99CB36";
+    UserPersonaUserODUUID = "121C3D05-9530-4A11-B252-DA3FB88351F8";
+}	
+00:07.252.489	Debug	backupd (1691)	com.apple.defaults	User Defaults	found no value for key BackupShouldIdleExit in CFPrefsPlistSource<0xd4a4bc200> (Domain: com.apple.MobileBackup, User: mobile, ByHost: No, Container: (null), Contents Need Refresh: No)	
+00:07.252.551	Info	backupd (1691)	com.apple.mobilebackup	Default	Idled. Stopping service.	
+00:07.252.736	Default	backupd (1691)	com.apple.mobilebackup	Default	Nothing to unmount at /.b/4	
+00:07.252.786	Default	backupd (1691)	com.apple.mobilebackup	Default	Nothing to unmount at /.b/5	
+00:07.252.832	Default	backupd (1691)	com.apple.mobilebackup	Default	Nothing to unmount at /.b/0	
+00:07.252.868	Default	backupd (1691)	com.apple.mobilebackup	Default	Nothing to unmount at /.b/1	
+00:07.253.046	Debug	usermanagerd (103)	com.apple.usermanagerd	sideeffect	Found kernel persona that is the at-spawn persona for PID: 1,691, ID: 100, Type: 4, Name: E34BDF0A-B0BF-4107-8A5B-99A812B18CC6, UID: 501	
+00:07.253.100	Debug	usermanagerd (103)	com.apple.usermanagerd	legacy	In UMSyncServer: entitlement OK, calling fetchPersonaSession with profileInfo:{
+    UserPersonaType = 0;
+} for pid:1,691 with asid:18,446,744,073,709,551,615	
+00:07.253.206	Debug	usermanagerd (103)	com.apple.usermanagerd	sideeffect	Found kernel persona with ID: 100, Type: 4, Name: E34BDF0A-B0BF-4107-8A5B-99A812B18CC6, UID: 501	
+00:07.253.246	Debug	usermanagerd (103)	com.apple.usermanagerd	legacy	personaWithType:inArray: by type:0	
+00:07.253.305	Debug	usermanagerd (103)	com.apple.usermanagerd	legacy	personaWithType:inArray: by type:0 EXISTS, returning	
+00:07.253.397	Debug	usermanagerd (103)	com.apple.usermanagerd	legacy	Found persona and returning: {
+    UserPersonaID = 1000;
+    UserPersonaNickName = Personal;
+    UserPersonaObserverService =     (
+        "com.apple.searchd.personaobserver"
+    );
+    UserPersonaType = 0;
+    UserPersonaUniqueString = "9123D57A-D0E6-47C6-938F-C289AA99CB36";
+    UserPersonaUserODUUID = "121C3D05-9530-4A11-B252-DA3FB88351F8";
+}	
+00:07.253.499	Debug	usermanagerd (103)	com.apple.usermanagerd	legacy	fetchpersona:{
+    UserPersonaID = 1000;
+    UserPersonaNickName = Personal;
+    UserPersonaObserverService =     (
+        "com.apple.searchd.personaobserver"
+    );
+    UserPersonaType = 0;
+    UserPersonaUniqueString = "9123D57A-D0E6-47C6-938F-C289AA99CB36";
+    UserPersonaUserODUUID = "121C3D05-9530-4A11-B252-DA3FB88351F8";
+}	
+00:07.253.814	Debug	usermanagerd (103)	com.apple.usermanagerd	sideeffect	Found kernel persona that is the at-spawn persona for PID: 1,691, ID: 100, Type: 4, Name: E34BDF0A-B0BF-4107-8A5B-99A812B18CC6, UID: 501	
+00:07.253.860	Debug	usermanagerd (103)	com.apple.usermanagerd	legacy	In UMSyncServer: entitlement OK, calling fetchPersonaSession with profileInfo:{
+    UserPersonaType = 2;
+} for pid:1,691 with asid:18,446,744,073,709,551,615	
+00:07.253.930	Debug	usermanagerd (103)	com.apple.usermanagerd	sideeffect	Found kernel persona with ID: 100, Type: 4, Name: E34BDF0A-B0BF-4107-8A5B-99A812B18CC6, UID: 501	
+00:07.253.963	Debug	usermanagerd (103)	com.apple.usermanagerd	legacy	personaWithType:inArray: by type:2	
+00:07.254.015	Debug	usermanagerd (103)	com.apple.usermanagerd	legacy	personaWithType:inArray: by type:0 EXISTS, returning	
+00:07.254.064	Debug	usermanagerd (103)	com.apple.usermanagerd	legacy	personaWithType:inArray: by type:4 EXISTS, returning	
+00:07.254.110	Debug	usermanagerd (103)	com.apple.usermanagerd	legacy	personaWithType:inArray: by type:3 EXISTS, returning	
+00:07.254.162	Debug	usermanagerd (103)	com.apple.usermanagerd	legacy	personaWithType:inArray: by type:5 EXISTS, returning	
+00:07.254.214	Debug	usermanagerd (103)	com.apple.usermanagerd	legacy	NO Persona Session found for {
+    UserPersonaType = 2;
+}	
+00:07.254.314	Debug	usermanagerd (103)	com.apple.usermanagerd	legacy	Fetch persona failed with error:Error Domain=NSPOSIXErrorDomain Code=2 "No such file or directory"	
+00:07.254.657	Default	backupd (1691)	UserManagement	Default	(0) No persona found for the type 2	
+00:07.254.855	Debug	usermanagerd (103)	com.apple.usermanagerd	sideeffect	Found kernel persona that is the at-spawn persona for PID: 1,691, ID: 100, Type: 4, Name: E34BDF0A-B0BF-4107-8A5B-99A812B18CC6, UID: 501	
+00:07.254.904	Debug	usermanagerd (103)	com.apple.usermanagerd	legacy	In UMSyncServer: entitlement OK, calling fetchPersonaSession with profileInfo:{
+    UserPersonaType = 0;
+} for pid:1,691 with asid:18,446,744,073,709,551,615	
+00:07.254.983	Debug	usermanagerd (103)	com.apple.usermanagerd	sideeffect	Found kernel persona with ID: 100, Type: 4, Name: E34BDF0A-B0BF-4107-8A5B-99A812B18CC6, UID: 501	
+00:07.255.015	Debug	usermanagerd (103)	com.apple.usermanagerd	legacy	personaWithType:inArray: by type:0	
+00:07.255.067	Debug	usermanagerd (103)	com.apple.usermanagerd	legacy	personaWithType:inArray: by type:0 EXISTS, returning	
+00:07.255.150	Debug	usermanagerd (103)	com.apple.usermanagerd	legacy	Found persona and returning: {
+    UserPersonaID = 1000;
+    UserPersonaNickName = Personal;
+    UserPersonaObserverService =     (
+        "com.apple.searchd.personaobserver"
+    );
+    UserPersonaType = 0;
+    UserPersonaUniqueString = "9123D57A-D0E6-47C6-938F-C289AA99CB36";
+    UserPersonaUserODUUID = "121C3D05-9530-4A11-B252-DA3FB88351F8";
+}	
+00:07.255.248	Debug	usermanagerd (103)	com.apple.usermanagerd	legacy	fetchpersona:{
+    UserPersonaID = 1000;
+    UserPersonaNickName = Personal;
+    UserPersonaObserverService =     (
+        "com.apple.searchd.personaobserver"
+    );
+    UserPersonaType = 0;
+    UserPersonaUniqueString = "9123D57A-D0E6-47C6-938F-C289AA99CB36";
+    UserPersonaUserODUUID = "121C3D05-9530-4A11-B252-DA3FB88351F8";
+}	
+00:07.255.528	Debug	usermanagerd (103)	com.apple.usermanagerd	sideeffect	Found kernel persona that is the at-spawn persona for PID: 1,691, ID: 100, Type: 4, Name: E34BDF0A-B0BF-4107-8A5B-99A812B18CC6, UID: 501	
+00:07.255.577	Debug	usermanagerd (103)	com.apple.usermanagerd	legacy	In UMSyncServer: entitlement OK, calling fetchPersonaSession with profileInfo:{
+    UserPersonaType = 2;
+} for pid:1,691 with asid:18,446,744,073,709,551,615	
+00:07.255.645	Debug	usermanagerd (103)	com.apple.usermanagerd	sideeffect	Found kernel persona with ID: 100, Type: 4, Name: E34BDF0A-B0BF-4107-8A5B-99A812B18CC6, UID: 501	
+00:07.255.676	Debug	usermanagerd (103)	com.apple.usermanagerd	legacy	personaWithType:inArray: by type:2	
+00:07.255.726	Debug	usermanagerd (103)	com.apple.usermanagerd	legacy	personaWithType:inArray: by type:0 EXISTS, returning	
+00:07.255.773	Debug	usermanagerd (103)	com.apple.usermanagerd	legacy	personaWithType:inArray: by type:4 EXISTS, returning	
+00:07.255.824	Debug	usermanagerd (103)	com.apple.usermanagerd	legacy	personaWithType:inArray: by type:3 EXISTS, returning	
+00:07.255.874	Debug	usermanagerd (103)	com.apple.usermanagerd	legacy	personaWithType:inArray: by type:5 EXISTS, returning	
+00:07.255.927	Debug	usermanagerd (103)	com.apple.usermanagerd	legacy	NO Persona Session found for {
+    UserPersonaType = 2;
+}	
+00:07.256.014	Debug	usermanagerd (103)	com.apple.usermanagerd	legacy	Fetch persona failed with error:Error Domain=NSPOSIXErrorDomain Code=2 "No such file or directory"	
+00:07.256.194	Default	backupd (1691)	UserManagement	Default	(0) No persona found for the type 2	
+00:07.256.299	Debug	backupd (1691)	com.apple.mobilebackup	Default	Listing all snapshots at /private/var/mobile	
+00:07.256.457	Info	backupd (1691)	com.apple.mobilebackup	Default	No snapshots to delete for /private/var/mobile	
+00:07.256.508	Debug	backupd (1691)	com.apple.mobilebackup	Default	Listing all snapshots at /private/var	
+00:07.256.596	Info	backupd (1691)	com.apple.mobilebackup	Default	No snapshots to delete for /private/var	
+00:07.256.662	Default	backupd (1691)	com.apple.mobilebackup	Default	Nothing to unmount at /.b/4	
+00:07.256.702	Default	backupd (1691)	com.apple.mobilebackup	Default	Nothing to unmount at /.b/5	
+00:07.256.735	Default	backupd (1691)	com.apple.mobilebackup	Default	Nothing to unmount at /.b/0	
+00:07.256.768	Default	backupd (1691)	com.apple.mobilebackup	Default	Nothing to unmount at /.b/1	
+00:07.256.932	Debug	usermanagerd (103)	com.apple.usermanagerd	sideeffect	Found kernel persona that is the at-spawn persona for PID: 1,691, ID: 100, Type: 4, Name: E34BDF0A-B0BF-4107-8A5B-99A812B18CC6, UID: 501	
+00:07.256.993	Debug	usermanagerd (103)	com.apple.usermanagerd	legacy	In UMSyncServer: entitlement OK, calling fetchPersonaSession with profileInfo:{
+    UserPersonaType = 0;
+} for pid:1,691 with asid:18,446,744,073,709,551,615	
+00:07.257.085	Debug	usermanagerd (103)	com.apple.usermanagerd	sideeffect	Found kernel persona with ID: 100, Type: 4, Name: E34BDF0A-B0BF-4107-8A5B-99A812B18CC6, UID: 501	
+00:07.257.122	Debug	usermanagerd (103)	com.apple.usermanagerd	legacy	personaWithType:inArray: by type:0	
+00:07.257.179	Debug	usermanagerd (103)	com.apple.usermanagerd	legacy	personaWithType:inArray: by type:0 EXISTS, returning	
+00:07.257.275	Debug	usermanagerd (103)	com.apple.usermanagerd	legacy	Found persona and returning: {
+    UserPersonaID = 1000;
+    UserPersonaNickName = Personal;
+    UserPersonaObserverService =     (
+        "com.apple.searchd.personaobserver"
+    );
+    UserPersonaType = 0;
+    UserPersonaUniqueString = "9123D57A-D0E6-47C6-938F-C289AA99CB36";
+    UserPersonaUserODUUID = "121C3D05-9530-4A11-B252-DA3FB88351F8";
+}	
+00:07.257.375	Debug	usermanagerd (103)	com.apple.usermanagerd	legacy	fetchpersona:{
+    UserPersonaID = 1000;
+    UserPersonaNickName = Personal;
+    UserPersonaObserverService =     (
+        "com.apple.searchd.personaobserver"
+    );
+    UserPersonaType = 0;
+    UserPersonaUniqueString = "9123D57A-D0E6-47C6-938F-C289AA99CB36";
+    UserPersonaUserODUUID = "121C3D05-9530-4A11-B252-DA3FB88351F8";
+}	
+00:07.257.670	Debug	usermanagerd (103)	com.apple.usermanagerd	sideeffect	Found kernel persona that is the at-spawn persona for PID: 1,691, ID: 100, Type: 4, Name: E34BDF0A-B0BF-4107-8A5B-99A812B18CC6, UID: 501	
+00:07.257.718	Debug	usermanagerd (103)	com.apple.usermanagerd	legacy	In UMSyncServer: entitlement OK, calling fetchPersonaSession with profileInfo:{
+    UserPersonaType = 2;
+} for pid:1,691 with asid:18,446,744,073,709,551,615	
+00:07.257.784	Debug	usermanagerd (103)	com.apple.usermanagerd	sideeffect	Found kernel persona with ID: 100, Type: 4, Name: E34BDF0A-B0BF-4107-8A5B-99A812B18CC6, UID: 501	
+00:07.257.823	Debug	usermanagerd (103)	com.apple.usermanagerd	legacy	personaWithType:inArray: by type:2	
+00:07.257.869	Debug	usermanagerd (103)	com.apple.usermanagerd	legacy	personaWithType:inArray: by type:0 EXISTS, returning	
+00:07.257.915	Debug	usermanagerd (103)	com.apple.usermanagerd	legacy	personaWithType:inArray: by type:4 EXISTS, returning	
+00:07.257.957	Debug	usermanagerd (103)	com.apple.usermanagerd	legacy	personaWithType:inArray: by type:3 EXISTS, returning	
+00:07.258.001	Debug	usermanagerd (103)	com.apple.usermanagerd	legacy	personaWithType:inArray: by type:5 EXISTS, returning	
+00:07.258.056	Debug	usermanagerd (103)	com.apple.usermanagerd	legacy	NO Persona Session found for {
+    UserPersonaType = 2;
+}	
+00:07.258.141	Debug	usermanagerd (103)	com.apple.usermanagerd	legacy	Fetch persona failed with error:Error Domain=NSPOSIXErrorDomain Code=2 "No such file or directory"	
+00:07.258.282	Default	backupd (1691)	UserManagement	Default	(0) No persona found for the type 2	
+00:07.258.430	Debug	usermanagerd (103)	com.apple.usermanagerd	sideeffect	Found kernel persona that is the at-spawn persona for PID: 1,691, ID: 100, Type: 4, Name: E34BDF0A-B0BF-4107-8A5B-99A812B18CC6, UID: 501	
+00:07.258.479	Debug	usermanagerd (103)	com.apple.usermanagerd	legacy	In UMSyncServer: entitlement OK, calling fetchPersonaSession with profileInfo:{
+    UserPersonaType = 0;
+} for pid:1,691 with asid:18,446,744,073,709,551,615	
+00:07.258.548	Debug	usermanagerd (103)	com.apple.usermanagerd	sideeffect	Found kernel persona with ID: 100, Type: 4, Name: E34BDF0A-B0BF-4107-8A5B-99A812B18CC6, UID: 501	
+00:07.258.581	Debug	usermanagerd (103)	com.apple.usermanagerd	legacy	personaWithType:inArray: by type:0	
+00:07.258.632	Debug	usermanagerd (103)	com.apple.usermanagerd	legacy	personaWithType:inArray: by type:0 EXISTS, returning	
+00:07.258.718	Debug	usermanagerd (103)	com.apple.usermanagerd	legacy	Found persona and returning: {
+    UserPersonaID = 1000;
+    UserPersonaNickName = Personal;
+    UserPersonaObserverService =     (
+        "com.apple.searchd.personaobserver"
+    );
+    UserPersonaType = 0;
+    UserPersonaUniqueString = "9123D57A-D0E6-47C6-938F-C289AA99CB36";
+    UserPersonaUserODUUID = "121C3D05-9530-4A11-B252-DA3FB88351F8";
+}	
+00:07.258.820	Debug	usermanagerd (103)	com.apple.usermanagerd	legacy	fetchpersona:{
+    UserPersonaID = 1000;
+    UserPersonaNickName = Personal;
+    UserPersonaObserverService =     (
+        "com.apple.searchd.personaobserver"
+    );
+    UserPersonaType = 0;
+    UserPersonaUniqueString = "9123D57A-D0E6-47C6-938F-C289AA99CB36";
+    UserPersonaUserODUUID = "121C3D05-9530-4A11-B252-DA3FB88351F8";
+}	
+00:07.259.086	Debug	usermanagerd (103)	com.apple.usermanagerd	sideeffect	Found kernel persona that is the at-spawn persona for PID: 1,691, ID: 100, Type: 4, Name: E34BDF0A-B0BF-4107-8A5B-99A812B18CC6, UID: 501	
+00:07.259.127	Debug	usermanagerd (103)	com.apple.usermanagerd	legacy	In UMSyncServer: entitlement OK, calling fetchPersonaSession with profileInfo:{
+    UserPersonaType = 2;
+} for pid:1,691 with asid:18,446,744,073,709,551,615	
+00:07.259.183	Debug	usermanagerd (103)	com.apple.usermanagerd	sideeffect	Found kernel persona with ID: 100, Type: 4, Name: E34BDF0A-B0BF-4107-8A5B-99A812B18CC6, UID: 501	
+00:07.259.212	Debug	usermanagerd (103)	com.apple.usermanagerd	legacy	personaWithType:inArray: by type:2	
+00:07.259.256	Debug	usermanagerd (103)	com.apple.usermanagerd	legacy	personaWithType:inArray: by type:0 EXISTS, returning	
+00:07.259.299	Debug	usermanagerd (103)	com.apple.usermanagerd	legacy	personaWithType:inArray: by type:4 EXISTS, returning	
+00:07.259.361	Debug	usermanagerd (103)	com.apple.usermanagerd	legacy	personaWithType:inArray: by type:3 EXISTS, returning	
+00:07.259.407	Debug	usermanagerd (103)	com.apple.usermanagerd	legacy	personaWithType:inArray: by type:5 EXISTS, returning	
+00:07.259.458	Debug	usermanagerd (103)	com.apple.usermanagerd	legacy	NO Persona Session found for {
+    UserPersonaType = 2;
+}	
+00:07.259.539	Debug	usermanagerd (103)	com.apple.usermanagerd	legacy	Fetch persona failed with error:Error Domain=NSPOSIXErrorDomain Code=2 "No such file or directory"	
+00:07.259.673	Default	backupd (1691)	UserManagement	Default	(0) No persona found for the type 2	
+00:07.259.709	Debug	backupd (1691)	com.apple.mobilebackup	Default	Listing all snapshots at /private/var/mobile	
+00:07.259.824	Info	backupd (1691)	com.apple.mobilebackup	Default	No snapshots to delete for /private/var/mobile	
+00:07.259.858	Debug	backupd (1691)	com.apple.mobilebackup	Default	Listing all snapshots at /private/var	
+00:07.259.922	Info	backupd (1691)	com.apple.mobilebackup	Default	No snapshots to delete for /private/var	
+00:07.260.161	Info	com.apple.dt.instruments.dtsecurity (361)	com.apple.dt.dtsecurity.xpc	ProcessTracking	Observed process termination for pid: 1,691	
+00:07.261.681	Default	backboardd (68)	com.apple.coreanimation	Brightness	Display 1 setting contrast enhancer to 0.0104
+	
+00:07.275.892	Info	bluetoothd (94)	com.apple.bluetooth	Stack.LE	 Invalid Dual mode support indication in AD flags 0x00000000.	
+00:07.276.012	Info	bluetoothd (94)	com.apple.bluetooth	Server.LE.Scan	Setting mfgr data:<private> len:25 id:4c	
+00:07.276.169	Info	bluetoothd (94)	com.apple.bluetooth	Server.LE.Scan	getDeviceEncryptionKey address:<private> key:<private>	
+00:07.276.213	Info	bluetoothd (94)	com.apple.bluetooth	Server.LE.Scan	getDeviceEncryptionKey SN:<private> key:<private>	
+00:07.276.245	Debug	bluetoothd (94)	com.apple.bluetooth	Server.MagicPairing	Decrypt AccessoryStatus ADV failed: no key, D8:9D:21:DD:B0:3A	
+00:07.276.273	Debug	bluetoothd (94)	com.apple.bluetooth	Server.LE.Scan	Found device "E9A1B65F-BE21-0B3B-420D-443791160B01 Random D8:9D:21:DD:B0:3A RSSI:-91 with data:RSSI: 0 dB (non-saturated), MFR Data: 4C 00 12 02 A4 03 07 11 06 13 2E 3F EC BF C0 44 26 28 7C 7C F8 FD 3C 86 36[AppleTypesBitmap:0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001000000000010000000], connectable, sourceCore: MainCore, IsELNAOn: 0, IsPassup: 0, IsFromSCCompensation0, IsCoexDenied0, 	
+00:07.276.321	Info	bluetoothd (94)	com.apple.bluetooth	Server.LE.Scan	Ignoring duplicate advertisement data for device "E9A1B65F-BE21-0B3B-420D-443791160B01"	
+00:07.276.352	Debug	bluetoothd (94)	com.apple.bluetooth	Server.LE.Scan	Show dup for given rule with puck type 0x12	
+00:07.276.375	Info	bluetoothd (94)	com.apple.bluetooth	Server.LE.Scan	Device "E9A1B65F-BE21-0B3B-420D-443791160B01" matched MFG data	
+00:07.276.404	Debug	bluetoothd (94)	com.apple.bluetooth	Server.LE.Scan	doesDeviceMatch: fAdvDataMap size:143 fMaxNumOfReportsInMap:200 fAdvDataMap size:143 Puck?:1 roomInMap:1	
+00:07.276.455	Debug	bluetoothd (94)	com.apple.bluetooth	Server.XPC	createXpcAdvData sending data:<private> length:6 originalLength:25 lenError:0	
+00:07.276.491	Debug	bluetoothd (94)	com.apple.bluetooth	Server.App	moreAvailable=0, isFromADVBuffer=0	
+00:07.276.658	Debug	bluetoothd (94)	com.apple.bluetooth	Server.LE.Scan	Show dup for given rule with puck type 0x12	
+00:07.276.684	Info	bluetoothd (94)	com.apple.bluetooth	Server.LE.Scan	Device "E9A1B65F-BE21-0B3B-420D-443791160B01" matched MFG data	
+00:07.276.709	Debug	bluetoothd (94)	com.apple.bluetooth	Server.LE.Scan	doesDeviceMatch: fAdvDataMap size:143 fMaxNumOfReportsInMap:200 fAdvDataMap size:143 Puck?:1 roomInMap:1	
+00:07.276.747	Debug	bluetoothd (94)	com.apple.bluetooth	Server.XPC	createXpcAdvData sending data:<private> length:6 originalLength:25 lenError:0	
+00:07.276.778	Debug	bluetoothd (94)	com.apple.bluetooth	Server.App	moreAvailable=0, isFromADVBuffer=0	
+00:07.276.832	Debug	locationd (74)	com.apple.locationd.Core	AvengerScanner	{"msg":"didDiscoverPeripheral", "ClientId":CLDurianService, "peripheral":<private>, "advertisementData":<private>}	
+00:07.276.906	Debug	bluetoothd (94)	com.apple.bluetooth	Server.LE.Scan	Show dup for given rule with puck type 0x12	
+00:07.276.918	Debug	locationd (74)	com.apple.locationd.Core	Harvester	{"msg":"#CLAvengerReconciler advertisement reconciled: ", "ownerUUID":<private>, "nonownerUUID":<private>, "address":<private>, "uuidMap":<private>}	
+00:07.276.931	Info	bluetoothd (94)	com.apple.bluetooth	Server.LE.Scan	Device "E9A1B65F-BE21-0B3B-420D-443791160B01" matched MFG data	
+00:07.276.957	Debug	bluetoothd (94)	com.apple.bluetooth	Server.LE.Scan	doesDeviceMatch: fAdvDataMap size:143 fMaxNumOfReportsInMap:200 fAdvDataMap size:143 Puck?:1 roomInMap:1	
+00:07.276.979	Debug	locationd (74)	com.apple.locationd.Core	Harvester	{"msg":"#CLAvengerReconciler: creating CLAvengerScannerReconciledInformation", "reconciledInformation.description":<private>}	
+00:07.276.994	Debug	bluetoothd (94)	com.apple.bluetooth	Server.XPC	createXpcAdvData sending data:<private> length:6 originalLength:25 lenError:0	
+00:07.277.042	Debug	locationd (74)	com.apple.locationd.Core	AvengerScanner	{"msg":"didDiscoverPeripheral", "ClientId":CLSubHarvesterAvenger, "peripheral":<private>, "advertisementData":<private>}	
+00:07.277.083	Default	locationd (74)	com.apple.locationd.Position	Proximity	{"msg":"#durian onAvengerAdvertisement", "address":<private>, "date":Mon Nov 18 11:54:22 2024, "data":<private>, "status":<private>, "needsmaint":<private>, "isWild":<private>, "uuid":<private>}	
+00:07.277.097	Debug	locationd (74)	com.apple.locationd.Core	Harvester	{"msg":"#CLAvengerReconciler advertisement reconciled: ", "ownerUUID":<private>, "nonownerUUID":<private>, "address":<private>, "uuidMap":<private>}	
+00:07.277.131	Debug	bluetoothd (94)	com.apple.bluetooth	Server.App	moreAvailable=0, isFromADVBuffer=0	
+00:07.277.142	Debug	locationd (74)	com.apple.locationd.Core	Harvester	{"msg":"#CLAvengerReconciler: creating CLAvengerScannerReconciledInformation", "reconciledInformation.description":<private>}	
+00:07.277.231	Default	locationd (74)	com.apple.locationd.Core	Harvester	{"msg":"onAvengerAdvertisementDetected: got avenger advertisement", "subHarvester":11}	
+00:07.277.283	Default	locationd (74)	com.apple.locationd.Core	Harvester	{"msg":"convertToSPAdvertisement", "address":<private>, "data":<private>, "date":<private>, "rssi":<private>, "status":<private>, "reserved":<private>, "subHarvester":11}	
+00:07.277.341	Debug	bluetoothd (94)	com.apple.bluetooth	Server.LE.Scan	No match found for device "E9A1B65F-BE21-0B3B-420D-443791160B01"	
+00:07.277.382	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	SyncDBV Telemetry | Transaction.ID=13,500 Latency=32.0000ms	
+00:07.277.418	Debug	bluetoothd (94)	com.apple.bluetooth	Server.LE.Scan	Show dup for given rule with puck type 0x12	
+00:07.277.435	Debug	locationd (74)	com.apple.locationd.Core	AvengerScanner	{"msg":"didDiscoverPeripheral", "ClientId":CLTrackingAvoidanceService, "peripheral":<private>, "advertisementData":<private>}	
+00:07.277.496	Default	locationd (74)	com.apple.locationd.Core	Harvester	{"msg":"onAvengerAdvertisementDetected: advertisement is near-owner from other people and do not process it", "subHarvester":11}	
+00:07.277.512	Info	bluetoothd (94)	com.apple.bluetooth	Server.LE.Scan	Device "E9A1B65F-BE21-0B3B-420D-443791160B01" matched MFG data	
+00:07.277.576	Debug	locationd (74)	com.apple.locationd.Core	Harvester	{"msg":"#CLAvengerReconciler advertisement reconciled: ", "ownerUUID":<private>, "nonownerUUID":<private>, "address":<private>, "uuidMap":<private>}	
+00:07.277.692	Debug	bluetoothd (94)	com.apple.bluetooth	Server.LE.Scan	doesDeviceMatch: fAdvDataMap size:94 fMaxNumOfReportsInMap:200 fAdvDataMap size:94 Puck?:1 roomInMap:1	
+00:07.277.774	Debug	locationd (74)	com.apple.locationd.Core	Harvester	{"msg":"#CLAvengerReconciler: creating CLAvengerScannerReconciledInformation", "reconciledInformation.description":<private>}	
+00:07.277.834	Debug	bluetoothd (94)	com.apple.bluetooth	Server.XPC	createXpcAdvData sending data:<private> length:6 originalLength:25 lenError:0	
+00:07.277.905	Debug	locationd (74)	com.apple.locationd.Position	TrackingAvoidance	#ut received advertisement	
+00:07.277.927	Debug	bluetoothd (94)	com.apple.bluetooth	Server.App	moreAvailable=0, isFromADVBuffer=0	
+00:07.278.004	Debug	locationd (74)	com.apple.locationd.Position	GeneralCLX	TaMetricEvent, onAvengerAdvertisement, id, <private>, <private>, <private>, 3	
+00:07.278.091	Default	locationd (74)	com.apple.tracking-avoidance	Events	<private>	
+00:07.278.123	Debug	bluetoothd (94)	com.apple.bluetooth	Server.LE.Scan	No match found for device "E9A1B65F-BE21-0B3B-420D-443791160B01"	
+00:07.278.199	Debug	bluetoothd (94)	com.apple.bluetooth	Server.LE.Scan	Agents: com.apple.locationd-central-74-54 hashedUUIDs=0 Nbmatchrules=1 ServiceUUID=2 | com.apple.locationd-central-74-62 hashedUUIDs=0 Nbmatchrules=1 ServiceUUID=2 | com.apple.locationd-central-74-69 hashedUUIDs=0 Nbmatchrules=1 ServiceUUID=2 | com.apple.locationd-central-74-124 hashedUUIDs=0 Nbmatchrules=1 ServiceUUID=2 | 	
+00:07.278.208	Debug	locationd (74)	com.apple.locationd.Core	AvengerScanner	{"msg":"didDiscoverPeripheral", "ClientId":CLAvengerObservationReporterService, "peripheral":<private>, "advertisementData":<private>}	
+00:07.278.336	Debug	locationd (74)	com.apple.locationd.Core	Harvester	{"msg":"#CLAvengerReconciler advertisement reconciled: ", "ownerUUID":<private>, "nonownerUUID":<private>, "address":<private>, "uuidMap":<private>}	
+00:07.278.371	Debug	locationd (74)	com.apple.tracking-avoidance	Status	#TAStore not adding TASPAdvertisement due to owner advertisement type:<private>	
+00:07.278.388	Debug	bluetoothd (94)	com.apple.CFBundle	strings	Bundle: <private>, key: bt_type_generic, value: , table: CBLocalizable, localizationNames: , result: Bluetooth Device	
+00:07.278.444	Debug	locationd (74)	com.apple.locationd.Core	Harvester	{"msg":"#CLAvengerReconciler: creating CLAvengerScannerReconciledInformation", "reconciledInformation.description":<private>}	
+00:07.278.525	Info	bluetoothd (94)	com.apple.bluetooth	CBStackBLEScanner	Device found changed: CBDevice E9A1B65F-BE21-0B3B-420D-443791160B01, BDA D8:9D:21:DD:B0:3A, Nm 'Bluetooth Device', DsFl 0x20000000080 < AccessoryStatus ObjectDiscoveryNearOwner >, DvF 0x40000000000 < Connectable >, RSSI -91, Ch 39, Battery L +63% R +64% C +100%, FV '40.38.68', AdTsMC <349875222508>, AMfD <4c 00 12 02 a4 03 07 11 06 13 2e 3f ec bf c0 44 26 28 7c 7c f8 fd 3c 86 36>, asFl 0x7 < LidClosed NeedsCnx Sound >, asLO 7, asOT 20h 40m, odBS Low, odMd NearOwner, odNO d89d21ddb03a, odPI HeGn, odPK NULL, ppPI 0x2E13 (?), ppST 0x06 (AccessoryStatus), CF 0x80200000000 < RSSI Attributes >	
+00:07.278.598	Debug	bluetoothd (94)	com.apple.CFBundle	strings	Bundle: <private>, key: bt_type_generic, value: , table: CBLocalizable, localizationNames: , result: Bluetooth Device	
+00:07.279.231	Info	aonsensed (70)	com.apple.bluetooth	CBDiscovery	Device found: CBDevice E9A1B65F-BE21-0B3B-420D-443791160B01, BDA D8:9D:21:DD:B0:3A, Nm 'Bluetooth Device', DsFl 0x20000000080 < AccessoryStatus ObjectDiscoveryNearOwner >, DvF 0x40000000000 < Connectable >, RSSI -91, Ch 39, Battery L +63% R +64% C +100%, FV '40.38.68', AdTsMC <349875222508>, AMfD <4c 00 12 02 a4 03 07 11 06 13 2e 3f ec bf c0 44 26 28 7c 7c f8 fd 3c 86 36>, asFl 0x7 < LidClosed NeedsCnx Sound >, asLO 7, asOT 20h 40m, odBS Low, odMd NearOwner, odNO d89d21ddb03a, odPI HeGn, odPK NULL, ppPI 0x2E13 (?), ppST 0x06 (AccessoryStatus), CF 0x80200000000 < RSSI Attributes >	
+00:07.279.397	Debug	aonsensed (70)	com.apple.aonsensed	core	#BT,onDeviceFound,<private>	
+00:07.279.498	Info	aonsensed (70)	com.apple.aonsensed	core	#BT,onAdvertisements,notif,count:1,time:cfa 753594862.218264, mat 48676.731497, mct 349875.225993,screenOn:true,simulated:false,delayMs,-301,198,491.0108	
+00:07.279.584	Info	aonsensed (70)	com.apple.aonsensed	core	Leeching ALBtNotification, clients count 1	
+00:07.279.720	Debug	aonsensed (70)	com.apple.aonsensed	core	#BT,serializedData,notif,results,count,1,last,true,data,134 bytes	
+00:07.279.814	Info	aonsensed (70)	com.apple.aonsensed	core	leeching to <NSXPCConnection: 0x53605c6e0> connection from pid 148 on mach service named com.apple.aonsensed.xpc	
+00:07.279.997	Info	nearbyd (148)	com.apple.aonsensed	xpc	receive <private>	
+00:07.280.086	Debug	nearbyd (148)	com.apple.aonsensed	xpc	onData,callback,<private>	
+00:07.280.209	Info	nearbyd (148)	com.apple.aonsensed	core	#BT,dataCallback,results,1,last,1	
+00:07.280.278	Debug	nearbyd (148)	nearbyd	Default	#AONSenseSampleProvider #QE_Log - screen state for this notification: <private> with Advertisement count: 1	
+00:07.280.311	Debug	nearbyd (148)	nearbyd	Default	#AONSenseSampleProvider - non-airpods sample received. Dropping	
+00:07.303.426	Info	com.apple.dt.instruments.dtsecurity (361)	com.apple.dt.dtsecurity.xpc	ProcessTracking	Created symbolicator for <private>[1,691]
+	
+00:07.306.577	Info	com.apple.dt.instruments.dtsecurity (361)	com.apple.dt.dtsecurity.xpc	ProcessTracking	Handled process termination for pid: 1,691	
+00:07.307.415	Default	cfprefsd (107)	com.apple.xpc	connection	[0xd3cab57c0] invalidated because the client process (pid 1,691) either cancelled the connection or exited	
+00:07.307.554	Default	securityd (138)	com.apple.xpc	connection	[0x682c06300] invalidated because the client process (pid 1,691) either cancelled the connection or exited	
+00:07.307.711	Default	UserEventAgent (31)	com.apple.xpc	connection	[0x9820a2a00] Re-initialization successful; calling out to event handler with XPC_ERROR_CONNECTION_INTERRUPTED	
+00:07.307.955	Default	CommCenter (97)	com.apple.xpc	connection	[0xd8084da40] invalidated because the client process (pid 1,691) either cancelled the connection or exited	
+00:07.308.186	Debug	CommCenter (97)	com.apple.CommCenter	ct.server	Connection (<private>) invalidated	
+00:07.308.326	Default	CommCenter (97)	com.apple.CommCenter	ct.server	Client [<private>] disconnected (conn=0xd7f2e4500), client list size 57	
+00:07.308.341	Default	cfprefsd (106)	com.apple.xpc	connection	[0x95637d680] invalidated because the client process (pid 1,691) either cancelled the connection or exited	
+00:07.308.519	Info	UserEventAgent (31)	com.apple.mobilebackup	Default	<MBConnection: 0x983216200; 1691> was interrupted (1)	
+00:07.308.598	Default	UserEventAgent (31)	com.apple.mobilebackup	Default	Informing client connection was interrupted: <private>	
+00:07.308.825	Default	distnoted (101)	com.apple.xpc	connection	[0x49414d2c0] invalidated because the client process (pid 1,691) either cancelled the connection or exited	
+00:07.309.933	Default	followupd (198)	com.apple.xpc	connection	[0xd400c52c0] invalidated because the client process (pid 1,691) either cancelled the connection or exited	
+00:07.310.509	Default	runningboardd (33)	com.apple.libxpc.OSLaunchdJob	all	E907AD64-B36B-4881-A73F-0DA020E0A5D3 monitor: got an update with info exited, wait4() status=0	
+00:07.310.628	Default	runningboardd (33)	com.apple.runningboard	ttl	[osservice<com.apple.backupd>:1691] termination reported by launchd (0, 0, 0)	
+00:07.310.730	Default	runningboardd (33)	com.apple.runningboard	process	Removing process: [osservice<com.apple.backupd>:1691]	
+00:07.310.835	Default	runningboardd (33)	com.apple.runningboard	ttl	Existing process in RBProcessIndex is: 	
+00:07.311.108	Info	runningboardd (33)	com.apple.runningboard	job	Cleaning out [osservice<com.apple.backupd>:1691] from job manager	
+00:07.311.188	Default	runningboardd (33)	com.apple.runningboard	general	removeJobWithInstance called for identity without existing job [osservice<com.apple.backupd>:1691]	
+00:07.311.247	Default	runningboardd (33)	com.apple.runningboard	process	Removing assertions for terminated process: [osservice<com.apple.backupd>:1691]	
+00:07.311.311	Info	runningboardd (33)	com.apple.runningboard	assertion	Removing 0 assertions	
+00:07.311.422	Info	runningboardd (33)	com.apple.runningboard	assertion	Removing 0 assertions	
+00:07.311.530	Debug	runningboardd (33)	com.apple.runningboard	general	Not starting a new timer for 48,680.1547 since timer will fire at 48,680.1547	
+00:07.311.565	Info	runningboardd (33)	com.apple.runningboard	process	Resolved state for exited process: <RBProcessState| role:None>	
+00:07.311.652	Info	runningboardd (33)	com.apple.runningboard	process	Ended tracking state for process identity osservice<com.apple.backupd>	
+00:07.312.231	Debug	runningboardd (33)	com.apple.runningboard	monitor	Sending state update for osservice<com.apple.backupd>: <RBSProcessState| task:none debug:none terminationResistance:None>	
+00:07.312.364	Debug	runningboardd (33)	com.apple.runningboard	monitor	Sending state 0x692bff8a0 for osservice<com.apple.backupd> to [osservice<com.apple.SpringBoard>:34]	
+00:07.312.401	Debug	runningboardd (33)	com.apple.runningboard	monitor	BEGIN suppressing state updates for osservice<com.apple.backupd>	
+00:07.312.461	Debug	runningboardd (33)	com.apple.runningboard	monitor	Incrementing suppression state to 1 for osservice<com.apple.backupd>	
+00:07.312.686	Debug	SpringBoard (34)	com.apple.runningboard	message	PERF: [osservice<com.apple.SpringBoard>:34] Received message from runningboardd: async_observedProcessStatesDidChange:completion:	
+00:07.312.848	Debug	SpringBoard (34)	com.apple.runningboard	process	Decoded RBSProcessHandle with IPC ID 3c54180000069b	
+00:07.312.874	Debug	runningboardd (33)	com.apple.runningboard	monitor	Sending state 0x692bff8a0 for osservice<com.apple.backupd> to [osservice<com.apple.UserEventAgent-System>:31]	
+00:07.313.005	Default	SpringBoard (34)	com.apple.runningboard	monitor	Received state update for 1,691 (osservice<com.apple.backupd>, none-NotVisible	
+00:07.313.400	Info	runningboardd (33)	com.apple.runningboard	message	PERF: Received request from [osservice<com.apple.SpringBoard>:34] (euid 501, auid 501) (persona ): statesForPredicate:descriptor:error:	
+00:07.314.045	Info	SpringBoard (34)	com.apple.Accessibility	AXRuntimePID	Client requesting suspension of PID:1691 Name:<redacted>	
+00:07.314.144	Info	SpringBoard (34)	com.apple.Accessibility	AXRuntimeNotifications	Not posting notification: (1,021) because app ax and automation are off	
+00:07.314.280	Info	SpringBoard (34)	com.apple.runningboard	monitor	Update delivered for [osservice<com.apple.backupd>:1691] with taskState 1	
+00:07.314.624	Debug	UserEventAgent (31)	com.apple.runningboard	message	PERF: [osservice<com.apple.UserEventAgent-System>:31] Received message from runningboardd: async_observedProcessStatesDidChange:completion:	
+00:07.314.710	Debug	UserEventAgent (31)	com.apple.runningboard	process	Decoded RBSProcessHandle with IPC ID 3c54180000069b	
+00:07.314.811	Default	UserEventAgent (31)	com.apple.runningboard	monitor	Received state update for 1,691 (osservice<com.apple.backupd>, none-NotVisible	
+00:07.314.936	Info	UserEventAgent (31)	com.apple.runningboard	monitor	Update skipped for [osservice<com.apple.backupd>:1691]	
+00:07.315.118	Debug	runningboardd (33)	com.apple.runningboard	monitor	Sending state 0x692bff8a0 for osservice<com.apple.backupd> to [osservice<com.apple.audiomxd>:105]	
+00:07.315.351	Debug	audiomxd (105)	com.apple.runningboard	message	PERF: [osservice<com.apple.audiomxd>:105] Received message from runningboardd: async_observedProcessStatesDidChange:completion:	
+00:07.315.455	Debug	audiomxd (105)	com.apple.runningboard	process	Decoded RBSProcessHandle with IPC ID 3c54180000069b	
+00:07.315.560	Default	audiomxd (105)	com.apple.runningboard	monitor	Received state update for 1,691 (osservice<com.apple.backupd>, none-NotVisible	
+00:07.315.694	Info	audiomxd (105)	com.apple.runningboard	monitor	Update skipped for [osservice<com.apple.backupd>:1691]	
+00:07.321.056	Debug	cloudd (151)	com.apple.cloudkit	CK	Discarding container: <private>	
+00:07.321.067	Debug	cloudd (151)	com.apple.cloudkit	CK	Discarding container: <private>	
+00:07.343.590	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	now=753,594,862.2823 delta=0.9884 fade->period=2.0000 portion=0.4942 fade->Fstart=0.0110 fade->Ftarget=0.0098 Factor=0.0104
+	
+00:07.343.633	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	Display fade callback: updateBrightness = 0, updateVirtual = 0, updateEDRHeadroom = 0, forceSyncDBVUpdate = 1	
+00:07.343.667	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	Pivoting - RIGHT restriction: L_device 205.5501 -> 118.8318, ScalerMax = 0.5060, Fmax = 0.5200	
+00:07.343.698	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	Superbright EDR restrictions [would be]: CLTM 1,512.3809, UPO 2,175.0000, bottom [lower] restriction 1.0000, nits cap hdr: 2,175.0000, after BDM: 1,600.0000	
+00:07.343.724	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	SetLogicalBrightnessInternal caps: cltm 1,512.3809,  weakcap: 2,175.0000, gl.scalar: 1.0000, dyn.sl: 0.5200, edrcap: 1,600.0000	
+00:07.343.749	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	Caps after global scaling: nitsCap=551.2000 nitsCapEDR=1,600.0000	
+00:07.343.774	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	SLBI other current=1,600.0000, calculated=1,600.0000	
+00:07.343.809	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	Factor=1.0000 Lcurrent=205.5501 maxRestriction=1,512.3809 minRestriction=1.0000 maxPanel=1,060.0000 minPanel=1.0000 L_device=118.8318	
+00:07.343.929	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	S=0.5414	
+00:07.343.957	Info	backboardd (68)	com.apple.CoreBrightness.Display	default	SyncDBV Composition | Nits.Cap=551.2000 MaxRestriction.Cap=1,512.3809 WeakRestriction.Cap=2,175.0000 PAAB.Scalar=1.0000 RightFactor.Current=0.5200 RightFactor.Overriden=NO BrightDotMitigation.Enabled=YES BrightDotMitigation.Cap=1,600.0000 EDR.Enabled=YES EDR.IsEngaged=NO EDR.Cap=1,600.0000 EDR.FadePeriod=0.0000 Panel.Max=1,060.0000 Aurora.IsBoostingBrightness=NO PreStrobe.Changed=NO PreStrobe.IsActive=NO PreStrobe.Cap=0.0000 PreStrobe.CachedNits=0.0000	
+00:07.344.215	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	Handle notification for key = DisplayBrightness and property = <private>	
+00:07.344.264	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayContaineriOS	BuiltIn	Notification block key=DisplayBrightness, value=<private>
+	
+00:07.344.339	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	Handle notification for key = FrameSynchronizedBrightnessTransaction and property = <private>	
+00:07.344.385	Info	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	HDR CAPS | RTPLC: [None] 1,600.0000, currentNitCap: 551.2000, dynSliderCap: 551.2000, Nits: 118.8318	
+00:07.344.489	Info	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	CBEDR statusInfo: <private>	
+00:07.344.581	Debug	backboardd (68)	com.apple.CoreBrightness.CBIndicatorBrightnessModule	default	updateRamp called, isRampRunning: NO, silState: 4, currentSDR: 118.8318, currentMIB: 115.9970, targetMIB: 1.0000, MIB: 1.0000	
+00:07.344.679	Debug	backboardd (68)	com.apple.CoreBrightness.CBIndicatorBrightnessModule	default	updateRamp finished, isRampRunning: NO, silState: 4, currentSDR: 118.8318, currentMIB: 115.9970, targetMIB: 1.0000, MIB: 1.0000	
+00:07.344.739	Default	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	HDR | _edrState: 0, forceRamp: NO	
+00:07.344.775	Default	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	Pushing sdrBrightness: 118.8318, capped _appliedHeadroom: 1.0000, brightnessLimit: 551.2000, potentialHeadroom: 8.0000, Ambient: 246.1711 to CA, HDRBrightness: 118.8318, [None] rtplcCap: 1,600.0000	
+00:07.344.841	Default	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	SyncDBV Transaction | ID=13,501 SDR.Nits=118.8318 HDR.Nits=118.8318 HDR.State=Off BrightnessLimit=551.2000 IndicatorBrightness.Nits=0.0000 IndicatorBrightness.Cap=551.2000 Headroom.Current=1.0000 Headroom.Maximum=8.0000 AppliedCompensations=1.3000 Aurora.Factor=1.0000 Aurora.RampInProgress=NO Lux=246.1711 RTPLC.State=None RTPLC.Cap=1,600.0000 RTPLC.CapApplied=NO PeakAPCE.Cap=0.0800 Nits.Cap=551.2000 DynamicSlider.Cap=551.2000 Twilight.Strength=0.0000 Ammolite.Strength=0.0000 ContrastEnhancer.Strength=0.0104	
+00:07.344.967	Default	backboardd (68)	com.apple.coreanimation	Brightness	Display 1 commitBrightness sdr: 118.8318, headroom: 1.0000, ambient lux: 246.1711, filtered ambient: -1.0000, limit: 551.2000, low ambient strength: 0.0000, high ambient strength: 0.0000, brightness ctl disabled 18,446,744,073,709,551,615
+	
+00:07.344.992	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayContaineriOS	BuiltIn	Notification block key=BrightnessTransaction, value=<private>
+	
+00:07.345.055	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayContaineriOS	BuiltIn	Notification block key=CBCACommit, value=<private>
+	
+00:07.345.093	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayContaineriOS	BuiltIn	Notification block key=FrameSynchronizedBrightnessTransaction, value=<private>
+	
+00:07.345.218	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=DisplayBrightness value=<private>	
+00:07.345.276	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=DisplayBrightness property=<private>	
+00:07.345.318	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	passed for client 58881740544	
+00:07.345.484	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=<private> value=<private>	
+00:07.345.516	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=<private> property=<private>	
+00:07.345.607	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=BrightnessTransaction value=<private>	
+00:07.345.664	Debug	PerfPowerServices (1452)	com.apple.CoreBrightness	default	key=<private> property=<private> queue=0x97ede5100 clientBlock=0x97e365e90	
+00:07.345.694	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=BrightnessTransaction property=<private>	
+00:07.345.788	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=<private> value=<private>	
+00:07.345.865	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=<private> property=<private>	
+00:07.345.960	Debug	DTServiceHub (360)	DVTInstrumentsFoundation	Default	Data Size: 101,170, Rows Sent: 1,297, Stack depth: 4,890	
+00:07.345.972	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=CBCACommit value=<private>	
+00:07.346.019	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=CBCACommit property=<private>	
+00:07.346.094	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=<private> value=<private>	
+00:07.346.198	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=<private> property=<private>	
+00:07.346.303	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=FrameSynchronizedBrightnessTransaction value=<private>	
+00:07.346.393	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=FrameSynchronizedBrightnessTransaction property=<private>	
+00:07.346.465	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=<private> value=<private>	
+00:07.346.496	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=<private> property=<private>	
+00:07.347.159	Default	mobileassetd (336)	com.apple.mobileassetd	Notice	-[DownloadInfo addNewRateDataPoint:]: DownloadInfo taskDescriptor: com_apple_MobileAsset_MediaSupport.xml . task: BackgroundDownloadTask <19696666-C1F4-4405-80F0-82E438EC6A5E>.<30> taskState: running statusCode: -1 downloadSize: 0 progress: 0 / 0 isStalled: NO numStalls: 0 numNoLongerStalls: 0 backtracks: 0 callbackCount: 4 hasExtractor: NO originalUrl: https://mesu.apple.com/assets/com_apple_MobileAsset_MediaSupport/com_apple_MobileAsset_MediaSupport.xml cacheServerUrl: (null) assetType: (null) purpose: (null) shouldRetry: YES ifModifiedDate: 2017-07-06 22:26:30 +0000 options: MADownloadOptions allowsCellular: 0 resourceTimeout: 900 canUseCacheServer: 0 discretionary: 0 disableUI: 0 sessionId: (null) additionalServerParams:(null) allowsExpensiveAccess:1 requiresPowerPluggedIn: 0 prefersInfraWiFi: 1 liveServerOnly: -1 DownloadAuthorizationHeader: not present analyticsData: not present allowDaemonConnectionRetries: 0  + MAMsuDownloadOptions reqProdVersion: (null) delayPeriod: 0 managedDevice: 0 allowSameVersion: 0 prereqBuild: (null) prereqVersion: (null) prereqReleaseType: (default) liveAssetAudienceUUID: (null) purpose: (null)
+[DOWNLOAD_INFO] {addNewRateDataPoint} Download has not progressed since last update, however, download appears to be complete. Previous Total Downloaded: 0, Total Expected: 0	
+00:07.356.001	Debug	backboardd (68)	com.apple.CoreBrightness.ColourSensorFilterPlugin	default	Color: X=257.7747(82.0523) Y=245.5522(78.1617) Z=96.7011(30.7809) 
+	
+00:07.356.080	Default	backboardd (68)	com.apple.CoreBrightness.ColourSensorFilterPlugin	default	[ALS] ts=48,676.7955 lux=274.9419<private> xy=(0.4296 0.4092) chs=[1,606.0000 4,321.0000 10,957.0000 15,589.0000 15,984.0000] CCT1=3,341.8271 gain=512x mode=<private> subsamples=24 rawLux=277.8229 nits=178 xTalk=[3 9 16 19 25] status=0xb copyEvent=0	
+00:07.356.262	Debug	locationd (74)	com.apple.locationd.Position	Position	AmbientLight,DecisionTree,x,288.6273,y,274.9419,z,108.2750,out,3	
+00:07.356.271	Debug	backboardd (68)	com.apple.CoreBrightness.CBColorModule.Primary	default	key=ALSIntegrationMode result=	
+00:07.356.316	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[4]: 	
+00:07.356.327	Debug	locationd (74)	com.apple.locationd.Position	Position	AmbientLightDecisionTreeOutput,3	
+00:07.356.349	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[2]: ALSIntegrationMode	
+00:07.356.387	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[2]: ALSIntegrationMode result=3	
+00:07.356.421	Debug	backboardd (68)	com.apple.CoreBrightness.CBABModuleiOS	default	key=ALSIntegrationMode result=3	
+00:07.356.447	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayContaineriOS	BuiltIn	key=ALSIntegrationMode result=3	
+00:07.356.481	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[4]: _plugInEnabled=1	
+00:07.356.511	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[4]: 0xdb4ccd900 0xdb61f8d20	
+00:07.356.551	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[10]: 274.9419 	
+00:07.356.579	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[10]: als->_Esensor_device=274.9419	
+00:07.356.616	Debug	backboardd (68)	com.apple.CoreBrightness.CBALSEvent	default	Tristimulus values: XYZ[0]=91.8729, XYZ[1]=87.5167, XYZ[2]=34.4650 | CCT1=3,341.8271	
+00:07.356.687	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[2]: _luxFilter=3 als->_Ehistory_max=8	
+00:07.356.731	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[10]: Median filter computed on 8 samples	
+00:07.356.758	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	Median filter computed on 8 samples	
+00:07.356.841	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[10]: ts=48,676.7969 Esensor=278.5692 Emedian=247.1693	
+00:07.356.915	Info	backboardd (68)	com.apple.CoreBrightness.AABRear.CBRearALSModule	default	Copy Grimaldi Lux = 17.40373	
+00:07.356.950	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	E 247.1693, Ecapped 247.1693, EmaxCap -1.0000 => finalE 247.1693	
+00:07.356.979	Debug	backboardd (68)	com.apple.CoreBrightness.AABRear	default	AABRear: shouldUseRearLuxFrontLux called with (fLux:247.1693, rLux:17.4037, cap: 2,077.9534)	
+00:07.357.041	Debug	backboardd (68)	com.apple.CoreBrightness.AABRear	default	AABRear: using rear? 0	
+00:07.357.079	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	E 247.1693, Ecapped 247.1693, EmaxCap -1.0000 => finalE 247.1693	
+00:07.357.128	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayContaineriOS	BuiltIn	Notification block key=RLuxStats, value=<private>
+	
+00:07.357.163	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	Handle notification for key = RLuxStats and property = <private>	
+00:07.357.214	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayContaineriOS	BuiltIn	Notification block key=TrustedLux, value=247.1693
+	
+00:07.357.245	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	Handle notification for key = TrustedLux and property = 247.1693	
+00:07.357.354	Default	backboardd (68)	com.apple.coreanimation	Brightness	Display 1 commitBrightness sdr: -1.0000, headroom: -1.0000, ambient lux: 247.1693, filtered ambient: -1.0000, limit: -1.0000, low ambient strength: -1.0000, high ambient strength: -1.0000, brightness ctl disabled 18,446,744,073,709,551,615
+	
+00:07.357.364	Info	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	Set trusted lux = 247.1693	
+00:07.357.486	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayContaineriOS	BuiltIn	Notification block key=TrustedFrontLux, value=246.1711
+	
+00:07.357.520	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	Handle notification for key = TrustedFrontLux and property = 246.1711	
+00:07.357.570	Default	backboardd (68)	com.apple.CoreBrightness.AABC	default	trusted Lux: 247.1693, trusted front Lux: 247.1693, trusted capped Lux: 247.1693	
+00:07.357.601	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[10]: _Esensor_filtered=247.1693 _Esensor_trusted=247.1693 _Esensor_aggregated=247.1693	
+00:07.357.673	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayContaineriOS	BuiltIn	Notification block key=Lux, value=247.1693
+	
+00:07.357.706	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	Handle notification for key = Lux and property = 247.1693	
+00:07.357.809	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[10]: _Esensor_trusted=247.1693 _state=kAABStateAutoBrightness _proxState=kProxNone _touchIsObstucted=0 _settings._internal._dimPolicy=kDimPolicyFullDimming 3 _orientation=kIOHIDDisplayOrientationTypeAmbiguous	
+00:07.357.847	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	E 247.1693, Ecapped 247.1693, EmaxCap -1.0000 => finalE 247.1693	
+00:07.357.908	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[1/1] Esensor_device: 274.9419 als->_Esensor_filtered: 247.1693 _Esensor_trusted: 247.1693  L: 197.5472 L_reflected: 1.5735	
+00:07.357.958	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[10]: dimRestriction=kDimRestrictionUnrestricted	
+00:07.357.998	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	Superbright EDR restrictions [would be]: CLTM 1,512.3809, UPO 2,175.0000, bottom [lower] restriction 1.0000, nits cap hdr: 2,175.0000, after BDM: 1,600.0000	
+00:07.358.030	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	Ambient change - SetLibEDRBrightness - physicalBrightness:118.8318, maxLum: 1,600.0000, edrState: 0, lux: 247.1693, brightness boost: 1.1381
+	
+00:07.358.060	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	SetLibEDRBrightness to currentBrightness=118.8318, maxBrightness=1,600.0000, currentLux=247.1693, compensationBoost=1.1381	
+00:07.358.119	Debug	backboardd (68)	CoreBrightness	Default	CBEDRServerDisplayBrightness: display: 0 | target: 118.8318 | max: 1,600.0000 | ambient: 247.1693 | boost=1.1381	
+00:07.358.185	Info	backboardd (68)	libEDR	Default	libEDR - EDRServerSetDisplayBrightnessForDisplay: (display: 0, targetBrightness: 118.8318, maxLuminance: 1,600.0000, ambientIlluminance: 247.1693, brightnessScaler: 1.1381)
+	
+00:07.358.237	Info	backboardd (68)	libEDR	Default	libEDR - NotificationCallback: (type: kEDRNotifyBrightness, display: 0, brightness: 0.0743, backlight: 0.0743, edrScaler: 1.0000, maxLuminance: 1,600.0000, ambientIlluminance: 247.1693, brightnessScaler: 1.1381)
+	
+00:07.358.264	Info	backboardd (68)	libEDR	Default	libEDR - PostNotification: (display: 0, brightness: 0.0743, backlight: 0.0743, edrScaling: 1.0000, maxLuminance: 1,600.0000, ambientIlluminance: 247.1693, brightnessScaler: 1.1381)
+	
+00:07.358.315	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[4]: 	
+00:07.358.349	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[200]: inputs: L=197.5472 (shouldRamp=true dimRestriction=kDimRestrictionUnrestricted _Esensor_trusted=247.1693) curveChanged=0	
+00:07.358.386	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[200]: _fastRampMode=0 dimRestriction=kDimRestrictionUnrestricted L_newtarget=197.5472 _L_current=76.2887 _L_minimum=197.2803	
+00:07.358.419	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	PLT	shallUpdateBacklight: Pstart=0.7645 Pcurrent=0.7645 Pnewtarget=0.7588 Pdelta=-0.0057 Pthreshold_dim=0.1000 (0.1000 * 1.0000) Pthreshold_brighten=0.1000 (0.1000 * 1.0000) plt_x=0.2500 plt_y=0.3700 plt_z=0.1000	
+00:07.358.453	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[200]: _L_target=205.5501 Pnewtarget=0.7588 Ptarget=0.7645 Pdelta=-0.0057  	
+00:07.358.484	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[200]: systemShallUpdateBacklight=false L_target=197.5472 timeConstant=0.0000	
+00:07.358.603	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	Handle notification for key = TrustedLux and property = 247.1693	
+00:07.358.702	Default	backboardd (68)	com.apple.coreanimation	Brightness	Display 1 commitBrightness sdr: -1.0000, headroom: -1.0000, ambient lux: 247.1693, filtered ambient: -1.0000, limit: -1.0000, low ambient strength: -1.0000, high ambient strength: -1.0000, brightness ctl disabled 18,446,744,073,709,551,615
+	
+00:07.358.724	Info	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	Set trusted lux = 247.1693	
+00:07.358.797	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayContaineriOS	BuiltIn	Notification block key=TrustedLux, value=247.1693
+	
+00:07.359.033	Debug	backboardd (68)	com.apple.CoreBrightness.CBALSEvent	default	Tristimulus values: XYZ[0]=91.8729, XYZ[1]=87.5167, XYZ[2]=34.4650 | CCT1=3,341.8271	
+00:07.359.075	Debug	backboardd (68)	com.apple.CoreBrightness.CBALSNode	default	<private>	
+00:07.359.121	Debug	backboardd (68)	com.apple.CoreBrightness.CBBrightestALSFilter	default	ALS events <private>	
+00:07.359.159	Info	backboardd (68)	com.apple.CoreBrightness.CBColorPolicyFilter	default	HarmonyPolicy: Sample IS NOT from mitigated region	
+00:07.359.196	Info	backboardd (68)	com.apple.CoreBrightness.CBColorPolicyFilter	default	HarmonyPolicy: Incoming ALS sample, pushed to queue: <private>	
+00:07.359.242	Info	backboardd (68)	com.apple.CoreBrightness.CBColorPolicyFilter	default	HarmonyPolicy: _filteredALS: <private>, _filtered strength: 0.2700	
+00:07.359.271	Debug	backboardd (68)	com.apple.CoreBrightness.CBColorModule.Primary	default	ALS event with orientation = 1	
+00:07.359.304	Info	backboardd (68)	com.apple.CoreBrightness.CBColorModule.Primary	default	HarmonyPolicy: Using Shipping	
+00:07.359.334	Debug	backboardd (68)	com.apple.CoreBrightness.CBColorModule.Primary	default	input ambient color sample: xy = (0.4296;0.4092)	
+00:07.359.387	Debug	backboardd (68)	CoreBrightness	Default	LOWLUX 87.5167
+	
+00:07.359.431	Debug	backboardd (68)	CoreBrightness	Default	[ColorEffects.c:_CFXRestrictLowAmbientColor] xy=(0.4296,0.4092), CCT = 3,174.0000, CCT1 = 3,341.8271	
+00:07.359.475	Debug	backboardd (68)	CoreBrightness	Default	Restrict: (16.8345, 16.8345) -> (13.6968, 46.7912)
+	
+00:07.359.518	Debug	backboardd (68)	CoreBrightness	Default	59.9237 16.8345 57.5104 -> ANGLE 1.6787 -> BIN 2	
+00:07.359.558	Debug	backboardd (68)	CoreBrightness	Default	BIN 13: (0.4296, 0.4092) fitting in (0.4150, 0.3821)-(0.4373, 0.3893)-(0.4303, 0.4173)
+	
+00:07.359.613	Info	backboardd (68)	com.apple.CoreBrightness.CBColorModule.Primary	default	Set ambient color sample ALS event = [Orientation = 1; Illuminance = 274.000000; xy = (0.429605,0.409235); XYZ = (91.872940,87.516724,34.465019); CCT1 = 3341.827148; Integration time = 0.002906; Gain = 33554432; Obstructed = 0; First = 0, mitigation = 0, timestamp = 87722389]	
+00:07.359.707	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=RLuxStats value=<private>	
+00:07.359.743	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=RLuxStats property=<private>	
+00:07.359.778	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	passed for client 58881740544	
+00:07.359.908	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=<private> value=<private>	
+00:07.359.943	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=<private> property=<private>	
+00:07.359.979	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=TrustedLux value=247.1693	
+00:07.360.007	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=TrustedLux property=247.1693	
+00:07.360.037	Debug	PerfPowerServices (1452)	com.apple.CoreBrightness	default	key=<private> property=<private> queue=0x97ede5100 clientBlock=0x97e365e90	
+00:07.360.040	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	passed for client 58870513280	
+00:07.360.115	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=<private> value=247.1693	
+00:07.360.147	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=<private> property=247.1693	
+00:07.360.180	Info	PerfPowerServices (1452)	com.apple.CoreBrightness.BSCI	default	use_synchronous_remote=1	
+00:07.360.181	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=TrustedFrontLux value=246.1711	
+00:07.360.203	Debug	locationd (74)	com.apple.CoreBrightness	default	key=<private> property=247.1693 queue=0x838c59d80 clientBlock=0x838ae4840	
+00:07.360.210	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=TrustedFrontLux property=246.1711	
+00:07.360.284	Default	PerfPowerServices (1452)	com.apple.xpc	connection	[0x97ef066c0] activating connection: mach=1 listener=0 peer=0 name=com.apple.backlightd	
+00:07.360.328	Debug	locationd (74)	com.apple.locationd.Position	Outdoor	AmbientLight,context,<private>,startTime,<private>,lux,<private>	
+00:07.360.417	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=<private> value=246.1711	
+00:07.360.526	Default	PerfPowerServices (1452)	com.apple.CoreBrightness	default	Register notification block	
+00:07.360.533	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=<private> property=246.1711	
+00:07.360.699	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=Lux value=247.1693	
+00:07.360.783	Default	backboardd (68)	com.apple.xpc	connection	[0xdb508bc00] activating connection: mach=0 listener=0 peer=1 name=com.apple.backlightd.peer[1452].0xdb508bc00	
+00:07.360.803	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=Lux property=247.1693	
+00:07.360.865	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=<private> value=247.1693	
+00:07.360.928	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=<private> property=247.1693	
+00:07.361.030	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=TrustedLux value=247.1693	
+00:07.361.110	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=TrustedLux property=247.1693	
+00:07.361.232	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	passed for client 58870513280	
+00:07.361.359	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=<private> value=247.1693	
+00:07.361.388	Info	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	client=58903569952 key=<private>	
+00:07.361.392	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=<private> property=247.1693	
+00:07.361.410	Debug	locationd (74)	com.apple.CoreBrightness	default	key=<private> property=247.1693 queue=0x838c59d80 clientBlock=0x838ae4840	
+00:07.361.490	Debug	backboardd (68)	com.apple.CoreBrightness.CBColorModule.Primary	default	key=<private> result=<private>	
+00:07.361.497	Debug	locationd (74)	com.apple.locationd.Position	Outdoor	AmbientLight,context,<private>,startTime,<private>,lux,<private>	
+00:07.361.553	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayContaineriOS	BuiltIn	key=<private> result=<private>	
+00:07.361.624	Info	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=<private> result=<private>	
+00:07.361.712	Default	backboardd (68)	com.apple.coreanimation	Brightness	Display 1 setting ambient lux to 247.1693
+	
+00:07.361.748	Default	backboardd (68)	com.apple.coreanimation	Brightness	Display 1 setting contrast enhancer to 0.0104
+	
+00:07.361.903	Debug	PerfPowerServices (1452)	com.apple.CoreBrightness.Client	Default	BSC dealloc	
+00:07.361.946	Default	PerfPowerServices (1452)	com.apple.CoreBrightness	default	Register notification block	
+00:07.361.985	Default	PerfPowerServices (1452)	com.apple.xpc	connection	[0x97ef066c0] invalidated because the current process cancelled the connection by calling xpc_connection_cancel()	
+00:07.362.019	Default	backboardd (68)	com.apple.xpc	connection	[0xdb508bc00] invalidated because the client process (pid 1,452) either cancelled the connection or exited	
+00:07.362.033	Debug	PerfPowerServices (1452)	com.apple.powerlog	display	Received notification for CBrLuxStats: <private>	
+00:07.362.087	Debug	PerfPowerServices (1452)	com.apple.CoreBrightness.BSCI	default	BSCI dealloc	
+00:07.362.113	Default	PerfPowerServices (1452)	com.apple.CoreBrightness	default	Register notification block	
+00:07.363.039	Default	Unknown (0)	com.apple.DriverKit-AppleBCMWLAN.dext	Default	349875.309549 wlan0.A[207443] [dk] handleEventScanComplete@2290:Infra Scan complete status 0	
+00:07.363.098	Default	Unknown (0)	com.apple.DriverKit-AppleBCMWLAN.dext	Default	I [dk] <private>@18380: Scan[0ms] - 2.4G<0ms 0%> 5G<0ms 0%> 6G<0ms 0%> client=3	
+00:07.363.113	Default	Unknown (0)	com.apple.DriverKit-AppleBCMWLAN.dext	Default	I [dk] <private>@18439: PER_SCAN_SUMMARY: Dur=1200ms Dur2G 0ms Dur5G 1098ms Dur6G 0ms Num2G=0 Num5G=10 Num6G=0 SCNum2G=0 SCNum5G=0 SCNum6G=0 NumActive=0 NumPassive=10 Mode=0 Client=3 isRescheduled=0	
+00:07.363.127	Default	Unknown (0)	com.apple.DriverKit-AppleBCMWLAN.dext	Default	I [dk] <private>@18447: TOTAL_SCAN_SUMMARY: Dur2G 3420842ms Dur5G 3300638ms Dur6G 0ms Num2G=33655 Num5G=32130 Num6G=0 SCNum2G=3905 SCNum5G=1339 SCNum6G=0 NumActive=15405 NumPassive=55612	
+00:07.363.262	Default	Unknown (0)	com.apple.DriverKit-AppleBCMWLAN.dext	Default	349875.309774 wlan0.A[207444] [dk] setAVCAdvisoryInfo@315:Scan time =<1202> expected=<1530>	
+00:07.363.356	Default	Unknown (0)	com.apple.DriverKit-AppleBCMWLAN.dext	Default	wlan0:com.apple.p2p: reportDataPathEvents[6952]: WiFi infra scan complete notification from FW with status 0	
+00:07.363.571	Default	Unknown (0)	com.apple.DriverKit-AppleBCMWLAN.dext	Default	349875.310091 wlan0.A[207445] [wcl] logTransition@206:FSM SCAN_MANAGER: in state: SCAN_MANAGER_STATE_IN_PROGRESS got event: SCAN_MANAGER_EVENT_SCAN_COMPLETE moved into: SCAN_MANAGER_STATE_IDLE	
+00:07.363.600	Debug	wifid (50)	IO80211	Default	_writeEventBuffer: processing event 126/'APPLE80211_M_INFRA_SCAN_COMPLETE'
+	
+00:07.363.658	Debug	wifid (50)	IO80211	Default	_writeEventBuffer: processing event 126/'APPLE80211_M_INFRA_SCAN_COMPLETE'
+	
+00:07.363.729	Debug	wifid (50)	IO80211	Default	_writeEventBuffer: processing event 173/'APPLE80211_M_SCAN_CLIENT_UPDATE'
+	
+00:07.363.807	Debug	wifid (50)	IO80211	Default	_writeEventBuffer: processing event 10/'APPLE80211_M_SCAN_DONE'
+	
+00:07.363.820	Debug	wifid (50)	IO80211	Default	_writeEventBuffer: processing event 173/'APPLE80211_M_SCAN_CLIENT_UPDATE'
+	
+00:07.363.822	Default	Unknown (0)	com.apple.DriverKit-AppleBCMWLAN.dext	Default	wlan0:com.apple.p2p: IO80211PeerManager::setScanningState:5709:_scanningState:0x0(oldState 2) on:0, source:DriverInternalScanDone, err:0	
+00:07.363.894	Debug	wifid (50)	IO80211	Default	_writeEventBuffer: processing event 10/'APPLE80211_M_SCAN_DONE'
+	
+00:07.364.040	Debug	wifid (50)	IO80211	Default	_writeEventBuffer: processing event 15/'APPLE80211_M_SCAN_CACHE_UPDATED'
+	
+00:07.364.130	Debug	wifip2pd (248)	IO80211	Default	_writeEventBuffer: processing event 126/'APPLE80211_M_INFRA_SCAN_COMPLETE'
+	
+00:07.364.405	Debug	wifip2pd (248)	com.apple.wifip2pd	driver	Received event InfraScanCompleteEvent	
+00:07.364.651	Default	wifip2pd (248)	com.apple.wifip2pd	interface	Infra scan complete (duration: 1 second), status: 0)	
+00:07.364.790	Default	wifip2pd (248)	com.apple.wifip2pd	interface	Updated en0 scan in progress to false, will notify 0 observers	
+00:07.364.922	Debug	wifip2pd (248)	IO80211	Default	_writeEventBuffer: processing event 173/'APPLE80211_M_SCAN_CLIENT_UPDATE'
+	
+00:07.364.960	Debug	wifip2pd (248)	IO80211	Default	_writeEventBuffer: processing event 10/'APPLE80211_M_SCAN_DONE'
+	
+00:07.365.102	Debug	wifip2pd (248)	IO80211	Default	_writeEventBuffer: processing event 15/'APPLE80211_M_SCAN_CACHE_UPDATED'
+	
+00:07.371.556	Debug	wifid (50)	IO80211	Default	Apple80211IOCTLGetWrapper:6,535 @[48,676.823,582] ifname['en0'] IOUC type 11/'APPLE80211_IOC_SCAN_RESULT', len[2,264] return 18,446,744,073,181,201,478/0xe0820446
+	
+00:07.371.955	Default	wifid (50)	WiFiPolicy	Default	__WiFiDeviceProcessScanDoneEvent: Filtering WAPI networks	
+00:07.372.271	Default	wifid (50)	wifid	Default	[WiFiPolicy] {SCAN-} Completed Apple80211ScanAsync on en0 (0x0) with 30 networks	
+00:07.374.135	Default	wifid (50)	WiFiPolicy	Default	__WiFiManagerUpdateRegulatoryDomainCountryCode: countryCode CN, manager->ieCountryCode CN, force 0	
+00:07.374.239	Default	wifid (50)	WiFiPolicy	Default	__WiFiManagerUpdateRegulatoryDomainCountryCode: Country code CN refreshed.	
+00:07.374.341	Debug	wifid (50)	IO80211	Default	Apple80211IOCTLGetWrapper:6,535 @[48,676.826,368] ifname['en0'] IOUC type 103/'APPLE80211_IOC_CURRENT_NETWORK', len[2,264] return 18,446,744,073,181,209,603/0xe0822403
+	
+00:07.374.376	Default	wifid (50)	IO80211	Default	Apple80211GetWithIOCTL:11,613 @[48,676.826,404] ifname['en0'] IOCTL type 103/'APPLE80211_IOC_CURRENT_NETWORK' return 18,446,744,073,181,209,603/0xe0822403
+	
+00:07.374.477	Debug	wifid (50)	com.apple.defaults	User Defaults	found no value for key 8c:e5:ef:d8:ec:17 in CFPrefsSearchListSource<0xab105f180> (Domain: com.apple.wifi.manager, Container: (null))	
+00:07.374.528	Debug	wifid (50)	com.apple.defaults	User Defaults	found no value for key 8c:e5:ef:d8:ec:17 in CFPrefsSearchListSource<0xab105f180> (Domain: com.apple.wifi.manager, Container: (null))	
+00:07.374.564	Debug	wifid (50)	com.apple.defaults	User Defaults	found no value for key 8c:e5:ef:d8:ec:17 in CFPrefsSearchListSource<0xab105f180> (Domain: com.apple.wifi.manager, Container: (null))	
+00:07.374.597	Debug	wifid (50)	com.apple.defaults	User Defaults	found no value for key 8c:e5:ef:d8:ec:17 in CFPrefsSearchListSource<0xab105f180> (Domain: com.apple.wifi.manager, Container: (null))	
+00:07.374.631	Debug	wifid (50)	com.apple.defaults	User Defaults	found no value for key 8c:e5:ef:d8:ec:17 in CFPrefsSearchListSource<0xab105f180> (Domain: com.apple.wifi.manager, Container: (null))	
+00:07.374.664	Debug	wifid (50)	com.apple.defaults	User Defaults	found no value for key 8c:e5:ef:d8:ec:17 in CFPrefsSearchListSource<0xab105f180> (Domain: com.apple.wifi.manager, Container: (null))	
+00:07.374.701	Debug	wifid (50)	com.apple.defaults	User Defaults	found no value for key 8c:e5:ef:d8:ec:17 in CFPrefsSearchListSource<0xab105f180> (Domain: com.apple.wifi.manager, Container: (null))	
+00:07.374.734	Debug	wifid (50)	com.apple.defaults	User Defaults	found no value for key 8c:e5:ef:d8:ec:17 in CFPrefsSearchListSource<0xab105f180> (Domain: com.apple.wifi.manager, Container: (null))	
+00:07.374.766	Debug	wifid (50)	com.apple.defaults	User Defaults	found no value for key 8c:e5:ef:d8:ec:17 in CFPrefsSearchListSource<0xab105f180> (Domain: com.apple.wifi.manager, Container: (null))	
+00:07.374.804	Debug	wifid (50)	com.apple.defaults	User Defaults	found no value for key 8c:e5:ef:d8:ec:17 in CFPrefsSearchListSource<0xab105f180> (Domain: com.apple.wifi.manager, Container: (null))	
+00:07.374.836	Debug	wifid (50)	com.apple.defaults	User Defaults	found no value for key 8c:e5:ef:d8:ec:17 in CFPrefsSearchListSource<0xab105f180> (Domain: com.apple.wifi.manager, Container: (null))	
+00:07.374.869	Debug	wifid (50)	com.apple.defaults	User Defaults	found no value for key 8c:e5:ef:d8:ec:17 in CFPrefsSearchListSource<0xab105f180> (Domain: com.apple.wifi.manager, Container: (null))	
+00:07.374.911	Debug	wifid (50)	com.apple.defaults	User Defaults	found no value for key 8c:e5:ef:d8:ec:11 in CFPrefsSearchListSource<0xab105f180> (Domain: com.apple.wifi.manager, Container: (null))	
+00:07.374.943	Debug	wifid (50)	com.apple.defaults	User Defaults	found no value for key 8c:e5:ef:d8:ec:11 in CFPrefsSearchListSource<0xab105f180> (Domain: com.apple.wifi.manager, Container: (null))	
+00:07.374.975	Debug	wifid (50)	com.apple.defaults	User Defaults	found no value for key 8c:e5:ef:d8:ec:11 in CFPrefsSearchListSource<0xab105f180> (Domain: com.apple.wifi.manager, Container: (null))	
+00:07.375.007	Debug	wifid (50)	com.apple.defaults	User Defaults	found no value for key 8c:e5:ef:d8:ec:11 in CFPrefsSearchListSource<0xab105f180> (Domain: com.apple.wifi.manager, Container: (null))	
+00:07.375.038	Debug	wifid (50)	com.apple.defaults	User Defaults	found no value for key 8c:e5:ef:d8:ec:11 in CFPrefsSearchListSource<0xab105f180> (Domain: com.apple.wifi.manager, Container: (null))	
+00:07.375.073	Debug	wifid (50)	com.apple.defaults	User Defaults	found no value for key 8c:e5:ef:d8:ec:11 in CFPrefsSearchListSource<0xab105f180> (Domain: com.apple.wifi.manager, Container: (null))	
+00:07.375.106	Debug	wifid (50)	com.apple.defaults	User Defaults	found no value for key 8c:e5:ef:d8:ec:11 in CFPrefsSearchListSource<0xab105f180> (Domain: com.apple.wifi.manager, Container: (null))	
+00:07.375.141	Debug	wifid (50)	com.apple.defaults	User Defaults	found no value for key 8c:e5:ef:d8:ec:11 in CFPrefsSearchListSource<0xab105f180> (Domain: com.apple.wifi.manager, Container: (null))	
+00:07.375.173	Debug	wifid (50)	com.apple.defaults	User Defaults	found no value for key 8c:e5:ef:d8:ec:11 in CFPrefsSearchListSource<0xab105f180> (Domain: com.apple.wifi.manager, Container: (null))	
+00:07.375.204	Debug	wifid (50)	com.apple.defaults	User Defaults	found no value for key 8c:e5:ef:d8:ec:11 in CFPrefsSearchListSource<0xab105f180> (Domain: com.apple.wifi.manager, Container: (null))	
+00:07.375.236	Debug	wifid (50)	com.apple.defaults	User Defaults	found no value for key 8c:e5:ef:d8:ec:11 in CFPrefsSearchListSource<0xab105f180> (Domain: com.apple.wifi.manager, Container: (null))	
+00:07.375.268	Debug	wifid (50)	com.apple.defaults	User Defaults	found no value for key 8c:e5:ef:d8:ec:11 in CFPrefsSearchListSource<0xab105f180> (Domain: com.apple.wifi.manager, Container: (null))	
+00:07.375.309	Debug	wifid (50)	com.apple.defaults	User Defaults	found no value for key 8c:e5:ef:d8:ec:10 in CFPrefsSearchListSource<0xab105f180> (Domain: com.apple.wifi.manager, Container: (null))	
+00:07.375.347	Debug	wifid (50)	com.apple.defaults	User Defaults	found no value for key 8c:e5:ef:d8:ec:10 in CFPrefsSearchListSource<0xab105f180> (Domain: com.apple.wifi.manager, Container: (null))	
+00:07.375.379	Debug	wifid (50)	com.apple.defaults	User Defaults	found no value for key 8c:e5:ef:d8:ec:10 in CFPrefsSearchListSource<0xab105f180> (Domain: com.apple.wifi.manager, Container: (null))	
+00:07.375.412	Debug	wifid (50)	com.apple.defaults	User Defaults	found no value for key 8c:e5:ef:d8:ec:10 in CFPrefsSearchListSource<0xab105f180> (Domain: com.apple.wifi.manager, Container: (null))	
+00:07.375.444	Debug	wifid (50)	com.apple.defaults	User Defaults	found no value for key 8c:e5:ef:d8:ec:10 in CFPrefsSearchListSource<0xab105f180> (Domain: com.apple.wifi.manager, Container: (null))	
+00:07.375.479	Debug	wifid (50)	com.apple.defaults	User Defaults	found no value for key 8c:e5:ef:d8:ec:10 in CFPrefsSearchListSource<0xab105f180> (Domain: com.apple.wifi.manager, Container: (null))	
+00:07.375.512	Debug	wifid (50)	com.apple.defaults	User Defaults	found no value for key 8c:e5:ef:d8:ec:10 in CFPrefsSearchListSource<0xab105f180> (Domain: com.apple.wifi.manager, Container: (null))	
+00:07.375.546	Debug	wifid (50)	com.apple.defaults	User Defaults	found no value for key 8c:e5:ef:d8:ec:10 in CFPrefsSearchListSource<0xab105f180> (Domain: com.apple.wifi.manager, Container: (null))	
+00:07.375.577	Debug	wifid (50)	com.apple.defaults	User Defaults	found no value for key 8c:e5:ef:d8:ec:10 in CFPrefsSearchListSource<0xab105f180> (Domain: com.apple.wifi.manager, Container: (null))	
+00:07.375.609	Debug	wifid (50)	com.apple.defaults	User Defaults	found no value for key 8c:e5:ef:d8:ec:10 in CFPrefsSearchListSource<0xab105f180> (Domain: com.apple.wifi.manager, Container: (null))	
+00:07.375.642	Debug	wifid (50)	com.apple.defaults	User Defaults	found no value for key 8c:e5:ef:d8:ec:10 in CFPrefsSearchListSource<0xab105f180> (Domain: com.apple.wifi.manager, Container: (null))	
+00:07.375.673	Debug	wifid (50)	com.apple.defaults	User Defaults	found no value for key 8c:e5:ef:d8:ec:10 in CFPrefsSearchListSource<0xab105f180> (Domain: com.apple.wifi.manager, Container: (null))	
+00:07.375.709	Debug	wifid (50)	com.apple.defaults	User Defaults	found no value for key f4:1d:6b:fd:53:91 in CFPrefsSearchListSource<0xab105f180> (Domain: com.apple.wifi.manager, Container: (null))	
+00:07.375.745	Debug	wifid (50)	com.apple.defaults	User Defaults	found no value for key f4:1d:6b:fd:53:91 in CFPrefsSearchListSource<0xab105f180> (Domain: com.apple.wifi.manager, Container: (null))	
+00:07.375.776	Debug	wifid (50)	com.apple.defaults	User Defaults	found no value for key f4:1d:6b:fd:53:91 in CFPrefsSearchListSource<0xab105f180> (Domain: com.apple.wifi.manager, Container: (null))	
+00:07.375.811	Debug	wifid (50)	com.apple.defaults	User Defaults	found no value for key f4:1d:6b:fd:53:91 in CFPrefsSearchListSource<0xab105f180> (Domain: com.apple.wifi.manager, Container: (null))	
+00:07.375.842	Debug	wifid (50)	com.apple.defaults	User Defaults	found no value for key f4:1d:6b:fd:53:91 in CFPrefsSearchListSource<0xab105f180> (Domain: com.apple.wifi.manager, Container: (null))	
+00:07.375.873	Debug	wifid (50)	com.apple.defaults	User Defaults	found no value for key f4:1d:6b:fd:53:91 in CFPrefsSearchListSource<0xab105f180> (Domain: com.apple.wifi.manager, Container: (null))	
+00:07.375.905	Debug	wifid (50)	com.apple.defaults	User Defaults	found no value for key f4:1d:6b:fd:53:91 in CFPrefsSearchListSource<0xab105f180> (Domain: com.apple.wifi.manager, Container: (null))	
+00:07.375.939	Debug	wifid (50)	com.apple.defaults	User Defaults	found no value for key f4:1d:6b:fd:53:91 in CFPrefsSearchListSource<0xab105f180> (Domain: com.apple.wifi.manager, Container: (null))	
+00:07.375.970	Debug	wifid (50)	com.apple.defaults	User Defaults	found no value for key f4:1d:6b:fd:53:91 in CFPrefsSearchListSource<0xab105f180> (Domain: com.apple.wifi.manager, Container: (null))	
+00:07.376.001	Debug	wifid (50)	com.apple.defaults	User Defaults	found no value for key f4:1d:6b:fd:53:91 in CFPrefsSearchListSource<0xab105f180> (Domain: com.apple.wifi.manager, Container: (null))	
+00:07.376.032	Debug	wifid (50)	com.apple.defaults	User Defaults	found no value for key f4:1d:6b:fd:53:91 in CFPrefsSearchListSource<0xab105f180> (Domain: com.apple.wifi.manager, Container: (null))	
+00:07.376.063	Debug	wifid (50)	com.apple.defaults	User Defaults	found no value for key f4:1d:6b:fd:53:91 in CFPrefsSearchListSource<0xab105f180> (Domain: com.apple.wifi.manager, Container: (null))	
+00:07.376.099	Debug	wifid (50)	com.apple.defaults	User Defaults	found no value for key f4:1d:6b:fd:53:90 in CFPrefsSearchListSource<0xab105f180> (Domain: com.apple.wifi.manager, Container: (null))	
+00:07.376.131	Debug	wifid (50)	com.apple.defaults	User Defaults	found no value for key f4:1d:6b:fd:53:90 in CFPrefsSearchListSource<0xab105f180> (Domain: com.apple.wifi.manager, Container: (null))	
+00:07.376.162	Debug	wifid (50)	com.apple.defaults	User Defaults	found no value for key f4:1d:6b:fd:53:90 in CFPrefsSearchListSource<0xab105f180> (Domain: com.apple.wifi.manager, Container: (null))	
+00:07.376.194	Debug	wifid (50)	com.apple.defaults	User Defaults	found no value for key f4:1d:6b:fd:53:90 in CFPrefsSearchListSource<0xab105f180> (Domain: com.apple.wifi.manager, Container: (null))	
+00:07.376.224	Debug	wifid (50)	com.apple.defaults	User Defaults	found no value for key f4:1d:6b:fd:53:90 in CFPrefsSearchListSource<0xab105f180> (Domain: com.apple.wifi.manager, Container: (null))	

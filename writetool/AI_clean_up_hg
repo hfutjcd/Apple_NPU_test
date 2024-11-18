@@ -1,0 +1,1000 @@
+00:31.635.786	Debug	backboardd (68)	com.apple.BackBoard	TouchEvents	Adding hit test result: dd7f108f 57b23 5	
+00:31.635.844	Debug	backboardd (68)	com.apple.BackBoard	TouchEvents	destinations are now {
+    DD38852F: (hitTest); contextID: 0xDD38852F; clientPort: 0x2E07,
+    DD7F108F: (hitTest); contextID: 0xDD7F108F; clientPort: 0x57B23; inheritedSceneHostSettings: <identifier: sceneID:com.apple.mobileslideshow-default; touchBehavior: foreground>,
+    92E23885: (touchStream|filterDetachedTouches); contextID: 0x92E23885; clientPort: 0x2E07,
+    295D6CD2: (hitTest); contextID: 0x295D6CD2; clientPort: 0x2E07
+}	
+00:31.635.913	Debug	backboardd (68)	com.apple.BackBoard	TouchEvents	contacts:100000a37 - [pathIndex: 5; touchIdentifier: 169; touching; locked; destinations: ((hitTest); contextID: 0xDD7F108F; clientPort: 0x57B23; inheritedSceneHostSettings: <identifier: sceneID:com.apple.mobileslideshow-default; touchBehavior: foreground>, (touchStream|filterDetachedTouches); contextID: 0x92E23885; clientPort: 0x2E07)]	
+00:31.635.961	Debug	backboardd (68)	com.apple.BackBoard	TouchEvents	Digitizer token: 0x92E23885; move; gen: 123568; subevents: [
+    path: 5; {484, 1518}; move; touchID: 0xA9; {484, 1518},
+    :: VendorDefined page:FF1C usage:20
+]	
+00:31.636.039	Debug	backboardd (68)	com.apple.BackBoard	SendHIDEvent	#BKSendHIDEvent: Sending event to client connection: IOHIDEventSystemConnection uuid:A6F1A030-4E43-40BA-8832-20C847FA7943 pid:34 process:SpringBoard type:Passive entitlements:0x18 caller:BackBoardServices: <redacted> + 280 attributes:{
+    HighFrequency = 1;
+    bundleID = "com.apple.springboard";
+    pid = 34;
+} state:0x0 events:6666 mask:0x14c08 dropped:0 dropStatus:0 droppedMask:0x0 lastDroppedTime:NONE	
+00:31.636.092	Debug	backboardd (68)	com.apple.BackBoard	TouchEvents	Digitizer token: 0xDD7F108F; move; behavior: foreground; gen: 123568; subevents: [
+    path: 5; {161.33332824707031, 506}; move; touchID: 0xA9; {161.33333333333331, 506},
+    :: VendorDefined page:FF1C usage:20
+]	
+00:31.636.143	Debug	backboardd (68)	com.apple.BackBoard	SendHIDEvent	#BKSendHIDEvent: Sending event to client connection: IOHIDEventSystemConnection uuid:5500C6E7-1569-4DA1-AE39-BE761D585905 pid:1680 process:Photos type:Passive entitlements:0x0 caller:BackBoardServices: <redacted> + 280 attributes:{
+    HighFrequency = 1;
+    bundleID = "com.apple.mobileslideshow";
+    pid = 1680;
+} state:0x0 events:1605 mask:0x800 dropped:0 dropStatus:0 droppedMask:0x0 lastDroppedTime:NONE	
+00:31.636.206	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[4]: _plugInEnabled=1	
+00:31.636.241	Debug	backboardd (68)	com.apple.CoreBrightness.CBDigitizerFilter	lux	Multitouch event - X: 2,672.1035, Y: 8,380.2646, range: 1.0000, minor r: 0.0253, major r: 0.0253, touch: 1, ALS[1] obstruction undetected	
+00:31.636.260	Debug	backboardd (68)	com.apple.CoreBrightness.CBDigitizerFilter	lux	Multitouch event - X: 0.0000, Y: 0.0000, range: 0.0000, minor r: 0.0000, major r: 0.0000, touch: 0, ALS[1] obstruction undetected	
+00:31.636.304	Debug	backboardd (68)	com.apple.CoreBrightness.CBDigitizerFilter	color	Multitouch event - X: 2,672.1035, Y: 8,380.2646, range: 1.0000, minor r: 0.0253, major r: 0.0253, touch: 1, ALS[1] obstruction undetected	
+00:31.636.323	Debug	backboardd (68)	com.apple.CoreBrightness.CBDigitizerFilter	color	Multitouch event - X: 0.0000, Y: 0.0000, range: 0.0000, minor r: 0.0000, major r: 0.0000, touch: 0, ALS[1] obstruction undetected	
+00:31.637.486	Default	SpringBoard (34)	com.apple.UIKit	EventDispatch	Evaluating dispatch of UIEvent: 0x300f15420; type: 0; subtype: 0; backing type: 11; shouldSend: 1; ignoreInteractionEvents: 0, systemGestureStateChange: 0	
+00:31.637.499	Default	Photos (1680)	com.apple.UIKit	EventDispatch	Evaluating dispatch of UIEvent: 0x302085500; type: 0; subtype: 0; backing type: 11; shouldSend: 1; ignoreInteractionEvents: 0, systemGestureStateChange: 0	
+00:31.637.535	Default	Photos (1680)	com.apple.UIKit	EventDispatch	Sending UIEvent type: 0; subtype: 0; to windows: 1	
+00:31.637.557	Default	Photos (1680)	com.apple.UIKit	EventDispatch	Sending UIEvent type: 0; subtype: 0; to window: <UIWindow: 0x10422cc80>; contextId: 0xdd7f108f	
+00:31.637.580	Default	SpringBoard (34)	com.apple.UIKit	EventDispatch	Sending UIEvent type: 0; subtype: 0; to windows: 1	
+00:31.637.608	Default	SpringBoard (34)	com.apple.UIKit	EventDispatch	Sending UIEvent type: 0; subtype: 0; to window: <_UISystemGestureWindow: 0x662261400>; contextId: 0x92e23885	
+00:31.637.681	Debug	SpringBoard (34)	com.apple.UIKit	UISystemGesture	Exclusive touch ignored state:2	
+00:31.637.729	Debug	Photos (1680)	com.apple.defaults	User Defaults	looked up value <private> for key PE_SETTINGS_RETOUCHDEFAULTMODEBRUSHSIZEDEFAULT in CFPrefsPlistSource<0x303785300> (Domain: com.apple.mobileslideshow, User: kCFPreferencesCurrentUser, ByHost: No, Container: (null), Contents Need Refresh: No) via CFPrefsSearchListSource<0x30355b680> (Domain: com.apple.mobileslideshow, Container: (null))	
+00:31.638.450	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	SyncDBV Telemetry | Transaction.ID=14,197 Latency=36.0000ms	
+00:31.638.548	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	now=753,594,886.5770 delta=0.1513 fade->period=2.0000 portion=0.0757 fade->Fstart=0.0072 fade->Ftarget=0.0065 Factor=0.0071
+	
+00:31.638.614	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	Display fade callback: updateBrightness = 0, updateVirtual = 0, updateEDRHeadroom = 0, forceSyncDBVUpdate = 1	
+00:31.638.961	Debug	audiomxd (105)	com.apple.coreaudio	aqme	AQMEIO_HAL.cpp:2,726 Audio device stopped by mix engine, after waiting on state guard	
+00:31.639.002	Default	audiomxd (105)	CoreAudio	Default	HALS_IOContext_Legacy_Impl.cpp:486  HALS_IOContext_Legacy_Impl::Server_Internal_StopIOProcID: 133 Flicker (VAD [vhaw] AggDev 3):	
+00:31.639.043	Default	audiomxd (105)	CoreAudio	Default	HALS_IOContext_Legacy_Impl.cpp:492  HALS_IOContext_Legacy_Impl::Server_Internal_StopIOProcID: stopping 0x21 state: Prewarm: 0 Play: 1 State: Running IOProc 0x21: yes	
+00:31.639.045	Debug	audiomxd (105)	com.apple.coreaudio	aurios	RemoteIOServer.cpp:2,073 <-AUIOServer_StopIO 0x696cf	
+00:31.639.128	Default	audiomxd (105)	CoreAudio	Default	HALS_IOEngine2.cpp:2,239  HALS_IOEngine2::StopIO: stopping IO on device <private>	
+00:31.639.181	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	Pivoting - RIGHT restriction: L_device 205.5501 -> 118.8318, ScalerMax = 0.5060, Fmax = 0.5200	
+00:31.639.193	Default	Unknown (0)	AppleCS42L79Audio	Default	AppleCS42L79Audio::notifySecondaryActiveChangeGated(Flicker) enable:0 direction:1 	
+00:31.639.214	Default	Unknown (0)	AppleCS42L79Audio	Default	disableFlicker Ch:7	
+00:31.639.216	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	Superbright EDR restrictions [would be]: CLTM 1,512.3809, UPO 2,175.0000, bottom [lower] restriction 1.0000, nits cap hdr: 2,175.0000, after BDM: 1,600.0000	
+00:31.639.241	Debug	DTServiceHub (360)	DVTInstrumentsFoundation	Default	Data Size: 101,572, Rows Sent: 1,234, Stack depth: 4,697	
+00:31.639.322	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	SetLogicalBrightnessInternal caps: cltm 1,512.3809,  weakcap: 2,175.0000, gl.scalar: 1.0000, dyn.sl: 0.5200, edrcap: 1,600.0000	
+00:31.639.415	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	Caps after global scaling: nitsCap=551.2000 nitsCapEDR=1,600.0000	
+00:31.639.418	Default	Unknown (0)	AppleCS42L79Audio	Default	Read  Adr:450004 Val:5004d4c	
+00:31.639.565	Default	Unknown (0)	AppleCS42L79Audio	Default	Write Adr:450004 Val:4d4c	
+00:31.639.708	Default	Unknown (0)	AppleCS42L79Audio	Default	Write Adr:10000 Val:f203	
+00:31.639.710	Default	Unknown (0)	AppleCS42L79Audio	Default	disableFlicker Ch:8	
+00:31.639.857	Default	Unknown (0)	AppleCS42L79Audio	Default	Read  Adr:450008 Val:6	
+00:31.640.001	Default	Unknown (0)	AppleCS42L79Audio	Default	Write Adr:450008 Val:0	
+00:31.640.139	Default	Unknown (0)	AppleCS42L79Audio	Default	Write Adr:10000 Val:f003	
+00:31.640.156	Default	backboardd (68)	com.apple.coreanimation	Brightness	Display 1 setting contrast enhancer to 0.0071
+	
+00:31.640.296	Default	Unknown (0)	AppleCS42L79Audio	Default	Read  Adr:470000 Val:406	
+00:31.640.434	Default	Unknown (0)	AppleCS42L79Audio	Default	Write Adr:470000 Val:404	
+00:31.640.436	Default	Unknown (0)	AppleCS42L79Audio	Default	Disable Route ASP:2 Tx:1 Ch:2 Start:7	
+00:31.640.593	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	SLBI other current=1,600.0000, calculated=1,600.0000	
+00:31.640.594	Default	Unknown (0)	AppleCS42L79Audio	Default	Read  Adr:470024 Val:180	
+00:31.640.735	Default	Unknown (0)	AppleCS42L79Audio	Default	Write Adr:470024 Val:0	
+00:31.640.741	Default	Unknown (0)	AppleCS42L79Audio	Default	Set Internal MClk client:4  mask:20	
+00:31.640.881	Default	Unknown (0)	AppleCS42L79Audio	Default	Write Adr:30000 Val:0	
+00:31.641.504	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	Factor=1.0000 Lcurrent=205.5501 maxRestriction=1,512.3809 minRestriction=1.0000 maxPanel=1,060.0000 minPanel=1.0000 L_device=118.8318	
+00:31.641.603	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	S=0.5414	
+00:31.641.627	Info	backboardd (68)	com.apple.CoreBrightness.Display	default	SyncDBV Composition | Nits.Cap=551.2000 MaxRestriction.Cap=1,512.3809 WeakRestriction.Cap=2,175.0000 PAAB.Scalar=1.0000 RightFactor.Current=0.5200 RightFactor.Overriden=NO BrightDotMitigation.Enabled=YES BrightDotMitigation.Cap=1,600.0000 EDR.Enabled=YES EDR.IsEngaged=YES EDR.Cap=1,600.0000 EDR.FadePeriod=0.0000 Panel.Max=1,060.0000 Aurora.IsBoostingBrightness=NO PreStrobe.Changed=NO PreStrobe.IsActive=NO PreStrobe.Cap=0.0000 PreStrobe.CachedNits=0.0000	
+00:31.641.688	Debug	backboardd (68)	com.apple.Multitouch	Plugin	Processing SA Frame	
+00:31.641.797	Debug	backboardd (68)	com.apple.SensingAlgs	General	HysteresisFilterStep:  P5 -> F2 stage=4 slid=1 moved=1 instability=0.0000(x:0.0000, y:0.0000) input=(<private>,<private>) old=(<private>,<private>) hide=(<private>,<private>) new=(<private>,<private>)
+	
+00:31.641.829	Default	Unknown (0)	AppleCS42L79Audio	Default	MClk Enable:0 client:4 mask:20	
+00:31.641.844	Default	Unknown (0)	AppleARMIISAudio	Default	+ Flicker::stopIOEngineGated()	
+00:31.641.849	Default	Unknown (0)	AppleARMIISAudio	Default	+ Flicker stopTransport	
+00:31.641.872	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	Handle notification for key = DisplayBrightness and property = <private>	
+00:31.641.895	Debug	backboardd (68)	com.apple.SensingAlgs	General	InterpolationStep:  2nd-order Polynomial Interpolation Occurred(quantum=52.9167) at t=2,885,696,421: output=(<private>,<private>)
+	
+00:31.641.948	Debug	backboardd (68)	com.apple.SensingAlgs	General	InterpolationStep:  P5 -> F2 stage=4 path=(<private>,<private>) interp=(<private>,<private>)
+	
+00:31.642.008	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayContaineriOS	BuiltIn	Notification block key=DisplayBrightness, value=<private>
+	
+00:31.642.009	Debug	backboardd (68)	com.apple.SensingAlgs	General	EventGenerationStep:  P5 -> F2 stage=4 range=1 touch=1 mask=0x4 pos_um=(<private>,<private>) x=<private> y=<private> majorR=0.0253 minorR=0.0253 density=1.2202 quality=0.6186 GC=123,569 option_mask=0x0 phase=0x0
+	
+00:31.642.062	Debug	backboardd (68)	com.apple.SensingAlgs	General	EventGenerationStep: H1 fingers=1 -> range=1 touch=1 mask=0x4 x=<private> y=<private> GC=123,569 option_mask=0x0
+	
+00:31.642.106	Debug	backboardd (68)	com.apple.SensingAlgs	General	EventGenerationStep:  P5 -> F2 stage=4 range=1 touch=1 mask=0x4 pos_um=(<private>,<private>) x=<private> y=<private> majorR=0.0253 minorR=0.0253 density=1.2202 quality=0.6186 GC=123,569 option_mask=0x0 phase=0x0
+	
+00:31.642.179	Debug	backboardd (68)	com.apple.SensingAlgs	General	EventGenerationStep: H1 fingers=1 -> range=1 touch=1 mask=0x4 x=<private> y=<private> GC=123,569 option_mask=0x0
+	
+00:31.642.239	Debug	appleh16camerad (129)	com.apple.coreaudio	aurioc	AURemoteIO.cpp:2,341 AURIOCallbackReceiver_TerminateOwnIOThread	
+00:31.642.262	Debug	backboardd (68)	com.apple.SensingAlgs	General	Generating Interpolated Event Info: expectNext=YES information=NO reason=0 deadline=1,168,826,582,566 nextTimestamp=1,168,826,342,566 now=1,168,826,042,566	
+00:31.642.301	Debug	appleh16camerad (129)	com.apple.coreaudio	aurioc	AURemoteIO.cpp:2,053 AURemoteIO@0x9c22d4040: IOThread exiting	
+00:31.642.325	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	Handle notification for key = FrameSynchronizedBrightnessTransaction and property = <private>	
+00:31.642.389	Debug	backboardd (68)	com.apple.SensingAlgs	General	Generating Event Info: expectNext=YES information=NO reason=0 deadline=1,168,826,582,566 nextTimestamp=1,168,826,342,566 now=1,168,826,142,574	
+00:31.642.418	Info	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	HDR CAPS | RTPLC: [None] 1,600.0000, currentNitCap: 1,600.0000, dynSliderCap: 551.2000, Nits: 118.8318	
+00:31.642.501	Debug	backboardd (68)	com.apple.Multitouch	Plugin	Dispatching 2 events [takeoff]	
+00:31.642.524	Info	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	CBEDR statusInfo: <private>	
+00:31.642.609	Debug	backboardd (68)	com.apple.Multitouch	Plugin	Dispatching 2 events [land]	
+00:31.642.617	Debug	backboardd (68)	com.apple.CoreBrightness.CBIndicatorBrightnessModule	default	updateRamp called, isRampRunning: NO, silState: 4, currentSDR: 118.8318, currentMIB: 115.9970, targetMIB: 1.0000, MIB: 1.0000	
+00:31.642.686	Debug	appleh16camerad (129)	com.apple.coreaudio	aurioc	AURemoteIO.cpp:1,720 <-AURemoteIO::Stop	
+00:31.642.725	Debug	backboardd (68)	com.apple.CoreBrightness.CBIndicatorBrightnessModule	default	updateRamp finished, isRampRunning: NO, silState: 4, currentSDR: 118.8318, currentMIB: 115.9970, targetMIB: 1.0000, MIB: 1.0000	
+00:31.642.778	Default	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	HDR | _edrState: 2, forceRamp: NO	
+00:31.642.819	Debug	backboardd (68)	com.apple.Multitouch	Plugin	Dispatching event: +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Timestamp:           1168826042566
+Timestamp type:      Absolute
+Total Latency:       9630 us
+SenderID:            0x0000000000000000
+BuiltIn:             0
+ValueType:           Absolute
+EventType:           Digitizer
+Flags:               0x30023
+DisplayIntegrated:   0
+TransducerType:      Hand
+TransducerIndex:     0
+Identity:            1
+EventMask:           4
+Events:              Position 
+ButtonMask:          0
+Range:               1
+Touch:               1
+Pressure:            0.000000
+AuxiliaryPressure:   0.000000
+Twist:               0.000000
+GenerationCount:     123569
+WillUpdateMask:      00000000
+DidUpdateMask:       00000000
+X:                   0.000000
+Y:                   0.000000
+Z:                   0.000000
+TiltX:               0.000000
+TiltY:               0.000000
+ChildEvents:        
+    -----------------------------------------------------------------------
+    ValueType:           Absolute
+    EventType:     	
+00:31.642.823	Default	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	Pushing sdrBrightness: 118.8318, capped _appliedHeadroom: 8.0000, brightnessLimit: 1,235.8503, potentialHeadroom: 8.0000, Ambient: 157.1040 to CA, HDRBrightness: 950.6542, [None] rtplcCap: 1,600.0000	
+00:31.642.852	Default	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	SyncDBV Transaction | ID=14,199 SDR.Nits=118.8318 HDR.Nits=950.6542 HDR.State=Engaged BrightnessLimit=1,235.8503 IndicatorBrightness.Nits=0.0000 IndicatorBrightness.Cap=1,235.8503 Headroom.Current=8.0000 Headroom.Maximum=8.0000 AppliedCompensations=1.3000 Aurora.Factor=1.0000 Aurora.RampInProgress=NO Lux=157.1040 RTPLC.State=None RTPLC.Cap=1,600.0000 RTPLC.CapApplied=NO PeakAPCE.Cap=0.0600 Nits.Cap=1,600.0000 DynamicSlider.Cap=551.2000 Twilight.Strength=0.0000 Ammolite.Strength=0.0000 ContrastEnhancer.Strength=0.0071	
+00:31.642.893	Default	audiomxd (105)	com.apple.coreaudio	va_hplayr	VirtualAudioQueue.h:169 :769:: Client request to stop IO proc ID 0x4acaf5e00 on VAD: '[ type: vhaw; id: 151; addr: 0x4acc41900; context id: 0; hidden: 0; VA strms: { i/156/0x4ac0538e0,  }; agg dev: [ id: 130; addr: 0x104e0c350; uid: "VAD [vhaw] AggDev 3"; virt strms: { i/0x4ac90c300,  	
+00:31.642.970	Debug	backboardd (68)	com.apple.Multitouch	Plugin	getProperty displayUUID = 	
+00:31.642.996	Default	backboardd (68)	com.apple.coreanimation	Brightness	Display 1 commitBrightness sdr: 118.8318, headroom: 8.0000, ambient lux: 157.1040, filtered ambient: -1.0000, limit: 1,235.8503, low ambient strength: 0.0000, high ambient strength: 0.0000, brightness ctl disabled 18,446,744,073,709,551,615
+	
+00:31.643.084	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayContaineriOS	BuiltIn	Notification block key=BrightnessTransaction, value=<private>
+	
+00:31.643.144	Debug	backboardd (68)	com.apple.BackBoard	TouchEvents	contacts now [pathIndex: 5; touchIdentifier: 169; touching; locked; destinations: ((hitTest); contextID: 0xDD7F108F; clientPort: 0x57B23; inheritedSceneHostSettings: <identifier: sceneID:com.apple.mobileslideshow-default; touchBehavior: foreground>, (touchStream|filterDetachedTouches); contextID: 0x92E23885; clientPort: 0x2E07)]	
+00:31.643.148	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayContaineriOS	BuiltIn	Notification block key=CBCACommit, value=<private>
+	
+00:31.643.202	Debug	backboardd (68)	com.apple.BackBoard	TouchDeliveryPolicy	host dd7f108f -> child 0	
+00:31.643.239	Debug	backboardd (68)	com.apple.BackBoard	TouchDeliveryPolicy	host 295d6cd2 -> child dd7f108f	
+00:31.643.284	Debug	backboardd (68)	com.apple.BackBoard	TouchDeliveryPolicy	295d6cd2 -> dd7f108f: 0	
+00:31.643.306	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayContaineriOS	BuiltIn	Notification block key=FrameSynchronizedBrightnessTransaction, value=<private>
+	
+00:31.643.352	Debug	backboardd (68)	com.apple.BackBoard	TouchDeliveryPolicy	policies: combination: []	
+00:31.643.400	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=DisplayBrightness value=<private>	
+00:31.643.416	Debug	backboardd (68)	com.apple.BackBoard	TouchDeliveryPolicy	TDPS allow send to (hitTest); contextID: 0xDD7F108F; clientPort: 0x57B23; inheritedSceneHostSettings: <identifier: sceneID:com.apple.mobileslideshow-default; touchBehavior: foreground>	
+00:31.643.477	Debug	backboardd (68)	com.apple.BackBoard	TouchEvents	Adding hit test result: dd7f108f 57b23 5	
+00:31.643.506	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=DisplayBrightness property=<private>	
+00:31.643.565	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	passed for client 58881740544	
+00:31.643.587	Debug	backboardd (68)	com.apple.BackBoard	TouchEvents	destinations are now {
+    DD38852F: (hitTest); contextID: 0xDD38852F; clientPort: 0x2E07,
+    DD7F108F: (hitTest); contextID: 0xDD7F108F; clientPort: 0x57B23; inheritedSceneHostSettings: <identifier: sceneID:com.apple.mobileslideshow-default; touchBehavior: foreground>,
+    92E23885: (touchStream|filterDetachedTouches); contextID: 0x92E23885; clientPort: 0x2E07,
+    295D6CD2: (hitTest); contextID: 0x295D6CD2; clientPort: 0x2E07
+}	
+00:31.643.610	Default	audiomxd (105)	com.apple.coreaudio	va_aggdev	VirtualAudioQueue.h:169 :492:: IOProc (AggregateDevice 130, IO type NonNullIOProc) running state is now not running (0).	
+00:31.643.677	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=<private> value=<private>	
+00:31.643.695	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=<private> property=<private>	
+00:31.643.715	Debug	backboardd (68)	com.apple.BackBoard	TouchEvents	contacts:100000a37 - [pathIndex: 5; touchIdentifier: 169; touching; locked; destinations: ((hitTest); contextID: 0xDD7F108F; clientPort: 0x57B23; inheritedSceneHostSettings: <identifier: sceneID:com.apple.mobileslideshow-default; touchBehavior: foreground>, (touchStream|filterDetachedTouches); contextID: 0x92E23885; clientPort: 0x2E07)]	
+00:31.643.781	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=BrightnessTransaction value=<private>	
+00:31.643.817	Debug	backboardd (68)	com.apple.BackBoard	TouchEvents	Digitizer token: 0x92E23885; move; gen: 123569; subevents: [
+    path: 5; {484, 1526}; move; touchID: 0xA9; {484, 1526},
+    :: VendorDefined page:FF1C usage:20
+]	
+00:31.643.850	Debug	PerfPowerServices (1452)	com.apple.CoreBrightness	default	key=<private> property=<private> queue=0x97ede5100 clientBlock=0x97e365e90	
+00:31.643.870	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=BrightnessTransaction property=<private>	
+00:31.643.924	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=<private> value=<private>	
+00:31.643.946	Debug	backboardd (68)	com.apple.BackBoard	SendHIDEvent	#BKSendHIDEvent: Sending event to client connection: IOHIDEventSystemConnection uuid:A6F1A030-4E43-40BA-8832-20C847FA7943 pid:34 process:SpringBoard type:Passive entitlements:0x18 caller:BackBoardServices: <redacted> + 280 attributes:{
+    HighFrequency = 1;
+    bundleID = "com.apple.springboard";
+    pid = 34;
+} state:0x0 events:6667 mask:0x14c08 dropped:0 dropStatus:0 droppedMask:0x0 lastDroppedTime:NONE	
+00:31.644.026	Debug	backboardd (68)	com.apple.BackBoard	TouchEvents	Digitizer token: 0xDD7F108F; move; behavior: foreground; gen: 123569; subevents: [
+    path: 5; {161.33332824707031, 508.66665649414062}; move; touchID: 0xA9; {161.33333333333331, 508.66666666666663},
+    :: VendorDefined page:FF1C usage:20
+]	
+00:31.644.038	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=<private> property=<private>	
+00:31.644.111	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=CBCACommit value=<private>	
+00:31.644.136	Debug	backboardd (68)	com.apple.BackBoard	SendHIDEvent	#BKSendHIDEvent: Sending event to client connection: IOHIDEventSystemConnection uuid:5500C6E7-1569-4DA1-AE39-BE761D585905 pid:1680 process:Photos type:Passive entitlements:0x0 caller:BackBoardServices: <redacted> + 280 attributes:{
+    HighFrequency = 1;
+    bundleID = "com.apple.mobileslideshow";
+    pid = 1680;
+} state:0x0 events:1606 mask:0x800 dropped:0 dropStatus:0 droppedMask:0x0 lastDroppedTime:NONE	
+00:31.644.164	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=CBCACommit property=<private>	
+00:31.644.192	Debug	appleh16camerad (129)	com.apple.coreaudio	aurioc	AURemoteIO.cpp:1,255 ->AURemoteIO(0x9c22d4040)::Cleanup	
+00:31.644.220	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=<private> value=<private>	
+00:31.644.275	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=<private> property=<private>	
+00:31.644.327	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=FrameSynchronizedBrightnessTransaction value=<private>	
+00:31.644.357	Debug	backboardd (68)	com.apple.Multitouch	Plugin	Dispatching event: +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Timestamp:           1168826142574
+Timestamp type:      Absolute
+Total Latency:       7023 us
+SenderID:            0x0000000000000000
+BuiltIn:             0
+ValueType:           Absolute
+EventType:           Digitizer
+Flags:               0x30003
+DisplayIntegrated:   0
+TransducerType:      Hand
+TransducerIndex:     0
+Identity:            1
+EventMask:           4
+Events:              Position 
+ButtonMask:          0
+Range:               1
+Touch:               1
+Pressure:            0.000000
+AuxiliaryPressure:   0.000000
+Twist:               0.000000
+GenerationCount:     123569
+WillUpdateMask:      00000000
+DidUpdateMask:       00000000
+X:                   0.000000
+Y:                   0.000000
+Z:                   0.000000
+TiltX:               0.000000
+TiltY:               0.000000
+ChildEvents:        
+    -----------------------------------------------------------------------
+    ValueType:           Absolute
+    EventType:     	
+00:31.644.376	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=FrameSynchronizedBrightnessTransaction property=<private>	
+00:31.644.404	Default	audiomxd (105)	com.apple.coreaudio	va_aggdev	VirtualAudioQueue.h:169 :596:: Stopping IO type 0 on AggregateDevice 130.	
+00:31.644.459	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=<private> value=<private>	
+00:31.644.514	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=<private> property=<private>	
+00:31.644.515	Default	Unknown (0)	AppleARMIISAudio	Default	- Flicker stopTransport ret=success(0)	
+00:31.644.524	Debug	backboardd (68)	com.apple.BackBoard	TouchEvents	contacts now [pathIndex: 5; touchIdentifier: 169; touching; locked; destinations: ((hitTest); contextID: 0xDD7F108F; clientPort: 0x57B23; inheritedSceneHostSettings: <identifier: sceneID:com.apple.mobileslideshow-default; touchBehavior: foreground>, (touchStream|filterDetachedTouches); contextID: 0x92E23885; clientPort: 0x2E07)]	
+00:31.644.531	Default	Unknown (0)	AppleARMIISAudio	Default	- Flicker::stopIOEngineGated() ret=success(0)	
+00:31.644.536	Default	Unknown (0)	AppleEmbeddedAudio	Default	Flicker: off
+	
+00:31.644.568	Default	audiomxd (105)	CoreAudio	Default	HALS_IOA2Device.cpp:2,266  HALS_IOA2Device::IOAudio2DeviceNotificationPortMessageHandler: <private>|86 +++++++++------>	
+00:31.644.571	Debug	backboardd (68)	com.apple.BackBoard	TouchDeliveryPolicy	host dd7f108f -> child 0	
+00:31.644.617	Debug	backboardd (68)	com.apple.BackBoard	TouchDeliveryPolicy	host 295d6cd2 -> child dd7f108f	
+00:31.644.633	Default	audiomxd (105)	CoreAudio	Default	HALS_IOA2Device.cpp:2,343  HALS_IOA2Device::IOAudio2DeviceNotificationPortMessageHandler: <private>|86 <------+++++++++	
+00:31.644.675	Default	audiomxd (105)	CoreAudio	Default	HALS_IOContext_Legacy_Impl.cpp:2,013  IO Stopped Context 133 after 9,216 frames.	
+00:31.644.678	Debug	backboardd (68)	com.apple.BackBoard	TouchDeliveryPolicy	295d6cd2 -> dd7f108f: 0	
+00:31.644.722	Debug	backboardd (68)	com.apple.BackBoard	TouchDeliveryPolicy	policies: combination: []	
+00:31.644.755	Debug	backboardd (68)	com.apple.BackBoard	TouchDeliveryPolicy	TDPS allow send to (hitTest); contextID: 0xDD7F108F; clientPort: 0x57B23; inheritedSceneHostSettings: <identifier: sceneID:com.apple.mobileslideshow-default; touchBehavior: foreground>	
+00:31.644.772	Default	audiomxd (105)	CoreAudio	Default	HALS_IOContext_Legacy_Impl.cpp:2,037  HALS_IOContext_Legacy_Impl::IOWorkLoopDeinit: 133 Flicker (VAD [vhaw] AggDev 3): stopping with error 0	
+00:31.644.778	Default	audiomxd (105)	CoreAudio	Default	HALB_PowerAssertion.cpp:157  HALB_PowerAssertion::Release: releasing power assertion ID 32,775 of type 'PreventUserIdleSystemSleep' with name: 'com.apple.audio.VAD [vhaw] AggDev 3.context.preventuseridlesleep' taken at <private> for 0.2279 seconds	
+00:31.644.830	Debug	backboardd (68)	com.apple.BackBoard	TouchEvents	Adding hit test result: dd7f108f 57b23 5	
+00:31.644.884	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[4]: _plugInEnabled=1	
+00:31.644.912	Debug	backboardd (68)	com.apple.Multitouch	Plugin	getProperty displayUUID = 	
+00:31.644.915	Debug	backboardd (68)	com.apple.BackBoard	TouchEvents	destinations are now {
+    DD38852F: (hitTest); contextID: 0xDD38852F; clientPort: 0x2E07,
+    DD7F108F: (hitTest); contextID: 0xDD7F108F; clientPort: 0x57B23; inheritedSceneHostSettings: <identifier: sceneID:com.apple.mobileslideshow-default; touchBehavior: foreground>,
+    92E23885: (touchStream|filterDetachedTouches); contextID: 0x92E23885; clientPort: 0x2E07,
+    295D6CD2: (hitTest); contextID: 0x295D6CD2; clientPort: 0x2E07
+}	
+00:31.645.010	Debug	backboardd (68)	com.apple.CoreBrightness.CBDigitizerFilter	lux	Multitouch event - X: 2,672.1035, Y: 8,422.7803, range: 1.0000, minor r: 0.0253, major r: 0.0253, touch: 1, ALS[1] obstruction undetected	
+00:31.645.033	Debug	backboardd (68)	com.apple.BackBoard	TouchEvents	contacts:100000a37 - [pathIndex: 5; touchIdentifier: 169; touching; locked; destinations: ((hitTest); contextID: 0xDD7F108F; clientPort: 0x57B23; inheritedSceneHostSettings: <identifier: sceneID:com.apple.mobileslideshow-default; touchBehavior: foreground>, (touchStream|filterDetachedTouches); contextID: 0x92E23885; clientPort: 0x2E07)]	
+00:31.645.052	Debug	backboardd (68)	com.apple.CoreBrightness.CBDigitizerFilter	lux	Multitouch event - X: 0.0000, Y: 0.0000, range: 0.0000, minor r: 0.0000, major r: 0.0000, touch: 0, ALS[1] obstruction undetected	
+00:31.645.119	Debug	backboardd (68)	com.apple.BackBoard	TouchEvents	Digitizer token: 0x92E23885; move; gen: 123569; subevents: [
+    path: 5; {484, 1535}; move; touchID: 0xA9; {484, 1535},
+    :: VendorDefined page:FF1C usage:20
+]	
+00:31.645.260	Debug	backboardd (68)	com.apple.BackBoard	SendHIDEvent	#BKSendHIDEvent: Sending event to client connection: IOHIDEventSystemConnection uuid:A6F1A030-4E43-40BA-8832-20C847FA7943 pid:34 process:SpringBoard type:Passive entitlements:0x18 caller:BackBoardServices: <redacted> + 280 attributes:{
+    HighFrequency = 1;
+    bundleID = "com.apple.springboard";
+    pid = 34;
+} state:0x0 events:6668 mask:0x14c08 dropped:0 dropStatus:0 droppedMask:0x0 lastDroppedTime:NONE	
+00:31.645.362	Debug	backboardd (68)	com.apple.BackBoard	TouchEvents	Digitizer token: 0xDD7F108F; move; behavior: foreground; gen: 123569; subevents: [
+    path: 5; {161.33332824707031, 511.66665649414062}; move; touchID: 0xA9; {161.33333333333331, 511.66666666666663},
+    :: VendorDefined page:FF1C usage:20
+]	
+00:31.645.467	Debug	backboardd (68)	com.apple.BackBoard	SendHIDEvent	#BKSendHIDEvent: Sending event to client connection: IOHIDEventSystemConnection uuid:5500C6E7-1569-4DA1-AE39-BE761D585905 pid:1680 process:Photos type:Passive entitlements:0x0 caller:BackBoardServices: <redacted> + 280 attributes:{
+    HighFrequency = 1;
+    bundleID = "com.apple.mobileslideshow";
+    pid = 1680;
+} state:0x0 events:1607 mask:0x800 dropped:0 dropStatus:0 droppedMask:0x0 lastDroppedTime:NONE	
+00:31.645.489	Default	appleh16camerad (129)	com.apple.coreaudio	aurioc	AURemoteIO.cpp:1,697 Stopping AURemoteIO(0x9c22d4040)	
+00:31.645.516	Debug	appleh16camerad (129)	com.apple.coreaudio	aurioc	AURemoteIO.cpp:1,720 <-AURemoteIO::Stop	
+00:31.645.586	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[4]: _plugInEnabled=1	
+00:31.645.617	Debug	backboardd (68)	com.apple.CoreBrightness.CBDigitizerFilter	lux	Multitouch event - X: 2,672.1035, Y: 8,470.3672, range: 1.0000, minor r: 0.0253, major r: 0.0253, touch: 1, ALS[1] obstruction undetected	
+00:31.645.673	Debug	backboardd (68)	com.apple.CoreBrightness.CBDigitizerFilter	lux	Multitouch event - X: 0.0000, Y: 0.0000, range: 0.0000, minor r: 0.0000, major r: 0.0000, touch: 0, ALS[1] obstruction undetected	
+00:31.645.897	Debug	audiomxd (105)	com.apple.coreaudio	aurios	RemoteIOServer.cpp:1,924 AUIOServer_Cleanup	
+00:31.645.898	Debug	backboardd (68)	com.apple.CoreBrightness.CBDigitizerFilter	color	Multitouch event - X: 2,672.1035, Y: 8,422.7803, range: 1.0000, minor r: 0.0253, major r: 0.0253, touch: 1, ALS[1] obstruction undetected	
+00:31.645.933	Debug	backboardd (68)	com.apple.CoreBrightness.CBDigitizerFilter	color	Multitouch event - X: 0.0000, Y: 0.0000, range: 0.0000, minor r: 0.0000, major r: 0.0000, touch: 0, ALS[1] obstruction undetected	
+00:31.645.974	Debug	backboardd (68)	com.apple.CoreBrightness.CBDigitizerFilter	color	Multitouch event - X: 2,672.1035, Y: 8,470.3672, range: 1.0000, minor r: 0.0253, major r: 0.0253, touch: 1, ALS[1] obstruction undetected	
+00:31.645.988	Debug	appleh16camerad (129)	com.apple.coreaudio	aurioc	AURemoteIO.cpp:1,263 <-AURemoteIO::Cleanup	
+00:31.645.991	Debug	backboardd (68)	com.apple.CoreBrightness.CBDigitizerFilter	color	Multitouch event - X: 0.0000, Y: 0.0000, range: 0.0000, minor r: 0.0000, major r: 0.0000, touch: 0, ALS[1] obstruction undetected	
+00:31.645.994	Debug	audiomxd (105)	com.apple.coreaudio	aqme	AQMEIO_HAL.cpp:3,469 aqmeio@0x4af3b4f00 IsRunning 0	
+00:31.646.074	Debug	appleh16camerad (129)	com.apple.coreaudio	aurioc	AURemoteIO.cpp:453 ->AURemoteIO@0x9c22d4040 destructor	
+00:31.646.133	Default	appleh16camerad (129)	com.apple.coreaudio	aurioc	AURemoteIO.cpp:1,697 Stopping AURemoteIO(0x9c22d4040)	
+00:31.646.184	Debug	appleh16camerad (129)	com.apple.coreaudio	aurioc	AURemoteIO.cpp:1,720 <-AURemoteIO::Stop	
+00:31.646.354	Debug	audiomxd (105)	com.apple.coreaudio	aurios	RemoteIOServer.cpp:1,851 AUIOServer_DisposeInstance	
+00:31.646.528	Debug	audiomxd (105)	com.apple.coreaudio	aqme	AQMixEngine.cpp:968 ->AQMEDevice(0x4ac442200)::RemoveIOClient <RemoteIOClient@0x4ad474700(@0x4ad474780); input; CMSession(appleh16camerad[129], 0xffffffff)>	
+00:31.646.537	Default	audiomxd (105)	com.apple.coreaudio	va_vadevc	VirtualAudio_IONotificationManager.cpp:184 UpdateAndNotify() - need to notify I/O state = 1 new I/O running state = 0 previous I/O running state = 1	
+00:31.646.618	Debug	audiomxd (105)	com.apple.coreaudio	aqme	MEInputManager.cpp:40 MEInputManager(0x4aca9dd80)::RemoveInputClient 0x4ad474780	
+00:31.646.693	Debug	audiomxd (105)	com.apple.coreaudio	aqme	MEInputManager.cpp:60 MEInputManager::RemoveInputClient 0x4ad474780, disposed	
+00:31.646.805	Debug	appleh16camerad (129)	com.apple.coreaudio	aurioc	AURemoteIO.cpp:485 <-AURemoteIO@0x9c22d4040 destructor	
+00:31.646.956	Default	audiomxd (105)	com.apple.coreaudio	va_vadevc	VirtualAudio_IONotificationManager.cpp:192 Sending notification "com.apple.coreaudio.IORunning" of I/O running state 0 forced notification = 0	
+00:31.647.055	Debug	appleh16camerad (129)	com.apple.isp	general	H16ISPFlickerDetectorStopDataCollection - Success
+	
+00:31.647.098	Debug	appleh16camerad (129)	com.apple.isp	general	FlickerDetector: Released resource access
+
+	
+00:31.647.114	Debug	appleh16camerad (129)	com.apple.isp	general	FlickerDetector: FlickerResourceArbiterClientDelegate cleanup at shutting down
+
+	
+00:31.647.127	Default	appleh16camerad (129)	com.apple.isp	general	H16ISPFlickerDetectorDispose - Success
+	
+00:31.647.141	Default	appleh16camerad (129)	com.apple.isp	daemon	Removing client: pid <private>
+	
+00:31.647.153	Default	appleh16camerad (129)	com.apple.isp	daemon	Total number of connections: 0
+	
+00:31.647.369	Default	audiomxd (105)	com.apple.coreaudio	AMCP	186,131 HALS_IOEngine2.cpp:2,635 HALS_IOEngine2::_StopIO(89) called on Context 133  current state: Prewarm: 0 Play: 1 State: Running	
+00:31.647.436	Debug	audiomxd (105)	com.apple.coreaudio	AMCP	186,131 HALS_IOContext_Legacy_Impl.cpp:2,046 Completed HALS_IOContext_Legacy_Impl::IOWorkLoopDeinit	
+00:31.647.583	Default	powerexperienced (125)	com.apple.powerexperienced	signalMonitor	Audio playback stopped. Dropping a resource hint	
+00:31.647.642	Default	powerexperienced (125)	com.apple.PowerExperienceFramework	ResourceConnection	ResourceConnection:updateResourceHint <private> with state 0	
+00:31.647.981	Default	powerexperienced (125)	com.apple.powerexperienced	resourcemanager	updating resource state for <private>:AudioPlayback from 1 to 0	
+00:31.648.016	Info	powerexperienced (125)	com.apple.powerexperienced	InUseChargingMode	evaluatePowerMode resources <private>	
+00:31.648.067	Default	powerexperienced (125)	com.apple.powerexperienced	RestrictedPerfMode	evaluatePowerMode: <private>: 0 display 1, carPlaySession 0, nFCSession 0, audioSession 0, sleepInProgress 0, wakeInProgress 0, onenessSession 0, siriAudio 0, pluggedIn 0 (allowOnCharger: 0)	
+00:31.648.165	Debug	powerexperienced (125)	com.apple.defaults	User Defaults	looked up value <private> for key resources in CFPrefsPlistSource<0xdbc044d80> (Domain: com.apple.powerexperienced.resourcemanager, User: kCFPreferencesCurrentUser, ByHost: No, Container: (null), Contents Need Refresh: No) via CFPrefsSearchListSource<0xdbc044b80> (Domain: com.apple.powerexperienced.resourcemanager, Container: (null))	
+00:31.648.199	Debug	powerexperienced (125)	com.apple.powerexperienced	resourcemanager	savedResourcesMutable <private>	
+00:31.648.456	Debug	powerexperienced (125)	com.apple.defaults	User Defaults	setting <private> in CFPrefsPlistSource<0xdbc044d80> (Domain: com.apple.powerexperienced.resourcemanager, User: kCFPreferencesCurrentUser, ByHost: No, Container: (null), Contents Need Refresh: No)	
+00:31.648.845	Debug	cfprefsd (107)	com.apple.defaults	cfprefsd	Process 125 (powerexperienced) sent a request related to { com.apple.powerexperienced.resourcemanager, user: root, kCFPreferencesAnyHost, /var/root/Library/Preferences/com.apple.powerexperienced.resourcemanager.plist, managed: 0 } (0xd3c1cf0c0)	
+00:31.648.928	Debug	cfprefsd (107)	com.apple.defaults	cfprefsd	Process 125 (powerexperienced) wrote the key(s) resources in { com.apple.powerexperienced.resourcemanager, root, kCFPreferencesAnyHost, /var/root/Library/Preferences/com.apple.powerexperienced.resourcemanager.plist, managed: 0 }	
+00:31.650.238	Debug	backboardd (68)	com.apple.Multitouch	Plugin	Processing SA Frame	
+00:31.650.346	Debug	backboardd (68)	com.apple.SensingAlgs	General	HysteresisFilterStep:  P5 -> F2 stage=4 slid=1 moved=1 instability=0.0000(x:0.0000, y:0.0000) input=(<private>,<private>) old=(<private>,<private>) hide=(<private>,<private>) new=(<private>,<private>)
+	
+00:31.650.400	Debug	backboardd (68)	com.apple.SensingAlgs	General	InterpolationStep:  2nd-order Polynomial Interpolation Occurred(quantum=52.9167) at t=2,885,704,833: output=(<private>,<private>)
+	
+00:31.650.432	Debug	backboardd (68)	com.apple.SensingAlgs	General	InterpolationStep:  P5 -> F2 stage=4 path=(<private>,<private>) interp=(<private>,<private>)
+	
+00:31.650.464	Debug	backboardd (68)	com.apple.SensingAlgs	General	EventGenerationStep:  P5 -> F2 stage=4 range=1 touch=1 mask=0x4 pos_um=(<private>,<private>) x=<private> y=<private> majorR=0.0253 minorR=0.0253 density=1.2753 quality=0.6170 GC=123,570 option_mask=0x0 phase=0x0
+	
+00:31.650.490	Debug	backboardd (68)	com.apple.SensingAlgs	General	EventGenerationStep: H1 fingers=1 -> range=1 touch=1 mask=0x4 x=<private> y=<private> GC=123,570 option_mask=0x0
+	
+00:31.650.516	Debug	backboardd (68)	com.apple.SensingAlgs	General	EventGenerationStep:  P5 -> F2 stage=4 range=1 touch=1 mask=0x4 pos_um=(<private>,<private>) x=<private> y=<private> majorR=0.0253 minorR=0.0253 density=1.2753 quality=0.6170 GC=123,570 option_mask=0x0 phase=0x0
+	
+00:31.650.538	Debug	backboardd (68)	com.apple.SensingAlgs	General	EventGenerationStep: H1 fingers=1 -> range=1 touch=1 mask=0x4 x=<private> y=<private> GC=123,570 option_mask=0x0
+	
+00:31.650.591	Debug	backboardd (68)	com.apple.SensingAlgs	General	Generating Interpolated Event Info: expectNext=YES information=NO reason=0 deadline=1,168,826,782,582 nextTimestamp=1,168,826,542,582 now=1,168,826,242,582	
+00:31.650.655	Debug	backboardd (68)	com.apple.SensingAlgs	General	Generating Event Info: expectNext=YES information=NO reason=0 deadline=1,168,826,782,582 nextTimestamp=1,168,826,542,582 now=1,168,826,342,590	
+00:31.650.721	Debug	backboardd (68)	com.apple.Multitouch	Plugin	Dispatching 2 events [takeoff]	
+00:31.650.783	Debug	backboardd (68)	com.apple.Multitouch	Plugin	Dispatching 2 events [land]	
+00:31.650.941	Debug	backboardd (68)	com.apple.Multitouch	Plugin	Dispatching event: +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Timestamp:           1168826242582
+Timestamp type:      Absolute
+Total Latency:       9412 us
+SenderID:            0x0000000000000000
+BuiltIn:             0
+ValueType:           Absolute
+EventType:           Digitizer
+Flags:               0x30023
+DisplayIntegrated:   0
+TransducerType:      Hand
+TransducerIndex:     0
+Identity:            1
+EventMask:           4
+Events:              Position 
+ButtonMask:          0
+Range:               1
+Touch:               1
+Pressure:            0.000000
+AuxiliaryPressure:   0.000000
+Twist:               0.000000
+GenerationCount:     123570
+WillUpdateMask:      00000000
+DidUpdateMask:       00000000
+X:                   0.000000
+Y:                   0.000000
+Z:                   0.000000
+TiltX:               0.000000
+TiltY:               0.000000
+ChildEvents:        
+    -----------------------------------------------------------------------
+    ValueType:           Absolute
+    EventType:     	
+00:31.651.063	Debug	backboardd (68)	com.apple.Multitouch	Plugin	getProperty displayUUID = 	
+00:31.651.236	Debug	backboardd (68)	com.apple.BackBoard	TouchEvents	contacts now [pathIndex: 5; touchIdentifier: 169; touching; locked; destinations: ((hitTest); contextID: 0xDD7F108F; clientPort: 0x57B23; inheritedSceneHostSettings: <identifier: sceneID:com.apple.mobileslideshow-default; touchBehavior: foreground>, (touchStream|filterDetachedTouches); contextID: 0x92E23885; clientPort: 0x2E07)]	
+00:31.651.264	Debug	backboardd (68)	com.apple.BackBoard	TouchDeliveryPolicy	host dd7f108f -> child 0	
+00:31.651.279	Debug	backboardd (68)	com.apple.BackBoard	TouchDeliveryPolicy	host 295d6cd2 -> child dd7f108f	
+00:31.651.302	Debug	backboardd (68)	com.apple.BackBoard	TouchDeliveryPolicy	295d6cd2 -> dd7f108f: 0	
+00:31.651.325	Debug	backboardd (68)	com.apple.BackBoard	TouchDeliveryPolicy	policies: combination: []	
+00:31.651.352	Debug	backboardd (68)	com.apple.BackBoard	TouchDeliveryPolicy	TDPS allow send to (hitTest); contextID: 0xDD7F108F; clientPort: 0x57B23; inheritedSceneHostSettings: <identifier: sceneID:com.apple.mobileslideshow-default; touchBehavior: foreground>	
+00:31.651.390	Debug	backboardd (68)	com.apple.BackBoard	TouchEvents	Adding hit test result: dd7f108f 57b23 5	
+00:31.651.449	Debug	backboardd (68)	com.apple.BackBoard	TouchEvents	destinations are now {
+    DD38852F: (hitTest); contextID: 0xDD38852F; clientPort: 0x2E07,
+    DD7F108F: (hitTest); contextID: 0xDD7F108F; clientPort: 0x57B23; inheritedSceneHostSettings: <identifier: sceneID:com.apple.mobileslideshow-default; touchBehavior: foreground>,
+    92E23885: (touchStream|filterDetachedTouches); contextID: 0x92E23885; clientPort: 0x2E07,
+    295D6CD2: (hitTest); contextID: 0x295D6CD2; clientPort: 0x2E07
+}	
+00:31.651.547	Debug	backboardd (68)	com.apple.BackBoard	TouchEvents	contacts:100000a37 - [pathIndex: 5; touchIdentifier: 169; touching; locked; destinations: ((hitTest); contextID: 0xDD7F108F; clientPort: 0x57B23; inheritedSceneHostSettings: <identifier: sceneID:com.apple.mobileslideshow-default; touchBehavior: foreground>, (touchStream|filterDetachedTouches); contextID: 0x92E23885; clientPort: 0x2E07)]	
+00:31.651.631	Debug	backboardd (68)	com.apple.BackBoard	TouchEvents	Digitizer token: 0x92E23885; move; gen: 123570; subevents: [
+    path: 5; {484, 1543}; move; touchID: 0xA9; {484, 1543},
+    :: VendorDefined page:FF1C usage:20
+]	
+00:31.651.776	Debug	backboardd (68)	com.apple.BackBoard	SendHIDEvent	#BKSendHIDEvent: Sending event to client connection: IOHIDEventSystemConnection uuid:A6F1A030-4E43-40BA-8832-20C847FA7943 pid:34 process:SpringBoard type:Passive entitlements:0x18 caller:BackBoardServices: <redacted> + 280 attributes:{
+    HighFrequency = 1;
+    bundleID = "com.apple.springboard";
+    pid = 34;
+} state:0x0 events:6669 mask:0x14c08 dropped:0 dropStatus:0 droppedMask:0x0 lastDroppedTime:NONE	
+00:31.651.850	Debug	backboardd (68)	com.apple.BackBoard	TouchEvents	Digitizer token: 0xDD7F108F; move; behavior: foreground; gen: 123570; subevents: [
+    path: 5; {161.33332824707031, 514.33332824707031}; move; touchID: 0xA9; {161.33333333333331, 514.33333333333326},
+    :: VendorDefined page:FF1C usage:20
+]	
+00:31.651.909	Debug	backboardd (68)	com.apple.BackBoard	SendHIDEvent	#BKSendHIDEvent: Sending event to client connection: IOHIDEventSystemConnection uuid:5500C6E7-1569-4DA1-AE39-BE761D585905 pid:1680 process:Photos type:Passive entitlements:0x0 caller:BackBoardServices: <redacted> + 280 attributes:{
+    HighFrequency = 1;
+    bundleID = "com.apple.mobileslideshow";
+    pid = 1680;
+} state:0x0 events:1608 mask:0x800 dropped:0 dropStatus:0 droppedMask:0x0 lastDroppedTime:NONE	
+00:31.651.994	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[4]: _plugInEnabled=1	
+00:31.652.034	Debug	backboardd (68)	com.apple.CoreBrightness.CBDigitizerFilter	lux	Multitouch event - X: 2,672.1035, Y: 8,517.9551, range: 1.0000, minor r: 0.0253, major r: 0.0253, touch: 1, ALS[1] obstruction undetected	
+00:31.652.054	Debug	backboardd (68)	com.apple.CoreBrightness.CBDigitizerFilter	lux	Multitouch event - X: 0.0000, Y: 0.0000, range: 0.0000, minor r: 0.0000, major r: 0.0000, touch: 0, ALS[1] obstruction undetected	
+00:31.652.085	Debug	backboardd (68)	com.apple.Multitouch	Plugin	Dispatching event: +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Timestamp:           1168826342590
+Timestamp type:      Absolute
+Total Latency:       6424 us
+SenderID:            0x0000000000000000
+BuiltIn:             0
+ValueType:           Absolute
+EventType:           Digitizer
+Flags:               0x30003
+DisplayIntegrated:   0
+TransducerType:      Hand
+TransducerIndex:     0
+Identity:            1
+EventMask:           4
+Events:              Position 
+ButtonMask:          0
+Range:               1
+Touch:               1
+Pressure:            0.000000
+AuxiliaryPressure:   0.000000
+Twist:               0.000000
+GenerationCount:     123570
+WillUpdateMask:      00000000
+DidUpdateMask:       00000000
+X:                   0.000000
+Y:                   0.000000
+Z:                   0.000000
+TiltX:               0.000000
+TiltY:               0.000000
+ChildEvents:        
+    -----------------------------------------------------------------------
+    ValueType:           Absolute
+    EventType:     	
+00:31.652.116	Debug	backboardd (68)	com.apple.CoreBrightness.CBDigitizerFilter	color	Multitouch event - X: 2,672.1035, Y: 8,517.9551, range: 1.0000, minor r: 0.0253, major r: 0.0253, touch: 1, ALS[1] obstruction undetected	
+00:31.652.139	Debug	backboardd (68)	com.apple.CoreBrightness.CBDigitizerFilter	color	Multitouch event - X: 0.0000, Y: 0.0000, range: 0.0000, minor r: 0.0000, major r: 0.0000, touch: 0, ALS[1] obstruction undetected	
+00:31.652.187	Debug	backboardd (68)	com.apple.BackBoard	TouchEvents	contacts now [pathIndex: 5; touchIdentifier: 169; touching; locked; destinations: ((hitTest); contextID: 0xDD7F108F; clientPort: 0x57B23; inheritedSceneHostSettings: <identifier: sceneID:com.apple.mobileslideshow-default; touchBehavior: foreground>, (touchStream|filterDetachedTouches); contextID: 0x92E23885; clientPort: 0x2E07)]	
+00:31.652.192	Debug	backboardd (68)	com.apple.Multitouch	Plugin	getProperty displayUUID = 	
+00:31.652.207	Debug	backboardd (68)	com.apple.BackBoard	TouchDeliveryPolicy	host dd7f108f -> child 0	
+00:31.652.264	Debug	backboardd (68)	com.apple.BackBoard	TouchDeliveryPolicy	host 295d6cd2 -> child dd7f108f	
+00:31.652.296	Debug	backboardd (68)	com.apple.BackBoard	TouchDeliveryPolicy	295d6cd2 -> dd7f108f: 0	
+00:31.652.335	Debug	backboardd (68)	com.apple.BackBoard	TouchDeliveryPolicy	policies: combination: []	
+00:31.652.393	Debug	backboardd (68)	com.apple.BackBoard	TouchDeliveryPolicy	TDPS allow send to (hitTest); contextID: 0xDD7F108F; clientPort: 0x57B23; inheritedSceneHostSettings: <identifier: sceneID:com.apple.mobileslideshow-default; touchBehavior: foreground>	
+00:31.652.438	Debug	backboardd (68)	com.apple.BackBoard	TouchEvents	Adding hit test result: dd7f108f 57b23 5	
+00:31.652.490	Debug	backboardd (68)	com.apple.BackBoard	TouchEvents	destinations are now {
+    DD38852F: (hitTest); contextID: 0xDD38852F; clientPort: 0x2E07,
+    DD7F108F: (hitTest); contextID: 0xDD7F108F; clientPort: 0x57B23; inheritedSceneHostSettings: <identifier: sceneID:com.apple.mobileslideshow-default; touchBehavior: foreground>,
+    92E23885: (touchStream|filterDetachedTouches); contextID: 0x92E23885; clientPort: 0x2E07,
+    295D6CD2: (hitTest); contextID: 0x295D6CD2; clientPort: 0x2E07
+}	
+00:31.652.562	Debug	backboardd (68)	com.apple.BackBoard	TouchEvents	contacts:100000a37 - [pathIndex: 5; touchIdentifier: 169; touching; locked; destinations: ((hitTest); contextID: 0xDD7F108F; clientPort: 0x57B23; inheritedSceneHostSettings: <identifier: sceneID:com.apple.mobileslideshow-default; touchBehavior: foreground>, (touchStream|filterDetachedTouches); contextID: 0x92E23885; clientPort: 0x2E07)]	
+00:31.652.610	Debug	backboardd (68)	com.apple.BackBoard	TouchEvents	Digitizer token: 0x92E23885; move; gen: 123570; subevents: [
+    path: 5; {484, 1551}; move; touchID: 0xA9; {484, 1551},
+    :: VendorDefined page:FF1C usage:20
+]	
+00:31.652.681	Debug	backboardd (68)	com.apple.BackBoard	SendHIDEvent	#BKSendHIDEvent: Sending event to client connection: IOHIDEventSystemConnection uuid:A6F1A030-4E43-40BA-8832-20C847FA7943 pid:34 process:SpringBoard type:Passive entitlements:0x18 caller:BackBoardServices: <redacted> + 280 attributes:{
+    HighFrequency = 1;
+    bundleID = "com.apple.springboard";
+    pid = 34;
+} state:0x0 events:6670 mask:0x14c08 dropped:0 dropStatus:0 droppedMask:0x0 lastDroppedTime:NONE	
+00:31.652.736	Debug	backboardd (68)	com.apple.BackBoard	TouchEvents	Digitizer token: 0xDD7F108F; move; behavior: foreground; gen: 123570; subevents: [
+    path: 5; {161.33332824707031, 517}; move; touchID: 0xA9; {161.33333333333331, 517},
+    :: VendorDefined page:FF1C usage:20
+]	
+00:31.652.787	Debug	backboardd (68)	com.apple.BackBoard	SendHIDEvent	#BKSendHIDEvent: Sending event to client connection: IOHIDEventSystemConnection uuid:5500C6E7-1569-4DA1-AE39-BE761D585905 pid:1680 process:Photos type:Passive entitlements:0x0 caller:BackBoardServices: <redacted> + 280 attributes:{
+    HighFrequency = 1;
+    bundleID = "com.apple.mobileslideshow";
+    pid = 1680;
+} state:0x0 events:1609 mask:0x800 dropped:0 dropStatus:0 droppedMask:0x0 lastDroppedTime:NONE	
+00:31.652.851	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[4]: _plugInEnabled=1	
+00:31.652.879	Debug	backboardd (68)	com.apple.CoreBrightness.CBDigitizerFilter	lux	Multitouch event - X: 2,672.1035, Y: 8,560.2285, range: 1.0000, minor r: 0.0253, major r: 0.0253, touch: 1, ALS[1] obstruction undetected	
+00:31.652.898	Debug	backboardd (68)	com.apple.CoreBrightness.CBDigitizerFilter	lux	Multitouch event - X: 0.0000, Y: 0.0000, range: 0.0000, minor r: 0.0000, major r: 0.0000, touch: 0, ALS[1] obstruction undetected	
+00:31.652.938	Debug	backboardd (68)	com.apple.CoreBrightness.CBDigitizerFilter	color	Multitouch event - X: 2,672.1035, Y: 8,560.2285, range: 1.0000, minor r: 0.0253, major r: 0.0253, touch: 1, ALS[1] obstruction undetected	
+00:31.652.958	Debug	backboardd (68)	com.apple.CoreBrightness.CBDigitizerFilter	color	Multitouch event - X: 0.0000, Y: 0.0000, range: 0.0000, minor r: 0.0000, major r: 0.0000, touch: 0, ALS[1] obstruction undetected	
+00:31.654.181	Default	SpringBoard (34)	com.apple.UIKit	EventDispatch	Evaluating dispatch of UIEvent: 0x300f15420; type: 0; subtype: 0; backing type: 11; shouldSend: 1; ignoreInteractionEvents: 0, systemGestureStateChange: 0	
+00:31.654.197	Default	Photos (1680)	com.apple.UIKit	EventDispatch	Evaluating dispatch of UIEvent: 0x302085500; type: 0; subtype: 0; backing type: 11; shouldSend: 1; ignoreInteractionEvents: 0, systemGestureStateChange: 0	
+00:31.654.236	Default	Photos (1680)	com.apple.UIKit	EventDispatch	Sending UIEvent type: 0; subtype: 0; to windows: 1	
+00:31.654.263	Default	Photos (1680)	com.apple.UIKit	EventDispatch	Sending UIEvent type: 0; subtype: 0; to window: <UIWindow: 0x10422cc80>; contextId: 0xdd7f108f	
+00:31.654.278	Default	SpringBoard (34)	com.apple.UIKit	EventDispatch	Sending UIEvent type: 0; subtype: 0; to windows: 1	
+00:31.654.305	Default	SpringBoard (34)	com.apple.UIKit	EventDispatch	Sending UIEvent type: 0; subtype: 0; to window: <_UISystemGestureWindow: 0x662261400>; contextId: 0x92e23885	
+00:31.654.378	Debug	SpringBoard (34)	com.apple.UIKit	UISystemGesture	Exclusive touch ignored state:2	
+00:31.654.434	Debug	Photos (1680)	com.apple.defaults	User Defaults	looked up value <private> for key PE_SETTINGS_RETOUCHDEFAULTMODEBRUSHSIZEDEFAULT in CFPrefsPlistSource<0x303785300> (Domain: com.apple.mobileslideshow, User: kCFPreferencesCurrentUser, ByHost: No, Container: (null), Contents Need Refresh: No) via CFPrefsSearchListSource<0x30355b680> (Domain: com.apple.mobileslideshow, Container: (null))	
+00:31.655.099	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	SyncDBV Telemetry | Transaction.ID=14,198 Latency=32.0000ms	
+00:31.655.191	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	now=753,594,886.5937 delta=0.1680 fade->period=2.0000 portion=0.0840 fade->Fstart=0.0072 fade->Ftarget=0.0065 Factor=0.0071
+	
+00:31.655.310	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	Display fade callback: updateBrightness = 0, updateVirtual = 0, updateEDRHeadroom = 0, forceSyncDBVUpdate = 1	
+00:31.655.574	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	Pivoting - RIGHT restriction: L_device 205.5501 -> 118.8318, ScalerMax = 0.5060, Fmax = 0.5200	
+00:31.655.595	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	Superbright EDR restrictions [would be]: CLTM 1,512.3809, UPO 2,175.0000, bottom [lower] restriction 1.0000, nits cap hdr: 2,175.0000, after BDM: 1,600.0000	
+00:31.655.609	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	SetLogicalBrightnessInternal caps: cltm 1,512.3809,  weakcap: 2,175.0000, gl.scalar: 1.0000, dyn.sl: 0.5200, edrcap: 1,600.0000	
+00:31.655.622	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	Caps after global scaling: nitsCap=551.2000 nitsCapEDR=1,600.0000	
+00:31.655.636	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	SLBI other current=1,600.0000, calculated=1,600.0000	
+00:31.655.652	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	Factor=1.0000 Lcurrent=205.5501 maxRestriction=1,512.3809 minRestriction=1.0000 maxPanel=1,060.0000 minPanel=1.0000 L_device=118.8318	
+00:31.655.727	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	S=0.5414	
+00:31.655.774	Info	backboardd (68)	com.apple.CoreBrightness.Display	default	SyncDBV Composition | Nits.Cap=551.2000 MaxRestriction.Cap=1,512.3809 WeakRestriction.Cap=2,175.0000 PAAB.Scalar=1.0000 RightFactor.Current=0.5200 RightFactor.Overriden=NO BrightDotMitigation.Enabled=YES BrightDotMitigation.Cap=1,600.0000 EDR.Enabled=YES EDR.IsEngaged=YES EDR.Cap=1,600.0000 EDR.FadePeriod=0.0000 Panel.Max=1,060.0000 Aurora.IsBoostingBrightness=NO PreStrobe.Changed=NO PreStrobe.IsActive=NO PreStrobe.Cap=0.0000 PreStrobe.CachedNits=0.0000	
+00:31.656.043	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	Handle notification for key = DisplayBrightness and property = <private>	
+00:31.656.133	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayContaineriOS	BuiltIn	Notification block key=DisplayBrightness, value=<private>
+	
+00:31.656.212	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	Handle notification for key = FrameSynchronizedBrightnessTransaction and property = <private>	
+00:31.656.282	Info	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	HDR CAPS | RTPLC: [None] 1,600.0000, currentNitCap: 1,600.0000, dynSliderCap: 551.2000, Nits: 118.8318	
+00:31.656.372	Info	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	CBEDR statusInfo: <private>	
+00:31.656.447	Debug	backboardd (68)	com.apple.CoreBrightness.CBIndicatorBrightnessModule	default	updateRamp called, isRampRunning: NO, silState: 4, currentSDR: 118.8318, currentMIB: 115.9970, targetMIB: 1.0000, MIB: 1.0000	
+00:31.656.513	Debug	backboardd (68)	com.apple.CoreBrightness.CBIndicatorBrightnessModule	default	updateRamp finished, isRampRunning: NO, silState: 4, currentSDR: 118.8318, currentMIB: 115.9970, targetMIB: 1.0000, MIB: 1.0000	
+00:31.656.569	Default	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	HDR | _edrState: 2, forceRamp: NO	
+00:31.656.627	Default	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	Pushing sdrBrightness: 118.8318, capped _appliedHeadroom: 8.0000, brightnessLimit: 1,235.8503, potentialHeadroom: 8.0000, Ambient: 157.1040 to CA, HDRBrightness: 950.6542, [None] rtplcCap: 1,600.0000	
+00:31.656.689	Default	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	SyncDBV Transaction | ID=14,200 SDR.Nits=118.8318 HDR.Nits=950.6542 HDR.State=Engaged BrightnessLimit=1,235.8503 IndicatorBrightness.Nits=0.0000 IndicatorBrightness.Cap=1,235.8503 Headroom.Current=8.0000 Headroom.Maximum=8.0000 AppliedCompensations=1.3000 Aurora.Factor=1.0000 Aurora.RampInProgress=NO Lux=157.1040 RTPLC.State=None RTPLC.Cap=1,600.0000 RTPLC.CapApplied=NO PeakAPCE.Cap=0.0600 Nits.Cap=1,600.0000 DynamicSlider.Cap=551.2000 Twilight.Strength=0.0000 Ammolite.Strength=0.0000 ContrastEnhancer.Strength=0.0071	
+00:31.656.895	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayContaineriOS	BuiltIn	Notification block key=BrightnessTransaction, value=<private>
+	
+00:31.656.954	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayContaineriOS	BuiltIn	Notification block key=CBCACommit, value=<private>
+	
+00:31.656.990	Default	backboardd (68)	com.apple.coreanimation	Brightness	Display 1 setting contrast enhancer to 0.0071
+	
+00:31.657.011	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayContaineriOS	BuiltIn	Notification block key=FrameSynchronizedBrightnessTransaction, value=<private>
+	
+00:31.657.145	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=DisplayBrightness value=<private>	
+00:31.657.235	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=DisplayBrightness property=<private>	
+00:31.657.312	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	passed for client 58881740544	
+00:31.657.537	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=<private> value=<private>	
+00:31.657.604	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=<private> property=<private>	
+00:31.657.676	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=BrightnessTransaction value=<private>	
+00:31.657.740	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=BrightnessTransaction property=<private>	
+00:31.657.809	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=<private> value=<private>	
+00:31.657.865	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=<private> property=<private>	
+00:31.657.879	Debug	PerfPowerServices (1452)	com.apple.CoreBrightness	default	key=<private> property=<private> queue=0x97ede5100 clientBlock=0x97e365e90	
+00:31.657.945	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=CBCACommit value=<private>	
+00:31.657.996	Default	backboardd (68)	com.apple.coreanimation	Brightness	Display 1 commitBrightness sdr: 118.8318, headroom: 8.0000, ambient lux: 157.1040, filtered ambient: -1.0000, limit: 1,235.8503, low ambient strength: 0.0000, high ambient strength: 0.0000, brightness ctl disabled 18,446,744,073,709,551,615
+	
+00:31.658.014	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=CBCACommit property=<private>	
+00:31.658.099	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=<private> value=<private>	
+00:31.658.147	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=<private> property=<private>	
+00:31.658.236	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=FrameSynchronizedBrightnessTransaction value=<private>	
+00:31.658.253	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=FrameSynchronizedBrightnessTransaction property=<private>	
+00:31.658.312	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=<private> value=<private>	
+00:31.658.380	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=<private> property=<private>	
+00:31.658.389	Debug	backboardd (68)	com.apple.Multitouch	Plugin	Processing SA Frame	
+00:31.658.488	Debug	backboardd (68)	com.apple.SensingAlgs	General	HysteresisFilterStep:  P5 -> F2 stage=4 slid=1 moved=1 instability=0.0000(x:0.0000, y:0.0000) input=(<private>,<private>) old=(<private>,<private>) hide=(<private>,<private>) new=(<private>,<private>)
+	
+00:31.658.533	Debug	backboardd (68)	com.apple.SensingAlgs	General	InterpolationStep:  2nd-order Polynomial Interpolation Occurred(quantum=52.9167) at t=2,885,713,245: output=(<private>,<private>)
+	
+00:31.658.587	Debug	backboardd (68)	com.apple.SensingAlgs	General	InterpolationStep:  P5 -> F2 stage=4 path=(<private>,<private>) interp=(<private>,<private>)
+	
+00:31.658.654	Debug	backboardd (68)	com.apple.SensingAlgs	General	EventGenerationStep:  P5 -> F2 stage=4 range=1 touch=1 mask=0x4 pos_um=(<private>,<private>) x=<private> y=<private> majorR=0.0253 minorR=0.0253 density=1.2861 quality=0.6127 GC=123,571 option_mask=0x0 phase=0x0
+	
+00:31.658.715	Debug	backboardd (68)	com.apple.SensingAlgs	General	EventGenerationStep: H1 fingers=1 -> range=1 touch=1 mask=0x4 x=<private> y=<private> GC=123,571 option_mask=0x0
+	
+00:31.658.789	Debug	backboardd (68)	com.apple.SensingAlgs	General	EventGenerationStep:  P5 -> F2 stage=4 range=1 touch=1 mask=0x4 pos_um=(<private>,<private>) x=<private> y=<private> majorR=0.0253 minorR=0.0253 density=1.2861 quality=0.6127 GC=123,571 option_mask=0x0 phase=0x0
+	
+00:31.658.825	Debug	backboardd (68)	com.apple.SensingAlgs	General	EventGenerationStep: H1 fingers=1 -> range=1 touch=1 mask=0x4 x=<private> y=<private> GC=123,571 option_mask=0x0
+	
+00:31.658.886	Debug	backboardd (68)	com.apple.SensingAlgs	General	Generating Interpolated Event Info: expectNext=YES information=NO reason=0 deadline=1,168,826,982,598 nextTimestamp=1,168,826,742,598 now=1,168,826,442,598	
+00:31.658.944	Debug	backboardd (68)	com.apple.SensingAlgs	General	Generating Event Info: expectNext=YES information=NO reason=0 deadline=1,168,826,982,598 nextTimestamp=1,168,826,742,598 now=1,168,826,542,606	
+00:31.659.011	Debug	backboardd (68)	com.apple.Multitouch	Plugin	Dispatching 2 events [takeoff]	
+00:31.659.105	Debug	backboardd (68)	com.apple.Multitouch	Plugin	Dispatching 2 events [land]	
+00:31.659.250	Debug	backboardd (68)	com.apple.Multitouch	Plugin	Dispatching event: +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Timestamp:           1168826442598
+Timestamp type:      Absolute
+Total Latency:       9397 us
+SenderID:            0x0000000000000000
+BuiltIn:             0
+ValueType:           Absolute
+EventType:           Digitizer
+Flags:               0x30023
+DisplayIntegrated:   0
+TransducerType:      Hand
+TransducerIndex:     0
+Identity:            1
+EventMask:           4
+Events:              Position 
+ButtonMask:          0
+Range:               1
+Touch:               1
+Pressure:            0.000000
+AuxiliaryPressure:   0.000000
+Twist:               0.000000
+GenerationCount:     123571
+WillUpdateMask:      00000000
+DidUpdateMask:       00000000
+X:                   0.000000
+Y:                   0.000000
+Z:                   0.000000
+TiltX:               0.000000
+TiltY:               0.000000
+ChildEvents:        
+    -----------------------------------------------------------------------
+    ValueType:           Absolute
+    EventType:     	
+00:31.659.356	Debug	backboardd (68)	com.apple.Multitouch	Plugin	getProperty displayUUID = 	
+00:31.659.489	Debug	backboardd (68)	com.apple.BackBoard	TouchEvents	contacts now [pathIndex: 5; touchIdentifier: 169; touching; locked; destinations: ((hitTest); contextID: 0xDD7F108F; clientPort: 0x57B23; inheritedSceneHostSettings: <identifier: sceneID:com.apple.mobileslideshow-default; touchBehavior: foreground>, (touchStream|filterDetachedTouches); contextID: 0x92E23885; clientPort: 0x2E07)]	
+00:31.659.512	Debug	backboardd (68)	com.apple.BackBoard	TouchDeliveryPolicy	host dd7f108f -> child 0	
+00:31.659.526	Debug	backboardd (68)	com.apple.BackBoard	TouchDeliveryPolicy	host 295d6cd2 -> child dd7f108f	
+00:31.659.544	Debug	backboardd (68)	com.apple.BackBoard	TouchDeliveryPolicy	295d6cd2 -> dd7f108f: 0	
+00:31.659.564	Debug	backboardd (68)	com.apple.BackBoard	TouchDeliveryPolicy	policies: combination: []	
+00:31.659.589	Debug	backboardd (68)	com.apple.BackBoard	TouchDeliveryPolicy	TDPS allow send to (hitTest); contextID: 0xDD7F108F; clientPort: 0x57B23; inheritedSceneHostSettings: <identifier: sceneID:com.apple.mobileslideshow-default; touchBehavior: foreground>	
+00:31.659.617	Debug	backboardd (68)	com.apple.BackBoard	TouchEvents	Adding hit test result: dd7f108f 57b23 5	
+00:31.659.671	Debug	backboardd (68)	com.apple.BackBoard	TouchEvents	destinations are now {
+    DD38852F: (hitTest); contextID: 0xDD38852F; clientPort: 0x2E07,
+    DD7F108F: (hitTest); contextID: 0xDD7F108F; clientPort: 0x57B23; inheritedSceneHostSettings: <identifier: sceneID:com.apple.mobileslideshow-default; touchBehavior: foreground>,
+    92E23885: (touchStream|filterDetachedTouches); contextID: 0x92E23885; clientPort: 0x2E07,
+    295D6CD2: (hitTest); contextID: 0x295D6CD2; clientPort: 0x2E07
+}	
+00:31.659.760	Debug	backboardd (68)	com.apple.BackBoard	TouchEvents	contacts:100000a37 - [pathIndex: 5; touchIdentifier: 169; touching; locked; destinations: ((hitTest); contextID: 0xDD7F108F; clientPort: 0x57B23; inheritedSceneHostSettings: <identifier: sceneID:com.apple.mobileslideshow-default; touchBehavior: foreground>, (touchStream|filterDetachedTouches); contextID: 0x92E23885; clientPort: 0x2E07)]	
+00:31.659.830	Debug	backboardd (68)	com.apple.BackBoard	TouchEvents	Digitizer token: 0x92E23885; move; gen: 123571; subevents: [
+    path: 5; {484, 1559}; move; touchID: 0xA9; {484, 1559},
+    :: VendorDefined page:FF1C usage:20
+]	
+00:31.659.978	Debug	backboardd (68)	com.apple.BackBoard	SendHIDEvent	#BKSendHIDEvent: Sending event to client connection: IOHIDEventSystemConnection uuid:A6F1A030-4E43-40BA-8832-20C847FA7943 pid:34 process:SpringBoard type:Passive entitlements:0x18 caller:BackBoardServices: <redacted> + 280 attributes:{
+    HighFrequency = 1;
+    bundleID = "com.apple.springboard";
+    pid = 34;
+} state:0x0 events:6671 mask:0x14c08 dropped:0 dropStatus:0 droppedMask:0x0 lastDroppedTime:NONE	
+00:31.660.027	Debug	backboardd (68)	com.apple.BackBoard	TouchEvents	Digitizer token: 0xDD7F108F; move; behavior: foreground; gen: 123571; subevents: [
+    path: 5; {161.33332824707031, 519.66665649414062}; move; touchID: 0xA9; {161.33333333333331, 519.66666666666663},
+    :: VendorDefined page:FF1C usage:20
+]	
+00:31.660.069	Debug	backboardd (68)	com.apple.BackBoard	SendHIDEvent	#BKSendHIDEvent: Sending event to client connection: IOHIDEventSystemConnection uuid:5500C6E7-1569-4DA1-AE39-BE761D585905 pid:1680 process:Photos type:Passive entitlements:0x0 caller:BackBoardServices: <redacted> + 280 attributes:{
+    HighFrequency = 1;
+    bundleID = "com.apple.mobileslideshow";
+    pid = 1680;
+} state:0x0 events:1610 mask:0x800 dropped:0 dropStatus:0 droppedMask:0x0 lastDroppedTime:NONE	
+00:31.660.126	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[4]: _plugInEnabled=1	
+00:31.660.146	Debug	backboardd (68)	com.apple.CoreBrightness.CBDigitizerFilter	lux	Multitouch event - X: 2,672.1035, Y: 8,607.8164, range: 1.0000, minor r: 0.0253, major r: 0.0253, touch: 1, ALS[1] obstruction undetected	
+00:31.660.161	Debug	backboardd (68)	com.apple.CoreBrightness.CBDigitizerFilter	lux	Multitouch event - X: 0.0000, Y: 0.0000, range: 0.0000, minor r: 0.0000, major r: 0.0000, touch: 0, ALS[1] obstruction undetected	
+00:31.660.202	Debug	backboardd (68)	com.apple.Multitouch	Plugin	Dispatching event: +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Timestamp:           1168826542606
+Timestamp type:      Absolute
+Total Latency:       6220 us
+SenderID:            0x0000000000000000
+BuiltIn:             0
+ValueType:           Absolute
+EventType:           Digitizer
+Flags:               0x30003
+DisplayIntegrated:   0
+TransducerType:      Hand
+TransducerIndex:     0
+Identity:            1
+EventMask:           4
+Events:              Position 
+ButtonMask:          0
+Range:               1
+Touch:               1
+Pressure:            0.000000
+AuxiliaryPressure:   0.000000
+Twist:               0.000000
+GenerationCount:     123571
+WillUpdateMask:      00000000
+DidUpdateMask:       00000000
+X:                   0.000000
+Y:                   0.000000
+Z:                   0.000000
+TiltX:               0.000000
+TiltY:               0.000000
+ChildEvents:        
+    -----------------------------------------------------------------------
+    ValueType:           Absolute
+    EventType:     	
+00:31.660.233	Debug	backboardd (68)	com.apple.CoreBrightness.CBDigitizerFilter	color	Multitouch event - X: 2,672.1035, Y: 8,607.8164, range: 1.0000, minor r: 0.0253, major r: 0.0253, touch: 1, ALS[1] obstruction undetected	
+00:31.660.311	Debug	backboardd (68)	com.apple.Multitouch	Plugin	getProperty displayUUID = 	
+00:31.660.316	Debug	backboardd (68)	com.apple.BackBoard	TouchEvents	contacts now [pathIndex: 5; touchIdentifier: 169; touching; locked; destinations: ((hitTest); contextID: 0xDD7F108F; clientPort: 0x57B23; inheritedSceneHostSettings: <identifier: sceneID:com.apple.mobileslideshow-default; touchBehavior: foreground>, (touchStream|filterDetachedTouches); contextID: 0x92E23885; clientPort: 0x2E07)]	
+00:31.660.384	Debug	backboardd (68)	com.apple.BackBoard	TouchDeliveryPolicy	host dd7f108f -> child 0	
+00:31.660.472	Debug	backboardd (68)	com.apple.BackBoard	TouchDeliveryPolicy	host 295d6cd2 -> child dd7f108f	
+00:31.660.531	Debug	backboardd (68)	com.apple.BackBoard	TouchDeliveryPolicy	295d6cd2 -> dd7f108f: 0	
+00:31.660.595	Debug	backboardd (68)	com.apple.BackBoard	TouchDeliveryPolicy	policies: combination: []	
+00:31.660.641	Debug	backboardd (68)	com.apple.BackBoard	TouchDeliveryPolicy	TDPS allow send to (hitTest); contextID: 0xDD7F108F; clientPort: 0x57B23; inheritedSceneHostSettings: <identifier: sceneID:com.apple.mobileslideshow-default; touchBehavior: foreground>	
+00:31.660.708	Debug	backboardd (68)	com.apple.BackBoard	TouchEvents	Adding hit test result: dd7f108f 57b23 5	
+00:31.660.791	Debug	backboardd (68)	com.apple.BackBoard	TouchEvents	destinations are now {
+    DD38852F: (hitTest); contextID: 0xDD38852F; clientPort: 0x2E07,
+    DD7F108F: (hitTest); contextID: 0xDD7F108F; clientPort: 0x57B23; inheritedSceneHostSettings: <identifier: sceneID:com.apple.mobileslideshow-default; touchBehavior: foreground>,
+    92E23885: (touchStream|filterDetachedTouches); contextID: 0x92E23885; clientPort: 0x2E07,
+    295D6CD2: (hitTest); contextID: 0x295D6CD2; clientPort: 0x2E07
+}	
+00:31.660.895	Debug	backboardd (68)	com.apple.BackBoard	TouchEvents	contacts:100000a37 - [pathIndex: 5; touchIdentifier: 169; touching; locked; destinations: ((hitTest); contextID: 0xDD7F108F; clientPort: 0x57B23; inheritedSceneHostSettings: <identifier: sceneID:com.apple.mobileslideshow-default; touchBehavior: foreground>, (touchStream|filterDetachedTouches); contextID: 0x92E23885; clientPort: 0x2E07)]	
+00:31.660.974	Debug	backboardd (68)	com.apple.BackBoard	TouchEvents	Digitizer token: 0x92E23885; move; gen: 123571; subevents: [
+    path: 5; {484, 1567}; move; touchID: 0xA9; {484, 1567},
+    :: VendorDefined page:FF1C usage:20
+]	
+00:31.661.076	Debug	backboardd (68)	com.apple.BackBoard	SendHIDEvent	#BKSendHIDEvent: Sending event to client connection: IOHIDEventSystemConnection uuid:A6F1A030-4E43-40BA-8832-20C847FA7943 pid:34 process:SpringBoard type:Passive entitlements:0x18 caller:BackBoardServices: <redacted> + 280 attributes:{
+    HighFrequency = 1;
+    bundleID = "com.apple.springboard";
+    pid = 34;
+} state:0x0 events:6672 mask:0x14c08 dropped:0 dropStatus:0 droppedMask:0x0 lastDroppedTime:NONE	
+00:31.661.173	Debug	backboardd (68)	com.apple.BackBoard	TouchEvents	Digitizer token: 0xDD7F108F; move; behavior: foreground; gen: 123571; subevents: [
+    path: 5; {161.33332824707031, 522.33332824707031}; move; touchID: 0xA9; {161.33333333333331, 522.33333333333326},
+    :: VendorDefined page:FF1C usage:20
+]	
+00:31.661.259	Debug	backboardd (68)	com.apple.BackBoard	SendHIDEvent	#BKSendHIDEvent: Sending event to client connection: IOHIDEventSystemConnection uuid:5500C6E7-1569-4DA1-AE39-BE761D585905 pid:1680 process:Photos type:Passive entitlements:0x0 caller:BackBoardServices: <redacted> + 280 attributes:{
+    HighFrequency = 1;
+    bundleID = "com.apple.mobileslideshow";
+    pid = 1680;
+} state:0x0 events:1611 mask:0x800 dropped:0 dropStatus:0 droppedMask:0x0 lastDroppedTime:NONE	
+00:31.661.359	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[4]: _plugInEnabled=1	
+00:31.661.429	Debug	backboardd (68)	com.apple.CoreBrightness.CBDigitizerFilter	lux	Multitouch event - X: 2,672.1035, Y: 8,650.3311, range: 1.0000, minor r: 0.0253, major r: 0.0253, touch: 1, ALS[1] obstruction undetected	
+00:31.661.510	Debug	backboardd (68)	com.apple.CoreBrightness.CBDigitizerFilter	lux	Multitouch event - X: 0.0000, Y: 0.0000, range: 0.0000, minor r: 0.0000, major r: 0.0000, touch: 0, ALS[1] obstruction undetected	
+00:31.661.798	Debug	backboardd (68)	com.apple.CoreBrightness.CBDigitizerFilter	color	Multitouch event - X: 0.0000, Y: 0.0000, range: 0.0000, minor r: 0.0000, major r: 0.0000, touch: 0, ALS[1] obstruction undetected	
+00:31.661.824	Debug	backboardd (68)	com.apple.CoreBrightness.CBDigitizerFilter	color	Multitouch event - X: 2,672.1035, Y: 8,650.3311, range: 1.0000, minor r: 0.0253, major r: 0.0253, touch: 1, ALS[1] obstruction undetected	
+00:31.661.875	Debug	backboardd (68)	com.apple.CoreBrightness.CBDigitizerFilter	color	Multitouch event - X: 0.0000, Y: 0.0000, range: 0.0000, minor r: 0.0000, major r: 0.0000, touch: 0, ALS[1] obstruction undetected	
+00:31.661.956	Debug	DTServiceHub (360)	DVTInstrumentsFoundation	Default	Data Size: 100,734, Rows Sent: 1,240, Stack depth: 4,719	
+00:31.666.740	Debug	backboardd (68)	com.apple.Multitouch	Plugin	Processing SA Frame	
+00:31.666.843	Debug	backboardd (68)	com.apple.SensingAlgs	General	HysteresisFilterStep:  P5 -> F2 stage=4 slid=1 moved=1 instability=0.0000(x:0.0000, y:0.0000) input=(<private>,<private>) old=(<private>,<private>) hide=(<private>,<private>) new=(<private>,<private>)
+	
+00:31.666.902	Debug	backboardd (68)	com.apple.SensingAlgs	General	InterpolationStep:  2nd-order Polynomial Interpolation Occurred(quantum=52.9167) at t=2,885,721,658: output=(<private>,<private>)
+	
+00:31.666.933	Debug	backboardd (68)	com.apple.SensingAlgs	General	InterpolationStep:  P5 -> F2 stage=4 path=(<private>,<private>) interp=(<private>,<private>)
+	
+00:31.666.965	Debug	backboardd (68)	com.apple.SensingAlgs	General	EventGenerationStep:  P5 -> F2 stage=4 range=1 touch=1 mask=0x4 pos_um=(<private>,<private>) x=<private> y=<private> majorR=0.0253 minorR=0.0253 density=1.2574 quality=0.6130 GC=123,572 option_mask=0x0 phase=0x0
+	
+00:31.666.992	Debug	backboardd (68)	com.apple.SensingAlgs	General	EventGenerationStep: H1 fingers=1 -> range=1 touch=1 mask=0x4 x=<private> y=<private> GC=123,572 option_mask=0x0
+	
+00:31.667.016	Debug	backboardd (68)	com.apple.SensingAlgs	General	EventGenerationStep:  P5 -> F2 stage=4 range=1 touch=1 mask=0x4 pos_um=(<private>,<private>) x=<private> y=<private> majorR=0.0253 minorR=0.0253 density=1.2574 quality=0.6130 GC=123,572 option_mask=0x0 phase=0x0
+	
+00:31.667.038	Debug	backboardd (68)	com.apple.SensingAlgs	General	EventGenerationStep: H1 fingers=1 -> range=1 touch=1 mask=0x4 x=<private> y=<private> GC=123,572 option_mask=0x0
+	
+00:31.667.089	Debug	backboardd (68)	com.apple.SensingAlgs	General	Generating Interpolated Event Info: expectNext=YES information=NO reason=0 deadline=1,168,827,182,902 nextTimestamp=1,168,826,942,902 now=1,168,826,642,758	
+00:31.667.151	Debug	backboardd (68)	com.apple.SensingAlgs	General	Generating Event Info: expectNext=YES information=NO reason=0 deadline=1,168,827,182,902 nextTimestamp=1,168,826,942,902 now=1,168,826,742,910	
+00:31.667.220	Debug	backboardd (68)	com.apple.Multitouch	Plugin	Dispatching 2 events [takeoff]	
+00:31.667.281	Debug	backboardd (68)	com.apple.Multitouch	Plugin	Dispatching 2 events [land]	
+00:31.667.453	Debug	backboardd (68)	com.apple.Multitouch	Plugin	Dispatching event: +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Timestamp:           1168826642758
+Timestamp type:      Absolute
+Total Latency:       9258 us
+SenderID:            0x0000000000000000
+BuiltIn:             0
+ValueType:           Absolute
+EventType:           Digitizer
+Flags:               0x30023
+DisplayIntegrated:   0
+TransducerType:      Hand
+TransducerIndex:     0
+Identity:            1
+EventMask:           4
+Events:              Position 
+ButtonMask:          0
+Range:               1
+Touch:               1
+Pressure:            0.000000
+AuxiliaryPressure:   0.000000
+Twist:               0.000000
+GenerationCount:     123572
+WillUpdateMask:      00000000
+DidUpdateMask:       00000000
+X:                   0.000000
+Y:                   0.000000
+Z:                   0.000000
+TiltX:               0.000000
+TiltY:               0.000000
+ChildEvents:        
+    -----------------------------------------------------------------------
+    ValueType:           Absolute
+    EventType:     	
+00:31.667.683	Debug	backboardd (68)	com.apple.BackBoard	TouchEvents	contacts now [pathIndex: 5; touchIdentifier: 169; touching; locked; destinations: ((hitTest); contextID: 0xDD7F108F; clientPort: 0x57B23; inheritedSceneHostSettings: <identifier: sceneID:com.apple.mobileslideshow-default; touchBehavior: foreground>, (touchStream|filterDetachedTouches); contextID: 0x92E23885; clientPort: 0x2E07)]	
+00:31.667.693	Debug	backboardd (68)	com.apple.Multitouch	Plugin	getProperty displayUUID = 	
+00:31.667.750	Debug	backboardd (68)	com.apple.BackBoard	TouchDeliveryPolicy	host dd7f108f -> child 0	
+00:31.667.802	Debug	backboardd (68)	com.apple.BackBoard	TouchDeliveryPolicy	host 295d6cd2 -> child dd7f108f	
+00:31.667.842	Debug	backboardd (68)	com.apple.BackBoard	TouchDeliveryPolicy	295d6cd2 -> dd7f108f: 0	
+00:31.667.908	Debug	backboardd (68)	com.apple.BackBoard	TouchDeliveryPolicy	policies: combination: []	
+00:31.667.976	Debug	backboardd (68)	com.apple.BackBoard	TouchDeliveryPolicy	TDPS allow send to (hitTest); contextID: 0xDD7F108F; clientPort: 0x57B23; inheritedSceneHostSettings: <identifier: sceneID:com.apple.mobileslideshow-default; touchBehavior: foreground>	
+00:31.668.065	Debug	backboardd (68)	com.apple.BackBoard	TouchEvents	Adding hit test result: dd7f108f 57b23 5	
+00:31.668.175	Debug	backboardd (68)	com.apple.BackBoard	TouchEvents	destinations are now {
+    DD38852F: (hitTest); contextID: 0xDD38852F; clientPort: 0x2E07,
+    DD7F108F: (hitTest); contextID: 0xDD7F108F; clientPort: 0x57B23; inheritedSceneHostSettings: <identifier: sceneID:com.apple.mobileslideshow-default; touchBehavior: foreground>,
+    92E23885: (touchStream|filterDetachedTouches); contextID: 0x92E23885; clientPort: 0x2E07,
+    295D6CD2: (hitTest); contextID: 0x295D6CD2; clientPort: 0x2E07
+}	
+00:31.668.330	Debug	backboardd (68)	com.apple.BackBoard	TouchEvents	contacts:100000a37 - [pathIndex: 5; touchIdentifier: 169; touching; locked; destinations: ((hitTest); contextID: 0xDD7F108F; clientPort: 0x57B23; inheritedSceneHostSettings: <identifier: sceneID:com.apple.mobileslideshow-default; touchBehavior: foreground>, (touchStream|filterDetachedTouches); contextID: 0x92E23885; clientPort: 0x2E07)]	
+00:31.668.425	Debug	backboardd (68)	com.apple.BackBoard	TouchEvents	Digitizer token: 0x92E23885; move; gen: 123572; subevents: [
+    path: 5; {484, 1575}; move; touchID: 0xA9; {484, 1575},
+    :: VendorDefined page:FF1C usage:20
+]	
+00:31.668.637	Debug	backboardd (68)	com.apple.BackBoard	SendHIDEvent	#BKSendHIDEvent: Sending event to client connection: IOHIDEventSystemConnection uuid:A6F1A030-4E43-40BA-8832-20C847FA7943 pid:34 process:SpringBoard type:Passive entitlements:0x18 caller:BackBoardServices: <redacted> + 280 attributes:{
+    HighFrequency = 1;
+    bundleID = "com.apple.springboard";
+    pid = 34;
+} state:0x0 events:6673 mask:0x14c08 dropped:0 dropStatus:0 droppedMask:0x0 lastDroppedTime:NONE	
+00:31.668.724	Debug	backboardd (68)	com.apple.BackBoard	TouchEvents	Digitizer token: 0xDD7F108F; move; behavior: foreground; gen: 123572; subevents: [
+    path: 5; {161.33332824707031, 525}; move; touchID: 0xA9; {161.33333333333331, 525},
+    :: VendorDefined page:FF1C usage:20
+]	
+00:31.668.787	Debug	backboardd (68)	com.apple.BackBoard	SendHIDEvent	#BKSendHIDEvent: Sending event to client connection: IOHIDEventSystemConnection uuid:5500C6E7-1569-4DA1-AE39-BE761D585905 pid:1680 process:Photos type:Passive entitlements:0x0 caller:BackBoardServices: <redacted> + 280 attributes:{
+    HighFrequency = 1;
+    bundleID = "com.apple.mobileslideshow";
+    pid = 1680;
+} state:0x0 events:1612 mask:0x800 dropped:0 dropStatus:0 droppedMask:0x0 lastDroppedTime:NONE	
+00:31.668.909	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[4]: _plugInEnabled=1	
+00:31.668.964	Debug	backboardd (68)	com.apple.CoreBrightness.CBDigitizerFilter	lux	Multitouch event - X: 2,672.1035, Y: 8,692.6045, range: 1.0000, minor r: 0.0253, major r: 0.0253, touch: 1, ALS[1] obstruction undetected	
+00:31.668.998	Debug	backboardd (68)	com.apple.Multitouch	Plugin	Dispatching event: +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Timestamp:           1168826742910
+Timestamp type:      Absolute
+Total Latency:       6656 us
+SenderID:            0x0000000000000000
+BuiltIn:             0
+ValueType:           Absolute
+EventType:           Digitizer
+Flags:               0x30003
+DisplayIntegrated:   0
+TransducerType:      Hand
+TransducerIndex:     0
+Identity:            1
+EventMask:           4
+Events:              Position 
+ButtonMask:          0
+Range:               1
+Touch:               1
+Pressure:            0.000000
+AuxiliaryPressure:   0.000000
+Twist:               0.000000
+GenerationCount:     123572
+WillUpdateMask:      00000000
+DidUpdateMask:       00000000
+X:                   0.000000
+Y:                   0.000000
+Z:                   0.000000
+TiltX:               0.000000
+TiltY:               0.000000
+ChildEvents:        
+    -----------------------------------------------------------------------
+    ValueType:           Absolute
+    EventType:     	
+00:31.669.017	Debug	backboardd (68)	com.apple.CoreBrightness.CBDigitizerFilter	lux	Multitouch event - X: 0.0000, Y: 0.0000, range: 0.0000, minor r: 0.0000, major r: 0.0000, touch: 0, ALS[1] obstruction undetected	
+00:31.669.172	Debug	backboardd (68)	com.apple.BackBoard	TouchEvents	contacts now [pathIndex: 5; touchIdentifier: 169; touching; locked; destinations: ((hitTest); contextID: 0xDD7F108F; clientPort: 0x57B23; inheritedSceneHostSettings: <identifier: sceneID:com.apple.mobileslideshow-default; touchBehavior: foreground>, (touchStream|filterDetachedTouches); contextID: 0x92E23885; clientPort: 0x2E07)]	
+00:31.669.231	Debug	backboardd (68)	com.apple.BackBoard	TouchDeliveryPolicy	host dd7f108f -> child 0	
+00:31.669.251	Debug	backboardd (68)	com.apple.Multitouch	Plugin	getProperty displayUUID = 	
+00:31.669.286	Debug	backboardd (68)	com.apple.BackBoard	TouchDeliveryPolicy	host 295d6cd2 -> child dd7f108f	
+00:31.669.319	Debug	backboardd (68)	com.apple.BackBoard	TouchDeliveryPolicy	295d6cd2 -> dd7f108f: 0	
+00:31.669.354	Debug	backboardd (68)	com.apple.BackBoard	TouchDeliveryPolicy	policies: combination: []	
+00:31.669.424	Debug	backboardd (68)	com.apple.BackBoard	TouchDeliveryPolicy	TDPS allow send to (hitTest); contextID: 0xDD7F108F; clientPort: 0x57B23; inheritedSceneHostSettings: <identifier: sceneID:com.apple.mobileslideshow-default; touchBehavior: foreground>	
+00:31.669.434	Debug	backboardd (68)	com.apple.CoreBrightness.CBDigitizerFilter	color	Multitouch event - X: 2,672.1035, Y: 8,692.6045, range: 1.0000, minor r: 0.0253, major r: 0.0253, touch: 1, ALS[1] obstruction undetected	
+00:31.669.487	Debug	backboardd (68)	com.apple.BackBoard	TouchEvents	Adding hit test result: dd7f108f 57b23 5	
+00:31.669.571	Debug	backboardd (68)	com.apple.BackBoard	TouchEvents	destinations are now {
+    DD38852F: (hitTest); contextID: 0xDD38852F; clientPort: 0x2E07,
+    DD7F108F: (hitTest); contextID: 0xDD7F108F; clientPort: 0x57B23; inheritedSceneHostSettings: <identifier: sceneID:com.apple.mobileslideshow-default; touchBehavior: foreground>,
+    92E23885: (touchStream|filterDetachedTouches); contextID: 0x92E23885; clientPort: 0x2E07,
+    295D6CD2: (hitTest); contextID: 0x295D6CD2; clientPort: 0x2E07
+}	
+00:31.669.684	Debug	backboardd (68)	com.apple.BackBoard	TouchEvents	contacts:100000a37 - [pathIndex: 5; touchIdentifier: 169; touching; locked; destinations: ((hitTest); contextID: 0xDD7F108F; clientPort: 0x57B23; inheritedSceneHostSettings: <identifier: sceneID:com.apple.mobileslideshow-default; touchBehavior: foreground>, (touchStream|filterDetachedTouches); contextID: 0x92E23885; clientPort: 0x2E07)]	
+00:31.669.776	Debug	backboardd (68)	com.apple.BackBoard	TouchEvents	Digitizer token: 0x92E23885; move; gen: 123572; subevents: [
+    path: 5; {484, 1581}; move; touchID: 0xA9; {484, 1581},
+    :: VendorDefined page:FF1C usage:20
+]	
+00:31.669.908	Debug	backboardd (68)	com.apple.BackBoard	SendHIDEvent	#BKSendHIDEvent: Sending event to client connection: IOHIDEventSystemConnection uuid:A6F1A030-4E43-40BA-8832-20C847FA7943 pid:34 process:SpringBoard type:Passive entitlements:0x18 caller:BackBoardServices: <redacted> + 280 attributes:{
+    HighFrequency = 1;
+    bundleID = "com.apple.springboard";
+    pid = 34;
+} state:0x0 events:6674 mask:0x14c08 dropped:0 dropStatus:0 droppedMask:0x0 lastDroppedTime:NONE	
+00:31.669.969	Debug	backboardd (68)	com.apple.CoreBrightness.CBDigitizerFilter	color	Multitouch event - X: 0.0000, Y: 0.0000, range: 0.0000, minor r: 0.0000, major r: 0.0000, touch: 0, ALS[1] obstruction undetected	
+00:31.670.012	Debug	backboardd (68)	com.apple.BackBoard	TouchEvents	Digitizer token: 0xDD7F108F; move; behavior: foreground; gen: 123572; subevents: [
+    path: 5; {161.33332824707031, 527}; move; touchID: 0xA9; {161.33333333333331, 527},
+    :: VendorDefined page:FF1C usage:20
+]	
+00:31.670.107	Debug	backboardd (68)	com.apple.BackBoard	SendHIDEvent	#BKSendHIDEvent: Sending event to client connection: IOHIDEventSystemConnection uuid:5500C6E7-1569-4DA1-AE39-BE761D585905 pid:1680 process:Photos type:Passive entitlements:0x0 caller:BackBoardServices: <redacted> + 280 attributes:{
+    HighFrequency = 1;
+    bundleID = "com.apple.mobileslideshow";
+    pid = 1680;
+} state:0x0 events:1613 mask:0x800 dropped:0 dropStatus:0 droppedMask:0x0 lastDroppedTime:NONE	
+00:31.670.214	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[4]: _plugInEnabled=1	
+00:31.670.296	Debug	backboardd (68)	com.apple.CoreBrightness.CBDigitizerFilter	lux	Multitouch event - X: 2,672.1035, Y: 8,729.5635, range: 1.0000, minor r: 0.0253, major r: 0.0253, touch: 1, ALS[1] obstruction undetected	
+00:31.670.358	Debug	backboardd (68)	com.apple.CoreBrightness.CBDigitizerFilter	lux	Multitouch event - X: 0.0000, Y: 0.0000, range: 0.0000, minor r: 0.0000, major r: 0.0000, touch: 0, ALS[1] obstruction undetected	
+00:31.670.870	Default	SpringBoard (34)	com.apple.UIKit	EventDispatch	Evaluating dispatch of UIEvent: 0x300f15420; type: 0; subtype: 0; backing type: 11; shouldSend: 1; ignoreInteractionEvents: 0, systemGestureStateChange: 0	
+00:31.670.885	Default	Photos (1680)	com.apple.UIKit	EventDispatch	Evaluating dispatch of UIEvent: 0x302085500; type: 0; subtype: 0; backing type: 11; shouldSend: 1; ignoreInteractionEvents: 0, systemGestureStateChange: 0	
+00:31.670.923	Default	Photos (1680)	com.apple.UIKit	EventDispatch	Sending UIEvent type: 0; subtype: 0; to windows: 1	
+00:31.670.947	Default	Photos (1680)	com.apple.UIKit	EventDispatch	Sending UIEvent type: 0; subtype: 0; to window: <UIWindow: 0x10422cc80>; contextId: 0xdd7f108f	
+00:31.670.973	Default	SpringBoard (34)	com.apple.UIKit	EventDispatch	Sending UIEvent type: 0; subtype: 0; to windows: 1	
+00:31.671.003	Default	SpringBoard (34)	com.apple.UIKit	EventDispatch	Sending UIEvent type: 0; subtype: 0; to window: <_UISystemGestureWindow: 0x662261400>; contextId: 0x92e23885	
+00:31.671.075	Debug	SpringBoard (34)	com.apple.UIKit	UISystemGesture	Exclusive touch ignored state:2	
+00:31.671.155	Debug	Photos (1680)	com.apple.defaults	User Defaults	looked up value <private> for key PE_SETTINGS_RETOUCHDEFAULTMODEBRUSHSIZEDEFAULT in CFPrefsPlistSource<0x303785300> (Domain: com.apple.mobileslideshow, User: kCFPreferencesCurrentUser, ByHost: No, Container: (null), Contents Need Refresh: No) via CFPrefsSearchListSource<0x30355b680> (Domain: com.apple.mobileslideshow, Container: (null))	
+00:31.672.183	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	SyncDBV Telemetry | Transaction.ID=14,199 Latency=28.0000ms	
+00:31.673.493	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	now=753,594,886.6120 delta=0.1863 fade->period=2.0000 portion=0.0931 fade->Fstart=0.0072 fade->Ftarget=0.0065 Factor=0.0071
+	
+00:31.673.647	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	Display fade callback: updateBrightness = 0, updateVirtual = 0, updateEDRHeadroom = 0, forceSyncDBVUpdate = 1	
+00:31.674.367	Default	backboardd (68)	com.apple.coreanimation	Brightness	Display 1 setting contrast enhancer to 0.0071
+	
+00:31.674.507	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	Pivoting - RIGHT restriction: L_device 205.5501 -> 118.8318, ScalerMax = 0.5060, Fmax = 0.5200	
+00:31.674.606	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	Superbright EDR restrictions [would be]: CLTM 1,512.3809, UPO 2,175.0000, bottom [lower] restriction 1.0000, nits cap hdr: 2,175.0000, after BDM: 1,600.0000	
+00:31.674.723	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	SetLogicalBrightnessInternal caps: cltm 1,512.3809,  weakcap: 2,175.0000, gl.scalar: 1.0000, dyn.sl: 0.5200, edrcap: 1,600.0000	
+00:31.675.076	Debug	backboardd (68)	com.apple.Multitouch	Plugin	Processing SA Frame	
+00:31.675.163	Debug	backboardd (68)	com.apple.SensingAlgs	General	HysteresisFilterStep:  P5 -> F2 stage=4 slid=1 moved=1 instability=0.0000(x:0.0000, y:0.0000) input=(<private>,<private>) old=(<private>,<private>) hide=(<private>,<private>) new=(<private>,<private>)
+	
+00:31.675.248	Debug	backboardd (68)	com.apple.SensingAlgs	General	InterpolationStep:  2nd-order Polynomial Interpolation Occurred(quantum=52.9167) at t=2,885,730,071: output=(<private>,<private>)
+	
+00:31.675.321	Debug	backboardd (68)	com.apple.SensingAlgs	General	InterpolationStep:  P5 -> F2 stage=4 path=(<private>,<private>) interp=(<private>,<private>)
+	
+00:31.675.397	Debug	backboardd (68)	com.apple.SensingAlgs	General	EventGenerationStep:  P5 -> F2 stage=4 range=1 touch=1 mask=0x4 pos_um=(<private>,<private>) x=<private> y=<private> majorR=0.0253 minorR=0.0253 density=1.2206 quality=0.6106 GC=123,573 option_mask=0x0 phase=0x0
+	
+00:31.675.474	Debug	backboardd (68)	com.apple.SensingAlgs	General	EventGenerationStep: H1 fingers=1 -> range=1 touch=1 mask=0x4 x=<private> y=<private> GC=123,573 option_mask=0x0
+	
+00:31.675.579	Debug	backboardd (68)	com.apple.SensingAlgs	General	EventGenerationStep:  P5 -> F2 stage=4 range=1 touch=1 mask=0x4 pos_um=(<private>,<private>) x=<private> y=<private> majorR=0.0253 minorR=0.0253 density=1.2206 quality=0.6106 GC=123,573 option_mask=0x0 phase=0x0
+	
+00:31.675.629	Debug	backboardd (68)	com.apple.SensingAlgs	General	EventGenerationStep: H1 fingers=1 -> range=1 touch=1 mask=0x4 x=<private> y=<private> GC=123,573 option_mask=0x0
+	
+00:31.675.724	Debug	backboardd (68)	com.apple.SensingAlgs	General	Generating Interpolated Event Info: expectNext=YES information=NO reason=0 deadline=1,168,827,382,654 nextTimestamp=1,168,827,142,654 now=1,168,826,842,774	
+00:31.675.826	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	Caps after global scaling: nitsCap=551.2000 nitsCapEDR=1,600.0000	
+00:31.675.870	Debug	backboardd (68)	com.apple.SensingAlgs	General	Generating Event Info: expectNext=YES information=NO reason=0 deadline=1,168,827,382,654 nextTimestamp=1,168,827,142,654 now=1,168,826,942,662	
+00:31.675.894	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	SLBI other current=1,600.0000, calculated=1,600.0000	
+00:31.675.957	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	Factor=1.0000 Lcurrent=205.5501 maxRestriction=1,512.3809 minRestriction=1.0000 maxPanel=1,060.0000 minPanel=1.0000 L_device=118.8318	
+00:31.676.016	Debug	backboardd (68)	com.apple.Multitouch	Plugin	Dispatching 2 events [takeoff]	
+00:31.676.048	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	S=0.5414	
+00:31.676.071	Info	backboardd (68)	com.apple.CoreBrightness.Display	default	SyncDBV Composition | Nits.Cap=551.2000 MaxRestriction.Cap=1,512.3809 WeakRestriction.Cap=2,175.0000 PAAB.Scalar=1.0000 RightFactor.Current=0.5200 RightFactor.Overriden=NO BrightDotMitigation.Enabled=YES BrightDotMitigation.Cap=1,600.0000 EDR.Enabled=YES EDR.IsEngaged=YES EDR.Cap=1,600.0000 EDR.FadePeriod=0.0000 Panel.Max=1,060.0000 Aurora.IsBoostingBrightness=NO PreStrobe.Changed=NO PreStrobe.IsActive=NO PreStrobe.Cap=0.0000 PreStrobe.CachedNits=0.0000	
+00:31.676.082	Debug	backboardd (68)	com.apple.Multitouch	Plugin	Dispatching 2 events [land]	
+00:31.676.223	Debug	backboardd (68)	com.apple.Multitouch	Plugin	Dispatching event: +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Timestamp:           1168826842774
+Timestamp type:      Absolute
+Total Latency:       9732 us
+SenderID:            0x0000000000000000
+BuiltIn:             0
+ValueType:           Absolute
+EventType:           Digitizer
+Flags:               0x30023
+DisplayIntegrated:   0
+TransducerType:      Hand
+TransducerIndex:     0
+Identity:            1
+EventMask:           4
+Events:              Position 
+ButtonMask:          0
+Range:               1
+Touch:               1
+Pressure:            0.000000
+AuxiliaryPressure:   0.000000
+Twist:               0.000000
+GenerationCount:     123573
+WillUpdateMask:      00000000
+DidUpdateMask:       00000000
+X:                   0.000000
+Y:                   0.000000
+Z:                   0.000000
+TiltX:               0.000000
+TiltY:               0.000000
+ChildEvents:        
+    -----------------------------------------------------------------------
+    ValueType:           Absolute
+    EventType:     	
+00:31.676.247	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	Handle notification for key = DisplayBrightness and property = <private>	
+00:31.676.321	Debug	backboardd (68)	com.apple.Multitouch	Plugin	getProperty displayUUID = 	
+00:31.676.330	Debug	backboardd (68)	com.apple.BackBoard	TouchEvents	contacts now [pathIndex: 5; touchIdentifier: 169; touching; locked; destinations: ((hitTest); contextID: 0xDD7F108F; clientPort: 0x57B23; inheritedSceneHostSettings: <identifier: sceneID:com.apple.mobileslideshow-default; touchBehavior: foreground>, (touchStream|filterDetachedTouches); contextID: 0x92E23885; clientPort: 0x2E07)]	
+00:31.676.376	Debug	backboardd (68)	com.apple.BackBoard	TouchDeliveryPolicy	host dd7f108f -> child 0	
+00:31.676.412	Debug	backboardd (68)	com.apple.BackBoard	TouchDeliveryPolicy	host 295d6cd2 -> child dd7f108f	
+00:31.676.418	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayContaineriOS	BuiltIn	Notification block key=DisplayBrightness, value=<private>
+	
+00:31.676.487	Debug	backboardd (68)	com.apple.BackBoard	TouchDeliveryPolicy	295d6cd2 -> dd7f108f: 0	
+00:31.676.552	Debug	backboardd (68)	com.apple.BackBoard	TouchDeliveryPolicy	policies: combination: []	
+00:31.676.623	Debug	backboardd (68)	com.apple.BackBoard	TouchDeliveryPolicy	TDPS allow send to (hitTest); contextID: 0xDD7F108F; clientPort: 0x57B23; inheritedSceneHostSettings: <identifier: sceneID:com.apple.mobileslideshow-default; touchBehavior: foreground>	
+00:31.676.685	Debug	backboardd (68)	com.apple.BackBoard	TouchEvents	Adding hit test result: dd7f108f 57b23 5	
+00:31.676.805	Debug	backboardd (68)	com.apple.BackBoard	TouchEvents	destinations are now {
+    DD38852F: (hitTest); contextID: 0xDD38852F; clientPort: 0x2E07,
+    DD7F108F: (hitTest); contextID: 0xDD7F108F; clientPort: 0x57B23; inheritedSceneHostSettings: <identifier: sceneID:com.apple.mobileslideshow-default; touchBehavior: foreground>,
+    92E23885: (touchStream|filterDetachedTouches); contextID: 0x92E23885; clientPort: 0x2E07,
+    295D6CD2: (hitTest); contextID: 0x295D6CD2; clientPort: 0x2E07
+}	
+00:31.676.881	Debug	backboardd (68)	com.apple.CoreBrightness.CBDigitizerFilter	color	Multitouch event - X: 2,672.1035, Y: 8,729.5635, range: 1.0000, minor r: 0.0253, major r: 0.0253, touch: 1, ALS[1] obstruction undetected	
+00:31.676.882	Debug	backboardd (68)	com.apple.BackBoard	TouchEvents	contacts:100000a37 - [pathIndex: 5; touchIdentifier: 169; touching; locked; destinations: ((hitTest); contextID: 0xDD7F108F; clientPort: 0x57B23; inheritedSceneHostSettings: <identifier: sceneID:com.apple.mobileslideshow-default; touchBehavior: foreground>, (touchStream|filterDetachedTouches); contextID: 0x92E23885; clientPort: 0x2E07)]	
+00:31.676.966	Debug	backboardd (68)	com.apple.BackBoard	TouchEvents	Digitizer token: 0x92E23885; move; gen: 123573; subevents: [
+    path: 5; {484, 1589}; move; touchID: 0xA9; {484, 1589},
+    :: VendorDefined page:FF1C usage:20
+]	
+00:31.677.034	Debug	backboardd (68)	com.apple.CoreBrightness.CBDigitizerFilter	color	Multitouch event - X: 0.0000, Y: 0.0000, range: 0.0000, minor r: 0.0000, major r: 0.0000, touch: 0, ALS[1] obstruction undetected	
+00:31.677.034	Debug	backboardd (68)	com.apple.BackBoard	SendHIDEvent	#BKSendHIDEvent: Sending event to client connection: IOHIDEventSystemConnection uuid:A6F1A030-4E43-40BA-8832-20C847FA7943 pid:34 process:SpringBoard type:Passive entitlements:0x18 caller:BackBoardServices: <redacted> + 280 attributes:{
+    HighFrequency = 1;
+    bundleID = "com.apple.springboard";
+    pid = 34;
+} state:0x0 events:6675 mask:0x14c08 dropped:0 dropStatus:0 droppedMask:0x0 lastDroppedTime:NONE	
+00:31.677.134	Debug	backboardd (68)	com.apple.BackBoard	TouchEvents	Digitizer token: 0xDD7F108F; move; behavior: foreground; gen: 123573; subevents: [
+    path: 5; {161.33332824707031, 529.66665649414062}; move; touchID: 0xA9; {161.33333333333331, 529.66666666666663},
+    :: VendorDefined page:FF1C usage:20
+]	
+00:31.677.174	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	Handle notification for key = FrameSynchronizedBrightnessTransaction and property = <private>	
+00:31.677.224	Debug	backboardd (68)	com.apple.BackBoard	SendHIDEvent	#BKSendHIDEvent: Sending event to client connection: IOHIDEventSystemConnection uuid:5500C6E7-1569-4DA1-AE39-BE761D585905 pid:1680 process:Photos type:Passive entitlements:0x0 caller:BackBoardServices: <redacted> + 280 attributes:{
+    HighFrequency = 1;
+    bundleID = "com.apple.mobileslideshow";
+    pid = 1680;
+} state:0x0 events:1614 mask:0x800 dropped:0 dropStatus:0 droppedMask:0x0 lastDroppedTime:NONE	
+00:31.677.319	Info	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	HDR CAPS | RTPLC: [None] 1,600.0000, currentNitCap: 1,600.0000, dynSliderCap: 551.2000, Nits: 118.8318	
+00:31.677.383	Info	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	CBEDR statusInfo: <private>	
+00:31.677.386	Debug	backboardd (68)	com.apple.Multitouch	Plugin	Dispatching event: +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Timestamp:           1168826942662
+Timestamp type:      Absolute
+Total Latency:       6738 us
+SenderID:            0x0000000000000000
+BuiltIn:             0
+ValueType:           Absolute
+EventType:           Digitizer
+Flags:               0x30003
+DisplayIntegrated:   0
+TransducerType:      Hand

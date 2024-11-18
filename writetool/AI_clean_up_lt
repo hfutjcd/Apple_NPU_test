@@ -1,0 +1,1000 @@
+	 CompilationMethod: V1
+	 ModuleCompilationFlags: ane_compiler_batch:1,espresso.dispatch.v3_enable:0,mldb_token:mldb-2lxyvd5yn7,
+	 ModuleBundleName: com.apple.EspressoFramework
+	 ModuleVersion: 3402.4.1
+
+ Module ANEC: 
+	 ModuleBundleName: com.apple.ANECompilerFramework
+	 ModuleVersion: 8.3.15
+	 ModuleCompilationFlags: 
+	-t h17
+	--fno-fold-scale=true
+	--fforce-hazard-stalls-begin=-1
+	--fforce-hazard-stalls-end=-1
+	--fdram-allocator=ffreuse
+	--fdram-tensor-priority=sizebyliverange
+	--fl2-allocator=ffreuse
+	--fl3-allocator=ffreuse
+	--fl2-cache-mode=resident
+	--fsignature=ident
+	--fdisable-bonded-networks
+	--memcache-size=4194304
+	--fspatial-split=disabled
+	--fenable-circular-buffer-in-spatial-split=-1
+	--fkernel-rewind=enabled
+	--max-td-latency=10000.000000
+	--ne-frequency=-1.000000
+	--pstate-dcs=-1
+	--pstate-soc=-1
+	--bss-limit=-1
+	--foptimize-ne-utilization=true
+	--disable-cache-prefetch-mask=1
+	--optimize-mutable	
+00:50.090.811	Default	Unknown (0)	AppleH16ANEInterface	Default	ANEC v1
+zin_ane_compiler v8.3.15
+
+ Module 0: 
+	 CompilationMethod: V1
+	 ModuleCompilationFlags: ane_compiler_batch:1,espresso.dispatch.v3_enable:0,mldb_token:mldb-2lxyvd5yn7,
+	 ModuleBundleName: com.apple.EspressoFramework
+		
+00:50.090.813	Default	Unknown (0)	AppleH16ANEInterface	Default	ModuleVersion: 3402.4.1
+
+ Module ANEC: 
+	 ModuleBundleName: com.apple.ANECompilerFramework
+	 ModuleVersion: 8.3.15
+	 ModuleCompilationFlags: 
+	-t h17
+	--fno-fold-scale=true
+	--fforce-hazard-stalls-begin=-1
+	--fforce-hazard-stalls-end=-1	
+00:50.090.814	Default	Unknown (0)	AppleH16ANEInterface	Default		--fdram-allocator=ffreuse
+	--fdram-tensor-priority=sizebyliverange
+	--fl2-allocator=ffreuse
+	--fl3-allocator=ffreuse
+	--fl2-cache-mode=resident
+	--fsignature=ident
+	--fdisable-bonded-networks
+	--memcache-size=4194304	
+00:50.090.816	Default	Unknown (0)	AppleH16ANEInterface	Default		--fspatial-split=disabled
+	--fenable-circular-buffer-in-spatial-split=-1
+	--fkernel-rewind=enabled
+	--max-td-latency=10000.000000
+	--ne-frequency=-1.000000
+	--pstate-dcs=-1
+	--pstate-soc=-1
+	--bss-limit=-1	
+00:50.090.817	Default	Unknown (0)	AppleH16ANEInterface	Default		--foptimize-ne-utilization=true
+	--disable-cache-prefetch-mask=1
+	--optimize-mutable-kernel-section=true
+	--enable-summary-performance-stats=false
+	--split-kernel-section=true
+	--max-kernel-section-size=134217728	
+00:50.090.818	Default	Unknown (0)	AppleH16ANEInterface	Default		--enable-context-switch-events=false
+	--fdisable-ne-width-slicing=false
+	--disable-hard-swish-opt=false
+	--preserve-texture-fraction=false
+	--max-td-count=-1
+	--max-segment-size=-1
+	--e4m3-overflow-setting=Saturate	
+00:50.090.820	Default	Unknown (0)	AppleH16ANEInterface	Default		--enable-segment-aware-kernel-section-split=true
+	--enable-l2-batch-splitting=true
+	--enable-global-cw-optimization=true
+	--suppress-math-exception=false
+	--enable-l2-cached-buffer=false
+	--enable-low-effort-cp-allocation=false	
+00:50.090.821	Default	Unknown (0)	AppleH16ANEInterface	Default		--enable-noise-reduction-tiling=false
+	--fdisable-weight-file-size-check=false
+	--Wl-undefined=fvmlib
+	-i	
+00:50.090.822	Default	Unknown (0)	AppleH16ANEInterface	Default	/Library/Caches/com.apple.xbs/Binaries/TextRecognition/install/TempContent/Objects/CoreRecognition.build/TextRecognition-ios.build/DerivedSources/model/net.plist
+	-o	
+00:50.091.137	Default	Unknown (0)	AppleH16ANEInterface	Default	ANE0: ANE_ProgramCreate_gated: Procedure: 0 Number of kernel splits: 3
+	
+00:50.091.139	Default	Unknown (0)	AppleH16ANEInterface	Default	ANE0: ANE_ProgramCreate_gated: Procedure: 0 Kernel Split [0] file_offset: 1,654,784 section_size: 5,120 bar_id: 8
+	
+00:50.091.141	Default	Unknown (0)	AppleH16ANEInterface	Default	ANE0: ANE_ProgramCreate_gated: Procedure: 0 Kernel Split [1] file_offset: 1,671,168 section_size: 539,648 bar_id: 9
+	
+00:50.091.142	Default	Unknown (0)	AppleH16ANEInterface	Default	ANE0: ANE_ProgramCreate_gated: Procedure: 0 Kernel Split [2] file_offset: 2,211,840 section_size: 10,240 bar_id: 10
+	
+00:50.091.146	Default	Unknown (0)	AppleH16ANEInterface	Default	ANE0: ANE_ProgramCreate_gated: Procedure: 1 Number of kernel splits: 3
+	
+00:50.091.147	Default	Unknown (0)	AppleH16ANEInterface	Default	ANE0: ANE_ProgramCreate_gated: Procedure: 1 Kernel Split [0] file_offset: 1,654,784 section_size: 5,120 bar_id: 8
+	
+00:50.091.149	Default	Unknown (0)	AppleH16ANEInterface	Default	ANE0: ANE_ProgramCreate_gated: Procedure: 1 Kernel Split [1] file_offset: 1,671,168 section_size: 539,648 bar_id: 9
+	
+00:50.091.150	Default	Unknown (0)	AppleH16ANEInterface	Default	ANE0: ANE_ProgramCreate_gated: Procedure: 1 Kernel Split [2] file_offset: 2,211,840 section_size: 10,240 bar_id: 10
+	
+00:50.091.153	Default	Unknown (0)	AppleH16ANEInterface	Default	ANE0: ANE_ProgramCreate_gated: Procedure: 2 Number of kernel splits: 3
+	
+00:50.091.154	Default	Unknown (0)	AppleH16ANEInterface	Default	ANE0: ANE_ProgramCreate_gated: Procedure: 2 Kernel Split [0] file_offset: 1,654,784 section_size: 5,120 bar_id: 8
+	
+00:50.091.155	Default	Unknown (0)	AppleH16ANEInterface	Default	ANE0: ANE_ProgramCreate_gated: Procedure: 2 Kernel Split [1] file_offset: 1,671,168 section_size: 539,648 bar_id: 9
+	
+00:50.091.156	Default	Unknown (0)	AppleH16ANEInterface	Default	ANE0: ANE_ProgramCreate_gated: Procedure: 2 Kernel Split [2] file_offset: 2,211,840 section_size: 10,240 bar_id: 10
+	
+00:50.091.159	Default	Unknown (0)	AppleH16ANEInterface	Default	ANE0: ANE_ProgramCreate_gated: Procedure: 3 Number of kernel splits: 3
+	
+00:50.091.160	Default	Unknown (0)	AppleH16ANEInterface	Default	ANE0: ANE_ProgramCreate_gated: Procedure: 3 Kernel Split [0] file_offset: 1,654,784 section_size: 5,120 bar_id: 8
+	
+00:50.091.161	Default	Unknown (0)	AppleH16ANEInterface	Default	ANE0: ANE_ProgramCreate_gated: Procedure: 3 Kernel Split [1] file_offset: 1,671,168 section_size: 539,648 bar_id: 9
+	
+00:50.091.163	Default	Unknown (0)	AppleH16ANEInterface	Default	ANE0: ANE_ProgramCreate_gated: Procedure: 3 Kernel Split [2] file_offset: 2,228,224 section_size: 10,240 bar_id: 11
+	
+00:50.091.316	Default	Unknown (0)	AppleH16ANEInterface	Default	ANE0: ANE_ProgramCreate_gated: Procedure: 27 Number of kernel splits: 3
+	
+00:50.091.318	Default	Unknown (0)	AppleH16ANEInterface	Default	ANE0: ANE_ProgramCreate_gated: Procedure: 27 Kernel Split [0] file_offset: 1,654,784 section_size: 5,120 bar_id: 8
+	
+00:50.091.319	Default	Unknown (0)	AppleH16ANEInterface	Default	ANE0: ANE_ProgramCreate_gated: Procedure: 27 Kernel Split [1] file_offset: 1,671,168 section_size: 539,648 bar_id: 9
+	
+00:50.091.320	Default	Unknown (0)	AppleH16ANEInterface	Default	ANE0: ANE_ProgramCreate_gated: Procedure: 27 Kernel Split [2] file_offset: 2,228,224 section_size: 10,240 bar_id: 11
+	
+00:50.091.323	Default	Unknown (0)	AppleH16ANEInterface	Default	ANE0: ANE_ProgramCreate_gated: Procedure: 28 Number of kernel splits: 3
+	
+00:50.091.324	Default	Unknown (0)	AppleH16ANEInterface	Default	ANE0: ANE_ProgramCreate_gated: Procedure: 28 Kernel Split [0] file_offset: 1,654,784 section_size: 5,120 bar_id: 8
+	
+00:50.091.325	Default	Unknown (0)	AppleH16ANEInterface	Default	ANE0: ANE_ProgramCreate_gated: Procedure: 28 Kernel Split [1] file_offset: 1,671,168 section_size: 539,648 bar_id: 9
+	
+00:50.091.327	Default	Unknown (0)	AppleH16ANEInterface	Default	ANE0: ANE_ProgramCreate_gated: Procedure: 28 Kernel Split [2] file_offset: 2,211,840 section_size: 10,240 bar_id: 10
+	
+00:50.091.329	Default	Unknown (0)	AppleH16ANEInterface	Default	ANE0: ANE_ProgramCreate_gated: Procedure: 29 Number of kernel splits: 3
+	
+00:50.091.330	Default	Unknown (0)	AppleH16ANEInterface	Default	ANE0: ANE_ProgramCreate_gated: Procedure: 29 Kernel Split [0] file_offset: 1,654,784 section_size: 5,120 bar_id: 8
+	
+00:50.091.332	Default	Unknown (0)	AppleH16ANEInterface	Default	ANE0: ANE_ProgramCreate_gated: Procedure: 29 Kernel Split [1] file_offset: 1,671,168 section_size: 539,648 bar_id: 9
+	
+00:50.091.333	Default	Unknown (0)	AppleH16ANEInterface	Default	ANE0: ANE_ProgramCreate_gated: Procedure: 29 Kernel Split [2] file_offset: 2,228,224 section_size: 10,240 bar_id: 11
+	
+00:50.091.336	Default	Unknown (0)	AppleH16ANEInterface	Default	ANE0: ANE_ProgramCreate_gated: Procedure: 30 Number of kernel splits: 3
+	
+00:50.091.337	Default	Unknown (0)	AppleH16ANEInterface	Default	ANE0: ANE_ProgramCreate_gated: Procedure: 30 Kernel Split [0] file_offset: 1,654,784 section_size: 5,120 bar_id: 8
+	
+00:50.091.338	Default	Unknown (0)	AppleH16ANEInterface	Default	ANE0: ANE_ProgramCreate_gated: Procedure: 30 Kernel Split [1] file_offset: 1,671,168 section_size: 539,648 bar_id: 9
+	
+00:50.091.340	Default	Unknown (0)	AppleH16ANEInterface	Default	ANE0: ANE_ProgramCreate_gated: Procedure: 30 Kernel Split [2] file_offset: 2,211,840 section_size: 10,240 bar_id: 10
+	
+00:50.091.439	Default	Unknown (0)	AppleH16ANEInterface	Default	ANE0: ANE_ProgramCreate_gated: Procedure: 45 Number of kernel splits: 3
+	
+00:50.091.440	Default	Unknown (0)	AppleH16ANEInterface	Default	ANE0: ANE_ProgramCreate_gated: Procedure: 45 Kernel Split [0] file_offset: 1,654,784 section_size: 5,120 bar_id: 8
+	
+00:50.091.442	Default	Unknown (0)	AppleH16ANEInterface	Default	ANE0: ANE_ProgramCreate_gated: Procedure: 45 Kernel Split [1] file_offset: 1,671,168 section_size: 539,648 bar_id: 9
+	
+00:50.091.443	Default	Unknown (0)	AppleH16ANEInterface	Default	ANE0: ANE_ProgramCreate_gated: Procedure: 45 Kernel Split [2] file_offset: 2,211,840 section_size: 10,240 bar_id: 10
+	
+00:50.091.446	Default	Unknown (0)	AppleH16ANEInterface	Default	ANE0: ANE_ProgramCreate_gated: Procedure: 46 Number of kernel splits: 3
+	
+00:50.091.447	Default	Unknown (0)	AppleH16ANEInterface	Default	ANE0: ANE_ProgramCreate_gated: Procedure: 46 Kernel Split [0] file_offset: 1,654,784 section_size: 5,120 bar_id: 8
+	
+00:50.091.448	Default	Unknown (0)	AppleH16ANEInterface	Default	ANE0: ANE_ProgramCreate_gated: Procedure: 46 Kernel Split [1] file_offset: 1,671,168 section_size: 539,648 bar_id: 9
+	
+00:50.091.450	Default	Unknown (0)	AppleH16ANEInterface	Default	ANE0: ANE_ProgramCreate_gated: Procedure: 46 Kernel Split [2] file_offset: 2,211,840 section_size: 10,240 bar_id: 10
+	
+00:50.091.453	Default	Unknown (0)	AppleH16ANEInterface	Default	ANE0: ANE_ProgramCreate_gated: Procedure: 47 Number of kernel splits: 3
+	
+00:50.091.454	Default	Unknown (0)	AppleH16ANEInterface	Default	ANE0: ANE_ProgramCreate_gated: Procedure: 47 Kernel Split [0] file_offset: 1,654,784 section_size: 5,120 bar_id: 8
+	
+00:50.091.455	Default	Unknown (0)	AppleH16ANEInterface	Default	ANE0: ANE_ProgramCreate_gated: Procedure: 47 Kernel Split [1] file_offset: 1,671,168 section_size: 539,648 bar_id: 9
+	
+00:50.091.457	Default	Unknown (0)	AppleH16ANEInterface	Default	ANE0: ANE_ProgramCreate_gated: Procedure: 47 Kernel Split [2] file_offset: 2,228,224 section_size: 10,240 bar_id: 11
+	
+00:50.091.460	Default	Unknown (0)	AppleH16ANEInterface	Default	ANE0: ANE_ProgramCreate_gated: Procedure: 48 Number of kernel splits: 3
+	
+00:50.091.461	Default	Unknown (0)	AppleH16ANEInterface	Default	ANE0: ANE_ProgramCreate_gated: Procedure: 48 Kernel Split [0] file_offset: 1,654,784 section_size: 5,120 bar_id: 8
+	
+00:50.091.462	Default	Unknown (0)	AppleH16ANEInterface	Default	ANE0: ANE_ProgramCreate_gated: Procedure: 48 Kernel Split [1] file_offset: 1,671,168 section_size: 539,648 bar_id: 9
+	
+00:50.091.464	Default	Unknown (0)	AppleH16ANEInterface	Default	ANE0: ANE_ProgramCreate_gated: Procedure: 48 Kernel Split [2] file_offset: 2,211,840 section_size: 10,240 bar_id: 10
+	
+00:50.091.466	Default	Unknown (0)	AppleH16ANEInterface	Default	ANE0: ANE_ProgramCreate_gated: Procedure: 49 Number of kernel splits: 3
+	
+00:50.091.468	Default	Unknown (0)	AppleH16ANEInterface	Default	ANE0: ANE_ProgramCreate_gated: Procedure: 49 Kernel Split [0] file_offset: 1,654,784 section_size: 5,120 bar_id: 8
+	
+00:50.091.469	Default	Unknown (0)	AppleH16ANEInterface	Default	ANE0: ANE_ProgramCreate_gated: Procedure: 49 Kernel Split [1] file_offset: 1,671,168 section_size: 539,648 bar_id: 9
+	
+00:50.091.471	Default	Unknown (0)	AppleH16ANEInterface	Default	ANE0: ANE_ProgramCreate_gated: Procedure: 49 Kernel Split [2] file_offset: 2,228,224 section_size: 10,240 bar_id: 11
+	
+00:50.091.473	Default	Unknown (0)	AppleH16ANEInterface	Default	ANE0: ANE_ProgramCreate_gated: Procedure: 50 Number of kernel splits: 3
+	
+00:50.091.475	Default	Unknown (0)	AppleH16ANEInterface	Default	ANE0: ANE_ProgramCreate_gated: Procedure: 50 Kernel Split [0] file_offset: 1,654,784 section_size: 5,120 bar_id: 8
+	
+00:50.091.476	Default	Unknown (0)	AppleH16ANEInterface	Default	ANE0: ANE_ProgramCreate_gated: Procedure: 50 Kernel Split [1] file_offset: 1,671,168 section_size: 539,648 bar_id: 9
+	
+00:50.091.477	Default	Unknown (0)	AppleH16ANEInterface	Default	ANE0: ANE_ProgramCreate_gated: Procedure: 50 Kernel Split [2] file_offset: 2,211,840 section_size: 10,240 bar_id: 10
+	
+00:50.091.480	Default	Unknown (0)	AppleH16ANEInterface	Default	ANE0: ANE_ProgramCreate_gated: Procedure: 51 Number of kernel splits: 3
+	
+00:50.091.481	Default	Unknown (0)	AppleH16ANEInterface	Default	ANE0: ANE_ProgramCreate_gated: Procedure: 51 Kernel Split [0] file_offset: 1,654,784 section_size: 5,120 bar_id: 8
+	
+00:50.091.483	Default	Unknown (0)	AppleH16ANEInterface	Default	ANE0: ANE_ProgramCreate_gated: Procedure: 51 Kernel Split [1] file_offset: 1,671,168 section_size: 539,648 bar_id: 9
+	
+00:50.091.484	Default	Unknown (0)	AppleH16ANEInterface	Default	ANE0: ANE_ProgramCreate_gated: Procedure: 51 Kernel Split [2] file_offset: 2,228,224 section_size: 10,240 bar_id: 11
+	
+00:50.091.487	Default	Unknown (0)	AppleH16ANEInterface	Default	ANE0: ANE_ProgramCreate_gated: Procedure: 52 Number of kernel splits: 3
+	
+00:50.091.488	Default	Unknown (0)	AppleH16ANEInterface	Default	ANE0: ANE_ProgramCreate_gated: Procedure: 52 Kernel Split [0] file_offset: 1,654,784 section_size: 5,120 bar_id: 8
+	
+00:50.091.490	Default	Unknown (0)	AppleH16ANEInterface	Default	ANE0: ANE_ProgramCreate_gated: Procedure: 52 Kernel Split [1] file_offset: 1,671,168 section_size: 539,648 bar_id: 9
+	
+00:50.091.491	Default	Unknown (0)	AppleH16ANEInterface	Default	ANE0: ANE_ProgramCreate_gated: Procedure: 52 Kernel Split [2] file_offset: 2,211,840 section_size: 10,240 bar_id: 10
+	
+00:50.091.494	Default	Unknown (0)	AppleH16ANEInterface	Default	ANE0: ANE_ProgramCreate_gated: Procedure: 53 Number of kernel splits: 3
+	
+00:50.091.495	Default	Unknown (0)	AppleH16ANEInterface	Default	ANE0: ANE_ProgramCreate_gated: Procedure: 53 Kernel Split [0] file_offset: 1,654,784 section_size: 5,120 bar_id: 8
+	
+00:50.091.497	Default	Unknown (0)	AppleH16ANEInterface	Default	ANE0: ANE_ProgramCreate_gated: Procedure: 53 Kernel Split [1] file_offset: 1,671,168 section_size: 539,648 bar_id: 9
+	
+00:50.091.498	Default	Unknown (0)	AppleH16ANEInterface	Default	ANE0: ANE_ProgramCreate_gated: Procedure: 53 Kernel Split [2] file_offset: 2,228,224 section_size: 10,240 bar_id: 11
+	
+00:50.091.501	Default	Unknown (0)	AppleH16ANEInterface	Default	ANE0: ANE_ProgramCreate_gated: Procedure: 54 Number of kernel splits: 3
+	
+00:50.091.502	Default	Unknown (0)	AppleH16ANEInterface	Default	ANE0: ANE_ProgramCreate_gated: Procedure: 54 Kernel Split [0] file_offset: 1,654,784 section_size: 5,120 bar_id: 8
+	
+00:50.091.504	Default	Unknown (0)	AppleH16ANEInterface	Default	ANE0: ANE_ProgramCreate_gated: Procedure: 54 Kernel Split [1] file_offset: 1,671,168 section_size: 539,648 bar_id: 9
+	
+00:50.091.505	Default	Unknown (0)	AppleH16ANEInterface	Default	ANE0: ANE_ProgramCreate_gated: Procedure: 54 Kernel Split [2] file_offset: 2,211,840 section_size: 10,240 bar_id: 10
+	
+00:50.091.508	Default	Unknown (0)	AppleH16ANEInterface	Default	ANE0: ANE_ProgramCreate_gated: Procedure: 55 Number of kernel splits: 3
+	
+00:50.091.509	Default	Unknown (0)	AppleH16ANEInterface	Default	ANE0: ANE_ProgramCreate_gated: Procedure: 55 Kernel Split [0] file_offset: 1,654,784 section_size: 5,120 bar_id: 8
+	
+00:50.091.511	Default	Unknown (0)	AppleH16ANEInterface	Default	ANE0: ANE_ProgramCreate_gated: Procedure: 55 Kernel Split [1] file_offset: 1,671,168 section_size: 539,648 bar_id: 9
+	
+00:50.091.512	Default	Unknown (0)	AppleH16ANEInterface	Default	ANE0: ANE_ProgramCreate_gated: Procedure: 55 Kernel Split [2] file_offset: 2,228,224 section_size: 10,240 bar_id: 11
+	
+00:50.091.515	Default	Unknown (0)	AppleH16ANEInterface	Default	ANE0: ANE_ProgramCreate_gated: Procedure: 56 Number of kernel splits: 3
+	
+00:50.091.516	Default	Unknown (0)	AppleH16ANEInterface	Default	ANE0: ANE_ProgramCreate_gated: Procedure: 56 Kernel Split [0] file_offset: 1,654,784 section_size: 5,120 bar_id: 8
+	
+00:50.091.518	Default	Unknown (0)	AppleH16ANEInterface	Default	ANE0: ANE_ProgramCreate_gated: Procedure: 56 Kernel Split [1] file_offset: 1,671,168 section_size: 539,648 bar_id: 9
+	
+00:50.091.519	Default	Unknown (0)	AppleH16ANEInterface	Default	ANE0: ANE_ProgramCreate_gated: Procedure: 56 Kernel Split [2] file_offset: 2,211,840 section_size: 10,240 bar_id: 10
+	
+00:50.091.522	Default	Unknown (0)	AppleH16ANEInterface	Default	ANE0: ANE_ProgramCreate_gated: Procedure: 57 Number of kernel splits: 3
+	
+00:50.091.523	Default	Unknown (0)	AppleH16ANEInterface	Default	ANE0: ANE_ProgramCreate_gated: Procedure: 57 Kernel Split [0] file_offset: 1,654,784 section_size: 5,120 bar_id: 8
+	
+00:50.091.525	Default	Unknown (0)	AppleH16ANEInterface	Default	ANE0: ANE_ProgramCreate_gated: Procedure: 57 Kernel Split [1] file_offset: 1,671,168 section_size: 539,648 bar_id: 9
+	
+00:50.091.526	Default	Unknown (0)	AppleH16ANEInterface	Default	ANE0: ANE_ProgramCreate_gated: Procedure: 57 Kernel Split [2] file_offset: 2,228,224 section_size: 10,240 bar_id: 11
+	
+00:50.091.529	Default	Unknown (0)	AppleH16ANEInterface	Default	ANE0: ANE_ProgramCreate_gated: Procedure: 58 Number of kernel splits: 3
+	
+00:50.091.531	Default	Unknown (0)	AppleH16ANEInterface	Default	ANE0: ANE_ProgramCreate_gated: Procedure: 58 Kernel Split [0] file_offset: 1,654,784 section_size: 5,120 bar_id: 8
+	
+00:50.091.532	Default	Unknown (0)	AppleH16ANEInterface	Default	ANE0: ANE_ProgramCreate_gated: Procedure: 58 Kernel Split [1] file_offset: 1,671,168 section_size: 539,648 bar_id: 9
+	
+00:50.091.533	Default	Unknown (0)	AppleH16ANEInterface	Default	ANE0: ANE_ProgramCreate_gated: Procedure: 58 Kernel Split [2] file_offset: 2,211,840 section_size: 10,240 bar_id: 10
+	
+00:50.091.536	Default	Unknown (0)	AppleH16ANEInterface	Default	ANE0: ANE_ProgramCreate_gated: Procedure: 59 Number of kernel splits: 3
+	
+00:50.091.538	Default	Unknown (0)	AppleH16ANEInterface	Default	ANE0: ANE_ProgramCreate_gated: Procedure: 59 Kernel Split [0] file_offset: 1,654,784 section_size: 5,120 bar_id: 8
+	
+00:50.091.539	Default	Unknown (0)	AppleH16ANEInterface	Default	ANE0: ANE_ProgramCreate_gated: Procedure: 59 Kernel Split [1] file_offset: 1,671,168 section_size: 539,648 bar_id: 9
+	
+00:50.091.540	Default	Unknown (0)	AppleH16ANEInterface	Default	ANE0: ANE_ProgramCreate_gated: Procedure: 59 Kernel Split [2] file_offset: 2,228,224 section_size: 10,240 bar_id: 11
+	
+00:50.091.543	Default	Unknown (0)	AppleH16ANEInterface	Default	ANE0: ANE_ProgramCreate_gated: Procedure: 60 Number of kernel splits: 3
+	
+00:50.091.545	Default	Unknown (0)	AppleH16ANEInterface	Default	ANE0: ANE_ProgramCreate_gated: Procedure: 60 Kernel Split [0] file_offset: 1,671,168 section_size: 539,648 bar_id: 9
+	
+00:50.091.546	Default	Unknown (0)	AppleH16ANEInterface	Default	ANE0: ANE_ProgramCreate_gated: Procedure: 60 Kernel Split [1] file_offset: 2,211,840 section_size: 10,240 bar_id: 10
+	
+00:50.091.548	Default	Unknown (0)	AppleH16ANEInterface	Default	ANE0: ANE_ProgramCreate_gated: Procedure: 60 Kernel Split [2] file_offset: 2,244,608 section_size: 5,120 bar_id: 12
+	
+00:50.091.635	Default	Unknown (0)	AppleH16ANEInterface	Default	ANE0: asyncWire_block_invoke: Wiring request for ANEDataBuffer. bufferType: 5 barID: 9 size: 540,672
+	
+00:50.092.314	Default	Unknown (0)	AppleH16ANEInterface	Default	ANE0: ANE_ProcessCreate_gated: createProcessStatus: 0, programHandle: 0x1103ddcd75a programId: 67 processId: 67 isProcessRecreate: 0
+	
+00:50.092.344	Default	Unknown (0)	AppleH16ANEInterface	Default	ANE0: ANE_ProgramCreate_gated: DEBUG: H11ANEIn: Program added to client (<private>) programs for ANED programId: 67 processId: 67 programHandle: 0x1103ddcd75a
+	
+00:50.092.434	Default	Unknown (0)	AppleH16ANEInterface	Default	ANE_ProgramCreate_gated done program Create: 0x0
+	
+00:50.092.481	Debug	aned (287)	com.apple.ane	aned	<private>: 298 Input[0] size 32,768 Inter size 15,360,000 output[0] size 25,600	
+00:50.092.501	Default	Unknown (0)	AppleH16ANEInterface	Default	ANE0: AllocateIntermediateBuffer: No matching intermediate buffer handle: 0x1103dde13c5. Creating a new intermediate buffer
+	
+00:50.092.505	Default	Unknown (0)	AppleH16ANEInterface	Default	ANE0: setMemoryOwnership: INFO: transfer ownership of buffer to process (name:mediaanalysisd pid:378) res=0x0
+	
+00:50.092.972	Default	Unknown (0)	AppleH16ANEInterface	Default	ANE0: AllocateIntermediateBuffer: Here Successfully allocated intermediate buffer. intermediateBufferId=0x1103dde13c5, size=15,368,192, dartMapBase=0x100076a0000
+	
+00:50.092.985	Info	aned (287)	com.apple.ane	aned	<private>: programHandle=1,169,268,987,738 : queueDepth=32 : numInputs=61 : numOutputs=61 : adjustedQueueDepth=127 : wiredMemory=17,620,992	
+00:50.093.000	Info	aned (287)	com.apple.ane	aned	<private>: END : ok=1 : controller.device=0xbec0c9ee0 : programHandle=1,169,268,987,738 : intermediateBufferHandle=1,169,269,068,741 : queueDepth=127 : numInputs=61 : numOutputs=61 : refcount=1 : wiredMemory=17,620,992	
+00:50.093.012	Debug	aned (287)	com.apple.ane	aned	<private>: intermediateBufferSize=15,360,000 : numInputs=61 : numOutputs=61 : numProcedures=61 queueDepth=32	
+00:50.093.022	Debug	aned (287)	com.apple.ane	aned	<private>: procedures=0x4f81ec000	
+00:50.093.074	Debug	aned (287)	com.apple.ane	aned	<private>: procedures[0]=0x4f81ec000, AnalyticsBufferSize=0Bytes	
+00:50.093.086	Debug	aned (287)	com.apple.ane	aned	<private>: procedures[1]=0x4f81eca08, AnalyticsBufferSize=0Bytes	
+00:50.093.094	Debug	aned (287)	com.apple.ane	aned	<private>: procedures[2]=0x4f81ed410, AnalyticsBufferSize=0Bytes	
+00:50.093.103	Debug	aned (287)	com.apple.ane	aned	<private>: procedures[3]=0x4f81ede18, AnalyticsBufferSize=0Bytes	
+00:50.093.111	Debug	aned (287)	com.apple.ane	aned	<private>: procedures[4]=0x4f81ee820, AnalyticsBufferSize=0Bytes	
+00:50.093.122	Debug	aned (287)	com.apple.ane	aned	<private>: procedures[5]=0x4f81ef228, AnalyticsBufferSize=0Bytes	
+00:50.093.242	Debug	aned (287)	com.apple.ane	aned	<private>: procedures[6]=0x4f81efc30, AnalyticsBufferSize=0Bytes	
+00:50.093.267	Debug	aned (287)	com.apple.ane	aned	<private>: procedures[7]=0x4f81f0638, AnalyticsBufferSize=0Bytes	
+00:50.093.285	Debug	aned (287)	com.apple.ane	aned	<private>: procedures[8]=0x4f81f1040, AnalyticsBufferSize=0Bytes	
+00:50.093.302	Debug	aned (287)	com.apple.ane	aned	<private>: procedures[9]=0x4f81f1a48, AnalyticsBufferSize=0Bytes	
+00:50.093.336	Debug	aned (287)	com.apple.ane	aned	<private>: procedures[10]=0x4f81f2450, AnalyticsBufferSize=0Bytes	
+00:50.093.379	Debug	aned (287)	com.apple.ane	aned	<private>: procedures[11]=0x4f81f2e58, AnalyticsBufferSize=0Bytes	
+00:50.093.399	Debug	aned (287)	com.apple.ane	aned	<private>: procedures[12]=0x4f81f3860, AnalyticsBufferSize=0Bytes	
+00:50.093.419	Debug	aned (287)	com.apple.ane	aned	<private>: procedures[13]=0x4f81f4268, AnalyticsBufferSize=0Bytes	
+00:50.093.442	Debug	aned (287)	com.apple.ane	aned	<private>: procedures[14]=0x4f81f4c70, AnalyticsBufferSize=0Bytes	
+00:50.093.460	Debug	aned (287)	com.apple.ane	aned	<private>: procedures[15]=0x4f81f5678, AnalyticsBufferSize=0Bytes	
+00:50.093.482	Debug	aned (287)	com.apple.ane	aned	<private>: procedures[16]=0x4f81f6080, AnalyticsBufferSize=0Bytes	
+00:50.093.499	Debug	aned (287)	com.apple.ane	aned	<private>: procedures[17]=0x4f81f6a88, AnalyticsBufferSize=0Bytes	
+00:50.093.515	Debug	aned (287)	com.apple.ane	aned	<private>: procedures[18]=0x4f81f7490, AnalyticsBufferSize=0Bytes	
+00:50.093.533	Debug	aned (287)	com.apple.ane	aned	<private>: procedures[19]=0x4f81f7e98, AnalyticsBufferSize=0Bytes	
+00:50.093.552	Debug	aned (287)	com.apple.ane	aned	<private>: procedures[20]=0x4f81f88a0, AnalyticsBufferSize=0Bytes	
+00:50.093.587	Debug	aned (287)	com.apple.ane	aned	<private>: procedures[21]=0x4f81f92a8, AnalyticsBufferSize=0Bytes	
+00:50.093.619	Debug	aned (287)	com.apple.ane	aned	<private>: procedures[22]=0x4f81f9cb0, AnalyticsBufferSize=0Bytes	
+00:50.093.636	Debug	aned (287)	com.apple.ane	aned	<private>: procedures[23]=0x4f81fa6b8, AnalyticsBufferSize=0Bytes	
+00:50.093.671	Debug	aned (287)	com.apple.ane	aned	<private>: procedures[24]=0x4f81fb0c0, AnalyticsBufferSize=0Bytes	
+00:50.093.688	Debug	aned (287)	com.apple.ane	aned	<private>: procedures[25]=0x4f81fbac8, AnalyticsBufferSize=0Bytes	
+00:50.093.731	Debug	aned (287)	com.apple.ane	aned	<private>: procedures[26]=0x4f81fc4d0, AnalyticsBufferSize=0Bytes	
+00:50.093.762	Debug	aned (287)	com.apple.ane	aned	<private>: procedures[27]=0x4f81fced8, AnalyticsBufferSize=0Bytes	
+00:50.093.798	Debug	aned (287)	com.apple.ane	aned	<private>: procedures[28]=0x4f81fd8e0, AnalyticsBufferSize=0Bytes	
+00:50.093.817	Debug	aned (287)	com.apple.ane	aned	<private>: procedures[29]=0x4f81fe2e8, AnalyticsBufferSize=0Bytes	
+00:50.093.848	Debug	aned (287)	com.apple.ane	aned	<private>: procedures[30]=0x4f81fecf0, AnalyticsBufferSize=0Bytes	
+00:50.093.877	Debug	aned (287)	com.apple.ane	aned	<private>: procedures[31]=0x4f81ff6f8, AnalyticsBufferSize=0Bytes	
+00:50.093.896	Debug	aned (287)	com.apple.ane	aned	<private>: procedures[32]=0x4f8200100, AnalyticsBufferSize=0Bytes	
+00:50.093.931	Debug	aned (287)	com.apple.ane	aned	<private>: procedures[33]=0x4f8200b08, AnalyticsBufferSize=0Bytes	
+00:50.093.964	Debug	aned (287)	com.apple.ane	aned	<private>: procedures[34]=0x4f8201510, AnalyticsBufferSize=0Bytes	
+00:50.093.981	Debug	aned (287)	com.apple.ane	aned	<private>: procedures[35]=0x4f8201f18, AnalyticsBufferSize=0Bytes	
+00:50.094.013	Debug	aned (287)	com.apple.ane	aned	<private>: procedures[36]=0x4f8202920, AnalyticsBufferSize=0Bytes	
+00:50.094.030	Debug	aned (287)	com.apple.ane	aned	<private>: procedures[37]=0x4f8203328, AnalyticsBufferSize=0Bytes	
+00:50.094.064	Debug	aned (287)	com.apple.ane	aned	<private>: procedures[38]=0x4f8203d30, AnalyticsBufferSize=0Bytes	
+00:50.094.096	Debug	aned (287)	com.apple.ane	aned	<private>: procedures[39]=0x4f8204738, AnalyticsBufferSize=0Bytes	
+00:50.094.112	Debug	aned (287)	com.apple.ane	aned	<private>: procedures[40]=0x4f8205140, AnalyticsBufferSize=0Bytes	
+00:50.094.146	Debug	aned (287)	com.apple.ane	aned	<private>: procedures[41]=0x4f8205b48, AnalyticsBufferSize=0Bytes	
+00:50.094.178	Debug	aned (287)	com.apple.ane	aned	<private>: procedures[42]=0x4f8206550, AnalyticsBufferSize=0Bytes	
+00:50.094.194	Debug	aned (287)	com.apple.ane	aned	<private>: procedures[43]=0x4f8206f58, AnalyticsBufferSize=0Bytes	
+00:50.094.227	Debug	aned (287)	com.apple.ane	aned	<private>: procedures[44]=0x4f8207960, AnalyticsBufferSize=0Bytes	
+00:50.094.244	Debug	aned (287)	com.apple.ane	aned	<private>: procedures[45]=0x4f8208368, AnalyticsBufferSize=0Bytes	
+00:50.094.279	Debug	aned (287)	com.apple.ane	aned	<private>: procedures[46]=0x4f8208d70, AnalyticsBufferSize=0Bytes	
+00:50.094.314	Debug	aned (287)	com.apple.ane	aned	<private>: procedures[47]=0x4f8209778, AnalyticsBufferSize=0Bytes	
+00:50.094.331	Debug	aned (287)	com.apple.ane	aned	<private>: procedures[48]=0x4f820a180, AnalyticsBufferSize=0Bytes	
+00:50.094.364	Debug	aned (287)	com.apple.ane	aned	<private>: procedures[49]=0x4f820ab88, AnalyticsBufferSize=0Bytes	
+00:50.094.394	Debug	aned (287)	com.apple.ane	aned	<private>: procedures[50]=0x4f820b590, AnalyticsBufferSize=0Bytes	
+00:50.094.411	Debug	aned (287)	com.apple.ane	aned	<private>: procedures[51]=0x4f820bf98, AnalyticsBufferSize=0Bytes	
+00:50.094.449	Debug	aned (287)	com.apple.ane	aned	<private>: procedures[52]=0x4f820c9a0, AnalyticsBufferSize=0Bytes	
+00:50.094.478	Debug	aned (287)	com.apple.ane	aned	<private>: procedures[53]=0x4f820d3a8, AnalyticsBufferSize=0Bytes	
+00:50.094.495	Debug	aned (287)	com.apple.ane	aned	<private>: procedures[54]=0x4f820ddb0, AnalyticsBufferSize=0Bytes	
+00:50.094.530	Debug	aned (287)	com.apple.ane	aned	<private>: procedures[55]=0x4f820e7b8, AnalyticsBufferSize=0Bytes	
+00:50.094.547	Debug	aned (287)	com.apple.ane	aned	<private>: procedures[56]=0x4f820f1c0, AnalyticsBufferSize=0Bytes	
+00:50.094.580	Debug	aned (287)	com.apple.ane	aned	<private>: procedures[57]=0x4f820fbc8, AnalyticsBufferSize=0Bytes	
+00:50.094.613	Debug	aned (287)	com.apple.ane	aned	<private>: procedures[58]=0x4f82105d0, AnalyticsBufferSize=0Bytes	
+00:50.094.629	Debug	aned (287)	com.apple.ane	aned	<private>: procedures[59]=0x4f8210fd8, AnalyticsBufferSize=0Bytes	
+00:50.094.663	Debug	aned (287)	com.apple.ane	aned	<private>: procedures[60]=0x4f82119e0, AnalyticsBufferSize=0Bytes	
+00:50.094.701	Info	aned (287)	com.apple.ane	aned	[ANE Model Stats] : modelSize=2,260,992 : wiredMemory=17,620,992 : csIdentity=com.apple.mediaanalysisd : model=<private> : symbolMappings=<private>	
+00:50.094.736	Info	aned (287)	com.apple.CoreAnalytics	client	Dropping "com.apple.ANEUsage" as it isn't used in any transform (not in the config or budgeted?)	
+00:50.095.717	Info	aned (287)	com.apple.ane	aned	END: <private>: csIdentity=com.apple.mediaanalysisd : model=<private> : isPreCompiledModel=1 : programHandle=1,169,268,987,738 : intermediateBufferHandle=1,169,269,068,741 :wiredMemory=17,620,992 : queueDepth=127	
+00:50.095.811	Debug	aned (287)	com.apple.ane	common	Telemetry: report to category modelLoad.	
+00:50.096.094	Debug	DTServiceHub (360)	DVTInstrumentsFoundation	Default	Data Size: 101,232, Rows Sent: 1,420, Stack depth: 2,760	
+00:50.096.397	Default	Unknown (0)	AppleH16ANEInterface	Default	ANE0: asyncWire_block_invoke: Wiring request for ANEDataBuffer. bufferType: 5 barID: 10 size: 16,384
+	
+00:50.096.981	Debug	mediaanalysisd (378)	com.apple.ane	client	[proxy loadModel:...] returned success=1 : attr=<private> : error=	
+00:50.096.997	Debug	mediaanalysisd (378)	com.apple.ane	client	<private>: model[0x6720d3c00] : success=1 : progamHandle=0x1103ddcd75a : intermediateBufferHandle=1,169,269,068,741 : queueDepth=127 : modelCacheIdentifier=<private> : err=	
+00:50.097.010	Debug	mediaanalysisd (378)	com.apple.ane	common	<private>: cacheURLIdentifier=<private>	
+00:50.097.019	Debug	mediaanalysisd (378)	com.apple.ane	common	<private>: self.usecount=1 : self.device=0x0 : self.isPrivileged=0	
+00:50.097.027	Debug	mediaanalysisd (378)	com.apple.ane	common	<private>: Calling ANEDeviceOpen( deviceUsageType=1 : programHandle=1,169,268,987,738 )	
+00:50.097.042	Default	Unknown (0)	AppleH16ANEInterface	Default	ANE0: asyncWire_block_invoke: Wiring request for ANEDataBuffer. bufferType: 5 barID: 11 size: 16,384
+	
+00:50.097.180	Default	mediaanalysisd (378)	ANEServices	Default	Found matching service: H1xANELoadBalancer
+	
+00:50.097.227	Default	Unknown (0)	AppleH16ANEInterface	Default	ANE0: asyncWire_block_invoke: Wiring request for ANEDataBuffer. bufferType: 5 barID: 12 size: 16,384
+	
+00:50.097.261	Default	mediaanalysisd (378)	ANEServices	Default	Found matching service: H11ANEIn
+	
+00:50.097.306	Default	mediaanalysisd (378)	ANEServices	Default	Found ANE device :1 
+	
+00:50.097.348	Default	mediaanalysisd (378)	ANEServices	Default	Total num of devices 1
+	
+00:50.097.442	Default	Unknown (0)	AppleH16ANEInterface	Default	H11ANEIn: Signalling wiring queue is empty
+	
+00:50.097.446	Default	mediaanalysisd (378)	ANEServices	Default	(Single-ANE System) Opening H11ANE device at index 0
+	
+00:50.097.510	Default	mediaanalysisd (378)	ANEServices	Default	H11ANEDevice::H11ANEDeviceOpen, usage type: 1
+	
+00:50.097.542	Default	Unknown (0)	AppleH16ANEInterface	Default	ANE0: newUserClient :H11ANEIn::newUserClient type=1
+	
+00:50.097.547	Default	Unknown (0)	AppleH16ANEInterface	Default	ANE0: newUserClient :H11ANEIn::newUserClient : Creating direct evaluate client
+	
+00:50.097.563	Default	Unknown (0)	AppleH16ANEInterface	Default	init - New UserClient for process: mediaanalysisd (pid 378) 
+	
+00:50.097.569	Default	Unknown (0)	AppleH16ANEInterface	Default	ANE0: ANE_UserClientOpen_gated: 
+	
+00:50.097.579	Default	Unknown (0)	AppleH16ANEInterface	Default	ANE0: ANE_UserClientOpen_gated: Adding client name: mediaanalysisd, client: <private>
+	
+00:50.097.666	Default	Unknown (0)	AppleH16ANEInterface	Default	ANE0: ANE_AddClientForProgram_gated: Adding client <private>:  mediaanalysisd to programHandle: 0x1103ddcd75a, Num clients for program: 2, programBuffer: <private>, referenceCount: 1
+	
+00:50.097.672	Default	Unknown (0)	AppleH16ANEInterface	Default	ANE0: ANE_PowerOn_gated: clientname:ISP isPowered: 0 Programs Open:0 Wired-Memory : 0 B
+	
+00:50.097.674	Default	Unknown (0)	AppleH16ANEInterface	Default	ANE0: ANE_PowerOn_gated: clientname:aned isPowered: 1 Programs Open:6 Wired-Memory : 360,730,112 B
+	
+00:50.097.676	Default	Unknown (0)	AppleH16ANEInterface	Default	ANE0: ANE_PowerOn_gated: clientname:Photos isPowered: 1 Programs Open:1 Wired-Memory : 281,182,208 B
+	
+00:50.097.677	Default	Unknown (0)	AppleH16ANEInterface	Default	ANE0: ANE_PowerOn_gated: clientname:Photos isPowered: 1 Programs Open:1 Wired-Memory : 1,392,640 B
+	
+00:50.097.678	Default	Unknown (0)	AppleH16ANEInterface	Default	ANE0: ANE_PowerOn_gated: clientname:mediaanalysisd isPowered: 1 Programs Open:1 Wired-Memory : 17,808,896 B
+	
+00:50.097.679	Default	Unknown (0)	AppleH16ANEInterface	Default	ANE0: ANE_PowerOn_gated: clientname:mediaanalysisd isPowered: 1 Programs Open:1 Wired-Memory : 26,349,568 B
+	
+00:50.097.679	Default	Unknown (0)	AppleH16ANEInterface	Default	ANE0: ANE_PowerOn_gated: clientname:mediaanalysisd isPowered: 1 Programs Open:1 Wired-Memory : 16,998,400 B
+	
+00:50.097.681	Default	Unknown (0)	AppleH16ANEInterface	Default	ANE0: ANE_PowerOn_gated: clientname:mediaanalysisd isPowered: 0 Programs Open:1 Wired-Memory : 16,998,400 B
+	
+00:50.097.681	Default	Unknown (0)	AppleH16ANEInterface	Default	ANE0: ANE_PowerOn_gated: Client requesting power on: mediaanalysisd
+	
+00:50.097.682	Default	Unknown (0)	AppleH16ANEInterface	Default	ANE0: ANE_PowerOn_gated: Powered up already, blocking: 1
+	
+00:50.097.685	Default	Unknown (0)	AppleH16ANEInterface	Default	ANE_DeviceOpen dataChaining client: <private>, epoch time: 181
+	
+00:50.097.688	Default	mediaanalysisd (378)	ANEServices	Default	H11ANE Device Open succeeded with usage type: 1
+	
+00:50.097.700	Default	mediaanalysisd (378)	ANEServices	Default	(Single-ANE System) Selected H11ANE device
+	
+00:50.097.708	Debug	mediaanalysisd (378)	com.apple.ane	client	evaluateOnlyProgramForModel p=<private>	
+00:50.097.852	Debug	mediaanalysisd (378)	com.apple.ane	common	<private>: self.usecount=2 : self.device=0x673020180 : self.isPrivileged=0	
+00:50.097.927	Debug	mediaanalysisd (378)	com.apple.ane	client	mapperForModel p=<private>	
+00:50.098.044	Debug	mediaanalysisd (378)	com.apple.espresso	espresso	[ane_client loadModel] return=1 ane_model.modelAttributes=<private>	
+00:50.098.093	Debug	mediaanalysisd (378)	com.apple.espresso	espresso	[Espresso::ANERuntimeEngine::build_segment] Process network status list	
+00:50.098.304	Debug	mediaanalysisd (378)	com.apple.espresso	espresso	[Espresso::ANERuntimeEngine::built]	
+00:50.098.326	Debug	mediaanalysisd (378)	com.apple.espresso	espresso	[Espresso::ANERuntimeEngine::force_allocate_blobs] Force-allocating blob=<private> ptr=27,746,324,248 is_primary=1 do_alloc_primary_blob=1 skip=0 lazy=0	
+00:50.098.398	Debug	mediaanalysisd (378)	com.apple.espresso	espresso	[Espresso::ANERuntimeEngine::blob_container::resize] subbatches=1 w=100 h=32 k=1 n=4 seq=1 interleaved=1 -> <private>	
+00:50.098.544	Debug	mediaanalysisd (378)	com.apple.espresso	espresso	[Espresso::ANERuntimeEngine::force_allocate_blobs] Force-allocating blob=<private> ptr=27,746,330,008 is_primary=0 do_alloc_primary_blob=1 skip=1 lazy=0	
+00:50.098.570	Debug	mediaanalysisd (378)	com.apple.espresso	espresso	[Espresso::ANERuntimeEngine::force_allocate_blobs] Force-allocating blob=<private> ptr=27,746,324,248 is_primary=1 do_alloc_primary_blob=0 skip=1 lazy=0	
+00:50.098.585	Debug	mediaanalysisd (378)	com.apple.espresso	espresso	[Espresso::ANERuntimeEngine::force_allocate_blobs] Force-allocating blob=<private> ptr=27,746,330,008 is_primary=0 do_alloc_primary_blob=0 skip=0 lazy=0	
+00:50.098.607	Debug	mediaanalysisd (378)	com.apple.espresso	espresso	[Espresso::ANERuntimeEngine::blob_container::resize] subbatches=1 w=128 h=25 k=1 n=4 seq=1 interleaved=1 -> <private>	
+00:50.098.663	Debug	mediaanalysisd (378)	com.apple.espresso	espresso	[Espresso::ANERuntimeEngine::force_allocate_blobs] Force-allocating blob=<private> ptr=27,746,324,248 is_primary=1 do_alloc_primary_blob=0 skip=1 lazy=0	
+00:50.098.772	Debug	mediaanalysisd (378)	com.apple.CFBundle	resources	Resource lookup at <private>
+	Request       : cr_tr_model_korean_v3.mlmodelc type: bundle
+	Result        : file:///System/Library/PrivateFrameworks/TextRecognition.framework/cr_tr_model_korean_v3.mlmodelc.bundle/
+	
+00:50.098.808	Debug	mediaanalysisd (378)	com.apple.CFBundle	resources	Resource lookup at <private>
+	Request       : cr_tr_model_korean_v3.mlmodelc type: bundle
+	Result        : file:///System/Library/PrivateFrameworks/TextRecognition.framework/cr_tr_model_korean_v3.mlmodelc.bundle/
+	
+00:50.098.839	Debug	mediaanalysisd (378)	com.apple.CFBundle	resources	Resource lookup at <private>
+	Request       : codemap type: bin
+	Result        : file:///System/Library/PrivateFrameworks/TextRecognition.framework/cr_tr_model_korean_v3.mlmodelc.bundle/codemap.bin
+	
+00:50.102.371	Debug	mediaanalysisd (378)	com.apple.CFBundle	resources	Resource lookup at <private>
+	Request       : cr_tr_model_korean_v3.mlmodelc type: bundle
+	Result        : file:///System/Library/PrivateFrameworks/TextRecognition.framework/cr_tr_model_korean_v3.mlmodelc.bundle/
+	
+00:50.102.402	Debug	mediaanalysisd (378)	com.apple.CFBundle	resources	Resource lookup at <private>
+	Request       : model.output type: shape
+	Result        : file:///System/Library/PrivateFrameworks/TextRecognition.framework/cr_tr_model_korean_v3.mlmodelc.bundle/model.output.shape
+	
+00:50.102.743	Info	mediaanalysisd (378)	com.apple.espresso	espresso	[configuration] <private> 100 32 1 4 1, rank=4
+	
+00:50.102.757	Debug	mediaanalysisd (378)	com.apple.espresso	espresso	set_configuration current conf <private>
+	
+00:50.102.932	Debug	mediaanalysisd (378)	com.apple.espresso	espresso	[reshape] max color = 11 tot_est_size = 1.2852
+	
+00:50.102.982	Debug	mediaanalysisd (378)	com.apple.espresso	espresso	GColor segment=0 blob=<private> color=1	
+00:50.102.993	Debug	mediaanalysisd (378)	com.apple.espresso	espresso	GColor segment=0 blob=<private> color=1	
+00:50.103.016	Debug	mediaanalysisd (378)	com.apple.espresso	espresso	[reshape] max color = 1 tot_est_size = 0.0001
+	
+00:50.103.043	Debug	mediaanalysisd (378)	com.apple.espresso	espresso	run_pass_on_network N8Espresso44pass_update_absolute_indexes_after_transformE	
+00:50.103.058	Debug	mediaanalysisd (378)	com.apple.espresso	espresso	[Espresso::ANERuntimeEngine::force_allocate_blobs] Force-allocating blob=<private> ptr=27,746,624,152 is_primary=1 do_alloc_primary_blob=1 skip=0 lazy=0	
+00:50.103.070	Debug	mediaanalysisd (378)	com.apple.espresso	espresso	[Espresso::ANERuntimeEngine::blob_container::resize] subbatches=1 w=100 h=32 k=1 n=4 seq=1 interleaved=1 -> <private>	
+00:50.103.117	Debug	mediaanalysisd (378)	com.apple.espresso	espresso	[Espresso::ANERuntimeEngine::force_allocate_blobs] Force-allocating blob=<private> ptr=27,746,630,296 is_primary=1 do_alloc_primary_blob=1 skip=0 lazy=0	
+00:50.103.128	Debug	mediaanalysisd (378)	com.apple.espresso	espresso	[Espresso::ANERuntimeEngine::blob_container::resize] subbatches=1 w=128 h=25 k=1 n=4 seq=1 interleaved=1 -> <private>	
+00:50.103.154	Debug	mediaanalysisd (378)	com.apple.espresso	espresso	[Espresso::ANERuntimeEngine::force_allocate_blobs] Force-allocating blob=<private> ptr=27,746,624,152 is_primary=1 do_alloc_primary_blob=0 skip=1 lazy=0	
+00:50.103.162	Debug	mediaanalysisd (378)	com.apple.espresso	espresso	[Espresso::ANERuntimeEngine::force_allocate_blobs] Force-allocating blob=<private> ptr=27,746,630,296 is_primary=1 do_alloc_primary_blob=0 skip=1 lazy=0	
+00:50.103.168	Debug	mediaanalysisd (378)	com.apple.espresso	espresso	[Espresso::ANERuntimeEngine::force_allocate_blobs] Force-allocating blob=<private> ptr=27,746,624,152 is_primary=1 do_alloc_primary_blob=0 skip=1 lazy=0	
+00:50.103.241	Debug	mediaanalysisd (378)	com.apple.ane	common	<private> ANEProgramProcessRequestDirect() for lModel <private> waitForResults is 0	
+00:50.103.260	Default	Unknown (0)	AppleH16ANEInterface	Default	ANE0: needProgramRemap: Need remap for kernelSplitSection programHandle: 0x1103ddcd75a, dartAddressOld: 0x0
+	
+00:50.103.264	Default	Unknown (0)	AppleH16ANEInterface	Default	ANE0: ANE_ProgramSendRequestInitialChecksAndLookups_gated: Program not mapped in DART, remapping. programHandle: 0x1103ddcd75a
+	
+00:50.103.266	Default	Unknown (0)	AppleH16ANEInterface	Default	ANE0: ProgramReMap: programHandle=0x1103ddcd75a onlyWire = 0
+	
+00:50.103.286	Default	Unknown (0)	AppleH16ANEInterface	Default	ANE0: DartMapIntermediateBuffer: pIntermediateBuffer: <private>, DMACommand: <private>, memoryDescriptor: <private>
+	
+00:50.103.556	Default	Unknown (0)	AppleH16ANEInterface	Default	ANE0: processTargetToHostIOCommand: DEBUG: Got the program request complete notification - programId: 67 processId: 67 uuid: 0x<private> procedureid: 2 programEvent: 1
+	
+00:50.103.596	Debug	mediaanalysisd (378)	com.apple.ane	common	-----> <private>: ANEProgramProcessRequestDirect() status=0x0 : statusType=0x8 : qos=0x19	
+00:50.131.771	Info	mediaanalysisd (378)	com.apple.espresso	espresso	[configuration] <private> 150 32 1 4 1, rank=4
+	
+00:50.131.809	Info	mediaanalysisd (378)	com.apple.espresso	espresso	[change_input_shapes] index=0/1 name=<private> w=150 h=32 k=1 n=4 seq=1	
+00:50.132.497	Debug	mediaanalysisd (378)	com.apple.espresso	espresso	[reshape] max color = 11 tot_est_size = 2.9023
+	
+00:50.132.572	Debug	mediaanalysisd (378)	com.apple.espresso	espresso	GColor segment=0 blob=<private> color=1	
+00:50.132.587	Debug	mediaanalysisd (378)	com.apple.espresso	espresso	GColor segment=0 blob=<private> color=1	
+00:50.132.616	Debug	mediaanalysisd (378)	com.apple.espresso	espresso	[reshape] max color = 1 tot_est_size = 0.0001
+	
+00:50.132.660	Debug	mediaanalysisd (378)	com.apple.espresso	espresso	run_pass_on_network N8Espresso44pass_update_absolute_indexes_after_transformE	
+00:50.132.673	Debug	mediaanalysisd (378)	com.apple.espresso	espresso	set_configuration current conf <private>
+	
+00:50.133.041	Debug	mediaanalysisd (378)	com.apple.espresso	espresso	[reshape] max color = 11 tot_est_size = 2.9023
+	
+00:50.133.104	Debug	mediaanalysisd (378)	com.apple.espresso	espresso	GColor segment=0 blob=<private> color=1	
+00:50.133.118	Debug	mediaanalysisd (378)	com.apple.espresso	espresso	GColor segment=0 blob=<private> color=1	
+00:50.133.142	Debug	mediaanalysisd (378)	com.apple.espresso	espresso	[reshape] max color = 1 tot_est_size = 0.0001
+	
+00:50.133.176	Debug	mediaanalysisd (378)	com.apple.espresso	espresso	run_pass_on_network N8Espresso44pass_update_absolute_indexes_after_transformE	
+00:50.133.195	Debug	mediaanalysisd (378)	com.apple.espresso	espresso	[Espresso::ANERuntimeEngine::force_allocate_blobs] Force-allocating blob=<private> ptr=27,746,579,992 is_primary=1 do_alloc_primary_blob=1 skip=0 lazy=0	
+00:50.133.212	Debug	mediaanalysisd (378)	com.apple.espresso	espresso	[Espresso::ANERuntimeEngine::blob_container::resize] subbatches=1 w=150 h=32 k=1 n=4 seq=1 interleaved=1 -> <private>	
+00:50.133.279	Debug	mediaanalysisd (378)	com.apple.espresso	espresso	[Espresso::ANERuntimeEngine::force_allocate_blobs] Force-allocating blob=<private> ptr=27,746,333,080 is_primary=1 do_alloc_primary_blob=1 skip=0 lazy=0	
+00:50.133.293	Debug	mediaanalysisd (378)	com.apple.espresso	espresso	[Espresso::ANERuntimeEngine::blob_container::resize] subbatches=1 w=128 h=38 k=1 n=4 seq=1 interleaved=1 -> <private>	
+00:50.133.323	Debug	mediaanalysisd (378)	com.apple.espresso	espresso	[Espresso::ANERuntimeEngine::force_allocate_blobs] Force-allocating blob=<private> ptr=27,746,579,992 is_primary=1 do_alloc_primary_blob=0 skip=1 lazy=0	
+00:50.133.333	Debug	mediaanalysisd (378)	com.apple.espresso	espresso	[Espresso::ANERuntimeEngine::force_allocate_blobs] Force-allocating blob=<private> ptr=27,746,333,080 is_primary=1 do_alloc_primary_blob=0 skip=1 lazy=0	
+00:50.133.341	Debug	mediaanalysisd (378)	com.apple.espresso	espresso	[Espresso::ANERuntimeEngine::force_allocate_blobs] Force-allocating blob=<private> ptr=27,746,579,992 is_primary=1 do_alloc_primary_blob=0 skip=1 lazy=0	
+00:50.133.432	Debug	mediaanalysisd (378)	com.apple.ane	common	<private> ANEProgramProcessRequestDirect() for lModel <private> waitForResults is 0	
+00:50.133.467	Default	Unknown (0)	AppleH16ANEInterface	Default	ANE0: DartMapIntermediateBuffer: pIntermediateBuffer: <private>, DMACommand: <private>, memoryDescriptor: <private>
+	
+00:50.133.775	Default	Unknown (0)	AppleH16ANEInterface	Default	ANE0: processTargetToHostIOCommand: DEBUG: Got the program request complete notification - programId: 66 processId: 66 uuid: 0x<private> procedureid: 13 programEvent: 1
+	
+00:50.133.801	Debug	mediaanalysisd (378)	com.apple.ane	common	-----> <private>: ANEProgramProcessRequestDirect() status=0x0 : statusType=0x8 : qos=0x19	
+00:50.139.014	Default	backboardd (68)	com.apple.CoreBrightness.CBGrimaldiModule	default	Requesting lux from APDS	
+00:50.140.713	Default	backboardd (68)	com.apple.xpc	connection	[0xdb4bd0300] activating connection: mach=1 listener=0 peer=0 name=com.apple.appleh16camerad	
+00:50.142.112	Default	Unknown (0)	AppleH16PhotonDetector	Default	AppleH16PhotonDetectorUserClient:init - New UserClient for process: appleh16camerad (pid 129)
+	
+00:50.142.200	Default	appleh16camerad (129)	com.apple.isp	daemon	addClient_block_invoke - Photon Detector device open returned 0
+
+	
+00:50.142.247	Default	Unknown (0)	AppleCS42L79Audio	Default	enableFlickerBias inEnable:1	
+00:50.142.252	Default	Unknown (0)	AppleCS42L79Audio	Default	Set External MClk client:8  mask:20	
+00:50.142.857	Default	mediaanalysisd (378)	com.apple.TextRecognition	Recognition	Unloading model: cr_tr_model_chinese_v3.mlmodelc	
+00:50.142.873	Info	mediaanalysisd (378)	com.apple.espresso	espresso	Destroying plan 27,755,096,064	
+00:50.142.962	Debug	mediaanalysisd (378)	com.apple.espresso	espresso	[Espresso::ANERuntimeEngine::compiler::~compiler] Destroy loaded=1 loaded_keys_count=1	
+00:50.142.978	Debug	mediaanalysisd (378)	com.apple.espresso	espresso	[Espresso::ANERuntimeEngine::reset] url=<private> bid=com.apple.mediaanalysisd loaded=1 loaded_keys_count=1 network=0 is_in_memory_model=0	
+00:50.143.016	Debug	mediaanalysisd (378)	com.apple.ane	client	<private>: model[0x6730e3f80]=<private>	
+00:50.143.106	Debug	mediaanalysisd (378)	com.apple.ane	common	<private>: identifierSource=1	
+00:50.143.261	Debug	aned (287)	com.apple.ane	common	<private>: identifierSource=1	
+00:50.143.309	Info	aned (287)	com.apple.ane	aned	START: <private>: <private>	
+00:50.143.336	Info	aned (287)	com.apple.ane	aned	<private>: SecTaskCopySigningIdentifier() returned csIdentity="com.apple.mediaanalysisd"	
+00:50.143.350	Debug	aned (287)	com.apple.ane	aned	<private>:  removeProgramForConnection: <private>, Model cacheURLIdentifier:<private>	
+00:50.143.364	Debug	aned (287)	com.apple.ane	aned	<private>: connStr=<private> : cacheKey=<private> : dict=<private>	
+00:50.143.427	Default	Unknown (0)	AppleCS42L79Audio	Default	Write Adr:30000 Val:2	
+00:50.143.434	Default	Unknown (0)	AppleCS42L79Audio	Default	MClk Enable:1 client:8 mask:28	
+00:50.143.499	Debug	aned (287)	com.apple.ane	common	Telemetry: report to category modelUnload.	
+00:50.143.530	Debug	aned (287)	com.apple.ane	aned	<private>: Stopping the program=0xbec0bdbc0 : refcount=0	
+00:50.143.544	Default	Unknown (0)	AppleH16ANEInterface	Default	ANE0: ANE_ProgramUnprepare_gated: programHandle: 0x1103dc6410a, client: 0x<private>
+	
+00:50.143.551	Default	Unknown (0)	AppleH16ANEInterface	Default	ANE0: FreeIntermediateBuffer: Freeing intermediate buffer. intermediateBufferId=0x1103dc75e6c, size=15,368,192, dartMapBase=0x100063dc000 usage='73788477'
+	
+00:50.143.577	Default	Unknown (0)	AppleCS42L79Audio	Default	Read  Adr:10010 Val:ff	
+00:50.143.627	Debug	mediaanalysisd (378)	com.apple.CFBundle	resources	Language lookup at <private>
+	Localizations : [en]
+	Dev language  : en
+	User prefs    : [en-AS]
+	Main bundle   : [<null>]
+	Allow mixed   : 1 
+	Result        : [en]
+	
+00:50.143.679	Debug	mediaanalysisd (378)	com.apple.CFBundle	resources	Resource lookup at <private>
+	Request       : AssetData
+	Result        : file:////System/Library/LinguisticData//RequiredAssets_ko.bundle/AssetData/
+	
+00:50.143.709	Default	Unknown (0)	AppleCS42L79Audio	Default	Write Adr:10010 Val:2ff	
+00:50.143.746	Debug	aned (287)	com.apple.ane	aned	<private>: Destroying the program=0xbec0bdbc0	
+00:50.143.758	Default	Unknown (0)	AppleH16ANEInterface	Default	ANE0: ANE_ProgramDestroy_gated: programHandle: 0x1103dc6410a, client: 0x<private>
+	
+00:50.143.763	Default	Unknown (0)	AppleH16ANEInterface	Default	ANE0: ANE_ProcessDestroy_gated: Removed client aned from programHandle: 0x1103dc6410a. Num clients for program: 1
+	
+00:50.143.765	Default	Unknown (0)	AppleH16ANEInterface	Default	ANE0: ANE_ProcessDestroy_gated: 1 clients still using programHandle: 0x1103dc6410a, not destroying it
+	
+00:50.143.766	Default	Unknown (0)	AppleH16ANEInterface	Default	ANE0: ReleaseProgramMemoryBuffer: programHandle: 0x1103dc6410a programBufferIndex = 4 referenceCount = 2 releasePendingList=0 
+	
+00:50.143.779	Debug	aned (287)	com.apple.ane	common	<private>: self.usecount=5 : self.device=0xbec0c9ee0	
+00:50.143.804	Info	aned (287)	com.apple.ane	aned	END: <private>: com.apple.mediaanalysisd : <private> : 1	
+00:50.143.815	Debug	mediaanalysisd (378)	com.apple.ane	client	[proxy unloadModel:...] returned success = 1 with error = 	
+00:50.143.829	Debug	mediaanalysisd (378)	com.apple.ane	client	<private>: success=1 : err=	
+00:50.143.930	Debug	mediaanalysisd (378)	com.apple.ane	common	<private>: self.usecount=1 : self.device=0x6742872e0	
+00:50.143.945	Debug	mediaanalysisd (378)	com.apple.ane	common	<private>: self.usecount=0 : self.device=0x6742872e0	
+00:50.143.969	Default	Unknown (0)	AppleH16ANEInterface	Default	ANE0: ANE_UserClientCleanup_gated: Found process client for cleanup. programHandle: 0x1103dc6410a
+	
+00:50.143.972	Default	Unknown (0)	AppleH16ANEInterface	Default	ANE0: ANE_ProgramDestroy_gated: programHandle: 0x1103dc6410a, client: 0x<private>
+	
+00:50.143.973	Default	Unknown (0)	AppleH16ANEInterface	Default	ANE0: ANE_ProgramDestroy_gated: pProgramBuffer->programId: 66 destroyArgs->programHandle: 0x1103dc6410a
+	
+00:50.143.975	Default	Unknown (0)	AppleH16ANEInterface	Default	ANE0: ANE_ProcessDestroy_gated: Removed client mediaanalysisd from programHandle: 0x1103dc6410a. Num clients for program: 0
+	
+00:50.143.976	Default	Unknown (0)	AppleH16ANEInterface	Default	ANE0: ANE_ProcessDestroy_gated: Destroying programHandle: 0x1103dc6410a
+	
+00:50.144.318	Default	Unknown (0)	AppleH16ANEInterface	Default	ANE0: ANE_ReleasePatchedMutableMemoryBuffer: Patched Mutable buffer is NULL for program handle: 0x1103dc6410a
+	
+00:50.144.348	Default	Unknown (0)	AppleH16ANEInterface	Default	ANE0: ReleaseProgramMemoryBuffer: programHandle: 0x1103dc6410a programBufferIndex = 4 referenceCount = 1 releasePendingList=0 
+	
+00:50.144.349	Default	Unknown (0)	AppleH16ANEInterface	Default	ANE0: ReleaseProgramMemoryBuffer: Freeing Program buffer - 
+	
+00:50.144.350	Default	Unknown (0)	AppleH16ANEInterface	Default	ANE0: ReleaseProgramMemoryBuffer: Model Identifier:	
+00:50.144.351	Default	Unknown (0)	AppleH16ANEInterface	Default	default	
+00:50.144.351	Default	Unknown (0)	AppleH16ANEInterface	Default	ANE0: ReleaseProgramMemoryBuffer: force deiniting program process and program. programHandle: 0x1103dc6410a programId: 66 refCount: 1
+	
+00:50.144.483	Default	Unknown (0)	AppleH16ANEInterface	Default	ANE0: waitForAsyncWiring: Waiting for async wiring to be completed. bufferType: 5 barID: 8 size: 16,384
+	
+00:50.144.484	Default	Unknown (0)	AppleH16ANEInterface	Default	ANE0: waitForAsyncWiring: Done waiting for wiring update retries=10. Success!!
+	
+00:50.144.491	Default	Unknown (0)	AppleH16ANEInterface	Default	ANE0: waitForAsyncWiring: Waiting for async wiring to be completed. bufferType: 5 barID: 9 size: 540,672
+	
+00:50.144.492	Default	Unknown (0)	AppleH16ANEInterface	Default	ANE0: waitForAsyncWiring: Done waiting for wiring update retries=10. Success!!
+	
+00:50.144.500	Default	Unknown (0)	AppleH16ANEInterface	Default	ANE0: waitForAsyncWiring: Waiting for async wiring to be completed. bufferType: 5 barID: 10 size: 16,384
+	
+00:50.144.501	Default	Unknown (0)	AppleH16ANEInterface	Default	ANE0: waitForAsyncWiring: Done waiting for wiring update retries=10. Success!!
+	
+00:50.144.505	Default	Unknown (0)	AppleH16ANEInterface	Default	ANE0: waitForAsyncWiring: Waiting for async wiring to be completed. bufferType: 5 barID: 11 size: 16,384
+	
+00:50.144.506	Default	Unknown (0)	AppleH16ANEInterface	Default	ANE0: waitForAsyncWiring: Done waiting for wiring update retries=10. Success!!
+	
+00:50.144.510	Default	Unknown (0)	AppleH16ANEInterface	Default	ANE0: waitForAsyncWiring: Waiting for async wiring to be completed. bufferType: 5 barID: 12 size: 16,384
+	
+00:50.144.511	Default	Unknown (0)	AppleH16ANEInterface	Default	ANE0: waitForAsyncWiring: Done waiting for wiring update retries=10. Success!!
+	
+00:50.144.544	Default	Unknown (0)	AppleH16ANEInterface	Default	ANE0: ReleaseProgramMemoryBuffer: Release vnode iocount: 0 usecount: 2 machoFilePath=/System/Library/PrivateFrameworks/TextRecognition.framework/cr_tr_model_chinese_v3.mlmodelc.bundle/model.H17.espresso.hwx
+	
+00:50.144.601	Default	Unknown (0)	AppleH16ANEInterface	Default	ANE0: ANE_PowerOff_gated: clientname ISP isPowered 0
+	
+00:50.144.603	Default	Unknown (0)	AppleH16ANEInterface	Default	ANE0: ANE_PowerOff_gated: clientname aned isPowered 1
+	
+00:50.144.603	Default	Unknown (0)	AppleH16ANEInterface	Default	ANE0: ANE_PowerOff_gated: clientname Photos isPowered 1
+	
+00:50.144.604	Default	Unknown (0)	AppleH16ANEInterface	Default	ANE0: ANE_PowerOff_gated: clientname Photos isPowered 1
+	
+00:50.144.605	Default	Unknown (0)	AppleH16ANEInterface	Default	ANE0: ANE_PowerOff_gated: clientname mediaanalysisd isPowered 1
+	
+00:50.144.605	Default	Unknown (0)	AppleH16ANEInterface	Default	ANE0: ANE_PowerOff_gated: clientname mediaanalysisd isPowered 1
+	
+00:50.144.606	Default	Unknown (0)	AppleH16ANEInterface	Default	ANE0: ANE_PowerOff_gated: clientname mediaanalysisd isPowered 1
+	
+00:50.144.607	Default	Unknown (0)	AppleH16ANEInterface	Default	ANE0: ANE_PowerOff_gated: clientname mediaanalysisd isPowered 1
+	
+00:50.144.608	Default	Unknown (0)	AppleH16ANEInterface	Default	ANE0: ANE_PowerOff_gated: Client requesting power off: mediaanalysisd	
+00:50.144.611	Default	Unknown (0)	AppleH16ANEInterface	Default	ANE0: ANE_PowerOff_gated: clientname:aned isPowered:1 Programs Open:5 Wired-Memory:343,731,712 B
+	
+00:50.144.612	Default	Unknown (0)	AppleH16ANEInterface	Default	ANE0: ANE_PowerOff_gated: clientname:Photos isPowered:1 Programs Open:1 Wired-Memory:281,182,208 B
+	
+00:50.144.614	Default	Unknown (0)	AppleH16ANEInterface	Default	ANE0: ANE_PowerOff_gated: clientname:Photos isPowered:1 Programs Open:1 Wired-Memory:1,392,640 B
+	
+00:50.144.615	Default	Unknown (0)	AppleH16ANEInterface	Default	ANE0: ANE_PowerOff_gated: clientname:mediaanalysisd isPowered:1 Programs Open:1 Wired-Memory:17,808,896 B
+	
+00:50.144.616	Default	Unknown (0)	AppleH16ANEInterface	Default	ANE0: ANE_PowerOff_gated: clientname:mediaanalysisd isPowered:1 Programs Open:1 Wired-Memory:26,349,568 B
+	
+00:50.144.617	Default	Unknown (0)	AppleH16ANEInterface	Default	ANE0: ANE_PowerOff_gated: clientname:mediaanalysisd isPowered:1 Programs Open:1 Wired-Memory:16,998,400 B
+	
+00:50.144.621	Default	Unknown (0)	AppleH16ANEInterface	Default	ANE0: ANE_UserClientClose_gated: :
+	
+00:50.144.623	Default	Unknown (0)	AppleH16ANEInterface	Default	ANE0: ANE_UserClientClose_gated: Removing client: <private>, clientName: mediaanalysisd
+	
+00:50.144.627	Default	Unknown (0)	AppleH16ANEInterface	Default	H11ANEInDirectPathClient: clientClose : mediaanalysisd (<private>)
+	
+00:50.144.682	Debug	DTServiceHub (360)	DVTInstrumentsFoundation	Default	Data Size: 100,982, Rows Sent: 1,408, Stack depth: 2,808	
+00:50.144.743	Default	Unknown (0)	AppleH16ANEInterface	Default	H11ANEInDirectPathClient: stop : mediaanalysisd (<private>) isClientDied = 0
+	
+00:50.144.784	Default	Unknown (0)	AppleH16ANEInterface	Default	free - Freeing UserClient for process: mediaanalysisd (pid 378)
+	
+00:50.144.794	Debug	mediaanalysisd (378)	com.apple.ane	common	<private>: ANEDeviceClose() self.usecount=0 : self.device=0x0	
+00:50.144.850	Default	Unknown (0)	AppleCS42L79Audio	Default	FlickerBiasRequest Enable=1 ret:0	
+00:50.146.965	Info	mediaanalysisd (378)	com.apple.LanguageModeling	Default	Options is updating <private> from 1 to 0	
+00:50.147.166	Debug	cfprefsd (106)	com.apple.defaults	cfprefsd	Process 378 (mediaanalysisd) sent a request related to { kCFPreferencesAnyApplication, user: kCFPreferencesAnyUser, kCFPreferencesCurrentHost, /Library/Managed Preferences/.GlobalPreferences.plist, managed: 1 } (0x9563775c0)	
+00:50.147.202	Debug	cfprefsd (106)	com.apple.defaults	cfprefsd	Couldn't open <private> due to No such file or directory	
+00:50.147.262	Debug	mediaanalysisd (378)	com.apple.defaults	User Defaults	CFPrefsManagedSource<0x6730d3880> (Domain: kCFPreferencesAnyApplication, User: kCFPreferencesAnyUser, ByHost: Yes, Container: (null), Contents Need Refresh: No) loaded: an empty base plist and no additional changes from the base plist	
+00:50.147.309	Debug	mediaanalysisd (378)	com.apple.defaults	User Defaults	found no value for key LMDisableMobileAssets in CFPrefsSearchListSource<0x6730d3800> (Domain: kCFPreferencesAnyApplication, Container: (null))	
+00:50.147.346	Debug	mediaanalysisd (378)	com.apple.CFBundle	resources	Resource lookup at <private>
+	Request       : AssetData
+	Result        : file:////System/Library/LinguisticData//RequiredAssets_ko.bundle/AssetData/
+	
+00:50.147.400	Info	mediaanalysisd (378)	com.apple.espresso	espresso	Destroying context 27,727,422,816	
+00:50.147.635	Debug	mediaanalysisd (378)	com.apple.defaults	User Defaults	found no value for key LMDisableMobileAssets in CFPrefsSearchListSource<0x6730d3800> (Domain: kCFPreferencesAnyApplication, Container: (null))	
+00:50.147.664	Debug	mediaanalysisd (378)	com.apple.CFBundle	resources	Resource lookup at <private>
+	Request       : AssetData
+	Result        : file:////System/Library/LinguisticData//RequiredAssets_ko.bundle/AssetData/
+	
+00:50.148.587	Info	mediaanalysisd (378)	com.apple.LanguageModeling	Default	Options is updating <private> from 1 to 0	
+00:50.149.012	Default	mediaanalysisd (378)	com.apple.LanguageModeling	CompositeLanguageModel	Creating CompositeLanguageModel (<private>) for locale(s) (<private>):
+<private>	
+00:50.149.455	Info	mediaanalysisd (378)	com.apple.LanguageModeling	CompositeLanguageModel	loading resource id 0 type 7 with path <private>	
+00:50.149.563	Debug	mediaanalysisd (378)	com.apple.CFBundle	resources	Language lookup at <private>
+	Localizations : []
+	Dev language  : 
+	User prefs    : [en-AS]
+	Main bundle   : [<null>]
+	Allow mixed   : 1 
+	Result        : []
+	
+00:50.149.620	Debug	mediaanalysisd (378)	com.apple.CFBundle	resources	Resource lookup at <private>
+	Request       : UnifiedTransliteration-ko type: dat
+	Result        : None
+	
+00:50.149.678	Debug	mediaanalysisd (378)	com.apple.CFBundle	resources	Language lookup at <private>
+	Localizations : []
+	Dev language  : 
+	User prefs    : [en-AS]
+	Main bundle   : [<null>]
+	Allow mixed   : 1 
+	Result        : []
+	
+00:50.149.720	Debug	mediaanalysisd (378)	com.apple.CFBundle	resources	Resource lookup at <private>
+	Request       : Unigrams-ko type: dat
+	Result        : file:///System/Library/LinguisticData/RequiredAssets_ko.bundle/AssetData/Unigrams-ko.dat
+	
+00:50.149.776	Debug	mediaanalysisd (378)	com.apple.CFBundle	resources	Language lookup at <private>
+	Localizations : []
+	Dev language  : 
+	User prefs    : [en-AS]
+	Main bundle   : [<null>]
+	Allow mixed   : 1 
+	Result        : []
+	
+00:50.149.817	Debug	mediaanalysisd (378)	com.apple.CFBundle	resources	Resource lookup at <private>
+	Request       : Delta-ko type: dat
+	Result        : None
+	
+00:50.151.016	Debug	mediaanalysisd (378)	com.apple.defaults	User Defaults	found no value for key LMDisableMobileAssets in CFPrefsSearchListSource<0x6730d3800> (Domain: kCFPreferencesAnyApplication, Container: (null))	
+00:50.151.113	Debug	mediaanalysisd (378)	com.apple.DataDeliveryServices	AutoAsset	LinguisticAssetType is provided in the query does not support auto asset: <private>	
+00:50.151.153	Default	mediaanalysisd (378)	com.apple.DataDeliveryServices	AutoAsset	Auto asset is not supported for query: <query: com.apple.MobileAsset.LinguisticDataAuto, locO: 1, iO: 1, latO: 1, cO: 0, <filter: {
+    AssetLocale = "{(\n    ko\n)}";
+    LinguisticAssetType = "{(\n    Delta\n)}";
+}>>	
+00:50.151.187	Default	mediaanalysisd (378)	com.apple.DataDeliveryServices	Query	Updated cache for query: <query: com.apple.MobileAsset.LinguisticDataAuto, locO: 1, iO: 1, latO: 1, cO: 0, <filter: {
+    AssetLocale = "{(\n    ko\n)}";
+    LinguisticAssetType = "{(\n    Delta\n)}";
+}>> assets: (
+) was cached: 0, cachedOnly: 0	
+00:50.151.203	Default	mediaanalysisd (378)	com.apple.DataDeliveryServices	Query	assetsForQuery: <query: com.apple.MobileAsset.LinguisticDataAuto, locO: 1, iO: 1, latO: 1, cO: 0, <filter: {
+    AssetLocale = "{(\n    ko\n)}";
+    LinguisticAssetType = "{(\n    Delta\n)}";
+}>> final result: (
+) was cached: 0, cachedOnly: 0	
+00:50.151.237	Debug	mediaanalysisd (378)	com.apple.DataDeliveryServices	Query	Setting setDoNotBlockOnNetworkStatus to YES	
+00:50.151.420	Default	mobileassetd (336)	com.apple.mobileassetd	Notice	-[ControlManager handleClientConnection:on:]_block_invoke: assetType: com.apple.MobileAsset.LinguisticData client: mediaanalysisd, command: 1 (MA_QUERY_ASSET_TYPE)	
+00:50.151.449	Default	mobileassetd (336)	com.apple.mobileassetd	Notice	-[ControlManager handleClientConnection:on:]_block_invoke: mediaanalysisd issued query command for com.apple.MobileAsset.LinguisticData	
+00:50.151.466	Default	mobileassetd (336)	com.apple.mobileassetd	Notice	-[ControlManager handleQueryRequest:clientName:connection:message:]: mediaanalysisd queried for: com.apple.MobileAsset.LinguisticData with returnType of: 2 (MAUnionOfCatalogInstalled) - will not block on network by client request	
+00:50.151.584	Default	mobileassetd (336)	com.apple.mobileassetd	Notice	-[ControlManager determineAssets:clientName:connection:downloadingTasks:message:resultTypes:queryArray:isForSpecificAsset:specificAssetId:specificAllowedDifferences:]: mediaanalysisd queried for: com.apple.MobileAsset.LinguisticData with returnType of: 2 with Purpose: (null)	
+00:50.152.299	Default	mobileassetd (336)	com.apple.mobileassetd	Notice	-[ControlManager newCatalogLoad:withPurpose:]: Catalog fileLocation: /private/var/MobileAsset/AssetsV2/com_apple_MobileAsset_LinguisticData/com_apple_MobileAsset_LinguisticData.xml	
+00:50.160.107	Default	appleh16camerad (129)	com.apple.isp	daemon	addClient_block_invoke - Photon Detector power on device returned 0
+
+	
+00:50.160.196	Default	appleh16camerad (129)	com.apple.isp	daemon	New connection: pid <private>
+	
+00:50.160.236	Default	appleh16camerad (129)	com.apple.isp	daemon	Total number of connections: 1
+	
+00:50.160.269	Default	appleh16camerad (129)	com.apple.xpc	connection	[0x9c22483c0] activating connection: mach=0 listener=0 peer=1 name=com.apple.appleh16camerad.peer[68].0x9c22483c0	
+00:50.160.355	Default	appleh16camerad (129)	com.apple.isp	general	H16ISPFlickerDetectorCreate - HWType = 10; pContext = 0x9c2240300 
+
+	
+00:50.160.484	Info	appleh16camerad (129)	com.apple.isp	daemon	getProperty - 100
+	
+00:50.160.526	Error	appleh16camerad (129)	com.apple.isp	daemon	getProperty: Incoming query from client (pid <private>), num pending requests = 1
+
+	
+00:50.160.611	Info	appleh16camerad (129)	com.apple.isp	daemon	getProperty - 100 complete (res=0x0)
+
+	
+00:50.160.653	Error	appleh16camerad (129)	com.apple.isp	photon	GetLuxInfo - GetLuxInfo: Scheduling the lux query on the serial queue
+	
+00:50.161.993	Default	Unknown (0)	AppleT8140	Default	AppleH17PPlatformErrorHandler::_dcsWritePTD: 112109103114 3 offset f00 @ <private>[0x3003d0f00] <- 8
+
+	
+00:50.162.014	Default	Unknown (0)	AppleT8140	Default	AppleH17PPlatformErrorHandler::_dcsHandleDCSOdtsEvent: Reset _dcsOdtsBelowThresholdCount to 0
+
+	
+00:50.162.021	Default	Unknown (0)	AppleT8140	Default	AppleH17PPlatformErrorHandler::_dcsHandleDCSOdtsEvent: start next polling
+
+	
+00:50.162.150	Default	appleh16camerad (129)	com.apple.isp	general	FlickerDetector: ArbiterClient resource access granted=1
+
+	
+00:50.162.221	Debug	appleh16camerad (129)	com.apple.coreaudio	audiocomp	AudioComponentPluginMgr.mm:1,213 findNext auou/hkip/appl -> 0x9c20c4c80 auou/hkip/appl/0x8000/0x0	
+00:50.162.289	Debug	appleh16camerad (129)	com.apple.coreaudio	aurioc	AURemoteIO.cpp:321 AURemoteIO@0x9c22d4040: constructing	
+00:50.162.403	Debug	audiomxd (105)	com.apple.coreaudio	aurios	RemoteIOServer.cpp:1,804 AUIOServer_NewClient; personality=3	
+00:50.162.675	Debug	audiomxd (105)	com.apple.coreaudio	aqme	AQIONode.cpp:323 AQIONodeClient 0x4ad474780: 1	
+00:50.162.726	Debug	appleh16camerad (129)	com.apple.coreaudio	aurioc	AURemoteIO.cpp:405 AURemoteIO::AURemoteIO: Server PID = 105	
+00:50.162.784	Debug	appleh16camerad (129)	com.apple.coreaudio	aurioc	AURemoteIO.cpp:1,444 AURemoteIO(0x9c22d4040)::SetupConverter: input  bus
+  from:  1 ch,      0 Hz, Float32
+    to:  2 ch,  48000 Hz, Float32, interleaved	
+00:50.162.827	Debug	appleh16camerad (129)	com.apple.coreaudio	aurioc	AUIOHelper.cpp:30 AUIOHelper::Initialize	
+00:50.162.866	Debug	appleh16camerad (129)	com.apple.coreaudio	aurioc	AURemoteIO.cpp:787 AURemoteIO(0x9c22d4040)::SetProperty scope 0, elem 0, prop 2,005, 16 bytes: a8a1fa0201802471000324c209000000	
+00:50.162.899	Debug	appleh16camerad (129)	com.apple.coreaudio	aurioc	AURemoteIO.cpp:1,043 AURemoteIO@0x9c22d4040: Initialize	
+00:50.162.929	Debug	appleh16camerad (129)	com.apple.coreaudio	aurioc	AURemoteIO.cpp:1,064 AURemoteIO@0x9c22d4040: outputFormat:  1 ch,      0 Hz, Float32	
+00:50.162.958	Debug	appleh16camerad (129)	com.apple.coreaudio	aurioc	AURemoteIO.cpp:1,065 AURemoteIO@0x9c22d4040: inputFormat:   2 ch,  48000 Hz, Float32, interleaved	
+00:50.162.988	Debug	appleh16camerad (129)	com.apple.coreaudio	aurioc	AURemoteIO.cpp:787 AURemoteIO(0x9c22d4040)::SetProperty scope 0, elem 0, prop 2,996, 12 bytes: 000000000000000000000000	
+00:50.163.098	Default	appleh16camerad (129)	com.apple.coreaudio	aurioc	AURemoteIO.cpp:1,086 AURemoteIO@0x9c22d4040: set kAudioOutputUnitProperty_OutputChannelLayout.  Layout = tag=0x0, 0 channel descriptions [], err = 0	
+00:50.163.166	Debug	audiomxd (105)	com.apple.coreaudio	aurios	RemoteIOServer.cpp:442 connecting 0x4ad474700, enables 1	
+00:50.163.230	Debug	audiomxd (105)	com.apple.CFBundle	strings	Bundle: <private>, key: L, value: L, table: AudioChannelShortLabels, localizationNames: , result: L	
+00:50.163.264	Debug	audiomxd (105)	com.apple.CFBundle	strings	Bundle: <private>, key: R, value: R, table: AudioChannelShortLabels, localizationNames: , result: R	
+00:50.163.289	Default	audiomxd (105)	com.apple.coreaudio	aqme	RemoteIOServer.h:101 rio@0x4ad474700 Got input layout from io node or spatialized client: tag=0x0, 2 channel descriptions [L, R]	
+00:50.163.318	Debug	audiomxd (105)	com.apple.coreaudio	aqme	AQMixEngine.cpp:885 ->AQMEDevice(0x4ac442200)::AddIOClient <RemoteIOClient@0x4ad474700(@0x4ad474780); input; CMSession(appleh16camerad[129], 0xffffffff)>	
+00:50.163.345	Debug	audiomxd (105)	com.apple.coreaudio	aqme	MEDeviceStreamClient.cpp:1,194 inputA:        2 ch,  48000 Hz, Float32, deinterleaved	
+00:50.163.370	Debug	audiomxd (105)	com.apple.coreaudio	aqme	MEDeviceStreamClient.cpp:1,211 inputB:        2 ch,  48000 Hz, Float32, deinterleaved	
+00:50.163.392	Debug	audiomxd (105)	com.apple.coreaudio	aqme	MEInputManager.cpp:23 MEInputManager(0x4aca9dd80)::AddInputClient 0x4ad474780	
+00:50.163.416	Debug	audiomxd (105)	com.apple.coreaudio	aqme	MEInputManager.cpp:185 InputDispatcher(0x4b0011fe0, client 0x4ad474780)::AdaptToIOFormat:  2 ch,  48000 Hz, Float32, deinterleaved	
+00:50.163.439	Debug	audiomxd (105)	com.apple.coreaudio	aqme	MEInputManager.cpp:33 MEInputManager::AddInputClient 0x4ad474780	
+00:50.163.487	Debug	audiomxd (105)	com.apple.coreaudio	aurios	RemoteIOServer.cpp:460 mInput I/O format:      2 ch,  48000 Hz, Float32, deinterleaved	
+00:50.163.513	Debug	audiomxd (105)	com.apple.coreaudio	aurios	RemoteIOServer.cpp:461 mInput client format:   2 ch,  48000 Hz, Float32, interleaved	
+00:50.163.580	Debug	appleh16camerad (129)	com.apple.coreaudio	aurioc	AURemoteIO.cpp:1,161 outputFormat -, inputFormat  2 ch,  48000 Hz, Float32, deinterleaved	
+00:50.163.622	Debug	appleh16camerad (129)	com.apple.coreaudio	aurioc	AURemoteIO.cpp:1,207 0x9c22d4040 enables 1; formats:	
+00:50.163.653	Debug	appleh16camerad (129)	com.apple.coreaudio	aurioc	AURemoteIO.cpp:1,214 Input client:     2 ch,  48000 Hz, Float32, interleaved	
+00:50.163.683	Debug	appleh16camerad (129)	com.apple.coreaudio	aurioc	AURemoteIO.cpp:1,215 Input hardware:   2 ch,  48000 Hz, Float32, deinterleaved	
+00:50.163.726	Debug	appleh16camerad (129)	com.apple.CFBundle	strings	Bundle: <private>, key: L, value: L, table: AudioChannelShortLabels, localizationNames: , result: L	
+00:50.163.757	Debug	appleh16camerad (129)	com.apple.CFBundle	strings	Bundle: <private>, key: R, value: R, table: AudioChannelShortLabels, localizationNames: , result: R	
+00:50.163.780	Debug	appleh16camerad (129)	com.apple.coreaudio	aurioc	AURemoteIO.cpp:1,216 Input hardware layout: tag=0x0, 2 channel descriptions [L, R]	
+00:50.163.828	Debug	appleh16camerad (129)	com.apple.coreaudio	aurioc	AUIOHelper.cpp:30 AUIOHelper::Initialize	
+00:50.163.862	Debug	appleh16camerad (129)	com.apple.coreaudio	aurioc	AURemoteIO.cpp:1,444 AURemoteIO(0x9c22d4040)::SetupConverter: output bus
+  from:  1 ch,      0 Hz, Float32
+    to:  1 ch,      0 Hz, Float32	
+00:50.164.015	Debug	appleh16camerad (129)	com.apple.defaults	User Defaults	found no value for key converterkTracesPermitted in CFPrefsSearchListSource<0x9c2062600> (Domain: com.apple.coreaudio, Container: (null))	
+00:50.164.055	Debug	appleh16camerad (129)	com.apple.defaults	User Defaults	found no value for key converterkTracesPermitted in CFPrefsSearchListSource<0x9c2062600> (Domain: com.apple.coreaudio, Container: (null))	
+00:50.164.106	Debug	appleh16camerad (129)	com.apple.defaults	User Defaults	found no value for key converterkTracesPermitted in CFPrefsSearchListSource<0x9c2062600> (Domain: com.apple.coreaudio, Container: (null))	
+00:50.164.137	Default	appleh16camerad (129)	com.apple.coreaudio	AudioConverter	AudioConverter.cpp:1,010 Created a new in process converter -> 0x9c233cd80, from  2 ch,  48000 Hz, Float32, deinterleaved to  2 ch,  48000 Hz, Float32, interleaved	
+00:50.164.169	Debug	appleh16camerad (129)	com.apple.coreaudio	aurioc	AURemoteIO.cpp:1,435 AURemoteIO(0x9c22d4040)::SetupConverter: input  bus
+<AudioConverterRef 0x814b9 [0x9c233cd80]>
+	
+00:50.164.218	Debug	appleh16camerad (129)	com.apple.coreaudio	aurioc	AURemoteIO.cpp:787 AURemoteIO(0x9c22d4040)::SetProperty scope 1, elem 1, prop 2,022, 4 bytes: 0000803f	
+00:50.164.350	Default	audiomxd (105)	com.apple.coreaudio	va_vadevc	VirtualAudio_Device.cpp:2,848 [volm/inpt/0] on VAD '[ type: vhaw; id: 151; addr: 0x4acc41900; context id: 0; hidden: 0; VA strms: { i/156/0x4ac0538e0,  }; agg dev: [ id: 130; addr: 0x104e0c350; uid: "VAD [vhaw] AggDev 3"; virt strms: { i/0x4ac90c300,  }; phys devs: { [ id: 86; addr: 0x4ac4d8600; uid: "Flicker"; streams: { i/87/0x4ac9c0248,  } ] } ] ]': 1.0000.	
+00:50.164.405	Default	audiomxd (105)	com.apple.coreaudio	va_contrl	InputVolumeControl_HAL_Common.cpp:161   Setting Input Volume: 0.0000 dB, Final HW Volume: 0.0000 dB, Final SW Volume: 0.0000 dB	
+00:50.164.437	Default	audiomxd (105)	com.apple.coreaudio	va_contrl	InputVolumeControl_HAL_Common.cpp:162   VAD '[ id: 86; addr: 0x4ac4d8600; uid: "Flicker"; streams: { i/87/0x4ac9c0248,  } ]'	
+00:50.164.471	Default	audiomxd (105)	com.apple.coreaudio	va_contrl	InputVolumeControl_HAL_Common.cpp:164   PhysicalDevice UID = "Flicker"	
+00:50.164.502	Default	audiomxd (105)	com.apple.coreaudio	va_contrl	InputVolumeControl_HAL_Common.cpp:165   Scope = 1,768,845,428 ("inpt")	
+00:50.164.535	Default	audiomxd (105)	com.apple.coreaudio	va_contrl	InputVolumeControl_HAL_Common.cpp:166   Element = 0 ("0")	
+00:50.164.563	Debug	audiomxd (105)	com.apple.coreaudio	va_contrl	InputVolumeControl_HAL_Common.cpp:167   SW Volume: disabled	
+00:50.165.554	Default	appleh16camerad (129)	com.apple.coreaudio	aurioc	AURemoteIO.cpp:1,622 Starting AURemoteIO(0x9c22d4040)
+output client:  1 ch,      0 Hz, Float32, output HW:  1 ch,      0 Hz, Float32
+input client:   2 ch,  48000 Hz, Float32, interleaved, input HW:   2 ch,  48000 Hz, Float32, deinterleaved	
+00:50.165.605	Debug	appleh16camerad (129)	com.apple.coreaudio	aurioc	AURemoteIO.cpp:1,492 AURemoteIO(0x9c22d4040)::Start (period 0.0853, 2,048,000)	
+00:50.165.668	Info	audiomxd (105)	com.apple.coreaudio	aurios	RemoteIOServer.cpp:1,969 workgroup 0x10503	
+00:50.165.714	Default	appleh16camerad (129)	com.apple.coreaudio	aurioc	AURemoteIO.cpp:1,683 workgroup port 0x68fb	
+00:50.165.837	Info	appleh16camerad (129)	com.apple.coreaudio	aurioc	AURemoteIO.cpp:2,027 AURemoteIO@0x9c22d4040: IOThread starting	
+00:50.165.874	Debug	audiomxd (105)	com.apple.coreaudio	aurios	RemoteIOServer.cpp:2,043 ->AUIOServer_StartIO 0x696f3	
+00:50.165.912	Debug	audiomxd (105)	com.apple.coreaudio	aurios	RemoteIOServer.cpp:356 -> msgSeqNum: 0	
+00:50.165.943	Debug	audiomxd (105)	com.apple.coreaudio	aurios	RemoteIOServer.cpp:380 <-	
+00:50.165.978	Debug	audiomxd (105)	com.apple.coreaudio	aqme	AQMixEngine.cpp:1,011 ->AQMEDevice(0x4ac442200)::AddRunningClient <RemoteIOClient@0x4ad474700(@0x4ad474780); input; CMSession(appleh16camerad[129], 0xffffffff)> count 0	
+00:50.166.009	Default	audiomxd (105)	com.apple.coreaudio	aqme	MEDeviceStreamClient.cpp:227 AQME Device-VirtualAudioDevice_Hawking: client starting: <RemoteIOClient@0x4ad474700(@0x4ad474780); input; CMSession(appleh16camerad[129], 0xffffffff)>; running count now 1	
+00:50.166.072	Default	audiomxd (105)	com.apple.coreaudio	aqme	AQMEIO_HAL.cpp:2,657 FetchAndLogFrameSize starting IO deviceID=151, frame size is 1,024	
+00:50.166.177	Default	audiomxd (105)	com.apple.coreaudio	va_hplayr	HP_HardwarePlugInInterface.cpp:686 Client request to start IO proc ID 0x4acaf5e00 on VAD: '[ type: vhaw; id: 151; addr: 0x4acc41900; context id: 0; hidden: 0; VA strms: { i/156/0x4ac0538e0,  }; agg dev: [ id: 130; addr: 0x104e0c350; uid: "VAD [vhaw] AggDev 3"; virt strms: { i/0x4ac90c300,  }; phys devs: { [ id: 86; addr: 0x4ac4d8600; uid: "Flicker"; streams: { i/87/0x4ac9c0248,  } ] } ] ]'.	
+00:50.166.250	Default	audiomxd (105)	com.apple.coreaudio	va_aggdev	VirtualAudioQueue.h:169 :492:: IOProc (AggregateDevice 130, IO type NonNullIOProc) running state is now running (2).	
+00:50.166.278	Debug	audiomxd (105)	com.apple.coreaudio	va_aggdev	AggregateDevice_CommonBase.cpp:1,646 Get sample rate value of 48,000.0000 from AggregateDevice_Common2 (selector: kAudioDevicePropertyNominalSampleRate; scope: 'glob' (1,735,159,650); element: 0).	
+00:50.166.327	Debug	audiomxd (105)	com.apple.coreaudio	va_aggdev	AggregateDevice_CommonBase.cpp:1,646 Get sample rate value of 48,000.0000 from AggregateDevice_Common2 (selector: kAudioDevicePropertyNominalSampleRate; scope: 'glob' (1,735,159,650); element: 0).	
+00:50.166.359	Default	audiomxd (105)	com.apple.coreaudio	va_aggdev	AggregateDevice_Common.cpp:1,075 Current HAL IOProc format is [ 32/48000/2; flags: 0x9; bpp: 8; fpp: 1; Bpf: 8 ]	
+00:50.166.403	Debug	audiomxd (105)	com.apple.coreaudio	va_aggdev	AggregateDevice_CommonBase.cpp:1,646 Get sample rate value of 48,000.0000 from AggregateDevice_Common2 (selector: kAudioDevicePropertyNominalSampleRate; scope: 'glob' (1,735,159,650); element: 0).	
+00:50.166.436	Info	audiomxd (105)	com.apple.coreaudio	va_aggdev	AggregateDevice_Common.cpp:1,091 DSP is disabled:
+
+================
+Chain Name:VAD - Unknown
+Before processing reformatting: unneeded
+DSPChain is empty.
+After processing reformatting: unneeded
+================
+	
+00:50.166.463	Info	audiomxd (105)	com.apple.coreaudio	va_aggdev	AggregateDevice_Common.cpp:1,094 Chain Description: 
+================
+Chain Name:VAD - Unknown
+Before processing reformatting: unneeded
+DSPChain is empty.
+After processing reformatting: unneeded
+================
+	
+00:50.166.489	Default	audiomxd (105)	com.apple.coreaudio	va_aggdev	AggregateDevice_Common.cpp:1,191 Updated IOProcCache for VAD 'vhaw'. NumStreams: 0 SampleRate: 48,000.0000	
+00:50.166.512	Info	audiomxd (105)	com.apple.coreaudio	va_aggdev	AggregateDevice_Common.cpp:1,446 stream capture flags : 00000000 (anc|tel|sec|pri|hal)	
+00:50.166.544	Default	audiomxd (105)	com.apple.coreaudio	va_aggdev	AggregateDevice.cpp:434 Disabling HAL data taps, Setting kAudioDevicePropertyEnableCaptureFile to 0	
+00:50.166.585	Info	audiomxd (105)	com.apple.coreaudio	va_aggdev	AggregateDeviceUtilities.cpp:129 Could not find fixed buffer size for VAD [vhaw]	
+00:50.166.611	Default	audiomxd (105)	com.apple.coreaudio	va_aggdev	AggregateDevice_Common.cpp:409 Starting IO type 0 on AggregateDevice 130.	
+00:50.166.639	Default	audiomxd (105)	CoreAudio	Default	HALS_IOContext_Legacy_Impl.cpp:366  HALS_IOContext_Legacy_Impl::Server_Internal_StartIOProcID: 133 Flicker (VAD [vhaw] AggDev 3):	
+00:50.166.668	Default	audiomxd (105)	CoreAudio	Default	HALS_IOContext_Legacy_Impl.cpp:372  				starting ProcID 0x21 state: Prewarm: 0 Play: 0 State: Stopped IOProc 0x21: no	
+00:50.166.692	Debug	audiomxd (105)	com.apple.coreaudio	AMCP	160,219 HALS_IOContext_Legacy_Impl.cpp:5,817 HALS_IOContext_Legacy_Impl::Start_ActivateDSP [hal_dsp] >>>> (Context ID: 133) - HOSTED DSP IS NOT ENABLED <<<<	
+00:50.166.803	Default	audiomxd (105)	CoreAudio	Default	HALS_IOContext_Legacy_Impl.cpp:1,680  HALS_IOContext_Legacy_Impl::IOWorkLoopInit: 133 Flicker (VAD [vhaw] AggDev 3): starting	
+00:50.166.900	Default	audiomxd (105)	CoreAudio	Default	HALS_IOEngine2.cpp:2,225  HALS_IOEngine2::StartIO: starting IO on device <private>	
+00:50.166.949	Default	Unknown (0)	AppleCS42L79Audio	Default	AppleCS42L79Audio::notifySecondaryActiveChangeGated(Flicker) enable:1 direction:1 	
+00:50.166.963	Default	Unknown (0)	AppleCS42L79Audio	Default	MClk Enable:1 client:4 mask:2c	
+00:50.166.966	Default	Unknown (0)	AppleCS42L79Audio	Default	Enable Route ASP:2 Tx:1 Ch:2 Start:7	
+00:50.167.083	Default	audiomxd (105)	CoreAudio	Default	HALB_PowerAssertion.cpp:119  HALB_PowerAssertion::Take: taking power assertion ID 32,775 of type 'PreventUserIdleSystemSleep' with name: 'com.apple.audio.VAD [vhaw] AggDev 3.context.preventuseridlesleep'	
+00:50.167.101	Debug	audiomxd (105)	com.apple.coreaudio	AMCP	198,299 HALS_IOEngine2.cpp:2,535 >>> HALS_IOEngine2::_StartIO(89) called on Context 133  current state: Prewarm: 0 Play: 0 State: Stopped	
+00:50.167.136	Default	Unknown (0)	AppleCS42L79Audio	Default	Read  Adr:470074 Val:f00e1	
+00:50.167.284	Default	Unknown (0)	AppleCS42L79Audio	Default	Write Adr:470074 Val:f00e1	
+00:50.167.436	Default	Unknown (0)	AppleCS42L79Audio	Default	Read  Adr:470078 Val:f0101	
+00:50.167.592	Default	Unknown (0)	AppleCS42L79Audio	Default	Write Adr:470078 Val:f0101	
+00:50.167.750	Default	Unknown (0)	AppleCS42L79Audio	Default	Read  Adr:470024 Val:0	
+00:50.167.896	Default	Unknown (0)	AppleCS42L79Audio	Default	Write Adr:470024 Val:180	
+00:50.168.058	Default	Unknown (0)	AppleCS42L79Audio	Default	Read  Adr:470000 Val:404	
+00:50.168.203	Default	Unknown (0)	AppleCS42L79Audio	Default	Write Adr:470000 Val:406	
+00:50.168.212	Default	Unknown (0)	AppleCS42L79Audio	Default	enableFlicker Src:5 Ch:7	
+00:50.168.377	Default	Unknown (0)	AppleCS42L79Audio	Default	Read  Adr:450004 Val:4d4c	
+00:50.168.520	Default	Unknown (0)	AppleCS42L79Audio	Default	Write Adr:450004 Val:5004d4c	
+00:50.168.523	Default	Unknown (0)	AppleCS42L79Audio	Default	getADCGain result:0 adc:5 gain:3c0
+	
+00:50.168.680	Default	Unknown (0)	AppleCS42L79Audio	Default	Read  Adr:4d0000 Val:afc4	
+00:50.168.827	Default	Unknown (0)	AppleCS42L79Audio	Default	Write Adr:4d0000 Val:afc4	
+00:50.168.974	Default	Unknown (0)	AppleCS42L79Audio	Default	Write Adr:10000 Val:f103	
+00:50.168.978	Default	Unknown (0)	AppleCS42L79Audio	Default	enableFlicker Src:6 Ch:8	
+00:50.169.133	Default	Unknown (0)	AppleCS42L79Audio	Default	Read  Adr:450008 Val:0	
+00:50.169.281	Default	Unknown (0)	AppleCS42L79Audio	Default	Write Adr:450008 Val:6	
+00:50.169.284	Default	Unknown (0)	AppleCS42L79Audio	Default	getADCGain result:0 adc:6 gain:3c0
+	
+00:50.169.433	Default	Unknown (0)	AppleCS42L79Audio	Default	Read  Adr:4d0004 Val:afc4	
+00:50.169.572	Default	Unknown (0)	AppleCS42L79Audio	Default	Write Adr:4d0004 Val:afc4	
+00:50.169.713	Default	Unknown (0)	AppleCS42L79Audio	Default	Write Adr:10000 Val:f303	
+00:50.169.725	Default	Unknown (0)	AppleARMIISAudio	Default	+ Flicker::startIOEngineGated()	
+00:50.169.735	Default	Unknown (0)	AppleARMIISAudio	Default	+ Flicker startTransport
+	
+00:50.174.109	Default	Unknown (0)	AppleARMIISAudio	Default	- Flicker startTransport ret=success(0)	
+00:50.174.126	Default	Unknown (0)	AppleARMIISAudio	Default	- Flicker::startIOEngineGated() ret=success(0)	
+00:50.174.131	Default	Unknown (0)	AppleEmbeddedAudio	Default	Flicker: streaming audio
+	
+00:50.174.150	Default	audiomxd (105)	CoreAudio	Default	HALS_IOA2Device.cpp:2,266  HALS_IOA2Device::IOAudio2DeviceNotificationPortMessageHandler: <private>|86 +++++++++------>	
+00:50.174.216	Default	audiomxd (105)	CoreAudio	Default	HALS_IOA2Device.cpp:2,343  HALS_IOA2Device::IOAudio2DeviceNotificationPortMessageHandler: <private>|86 <------+++++++++	
+00:50.174.249	Default	mobileassetd (336)	com.apple.mobileassetd	Notice	-[ControlManager determineAssets:clientName:connection:downloadingTasks:message:resultTypes:queryArray:isForSpecificAsset:specificAssetId:specificAllowedDifferences:]: mediaanalysisd queried for: com.apple.MobileAsset.LinguisticData with returnTypes 2 (MAUnionOfCatalogInstalled) and found 0 assets with result 0 (MAQuerySuccessful) --> From 278 listed in the catalog and 1 local (1/1 downloaded, 0 preinstalled)--> Catalog info ({     isLiveServer = 1; }) --> Filtered for MAUnionOfCatalogInstalled to 0 in catalog (0 installed, 0 server-only, 0 preinstalled), 0 installedNotInCatalog, 0 installedWithOS, 0 requiredByOS; the query params are: [ AssetLocale:'ko' and LinguisticAssetType:'Delta' and _CompatibilityVersion:'16' and _SupportedPlatforms:'iOS'] --> Merged to 0 assets 	
+00:50.174.379	Default	mediaanalysisd (378)	com.apple.mobileassetd	Notice	-[MAAssetQuery getResultsFromMessage:]: Got the query meta data reply for: com.apple.MobileAsset.LinguisticData, response: 0	
+00:50.174.438	Debug	mediaanalysisd (378)	com.apple.DataDeliveryServices	Query	assetsForQuery raw results: (
+), result value: 0	
+00:50.174.450	Debug	mediaanalysisd (378)	com.apple.DataDeliveryServices	Query	Searching for regions in filters: <private>, found allowed regions: 	
+00:50.174.479	Default	mediaanalysisd (378)	com.apple.DataDeliveryServices	Query	assetsForQuery: <query: com.apple.MobileAsset.LinguisticData, locO: 1, iO: 1, latO: 1, cO: 0, <filter: {
+    AssetLocale = "{(\n    ko\n)}";
+    LinguisticAssetType = "{(\n    Delta\n)}";
+}>> final result: (
+) was cached: 0, cachedOnly: 0	
+00:50.174.502	Debug	mediaanalysisd (378)	com.apple.defaults	User Defaults	found no value for key LMDisableMobileAssets in CFPrefsSearchListSource<0x6730d3800> (Domain: kCFPreferencesAnyApplication, Container: (null))	
+00:50.174.522	Debug	mediaanalysisd (378)	com.apple.DataDeliveryServices	AutoAsset	LinguisticAssetType is provided in the query does not support auto asset: <private>	
+00:50.174.539	Default	mediaanalysisd (378)	com.apple.DataDeliveryServices	AutoAsset	Auto asset is not supported for query: <query: com.apple.MobileAsset.LinguisticDataAuto, locO: 1, iO: 1, latO: 1, cO: 0, <filter: {
+    AssetLocale = "{(\n    ko\n)}";
+    LinguisticAssetType = "{(\n    Optional\n)}";
+}>>	
+00:50.174.556	Default	mediaanalysisd (378)	com.apple.DataDeliveryServices	Query	Updated cache for query: <query: com.apple.MobileAsset.LinguisticDataAuto, locO: 1, iO: 1, latO: 1, cO: 0, <filter: {
+    AssetLocale = "{(\n    ko\n)}";
+    LinguisticAssetType = "{(\n    Optional\n)}";
+}>> assets: (
+) was cached: 0, cachedOnly: 0	
+00:50.174.569	Default	mediaanalysisd (378)	com.apple.DataDeliveryServices	Query	assetsForQuery: <query: com.apple.MobileAsset.LinguisticDataAuto, locO: 1, iO: 1, latO: 1, cO: 0, <filter: {
+    AssetLocale = "{(\n    ko\n)}";
+    LinguisticAssetType = "{(\n    Optional\n)}";
+}>> final result: (
+) was cached: 0, cachedOnly: 0	
+00:50.174.589	Debug	mediaanalysisd (378)	com.apple.DataDeliveryServices	Query	Setting setDoNotBlockOnNetworkStatus to YES	
+00:50.174.653	Default	audiomxd (105)	com.apple.coreaudio	AMCP	198,299 HALS_IOEngine2.cpp:2,567 		HALS_IOEngine2::_StartIO(89) succeeded on Context 133  new state: Prewarm: 0 Play: 1 State: Running	
+00:50.174.699	Default	mobileassetd (336)	com.apple.mobileassetd	Notice	-[ControlManager handleClientConnection:on:]_block_invoke: assetType: com.apple.MobileAsset.LinguisticData client: mediaanalysisd, command: 1 (MA_QUERY_ASSET_TYPE)	
+00:50.174.712	Default	mobileassetd (336)	com.apple.mobileassetd	Notice	-[ControlManager handleClientConnection:on:]_block_invoke: mediaanalysisd issued query command for com.apple.MobileAsset.LinguisticData	
+00:50.174.722	Default	mobileassetd (336)	com.apple.mobileassetd	Notice	-[ControlManager handleQueryRequest:clientName:connection:message:]: mediaanalysisd queried for: com.apple.MobileAsset.LinguisticData with returnType of: 2 (MAUnionOfCatalogInstalled) - will not block on network by client request	
+00:50.174.774	Default	mobileassetd (336)	com.apple.mobileassetd	Notice	-[ControlManager determineAssets:clientName:connection:downloadingTasks:message:resultTypes:queryArray:isForSpecificAsset:specificAssetId:specificAllowedDifferences:]: mediaanalysisd queried for: com.apple.MobileAsset.LinguisticData with returnType of: 2 with Purpose: (null)	
+00:50.174.796	Debug	audiomxd (105)	com.apple.defaults	User Defaults	found no value for key converterkTracesPermitted in CFPrefsSearchListSource<0x104dee660> (Domain: com.apple.coreaudio, Container: (null))	
+00:50.174.825	Debug	audiomxd (105)	com.apple.defaults	User Defaults	found no value for key converterkTracesPermitted in CFPrefsSearchListSource<0x104dee660> (Domain: com.apple.coreaudio, Container: (null))	
+00:50.174.825	Default	mobileassetd (336)	com.apple.mobileassetd	Notice	-[ControlManager newCatalogLoad:withPurpose:]: Catalog fileLocation: /private/var/MobileAsset/AssetsV2/com_apple_MobileAsset_LinguisticData/com_apple_MobileAsset_LinguisticData.xml	
+00:50.174.863	Debug	audiomxd (105)	com.apple.defaults	User Defaults	found no value for key converterkTracesPermitted in CFPrefsSearchListSource<0x104dee660> (Domain: com.apple.coreaudio, Container: (null))	
+00:50.174.885	Default	audiomxd (105)	com.apple.coreaudio	AudioConverter	AudioConverter.cpp:1,010 Created a new in process converter -> 0x4af5b23a0, from  2 ch,  48000 Hz, Int16, interleaved to  2 ch,  48000 Hz, Float32, interleaved	
+00:50.176.112	Debug	backboardd (68)	libIOReport.dylib	Default	iterated 14 channels with 14 iterations	
+00:50.176.196	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	CPMS: Current Power Output:412.5594 Budget Constraint:5,310.0000/5,684.6821	
+00:50.189.413	Default	mobileassetd (336)	com.apple.mobileassetd	Notice	-[ControlManager determineAssets:clientName:connection:downloadingTasks:message:resultTypes:queryArray:isForSpecificAsset:specificAssetId:specificAllowedDifferences:]: mediaanalysisd queried for: com.apple.MobileAsset.LinguisticData with returnTypes 2 (MAUnionOfCatalogInstalled) and found 1 assets with result 0 (MAQuerySuccessful) --> From 278 listed in the catalog and 1 local (1/1 downloaded, 0 preinstalled)--> Catalog info ({     isLiveServer = 1; }) --> Filtered for MAUnionOfCatalogInstalled to 1 in catalog (0 installed, 1 server-only, 0 preinstalled), 0 installedNotInCatalog, 0 installedWithOS, 0 requiredByOS; the query params are: [ AssetLocale:'ko' and LinguisticAssetType:'Optional' and _CompatibilityVersion:'16' and _SupportedPlatforms:'iOS'] --> Merged to 1 assets 	
+00:50.189.619	Default	mediaanalysisd (378)	com.apple.mobileassetd	Notice	-[MAAssetQuery getResultsFromMessage:]: Got the query meta data reply for: com.apple.MobileAsset.LinguisticData, response: 0	
+00:50.189.723	Debug	mediaanalysisd (378)	com.apple.DataDeliveryServices	Query	assetsForQuery raw results: (
+    "assetType: \"com.apple.MobileAsset.LinguisticData\"; assetId: c98885c8dfcd61dce243b7cb67dc78d1c31e5342 State: 1"
+), result value: 0	
+00:50.189.736	Debug	mediaanalysisd (378)	com.apple.DataDeliveryServices	Query	Searching for regions in filters: <private>, found allowed regions: 	
+00:50.189.764	Default	mediaanalysisd (378)	com.apple.DataDeliveryServices	Query	assetsForQuery: <query: com.apple.MobileAsset.LinguisticData, locO: 1, iO: 1, latO: 1, cO: 0, <filter: {
+    AssetLocale = "{(\n    ko\n)}";
+    LinguisticAssetType = "{(\n    Optional\n)}";
+}>> final result: (
+) was cached: 0, cachedOnly: 0	
+00:50.189.785	Debug	mediaanalysisd (378)	com.apple.defaults	User Defaults	found no value for key LMDisableMobileAssets in CFPrefsSearchListSource<0x6730d3800> (Domain: kCFPreferencesAnyApplication, Container: (null))	
+00:50.189.811	Debug	mediaanalysisd (378)	com.apple.DataDeliveryServices	AutoAsset	Created DDSMAAutoAssetSelectors: <private> for query: <private>	
+00:50.190.032	Debug	DTServiceHub (360)	DVTInstrumentsFoundation	Default	Data Size: 100,570, Rows Sent: 1,260, Stack depth: 3,217	
+00:50.191.200	Default	mediaanalysisd (378)	com.apple.MAAutoClient.mediaanalysisd	CLIENT	[ConnectToServer](com.apple.mobileasset.autoasset) Attempting to connect to server	
+00:50.191.465	Default	mediaanalysisd (378)	com.apple.xpc	connection	[0x675f75180] activating connection: mach=1 listener=0 peer=0 name=com.apple.mobileasset.autoasset	
+00:50.191.616	Default	mediaanalysisd (378)	com.apple.MAAutoClient.mediaanalysisd	CLIENT	[ConnectToServer](com.apple.mobileasset.autoasset) Successfully connected to server with connection <NSXPCConnection: 0x675f0ff20> connection to service named com.apple.mobileasset.autoasset	
+00:50.191.665	Default	mediaanalysisd (378)	com.apple.MAAutoClient.mediaanalysisd	CLIENT	[SendServerMessage](com.apple.mobileasset.autoasset) Connected to server and calling sendMessage SUCoreConnectMessage(type:CLIENT_MESSAGE|name:MA-AUTO:LOCK_CONTENT|clientID:A8BDE37D-C439-4F8A-B98C-A40F5EA92E2F.<378>|clientIDRaw:A8BDE37D-C439-4F8A-B98C-A40F5EA92E2F|clientProcessIdentifier:378|version:(null)|error:(null)|message:[>>>
+	instance: com.apple.DataDeliveryServices(type:com.apple.MobileAsset.LinguisticDataAuto|specifier:Priority_ko(any version))mediaanalysisd:378|A8BDE37D-C439-4F8A-B98C-A40F5EA92E2F
+	desire: dds-asset-for-query|checkSecs:NO_WAIT,lockSecs:NO_WAIT,prog:N
+<<<]) for connection <NSXPCConnection: 0x675f0ff20> connection to service named com.apple.mobileasset.autoasset	
+00:50.192.544	Default	mobileassetd (336)	com.apple.MAAuto	SERVER-com.apple.mobileasset.autoasset	[ListenerNewConnection](<NSXPCConnection: 0x854959040> connection from pid 378 on mach service named com.apple.mobileasset.autoasset) Attempting to connect with new connection	
+00:50.192.643	Default	mobileassetd (336)	com.apple.MAAuto	SERVER-com.apple.mobileasset.autoasset	[ListenerNewConnection](<NSXPCConnection: 0x854959040> connection from pid 378 on mach service named com.apple.mobileasset.autoasset) Resumed connection, requesting clientID	
+00:50.192.657	Default	mobileassetd (336)	com.apple.xpc	connection	[0x854d01b80] activating connection: mach=0 listener=0 peer=1 name=com.apple.mobileasset.autoasset.peer[378].0x854d01b80	
+00:50.192.785	Default	mobileassetd (336)	com.apple.MAAuto	SERVER-com.apple.mobileasset.autoasset	[SendServerMessage] Received message: SUCoreConnectMessage(type:CLIENT_MESSAGE|name:MA-AUTO:LOCK_CONTENT|clientID:A8BDE37D-C439-4F8A-B98C-A40F5EA92E2F.<378>|clientIDRaw:A8BDE37D-C439-4F8A-B98C-A40F5EA92E2F|clientProcessIdentifier:378|version:(null)|error:(null)|message:[>>>
+	instance: com.apple.DataDeliveryServices(type:com.apple.MobileAsset.LinguisticDataAuto|specifier:Priority_ko(any version))mediaanalysisd:378|A8BDE37D-C439-4F8A-B98C-A40F5EA92E2F
+	desire: dds-asset-for-query|checkSecs:NO_WAIT,lockSecs:NO_WAIT,prog:N
+<<<]) (proxyObject:YES, reply:YES)	
+00:50.192.806	Default	mobileassetd (336)	com.apple.MAAuto	SERVER-com.apple.mobileasset.autoasset	[SendServerMessage](<NSXPCConnection: 0x854959040> connection from pid 378 on mach service named com.apple.mobileasset.autoasset) connectProtocolFromClientSendServerMessage using isConnection:authorizedForMessage: via server delegate	
+00:50.192.929	Default	mobileassetd (336)	com.apple.su	SU	{MADAutoAssetAuthorizationPolicy}(authorizationAssetTypeFromMessage) Found asset type: com.apple.MobileAsset.LinguisticDataAuto, for message: SUCoreConnectMessage(clientID:A8BDE37D-C439-4F8A-B98C-A40F5EA92E2F.<378>|type:CLIENT_MESSAGE|name:MA-AUTO:LOCK_CONTENT)	
+00:50.192.960	Default	mediaanalysisd (378)	com.apple.MAAutoClient.mediaanalysisd	CLIENT	[RequestClientID](com.apple.mobileasset.autoasset) Replying to server for clientID request: A8BDE37D-C439-4F8A-B98C-A40F5EA92E2F.<378>	
+00:50.193.815	Default	mobileassetd (336)	com.apple.MAAuto	SERVER-com.apple.mobileasset.autoasset	[ListenerNewConnection](<NSXPCConnection: 0x854959040> connection from pid 378 on mach service named com.apple.mobileasset.autoasset) Completion successfully received for request of clientID: A8BDE37D-C439-4F8A-B98C-A40F5EA92E2F.<378>	
+00:50.193.855	Default	mobileassetd (336)	com.apple.MAAuto	SERVER-com.apple.mobileasset.autoasset	[SetConnection] Attempting to set new clientID: A8BDE37D-C439-4F8A-B98C-A40F5EA92E2F.<378>, for connection: <NSXPCConnection: 0x854959040> connection from pid 378 on mach service named com.apple.mobileasset.autoasset	
+00:50.193.871	Default	mobileassetd (336)	com.apple.MAAuto	SERVER-com.apple.mobileasset.autoasset	[SetConnection] Setting new connection (to new set) for clientID: A8BDE37D-C439-4F8A-B98C-A40F5EA92E2F.<378>, newConnection: <NSXPCConnection: 0x854959040> connection from pid 378 on mach service named com.apple.mobileasset.autoasset	
+00:50.193.964	Default	mobileassetd (336)	com.apple.su	SU	[FSM([2.2.22]AutoControlManager)] >S> Active >E> ClientRequest >A> RouteClientRequest info:CLIENT_REQUEST[MA-AUTO:LOCK_CONTENT[instance:com.apple.DataDeliveryServices(type:com.apple.MobileAsset.LinguisticDataAuto|specifier:Priority_ko(any version))mediaanalysisd:378][desire:dds-asset-for-query|checkSecs:NO_WAIT,lockSecs:NO_WAIT,prog:N]]|setJobInfo:N|progress:Y|reply:Y	
+00:50.194.075	Default	mobileassetd (336)	com.apple.MAAuto	AUTO-CONTROL	[ACTIVE|status:58(set:37)|jobs:0(set:0)(UUID:0)|grants:0|configs:16|AI:22|FS:283(set:22)|sched:27|timed:0|client:1] AUTO-STATISTICS | maintenance report | statistics:[totalClient requests:123,success:103,failure:19,queued:3,dequeued:6|totalJobs started:8,finished:59|totalInFlight:0|totalScheduler:51|totalFailuresToStart:0|previouslyDownloaded assets:279(7GB 419MB 616KB)|totalDownloaded assets:4(32KB)|totalStaged assets:0(0 bytes)|totalUnstaged assets:0(0 bytes)|totalPromoted assets:0(0 bytes)|totalRemoved assets:0(0 bytes)|jobFinished schedNWFail:0,schedOther:55,clientNWFail:0,clientOther:4|garbageDetermined v2Assets:33(31MB 482KB 576 bytes),unlocked:31(425MB 118KB 640 bytes),lockedOverridable:0(0 bytes),lockedNeverRemove:0(0 bytes),staged:0(0 bytes),metadataBlocked:8000000(7MB 644KB 512 bytes),totalSpace:456MB 601KB 192 bytes]	
+00:50.194.941	Default	mobileassetd (336)	com.apple.MAAuto	AUTO-CONTROL	[ACTIVE|status:58(set:37)|jobs:0(set:0)(UUID:0)|grants:0|configs:16|AI:22|FS:283(set:22)|sched:27|timed:0|client:1] {_scheduleSelector} scheduling selector | autoAssetSelector:type:com.apple.MobileAsset.LinguisticDataAuto|specifier:Priority_ko(any version), autoUpdatePolicy:[defaultUpdatePolicy(ALL-ASSET-TYPES)|checkForNewerInterval:7 days 00:00:00,newerFoundAutoDownloadJitter:00:10:00,blockIfBeforeFirstUnlock:N]	
+00:50.195.105	Default	mobileassetd (336)	com.apple.MAAuto	AUTO-SCHEDULER	[jobsAwaitingTrigger:43,jobsBySelector:43,jobsAwaitingPushTrigger:0|activityInterval:1 day 00:00:00,tickerInterval:04:00:00,tickerFired:Y,pushDelay:DISABLED,pushCounter:0,lastTick:N|[xpcActivity]scheduled:Scheduled,push:None|[issueReRegister]scheduled:N] | {AUTO-SCHEDULER:_decideTriggerIntervalSecs} default | assetSelector:type:com.apple.MobileAsset.LinguisticDataAuto|specifier:Priority_ko(any version) | scheduledJobAssetType:com.apple.MobileAsset.LinguisticDataAuto | determinedIntervalSecs:604,800	
+00:50.195.129	Default	audiomxd (105)	com.apple.coreaudio	aqme	AQMEIO_HAL.cpp:2,625 aqmeio@0x4af3b4f00, device 151 (VirtualAudioDevice_Hawking), AudioDeviceStart (err 0)	
+00:50.195.185	Debug	audiomxd (105)	com.apple.coreaudio	AMCP	198,299 HALS_IOContext_Legacy_Impl.cpp:1,937 Completed HALS_IOContext_Legacy_Impl::IOWorkLoopInit - 0	
+00:50.195.192	Debug	audiomxd (105)	com.apple.coreaudio	aqme	AQMEIO_HAL.cpp:3,469 aqmeio@0x4af3b4f00 IsRunning 1	
+00:50.195.338	Default	audiomxd (105)	com.apple.coreaudio	va_vadevc	VirtualAudio_IONotificationManager.cpp:184 UpdateAndNotify() - need to notify I/O state = 1 new I/O running state = 1 previous I/O running state = 0	
+00:50.195.365	Default	audiomxd (105)	com.apple.coreaudio	va_vadevc	VirtualAudio_IONotificationManager.cpp:192 Sending notification "com.apple.coreaudio.IORunning" of I/O running state 1 forced notification = 0	
+00:50.195.536	Default	mobileassetd (336)	com.apple.MAAuto	AUTO-SCHEDULER	[jobsAwaitingTrigger:43,jobsBySelector:43,jobsAwaitingPushTrigger:0|activityInterval:1 day 00:00:00,tickerInterval:04:00:00,tickerFired:Y,pushDelay:DISABLED,pushCounter:0,lastTick:N|[xpcActivity]scheduled:Scheduled,push:None|[issueReRegister]scheduled:N] | {AUTO-SCHEDULER:_scheduleSelector} already scheduled | alreadyAwaiting:selector:type:com.apple.MobileAsset.LinguisticDataAuto|specifier:Priority_ko(any version)|intervalSecs:7 days 00:00:00|remainingSecs:2 days 00:00:00|pushedJob:N||setJob:N|setPolicy:N|pushedPolicy:N|requiringRetry:N	
+00:50.195.596	Default	powerexperienced (125)	com.apple.powerexperienced	signalMonitor	Audio playback started current_state 1. Creating a resource hint	
+00:50.195.631	Default	powerexperienced (125)	com.apple.PowerExperienceFramework	ResourceConnection	ResourceConnection:updateResourceHint <private> with state 1	
+00:50.195.863	Default	powerexperienced (125)	com.apple.powerexperienced	resourcemanager	updating resource state for <private>:AudioPlayback from 0 to 1	

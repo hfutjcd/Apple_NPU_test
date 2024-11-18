@@ -1,0 +1,1000 @@
+00:48.780.508	Debug	assetsd (1696)	com.apple.photos.backend	PhotosObjectLifecycle	PLTransientManagedObjectContext 0xbbc984480 initWithConcurrencyType:1 pathManager:<PLPhotoLibraryPathManager: 0xbbc3a5240> [UBF] [fs=16777227/file=15544]	
+00:48.780.532	Debug	biometrickitd (116)	com.apple.locationd.Motion	Motion	[CLIoHidInterface] 	Property: ReportInterval = 0,dirty,1	
+00:48.780.569	Info	biometrickitd (116)	com.apple.locationd.Motion	Motion	[CLIoHidInterface] Refreshing service refs	
+00:48.780.605	Debug	biometrickitd (116)	com.apple.locationd.Motion	Motion	[CLIoHidInterface] Check service ref <private> with usage pair {65,292, 3} locationID 0 as a potential match	
+00:48.780.627	Debug	assetsd (1696)	com.apple.photos.backend	PhotosObjectLifecycle	PLTransientManagedObjectContext 0xbbc984480 setName:<private>	
+00:48.780.645	Default	biometrickitd (116)	com.apple.locationd.Motion	Motion	[CLIoHidInterface] Service ref with usage pair {65,292, 3} is <private> with matching properties <private>	
+00:48.780.660	Debug	locationd (74)	com.apple.locationd.Position	Outdoor	Steps/activity sync, updateTime, <private>, hasSteps, <private>, stepCount, <private>, stepStartTime, <private>, hasActivity, <private>, activityType, <private>, activityStartTime, <private>	
+00:48.780.761	Debug	biometrickitd (116)	com.apple.BiometricKit	Daemon-Pearl	__serviceStatus 0x104d14900(<private>) --> serviceStatus:type:inValue:
+	
+00:48.780.914	Debug	biometrickitd (116)	com.apple.BiometricKit	Daemon-Common	serviceStatus:type:inValue: 24,191 0xe3ff8000 1,802,594,116(0x6b716744)
+	
+00:48.781.004	Debug	biometrickitd (116)	com.apple.BiometricKit	Daemon-Common	serviceStatus:type:inValue: MCDMExtractMessageData 3,825,172,481 0 1 0x3f3 0  1,011(0x3f3) 1,169,237,461,784
+	
+00:48.781.056	Debug	biometrickitd (116)	com.apple.BiometricKit	Daemon-Pearl	serviceStatus:version:ordinal:data:timestamp: 0xe3ff8001 0x1 0x3f3  1,169,237,461,784
+	
+00:48.781.064	Debug	assetsd (1696)	com.apple.photos.backend	PhotosObjectLifecycle	PLPhotoLibrary 0xbbc13e080 dealloc <private>	
+00:48.781.138	Debug	biometrickitd (116)	com.apple.BiometricKit	Daemon-Common	serviceStatus:version:ordinal:data:timestamp: 0xe3ff8001 0x1 0x3f3  1,169,237,461,784
+	
+00:48.781.157	Debug	assetsd (1696)	com.apple.photos.backend	PhotosObjectLifecycle	PLManagedObjectContext 0xbbc984480 dealloc	
+00:48.781.167	Debug	biometrickitd (116)	com.apple.BiometricKit	Daemon-Pearl	statusMessage:withData:timestamp: 1,011  1,169,237,461,784
+	
+00:48.781.221	Debug	assetsd (1696)	com.apple.photos.backend	LibraryServices	LSM-3-0xbbc285400: progress resigned current: <private>	
+00:48.781.283	Default	assetsd (1696)	com.apple.photos.backend	LibraryServices	LSM-3-0xbbc285400: Completed operation <PLLibraryServicesOperation: 0xbbc295180>{name = 'Recovery from Duplicate Merge crash recovery'} in 0.0018 seconds with QoS QOS_CLASS_USER_INITIATED	
+00:48.781.358	Default	backboardd (68)	com.apple.BiometricKit	Framework-API	BKDevicePearl::statusMessage: 1,011
+	
+00:48.781.367	Default	biometrickitd (116)	com.apple.BiometricKit	Daemon-Pearl	sending status message 1,011 to <private>
+	
+00:48.781.387	Default	SpringBoard (34)	com.apple.BiometricKit	Framework-API	BKDevicePearl::statusMessage: 1,011
+	
+00:48.781.428	Default	SpringBoard (34)	com.apple.BiometricKit	Framework-API	BKDevicePearl::statusMessage: -> void
+	
+00:48.781.446	Default	backboardd (68)	com.apple.BiometricKit	Framework-API	BKDevicePearl::statusMessage: -> void
+	
+00:48.781.478	Default	assetsd (1696)	com.apple.photos.backend	LibraryServices	LSM-3-0xbbc285400: Transition from library services state prep-accessible to running	
+00:48.781.504	Debug	biometrickitd (116)	com.apple.BiometricKit	Daemon-Pearl	statusMessage:withData:timestamp: -> void (_ )
+	
+00:48.781.563	Debug	biometrickitd (116)	com.apple.BiometricKit	Daemon-Pearl	serviceStatus:type:inValue: -> 0x0
+	
+00:48.781.632	Debug	assetsd (1696)	com.apple.photos.backend	LibraryServices	LSM-3-0xbbc285400: Adding pending operation: <PLLibraryServicesOperation: 0xbbc296080>{name = 'Tell photoanalysisd about a newly opened library'} at QoS: NSQualityOfServiceDefault	
+00:48.781.704	Debug	assetsd (1696)	com.apple.photos.backend	LibraryServices	LSM-3-0xbbc285400: Adding pending operation: <PLLibraryServicesOperation: 0xbbc2961c0>{name = 'Attribute photo library filesystem storage to its owner'} at QoS: NSQualityOfServiceDefault	
+00:48.781.770	Debug	assetsd (1696)	com.apple.photos.backend	LibraryServices	LSM-3-0xbbc285400: Adding pending operation: <PLLibraryServicesOperation: 0xbbc296300>{name = 'Handle thumbnail rebuild request'} at QoS: NSQualityOfServiceDefault	
+00:48.781.846	Debug	assetsd (1696)	com.apple.photos.backend	LibraryServices	LSM-3-0xbbc285400: Adding pending operation: <PLLibraryServicesOperation: 0xbbc296440>{name = 'File System Import'} at QoS: NSQualityOfServiceDefault	
+00:48.781.993	Debug	assetsd (1696)	com.apple.photos.backend	LibraryServices	LSM-3-0xbbc285400: Adding pending operation: <PLLibraryServicesOperation: 0xbbc2952c0>{name = 'Asset creation recovery'} at QoS: NSQualityOfServiceDefault	
+00:48.782.037	Debug	assetsd (1696)	com.apple.photos.backend	LibraryServices	LSM-3-0xbbc285400: Adding pending operation: <PLLibraryServicesOperation: 0xbbc295400>{name = 'Register background job service on library'} at QoS: NSQualityOfServiceDefault	
+00:48.782.119	Debug	assetsd (1696)	com.apple.photos.backend	LibraryServices	LSM-3-0xbbc285400: Adding pending operation: <PLLibraryServicesOperation: 0xbbc295540>{name = 'Initialize cache delete support'} at QoS: NSQualityOfServiceDefault	
+00:48.782.128	Debug	locationd (74)	com.apple.locationd.Utility	Database	{"msg":"endTransaction", "path":/var/root/Library/Caches/locationd/cache_encryptedC.db, "count":0, "rc":4 Bytes}	
+00:48.782.194	Debug	assetsd (1696)	com.apple.photos.backend	LibraryServices	LSM-3-0xbbc285400: Dispatching await completion handler at current QoS: QOS_CLASS_USER_INITIATED	
+00:48.782.207	Default	assetsd (1696)	com.apple.photos.backend	LibraryServices	LSM-3-0xbbc285400: Starting operation <PLLibraryServicesOperation: 0xbbc296080>{name = 'Tell photoanalysisd about a newly opened library'} with QoS QOS_CLASS_USER_INITIATED	
+00:48.782.211	Debug	MonoProxyTunnel (390)	com.apple.CFBundle	resources	Resource lookup at <private>
+	Request       : InfoPlist type: strings
+	Result        : None
+	
+00:48.782.244	Debug	assetsd (1696)	com.apple.photos.backend	LibraryServices	LSM-3-0xbbc285400: progress becoming current: <private>	
+00:48.782.248	Default	assetsd (1696)	com.apple.photos.backend	Syndication	Library services operation opened syndication photo library	
+00:48.782.270	Debug	MonoProxyTunnel (390)	com.apple.CFBundle	resources	Resource lookup at <private>
+	Request       : InfoPlist type: stringsdict
+	Result        : None
+	
+00:48.782.301	Debug	assetsd (1696)	com.apple.photos.backend	LibraryServices	LSM-1-0x102de5b70: progress resigned current: <private>	
+00:48.782.329	Default	assetsd (1696)	com.apple.photos.backend	LibraryServices	LSM-1-0x102de5b70: Completed operation <PLLibraryServicesOperation: 0xbbc094f00>{name = 'Open syndication library'} in 0.0402 seconds with QoS QOS_CLASS_USER_INITIATED	
+00:48.782.371	Default	assetsd (1696)	com.apple.photos.backend	LibraryServices	LSM-1-0x102de5b70: Starting operation <PLLibraryServicesOperation: 0xbbc094780>{name = 'Camera ingest recovery'} with QoS QOS_CLASS_USER_INITIATED	
+00:48.782.389	Debug	assetsd (1696)	com.apple.photos.backend	LibraryServices	LSM-1-0x102de5b70: progress becoming current: <private>	
+00:48.782.574	Info	assetsd (1696)	PhotoLibraryServices	Default	Notifying mediaanalysisd of photo library available at <private>	
+00:48.782.669	Info	locationd (74)	com.apple.locationd.Motion	IndoorOutdoor	IndoorOutdoor,ALSScan,context,<private>,lux,154.5132,t,753,594,901.9338	
+00:48.782.692	Default	assetsd (1696)	com.apple.xpc	connection	[0xbbc8eee40] activating connection: mach=1 listener=0 peer=0 name=com.apple.mediaanalysisd.analysis	
+00:48.782.708	Debug	locationd (74)	com.apple.locationd.Motion	Motion	MotionState,Motion,From,<private>,To,<private>,conf,<private>,Mounted,From,<private>,To,<private>,conf,<private>,tilt,<private>,exitC,<private>,exitTime,<private>,startTime,<private>,timestamp,<private>,standing,<private>,rawMotionType,<private>,rawConfidence,<private>,motionHint,<private>,bbHint,<private>,wifiHint,<private>,btHint,<private>,gpsHint,<private>,vehicleType,<private>,tag,workoutDetectionType,<private>,workoutDetectionTime,<private>,workoutEscalationTime,<private>, YouthMotionState, <private>, <private>
+	
+00:48.782.820	Debug	assetsd (1696)	com.apple.photos.backend	LibraryBundle	Inconsistent URL paths may negatively impact client access performance (original /private/var/mobile/Media vs. current /var/mobile/Media)	
+00:48.782.823	Info	locationd (74)	com.apple.locationd.Position	Outdoor	ALSDaylightDetectorEstimate,lux,<private>,sunElevation,<private>,lowCnt,<private>,medCnt,<private>,highCnt,<private>,conf,<private>,confFilt,<private>,startTime,<private>, isAstronomicalDaytime, <private>	
+00:48.782.887	Debug	locationd (74)	com.apple.locationd.Core	Notifier	{"msg":"notifyClientsWithData", "event":activity, "name":CLMotionState, "notification":0}	
+00:48.783.008	Info	locationd (74)	com.apple.locationd.Motion	IndoorOutdoor	IndoorOutdoor,ALSScan,context,<private>,lux,154.5132,t,753,594,901.9350	
+00:48.783.039	Default	assetsd (1696)	com.apple.photos.backend	AssetImport	[recoverFromCrashIfNeededWithImageWriter:] checking for crash recovery files	
+00:48.783.130	Default	assetsd (1696)	com.apple.photos.backend	AssetImport	[recoverFromCrashIfNeededWithImageWriter:] no indicator or incoming files found	
+00:48.783.140	Debug	assetsd (1696)	com.apple.photos.backend	LibraryServices	LSM-1-0x102de5b70: progress resigned current: <private>	
+00:48.783.152	Default	assetsd (1696)	com.apple.photos.backend	LibraryServices	LSM-1-0x102de5b70: Completed operation <PLLibraryServicesOperation: 0xbbc094780>{name = 'Camera ingest recovery'} in 0.0008 seconds with QoS QOS_CLASS_USER_INITIATED	
+00:48.783.171	Default	assetsd (1696)	com.apple.photos.backend	LibraryServices	LSM-1-0x102de5b70: Starting operation <PLLibraryServicesOperation: 0xbbc0948c0>{name = 'Build quick action items'} with QoS QOS_CLASS_USER_INITIATED	
+00:48.783.180	Debug	assetsd (1696)	com.apple.photos.backend	LibraryServices	LSM-1-0x102de5b70: progress becoming current: <private>	
+00:48.783.192	Debug	assetsd (1696)	com.apple.photos.backend	LibraryServices	LSM-1-0x102de5b70: progress resigned current: <private>	
+00:48.783.248	Info	assetsd (1696)	PhotoLibraryServices	Default	Invalidating temporary connection to mediaanalysisd	
+00:48.783.300	Default	assetsd (1696)	com.apple.photos.backend	LibraryServices	LSM-1-0x102de5b70: Completed operation <PLLibraryServicesOperation: 0xbbc0948c0>{name = 'Build quick action items'} in 0.0001 seconds with QoS QOS_CLASS_USER_INITIATED	
+00:48.783.385	Debug	locationd (74)	com.apple.locationd.Core	Notifier	{"msg":"notifyClientsWithData", "event":activity, "name":CLMotionState, "notification":1}	
+00:48.783.405	Default	assetsd (1696)	com.apple.xpc	connection	[0xbbc8eee40] invalidated because the current process cancelled the connection by calling xpc_connection_cancel()	
+00:48.783.459	Default	assetsd (1696)	com.apple.photos.backend	LibraryServices	LSM-1-0x102de5b70: Starting operation <PLLibraryServicesOperation: 0xbbc094a00>{name = 'Initialize photo stream'} with QoS QOS_CLASS_USER_INITIATED	
+00:48.783.485	Debug	assetsd (1696)	com.apple.photos.backend	LibraryServices	LSM-3-0xbbc285400: progress resigned current: <private>	
+00:48.783.519	Debug	assetsd (1696)	com.apple.photos.backend	LibraryServices	LSM-1-0x102de5b70: progress becoming current: <private>	
+00:48.783.548	Default	assetsd (1696)	com.apple.photos.backend	LibraryServices	LSM-3-0xbbc285400: Completed operation <PLLibraryServicesOperation: 0xbbc296080>{name = 'Tell photoanalysisd about a newly opened library'} in 0.0013 seconds with QoS QOS_CLASS_USER_INITIATED	
+00:48.783.573	Debug	assetsd (1696)	com.apple.photos.backend	LibraryServices	LSM-1-0x102de5b70: progress resigned current: <private>	
+00:48.783.622	Default	assetsd (1696)	com.apple.photos.backend	LibraryServices	LSM-3-0xbbc285400: Starting operation <PLLibraryServicesOperation: 0xbbc2961c0>{name = 'Attribute photo library filesystem storage to its owner'} with QoS QOS_CLASS_USER_INITIATED	
+00:48.783.648	Default	assetsd (1696)	com.apple.photos.backend	LibraryServices	LSM-1-0x102de5b70: Completed operation <PLLibraryServicesOperation: 0xbbc094a00>{name = 'Initialize photo stream'} in 0.0002 seconds with QoS QOS_CLASS_USER_INITIATED	
+00:48.783.671	Debug	assetsd (1696)	com.apple.photos.backend	LibraryServices	LSM-3-0xbbc285400: progress becoming current: <private>	
+00:48.783.712	Default	assetsd (1696)	com.apple.photos.backend	LibraryServices	LSM-1-0x102de5b70: Starting operation <PLLibraryServicesOperation: 0xbbc0966c0>{name = 'Tell photoanalysisd about a newly opened library'} with QoS QOS_CLASS_USER_INITIATED	
+00:48.783.740	Debug	locationd (74)	com.apple.locationd.Core	Notifier	{"msg":"CLWifiLocationProvider::onMotionNotification", "event":activity, "this":"35,309,686,784"}	
+00:48.783.761	Debug	assetsd (1696)	com.apple.photos.backend	LibraryServices	LSM-1-0x102de5b70: progress becoming current: <private>	
+00:48.784.029	Info	assetsd (1696)	com.apple.photos.backend	LibraryServices	LSM-3-0xbbc285400: SpaceAttribution: Skipping registration of user domain library <private>	
+00:48.784.116	Debug	assetsd (1696)	com.apple.photos.backend	LibraryServices	LSM-3-0xbbc285400: progress resigned current: <private>	
+00:48.784.142	Default	assetsd (1696)	com.apple.photos.backend	LibraryServices	LSM-3-0xbbc285400: Completed operation <PLLibraryServicesOperation: 0xbbc2961c0>{name = 'Attribute photo library filesystem storage to its owner'} in 0.0005 seconds with QoS QOS_CLASS_USER_INITIATED	
+00:48.784.189	Default	assetsd (1696)	com.apple.photos.backend	LibraryServices	LSM-3-0xbbc285400: Starting operation <PLLibraryServicesOperation: 0xbbc296300>{name = 'Handle thumbnail rebuild request'} with QoS QOS_CLASS_USER_INITIATED	
+00:48.784.250	Debug	assetsd (1696)	com.apple.photos.backend	LibraryServices	LSM-3-0xbbc285400: progress becoming current: <private>	
+00:48.784.357	Info	locationd (74)	com.apple.locationd.Position	Outdoor	ALSDaylightDetectorEstimate,lux,<private>,sunElevation,<private>,lowCnt,<private>,medCnt,<private>,highCnt,<private>,conf,<private>,confFilt,<private>,startTime,<private>, isAstronomicalDaytime, <private>	
+00:48.784.406	Debug	locationd (74)	com.apple.locationd.Position	WifiPosition	@WifiLogic, entry, motion	
+00:48.784.473	Info	locationd (74)	com.apple.locationd.Motion	IndoorOutdoor	IndoorOutdoor,ALSScan,context,<private>,lux,154.4927,t,753,594,902.1814	
+00:48.784.567	Default	locationd (74)	com.apple.locationd.Utility	QA	os_transaction created: (6,174,274,712) wifi1Event	
+00:48.784.643	Info	locationd (74)	com.apple.locationd.Position	Outdoor	ALSDaylightDetectorEstimate,lux,<private>,sunElevation,<private>,lowCnt,<private>,medCnt,<private>,highCnt,<private>,conf,<private>,confFilt,<private>,startTime,<private>, isAstronomicalDaytime, <private>	
+00:48.784.802	Default	locationd (74)	com.apple.locationd.Position	WifiPosition	@WifiLogic, handleInput, System::CoarseMotion	
+00:48.784.814	Debug	locationd (74)	com.apple.CoreAnalytics.event	send	<private> <private>	
+00:48.784.842	Debug	backboardd (68)	com.apple.CoreAnalytics.event	send	<private> <private>	
+00:48.784.846	Info	locationd (74)	com.apple.locationd.Motion	IndoorOutdoor	IndoorOutdoor,ALSScan,context,<private>,lux,154.4927,t,753,594,902.1822	
+00:48.784.919	Debug	locationd (74)	com.apple.locationd.Core	Notifier	{"msg":"CLBarometricAltimeter::onMotionActivityNotification", "event":activity, "this":"35,305,742,336"}	
+00:48.784.934	Debug	locationd (74)	com.apple.locationd.Core	Notifier	{"msg":"CLGnssRefPosMaintenance::onMotionActivityNotification", "event":activity, "this":"35,306,950,400"}	
+00:48.784.957	Info	locationd (74)	com.apple.locationd.Position	Outdoor	ALSDaylightDetectorEstimate,lux,<private>,sunElevation,<private>,lowCnt,<private>,medCnt,<private>,highCnt,<private>,conf,<private>,confFilt,<private>,startTime,<private>, isAstronomicalDaytime, <private>	
+00:48.784.972	Debug	locationd (74)	com.apple.locationd.Core	Notifier	{"msg":"CLNetworkLocationProvider::onMotionNotification", "event":activity, "this":"35,306,728,448"}	
+00:48.784.991	Debug	locationd (74)	com.apple.locationd.Core	Notifier	{"msg":"CLMotionActivitySubscription::onMotionActivityNotification", "event":activity, "this":"35,309,864,576"}	
+00:48.785.068	Debug	locationd (74)	com.apple.locationd.Core	Notifier	{"msg":"notifyClientsWithData", "event":activity, "name":CLMotionState, "notification":2}	
+00:48.785.109	Info	locationd (74)	com.apple.locationd.Position	Position	BaroAlt,motionActNoti,Type,1,Confidence,0	
+00:48.785.131	Default	locationd (74)	com.apple.locationd.Position	Gnss	#GnssRefPosMaintenance,motionActivity,Type,1,isInVehicle,0	
+00:48.785.276	Default	assetsd (1696)	com.apple.xpc	connection	[0xbbc8eed00] activating connection: mach=1 listener=0 peer=0 name=com.apple.photoanalysisd	
+00:48.785.362	Default	locationd (74)	com.apple.locationd.Position	WifiPosition	WifiTimer, nextscan, 15, haveLoc, 1, codepath, Frozen	
+00:48.785.404	Info	assetsd (1696)	PhotoLibraryServices	Default	Notifying mediaanalysisd of photo library available at <private>	
+00:48.785.418	Default	assetsd (1696)	com.apple.xpc	connection	[0xbbc8eee40] activating connection: mach=1 listener=0 peer=0 name=com.apple.mediaanalysisd.analysis	
+00:48.785.421	Debug	locationd (74)	com.apple.locationd.Core	Notifier	{"msg":"CLLocationController::onMotionNotification", "event":activity, "this":"35,304,865,792"}	
+00:48.785.477	Debug	locationd (74)	com.apple.LocationSupport	Connection	{"msg":"CLConnection::sendMessage", "name":kCLConnectionMessageMotionActivityUpdate}	
+00:48.785.481	Info	assetsd (1696)	PhotoLibraryServices	Default	Invalidating temporary connection to mediaanalysisd	
+00:48.785.489	Default	assetsd (1696)	com.apple.xpc	connection	[0xbbc8eee40] invalidated because the current process cancelled the connection by calling xpc_connection_cancel()	
+00:48.785.498	Default	assetsd (1696)	com.apple.xpc	connection	[0xbbc8eed00] invalidated because the current process cancelled the connection by calling xpc_connection_cancel()	
+00:48.785.508	Debug	assetsd (1696)	com.apple.photos.backend	LibraryServices	LSM-1-0x102de5b70: progress resigned current: <private>	
+00:48.785.517	Default	assetsd (1696)	com.apple.photos.backend	LibraryServices	LSM-1-0x102de5b70: Completed operation <PLLibraryServicesOperation: 0xbbc0966c0>{name = 'Tell photoanalysisd about a newly opened library'} in 0.0018 seconds with QoS QOS_CLASS_USER_INITIATED	
+00:48.785.533	Default	assetsd (1696)	com.apple.photos.backend	LibraryServices	LSM-1-0x102de5b70: Starting operation <PLLibraryServicesOperation: 0xbbc096800>{name = 'Attribute photo library filesystem storage to its owner'} with QoS QOS_CLASS_USER_INITIATED	
+00:48.785.563	Error	assetsd (1696)	PhotoLibraryServices	Default	Photo analysis client XPC connection invalidated	
+00:48.785.571	Debug	assetsd (1696)	com.apple.photos.backend	LibraryServices	LSM-1-0x102de5b70: progress becoming current: <private>	
+00:48.785.595	Info	locationd (74)	com.apple.locationd.Motion	IndoorOutdoor	IndoorOutdoor,ALSScan,context,<private>,lux,155.0691,t,753,594,903.1804	
+00:48.785.670	Default	assetsd (1696)	com.apple.FrontBoard	Common	Creating service facility connection with <private>	
+00:48.785.872	Debug	locationd (74)	com.apple.locationd.Core	Notifier	{"msg":"notifyClientsWithData", "event":activity, "name":CLMotionState, "notification":4}	
+00:48.786.172	Debug	assetsd (1696)	com.apple.photos.backend	Backend	Successfully read <private> from file <private>	
+00:48.786.182	Debug	assetsd (1696)	com.apple.defaults	User Defaults	found no value for key AssertComponentRegistrarReachable in CFPrefsSearchListSource<0xbbc820e80> (Domain: com.apple.coreaudio, Container: (null))	
+00:48.786.199	Error	assetsd (1696)	com.apple.photos.backend	LibraryServices	LSM-1-0x102de5b70: Unable to obtain library identifier for <private>: Error Domain=com.apple.photos.error Code=46111 "Library identifier does not exist for this url" UserInfo={NSDebugDescription=Library identifier does not exist for this url, NSURL=<private>}	
+00:48.786.211	Info	mediaanalysisd (378)	com.apple.mediaanalysis	common	[MAClientHandler] Client BundleID: com.apple.assetsd TeamID: 	
+00:48.786.257	Debug	assetsd (1696)	com.apple.photos.backend	LibraryServices	LSM-1-0x102de5b70: progress resigned current: <private>	
+00:48.786.324	Default	assetsd (1696)	com.apple.photos.backend	LibraryServices	LSM-1-0x102de5b70: Completed operation <PLLibraryServicesOperation: 0xbbc096800>{name = 'Attribute photo library filesystem storage to its owner'} in 0.0008 seconds with QoS QOS_CLASS_USER_INITIATED	
+00:48.786.370	Debug	locationd (74)	com.apple.locationd.Motion	Workout	Activity,<private>,type,<private>,standing,<private>,angeX,<private>,vectorMag,<private>,strokeAmp,<private>,strokePwr,<private>,strokeFreq,<private>,machineFreq,<private>,pushVectorMag,<private>,epochType,<private>	
+00:48.786.405	Default	assetsd (1696)	com.apple.photos.backend	LibraryServices	LSM-1-0x102de5b70: Starting operation <PLLibraryServicesOperation: 0xbbc096940>{name = 'Handle thumbnail rebuild request'} with QoS QOS_CLASS_USER_INITIATED	
+00:48.786.457	Debug	assetsd (1696)	com.apple.photos.backend	LibraryServices	LSM-1-0x102de5b70: progress becoming current: <private>	
+00:48.786.465	Debug	assetsd (1696)	com.apple.photos.backend	PhotosObjectLifecycle	PLPhotoLibrary 0xbbc13e3a0 initWithName <private>	
+00:48.786.723	Default	photoanalysisd (380)	com.apple.photoanalysisd	ServiceProvider	New connection from client com.apple.assetsd (1696)	
+00:48.786.752	Debug	assetsd (1696)	com.apple.photos.backend	LibraryBundle	Inconsistent URL paths may negatively impact client access performance (original /private/var/mobile/Media vs. current /var/mobile/Media)	
+00:48.786.948	Debug	assetsd (1696)	com.apple.photos.backend	PersistentHistory	Updated transaction author: <private>, for context: 0xbbc984180	
+00:48.787.100	Default	assetsd (1696)	com.apple.xpc	connection	[0xbbc8eed00] activating connection: mach=1 listener=0 peer=0 name=com.apple.audio.AudioComponentRegistrar	
+00:48.787.104	Debug	assetsd (1696)	com.apple.photos.backend	PhotosObjectLifecycle	PLTransientManagedObjectContext 0xbbc984180 initWithConcurrencyType:1 pathManager:<PLPhotoLibraryPathManager: 0xbbc0a9320> [DCIM] [fs=16777227/file=31]	
+00:48.787.192	Info	locationd (74)	com.apple.locationd.Position	WifiPosition	{"msg":"wifi location update request state change", "before":Request, type, none, lowPriority, no, requester, default, numOfRequestedScans, 0, timestamp, -1.0, age, 753594904.7, "after":Request, type, none, lowPriority, no, requester, default, numOfRequestedScans, 0, timestamp, -1.0, age, 753594904.7}	
+00:48.787.250	Debug	assetsd (1696)	com.apple.photos.backend	PhotosObjectLifecycle	PLTransientManagedObjectContext 0xbbc984180 setName:<private>	
+00:48.787.451	Info	locationd (74)	com.apple.locationd.Position	Outdoor	ALSDaylightDetectorEstimate,lux,<private>,sunElevation,<private>,lowCnt,<private>,medCnt,<private>,highCnt,<private>,conf,<private>,confFilt,<private>,startTime,<private>, isAstronomicalDaytime, <private>	
+00:48.787.596	Debug	locationd (74)	com.apple.locationd.Core	Notifier	{"msg":"CLMotionActivitySubscription::onMotionActivityNotification", "event":activity, "this":"35,309,870,080"}	
+00:48.787.617	Info	mediaanalysisd (378)	com.apple.mediaanalysis	common	Adding client handler <private>	
+00:48.787.633	Default	mediaanalysisd (378)	com.apple.xpc	connection	[0x675f743c0] activating connection: mach=0 listener=0 peer=1 name=com.apple.mediaanalysisd.analysis.peer[1696].0x675f743c0	
+00:48.787.694	Debug	locationd (74)	com.apple.locationd.Position	LCFusion	#fusion,received motion state,<private>,mct_now,349,916.7342,start_time_cfat,753,594,903.7049,timestamp,48,718.2182,type,1,confidence,0,<private>	
+00:48.787.758	Default	locationd (74)	com.apple.locationd.Position	WifiPosition	{"msg":"CLWifi1SystemLogic::apply", "event":elapsed, "begin_mach":1,169,237,694,563, "end_mach":1,169,237,754,862, "elapsed_s":"0.0025", "event":System::CoarseMotion, "now_s":"753,594,903.7235"}	
+00:48.787.769	Info	mediaanalysisd (378)	com.apple.mediaanalysis	common	[MAClientHandler] Client BundleID: com.apple.assetsd TeamID: 	
+00:48.787.814	Info	mediaanalysisd (378)	com.apple.mediaanalysis	common	Adding client handler <private>	
+00:48.787.825	Default	mediaanalysisd (378)	com.apple.xpc	connection	[0x675f75180] activating connection: mach=0 listener=0 peer=1 name=com.apple.mediaanalysisd.analysis.peer[1696].0x675f75180	
+00:48.787.878	Debug	locationd (74)	com.apple.locationd.Motion	Workout	Background escalation manager not consuming more power than workout alerts	
+00:48.787.900	Debug	assetsd (1696)	com.apple.photos.backend	PhotosObjectLifecycle	PLPhotoLibrary 0xbbc13e3a0 dealloc <private>	
+00:48.787.911	Debug	assetsd (1696)	com.apple.photos.backend	PhotosObjectLifecycle	PLManagedObjectContext 0xbbc984180 dealloc	
+00:48.787.953	Default	audiomxd (105)	com.apple.coreaudio	AudioCompReg	AudioComponentRegistrar.mm:195 (main 1  pid 1,696)	
+00:48.788.062	Default	locationd (74)	com.apple.locationd.Utility	QA	os_transaction releasing: (6,174,274,712) wifi1Event	
+00:48.788.066	Debug	locationd (74)	com.apple.locationd.Position	LCFusion	#motion,last known non-static dynamics mode used,mct,349,916.7342,current dynamics mode,1,last non-static dynamics mode,7,last non-static dynamics mct,349,913.5327	
+00:48.788.153	Debug	locationd (74)	com.apple.locationd.Core	Notifier	{"msg":"CLMotionStateMediator::onStairsEscalationEnableDisable", "event":activity, "this":"35,306,348,544"}	
+00:48.788.169	Debug	assetsd (1696)	com.apple.photos.backend	PhotosObjectLifecycle	PLPhotoLibrary 0xbbc13e3a0 initWithName <private>	
+00:48.788.279	Default	audiomxd (105)	com.apple.xpc	connection	[0x4ac339400] activating connection: mach=0 listener=0 peer=1 name=com.apple.audio.AudioComponentRegistrar.peer[1696].0x4ac339400	
+00:48.788.309	Debug	assetsd (1696)	com.apple.photos.backend	LibraryBundle	Inconsistent URL paths may negatively impact client access performance (original /private/var/mobile/Media vs. current /var/mobile/Media)	
+00:48.788.323	Debug	assetsd (1696)	com.apple.photos.backend	PersistentHistory	Updated transaction author: <private>, for context: 0xbbc984d80	
+00:48.788.329	Default	audiomxd (105)	com.apple.coreaudio	AudioCompReg	AudioComponentRegistrar.mm:329 getComponentList includeExtensions: 0 waitForExtensions: 0	
+00:48.788.334	Info	locationd (74)	com.apple.locationd.Motion	IndoorOutdoor	IndoorOutdoor,ALSScan,context,<private>,lux,155.0691,t,753,594,903.1815	
+00:48.788.364	Debug	assetsd (1696)	com.apple.photos.backend	PhotosObjectLifecycle	PLTransientManagedObjectContext 0xbbc984d80 initWithConcurrencyType:1 pathManager:<PLPhotoLibraryPathManager: 0xbbc0a9320> [DCIM] [fs=16777227/file=31]	
+00:48.788.375	Debug	locationd (74)	com.apple.LocationSupport	Connection	{"msg":"CLConnection::sendMessage", "name":kCLConnectionMessageMotionActivityUpdate}	
+00:48.788.446	Debug	locationd (74)	com.apple.locationd.Motion	Workout	Sending stair escalation toggle update to the AOP,should enable,<private>	
+00:48.788.496	Debug	locationd (74)	com.apple.locationd.Position	LCFusion	#motion,dynamics mode on motion update,mct,349,916.7342,type,1,confidence,0,old dynamics mode,1,new dynamics mode,7	
+00:48.788.517	Debug	assetsd (1696)	com.apple.photos.backend	PhotosObjectLifecycle	PLTransientManagedObjectContext 0xbbc984d80 setName:<private>	
+00:48.788.629	Debug	locationd (74)	com.apple.locationd.Core	Notifier	{"msg":"CLFenceMonitorNotifier::onMotionStateNotification", "event":activity, "this":"35,305,070,936"}	
+00:48.788.642	Debug	assetsd (1696)	com.apple.coreaudio	audiocomp	AudioComponentPluginMgr.mm:1,213 findNext adec/lpcm/appl -> 0xbbc897840 adec/1836253186/appl	
+00:48.788.653	Debug	assetsd (1696)	com.apple.coreaudio	audiocomp	AudioComponentPluginMgr.mm:1,213 findNext acdc/lpcm/appl -> 0xbbc896d00 adec/.mp3/appl	
+00:48.788.690	Default	audiomxd (105)	com.apple.coreaudio	AudioCompReg	AudioComponentRegistrar.mm:329 getComponentList includeExtensions: 1 waitForExtensions: 0	
+00:48.788.851	Debug	locationd (74)	com.apple.locationd.Position	LCFusion	KFCV:FilterStateLog,1,004,753,594,903.6961,349,916.7342,4,0,<private>,<private>,<private>,0.0000,-1.0000,24.9791,30.0000,0.0472,-1.0000,1.9164,1,2,0,predict state success	
+00:48.788.914	Debug	assetsd (1696)	com.apple.defaults	User Defaults	found no value for key hw_codecs_first in CFPrefsSearchListSource<0xbbc820e80> (Domain: com.apple.coreaudio, Container: (null))	
+00:48.788.924	Debug	assetsd (1696)	com.apple.coreaudio	audiocomp	AudioComponentVector.mm:157 addedComponents: 0 AudioComponents:	
+00:48.788.945	Debug	assetsd (1696)	com.apple.coreaudio	audiocomp	AudioComponentVector.mm:157 removedComponents: 0 AudioComponents:	
+00:48.788.959	Debug	assetsd (1696)	com.apple.coreaudio	audiocomp	AudioComponentPluginMgr.mm:1,213 findNext acdc/lpcm/appl -> 0xbbc896d00 adec/.mp3/appl	
+00:48.788.966	Default	assetsd (1696)	com.apple.coreaudio	audiocomp	AudioComponentPluginMgr.mm:906 First wildcard component search: acdc/lpcm/0	
+00:48.788.973	Debug	locationd (74)	com.apple.locationd.Motion	IndoorOutdoor	IndoorOutdoor detector running without turn detector.	
+00:48.789.005	Default	assetsd (1696)	com.apple.coreaudio	audiocomp	AudioComponentPluginMgr.mm:1,117 component registrations changed	
+00:48.789.095	Debug	assetsd (1696)	com.apple.photos.backend	PhotosObjectLifecycle	PLPhotoLibrary 0xbbc13e3a0 dealloc <private>	
+00:48.789.170	Debug	assetsd (1696)	com.apple.photos.backend	PhotosObjectLifecycle	PLManagedObjectContext 0xbbc984d80 dealloc	
+00:48.789.239	Default	assetsd (1696)	com.apple.coremedia		<<<< AVAssetInspectorLoader >>>> handleFigAssetLoadingNotification: Received kFigAssetNotification_BatchPropertyLoadComplete (payload: {
+    "assetPayload_BatchID" = 2;
+})	
+00:48.789.452	Default	assetsd (1696)	com.apple.FrontBoard	Common	[SBSApplicationClient:0xbbc2bb060] Activating service facility	
+00:48.789.705	Default	SpringBoard (34)	com.apple.FrontBoard	Common	[FBServiceFacilityServer] Client osservice<com.apple.assetsd>:1696 connected to service com.apple.springboardservices.application	
+00:48.789.787	Debug	assetsd (1696)	com.apple.photos.backend	PhotosObjectLifecycle	PLPhotoLibrary 0xbbc13e440 initWithName <private>	
+00:48.789.841	Default	assetsd (1696)	com.apple.FrontBoard	Common	[SBSApplicationClient:0xbbc2bb060] Service facility connection activation received.	
+00:48.789.922	Debug	backboardd (68)	com.apple.BackBoard	MotionEvents	Motion event usagePage:0xff0c usage:1 	
+00:48.790.000	Info	locationd (74)	com.apple.locationd.Motion	AOP	{"msg":"received AOP log", "log":72 Bytes}	
+00:48.790.141	Debug	assetsd (1696)	com.apple.photos.backend	LibraryBundle	Inconsistent URL paths may negatively impact client access performance (original /private/var/mobile/Library/Photos/Libraries/Syndication.photoslibrary vs. current /var/mobile/Library/Photos/Libraries/Syndication.photoslibrary)	
+00:48.790.146	Debug	locationd (74)	com.apple.locationd.Core	Notifier	{"msg":"CLMotionActivitySubscription::onMotionActivityNotification", "event":activity, "this":"35,309,877,184"}	
+00:48.790.229	Debug	assetsd (1696)	com.apple.photos.backend	PersistentHistory	Updated transaction author: <private>, for context: 0xbbc985b00	
+00:48.790.362	Debug	assetsd (1696)	com.apple.photos.backend	PhotosObjectLifecycle	PLTransientManagedObjectContext 0xbbc985b00 initWithConcurrencyType:1 pathManager:<PLPhotoLibraryPathManager: 0xbbc3a5240> [UBF] [fs=16777227/file=15544]	
+00:48.790.505	Debug	SpringBoard (34)	com.apple.defaults	User Defaults	looked up value <private> for key AppleLanguages in CFPrefsPlistSource<0x301813e80> (Domain: kCFPreferencesAnyApplication, User: kCFPreferencesCurrentUser, ByHost: No, Container: (null), Contents Need Refresh: No) via CFPrefsSearchListSource<0x30181d900> (Domain: com.apple.springboard, Container: (null))	
+00:48.790.719	Debug	assetsd (1696)	com.apple.photos.backend	PhotosObjectLifecycle	PLTransientManagedObjectContext 0xbbc985b00 setName:<private>	
+00:48.790.783	Debug	assetsd (1696)	com.apple.photos.backend	ImageManager	[RM]: Initializing resource data store for class ID 1, libraryID: <private>...	
+00:48.790.814	Default	assetsd (1696)	com.apple.coremedia		<<<< AVAssetInspectorLoader >>>> handleFigAssetLoadingNotification_block_invoke: Batch 0xbbc911080: Marking track batch ID 2 as complete	
+00:48.790.833	Default	assetsd (1696)	com.apple.coremedia		<<<< AVAssetInspectorLoader >>>> -[AVFigAssetInspectorLoader _invokeCompletionHandlerForLoadingBatches:]: Batch 0xbbc911080: dispatching completion handler	
+00:48.790.862	Debug	assetsd (1696)	PhotosFormats	Default	<private> 0xbbc9176f0: Add breadcrumb: <private>	
+00:48.791.050	Default	photoanalysisd (380)	com.apple.photoanalysisd	InstanceCounter	[ServiceProvider] increased to 3 instances	
+00:48.791.095	Default	photoanalysisd (380)	com.apple.photoanalysisd	ServiceProvider	[ServiceProvider] Starting up 	
+00:48.791.126	Default	photoanalysisd (380)	com.apple.photoanalysisd	ServiceProvider	[ServiceProvider] Startup completed  in 0.0000 seconds	
+00:48.791.169	Default	photoanalysisd (380)	com.apple.photoanalysisd	Executive	Allocated serviceProvider com.apple.assetsd (1696) (ObjectIdentifier(0x00000005a6ab9c20)) for connection <NSXPCConnection: 0x5a6ab9c20> connection from pid 1696 on mach service named com.apple.photoanalysisd	
+00:48.791.230	Debug	assetsd (1696)	com.apple.photos.backend	LibraryBundle	Inconsistent URL paths may negatively impact client access performance (original /private/var/mobile/Library/Photos/Libraries/Syndication.photoslibrary vs. current /var/mobile/Library/Photos/Libraries/Syndication.photoslibrary)	
+00:48.791.371	Debug	DTServiceHub (360)	DVTInstrumentsFoundation	Default	Data Size: 100,948, Rows Sent: 1,235, Stack depth: 3,035	
+00:48.791.431	Debug	assetsd (1696)	com.apple.photos.backend	PhotosObjectLifecycle	PLPhotoLibrary 0xbbc13e800 initWithName <private>	
+00:48.791.737	Default	photoanalysisd (380)	com.apple.xpc	connection	[0x5a6a81900] activating connection: mach=0 listener=0 peer=1 name=com.apple.photoanalysisd.peer[1696].0x5a6a81900	
+00:48.791.834	Debug	assetsd (1696)	com.apple.photos.backend	LibraryBundle	Inconsistent URL paths may negatively impact client access performance (original /private/var/mobile/Library/Photos/Libraries/Syndication.photoslibrary vs. current /var/mobile/Library/Photos/Libraries/Syndication.photoslibrary)	
+00:48.791.938	Debug	assetsd (1696)	com.apple.photos.backend	PersistentHistory	Updated transaction author: <private>, for context: 0xbbc985c80	
+00:48.792.187	Default	photoanalysisd (380)	com.apple.photoanalysisd	ServiceProvider	notifyLibraryAvailableAtURL /var/mobile/Media/	
+00:48.792.188	Debug	assetsd (1696)	com.apple.photos.backend	PhotosObjectLifecycle	PLTransientManagedObjectContext 0xbbc985c80 initWithConcurrencyType:1 pathManager:<PLPhotoLibraryPathManager: 0xbbc3a5240> [UBF] [fs=16777227/file=15544]	
+00:48.792.213	Default	photoanalysisd (380)	com.apple.xpc	connection	[0x5a6a81900] invalidated because the client process (pid 1,696) either cancelled the connection or exited	
+00:48.792.366	Debug	assetsd (1696)	com.apple.photos.backend	PhotosObjectLifecycle	PLTransientManagedObjectContext 0xbbc985c80 setName:<private>	
+00:48.792.519	Default	photoanalysisd (380)	com.apple.photoanalysisd	ServiceProvider	[ServiceProvider] Shutting down 	
+00:48.792.543	Debug	assetsd (1696)	com.apple.photos.backend	PhotosObjectLifecycle	PLPhotoLibrary 0xbbc13e800 dealloc <private>	
+00:48.792.706	Default	photoanalysisd (380)	com.apple.photoanalysisd	ServiceProvider	[ServiceProvider] Shutdown completed  in 0.0002 seconds	
+00:48.792.715	Debug	assetsd (1696)	com.apple.photos.backend	PhotosObjectLifecycle	PLManagedObjectContext 0xbbc985c80 dealloc	
+00:48.792.872	Default	assetsd (1696)	com.apple.photos.backend	Thumbnails	Continuing table only thumbnail rebuild...	
+00:48.792.898	Debug	assetsd (1696)	com.apple.defaults	User Defaults	found no value for key assettrackinspector_trace in CFPrefsSearchListSource<0xbbc3e4c80> (Domain: com.apple.avfoundation, Container: (null))	
+00:48.792.935	Debug	assetsd (1696)	com.apple.photos.backend	LibraryServices	LSM-3-0xbbc285400: progress resigned current: <private>	
+00:48.792.997	Default	assetsd (1696)	com.apple.photos.backend	LibraryServices	LSM-3-0xbbc285400: Completed operation <PLLibraryServicesOperation: 0xbbc296300>{name = 'Handle thumbnail rebuild request'} in 0.0088 seconds with QoS QOS_CLASS_USER_INITIATED	
+00:48.793.011	Debug	assetsd (1696)	com.apple.defaults	User Defaults	found no value for key composition_trace in CFPrefsSearchListSource<0xbbc3e4c80> (Domain: com.apple.avfoundation, Container: (null))	
+00:48.793.043	Debug	assetsd (1696)	com.apple.photos.backend	PhotosObjectLifecycle	PLPhotoLibrary 0xbbc13e940 initWithName <private>	
+00:48.793.091	Default	assetsd (1696)	com.apple.photos.backend	LibraryServices	LSM-3-0xbbc285400: Starting operation <PLLibraryServicesOperation: 0xbbc296440>{name = 'File System Import'} with QoS QOS_CLASS_USER_INITIATED	
+00:48.793.102	Debug	assetsd (1696)	com.apple.defaults	User Defaults	found no value for key avmovie_trace in CFPrefsSearchListSource<0xbbc3e4c80> (Domain: com.apple.avfoundation, Container: (null))	
+00:48.793.177	Debug	assetsd (1696)	com.apple.photos.backend	LibraryServices	LSM-3-0xbbc285400: progress becoming current: <private>	
+00:48.793.270	Debug	assetsd (1696)	com.apple.defaults	User Defaults	found no value for key assetreaderoutput_trace in CFPrefsSearchListSource<0xbbc3e4c80> (Domain: com.apple.avfoundation, Container: (null))	
+00:48.793.325	Info	locationd (74)	com.apple.locationd.Position	Outdoor	ALSDaylightDetectorEstimate,lux,<private>,sunElevation,<private>,lowCnt,<private>,medCnt,<private>,highCnt,<private>,conf,<private>,confFilt,<private>,startTime,<private>, isAstronomicalDaytime, <private>	
+00:48.793.326	Default	assetsd (1696)	com.apple.migration	core	DMXPCConnection created connection 0xbbc94e500	
+00:48.793.332	Debug	assetsd (1696)	com.apple.defaults	User Defaults	found no value for key avrunloopcondition_trace in CFPrefsSearchListSource<0xbbc3e4c80> (Domain: com.apple.avfoundation, Container: (null))	
+00:48.793.393	Debug	assetsd (1696)	com.apple.defaults	User Defaults	found no value for key avrunloopcondition_trace in CFPrefsSearchListSource<0xbbc3e4c80> (Domain: com.apple.avfoundation, Container: (null))	
+00:48.793.471	Debug	assetsd (1696)	com.apple.photos.backend	LibraryBundle	Inconsistent URL paths may negatively impact client access performance (original /private/var/mobile/Media vs. current /var/mobile/Media)	
+00:48.793.489	Default	assetsd (1696)	com.apple.migration	core	targeting foreground user session for uid 501	
+00:48.793.557	Debug	assetsd (1696)	com.apple.photos.backend	PersistentHistory	Updated transaction author: <private>, for context: 0xbbc985f80	
+00:48.793.558	Default	assetsd (1696)	com.apple.xpc	connection	[0xbbc94e500] activating connection: mach=1 listener=0 peer=0 name=com.apple.datamigrator	
+00:48.793.644	Error	mediaparserd (279)	com.apple.coremedia		<<<< FigApplicationStateMonitor >>>> fasm_ensureApplicationStateMonitor signalled err=18,446,744,073,709,532,185 (kFigProcessStateMonitorError_AllocFailed) (Failed to get process handle) at FigApplicationStateMonitor.m:400	
+00:48.793.669	Default	mediaparserd (279)	com.apple.coremedia	playback-memory	<<< FigDispatchUtilities >>> FigOSTransactionCreateWithProcessName: [Fig Transaction] Added transaction weak reference holder <0xd161c7580>: <private>	
+00:48.793.698	Default	assetsd (1696)	com.apple.migration	core	DMConnection did init <DMConnection: 0xbbc1c3b10>	
+00:48.793.737	Debug	assetsd (1696)	com.apple.photos.backend	PhotosObjectLifecycle	PLTransientManagedObjectContext 0xbbc985f80 initWithConcurrencyType:1 pathManager:<PLPhotoLibraryPathManager: 0xbbc0a9320> [DCIM] [fs=16777227/file=31]	
+00:48.793.751	Debug	assetsd (1696)	com.apple.defaults	User Defaults	found no value for key formatreaderremote_trace in CFPrefsSearchListSource<0xbbc09c880> (Domain: com.apple.coremedia, Container: (null))	
+00:48.793.820	Default	com.apple.datamigrator (1697)	com.apple.xpc	connection	[0xc8209c140] activating connection: mach=0 listener=0 peer=1 name=com.apple.datamigrator.peer[1696].0xc8209c140	
+00:48.793.897	Default	com.apple.datamigrator (1697)	com.apple.migration	core	DMMigratorProxy handling event 0xc82070400 msgID 5 from client pid 1696	
+00:48.793.898	Debug	assetsd (1696)	com.apple.photos.backend	PhotosObjectLifecycle	PLTransientManagedObjectContext 0xbbc985f80 setName:<private>	
+00:48.793.923	Debug	com.apple.datamigrator (1697)	com.apple.defaults	User Defaults	looked up value <private> for key LastSystemVersion in CFPrefsPlistSource<0x100bbc4c0> (Domain: com.apple.migration, User: kCFPreferencesCurrentUser, ByHost: No, Container: (null), Contents Need Refresh: No)	
+00:48.793.941	Debug	assetsd (1696)	com.apple.defaults	User Defaults	found no value for key formatreaderremote_trace in CFPrefsSearchListSource<0xbbc09c880> (Domain: com.apple.coremedia, Container: (null))	
+00:48.793.946	Default	com.apple.datamigrator (1697)	com.apple.migration	core	DMMigratorProxy did send response for event 0xc82070400 msgID 5 to client pid 1696. Migration Needed? NO	
+00:48.793.949	Default	assetsd (1696)	com.apple.migration	core	DMConnection will dealloc <DMConnection: 0xbbc1c3b10>	
+00:48.793.959	Default	com.apple.datamigrator (1697)	com.apple.migration	core	DMMigratorProxy did complete for event 0xc82070400 msgID 5 from client pid 1696.	
+00:48.794.035	Default	assetsd (1696)	com.apple.xpc	connection	[0xbbc94e100] activating connection: mach=1 listener=0 peer=0 name=com.apple.coremedia.mediaparserd.formatreader.xpc	
+00:48.794.082	Default	assetsd (1696)	com.apple.xpc	connection	[0xbbc94e500] invalidated because the current process cancelled the connection by calling xpc_connection_cancel()	
+00:48.794.107	Debug	assetsd (1696)	com.apple.photos.backend	ImageManager	[RM]: Initializing resource data store for class ID 1, libraryID: <private>...	
+00:48.794.160	Default	mediaparserd (279)	com.apple.xpc	connection	[0xd162ccdc0] activating connection: mach=0 listener=0 peer=1 name=com.apple.coremedia.mediaparserd.formatreader.xpc.peer[1696].0xd162ccdc0	
+00:48.794.180	Default	mediaparserd (279)	com.apple.xpc	connection	[0xd162cd680] activating connection: mach=0 listener=1 peer=0 name=(anonymous)	
+00:48.794.195	Default	mediaparserd (279)	com.apple.xpc	connection	[0xd162cd680] Channel could not return listener port.	
+00:48.794.290	Default	assetsd (1696)	com.apple.xpc	connection	[0xbbc8ef200] activating connection: mach=0 listener=0 peer=0 name=(anonymous)	
+00:48.794.356	Debug	locationd (74)	com.apple.LocationSupport	Connection	{"msg":"CLConnection::sendMessage", "name":kCLConnectionMessageMotionActivityUpdate}	
+00:48.794.382	Default	mediaparserd (279)	com.apple.xpc	connection	[0xd162ccc80] activating connection: mach=0 listener=0 peer=1 name=com.apple.xpc.anonymous.0xd162cd680.peer[1696].0xd162ccc80	
+00:48.794.416	Default	com.apple.datamigrator (1697)	com.apple.xpc	connection	[0xc8209c140] invalidated because the client process (pid 1,696) either cancelled the connection or exited	
+00:48.794.467	Default	com.apple.datamigrator (1697)	com.apple.migration	core	DataMigrator connections count went to zero.	
+00:48.794.473	Debug	assetsd (1696)	com.apple.photos.backend	LibraryBundle	Inconsistent URL paths may negatively impact client access performance (original /private/var/mobile/Library/Photos/Libraries/Syndication.photoslibrary vs. current /var/mobile/Library/Photos/Libraries/Syndication.photoslibrary)	
+00:48.794.489	Debug	assetsd (1696)	com.apple.defaults	User Defaults	found no value for key remakerremote_trace in CFPrefsSearchListSource<0xbbc09c880> (Domain: com.apple.coremedia, Container: (null))	
+00:48.794.582	Debug	assetsd (1696)	com.apple.defaults	User Defaults	found no value for key remakerremote_trace in CFPrefsSearchListSource<0xbbc09c880> (Domain: com.apple.coremedia, Container: (null))	
+00:48.794.621	Debug	assetsd (1696)	com.apple.photos.backend	PhotosObjectLifecycle	PLPhotoLibrary 0xbbc13eee0 initWithName <private>	
+00:48.794.653	Default	assetsd (1696)	com.apple.xpc	connection	[0xbbc94e300] activating connection: mach=1 listener=0 peer=0 name=com.apple.coremedia.mediaplaybackd.remaker.xpc	
+00:48.794.667	Debug	assetsd (1696)	com.apple.photos.backend	LibraryBundle	Inconsistent URL paths may negatively impact client access performance (original /private/var/mobile/Media vs. current /var/mobile/Media)	
+00:48.794.809	Debug	assetsd (1696)	com.apple.photos.backend	PhotosObjectLifecycle	PLPhotoLibrary 0xbbc13f0c0 initWithName <private>	
+00:48.794.841	Error	photoanalysisd (380)	com.apple.photoanalysisd	KnownResources	Skipping duplicate resource <private>	
+00:48.794.884	Default	mediaplaybackd (278)	com.apple.xpc	connection	[0x62a3f30c0] activating connection: mach=0 listener=0 peer=1 name=com.apple.coremedia.mediaplaybackd.remaker.xpc.peer[1696].0x62a3f30c0	
+00:48.794.924	Debug	assetsd (1696)	com.apple.photos.backend	LibraryBundle	Inconsistent URL paths may negatively impact client access performance (original /private/var/mobile/Library/Photos/Libraries/Syndication.photoslibrary vs. current /var/mobile/Library/Photos/Libraries/Syndication.photoslibrary)	
+00:48.794.943	Default	assetsd (1696)	com.apple.coremedia		<<<< FigProcessStateMonitorRemote >>>> FigProcessStateMonitorCopyRemoteStateMonitor: monitorRemoteOut <FigProcessStateMonitorRemoteRef 0xbbc005d50 <FigXPCRemoteClient 0xbbc3fc540 [0x1fbbf3308]> 278 OID: 01160d0000000801, serverDied: NO, enrolledInPurge: NO, lastPurgeID: 0> err 0	
+00:48.795.044	Debug	assetsd (1696)	com.apple.photos.backend	LibraryBundle	Inconsistent URL paths may negatively impact client access performance (original /private/var/mobile/Media vs. current /var/mobile/Media)	
+00:48.795.057	Debug	assetsd (1696)	com.apple.photos.backend	PersistentHistory	Updated transaction author: <private>, for context: 0xbbc986100	
+00:48.795.138	Debug	assetsd (1696)	com.apple.photos.backend	PersistentHistory	Updated transaction author: <private>, for context: 0xbbc986280	
+00:48.795.181	Default	mediaparserd (279)	com.apple.coremedia		<<<< FigApplicationStateMonitor >>>> fasm_ensureApplicationStateMonitor: PID 278 was excluded from monitoring	
+00:48.795.195	Default	mediaparserd (279)	com.apple.coremedia	playback-memory	<<< FigDispatchUtilities >>> FigOSTransactionCreateWithProcessName: [Fig Transaction] Added transaction weak reference holder <0xd161c7440>: <private>	
+00:48.795.225	Info	locationd (74)	com.apple.locationd.Motion	IndoorOutdoor	IndoorOutdoor,ALSScan,context,<private>,lux,155.4808,t,753,594,903.4325	
+00:48.795.273	Default	mediaplaybackd (278)	com.apple.coremedia		<<<< FigApplicationStateMonitor >>>> fasm_ensureApplicationStateMonitor: Using existing monitor: <private>	
+00:48.795.276	Debug	assetsd (1696)	com.apple.photos.backend	PhotosObjectLifecycle	PLTransientManagedObjectContext 0xbbc986100 initWithConcurrencyType:1 pathManager:<PLPhotoLibraryPathManager: 0xbbc3a5240> [UBF] [fs=16777227/file=15544]	
+00:48.795.302	Default	mediaplaybackd (278)	com.apple.coremedia	playback-memory	<<< FigDispatchUtilities >>> FigOSTransactionCreateWithProcessName: [Fig Transaction] Added transaction weak reference holder <0x62a00ea00>: <private>	
+00:48.795.321	Debug	mediaplaybackd (278)	com.apple.defaults	User Defaults	found no value for key DisableFigPerfMonitor in CFPrefsSearchListSource<0x100514980> (Domain: com.apple.coremedia, Container: (null))	
+00:48.795.323	Debug	assetsd (1696)	com.apple.photos.backend	PhotosObjectLifecycle	PLTransientManagedObjectContext 0xbbc986280 initWithConcurrencyType:1 pathManager:<PLPhotoLibraryPathManager: 0xbbc0a9320> [DCIM] [fs=16777227/file=31]	
+00:48.795.342	Default	mediaplaybackd (278)	com.apple.coremedia		<<<< FigApplicationStateMonitor >>>> fasm_ensureApplicationStateMonitor: Using existing monitor: <private>	
+00:48.795.355	Default	mediaplaybackd (278)	com.apple.coremedia	playback-memory	<<< FigDispatchUtilities >>> FigOSTransactionCreateWithProcessName: [Fig Transaction] Added transaction weak reference holder <0x62a00e7e0>: <private>	
+00:48.795.365	Debug	mediaplaybackd (278)	com.apple.defaults	User Defaults	found no value for key DisableFigPerfMonitor in CFPrefsSearchListSource<0x100514980> (Domain: com.apple.coremedia, Container: (null))	
+00:48.795.368	Default	mediaplaybackd (278)	com.apple.coremedia		<<<< FigApplicationStateMonitor >>>> fasm_ensureApplicationStateMonitor: Using existing monitor: <private>	
+00:48.795.425	Debug	assetsd (1696)	com.apple.photos.backend	PhotosObjectLifecycle	PLTransientManagedObjectContext 0xbbc986100 setName:<private>	
+00:48.795.448	Default	mediaplaybackd (278)	com.apple.coremedia	playback-memory	<<< FigDispatchUtilities >>> FigOSTransactionCreateWithProcessName: [Fig Transaction] Added transaction weak reference holder <0x62a00eb20>: <private>	
+00:48.795.454	Default	mediaplaybackd (278)	com.apple.coremedia		<<<< FigApplicationStateMonitor >>>> fasm_ensureApplicationStateMonitor: Using existing monitor: <private>	
+00:48.795.495	Debug	assetsd (1696)	com.apple.photos.backend	PhotosObjectLifecycle	PLTransientManagedObjectContext 0xbbc986280 setName:<private>	
+00:48.795.520	Debug	mediaplaybackd (278)	com.apple.defaults	User Defaults	found no value for key DisableFigPerfMonitor in CFPrefsSearchListSource<0x100514980> (Domain: com.apple.coremedia, Container: (null))	
+00:48.795.644	Debug	assetsd (1696)	com.apple.photos.backend	PhotosObjectLifecycle	PLPhotoLibrary 0xbbc13f0c0 dealloc <private>	
+00:48.795.663	Debug	assetsd (1696)	com.apple.defaults	User Defaults	found no value for key com.apple.Photos.SuppressFileSystemImport in CFPrefsSearchListSource<0xbbc09c400> (Domain: com.apple.mobileslideshow, Container: (null))	
+00:48.795.881	Debug	assetsd (1696)	com.apple.photos.backend	PhotosObjectLifecycle	PLManagedObjectContext 0xbbc986280 dealloc	
+00:48.795.883	Default	mediaplaybackd (278)	com.apple.xpc	connection	[0x62a3f1a40] activating connection: mach=1 listener=0 peer=0 name=com.apple.audio.AudioSession	
+00:48.796.116	Debug	assetsd (1696)	com.apple.photos.backend	PhotosObjectLifecycle	PLPhotoLibrary 0xbbc13e940 dealloc <private>	
+00:48.796.174	Debug	assetsd (1696)	com.apple.photos.backend	PhotosObjectLifecycle	PLManagedObjectContext 0xbbc985f80 dealloc	
+00:48.796.201	Debug	photoanalysisd (380)	com.apple.defaults	User Defaults	CFPrefsPlistSource<0x5a6098180> (Domain: com.apple.photoanalysisd, User: kCFPreferencesCurrentUser, ByHost: No, Container: (null), Contents Need Refresh: No) skipping setting already-present value for key KnownResources	
+00:48.796.212	Default	audiomxd (105)	com.apple.coreaudio	as_server	AVAudioSessionXPCServer.mm:732 New connection: <NSXPCConnection: 0x4ac1bb8e0> connection from pid 278 on mach service named com.apple.audio.AudioSession (0x4ac718780)	
+00:48.796.229	Default	audiomxd (105)	com.apple.xpc	connection	[0x4ac3392c0] activating connection: mach=0 listener=0 peer=1 name=com.apple.audio.AudioSession.peer[278].0x4ac3392c0	
+00:48.796.249	Debug	assetsd (1696)	com.apple.photos.backend	LibraryServices	LSM-1-0x102de5b70: progress resigned current: <private>	
+00:48.796.343	Default	assetsd (1696)	com.apple.photos.backend	LibraryServices	LSM-1-0x102de5b70: Completed operation <PLLibraryServicesOperation: 0xbbc096940>{name = 'Handle thumbnail rebuild request'} in 0.0099 seconds with QoS QOS_CLASS_USER_INITIATED	
+00:48.796.363	Debug	locationd (74)	com.apple.locationd.Core	Notifier	{"msg":"CLMotionActivitySubscription::onMotionActivityNotification", "event":activity, "this":"35,310,026,816"}	
+00:48.796.412	Debug	audiomxd (105)	com.apple.coreaudio	as_server	AudioSessionInfo.mm:296 Attempting to create a new core session for client with PID 1,696	
+00:48.796.428	Default	audiomxd (105)	com.apple.coremedia		-CMSession_CInterface- CMSessionCreateForRemoteDeviceID: Called for remoteDeviceID: 	
+00:48.796.467	Default	assetsd (1696)	com.apple.photos.backend	LibraryServices	LSM-1-0x102de5b70: Starting operation <PLLibraryServicesOperation: 0xbbc096a80>{name = 'File System Import'} with QoS QOS_CLASS_USER_INITIATED	
+00:48.796.490	Default	audiomxd (105)	com.apple.coremedia		-CMSessionMgr- cmsSetAudioCategory: Client '' [0x4af50a680] set audioCategory to 'SoloAmbientSound'	
+00:48.796.491	Debug	assetsd (1696)	com.apple.photos.backend	LibraryServices	LSM-1-0x102de5b70: progress becoming current: <private>	
+00:48.796.805	Info	locationd (74)	com.apple.locationd.Position	Outdoor	ALSDaylightDetectorEstimate,lux,<private>,sunElevation,<private>,lowCnt,<private>,medCnt,<private>,highCnt,<private>,conf,<private>,confFilt,<private>,startTime,<private>, isAstronomicalDaytime, <private>	
+00:48.796.832	Debug	assetsd (1696)	com.apple.photos.backend	LibraryBundle	Inconsistent URL paths may negatively impact client access performance (original /private/var/mobile/Media vs. current /var/mobile/Media)	
+00:48.796.846	Default	audiomxd (105)	com.apple.coremedia		-CMSessionMgr- cmsSetControlFlags: Session '' setting control flags: required = 0, desired = Volume_Routing	
+00:48.796.855	Debug	assetsd (1696)	com.apple.photos.backend	PhotosObjectLifecycle	PLPhotoLibrary 0xbbc13eda0 initWithName <private>	
+00:48.796.873	Debug	audiomxd (105)	com.apple.coreaudio	aqme	AQIONode.cpp:851 obj 0x73, addr sesi/glob/0x00000000, qual 0@0x0, size 8: e0ca42b004000000	
+00:48.796.937	Debug	audiomxd (105)	com.apple.audioanalytics	carc	Get serviceType. { reporterID=450,971,566,082 }	
+00:48.796.959	Debug	audiomxd (105)	com.apple.audioanalytics	carc	Get serviceType. { reporterID=450,971,566,089 }	
+00:48.796.982	Debug	audiomxd (105)	com.apple.coreaudio	aid	[AudioIssueDetectorManager.cpp:289 rtaid::Manager:0x27a8cfc78] enabling global NonFinite analyzer for client VA	
+00:48.796.992	Debug	audiomxd (105)	com.apple.coreaudio	aid	[AudioIssueDetectorManager.cpp:289 rtaid::Manager:0x27a8cfc78] enabling global AnalyzerRealTimeError analyzer for client VA	
+00:48.797.003	Debug	audiomxd (105)	com.apple.coreaudio	va_aggdev	AggregateDevice.h:667 Current reporterIDs:	
+00:48.797.010	Debug	audiomxd (105)	com.apple.coreaudio	va_aggdev	AggregateDevice.h:671 reporterID: 450,971,566,082	
+00:48.797.035	Debug	locationd (74)	com.apple.LocationSupport	Connection	{"msg":"CLConnection::sendMessage", "name":kCLConnectionMessageMotionActivityUpdate}	
+00:48.797.039	Info	locationd (74)	com.apple.locationd.Motion	IndoorOutdoor	IndoorOutdoor,ALSScan,context,<private>,lux,155.4808,t,753,594,903.4332	
+00:48.797.039	Debug	assetsd (1696)	com.apple.photos.backend	LibraryBundle	Inconsistent URL paths may negatively impact client access performance (original /private/var/mobile/Media vs. current /var/mobile/Media)	
+00:48.797.057	Debug	assetsd (1696)	com.apple.photos.backend	PersistentHistory	Updated transaction author: <private>, for context: 0xbbc986580	
+00:48.797.081	Default	photoanalysisd (380)	com.apple.photoanalysisd	InstanceCounter	[ServiceProvider] decreased to 2 instances	
+00:48.797.099	Debug	assetsd (1696)	com.apple.photos.backend	PhotosObjectLifecycle	PLTransientManagedObjectContext 0xbbc986580 initWithConcurrencyType:1 pathManager:<PLPhotoLibraryPathManager: 0xbbc0a9320> [DCIM] [fs=16777227/file=31]	
+00:48.797.113	Debug	audiomxd (105)	com.apple.coreaudio	va_aggdev	AggregateDevice.h:671 reporterID: 450,971,566,089	
+00:48.797.133	Debug	assetsd (1696)	com.apple.photos.backend	PhotosObjectLifecycle	PLTransientManagedObjectContext 0xbbc986580 setName:<private>	
+00:48.797.292	Debug	assetsd (1696)	com.apple.defaults	User Defaults	found no value for key com.apple.Photos.SuppressFileSystemImport in CFPrefsSearchListSource<0xbbc09c400> (Domain: com.apple.mobileslideshow, Container: (null))	
+00:48.797.318	Debug	audiomxd (105)	com.apple.audioanalytics	carc	Get serviceType. { reporterID=450,971,566,082 }	
+00:48.797.329	Default	audiomxd (105)	com.apple.coremedia		-MXCoreSession_Embedded- -[MXCoreSession setBadgeType:]: Setting badgeType from  to NotApplicable for MXCoreSession <ID: 46, PID = (null), Name = (null), BundleID = (null), Category = SoloAmbientSound, Mode = Default, Active = NO, Playing = NO, Recording = NO>	
+00:48.797.387	Debug	audiomxd (105)	com.apple.audioanalytics	carc	Get serviceType. { reporterID=450,971,566,089 }	
+00:48.797.463	Debug	audiomxd (105)	com.apple.coreaudio	aid	[AudioIssueDetectorManager.cpp:289 rtaid::Manager:0x27a8cfc78] enabling global NonFinite analyzer for client HAL	
+00:48.797.486	Debug	audiomxd (105)	com.apple.coreaudio	aid	[AudioIssueDetectorManager.cpp:289 rtaid::Manager:0x27a8cfc78] enabling global AnalyzerRealTimeError analyzer for client HAL	
+00:48.797.535	Debug	audiomxd (105)	com.apple.coreaudio	aid	[AudioIssueDetectorManager.cpp:289 rtaid::Manager:0x27a8cfc78] enabling global RMS analyzer for client HAL	
+00:48.797.634	Debug	locationd (74)	com.apple.locationd.Motion	IndoorOutdoor	in-out-metrics,context,<private>,stepDeltaDistance,<private>,gyroHeadingRadians,<private>,gpsDeltaDistance,<private>,gpsHeadingRadians,<private>,bodySum,<private>,fTurnEnv,<private>,fGPSTurnEnv,<private>,fResidScalar,<private>,fIMUDistanceX,<private>,fIMUDistanceY,<private>,fGPSDistanceX,<private>,fGPSDistanceY,<private>,fGpsWanderLLRBufferSum,<private>,fGpsLLRBufferSum,<private>,fGpsFixBufferSum,<private>,stepTimestamp,<private>,fGpsState,<private>	
+00:48.797.699	Default	audiomxd (105)	com.apple.coremedia		-MXSession- -[MXSession(InterfaceImpl) initWithSession:]: Creating MXSession = <ID: 443, CoreSessionID = 46 Name = (null), Muted = NO, ClientIsPlaying = STOPPED, AudioToolboxIsPlaying = STOPPED, MutePriority = MutePriority_Two, PiP = NO, DoesntActuallyPlayAudio = NO, clientType = 1, IsPlayingOutput = NO	
+00:48.797.699	Debug	locationd (74)	com.apple.locationd.Position	LCFusion	KFCV:FilterStateLog,1,004,753,594,903.6961,349,916.7342,4,0,<private>,<private>,<private>,0.0000,-1.0000,24.9791,30.0000,0.0472,-1.0000,1.9164,7,2,0,DynamicsMode-based propagation and update	
+00:48.797.711	Default	audiomxd (105)	com.apple.coremedia		-MXSession- -[MXSession(InternalUse) setClientType:]: MXSession with ID 443 for CoreSession  setting ClientType = AudioSession	
+00:48.797.722	Default	audiomxd (105)	com.apple.coreaudio	as_server	AudioSessionInfo.mm:569 subsession created with ref 0x4ac1bbc00	
+00:48.797.932	Debug	locationd (74)	com.apple.locationd.Position	GeoFencing	Received motion state,static,<private>,walking,<private>,driving,<private>,inVehicle,<private>	
+00:48.798.054	Debug	locationd (74)	com.apple.locationd.Position	Position	CLMM, MotionState,type,1,confidence,0,mountedState,1,mountedConfidence,2,now,753,594,903.7260,propagation_us,10,363.2083	
+00:48.798.159	Debug	locationd (74)	com.apple.locationd.Motion	IndoorOutdoor	IndoorOutdoor,context,<private>,[<private>][step],startTime,<private>,stepCount,<private>,stepDistance,<private>,rawStepDistance,<private>,	
+00:48.798.166	Default	audiomxd (105)	com.apple.coremedia		-MX_RunningBoardServices- MX_RunningBoardServices_StartMonitoringForPID: Monitoring process with pid 1,696	
+00:48.798.257	Debug	locationd (74)	com.apple.locationd.Core	Notifier	{"msg":"CLMotionActivitySubscription::onMotionActivityNotification", "event":activity, "this":"35,310,032,320"}	
+00:48.798.329	Info	locationd (74)	com.apple.locationd.Position	Outdoor	ALSDaylightDetectorEstimate,lux,<private>,sunElevation,<private>,lowCnt,<private>,medCnt,<private>,highCnt,<private>,conf,<private>,confFilt,<private>,startTime,<private>, isAstronomicalDaytime, <private>	
+00:48.798.364	Default	audiomxd (105)	com.apple.runningboard	monitor	Updating configuration of monitor M105-3	
+00:48.798.420	Debug	SpringBoard (34)	com.apple.locationd.Motion	Pocket	Device Stationary?, <private>, Orientation, <private>, Proximity, <private>	
+00:48.798.476	Info	runningboardd (33)	com.apple.runningboard	message	PERF: Received request from [osservice<com.apple.audiomxd>:105] (euid 501, auid 501) (persona 9123D57A-D0E6-47C6-938F-C289AA99CB36): void_subscribeToProcessStateChangesWithConfiguration:error:	
+00:48.798.513	Debug	locationd (74)	com.apple.LocationSupport	Connection	{"msg":"CLConnection::sendMessage", "name":kCLConnectionMessageMotionActivityUpdate}	
+00:48.798.581	Info	runningboardd (33)	com.apple.runningboard	monitor	monitor changed to M105-3	
+00:48.798.659	Info	locationd (74)	com.apple.locationd.Motion	IndoorOutdoor	IndoorOutdoor,ALSScan,context,<private>,lux,155.8558,t,753,594,903.6808	
+00:48.798.786	Debug	locationd (74)	com.apple.locationd.Core	Notifier	{"msg":"CLMotionActivitySubscription::onMotionActivityNotification", "event":activity, "this":"35,310,030,528"}	
+00:48.798.849	Debug	audiomxd (105)	com.apple.runningboard	message	PERF: [osservice<com.apple.audiomxd>:105] Received message from runningboardd: async_observedProcessStatesDidChange:completion:	
+00:48.798.852	Debug	audiomxd (105)	com.apple.runningboard	monitor	Successfully synced configuration for monitor M105-3	
+00:48.798.886	Debug	audiomxd (105)	com.apple.runningboard	process	Decoded RBSProcessHandle with IPC ID 1b205d1b000000c4	
+00:48.798.911	Debug	audiomxd (105)	com.apple.runningboard	process	Decoded RBSProcessHandle with IPC ID 60e768000000028	
+00:48.798.914	Info	runningboardd (33)	com.apple.runningboard	message	PERF: Received request from [osservice<com.apple.audiomxd>:105] (euid 501, auid 501) (persona 9123D57A-D0E6-47C6-938F-C289AA99CB36): statesForPredicate:descriptor:error:	
+00:48.798.928	Debug	audiomxd (105)	com.apple.runningboard	process	Decoded RBSProcessHandle with IPC ID 149c8dee00000024	
+00:48.798.940	Debug	audiomxd (105)	com.apple.runningboard	process	Decoded RBSProcessHandle with IPC ID bce8fbd000006a0	
+00:48.798.950	Debug	audiomxd (105)	com.apple.runningboard	process	Decoded RBSProcessHandle with IPC ID 1991e1e500000690	
+00:48.798.972	Debug	audiomxd (105)	com.apple.runningboard	process	Decoded RBSProcessHandle with IPC ID 16c2d9890000027b	
+00:48.798.998	Debug	audiomxd (105)	com.apple.runningboard	process	Decoded RBSProcessHandle with IPC ID bce8fbd000006a0	
+00:48.799.127	Debug	audiomxd (105)	com.apple.runningboard	process	Decoded RBSProcessHandle with IPC ID 1ba40865000000a6	
+00:48.799.146	Info	runningboardd (33)	com.apple.runningboard	message	PERF: Received request from [osservice<com.apple.audiomxd>:105] (euid 501, auid 501) (persona 9123D57A-D0E6-47C6-938F-C289AA99CB36): statesForPredicate:descriptor:error:	
+00:48.799.207	Debug	audiomxd (105)	com.apple.runningboard	process	Decoded RBSProcessHandle with IPC ID 9d5fa7000000116	
+00:48.799.307	Debug	audiomxd (105)	com.apple.runningboard	process	Decoded RBSProcessHandle with IPC ID bce8fbd000006a0	
+00:48.799.338	Debug	audiomxd (105)	com.apple.runningboard	process	Decoded RBSProcessHandle with IPC ID 6f484a000000041	
+00:48.799.354	Debug	audiomxd (105)	com.apple.runningboard	process	Decoded RBSProcessHandle with IPC ID 1dcb48cd00000094	
+00:48.799.359	Info	runningboardd (33)	com.apple.runningboard	message	PERF: Received request from [osservice<com.apple.audiomxd>:105] (euid 501, auid 501) (persona 9123D57A-D0E6-47C6-938F-C289AA99CB36): infoPlistResultForInstance:forKeys:error:	
+00:48.799.372	Info	locationd (74)	com.apple.locationd.Position	Outdoor	ALSDaylightDetectorEstimate,lux,<private>,sunElevation,<private>,lowCnt,<private>,medCnt,<private>,highCnt,<private>,conf,<private>,confFilt,<private>,startTime,<private>, isAstronomicalDaytime, <private>	
+00:48.799.383	Info	runningboardd (33)	com.apple.runningboard	general	Bundle info cannot be fetched for process 1,696	
+00:48.799.423	Debug	audiomxd (105)	com.apple.coreaudio	as_server	AudioSessionInfo.mm:575 setting SecTaskRef: assetsd[1696]/0#-1 LF=0	
+00:48.799.433	Debug	audiomxd (105)	com.apple.runningboard	process	Decoded RBSProcessHandle with IPC ID 142d1d420000008c	
+00:48.799.651	Default	audiomxd (105)	com.apple.coremedia		-MX_SystemStatus- MX_SystemStatus_PublishRecordingClientsInfo_block_invoke: Publishing recording clients info to SystemStatus.
+ RecordingClients = {(
+)} 
+; MutedRecordingClients = {(
+)}	
+00:48.799.790	Debug	audiomxd (105)	com.apple.coreaudio	aqme	AQIONode.cpp:437 Got routing behavior dictionary (0x4ac1eb280) for AQIONodeClient 0x16ba793c0, session 0x6905b, err = 0x0, {
+    "AudioBehaviour_Destination" =     (
+        "VirtualAudioDevice_Default"
+    );
+    "AudioBehaviour_Source" =     (
+        "VirtualAudioDevice_DecoupledInput",
+        "VirtualAudioDevice_Default"
+    );
+    "AudioBehaviour_Stream" = "Stream_Secondary";
+}	
+00:48.799.848	Debug	audiomxd (105)	com.apple.coreaudio	SpatialMgr	SpatializationManager.cpp:703 Untracked headphone entitlement not found	
+00:48.799.890	Debug	audiomxd (105)	com.apple.coreaudio	SpatialMgr	SpatializationManager.cpp:728 3rd-party untracked headphone entitlement not found	
+00:48.799.907	Debug	audiomxd (105)	com.apple.coreaudio	aqme	AQMEIO_HAL.cpp:1,395 portID = 168	
+00:48.799.918	Debug	audiomxd (105)	com.apple.coreaudio	aqme	AQMEIO_HAL.cpp:1,445 BT property kBluetoothAudioDeviceUserSelectedDeviceType not found on portID=168	
+00:48.799.925	Default	audiomxd (105)	com.apple.coreaudio	aqme	AQMEIO_HAL.cpp:1,456 User-selected BT device category is 0	
+00:48.799.989	Debug	audiomxd (105)	com.apple.coreaudio	aqme	AQMEIO_HAL.cpp:1,842 portID = 168	
+00:48.800.071	Debug	audiomxd (105)	com.apple.defaults	User Defaults	found no value for key MonoAudioEnabled in CFPrefsSearchListSource<0x4ac17c700> (Domain: com.apple.Accessibility, Container: (null))	
+00:48.800.121	Default	audiomxd (105)	com.apple.coreaudio	SpatialMgr	SpatializationManager.cpp:184 Spatial info for session ID = 0x6905b: {
+	App bundle ID = (null)
+	Route = built-in speakers
+	contentType = 'soun'
+	overrideSpatialMode = 0
+	preferencesVersion = 1
+
+	Spatial preferences: {
+		prefersHeadTrackedSpatialization = 0
+		prefersLossyAudioSources = 0
+		maxSpatializableChannels = 16
+		alwaysSpatialize = 0
+		spatialAudioSourceCount = 1
+		spatialAudioSources = [ 'mlti' ]
+	}
+}
+	
+00:48.800.175	Info	audiomxd (105)	com.apple.coreaudio	as_server	AudioSessionServerImpNotificationHandlers.mm:883 spatialEnabled is 1 SessionID is 0x6905b	
+00:48.800.233	Default	audiomxd (105)	com.apple.coreaudio	as_server	ServerSessionManager.mm:296 { "action":"create_session", "session":{"ID":"0x6905b","name":"assetsd(1696)"}, "details":{"PID":1696,"session_type":"Primary"} }	
+00:48.800.282	Default	audiomxd (105)	com.apple.coreaudio	as_server	ServerSessionManager.mm:895 Creating implicit audio app instance for 1,696	
+00:48.800.288	Debug	locationd (74)	com.apple.LocationSupport	Connection	{"msg":"CLConnection::sendMessage", "name":kCLConnectionMessageMotionActivityUpdate}	
+00:48.800.375	Info	locationd (74)	com.apple.locationd.Motion	IndoorOutdoor	IndoorOutdoor,ALSScan,context,<private>,lux,155.8558,t,753,594,903.6812	
+00:48.800.385	Debug	locationd (74)	com.apple.locationd.Motion	IndoorOutdoor	IndoorOutdoor,context,<private>,[<private>][turn-none],requestedSampleTime,<private>	
+00:48.800.481	Debug	locationd (74)	com.apple.locationd.Position	Position	#CLProactiveLoc,active,0,feedMotionNotification,static,1,staticCheckpoint,0	
+00:48.800.663	Debug	locationd (74)	com.apple.locationd.Core	Notifier	{"msg":"CLMotionActivitySubscription::onMotionActivityNotification", "event":activity, "this":"35,310,536,256"}	
+00:48.800.964	Default	locationd (74)	com.apple.locationd.Position	Position	#CLProactiveLoc,rvo,Motion,ped,0,veh,0,mov,0,stationary,1,likelyBoardedVeh,0,walkRunDur,0.0000	
+00:48.800.989	Debug	locationd (74)	com.apple.LocationSupport	Connection	{"msg":"CLConnection::sendMessage", "name":kCLConnectionMessageMotionActivityUpdate}	
+00:48.801.026	Info	locationd (74)	com.apple.locationd.Motion	IndoorOutdoor	IndoorOutdoor,GPSResult,context,<private>,stepDeltaDistance,<private>,gpsDeltaDistance,<private>,fResidScalar,<private>,fIMUDistanceX,<private>,fIMUDistanceY,<private>,stepTimestamp,<private>,fGpsState,<private>,gpsDiscordanceProbability,<private>,gpsDiscordanceRawProbability,<private>,gpsDiscordance,<private>,numValidDiscordanceSamples,<private>,llrBufferSumProbability,<private>	
+00:48.801.065	Info	locationd (74)	com.apple.locationd.Position	Outdoor	ALSDaylightDetectorEstimate,lux,<private>,sunElevation,<private>,lowCnt,<private>,medCnt,<private>,highCnt,<private>,conf,<private>,confFilt,<private>,startTime,<private>, isAstronomicalDaytime, <private>	
+00:48.801.125	Debug	audiomxd (105)	com.apple.launchservices	binding	BindingEvaluator::CreateWithBundleInfo(ID=<private>, name=<private>, CC=????, vers=)	
+00:48.801.146	Debug	audiomxd (105)	com.apple.launchservices	binding	BindingEvaluator::~BindingEvaluator(0x16b84a398)	
+00:48.801.154	Info	runningboardd (33)	com.apple.runningboard	message	PERF: Received request from [osservice<com.apple.audiomxd>:105] (euid 501, auid 501) (persona 9123D57A-D0E6-47C6-938F-C289AA99CB36): lookupHandleForPredicate:error:	
+00:48.801.158	Debug	audiomxd (105)	com.apple.launchservices	binding	Running evaluator 0x16b84a1d0	
+00:48.801.165	Debug	audiomxd (105)	com.apple.launchservices	binding	Adding user preferences	
+00:48.801.167	Default	runningboardd (33)	com.apple.runningboard	message	PERF: Received lookupHandleForPredicate request from [osservice<com.apple.audiomxd>:105] (euid 501, auid 501) (persona )	
+00:48.801.172	Debug	audiomxd (105)	com.apple.launchservices	binding	Adding weak binding	
+00:48.801.189	Debug	audiomxd (105)	com.apple.launchservices	binding	0 bindings found	
+00:48.801.196	Debug	runningboardd (33)	com.apple.runningboard	connection	[osservice<com.apple.audiomxd>:105] query resolved to [osservice<com.apple.assetsd>:1696]	
+00:48.801.196	Debug	audiomxd (105)	com.apple.launchservices	binding	Truncating a list of bindings to max 1 known-good ones.	
+00:48.801.203	Debug	audiomxd (105)	com.apple.launchservices	binding	Adding and sorting bundles	
+00:48.801.212	Debug	audiomxd (105)	com.apple.runningboard	process	Decoded RBSProcessHandle with IPC ID b76ba0400000022	
+00:48.801.218	Info	locationd (74)	com.apple.locationd.Motion	IndoorOutdoor	IndoorOutdoor,WifiModel,context,<private>,scanRange,129.8198,distanceTraveled,0.0000,numAps,77,invalidResult,1,stationaryProbability,0.9696,wifiRssiModelIndoorProbability,0.9397	
+00:48.801.273	Info	runningboardd (33)	com.apple.runningboard	message	PERF: Received request from [osservice<com.apple.audiomxd>:105] (euid 501, auid 501) (persona 9123D57A-D0E6-47C6-938F-C289AA99CB36): lookupProcessName:error:	
+00:48.801.296	Default	audiomxd (105)	com.apple.coreaudio	as_server	ServerSessionManager.mm:1,063 Start process monitoring, pid = 1,696, name = assetsd	
+00:48.801.316	Debug	audiomxd (105)	com.apple.runningboard	process	Decoded RBSProcessHandle with IPC ID 1656957e0000005e	
+00:48.801.353	Default	audiomxd (105)	com.apple.runningboard	process	Starting death monitoring for handle <private>	
+00:48.801.408	Info	audiomxd (105)	com.apple.runningboard	process	Subscribing to death of process 1696	
+00:48.801.438	Debug	audiomxd (105)	com.apple.runningboard	process	Decoded RBSProcessHandle with IPC ID b5ee54400000061	
+00:48.801.498	Info	runningboardd (33)	com.apple.runningboard	message	PERF: Received request from [osservice<com.apple.audiomxd>:105] (euid 501, auid 501) (persona 9123D57A-D0E6-47C6-938F-C289AA99CB36): subscribeToProcessDeath:error:	
+00:48.801.517	Debug	audiomxd (105)	com.apple.runningboard	process	Decoded RBSProcessHandle with IPC ID 40a9ad00000069	
+00:48.801.520	Info	audiomxd (105)	com.apple.coreaudio	as_server	ServerSessionManager.mm:152 Found source session with ID 0x6905b. Proceeding to create sibling session.	
+00:48.801.551	Debug	locationd (74)	com.apple.locationd.Core	Notifier	{"msg":"CLMotionActivitySubscription::onMotionActivityNotification", "event":activity, "this":"35,311,186,240"}	
+00:48.801.589	Debug	audiomxd (105)	com.apple.runningboard	process	Decoded RBSProcessHandle with IPC ID 1acd341e00000032	
+00:48.801.662	Debug	audiomxd (105)	com.apple.runningboard	process	Decoded RBSProcessHandle with IPC ID 360bc9100000042	
+00:48.801.678	Info	locationd (74)	com.apple.locationd.Motion	IndoorOutdoor	IndoorOutdoor,ALSResult,context,<private>,outputProb,0.2161,rawProb,0.2161,meanLux,271.6307,stdLux,74.0470,n,720,elevation,39.2981,hasLatLon,1	
+00:48.801.685	Debug	audiomxd (105)	com.apple.coreaudio	as_server	AudioSessionInfo.mm:290 Attempting to create sibling for core session created by PID 1,696	
+00:48.801.699	Default	audiomxd (105)	com.apple.runningboard	monitor	Received state update for 196 (osservice<com.apple.announced>, running-NotVisible	
+00:48.801.703	Default	audiomxd (105)	com.apple.coremedia		-MXSession- -[MXSession(InterfaceImpl) initWithSession:]: Creating MXSession = <ID: 444, CoreSessionID = 46 Name = sid:0x6905b, assetsd(1696), 'prim', Muted = NO, ClientIsPlaying = STOPPED, AudioToolboxIsPlaying = STOPPED, MutePriority = MutePriority_Two, PiP = NO, DoesntActuallyPlayAudio = NO, clientType = 1, IsPlayingOutput = NO	
+00:48.801.721	Default	audiomxd (105)	com.apple.coremedia		-MXSession- -[MXSession(InternalUse) setClientType:]: MXSession with ID 444 for CoreSession sid:0x6905b, assetsd(1696), 'prim' setting ClientType = None	
+00:48.801.771	Default	audiomxd (105)	com.apple.runningboard	monitor	Received state update for 40 (osservice<com.apple.accessibility.axassetsd>, running-NotVisible	
+00:48.801.797	Default	audiomxd (105)	com.apple.coreaudio	as_server	AudioSessionInfo.mm:569 subsession created with ref 0x4ac1bbca0	
+00:48.801.823	Default	audiomxd (105)	com.apple.runningboard	monitor	Received state update for 36 (osservice<com.apple.assistantd>, running-NotVisible	
+00:48.801.882	Debug	audiomxd (105)	com.apple.launchservices	binding	0 bindings found	
+00:48.801.908	Default	Unknown (0)	ApplePPMCPMS	Default	ApplePPMCPMS::admissionCheckOfValue:client 4, timescale 1, level 0
+
+	
+00:48.801.927	Default	audiomxd (105)	com.apple.coreaudio	as_server	ServerSessionManager.mm:256 Adding sibling session 0x6905c for source session 0x6905b	
+00:48.801.929	Default	Unknown (0)	ApplePPMCPMS	Default	ApplePPMPolicyCPMS::resolveClientBudgets:Budget Trace: clientId 4, Timescale 1, Requested Budget 0, Granted Budget 0, Thermal Budget 4,294,967,295, PowerBudgetUPO 0 
+
+	
+00:48.801.932	Default	audiomxd (105)	com.apple.runningboard	monitor	Received state update for 1,696 (osservice<com.apple.assetsd>, running-NotVisible	
+00:48.801.943	Default	Unknown (0)	ApplePPMCPMS	Default	ApplePPMCPMS::admissionCheckOfValue:granted client 4, timescale 1, level 0 budget 0
+
+	
+00:48.801.945	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamIn:ISP_PPMAdmissionCheck_gated - admission check: clientIndex=0, subClientID=1; budgetReq=0; budgetAlloc=0; result=0x0
+	
+00:48.801.948	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamIn:ISP_StopCamera_gated - subClientID=1; channelMask=0x8; budgetReq=0; budgetAlloc=0; result=0x0; numPreviewFrames=1; numStillCaptureFrames=0
+	
+00:48.801.950	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamIn:UpdateSensorStateInIORegForChannel - channel: 3, name: Streaming, state: 0, priority: 1
+	
+00:48.801.953	Debug	audiomxd (105)	com.apple.launchservices	binding	Truncating a list of bindings to max 1 known-good ones.	
+00:48.802.026	Debug	audiomxd (105)	com.apple.launchservices	binding	Unable to bind to an executable or application, returning kLSApplicationNotFoundErr.	
+00:48.802.033	Debug	audiomxd (105)	com.apple.coreaudio	aqme	AQIONode.cpp:437 Got routing behavior dictionary (0x4ac1eb280) for AQIONodeClient 0x16ba795c0, session 0x6905c, err = 0x0, {
+    "AudioBehaviour_Destination" =     (
+        "VirtualAudioDevice_Default"
+    );
+    "AudioBehaviour_Source" =     (
+        "VirtualAudioDevice_DecoupledInput",
+        "VirtualAudioDevice_Default"
+    );
+    "AudioBehaviour_Stream" = "Stream_Secondary";
+}	
+00:48.802.146	Default	audiomxd (105)	com.apple.runningboard	monitor	Received state update for 1,680 (app<com.apple.mobileslideshow(9123D57A-D0E6-47C6-938F-C289AA99CB36)>, running-active-Visible	
+00:48.802.154	Debug	audiomxd (105)	com.apple.launchservices	error	Constructing NSError NSOSStatusErrorDomain/18,446,744,073,709,540,802 at runEvaluator:1,747	
+00:48.802.225	Default	audiomxd (105)	com.apple.runningboard	monitor	Received state update for 635 (app<com.apple.Preferences((null))>, running-suspended-NotVisible	
+00:48.802.235	Debug	audiomxd (105)	com.apple.coreaudio	SpatialMgr	SpatializationManager.cpp:703 Untracked headphone entitlement not found	
+00:48.802.238	Debug	audiomxd (105)	com.apple.launchservices	binding	BindingEvaluator::~BindingEvaluator(0x16b84a1d0)	
+00:48.802.327	Debug	audiomxd (105)	com.apple.launchservices	binding	BindingEvaluator::~BindingEvaluator(0x16b84a440)	
+00:48.802.379	Debug	audiomxd (105)	com.apple.coreaudio	SpatialMgr	SpatializationManager.cpp:728 3rd-party untracked headphone entitlement not found	
+00:48.802.379	Default	audiomxd (105)	com.apple.runningboard	monitor	Received state update for 166 (osservice<com.apple.corespeechd>, running-NotVisible	
+00:48.802.405	Debug	audiomxd (105)	com.apple.launchservices	binding	BindingEvaluator::CreateWithBundleInfo(ID=<private>, name=<private>, CC=????, vers=)	
+00:48.802.438	Debug	audiomxd (105)	com.apple.coreaudio	aqme	AQMEIO_HAL.cpp:1,395 portID = 168	
+00:48.802.438	Debug	WirelessRadioManagerd (48)	com.apple.telephony.iokit	controller	void ctu::iokit::sCameraServiceCallbackInternal(void *, io_service_t, uint32_t, void *): messageType: 0xe0000130	
+00:48.802.495	Debug	audiomxd (105)	com.apple.coreaudio	aqme	AQMEIO_HAL.cpp:1,445 BT property kBluetoothAudioDeviceUserSelectedDeviceType not found on portID=168	
+00:48.802.512	Default	audiomxd (105)	com.apple.runningboard	monitor	Received state update for 278 (osservice<com.apple.mediaplaybackd>, running-NotVisible	
+00:48.802.549	Default	audiomxd (105)	com.apple.coreaudio	aqme	AQMEIO_HAL.cpp:1,456 User-selected BT device category is 0	
+00:48.802.610	Debug	audiomxd (105)	com.apple.coreaudio	aqme	AQMEIO_HAL.cpp:1,842 portID = 168	
+00:48.802.632	Default	audiomxd (105)	com.apple.runningboard	monitor	Received state update for 65 (osservice<com.apple.contextstored>, running-NotVisible	
+00:48.802.664	Debug	audiomxd (105)	com.apple.defaults	User Defaults	found no value for key MonoAudioEnabled in CFPrefsSearchListSource<0x4ac17c700> (Domain: com.apple.Accessibility, Container: (null))	
+00:48.802.672	Debug	audiomxd (105)	com.apple.launchservices	binding	BindingEvaluator::~BindingEvaluator(0x16b84a398)	
+00:48.802.708	Default	audiomxd (105)	com.apple.coreaudio	SpatialMgr	SpatializationManager.cpp:184 Spatial info for session ID = 0x6905c: {
+	App bundle ID = (null)
+	Route = built-in speakers
+	contentType = 'soun'
+	overrideSpatialMode = 0
+	preferencesVersion = 1
+
+	Spatial preferences: {
+		prefersHeadTrackedSpatialization = 0
+		prefersLossyAudioSources = 0
+		maxSpatializableChannels = 16
+		alwaysSpatialize = 0
+		spatialAudioSourceCount = 1
+		spatialAudioSources = [ 'mlti' ]
+	}
+}
+	
+00:48.802.726	Default	audiomxd (105)	com.apple.runningboard	monitor	Received state update for 148 (osservice<com.apple.nearbyd>, running-NotVisible	
+00:48.802.745	Info	audiomxd (105)	com.apple.coreaudio	as_server	AudioSessionServerImpNotificationHandlers.mm:883 spatialEnabled is 1 SessionID is 0x6905c	
+00:48.802.766	Debug	audiomxd (105)	com.apple.launchservices	binding	Running evaluator 0x16b84a1d0	
+00:48.802.803	Default	audiomxd (105)	com.apple.coreaudio	as_server	ServerSessionManager.mm:296 { "action":"create_session", "session":{"ID":"0x6905c","name":"mediaplaybackd(278)","sibling_of":"0x6905b assetsd(1696)"}, "details":{"PID":278,"name":"FigRemaker","session_type":"Sibling","source_session_ID":"0x6905b","source_session_PID":1696} }	
+00:48.802.836	Default	audiomxd (105)	com.apple.runningboard	monitor	Received state update for 140 (osservice<com.apple.telephonyutilities.callservicesd>, running-NotVisible	
+00:48.802.891	Debug	audiomxd (105)	com.apple.launchservices	binding	Adding user preferences	
+00:48.802.919	Default	audiomxd (105)	com.apple.runningboard	monitor	Received state update for 34 (osservice<com.apple.SpringBoard>, running-active-Visible	
+00:48.802.945	Debug	audiomxd (105)	com.apple.launchservices	binding	Adding weak binding	
+00:48.802.959	Default	mediaplaybackd (278)	com.apple.coreaudio	as_client	AVAudioSession_iOS.mm:1,141 Created session 0x62a9fbb70 with ID: 0x6905c	
+00:48.802.984	Default	audiomxd (105)	com.apple.runningboard	monitor	Received state update for 94 (osservice<com.apple.bluetoothd>, running-NotVisible	
+00:48.802.986	Debug	mediaplaybackd (278)	com.apple.coreaudio	as_client	SessionMap.mm:95 Adding session 0x62a9fbb70 with ID 0x6905c	
+00:48.802.996	Debug	mediaplaybackd (278)	com.apple.coreaudio	as_client	SessionMap.mm:101 There are now 8 sessions in the map.	
+00:48.803.002	Debug	audiomxd (105)	com.apple.launchservices	binding	0 bindings found	
+00:48.803.007	Info	mediaplaybackd (278)	com.apple.coreaudio	as_client	SessionMap.mm:112 Removed session with ID 0x69057	
+00:48.803.015	Debug	mediaplaybackd (278)	com.apple.coreaudio	as_client	SessionMap.mm:118 There are now 7 sessions in the map.	
+00:48.803.056	Default	audiomxd (105)	com.apple.runningboard	monitor	Received state update for 97 (osservice<com.apple.CommCenter>, running-NotVisible	
+00:48.803.091	Debug	audiomxd (105)	com.apple.launchservices	binding	Truncating a list of bindings to max 1 known-good ones.	
+00:48.803.109	Debug	audiomxd (105)	com.apple.audioanalytics	carc	Created new reporting session. { reporterID=450,971,566,133 }	
+00:48.803.122	Default	audiomxd (105)	com.apple.runningboard	monitor	Received state update for 105 (osservice<com.apple.audiomxd>, running-NotVisible	
+00:48.803.187	Debug	audiomxd (105)	com.apple.launchservices	binding	Adding and sorting bundles	
+00:48.803.218	Default	audiomxd (105)	com.apple.runningboard	monitor	Received state update for 50 (osservice<com.apple.wifid>, running-NotVisible	
+00:48.803.246	Info	audiomxd (105)	com.apple.coreaudio	as_server	AudioSessionServerImpNotificationHandlers.mm:686 HandleMXNotification, session ID = 0x6905b, name = ReporterIDsDidChange, payload = {
+    ReporterIDs =     (
+        450971566133
+    );
+}	
+00:48.803.246	Debug	audiomxd (105)	com.apple.launchservices	binding	0 bindings found	
+00:48.803.271	Default	audiomxd (105)	com.apple.runningboard	monitor	Received state update for 66 (osservice<com.apple.cameracaptured>, running-NotVisible	
+00:48.803.281	Debug	audiomxd (105)	com.apple.audioanalytics	carc	Set configuration. { reporterID=450,971,566,133, configuration=<private> }	
+00:48.803.345	Debug	audiomxd (105)	com.apple.coreaudio	as_server	AudioSessionServerImpCommon.mm:234 { "action":"get_property", "session":{"ID":"0x6905c","name":"mediaplaybackd(278)","sibling_of":"0x6905b assetsd(1696)"}, "details":{"key":"ReporterIDs","value":[450971566133]} }	
+00:48.803.433	Info	audiomxd (105)	com.apple.coreaudio	as_server	AudioSessionServerImpNotificationHandlers.mm:686 HandleMXNotification, session ID = 0x6905c, name = ReporterIDsDidChange, payload = {
+    ReporterIDs =     (
+        450971566133
+    );
+}	
+00:48.803.460	Info	audiomxd (105)	com.apple.runningboard	monitor	Update skipped for [osservice<com.apple.SpringBoard>:34]	
+00:48.803.469	Debug	audiomxd (105)	com.apple.launchservices	binding	Truncating a list of bindings to max 1 known-good ones.	
+00:48.803.525	Debug	audiomxd (105)	com.apple.coreaudio	as_server	AudioSessionServerImpCommon.mm:234 { "action":"get_property", "session":{"ID":"0x6905c","name":"mediaplaybackd(278)","sibling_of":"0x6905b assetsd(1696)"}, "details":{"key":"RoutingContextUUID","value":"9FF3A19E-9347-44BE-9999-3527693EBD42"} }	
+00:48.803.546	Debug	mediaplaybackd (278)	com.apple.coreaudio	as_client	SessionMap.mm:118 There are now 7 sessions in the map.	
+00:48.803.609	Info	audiomxd (105)	com.apple.runningboard	monitor	Update skipped for [osservice<com.apple.announced>:196]	
+00:48.803.629	Debug	mediaplaybackd (278)	com.apple.coreaudio	as_client	AVAudioSessionCachingUtils.mm:128 Updated Cache for property RoutingContextUUID: value 9FF3A19E-9347-44BE-9999-3527693EBD42	
+00:48.803.649	Debug	audiomxd (105)	com.apple.launchservices	binding	Unable to bind to an executable or application, returning kLSApplicationNotFoundErr.	
+00:48.803.687	Debug	audiomxd (105)	com.apple.coreaudio	as_server	AudioSessionServerImpCommon.mm:234 { "action":"get_property", "session":{"ID":"0x6905c","name":"mediaplaybackd(278)","sibling_of":"0x6905b assetsd(1696)"}, "details":{"key":"ClientName","value":"sid:0x6905b, assetsd(1696), 'prim'"} }	
+00:48.803.699	Info	mediaplaybackd (278)	com.apple.coreaudio	as_client	AVAudioSessionClient_Common.mm:153 Handling deferred message, sessionID = 0x6905c, notificationName = ReporterIDsDidChange	
+00:48.803.805	Debug	audiomxd (105)	com.apple.launchservices	error	Constructing NSError NSOSStatusErrorDomain/18,446,744,073,709,540,802 at runEvaluator:1,747	
+00:48.803.812	Info	audiomxd (105)	com.apple.runningboard	monitor	Update skipped for [osservice<com.apple.audiomxd>:105]	
+00:48.803.823	Debug	audiomxd (105)	com.apple.coreaudio	as_server	AudioSessionInfo.mm:1,053 Session 0x6905c setting kMXSessionProperty_SubscribeToNotifications for notification: (
+    CMSessionIsActiveDidChange
+)	
+00:48.803.967	Debug	audiomxd (105)	com.apple.coreaudio	as_server	AudioSessionInfo.mm:1,053 Session 0x6905c setting kMXSessionProperty_SubscribeToNotifications for notification: (
+    IsMutedDidChange
+)	
+00:48.803.994	Debug	audiomxd (105)	com.apple.launchservices	binding	BindingEvaluator::~BindingEvaluator(0x16b84a1d0)	
+00:48.804.003	Default	audiomxd (105)	com.apple.coremedia		-MX_RunningBoardServices- mx_runningBoardServices_setApplicationStateToCache: Process '1696' state is updated to 'Unknown'	
+00:48.804.098	Debug	audiomxd (105)	com.apple.coreaudio	as_server	AudioSessionInfo.mm:1,053 Session 0x6905c setting kMXSessionProperty_SubscribeToNotifications for notification: (
+    DisplayLayoutDidChange
+)	
+00:48.804.151	Debug	audiomxd (105)	com.apple.defaults	User Defaults	found no value for key DisableLongFormVideoApp in CFPrefsSearchListSource<0x4ac17dc00> (Domain: com.apple.coremedia, Container: (null))	
+00:48.804.177	Debug	audiomxd (105)	com.apple.launchservices	binding	BindingEvaluator::~BindingEvaluator(0x16b84a440)	
+00:48.804.212	Default	audiomxd (105)	com.apple.mediaexperience	Session	-CMSessionMgr- CMSessionMgrHandleApplicationStateChange:16,940 Client  with session  [0x0] with pid '1,696' is now Unknown. Background entitlement: NO ActiveLongFormVideoSession: NO IsLongFormVideoApp NO	
+00:48.804.213	Debug	audiomxd (105)	com.apple.coreaudio	as_server	AudioSessionInfo.mm:1,053 Session 0x6905c setting kMXSessionProperty_SubscribeToNotifications for notification: (
+    AirPlayVideoWillBeInterrupted
+)	
+00:48.804.214	Default	Unknown (0)	AppleH16CameraInterface	Default	ISPCPU (Print:128,513:61,585:481): FD: FID stopped
+	
+00:48.804.244	Debug	audiomxd (105)	com.apple.launchservices	binding	BindingEvaluator::CreateWithBundleInfo(ID=<private>, name=<private>, CC=????, vers=)	
+00:48.804.251	Default	Unknown (0)	AppleH16CameraInterface	Default	ISPCPU (Print:128,514:61,586:482): Attn: FID stopped
+	
+00:48.804.275	Default	Unknown (0)	AppleH16CameraInterface	Default	ISPCPU (Print:128,515:61,587:483): ER: FID stopped
+	
+00:48.804.287	Default	Unknown (0)	AppleH16CameraInterface	Default	ISPCPU (Print:128,516:61,588:484): [MSC] CH = 0x3 FIDStop
+	
+00:48.804.289	Info	audiomxd (105)	com.apple.runningboard	monitor	Update delivered for [osservice<com.apple.assetsd>:1696] with taskState 2	
+00:48.804.301	Default	Unknown (0)	AppleH16CameraInterface	Default	ISPCPU (Print:128,517:61,589:485): CH = 0x3, CMD = 0x3001 [CISP_CMD_CH_FID_STOP], receive at 349916768.000 ms, delta: 0.292 ms.
+	
+00:48.804.341	Debug	audiomxd (105)	com.apple.launchservices	binding	BindingEvaluator::~BindingEvaluator(0x16b84a398)	
+00:48.804.357	Default	Unknown (0)	AppleH16CameraInterface	Default	ISPCPU (Print:128,518:61,590:486): CH = 0x3, CMD = 0x0d01 [CISP_CMD_CH_FACE_DETECTION_STOP], receive at 349916768.000 ms, delta: 0.015 ms.
+	
+00:48.804.380	Info	audiomxd (105)	com.apple.runningboard	monitor	Update skipped for [osservice<com.apple.bluetoothd>:94]	
+00:48.804.389	Debug	audiomxd (105)	com.apple.launchservices	binding	Running evaluator 0x16b84a1d0	
+00:48.804.394	Debug	audiomxd (105)	com.apple.coreaudio	as_server	AudioSessionInfo.mm:1,053 Session 0x6905c setting kMXSessionProperty_SubscribeToNotifications for notification: (
+    PrefersConcurrentAirPlayAudioDidChange
+)	
+00:48.804.402	Default	Unknown (0)	AppleH16CameraInterface	Default	ISPCPU (Print:128,519:61,591:487): [MSC] CH= 0x3   FDDisableMask 0x2
+	
+00:48.804.406	Default	Unknown (0)	AppleH16CameraInterface	Default	ISPCPU (Print:128,520:61,592:488): Config FD 0 (AiCam 3)
+	
+00:48.804.428	Debug	WirelessRadioManagerd (48)	com.apple.telephony.iokit	controller	#D Front IR Camera Mode: "<private>"	
+00:48.804.488	Debug	audiomxd (105)	com.apple.launchservices	binding	Adding user preferences	
+00:48.804.525	Default	Unknown (0)	AppleH16CameraInterface	Default	ISPCPU (Print:128,521:61,593:489): CH = 0x3, CMD = 0x0d04 [CISP_CMD_CH_FACE_DETECTION_DISABLE], receive at 349916768.000 ms, delta: 0.128 ms.
+	
+00:48.804.545	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamIn:UpdateSensorStateInIORegForChannel - channel: 3, name: Active, state: 0, priority: 1
+	
+00:48.804.557	Info	audiomxd (105)	com.apple.runningboard	monitor	Update skipped for [app<com.apple.mobileslideshow(9123D57A-D0E6-47C6-938F-C289AA99CB36)>:1680]	
+00:48.804.579	Debug	audiomxd (105)	com.apple.launchservices	binding	Adding weak binding	
+00:48.804.703	Info	runningboardd (33)	com.apple.runningboard	message	PERF: Received request from [osservice<com.apple.audiomxd>:105] (euid 501, auid 501) (persona 9123D57A-D0E6-47C6-938F-C289AA99CB36): statesForPredicate:descriptor:error:	
+00:48.804.724	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamIn:ISP_FlushInactiveDARTMappings_gated - result: 0x0
+	
+00:48.804.731	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamInFrameReceiverBufferPool:ReleasePremap - Releasing Premapped pool (poolID:144 TotalNumBuffers:18 [free:6 inUse:12] IsPreMapped:1)
+	
+00:48.804.735	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamIn:ISP_ReleasePreMappedClientSurface_gated - surfaceID=227, size=1,851,520, dartMapBase=100040dc000 
+	
+00:48.804.735	Info	audiomxd (105)	com.apple.coreaudio	as_server	AudioSessionServerImpNotificationHandlers.mm:686 HandleMXNotification, session ID = 0x6905b, name = ApplicationStateDidChange, payload = {
+    ApplicationState = 0;
+}	
+00:48.804.745	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamIn:ISP_ReleasePreMappedClientSurface_gated - surfaceID=230, size=1,851,520, dartMapBase=10003f10000 
+	
+00:48.804.749	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamIn:ISP_ReleasePreMappedClientSurface_gated - surfaceID=211, size=1,851,520, dartMapBase=10003d44000 
+	
+00:48.804.753	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamIn:ISP_ReleasePreMappedClientSurface_gated - surfaceID=228, size=1,851,520, dartMapBase=10003b78000 
+	
+00:48.804.754	Debug	audiomxd (105)	com.apple.launchservices	binding	0 bindings found	
+00:48.804.757	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamIn:ISP_ReleasePreMappedClientSurface_gated - surfaceID=203, size=1,851,520, dartMapBase=100039ac000 
+	
+00:48.804.758	Info	audiomxd (105)	com.apple.runningboard	monitor	Update skipped for [osservice<com.apple.cameracaptured>:66]	
+00:48.804.761	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamIn:ISP_ReleasePreMappedClientSurface_gated - surfaceID=223, size=1,851,520, dartMapBase=100037e0000 
+	
+00:48.804.765	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamIn:ISP_ReleasePreMappedClientSurface_gated - surfaceID=226, size=1,851,520, dartMapBase=10003614000 
+	
+00:48.804.768	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamIn:ISP_ReleasePreMappedClientSurface_gated - surfaceID=220, size=1,851,520, dartMapBase=10003448000 
+	
+00:48.804.772	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamIn:ISP_ReleasePreMappedClientSurface_gated - surfaceID=219, size=1,851,520, dartMapBase=1000327c000 
+	
+00:48.804.775	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamIn:ISP_ReleasePreMappedClientSurface_gated - surfaceID=218, size=1,851,520, dartMapBase=100030b0000 
+	
+00:48.804.778	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamIn:ISP_ReleasePreMappedClientSurface_gated - surfaceID=215, size=1,851,520, dartMapBase=10002ee4000 
+	
+00:48.804.782	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamIn:ISP_ReleasePreMappedClientSurface_gated - surfaceID=213, size=1,851,520, dartMapBase=10002d18000 
+	
+00:48.804.786	Debug	audiomxd (105)	com.apple.runningboard	process	Decoded RBSProcessHandle with IPC ID bce8fbd000006a0	
+00:48.804.787	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamIn:ISP_ReleasePreMappedClientSurface_gated - surfaceID=71, size=1,851,520, dartMapBase=1000241c000 
+	
+00:48.804.791	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamIn:ISP_ReleasePreMappedClientSurface_gated - surfaceID=149, size=1,851,520, dartMapBase=100025e8000 
+	
+00:48.804.797	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamIn:ISP_ReleasePreMappedClientSurface_gated - surfaceID=153, size=1,851,520, dartMapBase=100027b4000 
+	
+00:48.804.801	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamIn:ISP_ReleasePreMappedClientSurface_gated - surfaceID=183, size=1,851,520, dartMapBase=10002980000 
+	
+00:48.804.804	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamIn:ISP_ReleasePreMappedClientSurface_gated - surfaceID=205, size=1,851,520, dartMapBase=10002b4c000 
+	
+00:48.804.807	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamIn:ISP_ReleasePreMappedClientSurface_gated - surfaceID=214, size=1,851,520, dartMapBase=100042a8000 
+	
+00:48.804.811	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamInFrameReceiverBufferPool:ReleasePremap - Releasing Premapped pool (poolID:141 TotalNumBuffers:18 [free:6 inUse:12] IsPreMapped:1)
+	
+00:48.804.814	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamIn:ISP_ReleasePreMappedClientSurface_gated - surfaceID=251, size=31,744, dartMapBase=100044a4000 
+	
+00:48.804.817	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamIn:ISP_ReleasePreMappedClientSurface_gated - surfaceID=253, size=31,744, dartMapBase=10004498000 
+	
+00:48.804.821	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamIn:ISP_ReleasePreMappedClientSurface_gated - surfaceID=238, size=31,744, dartMapBase=1000448c000 
+	
+00:48.804.824	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamIn:ISP_ReleasePreMappedClientSurface_gated - surfaceID=252, size=31,744, dartMapBase=10004480000 
+	
+00:48.804.827	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamIn:ISP_ReleasePreMappedClientSurface_gated - surfaceID=250, size=31,744, dartMapBase=10004474000 
+	
+00:48.804.831	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamIn:ISP_ReleasePreMappedClientSurface_gated - surfaceID=248, size=31,744, dartMapBase=100023dc000 
+	
+00:48.804.834	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamIn:ISP_ReleasePreMappedClientSurface_gated - surfaceID=249, size=31,744, dartMapBase=100023d0000 
+	
+00:48.804.838	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamIn:ISP_ReleasePreMappedClientSurface_gated - surfaceID=247, size=31,744, dartMapBase=100023c4000 
+	
+00:48.804.841	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamIn:ISP_ReleasePreMappedClientSurface_gated - surfaceID=246, size=31,744, dartMapBase=100023b8000 
+	
+00:48.804.845	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamIn:ISP_ReleasePreMappedClientSurface_gated - surfaceID=245, size=31,744, dartMapBase=1000235c000 
+	
+00:48.804.849	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamIn:ISP_ReleasePreMappedClientSurface_gated - surfaceID=241, size=31,744, dartMapBase=10002350000 
+	
+00:48.804.853	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamIn:ISP_ReleasePreMappedClientSurface_gated - surfaceID=239, size=31,744, dartMapBase=10002344000 
+	
+00:48.804.856	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamIn:ISP_ReleasePreMappedClientSurface_gated - surfaceID=232, size=31,744, dartMapBase=100022dc000 
+	
+00:48.804.859	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamIn:ISP_ReleasePreMappedClientSurface_gated - surfaceID=233, size=31,744, dartMapBase=100022e8000 
+	
+00:48.804.863	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamIn:ISP_ReleasePreMappedClientSurface_gated - surfaceID=234, size=31,744, dartMapBase=100022f4000 
+	
+00:48.804.866	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamIn:ISP_ReleasePreMappedClientSurface_gated - surfaceID=235, size=31,744, dartMapBase=10002300000 
+	
+00:48.804.869	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamIn:ISP_ReleasePreMappedClientSurface_gated - surfaceID=237, size=31,744, dartMapBase=10002338000 
+	
+00:48.804.872	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamIn:ISP_ReleasePreMappedClientSurface_gated - surfaceID=240, size=31,744, dartMapBase=100044b0000 
+	
+00:48.804.876	Debug	audiomxd (105)	com.apple.coreaudio	as_server	AudioSessionServerImpCommon.mm:234 { "action":"get_property", "session":{"ID":"0x6905c","name":"mediaplaybackd(278)","sibling_of":"0x6905b assetsd(1696)"}, "details":{"key":"ApplicationState","value":0} }	
+00:48.804.879	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamIn:ISP_DestroyMultiCameraSession_gated - Destroying multicam session: Client=Kernel (numClientsWithSession=0)
+	
+00:48.804.891	Info	audiomxd (105)	com.apple.runningboard	monitor	Update skipped for [osservice<com.apple.contextstored>:65]	
+00:48.804.907	Default	Unknown (0)	AppleH16CameraInterface	Default	ISPCPU (Print:128,522:61,594:490): [ISP]  CMD = 0x3401 [CISP_CMD_MULTICAM_SESSION_DESTROY]
+	
+00:48.804.910	Default	Unknown (0)	AppleH16CameraInterface	Default	ISPCPU (Print:128,523:61,595:491): [ISP] Destroy Session
+	
+00:48.804.917	Default	Unknown (0)	AppleH16CameraInterface	Default	ISPCPU (Print:128,524:61,596:492): [MSC] L924 lens controller ch2 BLOCK STOP  called; ts: 349916751 ms
+	
+00:48.804.918	Debug	audiomxd (105)	com.apple.launchservices	binding	Truncating a list of bindings to max 1 known-good ones.	
+00:48.804.946	Default	Unknown (0)	AppleH16CameraInterface	Default	ISPCPU (Print:128,525:61,597:493): LENSC: Reset Motion Data => disabled
+	
+00:48.805.003	Debug	assetsd (1696)	com.apple.defaults	User Defaults	found no value for key pixelbuffersharing_trace in CFPrefsSearchListSource<0xbbc09c880> (Domain: com.apple.coremedia, Container: (null))	
+00:48.805.024	Default	assetsd (1696)	com.apple.xpc	connection	[0xbbc8eef80] activating connection: mach=0 listener=1 peer=0 name=(anonymous)	
+00:48.805.024	Info	audiomxd (105)	com.apple.runningboard	monitor	Update skipped for [osservice<com.apple.wifid>:50]	
+00:48.805.039	Default	assetsd (1696)	com.apple.xpc	connection	[0xbbc8eef80] Channel could not return listener port.	
+00:48.805.043	Debug	audiomxd (105)	com.apple.launchservices	binding	Adding and sorting bundles	
+00:48.805.074	Default	mediaplaybackd (278)	com.apple.xpc	connection	[0x62a3f3480] activating connection: mach=0 listener=0 peer=0 name=(anonymous)	
+00:48.805.132	Info	audiomxd (105)	com.apple.runningboard	monitor	Update skipped for [osservice<com.apple.CommCenter>:97]	
+00:48.805.145	Debug	audiomxd (105)	com.apple.launchservices	binding	0 bindings found	
+00:48.805.208	Info	audiomxd (105)	com.apple.runningboard	monitor	Update skipped for [osservice<com.apple.accessibility.axassetsd>:40]	
+00:48.805.225	Default	assetsd (1696)	com.apple.xpc	connection	[0xbbc8ef340] activating connection: mach=0 listener=0 peer=1 name=com.apple.xpc.anonymous.0xbbc8eef80.peer[278].0xbbc8ef340	
+00:48.805.238	Debug	audiomxd (105)	com.apple.launchservices	binding	Truncating a list of bindings to max 1 known-good ones.	
+00:48.805.299	Info	audiomxd (105)	com.apple.runningboard	monitor	Update skipped for [osservice<com.apple.nearbyd>:148]	
+00:48.805.332	Debug	audiomxd (105)	com.apple.launchservices	binding	Unable to bind to an executable or application, returning kLSApplicationNotFoundErr.	
+00:48.805.362	Debug	assetsd (1696)	com.apple.defaults	User Defaults	found no value for key pool_trace in CFPrefsSearchListSource<0xbbc09c880> (Domain: com.apple.coremedia, Container: (null))	
+00:48.805.392	Info	audiomxd (105)	com.apple.runningboard	monitor	Update skipped for [osservice<com.apple.assistantd>:36]	
+00:48.805.395	Default	assetsd (1696)	com.apple.xpc	connection	[0xbbc8ef480] activating connection: mach=0 listener=1 peer=0 name=(anonymous)	
+00:48.805.417	Default	assetsd (1696)	com.apple.xpc	connection	[0xbbc8ef480] Channel could not return listener port.	
+00:48.805.434	Debug	audiomxd (105)	com.apple.launchservices	error	Constructing NSError NSOSStatusErrorDomain/18,446,744,073,709,540,802 at runEvaluator:1,747	
+00:48.805.454	Info	audiomxd (105)	com.apple.runningboard	monitor	Update skipped for [app<com.apple.Preferences((null))>:635]	
+00:48.805.456	Default	mediaplaybackd (278)	com.apple.xpc	connection	[0x62a3f0a00] activating connection: mach=0 listener=0 peer=0 name=(anonymous)	
+00:48.805.611	Default	assetsd (1696)	com.apple.xpc	connection	[0xbbc8ef5c0] activating connection: mach=0 listener=0 peer=1 name=com.apple.xpc.anonymous.0xbbc8ef480.peer[278].0xbbc8ef5c0	
+00:48.805.647	Debug	audiomxd (105)	com.apple.launchservices	binding	BindingEvaluator::~BindingEvaluator(0x16b84a1d0)	
+00:48.805.666	Info	audiomxd (105)	com.apple.runningboard	monitor	Update skipped for [osservice<com.apple.telephonyutilities.callservicesd>:140]	
+00:48.805.750	Debug	audiomxd (105)	com.apple.launchservices	binding	BindingEvaluator::~BindingEvaluator(0x16b84a440)	
+00:48.805.760	Debug	assetsd (1696)	com.apple.defaults	User Defaults	found no value for key blockage_timediff in CFPrefsSearchListSource<0xbbc09c880> (Domain: com.apple.coremedia, Container: (null))	
+00:48.805.809	Info	audiomxd (105)	com.apple.runningboard	monitor	Update skipped for [osservice<com.apple.mediaplaybackd>:278]	
+00:48.805.815	Debug	audiomxd (105)	com.apple.launchservices	binding	BindingEvaluator::CreateWithBundleInfo(ID=<private>, name=<private>, CC=????, vers=)	
+00:48.805.981	Debug	audiomxd (105)	com.apple.launchservices	binding	BindingEvaluator::~BindingEvaluator(0x16b84a398)	
+00:48.806.014	Debug	assetsd (1696)	com.apple.defaults	User Defaults	found no value for key ccr_trace in CFPrefsSearchListSource<0xbbc3e4c80> (Domain: com.apple.avfoundation, Container: (null))	
+00:48.806.100	Info	audiomxd (105)	com.apple.runningboard	monitor	Update skipped for [osservice<com.apple.corespeechd>:166]	
+00:48.806.147	Debug	WirelessRadioManagerd (48)	com.apple.telephony.iokit	controller	#D Front IR Camera Active: 0x0	
+00:48.806.188	Debug	audiomxd (105)	com.apple.launchservices	binding	Running evaluator 0x16b84a1d0	
+00:48.806.362	Debug	audiomxd (105)	com.apple.launchservices	binding	Adding user preferences	
+00:48.806.421	Info	audiomxd (105)	com.apple.runningboard	monitor	Update skipped for [app<com.apple.mobileslideshow(9123D57A-D0E6-47C6-938F-C289AA99CB36)>:1680]	
+00:48.806.476	Debug	audiomxd (105)	com.apple.launchservices	binding	Adding weak binding	
+00:48.806.535	Info	audiomxd (105)	com.apple.runningboard	monitor	Update skipped for [app<com.apple.Preferences((null))>:635]	
+00:48.806.547	Debug	audiomxd (105)	com.apple.launchservices	binding	0 bindings found	
+00:48.806.620	Info	audiomxd (105)	com.apple.runningboard	monitor	Update skipped for [osservice<com.apple.SpringBoard>:34]	
+00:48.806.629	Debug	audiomxd (105)	com.apple.launchservices	binding	Truncating a list of bindings to max 1 known-good ones.	
+00:48.806.716	Debug	audiomxd (105)	com.apple.launchservices	binding	Adding and sorting bundles	
+00:48.806.765	Debug	audiomxd (105)	com.apple.launchservices	binding	0 bindings found	
+00:48.806.839	Debug	audiomxd (105)	com.apple.launchservices	binding	Truncating a list of bindings to max 1 known-good ones.	
+00:48.806.894	Debug	audiomxd (105)	com.apple.launchservices	binding	Unable to bind to an executable or application, returning kLSApplicationNotFoundErr.	
+00:48.806.939	Debug	audiomxd (105)	com.apple.launchservices	error	Constructing NSError NSOSStatusErrorDomain/18,446,744,073,709,540,802 at runEvaluator:1,747	
+00:48.806.983	Debug	audiomxd (105)	com.apple.launchservices	binding	BindingEvaluator::~BindingEvaluator(0x16b84a1d0)	
+00:48.806.987	Debug	WirelessRadioManagerd (48)	com.apple.telephony.iokit	controller	void ctu::iokit::sCameraServiceCallbackInternal(void *, io_service_t, uint32_t, void *): messageType: 0xe0000130	
+00:48.807.043	Debug	audiomxd (105)	com.apple.launchservices	binding	BindingEvaluator::~BindingEvaluator(0x16b84a440)	
+00:48.807.112	Debug	audiomxd (105)	com.apple.launchservices	default	LaunchServices: failed to find bundle record for <private> {<private> 1408}	
+00:48.807.184	Debug	audiomxd (105)	com.apple.launchservices	default	LaunchServices: failed to find bundle record for <private> {<private> 1,408}	
+00:48.807.285	Debug	WirelessRadioManagerd (48)	com.apple.telephony.iokit	controller	#D Front IR Camera Active: 0x0	
+00:48.807.292	Debug	audiomxd (105)	com.apple.launchservices	binding	BindingEvaluator::CreateWithBundleInfo(ID=<private>, name=<private>, CC=????, vers=)	
+00:48.807.300	Debug	audiomxd (105)	com.apple.defaults	User Defaults	found no value for key DisableLongFormVideoApp in CFPrefsSearchListSource<0x4ac17dc00> (Domain: com.apple.coremedia, Container: (null))	
+00:48.807.457	Debug	audiomxd (105)	com.apple.launchservices	binding	BindingEvaluator::~BindingEvaluator(0x16b84a098)	
+00:48.807.510	Debug	audiomxd (105)	com.apple.launchservices	binding	Running evaluator 0x16b849ed0	
+00:48.807.557	Debug	audiomxd (105)	com.apple.launchservices	binding	Adding user preferences	
+00:48.807.633	Debug	audiomxd (105)	com.apple.launchservices	binding	Adding weak binding	
+00:48.807.755	Debug	audiomxd (105)	com.apple.launchservices	binding	0 bindings found	
+00:48.807.811	Debug	audiomxd (105)	com.apple.launchservices	binding	Truncating a list of bindings to max 1 known-good ones.	
+00:48.807.860	Debug	audiomxd (105)	com.apple.launchservices	binding	Adding and sorting bundles	
+00:48.807.982	Debug	audiomxd (105)	com.apple.launchservices	binding	0 bindings found	
+00:48.808.048	Debug	audiomxd (105)	com.apple.launchservices	binding	Truncating a list of bindings to max 1 known-good ones.	
+00:48.808.082	Debug	audiomxd (105)	com.apple.launchservices	binding	Unable to bind to an executable or application, returning kLSApplicationNotFoundErr.	
+00:48.808.083	Default	mediaplaybackd (278)	com.apple.coremedia		<<<< Boss >>>> bossBuildMentorForTrack: <0x62aaa0000|> track 4 (10910111697) enableForStepping mentor 0x62ba77900 (snippetMentor 0x0 -> loopingMentor 0x0 -> superEditMentor 0x0 -> editMentor 0x62ba77900 -> gaplessMentor 0x0 -> videoMentor 0x62b13b000	
+00:48.808.139	Debug	audiomxd (105)	com.apple.launchservices	error	Constructing NSError NSOSStatusErrorDomain/18,446,744,073,709,540,802 at runEvaluator:1,747	
+00:48.808.251	Default	mediaplaybackd (278)	com.apple.coremedia		<<<< Boss >>>> FigPlaybackBossCreate: returning boss = 0x62aaa0000	
+00:48.808.288	Debug	audiomxd (105)	com.apple.launchservices	binding	BindingEvaluator::~BindingEvaluator(0x16b849ed0)	
+00:48.808.303	Debug	audiomxd (105)	com.apple.launchservices	binding	BindingEvaluator::~BindingEvaluator(0x16b84a140)	
+00:48.808.327	Debug	audiomxd (105)	com.apple.launchservices	binding	BindingEvaluator::CreateWithBundleInfo(ID=<private>, name=<private>, CC=????, vers=)	
+00:48.808.343	Debug	audiomxd (105)	com.apple.launchservices	binding	BindingEvaluator::~BindingEvaluator(0x16b84a098)	
+00:48.808.350	Debug	audiomxd (105)	com.apple.launchservices	binding	Running evaluator 0x16b849ed0	
+00:48.808.440	Debug	audiomxd (105)	com.apple.launchservices	binding	Adding user preferences	
+00:48.808.451	Debug	audiomxd (105)	com.apple.launchservices	binding	Adding weak binding	
+00:48.808.545	Debug	audiomxd (105)	com.apple.launchservices	binding	0 bindings found	
+00:48.808.551	Default	mediaplaybackd (278)	com.apple.coremedia		<<<< Boss >>>> FigPlaybackBossSendSamplesForTimeRange: <0x62aaa0000|> called, startTime = 0.0000, endTime = -0.0000, options = 0	
+00:48.808.651	Debug	audiomxd (105)	com.apple.launchservices	binding	Truncating a list of bindings to max 1 known-good ones.	
+00:48.808.689	Default	mediaplaybackd (278)	com.apple.coremedia		<<<< Boss >>>> bossSetMentorModesToForwardPlayback: <0x62aaa0000|> called, tracks 0...0, start time 0.0000, end time -0.0000, rate 1.0000, previousOutputDisposition=1	
+00:48.808.728	Debug	audiomxd (105)	com.apple.launchservices	binding	Adding and sorting bundles	
+00:48.808.840	Debug	audiomxd (105)	com.apple.launchservices	binding	0 bindings found	
+00:48.808.878	Debug	audiomxd (105)	com.apple.launchservices	binding	Truncating a list of bindings to max 1 known-good ones.	
+00:48.808.902	Info	audiomxd (105)	com.apple.coreaudio	as_server	AudioSessionServerImpNotificationHandlers.mm:686 HandleMXNotification, session ID = 0x6905c, name = ApplicationStateDidChange, payload = {
+    ApplicationState = 0;
+}	
+00:48.808.915	Debug	audiomxd (105)	com.apple.launchservices	binding	Unable to bind to an executable or application, returning kLSApplicationNotFoundErr.	
+00:48.808.972	Debug	audiomxd (105)	com.apple.launchservices	error	Constructing NSError NSOSStatusErrorDomain/18,446,744,073,709,540,802 at runEvaluator:1,747	
+00:48.809.017	Debug	audiomxd (105)	com.apple.launchservices	binding	BindingEvaluator::~BindingEvaluator(0x16b849ed0)	
+00:48.809.059	Debug	audiomxd (105)	com.apple.launchservices	binding	BindingEvaluator::~BindingEvaluator(0x16b84a140)	
+00:48.809.149	Debug	audiomxd (105)	com.apple.launchservices	binding	BindingEvaluator::CreateWithBundleInfo(ID=<private>, name=<private>, CC=????, vers=)	
+00:48.809.196	Debug	audiomxd (105)	com.apple.launchservices	binding	BindingEvaluator::~BindingEvaluator(0x16b84a098)	
+00:48.809.231	Debug	audiomxd (105)	com.apple.launchservices	binding	Running evaluator 0x16b849ed0	
+00:48.809.276	Debug	audiomxd (105)	com.apple.launchservices	binding	Adding user preferences	
+00:48.809.334	Debug	audiomxd (105)	com.apple.launchservices	binding	Adding weak binding	
+00:48.809.396	Debug	audiomxd (105)	com.apple.launchservices	binding	0 bindings found	
+00:48.809.413	Debug	audiomxd (105)	com.apple.launchservices	binding	Truncating a list of bindings to max 1 known-good ones.	
+00:48.809.450	Debug	audiomxd (105)	com.apple.launchservices	binding	Adding and sorting bundles	
+00:48.809.500	Debug	audiomxd (105)	com.apple.launchservices	binding	0 bindings found	
+00:48.809.541	Info	audiomxd (105)	com.apple.coreaudio	hsrv	AVHapticServer.mm:2,023 -[AVHapticServer HandleInterruptionForSession:command:dictionary:]: Session ID 430,171, interruptionCommand 256	
+00:48.809.548	Debug	audiomxd (105)	com.apple.launchservices	binding	Truncating a list of bindings to max 1 known-good ones.	
+00:48.809.599	Debug	DTServiceHub (360)	DVTInstrumentsFoundation	Default	Data Size: 101,098, Rows Sent: 1,315, Stack depth: 3,234	
+00:48.809.603	Debug	audiomxd (105)	com.apple.launchservices	binding	Unable to bind to an executable or application, returning kLSApplicationNotFoundErr.	
+00:48.809.623	Debug	audiomxd (105)	com.apple.launchservices	error	Constructing NSError NSOSStatusErrorDomain/18,446,744,073,709,540,802 at runEvaluator:1,747	
+00:48.809.642	Debug	audiomxd (105)	com.apple.launchservices	binding	BindingEvaluator::~BindingEvaluator(0x16b849ed0)	
+00:48.809.696	Debug	audiomxd (105)	com.apple.launchservices	binding	BindingEvaluator::~BindingEvaluator(0x16b84a140)	
+00:48.809.700	Info	locationd (74)	com.apple.locationd.Motion	Activity	MotionState, <private>, type, <private>, conf, <private>, mounted, <private>, startTime, <private>	
+00:48.809.742	Debug	audiomxd (105)	com.apple.launchservices	binding	BindingEvaluator::CreateWithBundleInfo(ID=<private>, name=<private>, CC=????, vers=)	
+00:48.809.795	Debug	audiomxd (105)	com.apple.launchservices	binding	BindingEvaluator::~BindingEvaluator(0x16b84a098)	
+00:48.809.835	Debug	audiomxd (105)	com.apple.launchservices	binding	Running evaluator 0x16b849ed0	
+00:48.810.062	Debug	audiomxd (105)	com.apple.launchservices	binding	Adding user preferences	
+00:48.810.112	Debug	audiomxd (105)	com.apple.launchservices	binding	Adding weak binding	
+00:48.810.161	Debug	audiomxd (105)	com.apple.launchservices	binding	0 bindings found	
+00:48.810.197	Debug	audiomxd (105)	com.apple.launchservices	binding	Truncating a list of bindings to max 1 known-good ones.	
+00:48.810.253	Debug	audiomxd (105)	com.apple.launchservices	binding	Adding and sorting bundles	
+00:48.810.306	Debug	audiomxd (105)	com.apple.launchservices	binding	0 bindings found	
+00:48.810.330	Info	audiomxd (105)	com.apple.coreaudio	aqme	AudioToolboxServers.mm:969 ================= AudioToolboxServerHandleInterruption msg 256(Unknown) process 'sid:0x6905b, assetsd(1696), 'prim'' =================	
+00:48.810.344	Debug	audiomxd (105)	com.apple.launchservices	binding	Truncating a list of bindings to max 1 known-good ones.	
+00:48.810.404	Debug	audiomxd (105)	com.apple.launchservices	binding	Unable to bind to an executable or application, returning kLSApplicationNotFoundErr.	
+00:48.810.420	Info	audiomxd (105)	com.apple.coreaudio	hsrv	AVHapticServer.mm:2,023 -[AVHapticServer HandleInterruptionForSession:command:dictionary:]: Session ID 430,172, interruptionCommand 256	
+00:48.810.456	Info	audiomxd (105)	com.apple.coreaudio	aqme	AudioToolboxServers.mm:969 ================= AudioToolboxServerHandleInterruption msg 256(Unknown) process 'sid:0x6905c, mediaplaybackd(278), 'sblg'; srcid:0x6905b, assetsd(1696)' =================	
+00:48.810.518	Debug	audiomxd (105)	com.apple.launchservices	error	Constructing NSError NSOSStatusErrorDomain/18,446,744,073,709,540,802 at runEvaluator:1,747	
+00:48.810.553	Debug	mediaplaybackd (278)	com.apple.coreaudio	as_client	SessionMap.mm:118 There are now 7 sessions in the map.	
+00:48.810.580	Debug	audiomxd (105)	com.apple.launchservices	binding	BindingEvaluator::~BindingEvaluator(0x16b849ed0)	
+00:48.810.665	Debug	audiomxd (105)	com.apple.launchservices	binding	BindingEvaluator::~BindingEvaluator(0x16b84a140)	
+00:48.810.738	Debug	audiomxd (105)	com.apple.launchservices	default	LaunchServices: failed to find bundle record for <private> {<private> 1408}	
+00:48.810.772	Info	mediaplaybackd (278)	com.apple.coreaudio	as_client	AVAudioSessionClient_Common.mm:153 Handling deferred message, sessionID = 0x6905c, notificationName = ApplicationStateDidChange	
+00:48.810.822	Debug	audiomxd (105)	com.apple.launchservices	default	LaunchServices: failed to find bundle record for <private> {<private> 1,408}	
+00:48.810.935	Error	mediaplaybackd (278)	com.apple.coremedia		<<<< FigAssetReader >>>> assetReader_SetProperty signalled err=18,446,744,073,709,538,831 (kCMBaseObjectError_Invalidated) (Not kRemakerState_Created) at FigAssetReader.c:526	
+00:48.811.040	Info	locationd (74)	com.apple.locationd.Motion	IndoorOutdoor	IndoorOutdoor,WifiModel,context,<private>,scanRange,129.6190,distanceTraveled,0.0000,numAps,77,invalidResult,1,stationaryProbability,0.9679,wifiRssiModelIndoorProbability,0.9397	
+00:48.811.257	Info	locationd (74)	com.apple.locationd.Motion	IndoorOutdoor	IndoorOutdoor,ALSResult,context,<private>,outputProb,-1.0000,rawProb,0.1819,meanLux,0.0000,stdLux,0.0000,n,0,elevation,-9,999.0000,hasLatLon,0	
+00:48.811.352	Debug	locationd (74)	com.apple.LocationSupport	Connection	{"msg":"CLConnection::sendMessage", "name":kCLConnectionMessageMotionActivityUpdate}	
+00:48.811.383	Debug	locationd (74)	com.apple.locationd.Motion	IndoorOutdoor	in-out-metrics,context,<private>,stepDeltaDistance,<private>,gyroHeadingRadians,<private>,gpsDeltaDistance,<private>,gpsHeadingRadians,<private>,bodySum,<private>,fTurnEnv,<private>,fGPSTurnEnv,<private>,fResidScalar,<private>,fIMUDistanceX,<private>,fIMUDistanceY,<private>,fGPSDistanceX,<private>,fGPSDistanceY,<private>,fGpsWanderLLRBufferSum,<private>,fGpsLLRBufferSum,<private>,fGpsFixBufferSum,<private>,stepTimestamp,<private>,fGpsState,<private>	
+00:48.811.438	Info	runningboardd (33)	com.apple.runningboard	message	PERF: Received request from [osservice<com.apple.audiomxd>:105] (euid 501, auid 501) (persona 9123D57A-D0E6-47C6-938F-C289AA99CB36): infoPlistResultForInstance:forKeys:error:	
+00:48.811.463	Info	runningboardd (33)	com.apple.runningboard	general	Bundle info cannot be fetched for process 1,696	
+00:48.811.592	Debug	locationd (74)	com.apple.locationd.Core	Notifier	{"msg":"CLHarvestControllerExternal::onMotionStateNotification", "event":activity, "this":"35,304,207,128"}	
+00:48.811.752	Debug	locationd (74)	com.apple.locationd.Motion	IndoorOutdoor	IndoorOutdoor,context,<private>,[<private>][step],startTime,<private>,stepCount,<private>,stepDistance,<private>,rawStepDistance,<private>,	
+00:48.811.864	Debug	locationd (74)	com.apple.locationd.Core	Notifier	{"msg":"CLMotionActivitySubscription::onMotionActivityNotification", "event":activity, "this":"35,311,600,640"}	
+00:48.811.910	Info	locationd (74)	com.apple.locationd.Motion	IndoorOutdoor	IndoorOutdoor,probabilities,llr,0.4900,discordant,-1.0000,timeSinceStart,349,895.4802,totalDistance,0.0000,gpsOutdoor,-1.0000,wifiIndoor,0.9397,alsOutdoor,-1.0000,probability,0.1056,confidence,2,location,1	
+00:48.812.099	Debug	locationd (74)	com.apple.locationd.Core	Notifier	{"msg":"notifyClientsWithData", "event":activity, "name":CLMotionStateMediator, "notification":0}	
+00:48.812.175	Debug	locationd (74)	com.apple.locationd.Motion	IndoorOutdoor	IndoorOutdoor,context,<private>,[<private>][turn-none],requestedSampleTime,<private>	
+00:48.812.192	Debug	locationd (74)	com.apple.LocationSupport	Connection	{"msg":"CLConnection::sendMessage", "name":kCLConnectionMessageMotionActivityUpdate}	
+00:48.812.228	Info	locationd (74)	com.apple.locationd.Motion	IndoorOutdoor	IndoorOutdoor,GPSResult,context,<private>,stepDeltaDistance,<private>,gpsDeltaDistance,<private>,fResidScalar,<private>,fIMUDistanceX,<private>,fIMUDistanceY,<private>,stepTimestamp,<private>,fGpsState,<private>,gpsDiscordanceProbability,<private>,gpsDiscordanceRawProbability,<private>,gpsDiscordance,<private>,numValidDiscordanceSamples,<private>,llrBufferSumProbability,<private>	
+00:48.812.277	Debug	locationd (74)	com.apple.locationd.Core	Notifier	{"msg":"CLMotionActivitySubscription::onMotionActivityNotification", "event":activity, "this":"35,312,341,888"}	
+00:48.812.300	Info	locationd (74)	com.apple.locationd.Position	Outdoor	CoreMotion model estimates, alsOutdoorProb, <private>, wifiIndoorProb, <private>, gpsOutdoorProb, <private>	
+00:48.812.328	Debug	locationd (74)	com.apple.locationd.Core	Notifier	{"msg":"CLStepCountNotifier::onMotionStateMediatorNotification", "event":activity, "this":"35,305,584,640"}	
+00:48.812.367	Default	locationd (74)	com.apple.locationd.Core	Harvester	{"msg":"got motion state notification", "subHarvester":11}	
+00:48.812.385	Debug	locationd (74)	com.apple.locationd.Position	Outdoor	CLOutdoorEstimator,predict()	
+00:48.812.430	Default	locationd (74)	com.apple.locationd.Core	Harvester	{"msg":"updated avenger harvester motion activity state", "fLastMotionActivity":2, "nextMotionActivity":1, "subHarvester":11}	
+00:48.812.458	Debug	locationd (74)	com.apple.locationd.Position	Outdoor	CLOutdoorEstimator_TransitionProbability,transitionProbabilityIndoorGivenIndoor,<private>,transitionProbabilityOutdoorGivenOutdoor,<private>,EstimatorTimeCfaSec,<private>	
+00:48.812.533	Debug	locationd (74)	com.apple.LocationSupport	Connection	{"msg":"CLConnection::sendMessage", "name":kCLConnectionMessageMotionActivityUpdate}	
+00:48.812.537	Default	locationd (74)	com.apple.locationd.Core	Harvester	{"msg":"updateOperationalModeIfNecessary", "fCurrentTimeOffsetThreshold":"45.0000", "subHarvester":11}	
+00:48.812.560	Debug	locationd (74)	com.apple.locationd.Position	Outdoor	CLOutdoorEstimator_updateOutdoorEstimate,startTime,<private>,mctTimestampSec,<private>,type,<private>,confidence,<private>,estimatedStateProbabilityOutdoor,<private>,isAstronomicalDaytime,<private>,daylightConfidence,<private>,EstimatorTimeCfaSec,<private>	
+00:48.812.580	Debug	locationd (74)	com.apple.locationd.Core	Notifier	{"msg":"CLPipelineLocationProvider::onMotionState", "event":activity, "this":"35,307,577,600"}	
+00:48.812.596	Debug	locationd (74)	com.apple.locationd.Core	Notifier	{"msg":"CLMotionActivitySubscription::onMotionActivityNotification", "event":activity, "this":"35,312,353,024"}	
+00:48.812.599	Debug	locationd (74)	com.apple.locationd.Core	Harvester	{"msg":"Received motion state", "subHarvester":13, "data.activity.type":<private>, "current fIsMoving":<private>, "new isMoving":<private>}	
+00:48.812.630	Debug	locationd (74)	com.apple.locationd.Position	Outdoor	CLOutdoorEstimator_predict,startTime,<private>,mctTimestampSec,<private>,type,<private>,confidence,<private>,estimatedStateProbabilityOutdoor,<private>,isAstronomicalDaytime,<private>,daylightConfidence,<private>,EstimatorTimeCfaSec,<private>	
+00:48.812.657	Debug	locationd (74)	com.apple.locationd.Position	Position	#indoor-fitness-classifier, motion activity, <private>, internal activity, <private>	
+00:48.812.675	Debug	locationd (74)	com.apple.locationd.Position	Outdoor	CLOutdoorEstimator,processEvidence(),Process ActivityState	
+00:48.812.708	Debug	locationd (74)	com.apple.locationd.Core	Harvester	{"msg":"received motion state notif", "subHarvester":8, "oldIsDriving":<private>, "newIsDriving":<private>}	
+00:48.812.768	Debug	locationd (74)	com.apple.locationd.Core	Notifier	{"msg":"CLLocationController::onMotionStateMediatorNotification", "event":activity, "this":"35,304,865,792"}	
+00:48.812.806	Debug	locationd (74)	com.apple.LocationSupport	Connection	{"msg":"CLConnection::sendMessage", "name":kCLConnectionMessageMotionActivityUpdate}	
+00:48.812.883	Debug	locationd (74)	com.apple.locationd.Position	Outdoor	CLOutdoorEstimator_ActivityState,evidenceCfatSec,<private>,motionActivityType,<private>,EstimatorTimeCfaSec,<private>,likelihoodObservationGivenOutdoor,<private>,likelihoodObservationGivenIndoor,<private>	
+00:48.812.902	Debug	locationd (74)	com.apple.locationd.Position	GeneralCLX	<private> -- we're not in a runnable state (i.e. no clients; clients = <private>)	
+00:48.812.963	Debug	locationd (74)	com.apple.locationd.Position	LCFusion	Received motion state mediator activity notification,activity_type,2,confidence,2,is_historical,<private>,now_mct,349,916.7595,propagation_us,2.4167	
+00:48.813.086	Debug	locationd (74)	com.apple.locationd.Motion	Calorimetry	ActivitySpectator,activity{State,<private>,Confidence,<private>,MountedState,<private>,MountedConfidence,<private>,exitState,<private>,estExitTime,<private>,startTime,<private>},nataliFeatures{fVectorMagnitude,<private>,fEpochType,<private>,fStanding,<private>,fMachineFrequency,<private>,fRowStrokeFrequency,<private>,fRowStrokeAmplitude,<private>,fRowStrokePower,<private>,fPushVectorMagnitude,<private>}	
+00:48.813.175	Debug	locationd (74)	com.apple.locationd.Position	Outdoor	CLOutdoorEstimator_updateOutdoorEstimate,startTime,<private>,mctTimestampSec,<private>,type,<private>,confidence,<private>,estimatedStateProbabilityOutdoor,<private>,isAstronomicalDaytime,<private>,daylightConfidence,<private>,EstimatorTimeCfaSec,<private>	
+00:48.813.292	Debug	locationd (74)	com.apple.locationd.Motion	Calorimetry	<private> is ready at, <private>, timeout, <private>	
+00:48.813.313	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamIn:ISP_ReleaseChannel_gated - channel: 2 (process: Kernel)
+	
+00:48.813.327	Debug	locationd (74)	com.apple.locationd.Position	Outdoor	CLOutdoorEstimatorController_feedMotionActivity,activityStateEvidence,<private>,currentTime,<private>	
+00:48.813.365	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamIn:ISP_ReleaseChannel_gated - channel: 5 (process: Kernel)
+	
+00:48.813.371	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamIn:ISP_ReleaseChannel_gated - channel: 0 (process: Kernel)
+	
+00:48.813.376	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamIn:ISP_ReleaseChannel_gated - channel: 1 (process: Kernel)
+	
+00:48.813.380	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamIn:ISP_ReleaseChannel_gated - channel: 4 (process: Kernel)
+	
+00:48.813.383	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamIn:ISP_ReleaseChannel_gated - channel: 3 (process: Kernel)
+	
+00:48.813.447	Debug	locationd (74)	com.apple.locationd.Position	LCFusion	#fusion,received motion state,<private>,mct_now,349,916.7595,start_time_cfat,753,594,903.7049,timestamp,48,716.3071,type,2,confidence,2,<private>	
+00:48.813.472	Debug	WirelessRadioManagerd (48)	com.apple.telephony.iokit	controller	void ctu::iokit::sCameraServiceCallbackInternal(void *, io_service_t, uint32_t, void *): messageType: 0x2172656c	
+00:48.813.508	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16PearlCam:SendNotificationMessageToClient - Sending 3 notification to client
+	
+00:48.813.512	Debug	Unknown (0)	ApplePearlSEPDriver	Default	cameraMessageCallback <- message:<private>
+	
+00:48.813.515	Debug	Unknown (0)	ApplePearlSEPDriver	Default	queueCameraMessage <- message:(<private>, type:10)
+	
+00:48.813.523	Debug	Unknown (0)	ApplePearlSEPDriver	Default	queueCameraMessage -> err:0x0
+	
+00:48.813.524	Debug	Unknown (0)	ApplePearlSEPDriver	Default	cameraMessageCallback -> err:0x0
+	
+00:48.813.525	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16PearlCam:PearlCamStateEntryProc_IDLE - PearlCamStateEntryProc_IDLE
+	
+00:48.813.529	Debug	Unknown (0)	ApplePearlSEPDriver	Default	cameraMessageHandler: Message type: Notification (10)
+	
+00:48.813.530	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16PearlCam:checkForWork - dequeued PearlCamPowerOffMessage
+	
+00:48.813.533	Debug	Unknown (0)	ApplePearlSEPDriver	Default	handleCameraMessage_Notification <- message:(<private>, notificationType:3)
+	
+00:48.813.535	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16PearlCam:PearlCamMessageHandler_PowerOff - PearlCamMessageHandler_PowerOff
+	
+00:48.813.535	Info	Unknown (0)	ApplePearlSEPDriver	Default	handleCameraMessage_Notification: StreamingStopped (3)
+	
+00:48.813.538	Debug	Unknown (0)	ApplePearlSEPDriver	Default	handleCameraStatisticsTotalMessage <- statistics:<private>, sequenceType:Attention (2)
+	
+00:48.813.542	Info	Unknown (0)	ApplePearlSEPDriver	Default	handleCameraStatisticsTotalMessage: seqType: 2, total: 1, standby: 0, coolDown: 0, 0, 0, 0
+	
+00:48.813.544	Debug	Unknown (0)	ApplePearlSEPDriver	Default	handleCameraStatisticsTotalMessage -> err:0x0
+	
+00:48.813.545	Debug	Unknown (0)	ApplePearlSEPDriver	Default	handleCameraMessage_Notification -> err:0x0
+	
+00:48.813.550	Debug	Unknown (0)	ApplePearlSEPDriver	Default	cameraFrameHandler <- commandMode:1, _cameraState:1
+	
+00:48.813.552	Debug	Unknown (0)	ApplePearlSEPDriver	Default	cameraFrameHandler -> err:0x0
+	
+00:48.813.606	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16PearlCam:PearlCamPowerOffCamera - flow execution time was 234,034 usec
+	
+00:48.813.608	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamIn:ISP_PowerOffCamera_gated - (fPowerEvent=0, fOutstandingPowerUpRequests=0)
+	
+00:48.813.610	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamIn:ISP_PowerOffCamera_gated - requesting ISP power down
+	
+00:48.813.611	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamIn:ISP_PowerOffCamera_gated - set fPowerEvent from 0 to kH16ISPPowerEventType_PowerOffPending, fOutstandingPowerUpRequests = 0 isPowered: 1
+	
+00:48.813.660	Default	Unknown (0)	AppleH16ANEInterface	Default	ANE0: powerStateWillChangeTo_gated :H11ANEIn:: IPC peer ISP will power down
+	
+00:48.813.661	Default	Unknown (0)	ApplePPMCPMS	Default	ApplePPMCPMS::admissionCheckOfValue:client 3, timescale 1, level 0
+
+	
+00:48.813.683	Default	Unknown (0)	ApplePPMCPMS	Default	ApplePPMPolicyCPMS::resolveClientBudgets:Budget Trace: clientId 3, Timescale 1, Requested Budget 0, Granted Budget 0, Thermal Budget 4,294,967,295, PowerBudgetUPO 11,993 
+
+	
+00:48.813.696	Default	Unknown (0)	ApplePPMCPMS	Default	ApplePPMCPMS::admissionCheckOfValue:granted client 3, timescale 1, level 0 budget 0
+
+	
+00:48.813.698	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamIn:ISP_PPMActivityStopped_gated - activity stopped: clientIndex=0, subClientID=0; budgetAlloc=4; result=0x0
+	
+00:48.813.701	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16PearlCam:PearlCamStateEntryProc_OFF - PearlCamStateEntryProc_OFF
+	
+00:48.813.723	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamIn:setPowerStateGated - 0
+	
+00:48.813.727	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamIn:setPowerStateGated - (turn off) - change fPowerEvent from 2 to PowerOffPending, HasActiveKernelClients=0
+	
+00:48.813.739	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamIn:power_off_hardware - powering off hardware
+	
+00:48.813.740	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamIn:ISP_Suspend - suspending
+	
+00:48.813.781	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamIn:ISP_Suspend - s2r flag addr offset = 0x10001574e68, expected value = 0xcafe4b0b
+
+	
+00:48.813.812	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamIn::H16ISPSharedMemorySurfaces:targetPhysicalAddressToHostVirtualAddress - in CTRR region: physicalAddress: 22,498,920, fFWCTRRMemSurface.physicalAddress: 0, size: 1fec000n
+	
+00:48.814.359	Info	Unknown (0)	IOHIDFamily	Default	IOHIDLibUserClient:0x100000aac resourceNotificationGated client not privileged
+
+	
+00:48.814.922	Debug	WirelessRadioManagerd (48)	com.apple.telephony.iokit	controller	void ctu::iokit::sCameraServiceCallbackInternal(void *, io_service_t, uint32_t, void *): messageType: 0x2172656c	
+00:48.814.967	Debug	WirelessRadioManagerd (48)	com.apple.telephony.iokit	controller	void ctu::iokit::sCameraServiceCallbackInternal(void *, io_service_t, uint32_t, void *): messageType: 0x2172656c	
+00:48.815.100	Debug	WirelessRadioManagerd (48)	com.apple.telephony.iokit	controller	void ctu::iokit::sCameraServiceCallbackInternal(void *, io_service_t, uint32_t, void *): messageType: 0x2172656c	
+00:48.815.123	Debug	locationd (74)	com.apple.locationd.Position	Outdoor	CLOutdoorEstimator_NoGnssLeechLocation,currentTime,<private>	
+00:48.815.146	Debug	WirelessRadioManagerd (48)	com.apple.telephony.iokit	controller	void ctu::iokit::sCameraServiceCallbackInternal(void *, io_service_t, uint32_t, void *): messageType: 0x2172656c	
+00:48.815.191	Debug	WirelessRadioManagerd (48)	com.apple.telephony.iokit	controller	void ctu::iokit::sCameraServiceCallbackInternal(void *, io_service_t, uint32_t, void *): messageType: 0x2172656c	
+00:48.815.195	Debug	locationd (74)	com.apple.locationd.Motion	Calorimetry	Pedestrian, Using <private> model	
+00:48.815.219	Debug	WirelessRadioManagerd (48)	com.apple.telephony.iokit	controller	void ctu::iokit::sCameraServiceCallbackInternal(void *, io_service_t, uint32_t, void *): messageType: 0xe0000200	
+00:48.815.270	Debug	WirelessRadioManagerd (48)	com.apple.telephony.iokit	controller	void ctu::iokit::sCameraServiceCallbackInternal(void *, io_service_t, uint32_t, void *): messageType: 0xe0000210	
+00:48.815.300	Debug	locationd (74)	com.apple.locationd.Position	Outdoor	CLOutdoorEstimatorController,CLOutdoorEstimatorTurnOffGnssAvailability	
+00:48.815.404	Debug	locationd (74)	com.apple.locationd.Motion	Calorimetry	Walk, WorkRate, <private>, distance(m), <private>, duration(s), <private>, userMets, <private>, fMetsScaling, <private>, endTime, <private>, currentPace, <private>, isStroller, <private>, userMetsStrollerCorrected, <private>, truthMets, <private>, truthMetsStrollerCorrected, <private>	
+00:48.815.456	Debug	locationd (74)	com.apple.locationd.Position	Outdoor	CLOutdoorEstimator_OutdoorNoMapMatchingRouteHint,currentTime,<private>	
+00:48.815.497	Debug	locationd (74)	com.apple.locationd.Motion	Calorimetry	Walk, WorkRate, Grade type, <private>, vertical speed <private>, interval <private>, workrate <private>, userMets <private>, userMets + grade, <private>, percent grade, <private>, truthMets, <private>, truthMets + grade, <private>	
+00:48.815.532	Debug	locationd (74)	com.apple.locationd.Position	Outdoor	CLOutdoorEstimatorController,CLOutdoorEstimatorTurnOffCMGpsModelOutput	
+00:48.815.563	Debug	locationd (74)	com.apple.locationd.Motion	Calorimetry	Pedestrian, wrMets, <private>,  fmMets, <private>, hrMets, <private>, hrwrDiff, <private>, useHrMets, <private>, userMets, <private>, truthMets, <private>	
+00:48.815.584	Debug	locationd (74)	com.apple.locationd.Position	Outdoor	CLOutdoorEstimatorController,CLOutdoorEstimatorTurnOffCMWifiModelOutput	
+00:48.815.616	Debug	locationd (74)	com.apple.locationd.Position	LCFusion	#motion,dynamics mode on motion update,mct,349,916.7595,type,2,confidence,2,old dynamics mode,7,new dynamics mode,1	
+00:48.815.629	Debug	locationd (74)	com.apple.locationd.Position	Outdoor	CLOutdoorEstimatorController,CLOutdoorEstimatorTurnOffCMAlsModelOutput	
+00:48.815.661	Debug	locationd (74)	com.apple.locationd.Motion	Calorimetry	Dummy, Static, step count: <private>, step distance: <private>, activity: <private>, type: <private>, vm: <private>	
+00:48.815.713	Debug	locationd (74)	com.apple.locationd.Position	LCFusion	KFCV:FilterStateLog,1,004,753,594,903.7214,349,916.7595,4,0,<private>,<private>,<private>,0.0000,-1.0000,24.9791,30.0000,0.7961,-1.0000,1.9417,7,2,0,predict state success	
+00:48.815.740	Debug	locationd (74)	com.apple.locationd.Motion	ExerciseMinutes	CLExerciseMinuteController::feedNatalie called, rawMets, <private>	
+00:48.815.773	Debug	locationd (74)	com.apple.locationd.Position	Outdoor	CLOutdoorEstimator_NoAlsEvidence,currentTime,<private>	
+00:48.815.808	Info	locationd (74)	com.apple.locationd.Motion	Calorimetry	METS consumed,startTime,<private>,computeTime,<private>,now,<private>,activity,<private>,userMets,<private>,wrMets,<private>,rawWRMets,<private>,physicalEffortMets, <private>, rawTruthMets,<private>,avgTruthMets,<private>,basalMets,<private>,duration,<private>,stored,<private>,<private>,rawHRMets,<private>,rawFMMets,<private>,totalCalories,<private>,basalCalories,<private>,VectorMag,<private>,pushCount,<private>,activityWithoutOverride,<private>,isStanding,<private>,isMotionOverrideSet,<private>, mediaType, <private>,pedDistance,<private>,pedRawDistance,<private>,distanceSource,<private>,currentPace,<private>	
+00:48.815.822	Debug	locationd (74)	com.apple.locationd.Position	LCFusion	KFCV:FilterStateLog,1,004,753,594,903.7214,349,916.7595,4,0,<private>,<private>,<private>,0.0000,-1.0000,24.9791,30.0000,0.0997,-1.0000,0.0000,7,2,0,update with GSpeed success	

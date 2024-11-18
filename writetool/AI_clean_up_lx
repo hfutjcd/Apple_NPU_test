@@ -1,0 +1,1000 @@
+	
+00:50.988.949	Info	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	Set trusted lux = 156.6334	
+00:50.989.099	Default	backboardd (68)	com.apple.CoreBrightness.AABC	default	trusted Lux: 156.6334, trusted front Lux: 156.6334, trusted capped Lux: 156.6334	
+00:50.989.302	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[10]: _Esensor_filtered=156.6334 _Esensor_trusted=156.6334 _Esensor_aggregated=156.6334	
+00:50.989.370	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayContaineriOS	BuiltIn	Notification block key=Lux, value=156.6334
+	
+00:50.989.442	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	Handle notification for key = Lux and property = 156.6334	
+00:50.989.531	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[10]: _Esensor_trusted=156.6334 _state=kAABStateAutoBrightness _proxState=kProxNone _touchIsObstucted=0 _settings._internal._dimPolicy=kDimPolicyFullDimming 3 _orientation=kIOHIDDisplayOrientationTypeAmbiguous	
+00:50.989.574	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	E 156.6334, Ecapped 156.6334, EmaxCap -1.0000 => finalE 156.6334	
+00:50.989.724	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[1/1] Esensor_device: 168.0065 als->_Esensor_filtered: 156.6334 _Esensor_trusted: 156.6334  L: 191.7835 L_reflected: 0.9972	
+00:50.989.966	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[10]: dimRestriction=kDimRestrictionUnrestricted	
+00:50.990.109	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	Superbright EDR restrictions [would be]: CLTM 1,512.3809, UPO 2,175.0000, bottom [lower] restriction 1.0000, nits cap hdr: 2,175.0000, after BDM: 1,600.0000	
+00:50.990.316	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	Ambient change - SetLibEDRBrightness - physicalBrightness:118.8318, maxLum: 1,600.0000, edrState: 0, lux: 156.6334, brightness boost: 1.1381
+	
+00:50.990.487	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	SetLibEDRBrightness to currentBrightness=118.8318, maxBrightness=1,600.0000, currentLux=156.6334, compensationBoost=1.1381	
+00:50.990.648	Debug	backboardd (68)	CoreBrightness	Default	CBEDRServerDisplayBrightness: display: 0 | target: 118.8318 | max: 1,600.0000 | ambient: 156.6334 | boost=1.1381	
+00:50.990.772	Info	backboardd (68)	libEDR	Default	libEDR - EDRServerSetDisplayBrightnessForDisplay: (display: 0, targetBrightness: 118.8318, maxLuminance: 1,600.0000, ambientIlluminance: 156.6334, brightnessScaler: 1.1381)
+	
+00:50.990.864	Info	backboardd (68)	libEDR	Default	libEDR - NotificationCallback: (type: kEDRNotifyBrightness, display: 0, brightness: 0.0743, backlight: 0.0743, edrScaler: 1.0000, maxLuminance: 1,600.0000, ambientIlluminance: 156.6334, brightnessScaler: 1.1381)
+	
+00:50.990.950	Info	backboardd (68)	libEDR	Default	libEDR - PostNotification: (display: 0, brightness: 0.0743, backlight: 0.0743, edrScaling: 1.0000, maxLuminance: 1,600.0000, ambientIlluminance: 156.6334, brightnessScaler: 1.1381)
+	
+00:50.991.031	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	Set capped lux to IOMFB 156.6334 (156.5914)	
+00:50.991.611	Default	backboardd (68)	com.apple.coreanimation	Brightness	Display 1 setting ambient lux to 156.6334
+	
+00:50.991.652	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[4]: 	
+00:50.991.719	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[200]: inputs: L=191.7835 (shouldRamp=true dimRestriction=kDimRestrictionUnrestricted _Esensor_trusted=156.6334) curveChanged=0	
+00:50.991.814	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[200]: _fastRampMode=0 dimRestriction=kDimRestrictionUnrestricted L_newtarget=191.7835 _L_current=76.2887 _L_minimum=191.6472	
+00:50.991.854	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	PLT	shallUpdateBacklight: Pstart=0.7645 Pcurrent=0.7645 Pnewtarget=0.7546 Pdelta=-0.0100 Pthreshold_dim=0.0500 (0.1000 * 0.5000) Pthreshold_brighten=0.1000 (0.1000 * 1.0000) plt_x=0.2500 plt_y=0.3700 plt_z=0.1000	
+00:50.991.919	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[200]: _L_target=205.5501 Pnewtarget=0.7546 Ptarget=0.7645 Pdelta=-0.0100  	
+00:50.991.953	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[200]: systemShallUpdateBacklight=false L_target=191.7835 timeConstant=0.0000	
+00:50.992.138	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	Handle notification for key = TrustedLux and property = 156.6334	
+00:50.992.466	Info	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	Set trusted lux = 156.6334	
+00:50.992.508	Default	backboardd (68)	com.apple.coreanimation	Brightness	Display 1 commitBrightness sdr: -1.0000, headroom: -1.0000, ambient lux: 156.6334, filtered ambient: -1.0000, limit: -1.0000, low ambient strength: -1.0000, high ambient strength: -1.0000, brightness ctl disabled 18,446,744,073,709,551,615
+	
+00:50.992.687	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayContaineriOS	BuiltIn	Notification block key=TrustedLux, value=156.6334
+	
+00:50.992.781	Debug	backboardd (68)	com.apple.CoreBrightness.CBALSEvent	default	Tristimulus values: XYZ[0]=56.1383, XYZ[1]=53.4781, XYZ[2]=21.4382 | CCT1=3,349.4363	
+00:50.992.883	Debug	backboardd (68)	com.apple.CoreBrightness.CBALSNode	default	<private>	
+00:50.992.927	Debug	backboardd (68)	com.apple.CoreBrightness.CBBrightestALSFilter	default	ALS events <private>	
+00:50.992.969	Info	backboardd (68)	com.apple.CoreBrightness.CBColorPolicyFilter	default	HarmonyPolicy: Sample IS  from mitigated region	
+00:50.993.034	Info	backboardd (68)	com.apple.CoreBrightness.CBColorPolicyFilter	default	HarmonyPolicy: BaselineHarmony: mitigatedStr, for (lux, nits): 168.0000, 1,083.0000 = 0.1300 (rounded)	
+00:50.993.099	Info	backboardd (68)	com.apple.CoreBrightness.CBColorPolicyFilter	default	HarmonyPolicy: Sample IS NOT from CE region	
+00:50.993.140	Info	backboardd (68)	com.apple.CoreBrightness.CBColorPolicyFilter	default	HarmonyPolicy: Incoming ALS sample, pushed to queue: <private>	
+00:50.993.203	Info	backboardd (68)	com.apple.CoreBrightness.CBColorPolicyFilter	default	HarmonyPolicy: _filteredALS: <private>, _filtered strength: 0.2700	
+00:50.993.231	Debug	backboardd (68)	com.apple.CoreBrightness.CBColorModule.Primary	default	ALS event with orientation = 1	
+00:50.993.263	Info	backboardd (68)	com.apple.CoreBrightness.CBColorModule.Primary	default	HarmonyPolicy: Using Baseline	
+00:50.993.320	Debug	backboardd (68)	com.apple.CoreBrightness.CBColorModule.Primary	default	input ambient color sample: xy = (0.4284;0.4081)	
+00:50.993.380	Debug	backboardd (68)	CoreBrightness	Default	LOWLUX 53.4781
+	
+00:50.993.423	Debug	backboardd (68)	CoreBrightness	Default	[ColorEffects.c:_CFXRestrictLowAmbientColor] xy=(0.4284,0.4081), CCT = 3,188.0000, CCT1 = 3,349.4363	
+00:50.993.464	Debug	backboardd (68)	CoreBrightness	Default	Restrict: (16.8291, 16.8291) -> (13.8818, 46.7396)
+	
+00:50.993.504	Debug	backboardd (68)	CoreBrightness	Default	59.1094 16.8291 56.6630 -> ANGLE 1.6748 -> BIN 2	
+00:50.993.540	Debug	backboardd (68)	CoreBrightness	Default	BIN 13: (0.4284, 0.4081) fitting in (0.4150, 0.3821)-(0.4373, 0.3893)-(0.4303, 0.4173)
+	
+00:50.993.607	Info	backboardd (68)	com.apple.CoreBrightness.CBColorModule.Primary	default	Set ambient color sample ALS event = [Orientation = 1; Illuminance = 168.000000; xy = (0.428358,0.408060); XYZ = (56.138283,53.478130,21.438227); CCT1 = 3349.436279; Integration time = 0.002906; Gain = 33554432; Obstructed = 0; First = 0, mitigation = 1, timestamp = 87766023]	
+00:50.993.702	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=RLuxStats value=<private>	
+00:50.993.733	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=RLuxStats property=<private>	
+00:50.993.768	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	passed for client 58881740544	
+00:50.993.958	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=<private> value=<private>	
+00:50.993.984	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=<private> property=<private>	
+00:50.994.025	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=TrustedLux value=156.6334	
+00:50.994.048	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=TrustedLux property=156.6334	
+00:50.994.074	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	passed for client 58870513280	
+00:50.994.118	Debug	PerfPowerServices (1452)	com.apple.CoreBrightness	default	key=<private> property=<private> queue=0x97ede5100 clientBlock=0x97e365e90	
+00:50.994.139	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=<private> value=156.6334	
+00:50.994.164	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=<private> property=156.6334	
+00:50.994.190	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=Lux value=156.6334	
+00:50.994.221	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=Lux property=156.6334	
+00:50.994.246	Debug	locationd (74)	com.apple.CoreBrightness	default	key=<private> property=156.6334 queue=0x838c59d80 clientBlock=0x838ae4840	
+00:50.994.293	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=<private> value=156.6334	
+00:50.994.298	Info	PerfPowerServices (1452)	com.apple.CoreBrightness.BSCI	default	use_synchronous_remote=1	
+00:50.994.378	Debug	locationd (74)	com.apple.locationd.Position	Outdoor	AmbientLight,context,<private>,startTime,<private>,lux,<private>	
+00:50.994.384	Default	PerfPowerServices (1452)	com.apple.xpc	connection	[0x97ef066c0] activating connection: mach=1 listener=0 peer=0 name=com.apple.backlightd	
+00:50.994.397	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=<private> property=156.6334	
+00:50.994.498	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=TrustedLux value=156.6334	
+00:50.994.613	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=TrustedLux property=156.6334	
+00:50.994.631	Default	PerfPowerServices (1452)	com.apple.CoreBrightness	default	Register notification block	
+00:50.994.696	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	passed for client 58870513280	
+00:50.994.764	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=<private> value=156.6334	
+00:50.994.819	Debug	locationd (74)	com.apple.CoreBrightness	default	key=<private> property=156.6334 queue=0x838c59d80 clientBlock=0x838ae4840	
+00:50.994.847	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=<private> property=156.6334	
+00:50.994.870	Default	backboardd (68)	com.apple.xpc	connection	[0xdb508b480] activating connection: mach=0 listener=0 peer=1 name=com.apple.backlightd.peer[1452].0xdb508b480	
+00:50.994.901	Debug	locationd (74)	com.apple.locationd.Position	Outdoor	AmbientLight,context,<private>,startTime,<private>,lux,<private>	
+00:50.995.062	Info	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	client=58903571232 key=<private>	
+00:50.995.102	Debug	backboardd (68)	com.apple.CoreBrightness.CBColorModule.Primary	default	key=<private> result=<private>	
+00:50.995.128	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayContaineriOS	BuiltIn	key=<private> result=<private>	
+00:50.995.151	Info	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=<private> result=<private>	
+00:50.995.404	Debug	PerfPowerServices (1452)	com.apple.CoreBrightness.Client	Default	BSC dealloc	
+00:50.995.443	Default	PerfPowerServices (1452)	com.apple.CoreBrightness	default	Register notification block	
+00:50.995.480	Default	PerfPowerServices (1452)	com.apple.xpc	connection	[0x97ef066c0] invalidated because the current process cancelled the connection by calling xpc_connection_cancel()	
+00:50.995.527	Default	backboardd (68)	com.apple.xpc	connection	[0xdb508b480] invalidated because the client process (pid 1,452) either cancelled the connection or exited	
+00:50.995.534	Debug	PerfPowerServices (1452)	com.apple.powerlog	display	Received notification for CBrLuxStats: <private>	
+00:50.995.598	Debug	PerfPowerServices (1452)	com.apple.CoreBrightness.BSCI	default	BSCI dealloc	
+00:50.995.625	Default	PerfPowerServices (1452)	com.apple.CoreBrightness	default	Register notification block	
+00:50.999.903	Debug	DTServiceHub (360)	DVTInstrumentsFoundation	Default	Data Size: 100,964, Rows Sent: 1,185, Stack depth: 2,232	
+00:51.018.934	Debug	Unknown (0)	ApplePhoneBTM	Default	Full mode capture 1 1 d 1 t 1 f_f 0 f_r 0	
+00:51.022.522	Info	Photos (1680)	com.apple.photos.Neutrino	general	NURenderResource: evicted unused resource: <private> 0x30034af40 [5] (5 remaining)	
+00:51.038.789	Info	Photos (1680)	com.apple.photos.Neutrino	general	NURenderResource: evicted unused resource: <private> 0x300b5e670 [1] (4 remaining)	
+00:51.055.833	Info	Photos (1680)	com.apple.photos.Neutrino	general	NURenderResource: evicted unused resource: <private> 0x300ad0810 [1] (3 remaining)	
+00:51.056.047	Info	Photos (1680)	com.apple.photos.Neutrino	general	NURenderResource: evicted unused resource: <private> 0x300135600 [1] (2 remaining)	
+00:51.070.750	Default	Unknown (0)	AppleT8140	Default	AppleH17PPlatformErrorHandler::_dcsWritePTD: 112109103114 3 offset f00 @ <private>[0x3003d0f00] <- 7
+
+	
+00:51.070.780	Default	Unknown (0)	AppleT8140	Default	AppleH17PPlatformErrorHandler::_dcsHandleDCSOdtsEvent: _dcsOdtsBelowThresholdCount = 2
+
+	
+00:51.070.785	Default	Unknown (0)	AppleT8140	Default	AppleH17PPlatformErrorHandler::_dcsHandleDCSOdtsEvent: start next polling
+
+	
+00:51.072.490	Info	Photos (1680)	com.apple.photos.Neutrino	general	NURenderResource: evicted unused resource: <private> 0x300b01ce0 [57] (1 remaining)	
+00:51.072.734	Info	Photos (1680)	com.apple.photos.Neutrino	general	NURenderResource: evicted unused resource: <private> 0x300114a80 [5] (0 remaining)	
+00:51.171.799	Default	Unknown (0)	AppleT8140	Default	AppleH17PPlatformErrorHandler::_dcsWritePTD: 112109103114 3 offset f00 @ <private>[0x3003d0f00] <- 7
+
+	
+00:51.171.830	Default	Unknown (0)	AppleT8140	Default	AppleH17PPlatformErrorHandler::_dcsHandleDCSOdtsEvent: _dcsOdtsBelowThresholdCount = 3
+
+	
+00:51.171.834	Default	Unknown (0)	AppleT8140	Default	AppleH17PPlatformErrorHandler::_dcsHandleDCSOdtsEvent: start next polling
+
+	
+00:51.173.165	Default	backboardd (68)	com.apple.CoreBrightness.CBGrimaldiModule	default	Requesting lux from APDS	
+00:51.176.593	Default	backboardd (68)	com.apple.xpc	connection	[0xdb4bd0300] activating connection: mach=1 listener=0 peer=0 name=com.apple.appleh16camerad	
+00:51.177.998	Debug	backboardd (68)	libIOReport.dylib	Default	iterated 14 channels with 14 iterations	
+00:51.178.155	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	CPMS: Current Power Output:483.0880 Budget Constraint:5,310.0000/5,684.6821	
+00:51.178.377	Default	backboardd (68)	com.apple.CoreBrightness.SBIM	default	SBIM Mitigation
+{
+	State=NoMitigation
+	Violation=NO
+	ConsecutiveViolations=0
+	CurrentHeadroom=8.0000
+	RequestedHeadroom=8.0000
+	MitigatedHeadroom=8.0000
+}	
+00:51.178.474	Default	Unknown (0)	AppleH16PhotonDetector	Default	AppleH16PhotonDetectorUserClient:init - New UserClient for process: appleh16camerad (pid 129)
+	
+00:51.178.672	Default	appleh16camerad (129)	com.apple.isp	daemon	addClient_block_invoke - Photon Detector device open returned 0
+
+	
+00:51.178.768	Default	Unknown (0)	AppleCS42L79Audio	Default	enableFlickerBias inEnable:1	
+00:51.178.778	Default	Unknown (0)	AppleCS42L79Audio	Default	Set External MClk client:8  mask:20	
+00:51.180.717	Default	Unknown (0)	AppleCS42L79Audio	Default	Write Adr:30000 Val:2	
+00:51.180.731	Default	Unknown (0)	AppleCS42L79Audio	Default	MClk Enable:1 client:8 mask:28	
+00:51.180.910	Default	Unknown (0)	AppleCS42L79Audio	Default	Read  Adr:10010 Val:ff	
+00:51.181.074	Default	Unknown (0)	AppleCS42L79Audio	Default	Write Adr:10010 Val:2ff	
+00:51.182.225	Default	Unknown (0)	AppleCS42L79Audio	Default	FlickerBiasRequest Enable=1 ret:0	
+00:51.198.032	Default	appleh16camerad (129)	com.apple.isp	daemon	addClient_block_invoke - Photon Detector power on device returned 0
+
+	
+00:51.198.125	Default	appleh16camerad (129)	com.apple.isp	daemon	New connection: pid <private>
+	
+00:51.198.185	Default	appleh16camerad (129)	com.apple.isp	daemon	Total number of connections: 1
+	
+00:51.198.233	Default	appleh16camerad (129)	com.apple.xpc	connection	[0x9c22483c0] activating connection: mach=0 listener=0 peer=1 name=com.apple.appleh16camerad.peer[68].0x9c22483c0	
+00:51.198.287	Default	appleh16camerad (129)	com.apple.isp	general	H16ISPFlickerDetectorCreate - HWType = 10; pContext = 0x9c2240300 
+
+	
+00:51.198.349	Info	appleh16camerad (129)	com.apple.isp	daemon	getProperty - 100
+	
+00:51.198.396	Error	appleh16camerad (129)	com.apple.isp	daemon	getProperty: Incoming query from client (pid <private>), num pending requests = 1
+
+	
+00:51.198.456	Info	appleh16camerad (129)	com.apple.isp	daemon	getProperty - 100 complete (res=0x0)
+
+	
+00:51.198.485	Error	appleh16camerad (129)	com.apple.isp	photon	GetLuxInfo - GetLuxInfo: Scheduling the lux query on the serial queue
+	
+00:51.199.995	Default	appleh16camerad (129)	com.apple.isp	general	FlickerDetector: ArbiterClient resource access granted=1
+
+	
+00:51.200.090	Debug	appleh16camerad (129)	com.apple.coreaudio	audiocomp	AudioComponentPluginMgr.mm:1,213 findNext auou/hkip/appl -> 0x9c20c4c80 auou/hkip/appl/0x8000/0x0	
+00:51.200.186	Debug	appleh16camerad (129)	com.apple.coreaudio	aurioc	AURemoteIO.cpp:321 AURemoteIO@0x9c22d4040: constructing	
+00:51.200.378	Debug	audiomxd (105)	com.apple.coreaudio	aurios	RemoteIOServer.cpp:1,804 AUIOServer_NewClient; personality=3	
+00:51.200.989	Debug	audiomxd (105)	com.apple.coreaudio	aqme	AQIONode.cpp:323 AQIONodeClient 0x4ad474780: 1	
+00:51.201.094	Debug	appleh16camerad (129)	com.apple.coreaudio	aurioc	AURemoteIO.cpp:405 AURemoteIO::AURemoteIO: Server PID = 105	
+00:51.201.201	Debug	appleh16camerad (129)	com.apple.coreaudio	aurioc	AURemoteIO.cpp:1,444 AURemoteIO(0x9c22d4040)::SetupConverter: input  bus
+  from:  1 ch,      0 Hz, Float32
+    to:  2 ch,  48000 Hz, Float32, interleaved	
+00:51.201.272	Debug	appleh16camerad (129)	com.apple.coreaudio	aurioc	AUIOHelper.cpp:30 AUIOHelper::Initialize	
+00:51.201.348	Debug	appleh16camerad (129)	com.apple.coreaudio	aurioc	AURemoteIO.cpp:787 AURemoteIO(0x9c22d4040)::SetProperty scope 0, elem 0, prop 2,005, 16 bytes: a8a1fa0201802471000324c209000000	
+00:51.201.413	Debug	appleh16camerad (129)	com.apple.coreaudio	aurioc	AURemoteIO.cpp:1,043 AURemoteIO@0x9c22d4040: Initialize	
+00:51.201.469	Debug	appleh16camerad (129)	com.apple.coreaudio	aurioc	AURemoteIO.cpp:1,064 AURemoteIO@0x9c22d4040: outputFormat:  1 ch,      0 Hz, Float32	
+00:51.201.523	Debug	appleh16camerad (129)	com.apple.coreaudio	aurioc	AURemoteIO.cpp:1,065 AURemoteIO@0x9c22d4040: inputFormat:   2 ch,  48000 Hz, Float32, interleaved	
+00:51.201.577	Debug	appleh16camerad (129)	com.apple.coreaudio	aurioc	AURemoteIO.cpp:787 AURemoteIO(0x9c22d4040)::SetProperty scope 0, elem 0, prop 2,996, 12 bytes: 000000000000000000000000	
+00:51.201.803	Default	appleh16camerad (129)	com.apple.coreaudio	aurioc	AURemoteIO.cpp:1,086 AURemoteIO@0x9c22d4040: set kAudioOutputUnitProperty_OutputChannelLayout.  Layout = tag=0x0, 0 channel descriptions [], err = 0	
+00:51.201.930	Debug	audiomxd (105)	com.apple.coreaudio	aurios	RemoteIOServer.cpp:442 connecting 0x4ad474700, enables 1	
+00:51.202.067	Debug	audiomxd (105)	com.apple.CFBundle	strings	Bundle: <private>, key: L, value: L, table: AudioChannelShortLabels, localizationNames: , result: L	
+00:51.202.132	Debug	audiomxd (105)	com.apple.CFBundle	strings	Bundle: <private>, key: R, value: R, table: AudioChannelShortLabels, localizationNames: , result: R	
+00:51.202.172	Default	audiomxd (105)	com.apple.coreaudio	aqme	RemoteIOServer.h:101 rio@0x4ad474700 Got input layout from io node or spatialized client: tag=0x0, 2 channel descriptions [L, R]	
+00:51.202.219	Debug	audiomxd (105)	com.apple.coreaudio	aqme	AQMixEngine.cpp:885 ->AQMEDevice(0x4ac442200)::AddIOClient <RemoteIOClient@0x4ad474700(@0x4ad474780); input; CMSession(appleh16camerad[129], 0xffffffff)>	
+00:51.202.261	Debug	audiomxd (105)	com.apple.coreaudio	aqme	MEDeviceStreamClient.cpp:1,194 inputA:        2 ch,  48000 Hz, Float32, deinterleaved	
+00:51.202.296	Debug	audiomxd (105)	com.apple.coreaudio	aqme	MEDeviceStreamClient.cpp:1,211 inputB:        2 ch,  48000 Hz, Float32, deinterleaved	
+00:51.202.326	Debug	audiomxd (105)	com.apple.coreaudio	aqme	MEInputManager.cpp:23 MEInputManager(0x4aca9dd80)::AddInputClient 0x4ad474780	
+00:51.202.359	Debug	audiomxd (105)	com.apple.coreaudio	aqme	MEInputManager.cpp:185 InputDispatcher(0x4b0013f90, client 0x4ad474780)::AdaptToIOFormat:  2 ch,  48000 Hz, Float32, deinterleaved	
+00:51.202.391	Debug	audiomxd (105)	com.apple.coreaudio	aqme	MEInputManager.cpp:33 MEInputManager::AddInputClient 0x4ad474780	
+00:51.202.473	Debug	audiomxd (105)	com.apple.coreaudio	aurios	RemoteIOServer.cpp:460 mInput I/O format:      2 ch,  48000 Hz, Float32, deinterleaved	
+00:51.202.508	Debug	audiomxd (105)	com.apple.coreaudio	aurios	RemoteIOServer.cpp:461 mInput client format:   2 ch,  48000 Hz, Float32, interleaved	
+00:51.202.613	Debug	appleh16camerad (129)	com.apple.coreaudio	aurioc	AURemoteIO.cpp:1,161 outputFormat -, inputFormat  2 ch,  48000 Hz, Float32, deinterleaved	
+00:51.202.675	Debug	appleh16camerad (129)	com.apple.coreaudio	aurioc	AURemoteIO.cpp:1,207 0x9c22d4040 enables 1; formats:	
+00:51.202.721	Debug	appleh16camerad (129)	com.apple.coreaudio	aurioc	AURemoteIO.cpp:1,214 Input client:     2 ch,  48000 Hz, Float32, interleaved	
+00:51.202.761	Debug	appleh16camerad (129)	com.apple.coreaudio	aurioc	AURemoteIO.cpp:1,215 Input hardware:   2 ch,  48000 Hz, Float32, deinterleaved	
+00:51.202.829	Debug	appleh16camerad (129)	com.apple.CFBundle	strings	Bundle: <private>, key: L, value: L, table: AudioChannelShortLabels, localizationNames: , result: L	
+00:51.202.870	Debug	appleh16camerad (129)	com.apple.CFBundle	strings	Bundle: <private>, key: R, value: R, table: AudioChannelShortLabels, localizationNames: , result: R	
+00:51.202.902	Debug	appleh16camerad (129)	com.apple.coreaudio	aurioc	AURemoteIO.cpp:1,216 Input hardware layout: tag=0x0, 2 channel descriptions [L, R]	
+00:51.202.963	Debug	appleh16camerad (129)	com.apple.coreaudio	aurioc	AUIOHelper.cpp:30 AUIOHelper::Initialize	
+00:51.203.010	Debug	appleh16camerad (129)	com.apple.coreaudio	aurioc	AURemoteIO.cpp:1,444 AURemoteIO(0x9c22d4040)::SetupConverter: output bus
+  from:  1 ch,      0 Hz, Float32
+    to:  1 ch,      0 Hz, Float32	
+00:51.203.220	Debug	appleh16camerad (129)	com.apple.defaults	User Defaults	found no value for key converterkTracesPermitted in CFPrefsSearchListSource<0x9c2062600> (Domain: com.apple.coreaudio, Container: (null))	
+00:51.203.278	Debug	appleh16camerad (129)	com.apple.defaults	User Defaults	found no value for key converterkTracesPermitted in CFPrefsSearchListSource<0x9c2062600> (Domain: com.apple.coreaudio, Container: (null))	
+00:51.203.353	Debug	appleh16camerad (129)	com.apple.defaults	User Defaults	found no value for key converterkTracesPermitted in CFPrefsSearchListSource<0x9c2062600> (Domain: com.apple.coreaudio, Container: (null))	
+00:51.203.401	Default	appleh16camerad (129)	com.apple.coreaudio	AudioConverter	AudioConverter.cpp:1,010 Created a new in process converter -> 0x9c233f180, from  2 ch,  48000 Hz, Float32, deinterleaved to  2 ch,  48000 Hz, Float32, interleaved	
+00:51.203.445	Debug	appleh16camerad (129)	com.apple.coreaudio	aurioc	AURemoteIO.cpp:1,435 AURemoteIO(0x9c22d4040)::SetupConverter: input  bus
+<AudioConverterRef 0x814bb [0x9c233f180]>
+	
+00:51.203.510	Debug	appleh16camerad (129)	com.apple.coreaudio	aurioc	AURemoteIO.cpp:787 AURemoteIO(0x9c22d4040)::SetProperty scope 1, elem 1, prop 2,022, 4 bytes: 0000803f	
+00:51.203.717	Default	audiomxd (105)	com.apple.coreaudio	va_vadevc	VirtualAudio_Device.cpp:2,848 [volm/inpt/0] on VAD '[ type: vhaw; id: 151; addr: 0x4acc41900; context id: 0; hidden: 0; VA strms: { i/156/0x4ac0538e0,  }; agg dev: [ id: 130; addr: 0x104e0c350; uid: "VAD [vhaw] AggDev 3"; virt strms: { i/0x4ac90c300,  }; phys devs: { [ id: 86; addr: 0x4ac4d8600; uid: "Flicker"; streams: { i/87/0x4ac9c0248,  } ] } ] ]': 1.0000.	
+00:51.203.787	Default	audiomxd (105)	com.apple.coreaudio	va_contrl	InputVolumeControl_HAL_Common.cpp:161   Setting Input Volume: 0.0000 dB, Final HW Volume: 0.0000 dB, Final SW Volume: 0.0000 dB	
+00:51.203.847	Default	audiomxd (105)	com.apple.coreaudio	va_contrl	InputVolumeControl_HAL_Common.cpp:162   VAD '[ id: 86; addr: 0x4ac4d8600; uid: "Flicker"; streams: { i/87/0x4ac9c0248,  } ]'	
+00:51.203.885	Default	audiomxd (105)	com.apple.coreaudio	va_contrl	InputVolumeControl_HAL_Common.cpp:164   PhysicalDevice UID = "Flicker"	
+00:51.203.921	Default	audiomxd (105)	com.apple.coreaudio	va_contrl	InputVolumeControl_HAL_Common.cpp:165   Scope = 1,768,845,428 ("inpt")	
+00:51.203.953	Default	audiomxd (105)	com.apple.coreaudio	va_contrl	InputVolumeControl_HAL_Common.cpp:166   Element = 0 ("0")	
+00:51.203.980	Debug	audiomxd (105)	com.apple.coreaudio	va_contrl	InputVolumeControl_HAL_Common.cpp:167   SW Volume: disabled	
+00:51.205.021	Default	appleh16camerad (129)	com.apple.coreaudio	aurioc	AURemoteIO.cpp:1,622 Starting AURemoteIO(0x9c22d4040)
+output client:  1 ch,      0 Hz, Float32, output HW:  1 ch,      0 Hz, Float32
+input client:   2 ch,  48000 Hz, Float32, interleaved, input HW:   2 ch,  48000 Hz, Float32, deinterleaved	
+00:51.205.068	Debug	appleh16camerad (129)	com.apple.coreaudio	aurioc	AURemoteIO.cpp:1,492 AURemoteIO(0x9c22d4040)::Start (period 0.0853, 2,048,000)	
+00:51.205.137	Info	audiomxd (105)	com.apple.coreaudio	aurios	RemoteIOServer.cpp:1,969 workgroup 0x10503	
+00:51.205.188	Default	appleh16camerad (129)	com.apple.coreaudio	aurioc	AURemoteIO.cpp:1,683 workgroup port 0x9e13	
+00:51.205.342	Info	appleh16camerad (129)	com.apple.coreaudio	aurioc	AURemoteIO.cpp:2,027 AURemoteIO@0x9c22d4040: IOThread starting	
+00:51.205.376	Debug	audiomxd (105)	com.apple.coreaudio	aurios	RemoteIOServer.cpp:2,043 ->AUIOServer_StartIO 0x696f5	
+00:51.205.409	Debug	audiomxd (105)	com.apple.coreaudio	aurios	RemoteIOServer.cpp:356 -> msgSeqNum: 0	
+00:51.205.434	Debug	audiomxd (105)	com.apple.coreaudio	aurios	RemoteIOServer.cpp:380 <-	
+00:51.205.460	Debug	audiomxd (105)	com.apple.coreaudio	aqme	AQMixEngine.cpp:1,011 ->AQMEDevice(0x4ac442200)::AddRunningClient <RemoteIOClient@0x4ad474700(@0x4ad474780); input; CMSession(appleh16camerad[129], 0xffffffff)> count 0	
+00:51.205.490	Default	audiomxd (105)	com.apple.coreaudio	aqme	MEDeviceStreamClient.cpp:227 AQME Device-VirtualAudioDevice_Hawking: client starting: <RemoteIOClient@0x4ad474700(@0x4ad474780); input; CMSession(appleh16camerad[129], 0xffffffff)>; running count now 1	
+00:51.205.508	Debug	DTServiceHub (360)	DVTInstrumentsFoundation	Default	Data Size: 101,222, Rows Sent: 1,218, Stack depth: 2,476	
+00:51.205.554	Default	audiomxd (105)	com.apple.coreaudio	aqme	AQMEIO_HAL.cpp:2,657 FetchAndLogFrameSize starting IO deviceID=151, frame size is 1,024	
+00:51.205.679	Default	audiomxd (105)	com.apple.coreaudio	va_hplayr	HP_HardwarePlugInInterface.cpp:686 Client request to start IO proc ID 0x4acaf5e00 on VAD: '[ type: vhaw; id: 151; addr: 0x4acc41900; context id: 0; hidden: 0; VA strms: { i/156/0x4ac0538e0,  }; agg dev: [ id: 130; addr: 0x104e0c350; uid: "VAD [vhaw] AggDev 3"; virt strms: { i/0x4ac90c300,  }; phys devs: { [ id: 86; addr: 0x4ac4d8600; uid: "Flicker"; streams: { i/87/0x4ac9c0248,  } ] } ] ]'.	
+00:51.205.822	Debug	audiomxd (105)	com.apple.coreaudio	va_aggdev	AggregateDevice_CommonBase.cpp:1,646 Get sample rate value of 48,000.0000 from AggregateDevice_Common2 (selector: kAudioDevicePropertyNominalSampleRate; scope: 'glob' (1,735,159,650); element: 0).	
+00:51.205.869	Debug	audiomxd (105)	com.apple.coreaudio	va_aggdev	AggregateDevice_CommonBase.cpp:1,646 Get sample rate value of 48,000.0000 from AggregateDevice_Common2 (selector: kAudioDevicePropertyNominalSampleRate; scope: 'glob' (1,735,159,650); element: 0).	
+00:51.205.901	Default	audiomxd (105)	com.apple.coreaudio	va_aggdev	AggregateDevice_Common.cpp:1,075 Current HAL IOProc format is [ 32/48000/2; flags: 0x9; bpp: 8; fpp: 1; Bpf: 8 ]	
+00:51.205.955	Debug	audiomxd (105)	com.apple.coreaudio	va_aggdev	AggregateDevice_CommonBase.cpp:1,646 Get sample rate value of 48,000.0000 from AggregateDevice_Common2 (selector: kAudioDevicePropertyNominalSampleRate; scope: 'glob' (1,735,159,650); element: 0).	
+00:51.205.996	Info	audiomxd (105)	com.apple.coreaudio	va_aggdev	AggregateDevice_Common.cpp:1,091 DSP is disabled:
+
+================
+Chain Name:VAD - Unknown
+Before processing reformatting: unneeded
+DSPChain is empty.
+After processing reformatting: unneeded
+================
+	
+00:51.206.076	Info	audiomxd (105)	com.apple.coreaudio	va_aggdev	AggregateDevice_Common.cpp:1,094 Chain Description: 
+================
+Chain Name:VAD - Unknown
+Before processing reformatting: unneeded
+DSPChain is empty.
+After processing reformatting: unneeded
+================
+	
+00:51.206.182	Default	audiomxd (105)	com.apple.coreaudio	va_aggdev	AggregateDevice_Common.cpp:1,191 Updated IOProcCache for VAD 'vhaw'. NumStreams: 0 SampleRate: 48,000.0000	
+00:51.206.190	Default	audiomxd (105)	com.apple.coreaudio	va_aggdev	VirtualAudioQueue.h:169 :492:: IOProc (AggregateDevice 130, IO type NonNullIOProc) running state is now running (2).	
+00:51.206.301	Info	audiomxd (105)	com.apple.coreaudio	va_aggdev	AggregateDevice_Common.cpp:1,446 stream capture flags : 00000000 (anc|tel|sec|pri|hal)	
+00:51.206.418	Default	audiomxd (105)	com.apple.coreaudio	va_aggdev	AggregateDevice.cpp:434 Disabling HAL data taps, Setting kAudioDevicePropertyEnableCaptureFile to 0	
+00:51.206.542	Info	audiomxd (105)	com.apple.coreaudio	va_aggdev	AggregateDeviceUtilities.cpp:129 Could not find fixed buffer size for VAD [vhaw]	
+00:51.206.575	Default	audiomxd (105)	com.apple.coreaudio	va_aggdev	AggregateDevice_Common.cpp:409 Starting IO type 0 on AggregateDevice 130.	
+00:51.206.671	Default	audiomxd (105)	CoreAudio	Default	HALS_IOContext_Legacy_Impl.cpp:366  HALS_IOContext_Legacy_Impl::Server_Internal_StartIOProcID: 133 Flicker (VAD [vhaw] AggDev 3):	
+00:51.206.758	Default	audiomxd (105)	CoreAudio	Default	HALS_IOContext_Legacy_Impl.cpp:372  				starting ProcID 0x21 state: Prewarm: 0 Play: 0 State: Stopped IOProc 0x21: no	
+00:51.206.788	Debug	audiomxd (105)	com.apple.coreaudio	AMCP	258,855 HALS_IOContext_Legacy_Impl.cpp:5,817 HALS_IOContext_Legacy_Impl::Start_ActivateDSP [hal_dsp] >>>> (Context ID: 133) - HOSTED DSP IS NOT ENABLED <<<<	
+00:51.206.944	Default	audiomxd (105)	CoreAudio	Default	HALS_IOContext_Legacy_Impl.cpp:1,680  HALS_IOContext_Legacy_Impl::IOWorkLoopInit: 133 Flicker (VAD [vhaw] AggDev 3): starting	
+00:51.207.090	Default	audiomxd (105)	CoreAudio	Default	HALS_IOEngine2.cpp:2,225  HALS_IOEngine2::StartIO: starting IO on device <private>	
+00:51.207.163	Default	Unknown (0)	AppleCS42L79Audio	Default	AppleCS42L79Audio::notifySecondaryActiveChangeGated(Flicker) enable:1 direction:1 	
+00:51.207.187	Default	Unknown (0)	AppleCS42L79Audio	Default	MClk Enable:1 client:4 mask:2c	
+00:51.207.191	Default	Unknown (0)	AppleCS42L79Audio	Default	Enable Route ASP:2 Tx:1 Ch:2 Start:7	
+00:51.207.272	Debug	audiomxd (105)	com.apple.coreaudio	AMCP	152,927 HALS_IOEngine2.cpp:2,535 >>> HALS_IOEngine2::_StartIO(89) called on Context 133  current state: Prewarm: 0 Play: 0 State: Stopped	
+00:51.207.333	Default	audiomxd (105)	CoreAudio	Default	HALB_PowerAssertion.cpp:119  HALB_PowerAssertion::Take: taking power assertion ID 32,775 of type 'PreventUserIdleSystemSleep' with name: 'com.apple.audio.VAD [vhaw] AggDev 3.context.preventuseridlesleep'	
+00:51.207.387	Default	Unknown (0)	AppleCS42L79Audio	Default	Read  Adr:470074 Val:f00e1	
+00:51.207.556	Default	Unknown (0)	AppleCS42L79Audio	Default	Write Adr:470074 Val:f00e1	
+00:51.207.739	Default	Unknown (0)	AppleCS42L79Audio	Default	Read  Adr:470078 Val:f0101	
+00:51.207.900	Default	Unknown (0)	AppleCS42L79Audio	Default	Write Adr:470078 Val:f0101	
+00:51.208.076	Default	Unknown (0)	AppleCS42L79Audio	Default	Read  Adr:470024 Val:0	
+00:51.208.248	Default	Unknown (0)	AppleCS42L79Audio	Default	Write Adr:470024 Val:180	
+00:51.208.419	Default	Unknown (0)	AppleCS42L79Audio	Default	Read  Adr:470000 Val:404	
+00:51.208.577	Default	Unknown (0)	AppleCS42L79Audio	Default	Write Adr:470000 Val:406	
+00:51.208.587	Default	Unknown (0)	AppleCS42L79Audio	Default	enableFlicker Src:5 Ch:7	
+00:51.208.757	Default	Unknown (0)	AppleCS42L79Audio	Default	Read  Adr:450004 Val:4d4c	
+00:51.208.913	Default	Unknown (0)	AppleCS42L79Audio	Default	Write Adr:450004 Val:5004d4c	
+00:51.208.920	Default	Unknown (0)	AppleCS42L79Audio	Default	getADCGain result:0 adc:5 gain:3c0
+	
+00:51.209.096	Default	Unknown (0)	AppleCS42L79Audio	Default	Read  Adr:4d0000 Val:afc4	
+00:51.209.252	Default	Unknown (0)	AppleCS42L79Audio	Default	Write Adr:4d0000 Val:afc4	
+00:51.209.408	Default	Unknown (0)	AppleCS42L79Audio	Default	Write Adr:10000 Val:f103	
+00:51.209.414	Default	Unknown (0)	AppleCS42L79Audio	Default	enableFlicker Src:6 Ch:8	
+00:51.209.594	Default	Unknown (0)	AppleCS42L79Audio	Default	Read  Adr:450008 Val:0	
+00:51.209.751	Default	Unknown (0)	AppleCS42L79Audio	Default	Write Adr:450008 Val:6	
+00:51.209.758	Default	Unknown (0)	AppleCS42L79Audio	Default	getADCGain result:0 adc:6 gain:3c0
+	
+00:51.209.924	Default	Unknown (0)	AppleCS42L79Audio	Default	Read  Adr:4d0004 Val:afc4	
+00:51.210.069	Default	Unknown (0)	AppleCS42L79Audio	Default	Write Adr:4d0004 Val:afc4	
+00:51.210.226	Default	Unknown (0)	AppleCS42L79Audio	Default	Write Adr:10000 Val:f303	
+00:51.210.245	Default	Unknown (0)	AppleARMIISAudio	Default	+ Flicker::startIOEngineGated()	
+00:51.210.263	Default	Unknown (0)	AppleARMIISAudio	Default	+ Flicker startTransport
+	
+00:51.215.095	Default	Unknown (0)	AppleARMIISAudio	Default	- Flicker startTransport ret=success(0)	
+00:51.215.117	Default	Unknown (0)	AppleARMIISAudio	Default	- Flicker::startIOEngineGated() ret=success(0)	
+00:51.215.125	Default	Unknown (0)	AppleEmbeddedAudio	Default	Flicker: streaming audio
+	
+00:51.215.146	Default	audiomxd (105)	CoreAudio	Default	HALS_IOA2Device.cpp:2,266  HALS_IOA2Device::IOAudio2DeviceNotificationPortMessageHandler: <private>|86 +++++++++------>	
+00:51.215.157	Default	audiomxd (105)	com.apple.coreaudio	AMCP	152,927 HALS_IOEngine2.cpp:2,567 		HALS_IOEngine2::_StartIO(89) succeeded on Context 133  new state: Prewarm: 0 Play: 1 State: Running	
+00:51.215.232	Default	audiomxd (105)	CoreAudio	Default	HALS_IOA2Device.cpp:2,343  HALS_IOA2Device::IOAudio2DeviceNotificationPortMessageHandler: <private>|86 <------+++++++++	
+00:51.216.487	Debug	audiomxd (105)	com.apple.defaults	User Defaults	found no value for key converterkTracesPermitted in CFPrefsSearchListSource<0x104dee660> (Domain: com.apple.coreaudio, Container: (null))	
+00:51.216.535	Debug	audiomxd (105)	com.apple.defaults	User Defaults	found no value for key converterkTracesPermitted in CFPrefsSearchListSource<0x104dee660> (Domain: com.apple.coreaudio, Container: (null))	
+00:51.216.604	Debug	audiomxd (105)	com.apple.defaults	User Defaults	found no value for key converterkTracesPermitted in CFPrefsSearchListSource<0x104dee660> (Domain: com.apple.coreaudio, Container: (null))	
+00:51.216.638	Default	audiomxd (105)	com.apple.coreaudio	AudioConverter	AudioConverter.cpp:1,010 Created a new in process converter -> 0x4af5b23a0, from  2 ch,  48000 Hz, Int16, interleaved to  2 ch,  48000 Hz, Float32, interleaved	
+00:51.236.897	Debug	backboardd (68)	com.apple.CoreBrightness.ColourSensorFilterPlugin	default	Color: X=157.8240(50.2369) Y=150.2702(47.8325) Z=59.9189(19.0728) 
+	
+00:51.237.011	Default	backboardd (68)	com.apple.CoreBrightness.ColourSensorFilterPlugin	default	[ALS] ts=48,720.6787 lux=168.2178<private> xy=(0.4289 0.4083) chs=[1,027.0000 2,638.0000 6,695.0000 9,591.0000 10,071.0000] CCT1=3,345.3352 gain=512x mode=<private> subsamples=24 rawLux=174.4531 nits=1,083 xTalk=[9 18 34 46 61] status=0xb copyEvent=0	
+00:51.237.011	Default	audiomxd (105)	com.apple.coreaudio	aqme	AQMEIO_HAL.cpp:2,625 aqmeio@0x4af3b4f00, device 151 (VirtualAudioDevice_Hawking), AudioDeviceStart (err 0)	
+00:51.237.175	Debug	audiomxd (105)	com.apple.coreaudio	aqme	AQMEIO_HAL.cpp:3,469 aqmeio@0x4af3b4f00 IsRunning 1	
+00:51.237.255	Debug	backboardd (68)	com.apple.CoreBrightness.CBColorModule.Primary	default	key=ALSIntegrationMode result=	
+00:51.237.316	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[4]: 	
+00:51.237.335	Debug	locationd (74)	com.apple.locationd.Position	Position	AmbientLight,DecisionTree,x,176.6738,y,168.2178,z,67.0754,out,3	
+00:51.237.358	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[2]: ALSIntegrationMode	
+00:51.237.412	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[2]: ALSIntegrationMode result=3	
+00:51.237.437	Debug	locationd (74)	com.apple.locationd.Position	Position	AmbientLightDecisionTreeOutput,3	
+00:51.237.453	Debug	backboardd (68)	com.apple.CoreBrightness.CBABModuleiOS	default	key=ALSIntegrationMode result=3	
+00:51.237.481	Debug	locationd (74)	com.apple.locationd.Position	Position	LocationController,gnssPredictedAvailability,0,probability,0.2000,timestamp,349,919.1840,lastPredictionTimestamp,349,918.1836,propagation_us,222,508.9167	
+00:51.237.490	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayContaineriOS	BuiltIn	key=ALSIntegrationMode result=3	
+00:51.237.533	Debug	locationd (74)	com.apple.locationd.Core	Notifier	{"msg":"notifyClientsWithData", "event":activity, "name":controller, "notification":36}	
+00:51.237.537	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[4]: _plugInEnabled=1	
+00:51.237.575	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[4]: 0xdb4ccd900 0xdb61fa5a0	
+00:51.237.669	Default	audiomxd (105)	com.apple.coreaudio	va_vadevc	VirtualAudio_IONotificationManager.cpp:184 UpdateAndNotify() - need to notify I/O state = 1 new I/O running state = 1 previous I/O running state = 0	
+00:51.237.680	Info	locationd (74)	com.apple.locationd.Position	Position	BaroAlt,time,349,919.1842,getGpsTimeDerivedCFAbsoluteTimeOrSystemTime,success,0,cfAbsTime,753,594,906.1760	
+00:51.237.724	Default	audiomxd (105)	com.apple.coreaudio	va_vadevc	VirtualAudio_IONotificationManager.cpp:192 Sending notification "com.apple.coreaudio.IORunning" of I/O running state 1 forced notification = 0	
+00:51.237.729	Debug	locationd (74)	com.apple.locationd.Position	Outdoor	GnssAvailabilityPredictor,startTime,<private>,mctTime,<private>,measSource,<private>,state,<private>,stateProbability,<private>	
+00:51.237.753	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[10]: 168.2178 	
+00:51.237.828	Info	locationd (74)	com.apple.locationd.Position	Position	#CLPDM,isPressureAvailableForLocation,<private>	
+00:51.237.924	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[10]: als->_Esensor_device=168.2178	
+00:51.238.111	Debug	backboardd (68)	com.apple.CoreBrightness.CBALSEvent	default	Tristimulus values: XYZ[0]=56.2370, XYZ[1]=53.5454, XYZ[2]=21.3508 | CCT1=3,345.3352	
+00:51.238.302	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[2]: _luxFilter=3 als->_Ehistory_max=8	
+00:51.238.362	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[10]: Median filter computed on 8 samples	
+00:51.238.438	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	Median filter computed on 8 samples	
+00:51.238.444	Info	locationd (74)	com.apple.locationd.Position	Position	#CLPDM,Pressure not available at location	
+00:51.238.493	Info	locationd (74)	com.apple.locationd.Position	Position	BaroAlt,#Warning,Als Baro,pressure not available at location	
+00:51.238.528	Info	locationd (74)	com.apple.locationd.Position	Gnss	BaroAlt,#Warning,Outdoor calibration trigger disabled or AVL file not available	
+00:51.238.575	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[10]: ts=48,720.6797 Esensor=168.8530 Emedian=157.5998	
+00:51.238.612	Debug	audiomxd (105)	com.apple.coreaudio	AMCP	152,927 HALS_IOContext_Legacy_Impl.cpp:1,937 Completed HALS_IOContext_Legacy_Impl::IOWorkLoopInit - 0	
+00:51.238.755	Info	backboardd (68)	com.apple.CoreBrightness.AABRear.CBRearALSModule	default	Copy Grimaldi Lux = 50.19552	
+00:51.238.938	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	E 157.5998, Ecapped 157.5998, EmaxCap -1.0000 => finalE 157.5998	
+00:51.239.051	Debug	backboardd (68)	com.apple.CoreBrightness.AABRear	default	AABRear: shouldUseRearLuxFrontLux called with (fLux:157.5998, rLux:50.1955, cap: 1,868.0597)	
+00:51.239.142	Debug	backboardd (68)	com.apple.CoreBrightness.AABRear	default	AABRear: using rear? 0	
+00:51.239.256	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	E 157.5998, Ecapped 157.5998, EmaxCap -1.0000 => finalE 157.5998	
+00:51.239.370	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayContaineriOS	BuiltIn	Notification block key=RLuxStats, value=<private>
+	
+00:51.239.490	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	Handle notification for key = RLuxStats and property = <private>	
+00:51.239.517	Default	powerexperienced (125)	com.apple.powerexperienced	signalMonitor	Audio playback started current_state 1. Creating a resource hint	
+00:51.239.616	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayContaineriOS	BuiltIn	Notification block key=TrustedLux, value=157.5998
+	
+00:51.239.665	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	Handle notification for key = TrustedLux and property = 157.5998	
+00:51.239.712	Default	powerexperienced (125)	com.apple.PowerExperienceFramework	ResourceConnection	ResourceConnection:updateResourceHint <private> with state 1	
+00:51.239.869	Default	backboardd (68)	com.apple.coreanimation	Brightness	Display 1 commitBrightness sdr: -1.0000, headroom: -1.0000, ambient lux: 157.5998, filtered ambient: -1.0000, limit: -1.0000, low ambient strength: -1.0000, high ambient strength: -1.0000, brightness ctl disabled 18,446,744,073,709,551,615
+	
+00:51.239.892	Info	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	Set trusted lux = 157.5998	
+00:51.240.087	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayContaineriOS	BuiltIn	Notification block key=TrustedFrontLux, value=156.6334
+	
+00:51.240.135	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	Handle notification for key = TrustedFrontLux and property = 156.6334	
+00:51.240.202	Default	backboardd (68)	com.apple.CoreBrightness.AABC	default	trusted Lux: 157.5998, trusted front Lux: 157.5998, trusted capped Lux: 157.5998	
+00:51.240.264	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[10]: _Esensor_filtered=157.5998 _Esensor_trusted=157.5998 _Esensor_aggregated=157.5998	
+00:51.240.359	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayContaineriOS	BuiltIn	Notification block key=Lux, value=157.5998
+	
+00:51.240.405	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	Handle notification for key = Lux and property = 157.5998	
+00:51.240.516	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[10]: _Esensor_trusted=157.5998 _state=kAABStateAutoBrightness _proxState=kProxNone _touchIsObstucted=0 _settings._internal._dimPolicy=kDimPolicyFullDimming 3 _orientation=kIOHIDDisplayOrientationTypeAmbiguous	
+00:51.240.563	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	E 157.5998, Ecapped 157.5998, EmaxCap -1.0000 => finalE 157.5998	
+00:51.240.602	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[1/1] Esensor_device: 168.2178 als->_Esensor_filtered: 157.5998 _Esensor_trusted: 157.5998  L: 191.8450 L_reflected: 1.0033	
+00:51.240.631	Default	powerexperienced (125)	com.apple.powerexperienced	resourcemanager	updating resource state for <private>:AudioPlayback from 0 to 1	
+00:51.240.684	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[10]: dimRestriction=kDimRestrictionUnrestricted	
+00:51.240.740	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	Superbright EDR restrictions [would be]: CLTM 1,512.3809, UPO 2,175.0000, bottom [lower] restriction 1.0000, nits cap hdr: 2,175.0000, after BDM: 1,600.0000	
+00:51.240.832	Info	powerexperienced (125)	com.apple.powerexperienced	InUseChargingMode	evaluatePowerMode resources <private>	
+00:51.240.892	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	Ambient change - SetLibEDRBrightness - physicalBrightness:118.8318, maxLum: 1,600.0000, edrState: 0, lux: 157.5998, brightness boost: 1.1381
+	
+00:51.240.945	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	SetLibEDRBrightness to currentBrightness=118.8318, maxBrightness=1,600.0000, currentLux=157.5998, compensationBoost=1.1381	
+00:51.241.000	Debug	backboardd (68)	CoreBrightness	Default	CBEDRServerDisplayBrightness: display: 0 | target: 118.8318 | max: 1,600.0000 | ambient: 157.5998 | boost=1.1381	
+00:51.241.064	Default	powerexperienced (125)	com.apple.powerexperienced	RestrictedPerfMode	evaluatePowerMode: <private>: 0 display 1, carPlaySession 0, nFCSession 0, audioSession 1, sleepInProgress 0, wakeInProgress 0, onenessSession 0, siriAudio 0, pluggedIn 0 (allowOnCharger: 0)	
+00:51.241.095	Info	backboardd (68)	libEDR	Default	libEDR - EDRServerSetDisplayBrightnessForDisplay: (display: 0, targetBrightness: 118.8318, maxLuminance: 1,600.0000, ambientIlluminance: 157.5998, brightnessScaler: 1.1381)
+	
+00:51.241.169	Info	backboardd (68)	libEDR	Default	libEDR - NotificationCallback: (type: kEDRNotifyBrightness, display: 0, brightness: 0.0743, backlight: 0.0743, edrScaler: 1.0000, maxLuminance: 1,600.0000, ambientIlluminance: 157.5998, brightnessScaler: 1.1381)
+	
+00:51.241.230	Info	backboardd (68)	libEDR	Default	libEDR - PostNotification: (display: 0, brightness: 0.0743, backlight: 0.0743, edrScaling: 1.0000, maxLuminance: 1,600.0000, ambientIlluminance: 157.5998, brightnessScaler: 1.1381)
+	
+00:51.241.283	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[4]: 	
+00:51.241.319	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[200]: inputs: L=191.8450 (shouldRamp=true dimRestriction=kDimRestrictionUnrestricted _Esensor_trusted=157.5998) curveChanged=0	
+00:51.241.373	Debug	powerexperienced (125)	com.apple.defaults	User Defaults	looked up value <private> for key resources in CFPrefsPlistSource<0xdbc044d80> (Domain: com.apple.powerexperienced.resourcemanager, User: kCFPreferencesCurrentUser, ByHost: No, Container: (null), Contents Need Refresh: No) via CFPrefsSearchListSource<0xdbc044b80> (Domain: com.apple.powerexperienced.resourcemanager, Container: (null))	
+00:51.241.376	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[200]: _fastRampMode=0 dimRestriction=kDimRestrictionUnrestricted L_newtarget=191.8450 _L_current=76.2887 _L_minimum=191.6472	
+00:51.241.416	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	PLT	shallUpdateBacklight: Pstart=0.7645 Pcurrent=0.7645 Pnewtarget=0.7546 Pdelta=-0.0099 Pthreshold_dim=0.0500 (0.1000 * 0.5000) Pthreshold_brighten=0.1000 (0.1000 * 1.0000) plt_x=0.2500 plt_y=0.3700 plt_z=0.1000	
+00:51.241.447	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[200]: _L_target=205.5501 Pnewtarget=0.7546 Ptarget=0.7645 Pdelta=-0.0099  	
+00:51.241.492	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[200]: systemShallUpdateBacklight=false L_target=191.8450 timeConstant=0.0000	
+00:51.241.540	Debug	powerexperienced (125)	com.apple.powerexperienced	resourcemanager	savedResourcesMutable <private>	
+00:51.241.629	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	Handle notification for key = TrustedLux and property = 157.5998	
+00:51.241.732	Default	backboardd (68)	com.apple.coreanimation	Brightness	Display 1 commitBrightness sdr: -1.0000, headroom: -1.0000, ambient lux: 157.5998, filtered ambient: -1.0000, limit: -1.0000, low ambient strength: -1.0000, high ambient strength: -1.0000, brightness ctl disabled 18,446,744,073,709,551,615
+	
+00:51.241.875	Info	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	Set trusted lux = 157.5998	
+00:51.241.936	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayContaineriOS	BuiltIn	Notification block key=TrustedLux, value=157.5998
+	
+00:51.242.019	Debug	backboardd (68)	com.apple.CoreBrightness.CBALSEvent	default	Tristimulus values: XYZ[0]=56.2370, XYZ[1]=53.5454, XYZ[2]=21.3508 | CCT1=3,345.3352	
+00:51.242.058	Debug	backboardd (68)	com.apple.CoreBrightness.CBALSNode	default	<private>	
+00:51.242.098	Debug	backboardd (68)	com.apple.CoreBrightness.CBBrightestALSFilter	default	ALS events <private>	
+00:51.242.135	Info	backboardd (68)	com.apple.CoreBrightness.CBColorPolicyFilter	default	HarmonyPolicy: Sample IS  from mitigated region	
+00:51.242.165	Info	backboardd (68)	com.apple.CoreBrightness.CBColorPolicyFilter	default	HarmonyPolicy: BaselineHarmony: mitigatedStr, for (lux, nits): 168.0000, 1,083.0000 = 0.1300 (rounded)	
+00:51.242.225	Info	backboardd (68)	com.apple.CoreBrightness.CBColorPolicyFilter	default	HarmonyPolicy: Sample IS NOT from CE region	
+00:51.242.264	Info	backboardd (68)	com.apple.CoreBrightness.CBColorPolicyFilter	default	HarmonyPolicy: Incoming ALS sample, pushed to queue: <private>	
+00:51.242.323	Info	backboardd (68)	com.apple.CoreBrightness.CBColorPolicyFilter	default	HarmonyPolicy: _filteredALS: <private>, _filtered strength: 0.2700	
+00:51.242.350	Debug	backboardd (68)	com.apple.CoreBrightness.CBColorModule.Primary	default	ALS event with orientation = 1	
+00:51.242.382	Info	backboardd (68)	com.apple.CoreBrightness.CBColorModule.Primary	default	HarmonyPolicy: Using Baseline	
+00:51.242.427	Debug	backboardd (68)	com.apple.CoreBrightness.CBColorModule.Primary	default	input ambient color sample: xy = (0.4289;0.4083)	
+00:51.242.493	Debug	backboardd (68)	CoreBrightness	Default	LOWLUX 53.5454
+	
+00:51.242.521	Debug	powerexperienced (125)	com.apple.defaults	User Defaults	setting <private> in CFPrefsPlistSource<0xdbc044d80> (Domain: com.apple.powerexperienced.resourcemanager, User: kCFPreferencesCurrentUser, ByHost: No, Container: (null), Contents Need Refresh: No)	
+00:51.242.537	Debug	backboardd (68)	CoreBrightness	Default	[ColorEffects.c:_CFXRestrictLowAmbientColor] xy=(0.4289,0.4083), CCT = 3,181.0000, CCT1 = 3,345.3352	
+00:51.242.579	Debug	backboardd (68)	CoreBrightness	Default	Restrict: (16.9153, 16.9153) -> (13.8897, 46.7374)
+	
+00:51.242.619	Debug	backboardd (68)	CoreBrightness	Default	59.3785 16.9153 56.9182 -> ANGLE 1.6746 -> BIN 2	
+00:51.242.656	Debug	backboardd (68)	CoreBrightness	Default	BIN 13: (0.4289, 0.4083) fitting in (0.4150, 0.3821)-(0.4373, 0.3893)-(0.4303, 0.4173)
+	
+00:51.242.709	Info	backboardd (68)	com.apple.CoreBrightness.CBColorModule.Primary	default	Set ambient color sample ALS event = [Orientation = 1; Illuminance = 168.000000; xy = (0.428854,0.408328); XYZ = (56.237026,53.545399,21.350758); CCT1 = 3345.335205; Integration time = 0.002906; Gain = 33554432; Obstructed = 0; First = 0, mitigation = 1, timestamp = 87766273]	
+00:51.242.818	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=RLuxStats value=<private>	
+00:51.242.853	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=RLuxStats property=<private>	
+00:51.242.936	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	passed for client 58881740544	
+00:51.243.089	Debug	cfprefsd (107)	com.apple.defaults	cfprefsd	Process 125 (powerexperienced) sent a request related to { com.apple.powerexperienced.resourcemanager, user: root, kCFPreferencesAnyHost, /var/root/Library/Preferences/com.apple.powerexperienced.resourcemanager.plist, managed: 0 } (0xd3c1cf0c0)	
+00:51.243.127	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=<private> value=<private>	
+00:51.243.158	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=<private> property=<private>	
+00:51.243.194	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=TrustedLux value=157.5998	
+00:51.243.201	Debug	cfprefsd (107)	com.apple.defaults	cfprefsd	Process 125 (powerexperienced) wrote the key(s) resources in { com.apple.powerexperienced.resourcemanager, root, kCFPreferencesAnyHost, /var/root/Library/Preferences/com.apple.powerexperienced.resourcemanager.plist, managed: 0 }	
+00:51.243.286	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=TrustedLux property=157.5998	
+00:51.243.288	Debug	PerfPowerServices (1452)	com.apple.CoreBrightness	default	key=<private> property=<private> queue=0x97ede5100 clientBlock=0x97e365e90	
+00:51.243.405	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	passed for client 58870513280	
+00:51.243.462	Info	PerfPowerServices (1452)	com.apple.CoreBrightness.BSCI	default	use_synchronous_remote=1	
+00:51.243.545	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=<private> value=157.5998	
+00:51.243.559	Default	PerfPowerServices (1452)	com.apple.xpc	connection	[0x97ef066c0] activating connection: mach=1 listener=0 peer=0 name=com.apple.backlightd	
+00:51.243.633	Debug	locationd (74)	com.apple.CoreBrightness	default	key=<private> property=157.5998 queue=0x838c59d80 clientBlock=0x838ae4840	
+00:51.243.634	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=<private> property=157.5998	
+00:51.243.768	Debug	locationd (74)	com.apple.locationd.Position	Outdoor	AmbientLight,context,<private>,startTime,<private>,lux,<private>	
+00:51.243.779	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=TrustedFrontLux value=156.6334	
+00:51.243.782	Default	PerfPowerServices (1452)	com.apple.CoreBrightness	default	Register notification block	
+00:51.243.933	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=TrustedFrontLux property=156.6334	
+00:51.244.029	Default	backboardd (68)	com.apple.xpc	connection	[0xdb508aa80] activating connection: mach=0 listener=0 peer=1 name=com.apple.backlightd.peer[1452].0xdb508aa80	
+00:51.244.082	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=<private> value=156.6334	
+00:51.244.136	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=<private> property=156.6334	
+00:51.244.189	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=Lux value=157.5998	
+00:51.244.223	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=Lux property=157.5998	
+00:51.244.291	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=<private> value=157.5998	
+00:51.244.373	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=<private> property=157.5998	
+00:51.244.440	Info	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	client=58903571392 key=<private>	
+00:51.244.446	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=TrustedLux value=157.5998	
+00:51.244.525	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=TrustedLux property=157.5998	
+00:51.244.563	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	passed for client 58870513280	
+00:51.244.636	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=<private> value=157.5998	
+00:51.244.669	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=<private> property=157.5998	
+00:51.244.684	Debug	locationd (74)	com.apple.CoreBrightness	default	key=<private> property=157.5998 queue=0x838c59d80 clientBlock=0x838ae4840	
+00:51.244.729	Debug	backboardd (68)	com.apple.CoreBrightness.CBColorModule.Primary	default	key=<private> result=<private>	
+00:51.244.767	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayContaineriOS	BuiltIn	key=<private> result=<private>	
+00:51.244.781	Debug	locationd (74)	com.apple.locationd.Position	Outdoor	AmbientLight,context,<private>,startTime,<private>,lux,<private>	
+00:51.244.836	Info	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=<private> result=<private>	
+00:51.245.119	Debug	PerfPowerServices (1452)	com.apple.CoreBrightness.Client	Default	BSC dealloc	
+00:51.245.160	Default	PerfPowerServices (1452)	com.apple.CoreBrightness	default	Register notification block	
+00:51.245.201	Default	PerfPowerServices (1452)	com.apple.xpc	connection	[0x97ef066c0] invalidated because the current process cancelled the connection by calling xpc_connection_cancel()	
+00:51.245.238	Default	backboardd (68)	com.apple.xpc	connection	[0xdb508aa80] invalidated because the client process (pid 1,452) either cancelled the connection or exited	
+00:51.245.254	Debug	PerfPowerServices (1452)	com.apple.powerlog	display	Received notification for CBrLuxStats: <private>	
+00:51.245.314	Debug	PerfPowerServices (1452)	com.apple.CoreBrightness.BSCI	default	BSCI dealloc	
+00:51.245.340	Default	PerfPowerServices (1452)	com.apple.CoreBrightness	default	Register notification block	
+00:51.256.484	Info	Photos (1680)	com.apple.synapse	BacklinkMonitor	ActivityObserver: Starting request for activity: <private>, linkable: Y.	
+00:51.256.644	Default	Photos (1680)	com.apple.synapse	BacklinkMonitor	BacklinkClient: Sending request to service for activity info: 0x301708330.	
+00:51.256.977	Info	contentlinkingd (1596)	com.apple.synapse	BacklinkMonitor	BacklinkServiceHandle: Received request to process activity change. Activity info: 0xd4c035080.	
+00:51.257.060	Info	contentlinkingd (1596)	com.apple.synapse	BacklinkMonitor	BacklinkService: Received request to process activity change. Activity info: 0xd4c035080.	
+00:51.257.118	Default	contentlinkingd (1596)	com.apple.synapse	BacklinkMonitor	BacklinkService: will begin operation 0xd4c0e4730 for activity info 0xd4c035080.	
+00:51.257.151	Default	contentlinkingd (1596)	com.apple.synapse	BacklinkMonitor	BacklinkOperation 0xd4c0e4730: Begin processing.	
+00:51.257.184	Debug	contentlinkingd (1596)	com.apple.synapse	ItemIndexing	Search indexed linked items for activity: 0xd4c035080, has extra fetch attributes: 0	
+00:51.257.301	Debug	contentlinkingd (1596)	com.apple.corespotlight	query	initWithQueryString:<private>	
+00:51.257.584	Default	Photos (1680)	com.apple.synapse	BacklinkMonitor	BacklinkClient: Service request did finish for activity info 0x301708330. Call completion: Y.	
+00:51.257.630	Info	Photos (1680)	com.apple.synapse	BacklinkMonitor	ActivityObserver: Finished request for activity: <private>. Success: Y	
+00:51.257.656	Default	contentlinkingd (1596)	com.apple.corespotlight	query	qid=21 - Starting <private>	
+00:51.257.712	Info	contentlinkingd (1596)	com.apple.corespotlight	query	qid=21 - <private>	
+00:51.257.752	Debug	contentlinkingd (1596)	com.apple.corespotlight	query	[QoS] 25 qid=21 - Starting <private>	
+00:51.257.892	Debug	searchd (216)	com.apple.corespotlight	default	Message on connection(0x10e5fa940) for service com.apple.spotlight.SearchAgent pid: 1,596	
+00:51.257.970	Debug	searchd (216)	com.apple.corespotlight	default	enter connection: 0x10e5fa940 message: 0x1050bbd00	
+00:51.258.003	Debug	searchd (216)	com.apple.corespotlight	default	message: <private> pid: 1,596	
+00:51.258.040	Info	searchd (216)	com.apple.corespotlight	default	search <private> pid: 1,596	
+00:51.258.097	Info	searchd (216)	com.apple.corespotlight	query	os_signpost_interval_begin qid=21	
+00:51.258.297	Default	mobileassetd (336)	com.apple.mobileassetd	Notice	-[DownloadInfo addNewRateDataPoint:]: DownloadInfo taskDescriptor: com_apple_MobileAsset_MediaSupport.xml . task: BackgroundDownloadTask <19696666-C1F4-4405-80F0-82E438EC6A5E>.<30> taskState: running statusCode: -1 downloadSize: 0 progress: 0 / 0 isStalled: NO numStalls: 0 numNoLongerStalls: 0 backtracks: 0 callbackCount: 4 hasExtractor: NO originalUrl: https://mesu.apple.com/assets/com_apple_MobileAsset_MediaSupport/com_apple_MobileAsset_MediaSupport.xml cacheServerUrl: (null) assetType: (null) purpose: (null) shouldRetry: YES ifModifiedDate: 2017-07-06 22:26:30 +0000 options: MADownloadOptions allowsCellular: 0 resourceTimeout: 900 canUseCacheServer: 0 discretionary: 0 disableUI: 0 sessionId: (null) additionalServerParams:(null) allowsExpensiveAccess:1 requiresPowerPluggedIn: 0 prefersInfraWiFi: 1 liveServerOnly: -1 DownloadAuthorizationHeader: not present analyticsData: not present allowDaemonConnectionRetries: 0  + MAMsuDownloadOptions reqProdVersion: (null) delayPeriod: 0 managedDevice: 0 allowSameVersion: 0 prereqBuild: (null) prereqVersion: (null) prereqReleaseType: (default) liveAssetAudienceUUID: (null) purpose: (null)
+[DOWNLOAD_INFO] {addNewRateDataPoint} Download has not progressed since last update, however, download appears to be complete. Previous Total Downloaded: 0, Total Expected: 0	
+00:51.258.364	Debug	searchd (216)	com.apple.corespotlight	default	QOS taskForQueryWithQueryString: 25	
+00:51.258.415	Debug	searchd (216)	com.apple.corespotlight	default	taskForQueryWithQueryString: <private>	
+00:51.258.461	Debug	searchd (216)	com.apple.corespotlight	default	QOS _taskForQueryWithQueryString: 25	
+00:51.258.494	Debug	searchd (216)	SpotlightDaemon	Default	PCS <private> for query <private>. Internally generated. Client com.apple.synapse.contentlinkingd	
+00:51.258.568	Debug	searchd (216)	com.apple.corespotlight	query	Schedule wakeup, identifier:<private>, forced:YES, canceled:NO	
+00:51.258.602	Debug	searchd (216)	com.apple.corespotlight	query	Created query results queue, identifier:<private>	
+00:51.258.694	Debug	searchd (216)	com.apple.corespotlight	default	QOS startQueryTask 1: 25 	
+00:51.258.745	Debug	searchd (216)	com.apple.corespotlight	default	exit connection: 0x10e5fa940	
+00:51.258.759	Debug	searchd (216)	com.apple.corespotlight	default	QOS startQueryTask 2: 25	
+00:51.258.837	Debug	searchd (216)	com.apple.corespotlight	default	Start query <private>	
+00:51.258.875	Info	searchd (216)	com.apple.corespotlight	default	QoS _mSIQWQS: 25 prio: 3	
+00:51.258.976	Debug	searchd (216)	com.apple.defaults	User Defaults	looked up value <private> for key AppleLanguages in CFPrefsPlistSource<0x1046969e0> (Domain: kCFPreferencesAnyApplication, User: kCFPreferencesCurrentUser, ByHost: No, Container: (null), Contents Need Refresh: No) via CFPrefsSearchListSource<0x105262e00> (Domain: com.apple.Search.framework, Container: (null))	
+00:51.259.082	Info	searchd (216)	com.apple.corespotlight	default	_pBWQC: uP: NO, iPB: NO	
+00:51.259.143	Debug	searchd (216)	com.apple.corespotlight	default	Skipping unknown disabled bundle com.apple.usernotificationsd	
+00:51.259.206	Debug	searchd (216)	com.apple.corespotlight	default	[ProtectedApps] Files app is enabled	
+00:51.259.237	Debug	searchd (216)	com.apple.corespotlight	default	[ProtectedApps] adding filter 	
+00:51.259.457	Debug	searchd (216)	com.apple.corespotlight	default	schedule query <private>	
+00:51.259.484	Debug	audiomxd (105)	com.apple.coreaudio	aqme	AQMEIO.cpp:224 Audio device started by mix engine	
+00:51.259.498	Debug	searchd (216)	com.apple.corespotlight	query	Scheduling jobs(0/0) for task:0x1051bd260, canceled:NO	
+00:51.259.549	Debug	audiomxd (105)	AudioToolbox	Default	MEDeviceStreamClient.cpp:388 runningClientCount: 1	
+00:51.259.578	Debug	audiomxd (105)	com.apple.coreaudio	aqme	AQMEIO_HAL.cpp:1,571 audioDeviceID = 151	
+00:51.259.613	Info	searchd (216)	com.apple.corespotlight	index	[LOCK] MKBGetDeviceLockState returned ret:0 Unlocked	
+00:51.259.633	Default	audiomxd (105)	com.apple.coreaudio	aqme	AQMEIO_HAL.cpp:1,646 Could not get active ports for audioDeviceID 0x97	
+00:51.259.662	Debug	audiomxd (105)	com.apple.coreaudio	aqme	AQMEIO_HAL.cpp:1,648 isValidHeadphones: 0, isAppleHeadphones: 0, isWiredHeadphones: 0	
+00:51.259.681	Info	searchd (216)	com.apple.corespotlight	index	[LOCK] MKBGetDeviceLockState returned ret:0 Unlocked	
+00:51.259.694	Debug	audiomxd (105)	com.apple.coreaudio	aurios	RemoteIOServer.cpp:2,055 <-AUIOServer_StartIO 0x696f5 err 0	
+00:51.259.721	Debug	searchd (216)	com.apple.spotlightindex	Query	Starting query <private>	
+00:51.259.750	Debug	appleh16camerad (129)	com.apple.isp	general	FlickerDetector: Requested resource access
+
+	
+00:51.259.819	Debug	appleh16camerad (129)	com.apple.isp	general	H16ISPFlickerDetectorStartDataCollection - Success
+	
+00:51.259.820	Debug	searchd (216)	com.apple.corespotlight	query	Started job:0x10e724840, task:514, dataclass:NSFileProtectionCompleteUntilFirstUserAuthentication, bundleID:com.apple.synapse.contentlinkingd	
+00:51.259.859	Debug	appleh16camerad (129)	com.apple.coreaudio	aurioc	AURemoteIO.cpp:787 AURemoteIO(0x9c22d4040)::SetProperty scope 1, elem 1, prop 2,022, 4 bytes: 0000803f	
+00:51.259.893	Debug	searchd (216)	com.apple.spotlightindex	Query	don't defer query for <private>	
+00:51.259.893	Info	searchd (216)	com.apple.corespotlight	index	[LOCK] MKBGetDeviceLockState returned ret:0 Unlocked	
+00:51.259.945	Debug	searchd (216)	com.apple.spotlightindex	Query	siquery_addactivetime 0.0001 seconds to 0.0001 seconds 0x19
+	
+00:51.259.961	Info	searchd (216)	com.apple.corespotlight	index	[LOCK] MKBGetDeviceLockState returned ret:0 Unlocked	
+00:51.260.001	Debug	searchd (216)	com.apple.spotlightindex	Query	Starting query <private>	
+00:51.260.067	Debug	searchd (216)	com.apple.corespotlight	query	Started job:0x10e724450, task:514, dataclass:NSFileProtectionCompleteWhenUserInactive, bundleID:com.apple.synapse.contentlinkingd	
+00:51.260.100	Default	audiomxd (105)	com.apple.coreaudio	va_vadevc	VirtualAudio_Device.cpp:2,848 [volm/inpt/0] on VAD '[ type: vhaw; id: 151; addr: 0x4acc41900; context id: 0; hidden: 0; VA strms: { i/156/0x4ac0538e0,  }; agg dev: [ id: 130; addr: 0x104e0c350; uid: "VAD [vhaw] AggDev 3"; virt strms: { i/0x4ac90c300,  }; phys devs: { [ id: 86; addr: 0x4ac4d8600; uid: "Flicker"; streams: { i/87/0x4ac9c0248,  } ] } ] ]': 1.0000.	
+00:51.260.125	Debug	searchd (216)	com.apple.spotlightindex	Query	don't defer query for <private>	
+00:51.260.136	Debug	searchd (216)	com.apple.spotlightindex	Query	Suspending root query scheduler(0)	
+00:51.260.145	Default	audiomxd (105)	com.apple.coreaudio	va_contrl	InputVolumeControl_HAL_Common.cpp:161   Setting Input Volume: 0.0000 dB, Final HW Volume: 0.0000 dB, Final SW Volume: 0.0000 dB	
+00:51.260.170	Default	audiomxd (105)	com.apple.coreaudio	va_contrl	InputVolumeControl_HAL_Common.cpp:162   VAD '[ id: 86; addr: 0x4ac4d8600; uid: "Flicker"; streams: { i/87/0x4ac9c0248,  } ]'	
+00:51.260.212	Default	audiomxd (105)	com.apple.coreaudio	va_contrl	InputVolumeControl_HAL_Common.cpp:164   PhysicalDevice UID = "Flicker"	
+00:51.260.236	Default	audiomxd (105)	com.apple.coreaudio	va_contrl	InputVolumeControl_HAL_Common.cpp:165   Scope = 1,768,845,428 ("inpt")	
+00:51.260.262	Default	audiomxd (105)	com.apple.coreaudio	va_contrl	InputVolumeControl_HAL_Common.cpp:166   Element = 0 ("0")	
+00:51.260.265	Info	searchd (216)	com.apple.corespotlight	index	[LOCK] MKBGetDeviceLockState returned ret:0 Unlocked	
+00:51.260.320	Debug	audiomxd (105)	com.apple.coreaudio	va_contrl	InputVolumeControl_HAL_Common.cpp:167   SW Volume: disabled	
+00:51.260.330	Debug	searchd (216)	com.apple.spotlightindex	Query	Suspending root query scheduler(1)	
+00:51.260.418	Error	appleh16camerad (129)	com.apple.isp	photon	GetLuxInfo_block_invoke - GetLuxInfo_block_invoke: Waiting for lux
+	
+00:51.260.438	Info	searchd (216)	com.apple.corespotlight	index	[LOCK] MKBGetDeviceLockState returned ret:0 Unlocked	
+00:51.260.441	Debug	searchd (216)	com.apple.spotlightindex	Query	Suspending root query scheduler(2)	
+00:51.260.489	Debug	searchd (216)	com.apple.spotlightindex	Query	siquery_addactivetime 0.0004 seconds to 0.0004 seconds 0x19
+	
+00:51.260.550	Debug	searchd (216)	com.apple.spotlightindex	Query	0x10530cf00 Start gatherIndexInfo	
+00:51.260.551	Debug	searchd (216)	com.apple.spotlightindex	Query	Starting query <private>	
+00:51.260.615	Debug	searchd (216)	com.apple.spotlightindex	Query	Suspending root query scheduler(0)	
+00:51.260.695	Debug	searchd (216)	com.apple.spotlightindex	Query	0x10530cf00 gII live: 0	
+00:51.260.699	Debug	searchd (216)	com.apple.corespotlight	query	Started job:0x10e725320, task:514, dataclass:NSFileProtectionCompleteUnlessOpen, bundleID:com.apple.synapse.contentlinkingd	
+00:51.260.754	Debug	searchd (216)	com.apple.spotlightindex	Query	don't defer query for <private>	
+00:51.260.775	Debug	searchd (216)	com.apple.spotlightindex	Query	Suspending root query scheduler(1)	
+00:51.260.825	Debug	searchd (216)	com.apple.spotlightindex	Query	0x10530cf00 gatherIndexInfo at 0x1053d0000	
+00:51.260.920	Info	searchd (216)	com.apple.corespotlight	index	[LOCK] MKBGetDeviceLockState returned ret:0 Unlocked	
+00:51.261.014	Debug	searchd (216)	com.apple.spotlightindex	Query	process for 0x1053d0000	
+00:51.261.030	Debug	searchd (216)	com.apple.spotlightindex	Query	Suspending root query scheduler(2)	
+00:51.261.143	Info	searchd (216)	com.apple.corespotlight	index	[LOCK] MKBGetDeviceLockState returned ret:0 Unlocked	
+00:51.261.177	Debug	searchd (216)	com.apple.spotlightindex	Query	siquery_addactivetime 0.0005 seconds to 0.0005 seconds 0x19
+	
+00:51.261.239	Debug	searchd (216)	com.apple.spotlightindex	Query	0x10530ca00 Start gatherIndexInfo	
+00:51.261.255	Debug	searchd (216)	com.apple.spotlightindex	Query	Starting query <private>	
+00:51.261.275	Debug	searchd (216)	com.apple.spotlightindex	Query	Suspending root query scheduler(0)	
+00:51.261.318	Debug	searchd (216)	com.apple.spotlightindex	Query	0x10530ca00 gII live: 0	
+00:51.261.444	Debug	searchd (216)	com.apple.spotlightindex	Query	0x10530ca00 gatherIndexInfo at 0x1053bc000	
+00:51.261.451	Debug	searchd (216)	com.apple.spotlightindex	Query	resolve term ids: 0.0000 seconds	
+00:51.261.501	Debug	searchd (216)	com.apple.spotlightindex	Query	Suspending root query scheduler(1)	
+00:51.261.578	Debug	searchd (216)	com.apple.corespotlight	query	Started job:0x10e724420, task:514, dataclass:NSFileProtectionComplete, bundleID:com.apple.synapse.contentlinkingd	
+00:51.261.602	Debug	searchd (216)	com.apple.spotlightindex	Query	evaluateFuzzyQuery for 0x1053d0000	
+00:51.261.625	Debug	searchd (216)	com.apple.spotlightindex	Query	don't defer query for <private>	
+00:51.261.637	Debug	searchd (216)	com.apple.spotlightindex	Query	Suspending root query scheduler(2)	
+00:51.261.713	Info	searchd (216)	com.apple.corespotlight	index	[LOCK] MKBGetDeviceLockState returned ret:0 Unlocked	
+00:51.261.761	Debug	searchd (216)	com.apple.spotlightindex	Query	process for 0x1053bc000	
+00:51.261.767	Debug	searchd (216)	com.apple.spotlightindex	Query	0x10530d900 Start gatherIndexInfo	
+00:51.261.782	Debug	searchd (216)	com.apple.spotlightindex	Query	siquery_addactivetime 0.0002 seconds to 0.0002 seconds 0x19
+	
+00:51.261.847	Info	searchd (216)	com.apple.corespotlight	index	[LOCK] MKBGetDeviceLockState returned ret:0 Unlocked	
+00:51.261.857	Debug	searchd (216)	com.apple.spotlightindex	Query	Computed doc set in 0.0009 seconds!	
+00:51.261.891	Debug	searchd (216)	com.apple.spotlightindex	Query	Suspending root query scheduler(0)	
+00:51.261.926	Debug	searchd (216)	com.apple.spotlightindex	Query	0x10530d900 gII live: 0	
+00:51.262.000	Debug	searchd (216)	com.apple.spotlightindex	Query	Suspending root query scheduler(1)	
+00:51.262.012	Debug	searchd (216)	com.apple.spotlightindex	Query	resolve term ids: 0.0000 seconds	
+00:51.262.030	Debug	searchd (216)	com.apple.spotlightindex	Query	0x10530d900 gatherIndexInfo at 0x1053c4000	
+00:51.262.084	Debug	searchd (216)	com.apple.spotlightindex	Query	0x10530cf00 gII scan: 0	
+00:51.262.118	Debug	searchd (216)	com.apple.spotlightindex	Query	Suspending root query scheduler(2)	
+00:51.262.186	Debug	searchd (216)	com.apple.spotlightindex	Query	process for 0x1053c4000	
+00:51.262.188	Debug	searchd (216)	com.apple.spotlightindex	Query	evaluateFuzzyQuery for 0x1053bc000	
+00:51.262.242	Debug	searchd (216)	com.apple.spotlightindex	Query	0x10530d400 Start gatherIndexInfo	
+00:51.262.249	Debug	searchd (216)	com.apple.spotlightindex	Query	0x10530cf00 gatherIndexInfo at 0x1053b0000	
+00:51.262.287	Debug	searchd (216)	com.apple.spotlightindex	Query	Starting query <private>	
+00:51.262.323	Debug	searchd (216)	com.apple.spotlightindex	Query	0x10530d400 gII live: 0	
+00:51.262.357	Debug	searchd (216)	com.apple.spotlightindex	Query	process for 0x1053b0000	
+00:51.262.426	Debug	searchd (216)	com.apple.spotlightindex	Query	0x10530d400 gatherIndexInfo at 0x1053c8000	
+00:51.262.429	Debug	searchd (216)	com.apple.corespotlight	query	Started job:0x10e7243f0, task:514, dataclass:Priority, bundleID:com.apple.synapse.contentlinkingd	
+00:51.262.480	Debug	searchd (216)	com.apple.spotlightindex	Query	don't defer query for <private>	
+00:51.262.494	Debug	searchd (216)	com.apple.spotlightindex	Query	Computed doc set in 0.0007 seconds!	
+00:51.262.499	Debug	searchd (216)	com.apple.spotlightindex	Query	resolve term ids: 0.0000 seconds	
+00:51.262.561	Debug	searchd (216)	com.apple.spotlightindex	Query	resolve term ids: 0.0000 seconds	
+00:51.262.582	Debug	searchd (216)	com.apple.spotlightindex	Query	siquery_addactivetime 0.0001 seconds to 0.0001 seconds 0x19
+	
+00:51.262.640	Debug	searchd (216)	com.apple.spotlightindex	Query	evaluateFuzzyQuery for 0x1053b0000	
+00:51.262.700	Debug	searchd (216)	com.apple.spotlightindex	Query	Suspending root query scheduler(0)	
+00:51.262.702	Debug	searchd (216)	com.apple.spotlightindex	Query	process for 0x1053c8000	
+00:51.262.736	Debug	searchd (216)	com.apple.spotlightindex	Query	evaluateFuzzyQuery for 0x1053c4000	
+00:51.262.774	Debug	searchd (216)	com.apple.spotlightindex	Query	Computed doc set in 0.0004 seconds!	
+00:51.262.812	Debug	searchd (216)	com.apple.spotlightindex	Query	0x10530ca00 gII scan: 0	
+00:51.262.848	Debug	searchd (216)	com.apple.spotlightindex	Query	Computed doc set in 0.0007 seconds!	
+00:51.262.885	Debug	searchd (216)	com.apple.spotlightindex	Query	siquery_addactivetime 0.0023 seconds to 0.0025 seconds 0x19
+	
+00:51.262.914	Debug	searchd (216)	com.apple.spotlightindex	Query	0x10530ca00 gatherIndexInfo at 0x105008000	
+00:51.262.956	Debug	searchd (216)	com.apple.spotlightindex	Query	0x10530d900 gII scan: 0	
+00:51.263.016	Debug	searchd (216)	com.apple.spotlightindex	Query	process for 0x105008000	
+00:51.263.047	Debug	searchd (216)	com.apple.spotlightindex	Query	0x10530d900 gatherIndexInfo at 0x10500c000	
+00:51.263.077	Debug	searchd (216)	com.apple.spotlightindex	Query	Suspending root query scheduler(1)	
+00:51.263.096	Debug	searchd (216)	com.apple.spotlightindex	Query	Passing up out of results	
+00:51.263.145	Debug	searchd (216)	com.apple.spotlightindex	Query	process for 0x10500c000	
+00:51.263.146	Debug	searchd (216)	com.apple.spotlightindex	Query	resolve term ids: 0.0000 seconds	
+00:51.263.182	Debug	searchd (216)	com.apple.CoreAnalytics.event	send	<private> <private>	
+00:51.263.209	Debug	searchd (216)	com.apple.spotlightindex	Query	resolve term ids: 0.0000 seconds	
+00:51.263.214	Debug	searchd (216)	com.apple.corespotlight	default	QOS _processResults 1: 25	
+00:51.263.243	Debug	searchd (216)	com.apple.spotlightindex	Query	Suspending root query scheduler(2)	
+00:51.263.276	Debug	searchd (216)	com.apple.spotlightindex	Query	evaluateFuzzyQuery for 0x105008000	
+00:51.263.319	Debug	searchd (216)	com.apple.spotlightindex	Query	evaluateFuzzyQuery for 0x1053c8000	
+00:51.263.366	Debug	searchd (216)	com.apple.corespotlight	default	QOS _processResults 2: 25	
+00:51.263.391	Debug	searchd (216)	com.apple.spotlightindex	Query	Computed doc set in 0.0004 seconds!	
+00:51.263.438	Debug	searchd (216)	com.apple.spotlightindex	Query	resolve term ids: 0.0000 seconds	
+00:51.263.476	Debug	searchd (216)	com.apple.spotlightindex	Query	0x10530de00 Start gatherIndexInfo	
+00:51.263.482	Debug	searchd (216)	com.apple.spotlightindex	Query	siquery_addactivetime 0.0023 seconds to 0.0027 seconds 0x19
+	
+00:51.263.515	Debug	searchd (216)	com.apple.spotlightindex	Query	evaluateFuzzyQuery for 0x10500c000	
+00:51.263.544	Debug	searchd (216)	com.apple.spotlightindex	Query	0x10530de00 gII live: 0	
+00:51.263.620	Debug	searchd (216)	com.apple.corespotlight	query	Processing results, kind:5, identifier:<private>	
+00:51.263.653	Debug	searchd (216)	com.apple.spotlightindex	Query	Passing up out of results	
+00:51.263.659	Debug	searchd (216)	com.apple.spotlightindex	Query	0x10530de00 gatherIndexInfo at 0x1053cc000	
+00:51.263.686	Debug	searchd (216)	com.apple.spotlightindex	Query	Computed doc set in 0.0010 seconds!	
+00:51.263.733	Debug	searchd (216)	com.apple.corespotlight	query	Finished job:0x10e724840, task:0x1051bd260, dataclass:NSFileProtectionCompleteUntilFirstUserAuthentication, bundleID:com.apple.synapse.contentlinkingd	
+00:51.263.761	Debug	searchd (216)	com.apple.spotlightindex	Query	Computed doc set in 0.0006 seconds!	
+00:51.263.785	Debug	searchd (216)	com.apple.spotlightindex	Query	0x10530d400 gII scan: 0	
+00:51.263.850	Debug	searchd (216)	com.apple.spotlightindex	Query	process for 0x1053cc000	
+00:51.263.855	Debug	searchd (216)	com.apple.spotlightindex	Query	siquery_addactivetime 0.0021 seconds to 0.0026 seconds 0x19
+	
+00:51.263.873	Debug	searchd (216)	com.apple.spotlightindex	Query	0x10530d400 gatherIndexInfo at 0x1053b8000	
+00:51.263.907	Debug	searchd (216)	com.apple.corespotlight	default	schedule query <private>	
+00:51.263.963	Debug	searchd (216)	com.apple.spotlightindex	Query	resolve term ids: 0.0000 seconds	
+00:51.263.965	Debug	searchd (216)	com.apple.spotlightindex	Query	process for 0x1053b8000	
+00:51.264.021	Debug	searchd (216)	com.apple.corespotlight	query	Scheduling jobs(1/5) for task:0x1051bd260, canceled:NO	
+00:51.264.051	Debug	searchd (216)	com.apple.spotlightindex	Query	Passing up out of results	
+00:51.264.096	Debug	searchd (216)	com.apple.spotlightindex	Query	resolve term ids: 0.0000 seconds	
+00:51.264.111	Debug	searchd (216)	com.apple.spotlightindex	Query	evaluateFuzzyQuery for 0x1053cc000	
+00:51.264.166	Debug	searchd (216)	com.apple.spotlightindex	Query	evaluateFuzzyQuery for 0x1053b8000	
+00:51.264.193	Debug	searchd (216)	com.apple.spotlightindex	Query	Computed doc set in 0.0003 seconds!	
+00:51.264.234	Debug	searchd (216)	com.apple.corespotlight	query	Processing results, kind:5, identifier:<private>	
+00:51.264.250	Debug	searchd (216)	com.apple.spotlightindex	Query	Computed doc set in 0.0003 seconds!	
+00:51.264.270	Debug	searchd (216)	com.apple.spotlightindex	Query	0x10530de00 gII scan: 0	
+00:51.264.297	Debug	searchd (216)	com.apple.corespotlight	query	Finished job:0x10e724450, task:0x1051bd260, dataclass:NSFileProtectionCompleteWhenUserInactive, bundleID:com.apple.synapse.contentlinkingd	
+00:51.264.326	Debug	searchd (216)	com.apple.spotlightindex	Query	siquery_addactivetime 0.0021 seconds to 0.0023 seconds 0x19
+	
+00:51.264.353	Debug	searchd (216)	com.apple.spotlightindex	Query	0x10530de00 gatherIndexInfo at 0x1053b4000	
+00:51.264.419	Debug	searchd (216)	com.apple.corespotlight	default	schedule query <private>	
+00:51.264.440	Debug	searchd (216)	com.apple.spotlightindex	Query	Passing up out of results	
+00:51.264.452	Debug	searchd (216)	com.apple.spotlightindex	Query	process for 0x1053b4000	
+00:51.264.475	Debug	searchd (216)	com.apple.corespotlight	query	Scheduling jobs(2/5) for task:0x1051bd260, canceled:NO	
+00:51.264.558	Debug	searchd (216)	com.apple.spotlightindex	Query	resolve term ids: 0.0000 seconds	
+00:51.264.607	Debug	searchd (216)	com.apple.corespotlight	query	Processing results, kind:5, identifier:<private>	
+00:51.264.629	Debug	searchd (216)	com.apple.spotlightindex	Query	evaluateFuzzyQuery for 0x1053b4000	
+00:51.264.656	Debug	searchd (216)	com.apple.corespotlight	query	Finished job:0x10e725320, task:0x1051bd260, dataclass:NSFileProtectionCompleteUnlessOpen, bundleID:com.apple.synapse.contentlinkingd	
+00:51.264.660	Debug	searchd (216)	com.apple.CoreAnalytics.event	send	<private> <private>	
+00:51.264.685	Debug	searchd (216)	com.apple.spotlightindex	Query	Computed doc set in 0.0002 seconds!	
+00:51.264.712	Debug	searchd (216)	com.apple.corespotlight	default	schedule query <private>	
+00:51.264.742	Debug	searchd (216)	com.apple.spotlightindex	Query	siquery_addactivetime 0.0013 seconds to 0.0014 seconds 0x19
+	
+00:51.264.784	Debug	searchd (216)	com.apple.corespotlight	query	Scheduling jobs(3/5) for task:0x1051bd260, canceled:NO	
+00:51.264.859	Debug	searchd (216)	com.apple.corespotlight	query	Processing results, kind:5, identifier:<private>	
+00:51.264.873	Debug	searchd (216)	com.apple.spotlightindex	Query	Passing up out of results	
+00:51.264.913	Debug	searchd (216)	com.apple.corespotlight	query	Finished job:0x10e724420, task:0x1051bd260, dataclass:NSFileProtectionComplete, bundleID:com.apple.synapse.contentlinkingd	
+00:51.264.944	Debug	analyticsd (110)	com.apple.analyticsd.critical	db	[Config Store] Retrieving modify-eventdefs for event with name '<private>'	
+00:51.264.971	Debug	searchd (216)	com.apple.corespotlight	default	schedule query <private>	
+00:51.264.996	Debug	searchd (216)	com.apple.corespotlight	query	Scheduling jobs(4/5) for task:0x1051bd260, canceled:NO	
+00:51.265.062	Debug	searchd (216)	com.apple.corespotlight	query	Processing results, kind:5, identifier:<private>	
+00:51.265.088	Debug	searchd (216)	com.apple.corespotlight	query	Finished job:0x10e7243f0, task:0x1051bd260, dataclass:Priority, bundleID:com.apple.synapse.contentlinkingd	
+00:51.265.122	Debug	searchd (216)	com.apple.CoreAnalytics.event	send	<private> <private>	
+00:51.265.136	Debug	searchd (216)	com.apple.corespotlight	default	schedule query <private>	
+00:51.265.161	Debug	searchd (216)	com.apple.corespotlight	query	Scheduling jobs(5/5) for task:0x1051bd260, canceled:NO	
+00:51.265.189	Debug	searchd (216)	com.apple.corespotlight	default	Finish query <private>	
+00:51.265.230	Debug	searchd (216)	com.apple.corespotlight	query	Finished query qid: 21	
+00:51.265.313	Debug	contentlinkingd (1596)	com.apple.corespotlight	query	[QoS] xpc_connection_set_event_handler response 25	
+00:51.265.341	Debug	searchd (216)	com.apple.corespotlight	query	Finished all jobs(5,0), task:0x1051bd260 bundleID:com.apple.synapse.contentlinkingd	
+00:51.265.355	Debug	contentlinkingd (1596)	com.apple.corespotlight	query	[QoS] 25 qid=21 - handleReply	
+00:51.265.394	Info	searchd (216)	com.apple.corespotlight	query	Canceled task:0x1051bd260 (0 jobs)	
+00:51.265.403	Debug	contentlinkingd (1596)	com.apple.corespotlight	query	[QoS] 25 qid=21 didReturnResults inside method async call. attribute:%b counting:%b live:%b	
+00:51.265.408	Debug	contentlinkingd (1596)	com.apple.corespotlight	query	[QoS] 25 qid=21 sendMessageAsync response	
+00:51.265.433	Info	contentlinkingd (1596)	com.apple.corespotlight	query	qid=21 - Results type: 1 	
+00:51.265.443	Debug	searchd (216)	com.apple.corespotlight	query	Schedule wakeup, identifier:<private>, forced:NO, canceled:YES	
+00:51.265.456	Default	contentlinkingd (1596)	com.apple.corespotlight	query	qid=21 - Finished	
+00:51.265.490	Default	contentlinkingd (1596)	com.apple.synapse	BacklinkMonitor	BacklinkOperation 0xd4c0e4730: Found 0 item(s) linked to current activity. Query duration: 8.3070 ms.	
+00:51.265.493	Debug	searchd (216)	com.apple.corespotlight	query	Canceling query results queue, identifier:<private>	
+00:51.265.520	Debug	searchd (216)	com.apple.spotlightindex	Query	Canceling result queue	
+00:51.265.547	Debug	contentlinkingd (1596)	com.apple.corespotlight	query	[QoS] 25 qid=21 didReturnResults	
+00:51.265.547	Debug	searchd (216)	com.apple.corespotlight	query	Schedule wakeup, identifier:<private>, forced:YES, canceled:YES	
+00:51.265.573	Debug	searchd (216)	com.apple.corespotlight	query	Released query results queue, identifier:<private>	
+00:51.265.576	Debug	contentlinkingd (1596)	com.apple.useractivity	main	CREATING UAUserActivity/initWithTypeIdentifier:<private> type:UserActivity options=)	
+00:51.265.691	Debug	contentlinkingd (1596)	com.apple.useractivity	main	CREATING UAUserActivity/(com.apple.notes.activity.show-backlink-<private> UserActivity options=)	
+00:51.265.768	Info	contentlinkingd (1596)	com.apple.useractivity	main	initUAUserActivity:<private>-<private> 607ABC54-24BA-4786-A29E-3429CD6F10F5 UserActivity	
+00:51.265.809	Info	contentlinkingd (1596)	com.apple.useractivity	biome-69594900	607ABC54-24BA-4786-A29E-3429CD6F10F5 CREATED com.apple.notes.activity.show-backlink/	
+00:51.265.869	Debug	contentlinkingd (1596)	com.apple.defaults	User Defaults	found no value for key ICShouldResumeLastQuickNoteDefaultsKey in CFPrefsSearchListSource<0xd4c04d480> (Domain: com.apple.mobilenotes, Container: (null))	
+00:51.265.924	Debug	contentlinkingd (1596)	com.apple.launchservices	binding	BindingEvaluator::CreateWithBundleInfo(ID=<private>, name=<private>, CC=????, vers=)	
+00:51.265.948	Debug	contentlinkingd (1596)	com.apple.launchservices	binding	BindingEvaluator::~BindingEvaluator(0x16dcca118)	
+00:51.265.991	Debug	contentlinkingd (1596)	com.apple.launchservices	binding	Running evaluator 0x16dcc9f50	
+00:51.266.014	Debug	contentlinkingd (1596)	com.apple.launchservices	binding	Adding user preferences	
+00:51.266.052	Debug	contentlinkingd (1596)	com.apple.launchservices	binding	Adding weak binding	
+00:51.266.076	Debug	contentlinkingd (1596)	com.apple.launchservices	binding	0 bindings found	
+00:51.266.112	Debug	contentlinkingd (1596)	com.apple.launchservices	binding	Truncating a list of bindings to max 1 known-good ones.	
+00:51.266.157	Debug	contentlinkingd (1596)	com.apple.launchservices	binding	Adding and sorting bundles	
+00:51.266.218	Debug	contentlinkingd (1596)	com.apple.launchservices	binding	+++ BacklinkIndicator (B:0x120, C:0x0) 	
+00:51.266.241	Debug	contentlinkingd (1596)	com.apple.launchservices	binding	1 bindings found	
+00:51.266.258	Debug	contentlinkingd (1596)	com.apple.launchservices	binding	Truncating a list of bindings to max 1 known-good ones.	
+00:51.266.285	Debug	contentlinkingd (1596)	com.apple.launchservices	binding	+++ BacklinkIndicator (B:0x120, C:0x0) 	
+00:51.266.313	Debug	contentlinkingd (1596)	com.apple.launchservices	binding	Best binding found for evaluator 6,137,094,592: <private> (B:0x120, C:0x0)	
+00:51.266.333	Debug	contentlinkingd (1596)	com.apple.launchservices	binding	BindingEvaluator::~BindingEvaluator(0x16dcc9f50)	
+00:51.266.350	Debug	contentlinkingd (1596)	com.apple.launchservices	binding	BindingEvaluator::~BindingEvaluator(0x16dcca1c0)	
+00:51.266.551	Info	runningboardd (33)	com.apple.runningboard	message	PERF: Received request from [osservice<com.apple.synapse.contentlinkingd>:1596] (euid 501, auid 501) (persona 9123D57A-D0E6-47C6-938F-C289AA99CB36): lookupHandleForPredicate:error:	
+00:51.266.617	Default	runningboardd (33)	com.apple.runningboard	message	PERF: Received lookupHandleForPredicate request from [osservice<com.apple.synapse.contentlinkingd>:1596] (euid 501, auid 501) (persona )	
+00:51.266.790	Debug	DTServiceHub (360)	DVTInstrumentsFoundation	Default	Data Size: 100,512, Rows Sent: 1,187, Stack depth: 2,904	
+00:51.267.122	Info	runningboardd (33)	com.apple.runningboard	connection	[osservice<com.apple.synapse.contentlinkingd>:1596] handle lookup could not find a matching process	
+00:51.267.215	Info	runningboardd (33)	com.apple.runningboard	connection	Error handling message from [osservice<com.apple.synapse.contentlinkingd>:1596]: <Error Domain=RBSRequestErrorDomain Code=3 "Specified predicate did not match any processes" UserInfo={NSLocalizedFailureReason=Specified predicate did not match any processes}>	
+00:51.267.592	Error	contentlinkingd (1596)	com.apple.synapse		Failed to create handle for process: com.apple.BacklinkIndicator, error: Error Domain=RBSRequestErrorDomain Code=3 UserInfo={NSLocalizedFailureReason=<private>}	
+00:51.267.665	Default	contentlinkingd (1596)	com.apple.synapse	BacklinkMonitor	BacklinkOperation 0xd4c0e4730: Finished, notifying delegate.	
+00:51.267.695	Default	contentlinkingd (1596)	com.apple.synapse	BacklinkMonitor	BacklinkService: operation finished 0xd4c0e4730 for activity info 0xd4c035080.	
+00:51.267.756	Debug	contentlinkingd (1596)	com.apple.useractivity	main	Invalidate activity C6714EC1-6856-4518-9BFA-3FEAA5840F08 (<private>)	
+00:51.267.791	Info	contentlinkingd (1596)	com.apple.useractivity	biome-69594900	C6714EC1-6856-4518-9BFA-3FEAA5840F08 INVALIDATE	wasCurrent=0 needsSave=1 dirty=0 sendToServer=0	
+00:51.267.841	Default	contentlinkingd (1596)	com.apple.synapse	BacklinkMonitor	BacklinkService: will begin operation 0xd4c0e4780 for activity info 0xd4c035080.	
+00:51.267.856	Debug	contentlinkingd (1596)	com.apple.useractivity	main	UAUserActivity:C6714EC1-6856-4518-9BFA-3FEAA5840F08/<private>, userInfoChangeCount = 0	
+00:51.267.865	Default	contentlinkingd (1596)	com.apple.synapse	BacklinkMonitor	BacklinkOperation 0xd4c0e4780: Begin processing.	
+00:51.267.887	Info	contentlinkingd (1596)	com.apple.useractivity	biome-69594900	C6714EC1-6856-4518-9BFA-3FEAA5840F08 RELEASED changeCount=0	
+00:51.267.921	Debug	contentlinkingd (1596)	com.apple.corespotlight	query	initWithQueryString:<private>	
+00:51.268.143	Default	contentlinkingd (1596)	com.apple.corespotlight	query	qid=22 - Starting <private>	
+00:51.268.174	Info	contentlinkingd (1596)	com.apple.corespotlight	query	qid=22 - <private>	
+00:51.268.206	Debug	contentlinkingd (1596)	com.apple.corespotlight	query	[QoS] 25 qid=22 - Starting <private>	
+00:51.268.286	Debug	searchd (216)	com.apple.corespotlight	default	Message on connection(0x10e5fa940) for service com.apple.spotlight.SearchAgent pid: 1,596	
+00:51.268.326	Debug	searchd (216)	com.apple.corespotlight	default	enter connection: 0x10e5fa940 message: 0x1050bbd00	
+00:51.268.351	Debug	searchd (216)	com.apple.corespotlight	default	message: <private> pid: 1,596	
+00:51.268.372	Info	searchd (216)	com.apple.corespotlight	default	search <private> pid: 1,596	
+00:51.268.404	Info	searchd (216)	com.apple.corespotlight	query	os_signpost_interval_begin qid=22	
+00:51.268.489	Debug	backboardd (68)	com.apple.BackBoard	MotionEvents	Motion event usagePage:0xff0c usage:1 	
+00:51.268.569	Debug	searchd (216)	com.apple.corespotlight	default	QOS taskForQueryWithQueryString: 25	
+00:51.268.618	Debug	searchd (216)	com.apple.corespotlight	default	taskForQueryWithQueryString: <private>	
+00:51.268.631	Debug	locationd (74)	com.apple.locationd.Motion	Motion	visitKFFilteredPressure,nowAP,753,594,906.2069,nowAOP,349,919,214,783,filteredPressure,102,622.9609,pressureTimestamp,349,916,494,438,kfElevation,-107.6170,wallTimePressureCorrected,753,594,903.4867,wallTimeKFCorrected,753,594,906.1731,temperatureDerivative,0.0000,absAltUnc,-0.0000	
+00:51.268.650	Debug	searchd (216)	com.apple.corespotlight	default	QOS _taskForQueryWithQueryString: 25	
+00:51.268.789	Debug	searchd (216)	SpotlightDaemon	Default	PCS <private> for query <private>. Internally generated. Client com.apple.synapse.contentlinkingd	
+00:51.268.814	Debug	locationd (74)	com.apple.locationd.Motion	Altimeter	received KF filtered pressure from AOP,now,<private>,filteredPressureTimestamp,<private>,filteredPressure,<private>,kfTimestamp,<private>,kfElevation,<private>,kfPressure,<private> temperature,<private>,absAltUnc,<private>	
+00:51.268.849	Debug	locationd (74)	com.apple.locationd.Motion	Altimeter	{"msg":"pressure source updated with", "time_s":"753,594,903.4867", "pressure":"<private>", "temperature":"<private>"}	
+00:51.268.928	Debug	locationd (74)	com.apple.locationd.Motion	Altimeter	{"msg":"kfPressure source updated with", "timestamp_s":"<private>", "kfPressure":"<private>", "kfElevation":"<private>", "absAltUncertainty":"<private>"}	
+00:51.268.940	Debug	searchd (216)	com.apple.corespotlight	query	Schedule wakeup, identifier:<private>, forced:YES, canceled:NO	
+00:51.269.038	Debug	searchd (216)	com.apple.corespotlight	query	Created query results queue, identifier:<private>	
+00:51.269.143	Debug	searchd (216)	com.apple.corespotlight	default	QOS startQueryTask 1: 25 	
+00:51.269.184	Debug	searchd (216)	com.apple.corespotlight	default	exit connection: 0x10e5fa940	
+00:51.269.191	Debug	searchd (216)	com.apple.corespotlight	default	QOS startQueryTask 2: 25	
+00:51.269.261	Debug	searchd (216)	com.apple.corespotlight	default	Start query <private>	
+00:51.269.285	Info	searchd (216)	com.apple.corespotlight	default	QoS _mSIQWQS: 25 prio: 3	
+00:51.269.344	Debug	searchd (216)	com.apple.defaults	User Defaults	looked up value <private> for key AppleLanguages in CFPrefsPlistSource<0x1046969e0> (Domain: kCFPreferencesAnyApplication, User: kCFPreferencesCurrentUser, ByHost: No, Container: (null), Contents Need Refresh: No) via CFPrefsSearchListSource<0x105262e00> (Domain: com.apple.Search.framework, Container: (null))	
+00:51.269.410	Info	searchd (216)	com.apple.corespotlight	default	_pBWQC: uP: NO, iPB: NO	
+00:51.269.458	Debug	searchd (216)	com.apple.corespotlight	default	Skipping unknown disabled bundle com.apple.usernotificationsd	
+00:51.269.496	Debug	searchd (216)	com.apple.corespotlight	default	[ProtectedApps] Files app is enabled	
+00:51.269.518	Debug	searchd (216)	com.apple.corespotlight	default	[ProtectedApps] adding filter 	
+00:51.269.645	Debug	searchd (216)	com.apple.corespotlight	default	schedule query <private>	
+00:51.269.681	Debug	searchd (216)	com.apple.corespotlight	query	Scheduling jobs(0/0) for task:0x1051bd260, canceled:NO	
+00:51.269.774	Info	searchd (216)	com.apple.corespotlight	index	[LOCK] MKBGetDeviceLockState returned ret:0 Unlocked	
+00:51.269.848	Info	searchd (216)	com.apple.corespotlight	index	[LOCK] MKBGetDeviceLockState returned ret:0 Unlocked	
+00:51.269.877	Debug	searchd (216)	com.apple.spotlightindex	Query	Starting query <private>	
+00:51.269.938	Debug	searchd (216)	com.apple.corespotlight	query	Started job:0x10e7249f0, task:515, dataclass:NSFileProtectionCompleteUntilFirstUserAuthentication, bundleID:com.apple.synapse.contentlinkingd	
+00:51.269.984	Debug	searchd (216)	com.apple.spotlightindex	Query	don't defer query for <private>	
+00:51.270.002	Info	searchd (216)	com.apple.corespotlight	index	[LOCK] MKBGetDeviceLockState returned ret:0 Unlocked	
+00:51.270.018	Debug	searchd (216)	com.apple.spotlightindex	Query	siquery_addactivetime 0.0001 seconds to 0.0001 seconds 0x19
+	
+00:51.270.055	Info	searchd (216)	com.apple.corespotlight	index	[LOCK] MKBGetDeviceLockState returned ret:0 Unlocked	
+00:51.270.089	Debug	searchd (216)	com.apple.spotlightindex	Query	Starting query <private>	
+00:51.270.106	Debug	searchd (216)	com.apple.spotlightindex	Query	Suspending root query scheduler(0)	
+00:51.270.137	Debug	searchd (216)	com.apple.spotlightindex	Query	Suspending root query scheduler(1)	
+00:51.270.139	Debug	searchd (216)	com.apple.corespotlight	query	Started job:0x10e724ae0, task:515, dataclass:NSFileProtectionCompleteWhenUserInactive, bundleID:com.apple.synapse.contentlinkingd	
+00:51.270.177	Debug	searchd (216)	com.apple.spotlightindex	Query	don't defer query for <private>	
+00:51.270.192	Debug	searchd (216)	com.apple.spotlightindex	Query	Suspending root query scheduler(2)	
+00:51.270.256	Info	searchd (216)	com.apple.corespotlight	index	[LOCK] MKBGetDeviceLockState returned ret:0 Unlocked	
+00:51.270.261	Debug	searchd (216)	com.apple.spotlightindex	Query	siquery_addactivetime 0.0001 seconds to 0.0001 seconds 0x19
+	
+00:51.270.325	Debug	searchd (216)	com.apple.spotlightindex	Query	0x10530de00 Start gatherIndexInfo	
+00:51.270.345	Debug	searchd (216)	com.apple.spotlightindex	Query	Suspending root query scheduler(0)	
+00:51.270.419	Debug	searchd (216)	com.apple.spotlightindex	Query	0x10530de00 gII live: 0	
+00:51.270.423	Info	searchd (216)	com.apple.corespotlight	index	[LOCK] MKBGetDeviceLockState returned ret:0 Unlocked	
+00:51.270.478	Debug	searchd (216)	com.apple.spotlightindex	Query	Suspending root query scheduler(1)	
+00:51.270.581	Debug	searchd (216)	com.apple.spotlightindex	Query	Suspending root query scheduler(2)	
+00:51.270.617	Debug	searchd (216)	com.apple.spotlightindex	Query	Starting query <private>	
+00:51.270.660	Debug	searchd (216)	com.apple.spotlightindex	Query	0x10530d400 Start gatherIndexInfo	
+00:51.270.670	Debug	searchd (216)	com.apple.spotlightindex	Query	0x10530de00 gatherIndexInfo at 0x1053d0000	
+00:51.270.720	Debug	searchd (216)	com.apple.corespotlight	query	Started job:0x10e7245a0, task:515, dataclass:NSFileProtectionCompleteUnlessOpen, bundleID:com.apple.synapse.contentlinkingd	
+00:51.270.729	Debug	searchd (216)	com.apple.spotlightindex	Query	0x10530d400 gII live: 0	
+00:51.270.758	Debug	searchd (216)	com.apple.spotlightindex	Query	don't defer query for <private>	
+00:51.270.786	Debug	searchd (216)	com.apple.spotlightindex	Query	process for 0x1053d0000	
+00:51.270.816	Debug	searchd (216)	com.apple.spotlightindex	Query	0x10530d400 gatherIndexInfo at 0x1053bc000	
+00:51.270.831	Info	searchd (216)	com.apple.corespotlight	index	[LOCK] MKBGetDeviceLockState returned ret:0 Unlocked	
+00:51.270.851	Debug	searchd (216)	com.apple.spotlightindex	Query	siquery_addactivetime 0.0001 seconds to 0.0001 seconds 0x19
+	
+00:51.270.924	Debug	searchd (216)	com.apple.spotlightindex	Query	process for 0x1053bc000	
+00:51.270.925	Debug	searchd (216)	com.apple.spotlightindex	Query	Suspending root query scheduler(0)	
+00:51.270.930	Info	searchd (216)	com.apple.corespotlight	index	[LOCK] MKBGetDeviceLockState returned ret:0 Unlocked	
+00:51.270.963	Debug	searchd (216)	com.apple.CoreAnalytics.event	send	<private> <private>	
+00:51.271.030	Debug	searchd (216)	com.apple.spotlightindex	Query	resolve term ids: 0.0000 seconds	
+00:51.271.034	Debug	searchd (216)	com.apple.spotlightindex	Query	Starting query <private>	
+00:51.271.037	Debug	searchd (216)	com.apple.spotlightindex	Query	resolve term ids: 0.0000 seconds	
+00:51.271.058	Debug	searchd (216)	com.apple.spotlightindex	Query	Suspending root query scheduler(1)	
+00:51.271.094	Debug	searchd (216)	com.apple.spotlightindex	Query	evaluateFuzzyQuery for 0x1053d0000	
+00:51.271.139	Debug	searchd (216)	com.apple.spotlightindex	Query	Suspending root query scheduler(2)	
+00:51.271.166	Debug	searchd (216)	com.apple.corespotlight	query	Started job:0x10e725080, task:515, dataclass:NSFileProtectionComplete, bundleID:com.apple.synapse.contentlinkingd	
+00:51.271.196	Debug	searchd (216)	com.apple.spotlightindex	Query	don't defer query for <private>	
+00:51.271.208	Debug	searchd (216)	com.apple.spotlightindex	Query	Computed doc set in 0.0004 seconds!	
+00:51.271.225	Debug	searchd (216)	com.apple.spotlightindex	Query	0x10530d900 Start gatherIndexInfo	
+00:51.271.274	Debug	searchd (216)	com.apple.spotlightindex	Query	evaluateFuzzyQuery for 0x1053bc000	
+00:51.271.307	Debug	searchd (216)	com.apple.spotlightindex	Query	siquery_addactivetime 0.0001 seconds to 0.0001 seconds 0x19
+	
+00:51.271.371	Info	searchd (216)	com.apple.corespotlight	index	[LOCK] MKBGetDeviceLockState returned ret:0 Unlocked	
+00:51.271.378	Debug	searchd (216)	com.apple.spotlightindex	Query	Computed doc set in 0.0005 seconds!	
+00:51.271.383	Debug	searchd (216)	com.apple.spotlightindex	Query	Suspending root query scheduler(0)	
+00:51.271.439	Debug	searchd (216)	com.apple.spotlightindex	Query	0x10530d900 gII live: 0	
+00:51.271.474	Debug	searchd (216)	com.apple.spotlightindex	Query	0x10530de00 gII scan: 0	
+00:51.271.527	Debug	searchd (216)	com.apple.spotlightindex	Query	0x10530d900 gatherIndexInfo at 0x1053c4000	
+00:51.271.535	Info	searchd (216)	com.apple.corespotlight	index	[LOCK] MKBGetDeviceLockState returned ret:0 Unlocked	
+00:51.271.566	Debug	searchd (216)	com.apple.spotlightindex	Query	Suspending root query scheduler(1)	
+00:51.271.596	Debug	searchd (216)	com.apple.spotlightindex	Query	0x10530de00 gatherIndexInfo at 0x1053b0000	
+00:51.271.628	Debug	searchd (216)	com.apple.spotlightindex	Query	Starting query <private>	
+00:51.271.664	Debug	searchd (216)	com.apple.spotlightindex	Query	0x10530d400 gII scan: 0	
+00:51.271.756	Debug	searchd (216)	com.apple.corespotlight	query	Started job:0x10e724690, task:515, dataclass:Priority, bundleID:com.apple.synapse.contentlinkingd	
+00:51.271.769	Debug	searchd (216)	com.apple.spotlightindex	Query	process for 0x1053b0000	
+00:51.271.784	Debug	searchd (216)	com.apple.spotlightindex	Query	don't defer query for <private>	
+00:51.271.792	Debug	searchd (216)	com.apple.spotlightindex	Query	0x10530d400 gatherIndexInfo at 0x105008000	
+00:51.271.847	Debug	searchd (216)	com.apple.spotlightindex	Query	Suspending root query scheduler(2)	
+00:51.271.895	Debug	searchd (216)	com.apple.spotlightindex	Query	process for 0x1053c4000	
+00:51.271.914	Debug	searchd (216)	com.apple.spotlightindex	Query	0x10530ca00 Start gatherIndexInfo	
+00:51.271.922	Debug	searchd (216)	com.apple.spotlightindex	Query	process for 0x105008000	
+00:51.271.981	Debug	searchd (216)	com.apple.spotlightindex	Query	siquery_addactivetime 0.0002 seconds to 0.0002 seconds 0x19
+	
+00:51.272.016	Debug	searchd (216)	com.apple.spotlightindex	Query	resolve term ids: 0.0000 seconds	
+00:51.272.037	Debug	searchd (216)	com.apple.spotlightindex	Query	resolve term ids: 0.0000 seconds	
+00:51.272.041	Debug	searchd (216)	com.apple.spotlightindex	Query	0x10530ca00 gII live: 0	
+00:51.272.046	Debug	searchd (216)	com.apple.spotlightindex	Query	Suspending root query scheduler(0)	
+00:51.272.095	Debug	searchd (216)	com.apple.spotlightindex	Query	resolve term ids: 0.0000 seconds	
+00:51.272.116	Debug	searchd (216)	com.apple.spotlightindex	Query	evaluateFuzzyQuery for 0x105008000	
+00:51.272.141	Debug	searchd (216)	com.apple.spotlightindex	Query	evaluateFuzzyQuery for 0x1053b0000	
+00:51.272.165	Debug	searchd (216)	com.apple.spotlightindex	Query	evaluateFuzzyQuery for 0x1053c4000	
+00:51.272.189	Debug	searchd (216)	com.apple.spotlightindex	Query	Suspending root query scheduler(1)	
+00:51.272.213	Debug	searchd (216)	com.apple.spotlightindex	Query	0x10530ca00 gatherIndexInfo at 0x1053c8000	
+00:51.272.237	Debug	searchd (216)	com.apple.spotlightindex	Query	Suspending root query scheduler(2)	
+00:51.272.272	Debug	searchd (216)	com.apple.spotlightindex	Query	Computed doc set in 0.0004 seconds!	
+00:51.272.292	Debug	searchd (216)	com.apple.spotlightindex	Query	Computed doc set in 0.0005 seconds!	
+00:51.272.330	Debug	searchd (216)	com.apple.spotlightindex	Query	0x10530cf00 Start gatherIndexInfo	
+00:51.272.359	Debug	searchd (216)	com.apple.spotlightindex	Query	siquery_addactivetime 0.0020 seconds to 0.0021 seconds 0x19
+	
+00:51.272.360	Debug	searchd (216)	com.apple.spotlightindex	Query	process for 0x1053c8000	
+00:51.272.383	Debug	searchd (216)	com.apple.spotlightindex	Query	0x10530d900 gII scan: 0	
+00:51.272.402	Debug	searchd (216)	com.apple.spotlightindex	Query	0x10530cf00 gII live: 0	
+00:51.272.425	Debug	searchd (216)	com.apple.spotlightindex	Query	Computed doc set in 0.0005 seconds!	
+00:51.272.446	Debug	searchd (216)	com.apple.spotlightindex	Query	0x10530d900 gatherIndexInfo at 0x10500c000	
+00:51.272.494	Debug	searchd (216)	com.apple.spotlightindex	Query	0x10530cf00 gatherIndexInfo at 0x1053cc000	
+00:51.272.507	Debug	searchd (216)	com.apple.spotlightindex	Query	resolve term ids: 0.0000 seconds	
+00:51.272.518	Debug	searchd (216)	com.apple.spotlightindex	Query	process for 0x10500c000	
+00:51.272.542	Debug	searchd (216)	com.apple.spotlightindex	Query	siquery_addactivetime 0.0019 seconds to 0.0020 seconds 0x19
+	
+00:51.272.615	Debug	searchd (216)	com.apple.spotlightindex	Query	resolve term ids: 0.0000 seconds	
+00:51.272.624	Debug	searchd (216)	com.apple.spotlightindex	Query	evaluateFuzzyQuery for 0x1053c8000	
+00:51.272.627	Debug	searchd (216)	com.apple.spotlightindex	Query	Passing up out of results	
+00:51.272.683	Debug	searchd (216)	com.apple.spotlightindex	Query	Passing up out of results	
+00:51.272.692	Debug	searchd (216)	com.apple.spotlightindex	Query	process for 0x1053cc000	
+00:51.272.696	Debug	searchd (216)	com.apple.spotlightindex	Query	evaluateFuzzyQuery for 0x10500c000	
+00:51.272.720	Debug	searchd (216)	com.apple.corespotlight	default	QOS _processResults 1: 25	
+00:51.272.743	Debug	searchd (216)	com.apple.spotlightindex	Query	Computed doc set in 0.0004 seconds!	
+00:51.272.769	Debug	searchd (216)	com.apple.spotlightindex	Query	Computed doc set in 0.0003 seconds!	
+00:51.272.820	Debug	searchd (216)	com.apple.spotlightindex	Query	resolve term ids: 0.0000 seconds	
+00:51.272.849	Default	Unknown (0)	AppleT8140	Default	AppleH17PPlatformErrorHandler::_dcsWritePTD: 112109103114 3 offset f00 @ <private>[0x3003d0f00] <- 7
+
+	
+00:51.272.862	Debug	searchd (216)	com.apple.spotlightindex	Query	siquery_addactivetime 0.0016 seconds to 0.0018 seconds 0x19
+	
+00:51.272.871	Debug	searchd (216)	com.apple.spotlightindex	Query	0x10530ca00 gII scan: 0	
+00:51.272.875	Default	Unknown (0)	AppleT8140	Default	AppleH17PPlatformErrorHandler::_dcsHandleDCSOdtsEvent: _dcsOdtsBelowThresholdCount = 4
+
+	
+00:51.272.879	Default	Unknown (0)	AppleT8140	Default	AppleH17PPlatformErrorHandler::_dcsHandleDCSOdtsEvent: start next polling
+
+	
+00:51.272.901	Debug	searchd (216)	com.apple.spotlightindex	Query	evaluateFuzzyQuery for 0x1053cc000	
+00:51.272.948	Debug	searchd (216)	com.apple.spotlightindex	Query	0x10530ca00 gatherIndexInfo at 0x1053b8000	
+00:51.272.964	Debug	searchd (216)	com.apple.spotlightindex	Query	Passing up out of results	
+00:51.273.012	Debug	searchd (216)	com.apple.spotlightindex	Query	Computed doc set in 0.0003 seconds!	
+00:51.273.098	Debug	searchd (216)	com.apple.corespotlight	default	QOS _processResults 2: 25	
+00:51.273.155	Debug	searchd (216)	com.apple.spotlightindex	Query	0x10530cf00 gII scan: 0	
+00:51.273.195	Debug	searchd (216)	com.apple.corespotlight	query	Processing results, kind:5, identifier:<private>	
+00:51.273.218	Debug	searchd (216)	com.apple.spotlightindex	Query	0x10530cf00 gatherIndexInfo at 0x1053b4000	
+00:51.273.244	Debug	searchd (216)	com.apple.spotlightindex	Query	process for 0x1053b8000	
+00:51.273.268	Debug	searchd (216)	com.apple.spotlightindex	Query	process for 0x1053b4000	
+00:51.273.303	Debug	searchd (216)	com.apple.corespotlight	query	Finished job:0x10e7249f0, task:0x1051bd260, dataclass:NSFileProtectionCompleteUntilFirstUserAuthentication, bundleID:com.apple.synapse.contentlinkingd	
+00:51.273.357	Debug	searchd (216)	com.apple.spotlightindex	Query	resolve term ids: 0.0000 seconds	
+00:51.273.372	Debug	searchd (216)	com.apple.spotlightindex	Query	resolve term ids: 0.0000 seconds	
+00:51.273.376	Debug	searchd (216)	com.apple.corespotlight	default	schedule query <private>	
+00:51.273.415	Debug	searchd (216)	com.apple.spotlightindex	Query	evaluateFuzzyQuery for 0x1053b4000	
+00:51.273.455	Debug	searchd (216)	com.apple.corespotlight	query	Scheduling jobs(1/5) for task:0x1051bd260, canceled:NO	
+00:51.273.483	Debug	searchd (216)	com.apple.spotlightindex	Query	evaluateFuzzyQuery for 0x1053b8000	
+00:51.273.520	Debug	searchd (216)	com.apple.corespotlight	query	Processing results, kind:5, identifier:<private>	
+00:51.273.549	Debug	searchd (216)	com.apple.spotlightindex	Query	Computed doc set in 0.0003 seconds!	
+00:51.273.566	Debug	searchd (216)	com.apple.spotlightindex	Query	Computed doc set in 0.0003 seconds!	
+00:51.273.595	Debug	searchd (216)	com.apple.corespotlight	query	Finished job:0x10e724ae0, task:0x1051bd260, dataclass:NSFileProtectionCompleteWhenUserInactive, bundleID:com.apple.synapse.contentlinkingd	
+00:51.273.622	Debug	searchd (216)	com.apple.spotlightindex	Query	siquery_addactivetime 0.0013 seconds to 0.0015 seconds 0x19
+	
+00:51.273.644	Debug	searchd (216)	com.apple.spotlightindex	Query	siquery_addactivetime 0.0017 seconds to 0.0019 seconds 0x19
+	
+00:51.273.667	Debug	searchd (216)	com.apple.corespotlight	default	schedule query <private>	
+00:51.273.744	Debug	searchd (216)	com.apple.corespotlight	query	Scheduling jobs(2/5) for task:0x1051bd260, canceled:NO	
+00:51.273.761	Debug	searchd (216)	com.apple.spotlightindex	Query	Passing up out of results	
+00:51.273.800	Debug	searchd (216)	com.apple.corespotlight	query	Processing results, kind:5, identifier:<private>	
+00:51.273.825	Debug	searchd (216)	com.apple.spotlightindex	Query	Passing up out of results	
+00:51.273.871	Debug	searchd (216)	com.apple.corespotlight	query	Finished job:0x10e7245a0, task:0x1051bd260, dataclass:NSFileProtectionCompleteUnlessOpen, bundleID:com.apple.synapse.contentlinkingd	
+00:51.273.922	Debug	searchd (216)	com.apple.corespotlight	default	schedule query <private>	
+00:51.273.961	Debug	searchd (216)	com.apple.corespotlight	query	Scheduling jobs(3/5) for task:0x1051bd260, canceled:NO	
+00:51.274.007	Debug	searchd (216)	com.apple.CoreAnalytics.event	send	<private> <private>	
+00:51.274.038	Debug	searchd (216)	com.apple.corespotlight	query	Processing results, kind:5, identifier:<private>	
+00:51.274.061	Debug	searchd (216)	com.apple.corespotlight	query	Finished job:0x10e724690, task:0x1051bd260, dataclass:Priority, bundleID:com.apple.synapse.contentlinkingd	
+00:51.274.080	Debug	searchd (216)	com.apple.corespotlight	default	schedule query <private>	
+00:51.274.108	Debug	searchd (216)	com.apple.CoreAnalytics.event	send	<private> <private>	
+00:51.274.122	Debug	searchd (216)	com.apple.corespotlight	query	Scheduling jobs(4/5) for task:0x1051bd260, canceled:NO	
+00:51.274.151	Debug	searchd (216)	com.apple.corespotlight	query	Processing results, kind:5, identifier:<private>	
+00:51.274.171	Debug	searchd (216)	com.apple.corespotlight	query	Finished job:0x10e725080, task:0x1051bd260, dataclass:NSFileProtectionComplete, bundleID:com.apple.synapse.contentlinkingd	
+00:51.274.190	Debug	searchd (216)	com.apple.corespotlight	default	schedule query <private>	
+00:51.274.217	Debug	searchd (216)	com.apple.corespotlight	query	Scheduling jobs(5/5) for task:0x1051bd260, canceled:NO	
+00:51.274.237	Debug	searchd (216)	com.apple.corespotlight	default	Finish query <private>	
+00:51.274.262	Debug	searchd (216)	com.apple.corespotlight	query	Finished query qid: 22	
+00:51.274.329	Debug	contentlinkingd (1596)	com.apple.corespotlight	query	[QoS] xpc_connection_set_event_handler response 25	
+00:51.274.362	Debug	searchd (216)	com.apple.corespotlight	query	Finished all jobs(5,0), task:0x1051bd260 bundleID:com.apple.synapse.contentlinkingd	
+00:51.274.364	Debug	contentlinkingd (1596)	com.apple.corespotlight	query	[QoS] 25 qid=22 - handleReply	
+00:51.274.404	Debug	contentlinkingd (1596)	com.apple.corespotlight	query	[QoS] 25 qid=22 didReturnResults inside method async call. attribute:%b counting:%b live:%b	
+00:51.274.407	Debug	contentlinkingd (1596)	com.apple.corespotlight	query	[QoS] 25 qid=22 sendMessageAsync response	
+00:51.274.432	Info	contentlinkingd (1596)	com.apple.corespotlight	query	qid=22 - Results type: 1 	
+00:51.274.450	Default	contentlinkingd (1596)	com.apple.corespotlight	query	qid=22 - Finished	
+00:51.274.490	Default	contentlinkingd (1596)	com.apple.synapse	BacklinkMonitor	BacklinkMonitorFilterOperation 0xd4c0e4780: Found 0 item(s) linked to current activityType. Query duration: 6.5781 ms.	
+00:51.274.497	Info	searchd (216)	com.apple.corespotlight	query	Canceled task:0x1051bd260 (0 jobs)	
+00:51.274.500	Debug	contentlinkingd (1596)	com.apple.corespotlight	query	[QoS] 25 qid=22 didReturnResults	
+00:51.274.575	Debug	searchd (216)	com.apple.corespotlight	query	Schedule wakeup, identifier:<private>, forced:NO, canceled:YES	
+00:51.274.604	Default	contentlinkingd (1596)	com.apple.synapse	BacklinkMonitor	BacklinkMonitorFilterOperation 0xd4c0e4780: Finished, notifying delegate.	
+00:51.274.625	Default	contentlinkingd (1596)	com.apple.synapse	BacklinkMonitor	BacklinkService: operation finished 0xd4c0e4780 for activity info 0xd4c035080.	
+00:51.274.692	Debug	searchd (216)	com.apple.corespotlight	query	Canceling query results queue, identifier:<private>	
+00:51.274.775	Debug	searchd (216)	com.apple.spotlightindex	Query	Canceling result queue	
+00:51.274.836	Debug	searchd (216)	com.apple.corespotlight	query	Schedule wakeup, identifier:<private>, forced:YES, canceled:YES	
+00:51.274.889	Debug	searchd (216)	com.apple.corespotlight	query	Released query results queue, identifier:<private>	
+00:51.274.990	Debug	searchd (216)	com.apple.CoreAnalytics.event	send	<private> <private>	
+00:51.275.056	Debug	searchd (216)	com.apple.CoreAnalytics.event	send	<private> <private>	
+00:51.275.095	Debug	searchd (216)	com.apple.CoreAnalytics.event	send	<private> <private>	
+00:51.275.113	Debug	analyticsd (110)	com.apple.analyticsd.critical	xform_cache	[Transform Cache] Cache performance for input event <private>: { transforms: 1, hit: 1, loaded: 0, inserted: 0}	
+00:51.275.137	Debug	searchd (216)	com.apple.CoreAnalytics.event	send	<private> <private>	
+00:51.275.271	Debug	analyticsd (110)	com.apple.analyticsd.critical	db	[Config Store] Retrieving modify-eventdefs for event with name '<private>'	
+00:51.276.072	Debug	analyticsd (110)	com.apple.analyticsd.critical	xform_cache	[Transform Cache] Cache performance for input event <private>: { transforms: 1, hit: 1, loaded: 0, inserted: 0}	
+00:51.276.168	Debug	analyticsd (110)	com.apple.analyticsd.critical	db	[Config Store] Retrieving modify-eventdefs for event with name '<private>'	
+00:51.276.786	Debug	analyticsd (110)	com.apple.analyticsd.critical	xform_cache	[Transform Cache] Cache performance for input event <private>: { transforms: 1, hit: 1, loaded: 0, inserted: 0}	
+00:51.276.872	Debug	analyticsd (110)	com.apple.analyticsd.critical	db	[Config Store] Retrieving modify-eventdefs for event with name '<private>'	
+00:51.277.421	Debug	analyticsd (110)	com.apple.analyticsd.critical	xform_cache	[Transform Cache] Cache performance for input event <private>: { transforms: 1, hit: 1, loaded: 0, inserted: 0}	
+00:51.277.556	Debug	analyticsd (110)	com.apple.analyticsd.critical	db	[Config Store] Retrieving modify-eventdefs for event with name '<private>'	
+00:51.278.104	Debug	analyticsd (110)	com.apple.analyticsd.critical	xform_cache	[Transform Cache] Cache performance for input event <private>: { transforms: 1, hit: 1, loaded: 0, inserted: 0}	
+00:51.278.193	Debug	analyticsd (110)	com.apple.analyticsd.critical	db	[Config Store] Retrieving modify-eventdefs for event with name '<private>'	
+00:51.278.820	Debug	analyticsd (110)	com.apple.analyticsd.critical	xform_cache	[Transform Cache] Cache performance for input event <private>: { transforms: 1, hit: 1, loaded: 0, inserted: 0}	
+00:51.278.899	Debug	analyticsd (110)	com.apple.analyticsd.critical	db	[Config Store] Retrieving modify-eventdefs for event with name '<private>'	
+00:51.279.473	Debug	analyticsd (110)	com.apple.analyticsd.critical	xform_cache	[Transform Cache] Cache performance for input event <private>: { transforms: 1, hit: 1, loaded: 0, inserted: 0}	
+00:51.279.556	Debug	analyticsd (110)	com.apple.analyticsd.critical	db	[Config Store] Retrieving modify-eventdefs for event with name '<private>'	
+00:51.280.110	Debug	analyticsd (110)	com.apple.analyticsd.critical	xform_cache	[Transform Cache] Cache performance for input event <private>: { transforms: 1, hit: 1, loaded: 0, inserted: 0}	
+00:51.280.173	Debug	analyticsd (110)	com.apple.analyticsd.critical	db	[Config Store] Retrieving modify-eventdefs for event with name '<private>'	
+00:51.280.688	Debug	analyticsd (110)	com.apple.analyticsd.critical	xform_cache	[Transform Cache] Cache performance for input event <private>: { transforms: 1, hit: 1, loaded: 0, inserted: 0}	
+00:51.280.791	Debug	analyticsd (110)	com.apple.analyticsd.critical	db	[Config Store] Retrieving modify-eventdefs for event with name '<private>'	
+00:51.281.310	Debug	analyticsd (110)	com.apple.analyticsd.critical	xform_cache	[Transform Cache] Cache performance for input event <private>: { transforms: 1, hit: 1, loaded: 0, inserted: 0}	
+00:51.320.358	Debug	backboardd (68)	com.apple.BackBoard	MotionEvents	Motion event usagePage:0xff0c usage:1 	
+00:51.320.514	Debug	backboardd (68)	com.apple.BackBoard	MotionEvents	Motion event usagePage:0xff0c usage:1 	
+00:51.320.538	Info	locationd (74)	com.apple.locationd.Motion	AOP	{"msg":"received AOP log", "log":72 Bytes}	
+00:51.320.594	Info	locationd (74)	com.apple.locationd.Motion	AOP	{"msg":"received AOP log", "log":72 Bytes}	
+00:51.320.923	Debug	backboardd (68)	com.apple.BackBoard	MotionEvents	Motion event usagePage:0xff0c usage:1 	
+00:51.321.014	Debug	backboardd (68)	com.apple.BackBoard	MotionEvents	Motion event usagePage:0xff0c usage:1 	
+00:51.321.027	Info	locationd (74)	com.apple.locationd.Motion	Motion	Type,<private>,motionStateUpdate:Motion,4,conf,2,Mounted,1,MountedConf,1,exitState,<private>,turn,<private>,isVehicular,<private>,isMoving,<private>,seq,<private>,motionTypeString,<private>,startTime,753,594,906.2555,timestamp,<private>,startTimeUL,<private>,nowUL,<private> -- caltype,<private>,vm,<private>,standing,<private>,machinefrequency,<private>,strokefrequency,<private>,strokeAmplitude,<private>,strokepower,<private>,meanAngleX,<private>,pushVectorMagnitude,<private>,rawMotionType,4,rawConf,2,rawMotionTypeString,<private>,vehicularFlags:0,motionHint,<private>,gpsHint,<private>,basebandHint,<private>,wifiHint,<private>,btHint,<private>,workoutDetectionType,0,workoutDetectionTime,0.0000,vehicularConfidence,0,workoutDetectionTimeUL,<private>,workoutEscalationTime,<private>,MotionYouth,0,YouthClassificationReason,0,averageALSLux,18,446,744,073,709,551,615,vehicleType,0,vehicleShortTermMean,<private>	
+00:51.321.125	Info	locationd (74)	com.apple.locationd.Motion	AOP	{"msg":"received AOP log", "log":72 Bytes}	
+00:51.321.149	Debug	locationd (74)	com.apple.locationd.Position	Outdoor	Activity,context,<private>,startTime,<private>,type,<private>,standing,<private>,angeX,<private>,vectorMag,<private>,strokeAmp,<private>,strokePwr,<private>,strokeFreq,<private>,machineFreq,<private>,pushVectorMag,<private>,epochType,<private>	
+00:51.321.172	Debug	locationd (74)	com.apple.locationd.Motion	Motion	MotionState,Motion,From,<private>,To,<private>,conf,<private>,Mounted,From,<private>,To,<private>,conf,<private>,tilt,<private>,exitC,<private>,exitTime,<private>,startTime,<private>,timestamp,<private>,standing,<private>,rawMotionType,<private>,rawConfidence,<private>,motionHint,<private>,bbHint,<private>,wifiHint,<private>,btHint,<private>,gpsHint,<private>,vehicleType,<private>,tag,workoutDetectionType,<private>,workoutDetectionTime,<private>,workoutEscalationTime,<private>, YouthMotionState, <private>, <private>
+	
+00:51.321.191	Info	locationd (74)	com.apple.locationd.Position	Outdoor	Received motion state, startTime, <private>, activityType, <private>	
+00:51.321.221	Debug	locationd (74)	com.apple.locationd.Core	Notifier	{"msg":"notifyClientsWithData", "event":activity, "name":CLMotionState, "notification":0}	
+00:51.321.269	Debug	locationd (74)	com.apple.locationd.Position	Outdoor	Steps/activity sync, updateTime, <private>, hasSteps, <private>, stepCount, <private>, stepStartTime, <private>, hasActivity, <private>, activityType, <private>, activityStartTime, <private>	
+00:51.321.311	Info	locationd (74)	com.apple.locationd.Motion	IndoorOutdoor	IndoorOutdoor,ALSScan,context,<private>,lux,156.6060,t,753,594,905.6829	
+00:51.321.326	Debug	locationd (74)	com.apple.locationd.Core	Notifier	{"msg":"notifyClientsWithData", "event":activity, "name":CLMotionState, "notification":1}	
+00:51.321.355	Info	locationd (74)	com.apple.locationd.Position	Outdoor	ALSDaylightDetectorEstimate,lux,<private>,sunElevation,<private>,lowCnt,<private>,medCnt,<private>,highCnt,<private>,conf,<private>,confFilt,<private>,startTime,<private>, isAstronomicalDaytime, <private>	
+00:51.321.361	Debug	locationd (74)	com.apple.locationd.Core	Notifier	{"msg":"CLWifiLocationProvider::onMotionNotification", "event":activity, "this":"35,309,686,784"}	
+00:51.321.411	Debug	locationd (74)	com.apple.locationd.Core	Notifier	{"msg":"CLBarometricAltimeter::onMotionActivityNotification", "event":activity, "this":"35,305,742,336"}	
+00:51.321.466	Debug	locationd (74)	com.apple.locationd.Core	Notifier	{"msg":"CLGnssRefPosMaintenance::onMotionActivityNotification", "event":activity, "this":"35,306,950,400"}	
+00:51.321.480	Info	locationd (74)	com.apple.locationd.Motion	IndoorOutdoor	IndoorOutdoor,ALSScan,context,<private>,lux,156.6060,t,753,594,905.6834	
+00:51.321.519	Debug	locationd (74)	com.apple.locationd.Core	Notifier	{"msg":"CLMotionActivitySubscription::onMotionActivityNotification", "event":activity, "this":"35,309,864,576"}	
+00:51.321.534	Debug	locationd (74)	com.apple.locationd.Core	Notifier	{"msg":"notifyClientsWithData", "event":activity, "name":CLMotionState, "notification":2}	
+00:51.321.540	Debug	locationd (74)	com.apple.locationd.Core	Notifier	{"msg":"CLNetworkLocationProvider::onMotionNotification", "event":activity, "this":"35,306,728,448"}	
+00:51.321.573	Info	locationd (74)	com.apple.locationd.Position	Position	BaroAlt,motionActNoti,Type,3,Confidence,2	
+00:51.321.626	Debug	locationd (74)	com.apple.locationd.Position	WifiPosition	@WifiLogic, entry, motion	
+00:51.321.701	Info	locationd (74)	com.apple.locationd.Position	Outdoor	ALSDaylightDetectorEstimate,lux,<private>,sunElevation,<private>,lowCnt,<private>,medCnt,<private>,highCnt,<private>,conf,<private>,confFilt,<private>,startTime,<private>, isAstronomicalDaytime, <private>	

@@ -1,0 +1,1000 @@
+Y:                   0.000000
+Z:                   0.000000
+TiltX:               0.000000
+TiltY:               0.000000
+ChildEvents:        
+    -----------------------------------------------------------------------
+    ValueType:           Absolute
+    Event	
+00:19.549.682	Debug	backboardd (68)	com.apple.Multitouch	Plugin	getProperty displayUUID = 	
+00:19.549.829	Default	backboardd (68)	com.apple.BackBoard	TouchEvents	contact 2 presence: none	
+00:19.549.920	Debug	backboardd (68)	com.apple.BackBoard	TouchEvents	contacts now [pathIndex: 2; touchIdentifier: 168; none; locked; destinations: ((hitTest); contextID: 0xDD7F108F; clientPort: 0x57B23; inheritedSceneHostSettings: <identifier: sceneID:com.apple.mobileslideshow-default; touchBehavior: foreground>, (touchStream|filterDetachedTouches); contextID: 0x92E23885; clientPort: 0x2E07)]	
+00:19.549.950	Debug	backboardd (68)	com.apple.BackBoard	TouchDeliveryPolicy	host dd7f108f -> child 0	
+00:19.549.970	Debug	backboardd (68)	com.apple.BackBoard	TouchDeliveryPolicy	host 295d6cd2 -> child dd7f108f	
+00:19.549.999	Debug	backboardd (68)	com.apple.BackBoard	TouchDeliveryPolicy	295d6cd2 -> dd7f108f: 0	
+00:19.550.028	Debug	backboardd (68)	com.apple.BackBoard	TouchDeliveryPolicy	policies: combination: []	
+00:19.550.062	Debug	backboardd (68)	com.apple.BackBoard	TouchDeliveryPolicy	TDPS allow send to (hitTest); contextID: 0xDD7F108F; clientPort: 0x57B23; inheritedSceneHostSettings: <identifier: sceneID:com.apple.mobileslideshow-default; touchBehavior: foreground>	
+00:19.550.102	Debug	backboardd (68)	com.apple.BackBoard	TouchEvents	Adding hit test result: dd7f108f 57b23 2	
+00:19.550.175	Debug	backboardd (68)	com.apple.BackBoard	TouchEvents	destinations are now {
+    DD38852F: (hitTest); contextID: 0xDD38852F; clientPort: 0x2E07,
+    DD7F108F: (hitTest); contextID: 0xDD7F108F; clientPort: 0x57B23; inheritedSceneHostSettings: <identifier: sceneID:com.apple.mobileslideshow-default; touchBehavior: foreground>,
+    92E23885: (touchStream|filterDetachedTouches); contextID: 0x92E23885; clientPort: 0x2E07,
+    295D6CD2: (hitTest); contextID: 0x295D6CD2; clientPort: 0x2E07
+}	
+00:19.550.203	Debug	backboardd (68)	com.apple.BackBoard	TouchEvents	touchstreams: start sending isFirstDown:0 lifted:1	
+00:19.550.308	Debug	backboardd (68)	com.apple.BackBoard	TouchEvents	adding latent: <BKTouchDestination: 0xdb4fe3450; (hitTest); contextID: 0xDD7F108F; clientPort: 0x57B23; inheritedSceneHostSettings: <identifier: sceneID:com.apple.mobileslideshow-default; touchBehavior: foreground>; externalReferences: 1>	
+00:19.550.333	Debug	backboardd (68)	com.apple.BackBoard	TouchEvents	stop tracking path:2	
+00:19.550.385	Debug	backboardd (68)	com.apple.BackBoard	TouchEvents	removing destination: <BKTouchDestination: 0xdb4fe3300; (hitTest); contextID: 0xDD38852F; clientPort: 0x2E07>	
+00:19.550.426	Debug	backboardd (68)	com.apple.BackBoard	TouchEvents	removing destination: <BKTouchDestination: 0xdb4fe3450; (hitTest); contextID: 0xDD7F108F; clientPort: 0x57B23; inheritedSceneHostSettings: <identifier: sceneID:com.apple.mobileslideshow-default; touchBehavior: foreground>>	
+00:19.550.458	Debug	backboardd (68)	com.apple.BackBoard	TouchEvents	removing destination: <BKTouchDestination: 0xdb4fe0090; (hitTest); contextID: 0x295D6CD2; clientPort: 0x2E07>	
+00:19.550.491	Debug	backboardd (68)	com.apple.BackBoard	TouchEvents	contacts:100000a37 - []	
+00:19.550.590	Debug	backboardd (68)	com.apple.BackBoard	TouchEvents	Digitizer token: 0x92E23885; up; gen: 122118; subevents: [
+    path: 2; {1016, 2671}; up; touchID: 0xA8; {1016, 2671},
+    :: VendorDefined page:FF1C usage:20
+]	
+00:19.550.779	Debug	backboardd (68)	com.apple.BackBoard	SendHIDEvent	#BKSendHIDEvent: Sending event to client connection: IOHIDEventSystemConnection uuid:A6F1A030-4E43-40BA-8832-20C847FA7943 pid:34 process:SpringBoard type:Passive entitlements:0x18 caller:BackBoardServices: <redacted> + 280 attributes:{
+    HighFrequency = 1;
+    bundleID = "com.apple.springboard";
+    pid = 34;
+} state:0x0 events:6331 mask:0x14c08 dropped:0 dropStatus:0 droppedMask:0x0 lastDroppedTime:NONE	
+00:19.550.879	Debug	backboardd (68)	com.apple.BackBoard	TouchEvents	Digitizer token: 0xDD7F108F; up; sgp; behavior: foreground; gen: 122118; subevents: [
+    path: 2; {338.66665649414062, 890.33332824707031}; up; touchID: 0xA8; {338.66666666666663, 890.33333333333326},
+    :: VendorDefined page:FF1C usage:20
+]	
+00:19.550.963	Debug	backboardd (68)	com.apple.BackBoard	SendHIDEvent	#BKSendHIDEvent: Sending event to client connection: IOHIDEventSystemConnection uuid:5500C6E7-1569-4DA1-AE39-BE761D585905 pid:1680 process:Photos type:Passive entitlements:0x0 caller:BackBoardServices: <redacted> + 280 attributes:{
+    HighFrequency = 1;
+    bundleID = "com.apple.mobileslideshow";
+    pid = 1680;
+} state:0x0 events:1269 mask:0x800 dropped:0 dropStatus:0 droppedMask:0x0 lastDroppedTime:NONE	
+00:19.551.085	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[4]: _plugInEnabled=1	
+00:19.551.107	Debug	backboardd (68)	com.apple.BackBoard	TouchDeliveryObserver	touch a8 sent to destination pid:1,680	
+00:19.551.138	Debug	backboardd (68)	com.apple.BackBoard	TouchDeliveryObserver	post update for touch:0 to pid:34	
+00:19.551.142	Debug	backboardd (68)	com.apple.CoreBrightness.CBDigitizerFilter	lux	Multitouch event - X: 5,608.8047, Y: 14,740.8311, range: 0.0000, minor r: 0.0000, major r: 0.0000, touch: 0, ALS[1] obstruction undetected	
+00:19.551.173	Debug	backboardd (68)	com.apple.CoreBrightness.CBDigitizerFilter	lux	Multitouch event - X: 0.0000, Y: 0.0000, range: 0.0000, minor r: 0.0000, major r: 0.0000, touch: 0, ALS[1] obstruction undetected	
+00:19.551.211	Debug	backboardd (68)	com.apple.BackBoard	TouchDeliveryObserver	post updates:[<upEvent; pid: 1680; contextID: 3716092047>] to:SpringBoard.34	
+00:19.551.261	Debug	backboardd (68)	com.apple.CoreBrightness.CBDigitizerFilter	color	Multitouch event - X: 5,608.8047, Y: 14,740.8311, range: 0.0000, minor r: 0.0000, major r: 0.0000, touch: 0, ALS[1] obstruction undetected	
+00:19.551.293	Debug	backboardd (68)	com.apple.CoreBrightness.CBDigitizerFilter	color	Multitouch event - X: 0.0000, Y: 0.0000, range: 0.0000, minor r: 0.0000, major r: 0.0000, touch: 0, ALS[1] obstruction undetected	
+00:19.551.488	Default	mDNSResponder (206)	com.apple.mDNSResponder	mDNS	[A(38fa3ecb, abad23aa)] Sent a previous IPv4 mDNS response over multicast	
+00:19.551.568	Debug	SpringBoard (34)	com.apple.BackBoard	TouchDeliveryObserver	update: received touch event update <BKSTouchDeliveryUpdate: 0x303679ca0>	
+00:19.551.691	Debug	SpringBoard (34)	com.apple.BackBoard	TouchDeliveryObserver	update: up to <SBDisplayAppInteractionEventSource: 0x3016b9770>	
+00:19.551.791	Default	mDNSResponder (206)	com.apple.mDNSResponder	mDNS	[A(38fa3ecb, 17c4a526)] Sent a previous IPv6 mDNS response over multicast	
+00:19.551.976	Default	mDNSResponder (206)	com.apple.mDNSResponder	mDNS	[A(3f6e43c, 1d26dfc9)] Sent a previous IPv6 mDNS response over multicast	
+00:19.552.166	Default	mDNSResponder (206)	com.apple.mDNSResponder	mDNS	[A(501f2e9a, b67a162c)] Sent 640-byte IPv4 mDNS response over multicast via en3/28 -- 8400, counts: c00000005 <private>	
+00:19.552.258	Default	mDNSResponder (206)	com.apple.mDNSResponder	mDNS	[A(501f2e9a, 9466a8ac)] Sent a previous IPv6 mDNS response over multicast via en3/28	
+00:19.552.990	Default	SpringBoard (34)	com.apple.UIKit	EventDispatch	Evaluating dispatch of UIEvent: 0x300f15420; type: 0; subtype: 0; backing type: 11; shouldSend: 1; ignoreInteractionEvents: 0, systemGestureStateChange: 0	
+00:19.553.029	Default	Photos (1680)	com.apple.UIKit	EventDispatch	Evaluating dispatch of UIEvent: 0x302085500; type: 0; subtype: 0; backing type: 11; shouldSend: 1; ignoreInteractionEvents: 0, systemGestureStateChange: 0	
+00:19.553.076	Default	Photos (1680)	com.apple.UIKit	EventDispatch	Sending UIEvent type: 0; subtype: 0; to windows: 1	
+00:19.553.080	Default	SpringBoard (34)	com.apple.UIKit	EventDispatch	Sending UIEvent type: 0; subtype: 0; to windows: 1	
+00:19.553.102	Default	Photos (1680)	com.apple.UIKit	EventDispatch	Sending UIEvent type: 0; subtype: 0; to window: <UIWindow: 0x10422cc80>; contextId: 0xdd7f108f	
+00:19.553.107	Default	SpringBoard (34)	com.apple.UIKit	EventDispatch	Sending UIEvent type: 0; subtype: 0; to window: <_UISystemGestureWindow: 0x662261400>; contextId: 0x92e23885	
+00:19.553.513	Debug	SpringBoard (34)	com.apple.UIKit	UISystemGesture	Exclusive touch began -- moving to dispatch mode:sending	
+00:19.553.566	Debug	SpringBoard (34)	com.apple.UIKit	UISystemGesture	Exclusive touch ended	
+00:19.553.729	Debug	backboardd (68)	com.apple.BackBoard	TouchEvents	System gestures no longer possible (<0xdb4da25a0> - ) causedByTouchStream: <BKDigitizerTouchStreamClient: 0xdb50449b0; pid: 34(v59); SpringBoard; system-gestures; creationTime: 13.4751; touchDestination: <BKTouchDestination: 0xdb4f8bae0; (touchStream|filterDetachedTouches); contextID: 0x92E23885; clientPort: 0x2E07; externalReferences: 1>; valid: YES; dispatchMode: sending; ambiguityRecommendation: process>	
+00:19.553.764	Debug	backboardd (68)	com.apple.BackBoard	TouchEvents	SGP: Sending no longer possible to latent client: dd7f108f	
+00:19.553.887	Debug	backboardd (68)	com.apple.BackBoard	SendHIDEvent	#BKSendHIDEvent: Sending event to client connection: IOHIDEventSystemConnection uuid:5500C6E7-1569-4DA1-AE39-BE761D585905 pid:1680 process:Photos type:Passive entitlements:0x0 caller:BackBoardServices: <redacted> + 280 attributes:{
+    HighFrequency = 1;
+    bundleID = "com.apple.mobileslideshow";
+    pid = 1680;
+} state:0x0 events:1270 mask:0x800 dropped:0 dropStatus:0 droppedMask:0x0 lastDroppedTime:NONE	
+00:19.554.002	Debug	backboardd (68)	com.apple.BackBoard	TouchEvents	sg transition (sending, defer) -> (sending, process) somethingDidChange:1 didNotify:0	
+00:19.554.261	Debug	Photos (1680)	com.apple.photos.ui	UI	[ImageModulation] Asked <private> for its presentedVC:  to determine effectiveHDRFocus: 1.0000	
+00:19.554.305	Debug	Photos (1680)	com.apple.photos.ui	UI	[ImageModulation] Asked <private> for its presentedVC: <private> to determine effectiveHDRFocus: 1.0000	
+00:19.557.205	Debug	backboardd (68)	com.apple.Multitouch	Plugin	Processing SA Frame	
+00:19.557.423	Debug	backboardd (68)	com.apple.SensingAlgs	General	EventGenerationStep:  New P2 F2 stage=0 not in range -> skipping	
+00:19.557.604	Debug	backboardd (68)	com.apple.SensingAlgs	General	EventGenerationStep:  New P2 F2 stage=0 not in range -> skipping	
+00:19.560.620	Default	Photos (1680)	com.apple.UIKit	BackgroundTask	Will add backgroundTask with taskName: <private>, expirationHandler: <__NSGlobalBlock__: 0x1fc56a210>	
+00:19.560.696	Default	Photos (1680)	com.apple.UIKit	BackgroundTask	Creating new assertion because there is no existing background assertion.	
+00:19.560.726	Default	Photos (1680)	com.apple.UIKit	BackgroundTask	Creating new background assertion	
+00:19.560.819	Default	Photos (1680)	com.apple.UIKit	BackgroundTask	Created new background assertion <BKSProcessAssertion: 0x303f1e170>	
+00:19.560.888	Info	Photos (1680)	com.apple.runningboard	assertion	Acquiring assertion: <RBSAssertionDescriptor| "Shared Background Assertion 32 for com.apple.mobileslideshow" ID:(null) target:1680>	
+00:19.561.115	Info	runningboardd (33)	com.apple.runningboard	message	PERF: Received request from [app<com.apple.mobileslideshow(9123D57A-D0E6-47C6-938F-C289AA99CB36)>:1680] (euid 501, auid 501) (persona 9123D57A-D0E6-47C6-938F-C289AA99CB36): acquireAssertionWithDescriptor:error:	
+00:19.561.399	Default	runningboardd (33)	com.apple.runningboard	ttl	Acquiring assertion targeting [app<com.apple.mobileslideshow(9123D57A-D0E6-47C6-938F-C289AA99CB36)>:1680] from originator [app<com.apple.mobileslideshow(9123D57A-D0E6-47C6-938F-C289AA99CB36)>:1680] with description <RBSAssertionDescriptor| "Shared Background Assertion 32 for com.apple.mobileslideshow" ID:33-1680-9662 target:1680 attributes:[
+	<RBSLegacyAttribute| requestedReason:FinishTask reason:FinishTask flags:( PreventTaskSuspend )>,
+	<RBSAcquisitionCompletionAttribute| policy:AfterValidation>
+	]>	
+00:19.561.687	Default	runningboardd (33)	com.apple.runningboard	ttl	Assertion 33-1680-9662 (target:[app<com.apple.mobileslideshow(9123D57A-D0E6-47C6-938F-C289AA99CB36)>:1680]) will be created as inactive as start-time-defining assertions exist	
+00:19.561.858	Debug	runningboardd (33)	com.apple.runningboard	monitor	BEGIN suppressing state updates for app<com.apple.mobileslideshow(9123D57A-D0E6-47C6-938F-C289AA99CB36)>	
+00:19.561.886	Debug	Photos (1680)	com.apple.runningboard	assertion	Adding assertion 33-1680-9662 to dictionary	
+00:19.561.899	Debug	runningboardd (33)	com.apple.runningboard	assertion	Adding assertion 33-1680-9662 (target:[app<com.apple.mobileslideshow(9123D57A-D0E6-47C6-938F-C289AA99CB36)>:1680])	
+00:19.561.902	Debug	runningboardd (33)	com.apple.runningboard	monitor	Incrementing suppression state to 1 for app<com.apple.mobileslideshow(9123D57A-D0E6-47C6-938F-C289AA99CB36)>	
+00:19.561.929	Default	Photos (1680)	com.apple.UIKit	BackgroundTask	Incrementing reference count for background assertion <private>	
+00:19.561.938	Debug	runningboardd (33)	com.apple.runningboard	assertion	Now tracking 79 assertions (1680 holds 3).	
+00:19.561.965	Info	runningboardd (33)	com.apple.runningboard	assertion	app<com.apple.mobileslideshow(9123D57A-D0E6-47C6-938F-C289AA99CB36)> is now targeted by 7 assertions	
+00:19.561.990	Default	Photos (1680)	com.apple.UIKit	BackgroundTask	Created background task <private>.	
+00:19.562.082	Info	runningboardd (33)	com.apple.runningboard	assertion	Removing 0 assertions	
+00:19.562.256	Debug	runningboardd (33)	com.apple.runningboard	assertion	Updating events for assertion: 33-1680-9662 (target:[app<com.apple.mobileslideshow(9123D57A-D0E6-47C6-938F-C289AA99CB36)>:1680])	
+00:19.562.257	Info	runningboardd (33)	com.apple.runningboard	assertion	Finished acquiring assertion 33-1680-9662 (target:[app<com.apple.mobileslideshow(9123D57A-D0E6-47C6-938F-C289AA99CB36)>:1680])	
+00:19.562.424	Debug	runningboardd (33)	com.apple.runningboard	monitor	Decrementing suppression state to 0 for app<com.apple.mobileslideshow(9123D57A-D0E6-47C6-938F-C289AA99CB36)>	
+00:19.562.679	Debug	runningboardd (33)	com.apple.runningboard	monitor	END suppressing state updates for app<com.apple.mobileslideshow(9123D57A-D0E6-47C6-938F-C289AA99CB36)>	
+00:19.562.779	Debug	runningboardd (33)	com.apple.runningboard	assertion	Removing events for context: 33-1680-9662 (target:[app<com.apple.mobileslideshow(9123D57A-D0E6-47C6-938F-C289AA99CB36)>:1680])	
+00:19.563.607	Default	Photos (1680)	com.apple.UIKit	BackgroundTask	Ending background task with UIBackgroundTaskIdentifier: 72	
+00:19.563.669	Default	Photos (1680)	com.apple.UIKit	BackgroundTask	Ending task with identifier 72 and description: <private>, _expireHandler: <__NSGlobalBlock__: 0x1fc56a210>	
+00:19.563.709	Default	Photos (1680)	com.apple.UIKit	BackgroundTask	Decrementing reference count for assertion <private> (used by background task with identifier 72: <private>)	
+00:19.563.743	Default	Photos (1680)	com.apple.UIKit	BackgroundTask	Will invalidate assertion: <BKSProcessAssertion: 0x303f1e170> for task identifier: 72	
+00:19.563.875	Info	runningboardd (33)	com.apple.runningboard	message	PERF: Received request from [app<com.apple.mobileslideshow(9123D57A-D0E6-47C6-938F-C289AA99CB36)>:1680] (euid 501, auid 501) (persona 9123D57A-D0E6-47C6-938F-C289AA99CB36): async_invalidateAssertionWithIdentifier:	
+00:19.563.945	Default	runningboardd (33)	com.apple.runningboard	ttl	Invalidating assertion 33-1680-9662 (target:[app<com.apple.mobileslideshow(9123D57A-D0E6-47C6-938F-C289AA99CB36)>:1680]) from originator [app<com.apple.mobileslideshow(9123D57A-D0E6-47C6-938F-C289AA99CB36)>:1680]	
+00:19.564.854	Default	Photos (1680)	com.apple.TipKit	TipKit • Analytics	<private>	
+00:19.565.127	Debug	Photos (1680)	com.apple.CoreAnalytics.event	send	<private> <private>	
+00:19.565.434	Debug	analyticsd (110)	com.apple.analyticsd.critical	db	[Config Store] Retrieving transforms for event with name '<private>'	
+00:19.565.878	Default	Photos (1680)	com.apple.UIKit	BackgroundTask	Will add backgroundTask with taskName: <private>, expirationHandler: <__NSGlobalBlock__: 0x1fc56a210>	
+00:19.565.937	Default	Photos (1680)	com.apple.UIKit	BackgroundTask	Creating new assertion because there is no existing background assertion.	
+00:19.565.957	Default	Photos (1680)	com.apple.UIKit	BackgroundTask	Creating new background assertion	
+00:19.566.006	Default	Photos (1680)	com.apple.UIKit	BackgroundTask	Created new background assertion <BKSProcessAssertion: 0x3038eb3e0>	
+00:19.566.048	Info	Photos (1680)	com.apple.runningboard	assertion	Acquiring assertion: <RBSAssertionDescriptor| "Shared Background Assertion 33 for com.apple.mobileslideshow" ID:(null) target:1680>	
+00:19.566.181	Info	runningboardd (33)	com.apple.runningboard	message	PERF: Received request from [app<com.apple.mobileslideshow(9123D57A-D0E6-47C6-938F-C289AA99CB36)>:1680] (euid 501, auid 501) (persona 9123D57A-D0E6-47C6-938F-C289AA99CB36): acquireAssertionWithDescriptor:error:	
+00:19.566.353	Default	runningboardd (33)	com.apple.runningboard	ttl	Acquiring assertion targeting [app<com.apple.mobileslideshow(9123D57A-D0E6-47C6-938F-C289AA99CB36)>:1680] from originator [app<com.apple.mobileslideshow(9123D57A-D0E6-47C6-938F-C289AA99CB36)>:1680] with description <RBSAssertionDescriptor| "Shared Background Assertion 33 for com.apple.mobileslideshow" ID:33-1680-9663 target:1680 attributes:[
+	<RBSLegacyAttribute| requestedReason:FinishTask reason:FinishTask flags:( PreventTaskSuspend )>,
+	<RBSAcquisitionCompletionAttribute| policy:AfterValidation>
+	]>	
+00:19.566.448	Default	runningboardd (33)	com.apple.runningboard	ttl	Assertion 33-1680-9663 (target:[app<com.apple.mobileslideshow(9123D57A-D0E6-47C6-938F-C289AA99CB36)>:1680]) will be created as inactive as start-time-defining assertions exist	
+00:19.566.574	Debug	runningboardd (33)	com.apple.runningboard	monitor	BEGIN suppressing state updates for app<com.apple.mobileslideshow(9123D57A-D0E6-47C6-938F-C289AA99CB36)>	
+00:19.566.605	Debug	runningboardd (33)	com.apple.runningboard	assertion	Adding assertion 33-1680-9663 (target:[app<com.apple.mobileslideshow(9123D57A-D0E6-47C6-938F-C289AA99CB36)>:1680])	
+00:19.566.613	Debug	runningboardd (33)	com.apple.runningboard	monitor	Incrementing suppression state to 1 for app<com.apple.mobileslideshow(9123D57A-D0E6-47C6-938F-C289AA99CB36)>	
+00:19.566.643	Debug	runningboardd (33)	com.apple.runningboard	assertion	Now tracking 80 assertions (1680 holds 4).	
+00:19.566.648	Debug	Photos (1680)	com.apple.runningboard	assertion	Adding assertion 33-1680-9663 to dictionary	
+00:19.566.672	Info	runningboardd (33)	com.apple.runningboard	assertion	app<com.apple.mobileslideshow(9123D57A-D0E6-47C6-938F-C289AA99CB36)> is now targeted by 8 assertions	
+00:19.566.690	Default	Photos (1680)	com.apple.UIKit	BackgroundTask	Incrementing reference count for background assertion <private>	
+00:19.566.733	Default	Photos (1680)	com.apple.UIKit	BackgroundTask	Created background task <private>.	
+00:19.566.743	Info	runningboardd (33)	com.apple.runningboard	assertion	Removing 0 assertions	
+00:19.566.800	Info	runningboardd (33)	com.apple.runningboard	assertion	Finished acquiring assertion 33-1680-9663 (target:[app<com.apple.mobileslideshow(9123D57A-D0E6-47C6-938F-C289AA99CB36)>:1680])	
+00:19.566.866	Debug	runningboardd (33)	com.apple.runningboard	assertion	Updating events for assertion: 33-1680-9663 (target:[app<com.apple.mobileslideshow(9123D57A-D0E6-47C6-938F-C289AA99CB36)>:1680])	
+00:19.566.900	Debug	runningboardd (33)	com.apple.runningboard	assertion	Removing events for context: 33-1680-9663 (target:[app<com.apple.mobileslideshow(9123D57A-D0E6-47C6-938F-C289AA99CB36)>:1680])	
+00:19.566.960	Debug	runningboardd (33)	com.apple.runningboard	monitor	Decrementing suppression state to 0 for app<com.apple.mobileslideshow(9123D57A-D0E6-47C6-938F-C289AA99CB36)>	
+00:19.566.991	Debug	runningboardd (33)	com.apple.runningboard	monitor	END suppressing state updates for app<com.apple.mobileslideshow(9123D57A-D0E6-47C6-938F-C289AA99CB36)>	
+00:19.567.688	Default	Photos (1680)	com.apple.UIKit	BackgroundTask	Ending background task with UIBackgroundTaskIdentifier: 73	
+00:19.567.745	Default	Photos (1680)	com.apple.UIKit	BackgroundTask	Ending task with identifier 73 and description: <private>, _expireHandler: <__NSGlobalBlock__: 0x1fc56a210>	
+00:19.567.779	Default	Photos (1680)	com.apple.UIKit	BackgroundTask	Decrementing reference count for assertion <private> (used by background task with identifier 73: <private>)	
+00:19.567.818	Default	Photos (1680)	com.apple.UIKit	BackgroundTask	Will invalidate assertion: <BKSProcessAssertion: 0x3038eb3e0> for task identifier: 73	
+00:19.567.953	Info	runningboardd (33)	com.apple.runningboard	message	PERF: Received request from [app<com.apple.mobileslideshow(9123D57A-D0E6-47C6-938F-C289AA99CB36)>:1680] (euid 501, auid 501) (persona 9123D57A-D0E6-47C6-938F-C289AA99CB36): async_invalidateAssertionWithIdentifier:	
+00:19.568.033	Default	runningboardd (33)	com.apple.runningboard	ttl	Invalidating assertion 33-1680-9663 (target:[app<com.apple.mobileslideshow(9123D57A-D0E6-47C6-938F-C289AA99CB36)>:1680]) from originator [app<com.apple.mobileslideshow(9123D57A-D0E6-47C6-938F-C289AA99CB36)>:1680]	
+00:19.568.589	Default	Photos (1680)	com.apple.TipKit	TipKit • Analytics	<private>	
+00:19.568.738	Debug	Photos (1680)	com.apple.CoreAnalytics.event	send	<private> <private>	
+00:19.568.769	Default	Photos (1680)	com.apple.TipKit	TipKit • Analytics	<private>	
+00:19.568.872	Default	Photos (1680)	com.apple.TipKit	TipKit • Core	<private>	
+00:19.568.883	Debug	Photos (1680)	com.apple.CoreAnalytics.event	send	<private> <private>	
+00:19.569.656	Default	configd (43)	com.apple.IPConfiguration	Server	DHCP en3: ARP router: No leases to query for	
+00:19.569.830	Info	configd (43)	com.apple.IPConfiguration	Server	[en3] Transmit 300 byte packet xid 0x5c19804e to 255.255.255.255 [scope=0]	
+00:19.570.109	Default	Unknown (0)	kernel	Default	bpf0 attached to en3	
+00:19.570.511	Default	Unknown (0)	kernel	Default	bpf0 closed and detached from en3 fcount 0 dcount 0	
+00:19.570.569	Default	configd (43)	com.apple.IPConfiguration	Server	DHCP en3: INIT waiting at 24.1512 for 8.520,875	
+00:19.570.623	Debug	configd (43)	com.apple.IPConfiguration	Server	timer(dhcp-en3): 8.5209s	
+00:19.571.067	Debug	locationd (74)	com.apple.locationd.Core	Core	{"msg":"Sending app status change notification"}	
+00:19.571.172	Debug	locationd (74)	com.apple.locationd.Core	Notifier	{"msg":"notifyClientsWithData", "event":activity, "name":CLClientManager, "notification":3}	
+00:19.571.847	Default	Photos (1680)	com.apple.UIKit	BackgroundTask	Will add backgroundTask with taskName: <private>, expirationHandler: <__NSGlobalBlock__: 0x1fc56a210>	
+00:19.571.902	Default	Photos (1680)	com.apple.UIKit	BackgroundTask	Creating new assertion because there is no existing background assertion.	
+00:19.571.920	Default	Photos (1680)	com.apple.UIKit	BackgroundTask	Creating new background assertion	
+00:19.571.986	Default	Photos (1680)	com.apple.UIKit	BackgroundTask	Created new background assertion <BKSProcessAssertion: 0x3038e6120>	
+00:19.572.046	Info	Photos (1680)	com.apple.runningboard	assertion	Acquiring assertion: <RBSAssertionDescriptor| "Shared Background Assertion 34 for com.apple.mobileslideshow" ID:(null) target:1680>	
+00:19.572.168	Info	runningboardd (33)	com.apple.runningboard	message	PERF: Received request from [app<com.apple.mobileslideshow(9123D57A-D0E6-47C6-938F-C289AA99CB36)>:1680] (euid 501, auid 501) (persona 9123D57A-D0E6-47C6-938F-C289AA99CB36): acquireAssertionWithDescriptor:error:	
+00:19.572.338	Default	runningboardd (33)	com.apple.runningboard	ttl	Acquiring assertion targeting [app<com.apple.mobileslideshow(9123D57A-D0E6-47C6-938F-C289AA99CB36)>:1680] from originator [app<com.apple.mobileslideshow(9123D57A-D0E6-47C6-938F-C289AA99CB36)>:1680] with description <RBSAssertionDescriptor| "Shared Background Assertion 34 for com.apple.mobileslideshow" ID:33-1680-9664 target:1680 attributes:[
+	<RBSLegacyAttribute| requestedReason:FinishTask reason:FinishTask flags:( PreventTaskSuspend )>,
+	<RBSAcquisitionCompletionAttribute| policy:AfterValidation>
+	]>	
+00:19.572.433	Default	runningboardd (33)	com.apple.runningboard	ttl	Assertion 33-1680-9664 (target:[app<com.apple.mobileslideshow(9123D57A-D0E6-47C6-938F-C289AA99CB36)>:1680]) will be created as inactive as start-time-defining assertions exist	
+00:19.572.544	Debug	runningboardd (33)	com.apple.runningboard	monitor	BEGIN suppressing state updates for app<com.apple.mobileslideshow(9123D57A-D0E6-47C6-938F-C289AA99CB36)>	
+00:19.572.582	Debug	runningboardd (33)	com.apple.runningboard	assertion	Adding assertion 33-1680-9664 (target:[app<com.apple.mobileslideshow(9123D57A-D0E6-47C6-938F-C289AA99CB36)>:1680])	
+00:19.572.586	Debug	runningboardd (33)	com.apple.runningboard	monitor	Incrementing suppression state to 1 for app<com.apple.mobileslideshow(9123D57A-D0E6-47C6-938F-C289AA99CB36)>	
+00:19.572.604	Debug	Photos (1680)	com.apple.runningboard	assertion	Adding assertion 33-1680-9664 to dictionary	
+00:19.572.616	Debug	runningboardd (33)	com.apple.runningboard	assertion	Now tracking 81 assertions (1680 holds 5).	
+00:19.572.639	Info	runningboardd (33)	com.apple.runningboard	assertion	app<com.apple.mobileslideshow(9123D57A-D0E6-47C6-938F-C289AA99CB36)> is now targeted by 9 assertions	
+00:19.572.648	Default	Photos (1680)	com.apple.UIKit	BackgroundTask	Incrementing reference count for background assertion <private>	
+00:19.572.683	Default	Photos (1680)	com.apple.UIKit	BackgroundTask	Created background task <private>.	
+00:19.572.708	Info	runningboardd (33)	com.apple.runningboard	assertion	Removing 0 assertions	
+00:19.572.760	Info	runningboardd (33)	com.apple.runningboard	assertion	Finished acquiring assertion 33-1680-9664 (target:[app<com.apple.mobileslideshow(9123D57A-D0E6-47C6-938F-C289AA99CB36)>:1680])	
+00:19.572.815	Debug	runningboardd (33)	com.apple.runningboard	assertion	Updating events for assertion: 33-1680-9664 (target:[app<com.apple.mobileslideshow(9123D57A-D0E6-47C6-938F-C289AA99CB36)>:1680])	
+00:19.572.835	Debug	runningboardd (33)	com.apple.runningboard	monitor	Decrementing suppression state to 0 for app<com.apple.mobileslideshow(9123D57A-D0E6-47C6-938F-C289AA99CB36)>	
+00:19.572.845	Debug	runningboardd (33)	com.apple.runningboard	assertion	Removing events for context: 33-1680-9664 (target:[app<com.apple.mobileslideshow(9123D57A-D0E6-47C6-938F-C289AA99CB36)>:1680])	
+00:19.572.863	Debug	runningboardd (33)	com.apple.runningboard	monitor	END suppressing state updates for app<com.apple.mobileslideshow(9123D57A-D0E6-47C6-938F-C289AA99CB36)>	
+00:19.573.707	Default	Photos (1680)	com.apple.UIKit	BackgroundTask	Ending background task with UIBackgroundTaskIdentifier: 74	
+00:19.573.764	Default	Photos (1680)	com.apple.UIKit	BackgroundTask	Ending task with identifier 74 and description: <private>, _expireHandler: <__NSGlobalBlock__: 0x1fc56a210>	
+00:19.573.801	Default	Photos (1680)	com.apple.UIKit	BackgroundTask	Decrementing reference count for assertion <private> (used by background task with identifier 74: <private>)	
+00:19.573.834	Default	Photos (1680)	com.apple.UIKit	BackgroundTask	Will invalidate assertion: <BKSProcessAssertion: 0x3038e6120> for task identifier: 74	
+00:19.573.985	Info	runningboardd (33)	com.apple.runningboard	message	PERF: Received request from [app<com.apple.mobileslideshow(9123D57A-D0E6-47C6-938F-C289AA99CB36)>:1680] (euid 501, auid 501) (persona 9123D57A-D0E6-47C6-938F-C289AA99CB36): async_invalidateAssertionWithIdentifier:	
+00:19.574.063	Default	runningboardd (33)	com.apple.runningboard	ttl	Invalidating assertion 33-1680-9664 (target:[app<com.apple.mobileslideshow(9123D57A-D0E6-47C6-938F-C289AA99CB36)>:1680]) from originator [app<com.apple.mobileslideshow(9123D57A-D0E6-47C6-938F-C289AA99CB36)>:1680]	
+00:19.574.517	Default	Photos (1680)	com.apple.TipKit	TipKit • Analytics	<private>	
+00:19.574.968	Debug	Photos (1680)	com.apple.CoreAnalytics.event	send	<private> <private>	
+00:19.575.343	Default	Photos (1680)	com.apple.UIKit	BackgroundTask	Will add backgroundTask with taskName: <private>, expirationHandler: <__NSGlobalBlock__: 0x1fc56a210>	
+00:19.575.408	Default	Photos (1680)	com.apple.UIKit	BackgroundTask	Creating new assertion because there is no existing background assertion.	
+00:19.575.431	Default	Photos (1680)	com.apple.UIKit	BackgroundTask	Creating new background assertion	
+00:19.575.476	Default	Photos (1680)	com.apple.UIKit	BackgroundTask	Created new background assertion <BKSProcessAssertion: 0x303f1d720>	
+00:19.575.515	Info	Photos (1680)	com.apple.runningboard	assertion	Acquiring assertion: <RBSAssertionDescriptor| "Shared Background Assertion 35 for com.apple.mobileslideshow" ID:(null) target:1680>	
+00:19.575.675	Info	runningboardd (33)	com.apple.runningboard	message	PERF: Received request from [app<com.apple.mobileslideshow(9123D57A-D0E6-47C6-938F-C289AA99CB36)>:1680] (euid 501, auid 501) (persona 9123D57A-D0E6-47C6-938F-C289AA99CB36): acquireAssertionWithDescriptor:error:	
+00:19.575.770	Debug	Photos (1680)	com.apple.photos.Neutrino	ui	+[NUMediaView _proposedInsetsForInsets:contentSize:inFrame:centerContent:] - content is centered. input insets: <private>  content size: <private> inFrame: <private> result insets: <private>	
+00:19.575.778	Debug	analyticsd (110)	com.apple.analyticsd.critical	xform	[Transform Factory] No Transform aggregation period specified.	
+00:19.575.856	Default	runningboardd (33)	com.apple.runningboard	ttl	Acquiring assertion targeting [app<com.apple.mobileslideshow(9123D57A-D0E6-47C6-938F-C289AA99CB36)>:1680] from originator [app<com.apple.mobileslideshow(9123D57A-D0E6-47C6-938F-C289AA99CB36)>:1680] with description <RBSAssertionDescriptor| "Shared Background Assertion 35 for com.apple.mobileslideshow" ID:33-1680-9665 target:1680 attributes:[
+	<RBSLegacyAttribute| requestedReason:FinishTask reason:FinishTask flags:( PreventTaskSuspend )>,
+	<RBSAcquisitionCompletionAttribute| policy:AfterValidation>
+	]>	
+00:19.575.950	Default	runningboardd (33)	com.apple.runningboard	ttl	Assertion 33-1680-9665 (target:[app<com.apple.mobileslideshow(9123D57A-D0E6-47C6-938F-C289AA99CB36)>:1680]) will be created as inactive as start-time-defining assertions exist	
+00:19.576.092	Debug	runningboardd (33)	com.apple.runningboard	assertion	Adding assertion 33-1680-9665 (target:[app<com.apple.mobileslideshow(9123D57A-D0E6-47C6-938F-C289AA99CB36)>:1680])	
+00:19.576.101	Debug	runningboardd (33)	com.apple.runningboard	monitor	BEGIN suppressing state updates for app<com.apple.mobileslideshow(9123D57A-D0E6-47C6-938F-C289AA99CB36)>	
+00:19.576.126	Debug	Photos (1680)	com.apple.runningboard	assertion	Adding assertion 33-1680-9665 to dictionary	
+00:19.576.136	Debug	runningboardd (33)	com.apple.runningboard	assertion	Now tracking 82 assertions (1680 holds 6).	
+00:19.576.144	Debug	runningboardd (33)	com.apple.runningboard	monitor	Incrementing suppression state to 1 for app<com.apple.mobileslideshow(9123D57A-D0E6-47C6-938F-C289AA99CB36)>	
+00:19.576.172	Default	Photos (1680)	com.apple.UIKit	BackgroundTask	Incrementing reference count for background assertion <private>	
+00:19.576.179	Info	runningboardd (33)	com.apple.runningboard	assertion	app<com.apple.mobileslideshow(9123D57A-D0E6-47C6-938F-C289AA99CB36)> is now targeted by 10 assertions	
+00:19.576.211	Default	Photos (1680)	com.apple.UIKit	BackgroundTask	Created background task <private>.	
+00:19.576.249	Info	runningboardd (33)	com.apple.runningboard	assertion	Removing 0 assertions	
+00:19.576.296	Info	runningboardd (33)	com.apple.runningboard	assertion	Finished acquiring assertion 33-1680-9665 (target:[app<com.apple.mobileslideshow(9123D57A-D0E6-47C6-938F-C289AA99CB36)>:1680])	
+00:19.576.481	Debug	runningboardd (33)	com.apple.runningboard	assertion	Updating events for assertion: 33-1680-9665 (target:[app<com.apple.mobileslideshow(9123D57A-D0E6-47C6-938F-C289AA99CB36)>:1680])	
+00:19.576.516	Debug	runningboardd (33)	com.apple.runningboard	assertion	Removing events for context: 33-1680-9665 (target:[app<com.apple.mobileslideshow(9123D57A-D0E6-47C6-938F-C289AA99CB36)>:1680])	
+00:19.576.566	Debug	runningboardd (33)	com.apple.runningboard	monitor	Decrementing suppression state to 0 for app<com.apple.mobileslideshow(9123D57A-D0E6-47C6-938F-C289AA99CB36)>	
+00:19.576.599	Debug	runningboardd (33)	com.apple.runningboard	monitor	END suppressing state updates for app<com.apple.mobileslideshow(9123D57A-D0E6-47C6-938F-C289AA99CB36)>	
+00:19.576.908	Debug	Photos (1680)	com.apple.defaults	User Defaults	found no value for key PUPhotoEditAppearanceKey in CFPrefsSearchListSource<0x303794000> (Domain: com.apple.mobileslideshow, Container: (null))	
+00:19.577.046	Debug	Photos (1680)	com.apple.defaults	User Defaults	found no value for key PUPhotoEditAppearanceKey in CFPrefsSearchListSource<0x303794000> (Domain: com.apple.mobileslideshow, Container: (null))	
+00:19.577.047	Debug	analyticsd (110)	com.apple.analyticsd.critical	xform_cache	[Transform Cache] Cache miss. Loading <private> - <private> for input event <private>	
+00:19.577.498	Default	Photos (1680)	com.apple.UIKit	BackgroundTask	Ending background task with UIBackgroundTaskIdentifier: 75	
+00:19.577.574	Default	Photos (1680)	com.apple.UIKit	BackgroundTask	Ending task with identifier 75 and description: <private>, _expireHandler: <__NSGlobalBlock__: 0x1fc56a210>	
+00:19.577.609	Default	Photos (1680)	com.apple.UIKit	BackgroundTask	Decrementing reference count for assertion <private> (used by background task with identifier 75: <private>)	
+00:19.577.647	Default	Photos (1680)	com.apple.UIKit	BackgroundTask	Will invalidate assertion: <BKSProcessAssertion: 0x303f1d720> for task identifier: 75	
+00:19.577.976	Debug	analyticsd (110)	com.apple.analyticsd.critical	xform	[Transform Cache] Eviction callback for transform <private> - <private>	
+00:19.578.273	Info	runningboardd (33)	com.apple.runningboard	message	PERF: Received request from [app<com.apple.mobileslideshow(9123D57A-D0E6-47C6-938F-C289AA99CB36)>:1680] (euid 501, auid 501) (persona 9123D57A-D0E6-47C6-938F-C289AA99CB36): async_invalidateAssertionWithIdentifier:	
+00:19.578.332	Default	runningboardd (33)	com.apple.runningboard	ttl	Invalidating assertion 33-1680-9665 (target:[app<com.apple.mobileslideshow(9123D57A-D0E6-47C6-938F-C289AA99CB36)>:1680]) from originator [app<com.apple.mobileslideshow(9123D57A-D0E6-47C6-938F-C289AA99CB36)>:1680]	
+00:19.578.755	Default	Photos (1680)	com.apple.TipKit	TipKit • Analytics	<private>	
+00:19.578.892	Debug	Photos (1680)	com.apple.CoreAnalytics.event	send	<private> <private>	
+00:19.578.940	Default	Photos (1680)	com.apple.TipKit	TipKit • Analytics	<private>	
+00:19.579.007	Debug	analyticsd (110)	com.apple.analyticsd.critical	xform	[Transform Cache] Eviction callback for transform <private> - <private>	
+00:19.579.050	Default	Photos (1680)	com.apple.TipKit	TipKit • Core	<private>	
+00:19.579.100	Debug	thermalmonitord (64)	libIOReport.dylib	Default	iterated 1 channels with 1 iterations	
+00:19.579.222	Debug	Photos (1680)	com.apple.CoreAnalytics.event	send	<private> <private>	
+00:19.579.401	Debug	DTServiceHub (360)	DVTInstrumentsFoundation	Default	Data Size: 100,704, Rows Sent: 1,249, Stack depth: 2,901	
+00:19.580.402	Debug	Photos (1680)	com.apple.defaults	User Defaults	found no value for key PUPhotoEditAppearanceKey in CFPrefsSearchListSource<0x303794000> (Domain: com.apple.mobileslideshow, Container: (null))	
+00:19.580.478	Debug	Photos (1680)	com.apple.defaults	User Defaults	found no value for key PUPhotoEditAppearanceKey in CFPrefsSearchListSource<0x303794000> (Domain: com.apple.mobileslideshow, Container: (null))	
+00:19.580.507	Debug	thermalmonitord (64)	libIOReport.dylib	Default	iterated 14 channels with 14 iterations	
+00:19.580.826	Debug	Photos (1680)	com.apple.photos.Neutrino	ui	-[NUMediaView _transitionToInsets:duration:animationCurve:updateRenderContent:] - insets: <private>, duration: 0.2500, animationCurve: 0, updateRenderContent: YES	
+00:19.580.863	Debug	Photos (1680)	com.apple.photos.Neutrino	ui	+[NUMediaView _proposedInsetsForInsets:contentSize:inFrame:centerContent:] - content is not centered, so returning input insets: <private>	
+00:19.580.890	Debug	Photos (1680)	com.apple.photos.Neutrino	ui	-[NUMediaView _transitionToInsets:duration:animationCurve:updateRenderContent:] - size: <private>, offset: <private>	
+00:19.581.004	Debug	analyticsd (110)	com.apple.analyticsd.critical	xform	[Transform Cache] Eviction callback for transform <private> - <private>	
+00:19.581.156	Debug	Photos (1680)	com.apple.defaults	User Defaults	found no value for key PUPhotoEditAppearanceKey in CFPrefsSearchListSource<0x303794000> (Domain: com.apple.mobileslideshow, Container: (null))	
+00:19.581.330	Debug	Photos (1680)	com.apple.defaults	User Defaults	found no value for key disableVideoFilmstrip in CFPrefsSearchListSource<0x303794000> (Domain: com.apple.mobileslideshow, Container: (null))	
+00:19.581.454	Debug	Photos (1680)	com.apple.CFBundle	strings	Bundle: <private>, key: PHOTOEDIT_MUTE_BUTTON_AX_LABEL, value: , table: PhotosUI, localizationNames: , result: Mute	
+00:19.581.603	Debug	analyticsd (110)	com.apple.analyticsd.critical	xform	[Transform Factory] No Transform aggregation period specified.	
+00:19.581.644	Debug	analyticsd (110)	com.apple.analyticsd.critical	xform_cache	[Transform Cache] Cache miss. Loading <private> - <private> for input event <private>	
+00:19.581.815	Debug	Photos (1680)	com.apple.CFBundle	strings	Bundle: <private>, key: CONTEXT_MENU_LOADING, value: Loading…, table: Localizable, localizationNames: , result: Loading…	
+00:19.581.868	Debug	Photos (1680)	com.apple.CFBundle	strings	Bundle: <private>, key: PHOTOEDIT_SLOMO_RATE_MENU_TITLE, value: , table: PhotosUI, localizationNames: , result: PHOTOEDIT_SLOMO_RATE_MENU_TITLE	
+00:19.581.888	Debug	Photos (1680)	com.apple.CFBundle	strings	Bundle: <private>, key: PHOTOEDIT_SLOMO_RATE_MENU_TITLE, value: , table: PhotosUI-Edit, localizationNames: , result: PHOTOEDIT_SLOMO_RATE_MENU_TITLE	
+00:19.581.905	Debug	Photos (1680)	com.apple.CFBundle	strings	Bundle: <private>, key: PHOTOEDIT_SLOMO_RATE_MENU_TITLE, value: , table: PhotosUI-CTM, localizationNames: , result: PHOTOEDIT_SLOMO_RATE_MENU_TITLE	
+00:19.581.921	Debug	Photos (1680)	com.apple.CFBundle	strings	Bundle: <private>, key: PHOTOEDIT_SLOMO_RATE_MENU_TITLE, value: , table: PhotosUI-Styles, localizationNames: , result: PHOTOEDIT_SLOMO_RATE_MENU_TITLE	
+00:19.581.938	Debug	Photos (1680)	com.apple.CFBundle	strings	Bundle: <private>, key: PHOTOEDIT_SLOMO_RATE_MENU_TITLE, value: , table: PhotosUI-4K120, localizationNames: , result: Playback Speed	
+00:19.581.975	Debug	Photos (1680)	com.apple.CFBundle	strings	Bundle: <private>, key: PHOTOEDIT_LIVE_SWITCH, value: , table: PhotosUI, localizationNames: , result: Live	
+00:19.582.145	Debug	Photos (1680)	com.apple.CFBundle	strings	Bundle: <private>, key: PHOTOEDIT_MUTE_BUTTON_AX_VALUE_OFF, value: , table: PhotosUI, localizationNames: , result: Off	
+00:19.582.335	Debug	analyticsd (110)	com.apple.analyticsd.critical	xform	[Transform Factory] No Transform aggregation period specified.	
+00:19.582.369	Debug	analyticsd (110)	com.apple.analyticsd.critical	xform_cache	[Transform Cache] Cache miss. Loading <private> - <private> for input event <private>	
+00:19.582.754	Debug	analyticsd (110)	com.apple.analyticsd.critical	xform	[Transform Factory] No Transform aggregation period specified.	
+00:19.582.787	Debug	analyticsd (110)	com.apple.analyticsd.critical	xform_cache	[Transform Cache] Cache miss. Loading <private> - <private> for input event <private>	
+00:19.582.894	Debug	analyticsd (110)	com.apple.analyticsd.critical	xform	[Transform Cache] Eviction callback for transform <private> - <private>	
+00:19.583.987	Debug	Photos (1680)	com.apple.CFBundle	strings	Bundle: <private>, key: MORE_BUTTON_TITLE, value: , table: PhotosUI, localizationNames: , result: More	
+00:19.584.217	Debug	analyticsd (110)	com.apple.analyticsd.critical	xform	[Transform Factory] No Transform aggregation period specified.	
+00:19.584.238	Debug	Photos (1680)	com.apple.CFBundle	strings	Bundle: <private>, key: CONTEXT_MENU_LOADING, value: Loading…, table: Localizable, localizationNames: , result: Loading…	
+00:19.584.254	Debug	analyticsd (110)	com.apple.analyticsd.critical	xform_cache	[Transform Cache] Cache miss. Loading <private> - <private> for input event <private>	
+00:19.584.337	Debug	Photos (1680)	com.apple.CFBundle	strings	Bundle: <private>, key: MARKUP_BUTTON_TITLE, value: , table: PhotosUI, localizationNames: , result: Markup	
+00:19.584.359	Debug	analyticsd (110)	com.apple.analyticsd.critical	xform	[Transform Cache] Eviction callback for transform <private> - <private>	
+00:19.584.762	Debug	analyticsd (110)	com.apple.analyticsd.critical	xform	[Transform Cache] Eviction callback for transform <private> - <private>	
+00:19.585.297	Debug	analyticsd (110)	com.apple.analyticsd.critical	xform	[Transform Cache] Eviction callback for transform <private> - <private>	
+00:19.586.438	Default	Photos (1680)	com.apple.photos.ui	PhotoEdit	skipping precomputeImageValuesWithOptionalCompletion; request pending? N, cache valid? Y	
+00:19.586.809	Default	Photos (1680)	com.apple.UIKit	Orientation	<UIWindowScene: 0x10422c680> (EC1FDF2C-716B-4BA1-8DD8-2B9E404E46C1) Scene updated orientation preferences: ( Pu ) -> ( Pu Ll Lr )	
+00:19.587.485	Debug	Photos (1680)	com.apple.defaults	User Defaults	found no value for key PUPhotoEditAppearanceKey in CFPrefsSearchListSource<0x303794000> (Domain: com.apple.mobileslideshow, Container: (null))	
+00:19.587.559	Debug	Photos (1680)	com.apple.defaults	User Defaults	found no value for key PUPhotoEditAppearanceKey in CFPrefsSearchListSource<0x303794000> (Domain: com.apple.mobileslideshow, Container: (null))	
+00:19.587.822	Info	SpringBoard (34)	com.apple.FrontBoard	ProcessScene	[(FBSceneManager):sceneID:com.apple.mobileslideshow-default] Client settings updated with diff: <private>	
+00:19.587.978	Debug	analyticsd (110)	com.apple.analyticsd.critical	xform	[Transform Factory] No Transform aggregation period specified.	
+00:19.588.054	Debug	SpringBoard (34)	com.apple.FrontBoard	Scene	Begin scene update synchronization.	
+00:19.588.079	Debug	analyticsd (110)	com.apple.analyticsd.critical	xform_cache	[Transform Cache] Cache miss. Loading <private> - <private> for input event <private>	
+00:19.588.416	Debug	SpringBoard (34)	com.apple.FrontBoard	AppDataStore	fetching object for key=_SBScenes appID=com.apple.mobileslideshow (synchronously)	
+00:19.588.454	Debug	SpringBoard (34)	com.apple.FrontBoard	AppDataStore	checking for prefetched object for key=_SBScenes appID=com.apple.mobileslideshow	
+00:19.588.547	Debug	SpringBoard (34)	com.apple.FrontBoard	AppDataStore	found object <private>	
+00:19.588.603	Debug	SpringBoard (34)	com.apple.FrontBoard	AppDataStore	found prefetched object: <private>	
+00:19.588.651	Debug	SpringBoard (34)	com.apple.FrontBoard	AppDataStore	fetching object for key=_SBScenes appID=com.apple.mobileslideshow (synchronously)	
+00:19.588.673	Debug	SpringBoard (34)	com.apple.FrontBoard	AppDataStore	checking for prefetched object for key=_SBScenes appID=com.apple.mobileslideshow	
+00:19.588.715	Debug	SpringBoard (34)	com.apple.FrontBoard	AppDataStore	found object <private>	
+00:19.588.768	Debug	SpringBoard (34)	com.apple.FrontBoard	AppDataStore	found prefetched object: <private>	
+00:19.588.906	Debug	SpringBoard (34)	com.apple.TraitsArbiter	Common	Arbiter[0x300104160] will update with context: <TRAArbiterUpdateContext: 0x302c248c0>	
+00:19.588.919	Debug	analyticsd (110)	com.apple.analyticsd.critical	xform	[Transform Factory] No Transform aggregation period specified.	
+00:19.588.950	Debug	analyticsd (110)	com.apple.analyticsd.critical	xform_cache	[Transform Cache] Cache miss. Loading <private> - <private> for input event <private>	
+00:19.589.040	Debug	SpringBoard (34)	com.apple.TraitsArbiter	Common	Current stage tree Z-Order: 	
+00:19.589.158	Debug	analyticsd (110)	com.apple.analyticsd.critical	xform_cache	[Transform Cache] Cache performance for input event <private>: { transforms: 7, hit: 0, loaded: 7, inserted: 7}	
+00:19.589.186	Debug	Photos (1680)	com.apple.photos.Neutrino	ui	+[NUMediaView _proposedInsetsForInsets:contentSize:inFrame:centerContent:] - content is not centered, so returning input insets: <private>	
+00:19.589.230	Debug	Photos (1680)	com.apple.defaults	User Defaults	found no value for key PUPhotoEditAppearanceKey in CFPrefsSearchListSource<0x303794000> (Domain: com.apple.mobileslideshow, Container: (null))	
+00:19.589.274	Debug	Photos (1680)	com.apple.defaults	User Defaults	found no value for key PUPhotoEditAppearanceKey in CFPrefsSearchListSource<0x303794000> (Domain: com.apple.mobileslideshow, Container: (null))	
+00:19.589.280	Debug	analyticsd (110)	com.apple.analyticsd.critical	db	[Config Store] Retrieving transforms for event with name '<private>'	
+00:19.589.439	Debug	analyticsd (110)	com.apple.analyticsd.critical	xform	[Transform Factory] No Transform aggregation period specified.	
+00:19.589.464	Debug	analyticsd (110)	com.apple.analyticsd.critical	xform_cache	[Transform Cache] Cache miss. Loading <private> - <private> for input event <private>	
+00:19.589.561	Debug	analyticsd (110)	com.apple.analyticsd.critical	xform	[Transform Cache] Eviction callback for transform <private> - <private>	
+00:19.589.633	Debug	SpringBoard (34)	com.apple.TraitsArbiter	Common	Active Orientation Order    ◼︎ Active Orientation Order Root
+	⎿ SBTraitsParticipantRoleSubterraneanOverlayUI-0,  z-order: -4.0, orientation: Pu,  supported: Pu,Ll,Lr
+	⎿ SBTraitsParticipantRoleHomeScreen-0,  z-order: -2.0, orientation: Pu,  supported: Pu
+	⎿ SBTraitsParticipantRoleHomeScreenDimming-0,  z-order: -1.0, orientation: Pu,  supported: All
+	⎿ SBTraitsParticipantRoleSwitcherLiveOverlay-0,  z-order: 1.0, orientation: Pu,  supported: Pu,Ll,Lr
+	⎿ SBTraitsParticipantRolePerfPowerHUD-0,  z-order: 4.0, orientation: Pu,  supported: Pu,Ll,Lr
+	⎿ SBTraitsParticipantRoleSwitcherRaw-0,  z-order: 5.0, orientation: Pu,  supported: All
+	⎿ SBTraitsParticipantRoleSwitcherPublisher-0,  z-order: 5.0, orientation: Pu,  supported: All
+	⎿ SBTraitsParticipantRoleStatusBar-0,  z-order: 999.0, orientation: Pu,  supported: All
+	⎿ SBTraitsParticipantRoleCoverSheet-0,  z-order: 1050.0, orientation: Pu,  supported: All,  last validation failed: isHidden
+	⎿ SBTraitsParticipantRoleControlCenter	
+00:19.590.197	Debug	analyticsd (110)	com.apple.analyticsd.critical	xform	[Transform Factory] No Transform aggregation period specified.	
+00:19.590.218	Debug	SpringBoard (34)	com.apple.TraitsArbiter	Common	Orientation    ◼︎ Orientation Root
+	⎿ SBTraitsParticipantRoleDruid-0,  z-order: 1305.0, orientation: Pu,  supported: Pu
+	⎿ SBTraitsParticipantRoleSwitcherLiveOverlay-0,  z-order: 1.0, orientation: Pu,  supported: Pu,Ll,Lr
+		⎿ SBTraitsParticipantRoleSwitcherRaw-0,  z-order: 5.0, orientation: Pu,  supported: All
+			⎿ SBTraitsParticipantRoleHomeScreen-0,  z-order: -2.0, orientation: Pu,  supported: Pu
+				⎿ SBTraitsParticipantRoleHomeScreenDimming-0,  z-order: -1.0, orientation: Pu,  supported: All
+				⎿ SBTraitsParticipantRolePerfPowerHUD-0,  z-order: 4.0, orientation: Pu,  supported: Pu,Ll,Lr
+			⎿ SBTraitsParticipantRoleSwitcherPublisher-0,  z-order: 5.0, orientation: Pu,  supported: All
+				⎿ SBTraitsParticipantRoleRecordingIndicator-1,  z-order: 1120.0, orientation: Pu,  supported: Pu
+				⎿ SBTraitsParticipantRolePrototypeTools-0,  z-order: 1315.0, orientation: Pu,  supported: Pu,Ll,Lr
+				⎿ SBTraitsParticipantRoleAXFullKeyboardUI-0,  z-order: 10000012.0, orientation: P	
+00:19.590.226	Debug	analyticsd (110)	com.apple.analyticsd.critical	xform_cache	[Transform Cache] Cache miss. Loading <private> - <private> for input event <private>	
+00:19.590.392	Default	SpringBoard (34)	com.apple.SpringBoard	TraitsArbiter	Window(0x662dbc800)(SBTraitsParticipantRoleCoverSheet-0) validates resolution: 0. isHidden	
+00:19.590.419	Debug	analyticsd (110)	com.apple.analyticsd.critical	xform	[Transform Cache] Eviction callback for transform <private> - <private>	
+00:19.590.817	Debug	SpringBoard (34)	com.apple.TraitsArbiter	Common	Current stage tree Orientation:    ◼︎ Orientation Root
+	⎿ SBTraitsParticipantRoleDruid-0,  z-order: 1305.0, orientation: Pu,  supported: Pu
+	⎿ SBTraitsParticipantRoleSwitcherLiveOverlay-0,  z-order: 1.0, orientation: Pu,  supported: Pu,Ll,Lr
+		⎿ SBTraitsParticipantRoleSwitcherRaw-0,  z-order: 5.0, orientation: Pu,  supported: All
+			⎿ SBTraitsParticipantRoleHomeScreen-0,  z-order: -2.0, orientation: Pu,  supported: Pu
+				⎿ SBTraitsParticipantRoleHomeScreenDimming-0,  z-order: -1.0, orientation: Pu,  supported: All
+				⎿ SBTraitsParticipantRolePerfPowerHUD-0,  z-order: 4.0, orientation: Pu,  supported: Pu,Ll,Lr
+			⎿ SBTraitsParticipantRoleSwitcherPublisher-0,  z-order: 5.0, orientation: Pu,  supported: All
+				⎿ SBTraitsParticipantRoleRecordingIndicator-1,  z-order: 1120.0, orientation: Pu,  supported: Pu
+				⎿ SBTraitsParticipantRolePrototypeTools-0,  z-order: 1315.0, orientation: Pu,  supported: Pu,Ll,Lr
+				⎿ SBTraitsParticipantRoleAXFullKeyboardUI-0,  z-order: 10000012.0, orientation: P	
+00:19.590.900	Debug	analyticsd (110)	com.apple.analyticsd.critical	xform	[Transform Factory] No Transform aggregation period specified.	
+00:19.590.911	Debug	SpringBoard (34)	com.apple.TraitsArbiter	Common	Current stage tree AmbientPresentation: 	
+00:19.590.964	Debug	analyticsd (110)	com.apple.analyticsd.critical	xform_cache	[Transform Cache] Cache miss. Loading <private> - <private> for input event <private>	
+00:19.590.966	Debug	SpringBoard (34)	com.apple.TraitsArbiter	Common	Current stage tree UserInterfaceStyle: 	
+00:19.591.099	Debug	analyticsd (110)	com.apple.analyticsd.critical	xform	[Transform Cache] Eviction callback for transform <private> - <private>	
+00:19.591.990	Debug	analyticsd (110)	com.apple.analyticsd.critical	xform	[Transform Cache] Eviction callback for transform <private> - <private>	
+00:19.592.287	Debug	SpringBoard (34)	com.apple.TraitsArbiter	Common	current resolution:
+<TRAArbiter: 0x300104160> Acquired Participants = {
+{
+        <TRAParticipant: 0x301972780; role: SBTraitsParticipantRoleRecordingIndicator; uniqueIdentifier: SBTraitsParticipantRoleRecordingIndicator-1>;
+        <TRAParticipant: 0x3018cb580; role: SBTraitsParticipantRoleRecordingIndicator; uniqueIdentifier: SBTraitsParticipantRoleRecordingIndicator-0>;
+        <TRAParticipant: 0x301870580; role: SBTraitsParticipantRoleDruid; uniqueIdentifier: SBTraitsParticipantRoleDruid-0>;
+        <TRAParticipant: 0x301890280; role: SBTraitsParticipantRoleEyedropperUI; uniqueIdentifier: SBTraitsParticipantRoleEyedropperUI-0>;
+        <TRAParticipant: 0x301894480; role: SBTraitsParticipantRolePerfPowerHUD; uniqueIdentifier: SBTraitsParticipantRolePerfPowerHUD-0>;
+        <TRAParticipant: 0x301864080; role: SBTraitsParticipantRoleAXFullKeyboardUI; uniqueIdentifier: SBTraitsParticipantRoleAXFullKeyboardUI-0>;
+        <TRAParticipant: 0x301898000; role: SBTraitsParticipantRoleInternalPerfPowerHUD; uniqueIdentifier: SB	
+00:19.592.347	Debug	SpringBoard (34)	com.apple.TraitsArbiter	Common	Arbiter[0x300104160] did update with context: 0x302c248c0.	
+00:19.592.420	Debug	SpringBoard (34)	com.apple.FrontBoard	Scene	End scene update synchronization.	
+00:19.592.532	Debug	analyticsd (110)	com.apple.analyticsd.critical	xform	[Transform Cache] Eviction callback for transform <private> - <private>	
+00:19.593.000	Debug	analyticsd (110)	com.apple.analyticsd.critical	xform	[Transform Cache] Eviction callback for transform <private> - <private>	
+00:19.593.234	Debug	analyticsd (110)	com.apple.analyticsd.critical	xform	[Transform Cache] Eviction callback for transform <private> - <private>	
+00:19.593.406	Debug	analyticsd (110)	com.apple.analyticsd.critical	xform	[Transform Cache] Eviction callback for transform <private> - <private>	
+00:19.593.673	Debug	analyticsd (110)	com.apple.analyticsd.critical	xform	[Transform Cache] Eviction callback for transform <private> - <private>	
+00:19.593.931	Debug	analyticsd (110)	com.apple.analyticsd.critical	xform_cache	[Transform Cache] Cache performance for input event <private>: { transforms: 3, hit: 0, loaded: 3, inserted: 3}	
+00:19.594.029	Debug	analyticsd (110)	com.apple.analyticsd.critical	db	[Config Store] Retrieving transforms for event with name '<private>'	
+00:19.594.357	Debug	analyticsd (110)	com.apple.analyticsd.critical	xform	[Transform Factory] No Transform aggregation period specified.	
+00:19.594.382	Debug	analyticsd (110)	com.apple.analyticsd.critical	xform_cache	[Transform Cache] Cache miss. Loading <private> - <private> for input event <private>	
+00:19.594.872	Debug	analyticsd (110)	com.apple.analyticsd.critical	xform	[Transform Factory] No Transform aggregation period specified.	
+00:19.594.898	Debug	analyticsd (110)	com.apple.analyticsd.critical	xform_cache	[Transform Cache] Cache miss. Loading <private> - <private> for input event <private>	
+00:19.594.993	Debug	analyticsd (110)	com.apple.analyticsd.critical	xform_cache	[Transform Cache] Cache performance for input event <private>: { transforms: 2, hit: 0, loaded: 2, inserted: 2}	
+00:19.595.470	Debug	analyticsd (110)	com.apple.analyticsd.critical	xform_cache	[Transform Cache] Cache performance for input event <private>: { transforms: 7, hit: 7, loaded: 0, inserted: 0}	
+00:19.595.692	Debug	analyticsd (110)	com.apple.analyticsd.critical	xform_cache	[Transform Cache] Cache performance for input event <private>: { transforms: 3, hit: 3, loaded: 0, inserted: 0}	
+00:19.595.849	Debug	analyticsd (110)	com.apple.analyticsd.critical	xform_cache	[Transform Cache] Cache performance for input event <private>: { transforms: 2, hit: 2, loaded: 0, inserted: 0}	
+00:19.600.962	Default	Photos (1680)	com.apple.UIKit	KeyboardSceneDelegate	Reloading input views for: <(null): 0x0; > force: 0	
+00:19.600.975	Info	Photos (1680)	com.apple.CoreAnalytics	client	Dropping "com.photos.CPAnalytics.signpost.start" as it isn't used in any transform (not in the config or budgeted?)	
+00:19.601.058	Default	Photos (1680)	com.apple.UIKit	KeyboardSceneDelegate	_reloadInputViewsForKeyWindowSceneResponder: 0 force: 0, fromBecomeFirstResponder: 1 (automaticKeyboard: 0, reloadIdentifier: 6302C530-A0BF-499C-B1BC-554CE33DA999)	
+00:19.601.079	Debug	Photos (1680)	com.apple.UIKit	KeyboardVisualMode	useVisualModeWindowed: 0 (windowingModeEnabled: 0)	
+00:19.601.108	Default	Photos (1680)	com.apple.UIKit	KeyboardSceneDelegate	_inputViewsForResponder: <(null): 0x0; >, automaticKeyboard: 0, force: 0	
+00:19.601.127	Default	Photos (1680)	com.apple.UIKit	KeyboardSceneDelegate	_inputViewsForResponder, found custom inputView: <(null): 0x0>, customInputViewController: <(null): 0x0>	
+00:19.601.141	Default	Photos (1680)	com.apple.UIKit	KeyboardSceneDelegate	_inputViewsForResponder, found inputAccessoryView: <(null): 0x0>	
+00:19.601.159	Default	Photos (1680)	com.apple.UIKit	KeyboardSceneDelegate	_inputViewsForResponder, responderRequiresKeyboard 0 (automaticKeyboardEnabled: 0, activeInstance: <(null): 0x0>, self.isOnScreen: 0, requiresKBWhenFirstResponder: 0)	
+00:19.601.172	Default	Photos (1680)	com.apple.UIKit	KeyboardSceneDelegate	_inputViewsForResponder, useKeyboard 0 (allowsSystemInputView: 1, !inputView <(null): 0x0>, responderRequiresKeyboard 0)	
+00:19.601.186	Default	Photos (1680)	com.apple.UIKit	KeyboardSceneDelegate	_inputViewsForResponder, configuring _responderWithoutAutomaticAppearanceEnabled: <(null): 0x0> (_automaticAppearEnabled: 1)	
+00:19.601.205	Default	Photos (1680)	com.apple.UIKit	KeyboardSceneDelegate	_inputViewsForResponder, needsIVPlaceholder: 0, needsIAVPlaceholder: 0, needsInputSetWithPlaceholder: 0	
+00:19.601.240	Default	Photos (1680)	com.apple.UIKit	KeyboardSceneDelegate	_inputViewsForResponder returning: <<UIInputViewSet: 0x302e17700>; (empty)>	
+00:19.601.465	Info	Photos (1680)	com.apple.CoreAnalytics	client	Dropping "com.apple.photos.CPAnalytics.viewDidAppear" as it isn't used in any transform (not in the config or budgeted?)	
+00:19.601.559	Default	Photos (1680)	com.apple.UIKit	KeyboardSceneDelegate	Reloading input views for: <PUCleanupToolController: 0x4d3416a00; > force: 0	
+00:19.601.634	Default	Photos (1680)	com.apple.UIKit	KeyboardSceneDelegate	_reloadInputViewsForKeyWindowSceneResponder: 1 force: 0, fromBecomeFirstResponder: 1 (automaticKeyboard: 1, reloadIdentifier: 9FB73A5B-2545-4F09-BAA6-DE135B78EDC7)	
+00:19.601.650	Debug	Photos (1680)	com.apple.UIKit	KeyboardVisualMode	useVisualModeWindowed: 0 (windowingModeEnabled: 0)	
+00:19.601.674	Default	Photos (1680)	com.apple.UIKit	KeyboardSceneDelegate	_inputViewsForResponder: <PUCleanupToolController: 0x4d3416a00; >, automaticKeyboard: 1, force: 0	
+00:19.601.705	Default	Photos (1680)	com.apple.UIKit	KeyboardSceneDelegate	_inputViewsForResponder, found custom inputView: <(null): 0x0>, customInputViewController: <(null): 0x0>	
+00:19.601.743	Default	Photos (1680)	com.apple.UIKit	KeyboardSceneDelegate	_inputViewsForResponder, found inputAccessoryView: <(null): 0x0>	
+00:19.601.756	Default	Photos (1680)	com.apple.UIKit	KeyboardSceneDelegate	_inputViewsForResponder, responderRequiresKeyboard 0 (automaticKeyboardEnabled: 1, activeInstance: <(null): 0x0>, self.isOnScreen: 0, requiresKBWhenFirstResponder: 0)	
+00:19.601.768	Default	Photos (1680)	com.apple.UIKit	KeyboardSceneDelegate	_inputViewsForResponder, useKeyboard 0 (allowsSystemInputView: 1, !inputView <(null): 0x0>, responderRequiresKeyboard 0)	
+00:19.601.779	Default	Photos (1680)	com.apple.UIKit	KeyboardSceneDelegate	_inputViewsForResponder, configuring _responderWithoutAutomaticAppearanceEnabled: <(null): 0x0> (_automaticAppearEnabled: 1)	
+00:19.601.795	Default	Photos (1680)	com.apple.UIKit	KeyboardSceneDelegate	_inputViewsForResponder, needsIVPlaceholder: 0, needsIAVPlaceholder: 0, needsInputSetWithPlaceholder: 0	
+00:19.601.823	Default	Photos (1680)	com.apple.UIKit	KeyboardSceneDelegate	_inputViewsForResponder returning: <<UIInputViewSet: 0x302ecb860>; (empty)>	
+00:19.601.946	Default	Photos (1680)	com.apple.UIKit	UIPeripheralHost	endPlacementForInputViewSet: <<UIInputViewSet: 0x302ecb860>; (empty)> windowScene: <UIWindowScene: 0x10422c680; role: UIWindowSceneSessionRoleApplication; persistentIdentifier: EC1FDF2C-716B-4BA1-8DD8-2B9E404E46C1; activationState: UISceneActivationStateForegroundActive>	
+00:19.602.004	Default	Photos (1680)	com.apple.UIKit	KeyboardArbiterClientLog	-[_UIRemoteKeyboards prepareToMoveKeyboard:withIAV:isIAVRelevant:showing:notifyRemote:forScene:]  inputDestDidChange: 0; shouldNotify: 1	
+00:19.602.067	Debug	Photos (1680)	com.apple.UIKit	KeyboardVisualMode	useVisualModeWindowed: 0 (windowingModeEnabled: 0)	
+00:19.602.083	Default	Photos (1680)	com.apple.UIKit	KeyboardVisualMode	Show keyboard with visual mode windowed (0)	
+00:19.602.214	Debug	SpringBoard (34)	com.apple.UIKit	KeyboardArbiter	[<_UIKeyboardArbiterClientHandle: 0x300d46220; [app<com.apple.mobileslideshow(9123D57A-D0E6-47C6-938F-C289AA99CB36)>:1680] <<UIKBArbiterClientFocusContext: 0x3030b7e20; contextID = dd7f108f; sceneIdentity = com.apple.frontboard.systemappservices/FBSceneManager:sceneID%3Acom.apple.mobileslideshow-default >>; hosting PIDs {(
+)}; level 0.000000; active NO [wants NO]; suppression 0; iav 0.000000; on screen NO; isAcquiringFocus: NO>] notifyIAVHeight:: 0.0000	
+00:19.602.453	Info	SpringBoard (34)	com.apple.FrontBoard	ProcessScene	[(FBSceneManager):sceneID:com.apple.mobileslideshow-default] Client settings updated with diff: <private>	
+00:19.602.612	Debug	SpringBoard (34)	com.apple.FrontBoard	Scene	Begin scene update synchronization.	
+00:19.602.647	Default	Photos (1680)	com.apple.TipKit	TipKit • Core	<private>	
+00:19.602.720	Default	Photos (1680)	com.apple.TipKit	TipKit • Core	<private>	
+00:19.602.901	Default	Photos (1680)	com.apple.UIKit	EventDispatch	Evaluating dispatch of UIEvent: 0x302085500; type: 0; subtype: 0; backing type: 11; shouldSend: 0; ignoreInteractionEvents: 0, systemGestureStateChange: 1	
+00:19.602.925	Debug	SpringBoard (34)	com.apple.SpringBoard	PIP	insets: -[SBPIPController _edgeInsetsDidChangeOnWindowScene:] ignoring update: 0	
+00:19.603.084	Debug	SpringBoard (34)	com.apple.FrontBoard	Scene	End scene update synchronization.	
+00:19.604.549	Info	Photos (1680)	com.apple.runningboard	assertion	Acquiring assertion: <RBSAssertionDescriptor| "RunningBoardAssertedAssetSets" ID:(null) target:1680>	
+00:19.604.734	Info	runningboardd (33)	com.apple.runningboard	message	PERF: Received request from [app<com.apple.mobileslideshow(9123D57A-D0E6-47C6-938F-C289AA99CB36)>:1680] (euid 501, auid 501) (persona 9123D57A-D0E6-47C6-938F-C289AA99CB36): acquireAssertionWithDescriptor:error:	
+00:19.604.910	Default	runningboardd (33)	com.apple.runningboard	ttl	Acquiring assertion targeting [app<com.apple.mobileslideshow(9123D57A-D0E6-47C6-938F-C289AA99CB36)>:1680] from originator [app<com.apple.mobileslideshow(9123D57A-D0E6-47C6-938F-C289AA99CB36)>:1680] with description <RBSAssertionDescriptor| "RunningBoardAssertedAssetSets" ID:33-1680-9666 target:1680 attributes:[
+	<RBSDomainAttribute| domain:"com.apple.common" name:"FinishTaskUninterruptable" sourceEnvironment:"(null)">
+	]>	
+00:19.605.018	Default	runningboardd (33)	com.apple.runningboard	ttl	Assertion 33-1680-9666 (target:[app<com.apple.mobileslideshow(9123D57A-D0E6-47C6-938F-C289AA99CB36)>:1680]) will be created as inactive as start-time-defining assertions exist	
+00:19.605.121	Debug	Photos (1680)	com.apple.runningboard	assertion	Adding assertion 33-1680-9666 to dictionary	
+00:19.605.132	Debug	runningboardd (33)	com.apple.runningboard	assertion	Adding assertion 33-1680-9666 (target:[app<com.apple.mobileslideshow(9123D57A-D0E6-47C6-938F-C289AA99CB36)>:1680])	
+00:19.605.141	Debug	runningboardd (33)	com.apple.runningboard	monitor	BEGIN suppressing state updates for app<com.apple.mobileslideshow(9123D57A-D0E6-47C6-938F-C289AA99CB36)>	
+00:19.605.156	Debug	runningboardd (33)	com.apple.runningboard	assertion	Now tracking 83 assertions (1680 holds 7).	
+00:19.605.178	Info	runningboardd (33)	com.apple.runningboard	assertion	app<com.apple.mobileslideshow(9123D57A-D0E6-47C6-938F-C289AA99CB36)> is now targeted by 11 assertions	
+00:19.605.208	Debug	runningboardd (33)	com.apple.runningboard	monitor	Incrementing suppression state to 1 for app<com.apple.mobileslideshow(9123D57A-D0E6-47C6-938F-C289AA99CB36)>	
+00:19.605.245	Info	runningboardd (33)	com.apple.runningboard	assertion	Removing 0 assertions	
+00:19.605.364	Debug	runningboardd (33)	com.apple.runningboard	assertion	Updating events for assertion: 33-1680-9666 (target:[app<com.apple.mobileslideshow(9123D57A-D0E6-47C6-938F-C289AA99CB36)>:1680])	
+00:19.605.382	Info	runningboardd (33)	com.apple.runningboard	assertion	Finished acquiring assertion 33-1680-9666 (target:[app<com.apple.mobileslideshow(9123D57A-D0E6-47C6-938F-C289AA99CB36)>:1680])	
+00:19.605.421	Debug	runningboardd (33)	com.apple.runningboard	monitor	Decrementing suppression state to 0 for app<com.apple.mobileslideshow(9123D57A-D0E6-47C6-938F-C289AA99CB36)>	
+00:19.605.684	Default	MTLCompilerService (131)	MTLCompiler	Default	Compilation BEGIN (ParentProcessName=backboardd_68) Build request: MTLSpecializeFunctionToArchive - function specialization	
+00:19.605.728	Debug	runningboardd (33)	com.apple.runningboard	monitor	END suppressing state updates for app<com.apple.mobileslideshow(9123D57A-D0E6-47C6-938F-C289AA99CB36)>	
+00:19.605.803	Debug	runningboardd (33)	com.apple.runningboard	assertion	Removing events for context: 33-1680-9666 (target:[app<com.apple.mobileslideshow(9123D57A-D0E6-47C6-938F-C289AA99CB36)>:1680])	
+00:19.609.514	Default	Photos (1680)	com.apple.UnifiedAssetFramework	Client	-[UAFAssetSet initWithAssetSet:usages:configurationDirURLs:disableExperimentation:consistencyToken:] 40C68A8C-27C2-4FE4-90A9-ECFD47D41C82: No experimental assets for asset set com.apple.MobileAsset.UAF.Photos.MagicCleanup	
+00:19.612.580	Debug	SpringBoard (34)	com.apple.MaterialKit	Luma	pill=0x665ac7600 luma change (0.9999)	
+00:19.617.975	Default	Photos (1680)	com.apple.MAAutoSetClient.Photos	SU	MA-auto-set[AUTO-SHORT-TERM][FRAMEWORK] _readLockedSetStatusFromSharedLockFile: Updating in memory record for lockerFile:'<private>' realPath:'<private>'	
+00:19.618.009	Default	Photos (1680)	com.apple.MAAutoSetClient.Photos	SU	MA-auto-set[AUTO-SHORT-TERM][FRAMEWORK]{auto-set(_shortTermLockAtomicSync)[atomic-instance]:_shortTermOpenSharedLockFile}
+[SHORT_FILE_OPEN][42] (SYMLINK) | lockReason:<private> | successfully opened SHORT-TERM | atomicInstanceFilename:/private/var/MobileAsset/AssetsV2/locks/com.apple.UnifiedAssetFramework/com.apple.MobileAsset.UAF.Photos.MagicCleanup/shared_locks/atomic_instance_latest.locker | 	
+00:19.618.725	Default	Photos (1680)	com.apple.MAAutoSetClient.Photos	SU	MA-auto-set[AUTO-SHORT-TERM][FRAMEWORK]{auto-set(_shortTermLockAtomicSync)[atomic-instance]:_shortTermOpenSharedLockFile} | successfully locked SHORT-TERM (/private/var/MobileAsset/AssetsV2/locks/com.apple.UnifiedAssetFramework/com.apple.MobileAsset.UAF.Photos.MagicCleanup/shared_locks/atomic_instance_latest.locker) | lockReason:SYMLINK | atomicInstanceFilename:UAFAssetSet lock of com.apple.MobileAsset.UAF.Photos.MagicCleanup for SHORT_TERM_LOCKER | standardURLs:1 | secureURLs:1	
+00:19.618.786	Default	Photos (1680)	com.apple.MAAutoSetClient.Photos	SU	MA-auto-set[AUTO-SHORT-TERM][FRAMEWORK]{_shortTermLockForAtomicInstance} com.apple.MobileAsset.UAF.Photos.MagicCleanup SUCCESS | lockReason:UAFAssetSet lock of com.apple.MobileAsset.UAF.Photos.MagicCleanup for SHORT_TERM_LOCKER | shortTermLock:assetSetAtomicInstance:4535BDA8-3894-4BAA-864D-B6D9536E3762|lockedFilename:/private/var/MobileAsset/AssetsV2/locks/com.apple.UnifiedAssetFramework/com.apple.MobileAsset.UAF.Photos.MagicCleanup/shared_locks/atomic_instance_4535BDA8-3894-4BAA-864D-B6D9536E3762.locker|lockedFileDescriptor:42|lockCountByReason:{UAFAssetSet lock of com.apple.MobileAsset.UAF.Photos.MagicCleanup for SHORT_TERM_LOCKER:}|totalLockCount:1 | setStatus:N	
+00:19.618.818	Default	Photos (1680)	com.apple.MAAutoSetClient.Photos	SU	MA-auto-set[AUTO-SHORT-TERM][FRAMEWORK] lockCountByReason:
+{
+    "UAFAssetSet lock of com.apple.MobileAsset.UAF.Photos.MagicCleanup for SHORT_TERM_LOCKER" = 1;
+}	
+00:19.618.840	Default	Photos (1680)	com.apple.MAAutoSetClient.Photos	SU	MA-auto-set[AUTO-SHORT-TERM][FRAMEWORK]{_shortTermLockAtomicSync} (4535BDA8-3894-4BAA-864D-B6D9536E3762) | lockReason:UAFAssetSet lock of com.apple.MobileAsset.UAF.Photos.MagicCleanup for SHORT_TERM_LOCKER | holding shared lock | shortTermLock:assetSetAtomicInstance:4535BDA8-3894-4BAA-864D-B6D9536E3762|lockedFilename:/private/var/MobileAsset/AssetsV2/locks/com.apple.UnifiedAssetFramework/com.apple.MobileAsset.UAF.Photos.MagicCleanup/shared_locks/atomic_instance_4535BDA8-3894-4BAA-864D-B6D9536E3762.locker|lockedFileDescriptor:42|lockCountByReason:{UAFAssetSet lock of com.apple.MobileAsset.UAF.Photos.MagicCleanup for SHORT_TERM_LOCKER:}|totalLockCount:1	
+00:19.618.878	Default	Photos (1680)	com.apple.MAAutoSetClient.Photos	SU	MA-auto-set[AUTO-SHORT-TERM][FRAMEWORK]{_shortTermLockAtomicSync} com.apple.MobileAsset.UAF.Photos.MagicCleanup SUCCESS | lockReason:UAFAssetSet lock of com.apple.MobileAsset.UAF.Photos.MagicCleanup for SHORT_TERM_LOCKER | shortTermLock:assetSetAtomicInstance:4535BDA8-3894-4BAA-864D-B6D9536E3762|lockedFilename:/private/var/MobileAsset/AssetsV2/locks/com.apple.UnifiedAssetFramework/com.apple.MobileAsset.UAF.Photos.MagicCleanup/shared_locks/atomic_instance_4535BDA8-3894-4BAA-864D-B6D9536E3762.locker|lockedFileDescriptor:42|lockCountByReason:{UAFAssetSet lock of com.apple.MobileAsset.UAF.Photos.MagicCleanup for SHORT_TERM_LOCKER:}|totalLockCount:1 | setStatus:[domain:com.apple.UnifiedAssetFramework|setID:com.apple.MobileAsset.UAF.Photos.MagicCleanup|config:2|AIs:1(newer:4535BDA8-3894-4BAA-864D-B6D9536E3762[2])(latest:4535BDA8-3894-4BAA-864D-B6D9536E3762[2])|lookupRsp:Y(forConfig:Y)|user:N|locks:{[lockReason:manager in com.apple.UnifiedAssetFramework locking latest version of com.apple.MobileAsset.UAF.Photos.MagicCleanup atomicInstance:4535BDA8-3894-4BAA-864D-B6D9536E3	
+00:19.618.908	Default	Photos (1680)	com.apple.MAAutoSetClient.Photos	SU	MA-auto-set[AUTO-SHORT-TERM][FRAMEWORK] lockCountByReason:
+{
+    "UAFAssetSet lock of com.apple.MobileAsset.UAF.Photos.MagicCleanup for SHORT_TERM_LOCKER" = 1;
+}	
+00:19.618.956	Default	Photos (1680)	com.apple.UnifiedAssetFramework	Client	-[UAFAutoAssetSet lockAutoAssets:error:] 40C68A8C-27C2-4FE4-90A9-ECFD47D41C82: 40C68A8C-27C2-4FE4-90A9-ECFD47D41C82 Locked asset set com.apple.MobileAsset.UAF.Photos.MagicCleanup atomic instance 4535BDA8-3894-4BAA-864D-B6D9536E3762	
+00:19.619.152	Default	Photos (1680)	com.apple.UnifiedAssetFramework	Client	-[UAFAssetSet initWithAssetSet:usages:configurationDirURLs:disableExperimentation:consistencyToken:] 40C68A8C-27C2-4FE4-90A9-ECFD47D41C82: Using AutoAsset configuration instead of Trial for asset set com.apple.MobileAsset.UAF.Photos.MagicCleanup	
+00:19.619.669	Default	Photos (1680)	com.apple.UnifiedAssetFramework	Configuration	+[UAFAssetSetMetadata OSVersion]_block_invoke OS version for the metadata asset: 18.2	
+00:19.619.773	Default	Photos (1680)	com.apple.UnifiedAssetFramework	Client	-[UAFAssetSet initWithAssetSet:usages:configurationDirURLs:disableExperimentation:consistencyToken:] 40C68A8C-27C2-4FE4-90A9-ECFD47D41C82: Asset set initialized for com.apple.MobileAsset.UAF.Photos.MagicCleanup with usages: {
+    "ae.language" = en;
+    "mc.aneHardwareEligible" = ENABLED;
+    "mc.com.apple.fm.photos.genedit.magiccleanup" = ENABLED;
+    "mc.language" = generic;
+}	
+00:19.620.312	Default	Photos (1680)	com.apple.UnifiedAssetFramework	Client	-[UAFAssetSet assetNamed:] 40C68A8C-27C2-4FE4-90A9-ECFD47D41C82: Returning com.apple.fm.photos.genedit.magiccleanup from source MA	
+00:19.620.373	Default	Photos (1680)	com.apple.photos.ui	PhotoEdit	model delivery progress: 1 / 1.0000	
+00:19.620.394	Default	Photos (1680)	com.apple.UnifiedAssetFramework	Client	-[UAFAssetSet invalidateWithQueue:completion:] 40C68A8C-27C2-4FE4-90A9-ECFD47D41C82: Explicit invalidation	
+00:19.620.463	Default	Photos (1680)	com.apple.MAAutoSetClient.Photos	SU	MA-auto-set[AUTO-SHORT-TERM][FRAMEWORK]{_shortTermLockForAtomicInstance} com.apple.MobileAsset.UAF.Photos.MagicCleanup SUCCESS | lockReason:N | shortTermLock:assetSetAtomicInstance:4535BDA8-3894-4BAA-864D-B6D9536E3762|lockedFilename:/private/var/MobileAsset/AssetsV2/locks/com.apple.UnifiedAssetFramework/com.apple.MobileAsset.UAF.Photos.MagicCleanup/shared_locks/atomic_instance_4535BDA8-3894-4BAA-864D-B6D9536E3762.locker|lockedFileDescriptor:42|lockCountByReason:{UAFAssetSet lock of com.apple.MobileAsset.UAF.Photos.MagicCleanup for SHORT_TERM_LOCKER:}|totalLockCount:1 | setStatus:N	
+00:19.620.479	Default	Photos (1680)	com.apple.MAAutoSetClient.Photos	SU	MA-auto-set[AUTO-SHORT-TERM][FRAMEWORK] lockCountByReason:
+{
+    "UAFAssetSet lock of com.apple.MobileAsset.UAF.Photos.MagicCleanup for SHORT_TERM_LOCKER" = 1;
+}	
+00:19.620.503	Default	Photos (1680)	com.apple.MAAutoSetClient.Photos	SU	MA-auto-set[AUTO-SHORT-TERM][FRAMEWORK]{_shortTermEndAtomicLockSync(ending specific atomic-instance lock):_closeAndRemoveShortTermLock}
+[SHORT_FILE_CLOSE][42] (4535BDA8-3894-4BAA-864D-B6D9536E3762) | released shared lock | shortTermLock:assetSetAtomicInstance:4535BDA8-3894-4BAA-864D-B6D9536E3762|lockedFilename:/private/var/MobileAsset/AssetsV2/locks/com.apple.UnifiedAssetFramework/com.apple.MobileAsset.UAF.Photos.MagicCleanup/shared_locks/atomic_instance_4535BDA8-3894-4BAA-864D-B6D9536E3762.locker|lockedFileDescriptor:-1|lockCountByReason:{}|totalLockCount:0	
+00:19.620.522	Default	Photos (1680)	com.apple.MAAutoSetClient.Photos	SU	MA-auto-set[AUTO-SHORT-TERM][FRAMEWORK]{_shortTermEndAtomicLockSync} com.apple.MobileAsset.UAF.Photos.MagicCleanup SUCCESS | lockReason:UAFAssetSet lock of com.apple.MobileAsset.UAF.Photos.MagicCleanup for SHORT_TERM_LOCKER | shortTermLock:assetSetAtomicInstance:4535BDA8-3894-4BAA-864D-B6D9536E3762|lockedFilename:/private/var/MobileAsset/AssetsV2/locks/com.apple.UnifiedAssetFramework/com.apple.MobileAsset.UAF.Photos.MagicCleanup/shared_locks/atomic_instance_4535BDA8-3894-4BAA-864D-B6D9536E3762.locker|lockedFileDescriptor:-1|lockCountByReason:{}|totalLockCount:0 | setStatus:N	
+00:19.620.574	Default	Photos (1680)	com.apple.MAAutoSetClient.Photos	SU	MA-auto-set[AUTO-SHORT-TERM][FRAMEWORK] lockCountByReason:
+{
+}	
+00:19.620.698	Default	Photos (1680)	com.apple.photos.ui	ModelDelivery	Model delivery manager for PEModelDeliveryPackage(rawValue: 0) entered stage: compiling	
+00:19.620.722	Default	Photos (1680)	com.apple.UnifiedAssetFramework	Client	-[UAFAutoAssetSet invalidateWithQueue:completion:]_block_invoke 40C68A8C-27C2-4FE4-90A9-ECFD47D41C82 Unlocked asset set com.apple.MobileAsset.UAF.Photos.MagicCleanup atomic instance 4535BDA8-3894-4BAA-864D-B6D9536E3762	
+00:19.620.848	Default	Photos (1680)	com.apple.UnifiedAssetFramework	Client	-[UAFAssetSet dealloc] 40C68A8C-27C2-4FE4-90A9-ECFD47D41C82: Asset set dealloc'd	
+00:19.620.854	Info	Photos (1680)	com.apple.runningboard	assertion	Acquiring assertion: <RBSAssertionDescriptor| "RunningBoardAssertedAssetSets" ID:(null) target:1680>	
+00:19.620.892	Info	runningboardd (33)	com.apple.runningboard	message	PERF: Received request from [app<com.apple.mobileslideshow(9123D57A-D0E6-47C6-938F-C289AA99CB36)>:1680] (euid 501, auid 501) (persona 9123D57A-D0E6-47C6-938F-C289AA99CB36): async_invalidateAssertionWithIdentifier:	
+00:19.620.939	Default	runningboardd (33)	com.apple.runningboard	ttl	Invalidating assertion 33-1680-9666 (target:[app<com.apple.mobileslideshow(9123D57A-D0E6-47C6-938F-C289AA99CB36)>:1680]) from originator [app<com.apple.mobileslideshow(9123D57A-D0E6-47C6-938F-C289AA99CB36)>:1680]	
+00:19.620.978	Default	Photos (1680)	com.apple.MAAutoSetClient.Photos	SU	MA-auto-set[AUTO-SHORT-TERM][FRAMEWORK]{_shortTermLockForAtomicInstance} com.apple.MobileAsset.UAF.Photos.MagicCleanup SUCCESS | lockReason:N | shortTermLock:assetSetAtomicInstance:4535BDA8-3894-4BAA-864D-B6D9536E3762|lockedFilename:/private/var/MobileAsset/AssetsV2/locks/com.apple.UnifiedAssetFramework/com.apple.MobileAsset.UAF.Photos.MagicCleanup/shared_locks/atomic_instance_4535BDA8-3894-4BAA-864D-B6D9536E3762.locker|lockedFileDescriptor:-1|lockCountByReason:{}|totalLockCount:0 | setStatus:N	
+00:19.621.001	Info	runningboardd (33)	com.apple.runningboard	message	PERF: Received request from [app<com.apple.mobileslideshow(9123D57A-D0E6-47C6-938F-C289AA99CB36)>:1680] (euid 501, auid 501) (persona 9123D57A-D0E6-47C6-938F-C289AA99CB36): acquireAssertionWithDescriptor:error:	
+00:19.621.040	Default	Photos (1680)	com.apple.MAAutoSetClient.Photos	SU	MA-auto-set[AUTO-SHORT-TERM][FRAMEWORK] lockCountByReason:
+{
+}	
+00:19.621.087	Default	runningboardd (33)	com.apple.runningboard	ttl	Acquiring assertion targeting [app<com.apple.mobileslideshow(9123D57A-D0E6-47C6-938F-C289AA99CB36)>:1680] from originator [app<com.apple.mobileslideshow(9123D57A-D0E6-47C6-938F-C289AA99CB36)>:1680] with description <RBSAssertionDescriptor| "RunningBoardAssertedAssetSets" ID:33-1680-9667 target:1680 attributes:[
+	<RBSDomainAttribute| domain:"com.apple.common" name:"FinishTaskUninterruptable" sourceEnvironment:"(null)">
+	]>	
+00:19.621.165	Default	runningboardd (33)	com.apple.runningboard	ttl	Assertion 33-1680-9667 (target:[app<com.apple.mobileslideshow(9123D57A-D0E6-47C6-938F-C289AA99CB36)>:1680]) will be created as inactive as start-time-defining assertions exist	
+00:19.621.238	Debug	Photos (1680)	com.apple.runningboard	assertion	Adding assertion 33-1680-9667 to dictionary	
+00:19.621.248	Debug	runningboardd (33)	com.apple.runningboard	assertion	Adding assertion 33-1680-9667 (target:[app<com.apple.mobileslideshow(9123D57A-D0E6-47C6-938F-C289AA99CB36)>:1680])	
+00:19.621.282	Debug	runningboardd (33)	com.apple.runningboard	assertion	Now tracking 84 assertions (1680 holds 8).	
+00:19.621.289	Debug	runningboardd (33)	com.apple.runningboard	monitor	BEGIN suppressing state updates for app<com.apple.mobileslideshow(9123D57A-D0E6-47C6-938F-C289AA99CB36)>	
+00:19.621.301	Info	runningboardd (33)	com.apple.runningboard	assertion	app<com.apple.mobileslideshow(9123D57A-D0E6-47C6-938F-C289AA99CB36)> is now targeted by 12 assertions	
+00:19.621.475	Debug	runningboardd (33)	com.apple.runningboard	monitor	Incrementing suppression state to 1 for app<com.apple.mobileslideshow(9123D57A-D0E6-47C6-938F-C289AA99CB36)>	
+00:19.621.553	Error	Photos (1680)	com.apple.MAAutoSetClient.Photos	SU	MA-auto-set[AUTO-SHORT-TERM][FRAMEWORK]{_shortTermEndAtomicLockSync} com.apple.MobileAsset.UAF.Photos.MagicCleanup ERROR | lockReason:UAFAssetSet lock of com.apple.MobileAsset.UAF.Photos.MagicCleanup for SHORT_TERM_LOCKER | shortTermLock:assetSetAtomicInstance:4535BDA8-3894-4BAA-864D-B6D9536E3762|lockedFilename:/private/var/MobileAsset/AssetsV2/locks/com.apple.UnifiedAssetFramework/com.apple.MobileAsset.UAF.Photos.MagicCleanup/shared_locks/atomic_instance_4535BDA8-3894-4BAA-864D-B6D9536E3762.locker|lockedFileDescriptor:-1|lockCountByReason:{}|totalLockCount:0 | setStatus:N | error:com.apple.MobileAssetError.AutoAsset:6501 | [auto-set(_shortTermEndAtomicLockSync):NotCurrentlyLocked(6501)] SHORT-TERM lock is not currently locked for reason to end-lock for | shortTermLock:assetSetAtomicInstance:4535BDA8-3894-4BAA-864D-B6D9536E3762|lockedFilename:/private/var/MobileAsset/AssetsV2/locks/com.apple.UnifiedAssetFramework/com.apple.MobileAsset.UAF.Photos.MagicCleanup/shared_locks/atomic_instance_4535BDA8-3894-4BAA-864D-B6D9536E3762.locker|lockedFileDescriptor:-1|lockCountBy	
+00:19.621.583	Info	runningboardd (33)	com.apple.runningboard	assertion	Removing 0 assertions	
+00:19.621.604	Default	Photos (1680)	com.apple.MAAutoSetClient.Photos	SU	MA-auto-set[AUTO-SHORT-TERM][FRAMEWORK] lockCountByReason:
+{
+}	
+00:19.621.729	Debug	runningboardd (33)	com.apple.runningboard	assertion	Updating events for assertion: 33-1680-9667 (target:[app<com.apple.mobileslideshow(9123D57A-D0E6-47C6-938F-C289AA99CB36)>:1680])	
+00:19.621.729	Info	runningboardd (33)	com.apple.runningboard	assertion	Finished acquiring assertion 33-1680-9667 (target:[app<com.apple.mobileslideshow(9123D57A-D0E6-47C6-938F-C289AA99CB36)>:1680])	
+00:19.621.736	Error	Photos (1680)	com.apple.UnifiedAssetFramework	Client	-[UAFAutoAssetSet invalidateWithQueue:completion:]_block_invoke 40C68A8C-27C2-4FE4-90A9-ECFD47D41C82 Failed to unlock asset set com.apple.MobileAsset.UAF.Photos.MagicCleanup instance 4535BDA8-3894-4BAA-864D-B6D9536E3762	
+00:19.621.787	Debug	runningboardd (33)	com.apple.runningboard	monitor	Decrementing suppression state to 0 for app<com.apple.mobileslideshow(9123D57A-D0E6-47C6-938F-C289AA99CB36)>	
+00:19.621.881	Debug	runningboardd (33)	com.apple.runningboard	monitor	END suppressing state updates for app<com.apple.mobileslideshow(9123D57A-D0E6-47C6-938F-C289AA99CB36)>	
+00:19.621.936	Debug	runningboardd (33)	com.apple.runningboard	assertion	Removing events for context: 33-1680-9667 (target:[app<com.apple.mobileslideshow(9123D57A-D0E6-47C6-938F-C289AA99CB36)>:1680])	
+00:19.621.953	Default	Photos (1680)	com.apple.UnifiedAssetFramework	Client	-[UAFAssetSet initWithAssetSet:usages:configurationDirURLs:disableExperimentation:consistencyToken:] 242ADB63-AD0A-41AE-8FBC-376C6442F45A: No experimental assets for asset set com.apple.MobileAsset.UAF.Photos.MagicCleanup	
+00:19.622.998	Default	Photos (1680)	com.apple.MAAutoSetClient.Photos	SU	MA-auto-set[AUTO-SHORT-TERM][FRAMEWORK]{auto-set(_shortTermLockAtomicSync)[atomic-instance]:_shortTermOpenSharedLockFile}
+[SHORT_FILE_OPEN][42] (SYMLINK) | lockReason:<private> | successfully opened SHORT-TERM | atomicInstanceFilename:/private/var/MobileAsset/AssetsV2/locks/com.apple.UnifiedAssetFramework/com.apple.MobileAsset.UAF.Photos.MagicCleanup/shared_locks/atomic_instance_latest.locker | 	
+00:19.623.105	Default	Photos (1680)	com.apple.MAAutoSetClient.Photos	SU	MA-auto-set[AUTO-SHORT-TERM][FRAMEWORK]{auto-set(_shortTermLockAtomicSync)[atomic-instance]:_shortTermOpenSharedLockFile} | successfully locked SHORT-TERM (/private/var/MobileAsset/AssetsV2/locks/com.apple.UnifiedAssetFramework/com.apple.MobileAsset.UAF.Photos.MagicCleanup/shared_locks/atomic_instance_latest.locker) | lockReason:SYMLINK | atomicInstanceFilename:UAFAssetSet lock of com.apple.MobileAsset.UAF.Photos.MagicCleanup for SHORT_TERM_LOCKER | standardURLs:1 | secureURLs:1	
+00:19.623.437	Default	Photos (1680)	com.apple.MAAutoSetClient.Photos	SU	MA-auto-set[AUTO-SHORT-TERM][FRAMEWORK]{auto-set(_shortTermLockForAtomicInstance)[atomic-instance]:_shortTermOpenSharedLockFile}
+[SHORT_FILE_OPEN][43] (4535BDA8-3894-4BAA-864D-B6D9536E3762) | lockReason:<private> | successfully opened SHORT-TERM | atomicInstanceFilename:/private/var/MobileAsset/AssetsV2/locks/com.apple.UnifiedAssetFramework/com.apple.MobileAsset.UAF.Photos.MagicCleanup/shared_locks/atomic_instance_4535BDA8-3894-4BAA-864D-B6D9536E3762.locker | 	
+00:19.623.531	Default	Photos (1680)	com.apple.MAAutoSetClient.Photos	SU	MA-auto-set[AUTO-SHORT-TERM][FRAMEWORK]{auto-set(_shortTermLockForAtomicInstance)[atomic-instance]:_shortTermOpenSharedLockFile} | successfully locked SHORT-TERM (/private/var/MobileAsset/AssetsV2/locks/com.apple.UnifiedAssetFramework/com.apple.MobileAsset.UAF.Photos.MagicCleanup/shared_locks/atomic_instance_4535BDA8-3894-4BAA-864D-B6D9536E3762.locker) | lockReason:<private> | atomicInstanceFilename:UAFAssetSet lock of com.apple.MobileAsset.UAF.Photos.MagicCleanup for SHORT_TERM_LOCKER | standardURLs:1 | secureURLs:1	
+00:19.623.548	Default	Photos (1680)	com.apple.MAAutoSetClient.Photos	SU	MA-auto-set[AUTO-SHORT-TERM][FRAMEWORK]{_shortTermLockForAtomicInstance}
+[SHORT_FILE_CLOSE][43] (4535BDA8-3894-4BAA-864D-B6D9536E3762) | lockReason:UAFAssetSet lock of com.apple.MobileAsset.UAF.Photos.MagicCleanup for SHORT_TERM_LOCKER | released validateFileDescriptor | atomicInstanceFilename:/private/var/MobileAsset/AssetsV2/locks/com.apple.UnifiedAssetFramework/com.apple.MobileAsset.UAF.Photos.MagicCleanup/shared_locks/atomic_instance_4535BDA8-3894-4BAA-864D-B6D9536E3762.locker 	
+00:19.623.568	Default	Photos (1680)	com.apple.MAAutoSetClient.Photos	SU	MA-auto-set[AUTO-SHORT-TERM][FRAMEWORK]{_shortTermLockForAtomicInstance} com.apple.MobileAsset.UAF.Photos.MagicCleanup SUCCESS | lockReason:UAFAssetSet lock of com.apple.MobileAsset.UAF.Photos.MagicCleanup for SHORT_TERM_LOCKER | shortTermLock:assetSetAtomicInstance:4535BDA8-3894-4BAA-864D-B6D9536E3762|lockedFilename:/private/var/MobileAsset/AssetsV2/locks/com.apple.UnifiedAssetFramework/com.apple.MobileAsset.UAF.Photos.MagicCleanup/shared_locks/atomic_instance_4535BDA8-3894-4BAA-864D-B6D9536E3762.locker|lockedFileDescriptor:-1|lockCountByReason:{UAFAssetSet lock of com.apple.MobileAsset.UAF.Photos.MagicCleanup for SHORT_TERM_LOCKER:}|totalLockCount:1 | setStatus:N	
+00:19.623.585	Default	Photos (1680)	com.apple.MAAutoSetClient.Photos	SU	MA-auto-set[AUTO-SHORT-TERM][FRAMEWORK] lockCountByReason:
+{
+    "UAFAssetSet lock of com.apple.MobileAsset.UAF.Photos.MagicCleanup for SHORT_TERM_LOCKER" = 1;
+}	
+00:19.623.601	Default	Photos (1680)	com.apple.MAAutoSetClient.Photos	SU	MA-auto-set[AUTO-SHORT-TERM][FRAMEWORK]{_shortTermLockAtomicSync} (4535BDA8-3894-4BAA-864D-B6D9536E3762) | lockReason:UAFAssetSet lock of com.apple.MobileAsset.UAF.Photos.MagicCleanup for SHORT_TERM_LOCKER | additional (locally tracked usage) of shared lock | shortTermLock:assetSetAtomicInstance:4535BDA8-3894-4BAA-864D-B6D9536E3762|lockedFilename:/private/var/MobileAsset/AssetsV2/locks/com.apple.UnifiedAssetFramework/com.apple.MobileAsset.UAF.Photos.MagicCleanup/shared_locks/atomic_instance_4535BDA8-3894-4BAA-864D-B6D9536E3762.locker|lockedFileDescriptor:-1|lockCountByReason:{UAFAssetSet lock of com.apple.MobileAsset.UAF.Photos.MagicCleanup for SHORT_TERM_LOCKER:}|totalLockCount:1	
+00:19.623.624	Default	Photos (1680)	com.apple.MAAutoSetClient.Photos	SU	MA-auto-set[AUTO-SHORT-TERM][FRAMEWORK]{_shortTermLockAtomicSync}
+[SHORT_FILE_CLOSE][42] (4535BDA8-3894-4BAA-864D-B6D9536E3762) | lockReason:UAFAssetSet lock of com.apple.MobileAsset.UAF.Photos.MagicCleanup for SHORT_TERM_LOCKER | (extraFileLockToClose) released sharedLockedFileDescriptor | shortTermLock:assetSetAtomicInstance:4535BDA8-3894-4BAA-864D-B6D9536E3762|lockedFilename:/private/var/MobileAsset/AssetsV2/locks/com.apple.UnifiedAssetFramework/com.apple.MobileAsset.UAF.Photos.MagicCleanup/shared_locks/atomic_instance_4535BDA8-3894-4BAA-864D-B6D9536E3762.locker|lockedFileDescriptor:-1|lockCountByReason:{UAFAssetSet lock of com.apple.MobileAsset.UAF.Photos.MagicCleanup for SHORT_TERM_LOCKER:}|totalLockCount:1	
+00:19.623.653	Default	Photos (1680)	com.apple.MAAutoSetClient.Photos	SU	MA-auto-set[AUTO-SHORT-TERM][FRAMEWORK]{_shortTermLockAtomicSync} com.apple.MobileAsset.UAF.Photos.MagicCleanup SUCCESS | lockReason:UAFAssetSet lock of com.apple.MobileAsset.UAF.Photos.MagicCleanup for SHORT_TERM_LOCKER | shortTermLock:assetSetAtomicInstance:4535BDA8-3894-4BAA-864D-B6D9536E3762|lockedFilename:/private/var/MobileAsset/AssetsV2/locks/com.apple.UnifiedAssetFramework/com.apple.MobileAsset.UAF.Photos.MagicCleanup/shared_locks/atomic_instance_4535BDA8-3894-4BAA-864D-B6D9536E3762.locker|lockedFileDescriptor:-1|lockCountByReason:{UAFAssetSet lock of com.apple.MobileAsset.UAF.Photos.MagicCleanup for SHORT_TERM_LOCKER:}|totalLockCount:1 | setStatus:[domain:com.apple.UnifiedAssetFramework|setID:com.apple.MobileAsset.UAF.Photos.MagicCleanup|config:2|AIs:1(newer:4535BDA8-3894-4BAA-864D-B6D9536E3762[2])(latest:4535BDA8-3894-4BAA-864D-B6D9536E3762[2])|lookupRsp:Y(forConfig:Y)|user:N|locks:{[lockReason:manager in com.apple.UnifiedAssetFramework locking latest version of com.apple.MobileAsset.UAF.Photos.MagicCleanup atomicInstance:4535BDA8-3894-4BAA-864D-B6D9536E3	
+00:19.623.671	Default	Photos (1680)	com.apple.MAAutoSetClient.Photos	SU	MA-auto-set[AUTO-SHORT-TERM][FRAMEWORK] lockCountByReason:
+{
+    "UAFAssetSet lock of com.apple.MobileAsset.UAF.Photos.MagicCleanup for SHORT_TERM_LOCKER" = 1;
+}	
+00:19.623.696	Default	Photos (1680)	com.apple.UnifiedAssetFramework	Client	-[UAFAutoAssetSet lockAutoAssets:error:] 242ADB63-AD0A-41AE-8FBC-376C6442F45A: 242ADB63-AD0A-41AE-8FBC-376C6442F45A Locked asset set com.apple.MobileAsset.UAF.Photos.MagicCleanup atomic instance 4535BDA8-3894-4BAA-864D-B6D9536E3762	
+00:19.623.817	Default	Photos (1680)	com.apple.UnifiedAssetFramework	Client	-[UAFAssetSet initWithAssetSet:usages:configurationDirURLs:disableExperimentation:consistencyToken:] 242ADB63-AD0A-41AE-8FBC-376C6442F45A: Using AutoAsset configuration instead of Trial for asset set com.apple.MobileAsset.UAF.Photos.MagicCleanup	
+00:19.624.037	Default	Photos (1680)	com.apple.UnifiedAssetFramework	Client	-[UAFAssetSet initWithAssetSet:usages:configurationDirURLs:disableExperimentation:consistencyToken:] 242ADB63-AD0A-41AE-8FBC-376C6442F45A: Asset set initialized for com.apple.MobileAsset.UAF.Photos.MagicCleanup with usages: {
+    "ae.language" = en;
+    "mc.aneHardwareEligible" = ENABLED;
+    "mc.com.apple.fm.photos.genedit.magiccleanup" = ENABLED;
+    "mc.language" = generic;
+}	
+00:19.624.105	Default	Photos (1680)	com.apple.UnifiedAssetFramework	Client	-[UAFAssetSet assetNamed:] 242ADB63-AD0A-41AE-8FBC-376C6442F45A: Returning com.apple.fm.photos.genedit.magiccleanup from source MA	
+00:19.624.165	Default	Photos (1680)	com.apple.UnifiedAssetFramework	Client	-[UAFAssetSet invalidateWithQueue:completion:] 242ADB63-AD0A-41AE-8FBC-376C6442F45A: Explicit invalidation	
+00:19.624.230	Default	Photos (1680)	com.apple.MAAutoSetClient.Photos	SU	MA-auto-set[AUTO-SHORT-TERM][FRAMEWORK]{_shortTermLockForAtomicInstance} com.apple.MobileAsset.UAF.Photos.MagicCleanup SUCCESS | lockReason:N | shortTermLock:assetSetAtomicInstance:4535BDA8-3894-4BAA-864D-B6D9536E3762|lockedFilename:/private/var/MobileAsset/AssetsV2/locks/com.apple.UnifiedAssetFramework/com.apple.MobileAsset.UAF.Photos.MagicCleanup/shared_locks/atomic_instance_4535BDA8-3894-4BAA-864D-B6D9536E3762.locker|lockedFileDescriptor:-1|lockCountByReason:{UAFAssetSet lock of com.apple.MobileAsset.UAF.Photos.MagicCleanup for SHORT_TERM_LOCKER:}|totalLockCount:1 | setStatus:N	
+00:19.624.247	Default	Photos (1680)	com.apple.MAAutoSetClient.Photos	SU	MA-auto-set[AUTO-SHORT-TERM][FRAMEWORK] lockCountByReason:
+{
+    "UAFAssetSet lock of com.apple.MobileAsset.UAF.Photos.MagicCleanup for SHORT_TERM_LOCKER" = 1;
+}	
+00:19.624.450	Error	Photos (1680)	com.apple.MAAutoSetClient.Photos	SU	MA-auto-set[AUTO-SHORT-TERM][FRAMEWORK]{_shortTermEndAtomicLockSync(ending specific atomic-instance lock):_closeAndRemoveShortTermLock} | WARNING | invalid lockedFileDesciptor | shortTermLock:assetSetAtomicInstance:4535BDA8-3894-4BAA-864D-B6D9536E3762|lockedFilename:/private/var/MobileAsset/AssetsV2/locks/com.apple.UnifiedAssetFramework/com.apple.MobileAsset.UAF.Photos.MagicCleanup/shared_locks/atomic_instance_4535BDA8-3894-4BAA-864D-B6D9536E3762.locker|lockedFileDescriptor:-1|lockCountByReason:{}|totalLockCount:0	
+00:19.624.469	Default	Photos (1680)	com.apple.MAAutoSetClient.Photos	SU	MA-auto-set[AUTO-SHORT-TERM][FRAMEWORK]{_shortTermEndAtomicLockSync} com.apple.MobileAsset.UAF.Photos.MagicCleanup SUCCESS | lockReason:UAFAssetSet lock of com.apple.MobileAsset.UAF.Photos.MagicCleanup for SHORT_TERM_LOCKER | shortTermLock:assetSetAtomicInstance:4535BDA8-3894-4BAA-864D-B6D9536E3762|lockedFilename:/private/var/MobileAsset/AssetsV2/locks/com.apple.UnifiedAssetFramework/com.apple.MobileAsset.UAF.Photos.MagicCleanup/shared_locks/atomic_instance_4535BDA8-3894-4BAA-864D-B6D9536E3762.locker|lockedFileDescriptor:-1|lockCountByReason:{}|totalLockCount:0 | setStatus:N	
+00:19.624.486	Default	Photos (1680)	com.apple.MAAutoSetClient.Photos	SU	MA-auto-set[AUTO-SHORT-TERM][FRAMEWORK] lockCountByReason:
+{
+}	
+00:19.624.541	Default	Photos (1680)	com.apple.UnifiedAssetFramework	Client	-[UAFAutoAssetSet invalidateWithQueue:completion:]_block_invoke 242ADB63-AD0A-41AE-8FBC-376C6442F45A Unlocked asset set com.apple.MobileAsset.UAF.Photos.MagicCleanup atomic instance 4535BDA8-3894-4BAA-864D-B6D9536E3762	
+00:19.624.585	Default	Photos (1680)	com.apple.UnifiedAssetFramework	Client	-[UAFAssetSet dealloc] 242ADB63-AD0A-41AE-8FBC-376C6442F45A: Asset set dealloc'd	
+00:19.624.600	Info	runningboardd (33)	com.apple.runningboard	message	PERF: Received request from [app<com.apple.mobileslideshow(9123D57A-D0E6-47C6-938F-C289AA99CB36)>:1680] (euid 501, auid 501) (persona 9123D57A-D0E6-47C6-938F-C289AA99CB36): async_invalidateAssertionWithIdentifier:	
+00:19.624.629	Default	runningboardd (33)	com.apple.runningboard	ttl	Invalidating assertion 33-1680-9667 (target:[app<com.apple.mobileslideshow(9123D57A-D0E6-47C6-938F-C289AA99CB36)>:1680]) from originator [app<com.apple.mobileslideshow(9123D57A-D0E6-47C6-938F-C289AA99CB36)>:1680]	
+00:19.624.641	Default	Photos (1680)	com.apple.MAAutoSetClient.Photos	SU	MA-auto-set[AUTO-SHORT-TERM][FRAMEWORK]{_shortTermLockForAtomicInstance} com.apple.MobileAsset.UAF.Photos.MagicCleanup SUCCESS | lockReason:N | shortTermLock:assetSetAtomicInstance:4535BDA8-3894-4BAA-864D-B6D9536E3762|lockedFilename:/private/var/MobileAsset/AssetsV2/locks/com.apple.UnifiedAssetFramework/com.apple.MobileAsset.UAF.Photos.MagicCleanup/shared_locks/atomic_instance_4535BDA8-3894-4BAA-864D-B6D9536E3762.locker|lockedFileDescriptor:-1|lockCountByReason:{}|totalLockCount:0 | setStatus:N	
+00:19.624.654	Default	Photos (1680)	com.apple.MAAutoSetClient.Photos	SU	MA-auto-set[AUTO-SHORT-TERM][FRAMEWORK] lockCountByReason:
+{
+}	
+00:19.624.686	Error	Photos (1680)	com.apple.MAAutoSetClient.Photos	SU	MA-auto-set[AUTO-SHORT-TERM][FRAMEWORK]{_shortTermEndAtomicLockSync} com.apple.MobileAsset.UAF.Photos.MagicCleanup ERROR | lockReason:UAFAssetSet lock of com.apple.MobileAsset.UAF.Photos.MagicCleanup for SHORT_TERM_LOCKER | shortTermLock:assetSetAtomicInstance:4535BDA8-3894-4BAA-864D-B6D9536E3762|lockedFilename:/private/var/MobileAsset/AssetsV2/locks/com.apple.UnifiedAssetFramework/com.apple.MobileAsset.UAF.Photos.MagicCleanup/shared_locks/atomic_instance_4535BDA8-3894-4BAA-864D-B6D9536E3762.locker|lockedFileDescriptor:-1|lockCountByReason:{}|totalLockCount:0 | setStatus:N | error:com.apple.MobileAssetError.AutoAsset:6501 | [auto-set(_shortTermEndAtomicLockSync):NotCurrentlyLocked(6501)] SHORT-TERM lock is not currently locked for reason to end-lock for | shortTermLock:assetSetAtomicInstance:4535BDA8-3894-4BAA-864D-B6D9536E3762|lockedFilename:/private/var/MobileAsset/AssetsV2/locks/com.apple.UnifiedAssetFramework/com.apple.MobileAsset.UAF.Photos.MagicCleanup/shared_locks/atomic_instance_4535BDA8-3894-4BAA-864D-B6D9536E3762.locker|lockedFileDescriptor:-1|lockCountBy	
+00:19.624.698	Default	Photos (1680)	com.apple.MAAutoSetClient.Photos	SU	MA-auto-set[AUTO-SHORT-TERM][FRAMEWORK] lockCountByReason:
+{
+}	
+00:19.624.716	Error	Photos (1680)	com.apple.UnifiedAssetFramework	Client	-[UAFAutoAssetSet invalidateWithQueue:completion:]_block_invoke 242ADB63-AD0A-41AE-8FBC-376C6442F45A Failed to unlock asset set com.apple.MobileAsset.UAF.Photos.MagicCleanup instance 4535BDA8-3894-4BAA-864D-B6D9536E3762	
+00:19.625.004	Debug	Photos (1680)	com.apple.defaults	User Defaults	found no value for key inpaintModelPath in CFPrefsSearchListSource<0x303794000> (Domain: com.apple.mobileslideshow, Container: (null))	
+00:19.625.030	Debug	Photos (1680)	com.apple.defaults	User Defaults	found no value for key inpaintModelPath in CFPrefsSearchListSource<0x303695c80> (Domain: com.apple.coreimage, Container: (null))	
+00:19.626.301	Default	Unknown (0)	apfs	Default	update_ino_purgeable_atime:3,253: disk2s8 Failed to find purgeable record (ino 105,106) for atime update: 2
+	
+00:19.626.392	Default	MTLCompilerService (131)	MTLCompiler	Default	Compilation SUCCESS (ParentProcessName=backboardd_68) (TYPE=MTLSpecializeFunctionToArchive - function specialization): Time 20.5778 ms 	
+00:19.627.179	Default	MTLCompilerService (131)	MTLCompiler	Default	Compilation BEGIN (ParentProcessName=backboardd_68) Build request: MTLBuildFunctions - pipeline	
+00:19.628.214	Debug	DTServiceHub (360)	DVTInstrumentsFoundation	Default	Data Size: 100,782, Rows Sent: 1,194, Stack depth: 3,170	
+00:19.634.025	Default	MTLCompilerService (131)	MTLCompiler	Default	Compilation SUCCESS (ParentProcessName=backboardd_68) (TYPE=MTLBuildFunctions - pipeline): Time 6.7985 ms 	
+00:19.640.394	Info	backboardd (68)	com.apple.CoreAnalytics	client	Dropping "com.apple.AttentionAwareness.clientStateNegative" as it isn't used in any transform (not in the config or budgeted?)	
+00:19.640.435	Default	backboardd (68)	com.apple.AttentionAwareness	AttentionAwareness	48,689.0924: notify client com.apple.siri.AttentionAwareness.Touch of <AWAttentionLostEvent: 0xdb48663c0> (timestamp:   48689.09239 attentionLostTimeout       0.10000 tagIndex 0 (tag not present in server))	
+00:19.640.516	Info	backboardd (68)	com.apple.CoreAnalytics	client	Dropping "com.apple.AttentionAwareness.clientEvent" as it isn't used in any transform (not in the config or budgeted?)	
+00:19.647.164	Debug	backboardd (68)	com.apple.BackBoard	MotionEvents	Motion event usagePage:0xff0c usage:1 	
+00:19.647.284	Info	locationd (74)	com.apple.locationd.Motion	AOP	{"msg":"received AOP log", "log":72 Bytes}	
+00:19.650.469	Default	Photos (1680)	MIL	Default	MMapped <private> to base address d06ec0000 with size 401,120	
+00:19.664.929	Default	Photos (1680)	MIL	Default	MMapped <private> to base address d50ea8000 with size 169,216,704	
+00:19.669.582	Info	runningboardd (33)	com.apple.runningboard	assertion	Processing invalidation queue with 6 assertions	
+00:19.669.651	Info	runningboardd (33)	com.apple.runningboard	assertion	Removing 6 assertions	
+00:19.669.762	Info	runningboardd (33)	com.apple.runningboard	assertion	Removing 0 assertions	
+00:19.669.813	Debug	runningboardd (33)	com.apple.runningboard	assertion	Now tracking 83 assertions (1680 holds 7).	
+00:19.669.819	Debug	runningboardd (33)	com.apple.runningboard	assertion	Updating events for assertion: 33-1680-9662 (target:[app<com.apple.mobileslideshow(9123D57A-D0E6-47C6-938F-C289AA99CB36)>:1680])	
+00:19.669.839	Debug	runningboardd (33)	com.apple.runningboard	assertion	Removing assertion 33-1680-9665 on [app<com.apple.mobileslideshow(9123D57A-D0E6-47C6-938F-C289AA99CB36)>:1680]	
+00:19.669.849	Debug	runningboardd (33)	com.apple.runningboard	assertion	Removing events for context: 33-1680-9662 (target:[app<com.apple.mobileslideshow(9123D57A-D0E6-47C6-938F-C289AA99CB36)>:1680])	
+00:19.669.864	Debug	runningboardd (33)	com.apple.runningboard	assertion	> app<com.apple.mobileslideshow(9123D57A-D0E6-47C6-938F-C289AA99CB36)> ['RunningBoardAssertedAssetSets'] [33-1680-9666]	
+00:19.669.873	Debug	runningboardd (33)	com.apple.runningboard	assertion	Updating events for assertion: 33-1680-9666 (target:[app<com.apple.mobileslideshow(9123D57A-D0E6-47C6-938F-C289AA99CB36)>:1680])	
+00:19.669.896	Debug	runningboardd (33)	com.apple.runningboard	assertion	> app<com.apple.mobileslideshow(9123D57A-D0E6-47C6-938F-C289AA99CB36)> ['CMPhoto pool cleanup timer'] [33-1680-9643]	
+00:19.669.897	Debug	runningboardd (33)	com.apple.runningboard	assertion	Removing events for context: 33-1680-9666 (target:[app<com.apple.mobileslideshow(9123D57A-D0E6-47C6-938F-C289AA99CB36)>:1680])	
+00:19.669.918	Debug	runningboardd (33)	com.apple.runningboard	assertion	> app<com.apple.mobileslideshow(9123D57A-D0E6-47C6-938F-C289AA99CB36)> ['Shared Background Assertion 32 for com.apple.mobileslideshow'] [33-1680-9662]	
+00:19.669.938	Debug	runningboardd (33)	com.apple.runningboard	assertion	> app<com.apple.mobileslideshow(9123D57A-D0E6-47C6-938F-C289AA99CB36)> ['Shared Background Assertion 34 for com.apple.mobileslideshow'] [33-1680-9664]	
+00:19.669.946	Debug	runningboardd (33)	com.apple.runningboard	assertion	Updating events for assertion: 33-1680-9667 (target:[app<com.apple.mobileslideshow(9123D57A-D0E6-47C6-938F-C289AA99CB36)>:1680])	
+00:19.670.040	Debug	runningboardd (33)	com.apple.runningboard	assertion	> app<com.apple.mobileslideshow(9123D57A-D0E6-47C6-938F-C289AA99CB36)> ['Shared Background Assertion 33 for com.apple.mobileslideshow'] [33-1680-9663]	
+00:19.670.049	Debug	runningboardd (33)	com.apple.runningboard	assertion	Removing events for context: 33-1680-9667 (target:[app<com.apple.mobileslideshow(9123D57A-D0E6-47C6-938F-C289AA99CB36)>:1680])	
+00:19.670.145	Debug	runningboardd (33)	com.apple.runningboard	assertion	> app<com.apple.mobileslideshow(9123D57A-D0E6-47C6-938F-C289AA99CB36)> ['RB Underlying Assertion'] [33-33-9450]	
+00:19.670.171	Debug	runningboardd (33)	com.apple.runningboard	assertion	Updating events for assertion: 33-1680-9663 (target:[app<com.apple.mobileslideshow(9123D57A-D0E6-47C6-938F-C289AA99CB36)>:1680])	
+00:19.670.197	Debug	runningboardd (33)	com.apple.runningboard	assertion	> app<com.apple.mobileslideshow(9123D57A-D0E6-47C6-938F-C289AA99CB36)> ['RunningBoardAssertedAssetSets'] [33-1680-9667]	
+00:19.670.252	Debug	runningboardd (33)	com.apple.runningboard	assertion	Removing events for context: 33-1680-9663 (target:[app<com.apple.mobileslideshow(9123D57A-D0E6-47C6-938F-C289AA99CB36)>:1680])	
+00:19.670.315	Info	runningboardd (33)	com.apple.runningboard	assertion	app<com.apple.mobileslideshow(9123D57A-D0E6-47C6-938F-C289AA99CB36)> is now targeted by 11 assertions	
+00:19.670.365	Debug	runningboardd (33)	com.apple.runningboard	assertion	Updating events for assertion: 33-1680-9665 (target:[app<com.apple.mobileslideshow(9123D57A-D0E6-47C6-938F-C289AA99CB36)>:1680])	
+00:19.670.429	Debug	runningboardd (33)	com.apple.runningboard	assertion	> 1680 ['injecting inherited from "UIScene:com.apple.frontboard.systemappservices/FBSceneManager:com.apple.springboard" to 1680<UIScene:com.apple.frontboard.systemappservices/FBSceneManager:sceneID%3Acom.apple.mobileslideshow-default>'] [33-34-9644]	
+00:19.670.458	Debug	runningboardd (33)	com.apple.runningboard	assertion	Removing events for context: 33-1680-9665 (target:[app<com.apple.mobileslideshow(9123D57A-D0E6-47C6-938F-C289AA99CB36)>:1680])	
+00:19.670.466	Debug	runningboardd (33)	com.apple.runningboard	assertion	> 1680 ['RunningBoardAssertedAssetSets'] [33-1680-9667]	
+00:19.670.481	Debug	runningboardd (33)	com.apple.runningboard	assertion	Updating events for assertion: 33-1680-9664 (target:[app<com.apple.mobileslideshow(9123D57A-D0E6-47C6-938F-C289AA99CB36)>:1680])	
+00:19.670.506	Debug	runningboardd (33)	com.apple.runningboard	assertion	> 1680 ['Shared Background Assertion 33 for com.apple.mobileslideshow'] [33-1680-9663]	
+00:19.670.529	Debug	runningboardd (33)	com.apple.runningboard	assertion	Removing events for context: 33-1680-9664 (target:[app<com.apple.mobileslideshow(9123D57A-D0E6-47C6-938F-C289AA99CB36)>:1680])	
+00:19.670.561	Debug	runningboardd (33)	com.apple.runningboard	assertion	> 1680 ['RB Underlying Assertion'] [33-33-9450]	
+00:19.670.605	Debug	runningboardd (33)	com.apple.runningboard	assertion	> 1680 ['CMPhoto pool cleanup timer'] [33-1680-9643]	
+00:19.670.630	Debug	runningboardd (33)	com.apple.runningboard	assertion	> 1680 ['DAS: Application is docked.'] [33-80-9559]	
+00:19.670.659	Debug	runningboardd (33)	com.apple.runningboard	assertion	> 1680 ['Shared Background Assertion 32 for com.apple.mobileslideshow'] [33-1680-9662]	
+00:19.670.682	Debug	runningboardd (33)	com.apple.runningboard	assertion	> 1680 ['com.apple.frontboard.after-life.interrupted'] [33-34-9451]	
+00:19.670.702	Debug	runningboardd (33)	com.apple.runningboard	assertion	> 1680 ['Shared Background Assertion 34 for com.apple.mobileslideshow'] [33-1680-9664]	
+00:19.670.731	Debug	runningboardd (33)	com.apple.runningboard	assertion	> 1680 ['FBWorkspace (ForegroundFocal)'] [33-34-9642]	
+00:19.670.744	Debug	runningboardd (33)	com.apple.runningboard	assertion	> 1680 ['RunningBoardAssertedAssetSets'] [33-1680-9666]	
+00:19.670.758	Debug	runningboardd (33)	com.apple.runningboard	assertion	Now tracking 82 assertions (1680 holds 6).	
+00:19.670.768	Debug	runningboardd (33)	com.apple.runningboard	assertion	Removing assertion 33-1680-9667 on [app<com.apple.mobileslideshow(9123D57A-D0E6-47C6-938F-C289AA99CB36)>:1680]	
+00:19.670.803	Debug	runningboardd (33)	com.apple.runningboard	assertion	> app<com.apple.mobileslideshow(9123D57A-D0E6-47C6-938F-C289AA99CB36)> ['RunningBoardAssertedAssetSets'] [33-1680-9666]	
+00:19.670.825	Debug	runningboardd (33)	com.apple.runningboard	assertion	> app<com.apple.mobileslideshow(9123D57A-D0E6-47C6-938F-C289AA99CB36)> ['CMPhoto pool cleanup timer'] [33-1680-9643]	
+00:19.670.845	Debug	runningboardd (33)	com.apple.runningboard	assertion	> app<com.apple.mobileslideshow(9123D57A-D0E6-47C6-938F-C289AA99CB36)> ['Shared Background Assertion 32 for com.apple.mobileslideshow'] [33-1680-9662]	
+00:19.670.865	Debug	runningboardd (33)	com.apple.runningboard	assertion	> app<com.apple.mobileslideshow(9123D57A-D0E6-47C6-938F-C289AA99CB36)> ['Shared Background Assertion 34 for com.apple.mobileslideshow'] [33-1680-9664]	
+00:19.670.884	Debug	runningboardd (33)	com.apple.runningboard	assertion	> app<com.apple.mobileslideshow(9123D57A-D0E6-47C6-938F-C289AA99CB36)> ['Shared Background Assertion 33 for com.apple.mobileslideshow'] [33-1680-9663]	
+00:19.670.903	Debug	runningboardd (33)	com.apple.runningboard	assertion	> app<com.apple.mobileslideshow(9123D57A-D0E6-47C6-938F-C289AA99CB36)> ['RB Underlying Assertion'] [33-33-9450]	
+00:19.670.923	Info	runningboardd (33)	com.apple.runningboard	assertion	app<com.apple.mobileslideshow(9123D57A-D0E6-47C6-938F-C289AA99CB36)> is now targeted by 10 assertions	
+00:19.670.944	Debug	runningboardd (33)	com.apple.runningboard	assertion	> 1680 ['injecting inherited from "UIScene:com.apple.frontboard.systemappservices/FBSceneManager:com.apple.springboard" to 1680<UIScene:com.apple.frontboard.systemappservices/FBSceneManager:sceneID%3Acom.apple.mobileslideshow-default>'] [33-34-9644]	
+00:19.670.964	Debug	runningboardd (33)	com.apple.runningboard	assertion	> 1680 ['Shared Background Assertion 33 for com.apple.mobileslideshow'] [33-1680-9663]	
+00:19.670.982	Debug	runningboardd (33)	com.apple.runningboard	assertion	> 1680 ['RB Underlying Assertion'] [33-33-9450]	
+00:19.671.002	Debug	runningboardd (33)	com.apple.runningboard	assertion	> 1680 ['CMPhoto pool cleanup timer'] [33-1680-9643]	
+00:19.671.021	Debug	runningboardd (33)	com.apple.runningboard	assertion	> 1680 ['DAS: Application is docked.'] [33-80-9559]	
+00:19.671.040	Debug	runningboardd (33)	com.apple.runningboard	assertion	> 1680 ['Shared Background Assertion 32 for com.apple.mobileslideshow'] [33-1680-9662]	
+00:19.671.058	Debug	runningboardd (33)	com.apple.runningboard	assertion	> 1680 ['com.apple.frontboard.after-life.interrupted'] [33-34-9451]	
+00:19.671.077	Debug	runningboardd (33)	com.apple.runningboard	assertion	> 1680 ['Shared Background Assertion 34 for com.apple.mobileslideshow'] [33-1680-9664]	
+00:19.671.096	Debug	runningboardd (33)	com.apple.runningboard	assertion	> 1680 ['FBWorkspace (ForegroundFocal)'] [33-34-9642]	
+00:19.671.115	Debug	runningboardd (33)	com.apple.runningboard	assertion	> 1680 ['RunningBoardAssertedAssetSets'] [33-1680-9666]	
+00:19.671.138	Debug	runningboardd (33)	com.apple.runningboard	assertion	Now tracking 81 assertions (1680 holds 5).	
+00:19.671.158	Debug	runningboardd (33)	com.apple.runningboard	assertion	Removing assertion 33-1680-9663 on [app<com.apple.mobileslideshow(9123D57A-D0E6-47C6-938F-C289AA99CB36)>:1680]	
+00:19.671.177	Debug	runningboardd (33)	com.apple.runningboard	assertion	> app<com.apple.mobileslideshow(9123D57A-D0E6-47C6-938F-C289AA99CB36)> ['RunningBoardAssertedAssetSets'] [33-1680-9666]	
+00:19.671.196	Debug	runningboardd (33)	com.apple.runningboard	assertion	> app<com.apple.mobileslideshow(9123D57A-D0E6-47C6-938F-C289AA99CB36)> ['CMPhoto pool cleanup timer'] [33-1680-9643]	
+00:19.671.215	Debug	runningboardd (33)	com.apple.runningboard	assertion	> app<com.apple.mobileslideshow(9123D57A-D0E6-47C6-938F-C289AA99CB36)> ['Shared Background Assertion 32 for com.apple.mobileslideshow'] [33-1680-9662]	
+00:19.671.234	Debug	runningboardd (33)	com.apple.runningboard	assertion	> app<com.apple.mobileslideshow(9123D57A-D0E6-47C6-938F-C289AA99CB36)> ['Shared Background Assertion 34 for com.apple.mobileslideshow'] [33-1680-9664]	
+00:19.671.270	Debug	runningboardd (33)	com.apple.runningboard	assertion	> app<com.apple.mobileslideshow(9123D57A-D0E6-47C6-938F-C289AA99CB36)> ['RB Underlying Assertion'] [33-33-9450]	
+00:19.671.292	Info	runningboardd (33)	com.apple.runningboard	assertion	app<com.apple.mobileslideshow(9123D57A-D0E6-47C6-938F-C289AA99CB36)> is now targeted by 9 assertions	
+00:19.671.313	Debug	runningboardd (33)	com.apple.runningboard	assertion	> 1680 ['injecting inherited from "UIScene:com.apple.frontboard.systemappservices/FBSceneManager:com.apple.springboard" to 1680<UIScene:com.apple.frontboard.systemappservices/FBSceneManager:sceneID%3Acom.apple.mobileslideshow-default>'] [33-34-9644]	
+00:19.671.333	Debug	runningboardd (33)	com.apple.runningboard	assertion	> 1680 ['RB Underlying Assertion'] [33-33-9450]	
+00:19.671.361	Debug	runningboardd (33)	com.apple.runningboard	assertion	> 1680 ['CMPhoto pool cleanup timer'] [33-1680-9643]	
+00:19.671.375	Debug	runningboardd (33)	com.apple.runningboard	assertion	> 1680 ['DAS: Application is docked.'] [33-80-9559]	
+00:19.671.409	Debug	runningboardd (33)	com.apple.runningboard	assertion	> 1680 ['Shared Background Assertion 32 for com.apple.mobileslideshow'] [33-1680-9662]	
+00:19.671.432	Debug	runningboardd (33)	com.apple.runningboard	assertion	> 1680 ['com.apple.frontboard.after-life.interrupted'] [33-34-9451]	
+00:19.671.452	Debug	runningboardd (33)	com.apple.runningboard	assertion	> 1680 ['Shared Background Assertion 34 for com.apple.mobileslideshow'] [33-1680-9664]	
+00:19.671.472	Debug	runningboardd (33)	com.apple.runningboard	assertion	> 1680 ['FBWorkspace (ForegroundFocal)'] [33-34-9642]	
+00:19.671.491	Debug	runningboardd (33)	com.apple.runningboard	assertion	> 1680 ['RunningBoardAssertedAssetSets'] [33-1680-9666]	
+00:19.671.513	Debug	runningboardd (33)	com.apple.runningboard	assertion	Now tracking 80 assertions (1680 holds 4).	
+00:19.671.533	Debug	runningboardd (33)	com.apple.runningboard	assertion	Removing assertion 33-1680-9662 on [app<com.apple.mobileslideshow(9123D57A-D0E6-47C6-938F-C289AA99CB36)>:1680]	
+00:19.671.553	Debug	runningboardd (33)	com.apple.runningboard	assertion	> app<com.apple.mobileslideshow(9123D57A-D0E6-47C6-938F-C289AA99CB36)> ['RunningBoardAssertedAssetSets'] [33-1680-9666]	
+00:19.671.573	Debug	runningboardd (33)	com.apple.runningboard	assertion	> app<com.apple.mobileslideshow(9123D57A-D0E6-47C6-938F-C289AA99CB36)> ['CMPhoto pool cleanup timer'] [33-1680-9643]	
+00:19.671.593	Debug	runningboardd (33)	com.apple.runningboard	assertion	> app<com.apple.mobileslideshow(9123D57A-D0E6-47C6-938F-C289AA99CB36)> ['Shared Background Assertion 34 for com.apple.mobileslideshow'] [33-1680-9664]	
+00:19.671.613	Debug	runningboardd (33)	com.apple.runningboard	assertion	> app<com.apple.mobileslideshow(9123D57A-D0E6-47C6-938F-C289AA99CB36)> ['RB Underlying Assertion'] [33-33-9450]	
+00:19.671.631	Info	runningboardd (33)	com.apple.runningboard	assertion	app<com.apple.mobileslideshow(9123D57A-D0E6-47C6-938F-C289AA99CB36)> is now targeted by 8 assertions	
+00:19.671.652	Debug	runningboardd (33)	com.apple.runningboard	assertion	> 1680 ['injecting inherited from "UIScene:com.apple.frontboard.systemappservices/FBSceneManager:com.apple.springboard" to 1680<UIScene:com.apple.frontboard.systemappservices/FBSceneManager:sceneID%3Acom.apple.mobileslideshow-default>'] [33-34-9644]	
+00:19.671.671	Debug	runningboardd (33)	com.apple.runningboard	assertion	> 1680 ['RB Underlying Assertion'] [33-33-9450]	
+00:19.671.691	Debug	runningboardd (33)	com.apple.runningboard	assertion	> 1680 ['CMPhoto pool cleanup timer'] [33-1680-9643]	
+00:19.671.711	Debug	runningboardd (33)	com.apple.runningboard	assertion	> 1680 ['DAS: Application is docked.'] [33-80-9559]	
+00:19.671.740	Debug	runningboardd (33)	com.apple.runningboard	assertion	> 1680 ['com.apple.frontboard.after-life.interrupted'] [33-34-9451]	
+00:19.671.783	Debug	runningboardd (33)	com.apple.runningboard	assertion	> 1680 ['Shared Background Assertion 34 for com.apple.mobileslideshow'] [33-1680-9664]	
+00:19.671.810	Debug	runningboardd (33)	com.apple.runningboard	assertion	> 1680 ['FBWorkspace (ForegroundFocal)'] [33-34-9642]	
+00:19.671.856	Debug	runningboardd (33)	com.apple.runningboard	assertion	> 1680 ['RunningBoardAssertedAssetSets'] [33-1680-9666]	
+00:19.671.882	Debug	runningboardd (33)	com.apple.runningboard	assertion	Now tracking 79 assertions (1680 holds 3).	
+00:19.671.903	Debug	runningboardd (33)	com.apple.runningboard	assertion	Removing assertion 33-1680-9664 on [app<com.apple.mobileslideshow(9123D57A-D0E6-47C6-938F-C289AA99CB36)>:1680]	
+00:19.671.950	Debug	runningboardd (33)	com.apple.runningboard	assertion	> app<com.apple.mobileslideshow(9123D57A-D0E6-47C6-938F-C289AA99CB36)> ['RunningBoardAssertedAssetSets'] [33-1680-9666]	
+00:19.671.987	Debug	runningboardd (33)	com.apple.runningboard	assertion	> app<com.apple.mobileslideshow(9123D57A-D0E6-47C6-938F-C289AA99CB36)> ['CMPhoto pool cleanup timer'] [33-1680-9643]	
+00:19.672.010	Debug	runningboardd (33)	com.apple.runningboard	assertion	> app<com.apple.mobileslideshow(9123D57A-D0E6-47C6-938F-C289AA99CB36)> ['RB Underlying Assertion'] [33-33-9450]	
+00:19.672.030	Info	runningboardd (33)	com.apple.runningboard	assertion	app<com.apple.mobileslideshow(9123D57A-D0E6-47C6-938F-C289AA99CB36)> is now targeted by 7 assertions	
+00:19.672.050	Debug	runningboardd (33)	com.apple.runningboard	assertion	> 1680 ['injecting inherited from "UIScene:com.apple.frontboard.systemappservices/FBSceneManager:com.apple.springboard" to 1680<UIScene:com.apple.frontboard.systemappservices/FBSceneManager:sceneID%3Acom.apple.mobileslideshow-default>'] [33-34-9644]	
+00:19.672.071	Debug	runningboardd (33)	com.apple.runningboard	assertion	> 1680 ['RB Underlying Assertion'] [33-33-9450]	
+00:19.672.091	Debug	runningboardd (33)	com.apple.runningboard	assertion	> 1680 ['CMPhoto pool cleanup timer'] [33-1680-9643]	
+00:19.672.111	Debug	runningboardd (33)	com.apple.runningboard	assertion	> 1680 ['DAS: Application is docked.'] [33-80-9559]	
+00:19.672.130	Debug	runningboardd (33)	com.apple.runningboard	assertion	> 1680 ['com.apple.frontboard.after-life.interrupted'] [33-34-9451]	
+00:19.672.149	Debug	runningboardd (33)	com.apple.runningboard	assertion	> 1680 ['FBWorkspace (ForegroundFocal)'] [33-34-9642]	
+00:19.672.181	Debug	runningboardd (33)	com.apple.runningboard	assertion	> 1680 ['RunningBoardAssertedAssetSets'] [33-1680-9666]	
+00:19.672.207	Debug	runningboardd (33)	com.apple.runningboard	assertion	Now tracking 78 assertions (1680 holds 2).	
+00:19.672.228	Debug	runningboardd (33)	com.apple.runningboard	assertion	Removing assertion 33-1680-9666 on [app<com.apple.mobileslideshow(9123D57A-D0E6-47C6-938F-C289AA99CB36)>:1680]	
+00:19.672.248	Debug	runningboardd (33)	com.apple.runningboard	assertion	> app<com.apple.mobileslideshow(9123D57A-D0E6-47C6-938F-C289AA99CB36)> ['CMPhoto pool cleanup timer'] [33-1680-9643]	
+00:19.672.268	Debug	runningboardd (33)	com.apple.runningboard	assertion	> app<com.apple.mobileslideshow(9123D57A-D0E6-47C6-938F-C289AA99CB36)> ['RB Underlying Assertion'] [33-33-9450]	
+00:19.672.287	Info	runningboardd (33)	com.apple.runningboard	assertion	app<com.apple.mobileslideshow(9123D57A-D0E6-47C6-938F-C289AA99CB36)> is now targeted by 6 assertions	
+00:19.672.307	Debug	runningboardd (33)	com.apple.runningboard	assertion	> 1680 ['injecting inherited from "UIScene:com.apple.frontboard.systemappservices/FBSceneManager:com.apple.springboard" to 1680<UIScene:com.apple.frontboard.systemappservices/FBSceneManager:sceneID%3Acom.apple.mobileslideshow-default>'] [33-34-9644]	
+00:19.672.327	Debug	runningboardd (33)	com.apple.runningboard	assertion	> 1680 ['RB Underlying Assertion'] [33-33-9450]	
+00:19.672.346	Debug	runningboardd (33)	com.apple.runningboard	assertion	> 1680 ['CMPhoto pool cleanup timer'] [33-1680-9643]	
+00:19.672.365	Debug	runningboardd (33)	com.apple.runningboard	assertion	> 1680 ['DAS: Application is docked.'] [33-80-9559]	
+00:19.672.384	Debug	runningboardd (33)	com.apple.runningboard	assertion	> 1680 ['com.apple.frontboard.after-life.interrupted'] [33-34-9451]	
+00:19.672.403	Debug	runningboardd (33)	com.apple.runningboard	assertion	> 1680 ['FBWorkspace (ForegroundFocal)'] [33-34-9642]	
+00:19.702.958	Info	Photos (1680)	com.apple.photos.Neutrino	general	NURenderResource: evicted unused resource: <private> 0x3002bd1c0 [9] (12 remaining)	
+00:19.727.231	Info	bluetoothd (94)	com.apple.bluetooth	Stack.LE	 Invalid Dual mode support indication in AD flags 0x00000000.	
+00:19.727.340	Info	bluetoothd (94)	com.apple.bluetooth	Server.LE.Scan	Setting mfgr data:<private> len:6 id:4c	
+00:19.727.477	Debug	bluetoothd (94)	com.apple.bluetooth	Server.LE.Scan	Found device "D19775BC-9789-D01A-18FB-19FB5541D892 Random C2:8B:A9:F6:C4:24 RSSI:-76 with data:RSSI: 0 dB (non-saturated), MFR Data: 4C 00 12 02 00 01[AppleTypesBitmap:0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001000000000000000000], non-connectable, sourceCore: MainCore, IsELNAOn: 0, IsPassup: 0, IsFromSCCompensation0, IsCoexDenied0, 	
+00:19.727.544	Debug	bluetoothd (94)	com.apple.bluetooth	Server.LE.Scan	Show dup for given rule with puck type 0x12	
+00:19.727.575	Info	bluetoothd (94)	com.apple.bluetooth	Server.LE.Scan	Device "D19775BC-9789-D01A-18FB-19FB5541D892" matched MFG data	
+00:19.727.604	Debug	bluetoothd (94)	com.apple.bluetooth	Server.LE.Scan	doesDeviceMatch: fAdvDataMap size:145 fMaxNumOfReportsInMap:200 fAdvDataMap size:145 Puck?:1 roomInMap:1	
+00:19.727.691	Debug	bluetoothd (94)	com.apple.bluetooth	Server.XPC	createXpcAdvData sending data:<private> length:6 originalLength:6 lenError:0	
+00:19.727.740	Debug	bluetoothd (94)	com.apple.bluetooth	Server.App	moreAvailable=0, isFromADVBuffer=0	
+00:19.727.993	Debug	bluetoothd (94)	com.apple.bluetooth	Server.LE.Scan	Show dup for given rule with puck type 0x12	
+00:19.728.024	Info	bluetoothd (94)	com.apple.bluetooth	Server.LE.Scan	Device "D19775BC-9789-D01A-18FB-19FB5541D892" matched MFG data	
+00:19.728.052	Debug	bluetoothd (94)	com.apple.bluetooth	Server.LE.Scan	doesDeviceMatch: fAdvDataMap size:145 fMaxNumOfReportsInMap:200 fAdvDataMap size:145 Puck?:1 roomInMap:1	
+00:19.728.090	Debug	bluetoothd (94)	com.apple.bluetooth	Server.XPC	createXpcAdvData sending data:<private> length:6 originalLength:6 lenError:0	
+00:19.728.121	Debug	bluetoothd (94)	com.apple.bluetooth	Server.App	moreAvailable=0, isFromADVBuffer=0	
+00:19.728.172	Debug	locationd (74)	com.apple.locationd.Core	AvengerScanner	{"msg":"didDiscoverPeripheral", "ClientId":CLDurianService, "peripheral":<private>, "advertisementData":<private>}	
+00:19.728.244	Debug	bluetoothd (94)	com.apple.bluetooth	Server.LE.Scan	Show dup for given rule with puck type 0x12	
+00:19.728.269	Info	bluetoothd (94)	com.apple.bluetooth	Server.LE.Scan	Device "D19775BC-9789-D01A-18FB-19FB5541D892" matched MFG data	
+00:19.728.272	Debug	locationd (74)	com.apple.locationd.Core	Harvester	{"msg":"#CLAvengerReconciler advertisement reconciled: ", "ownerUUID":<private>, "nonownerUUID":<private>, "address":<private>, "uuidMap":<private>}	
+00:19.728.294	Debug	bluetoothd (94)	com.apple.bluetooth	Server.LE.Scan	doesDeviceMatch: fAdvDataMap size:145 fMaxNumOfReportsInMap:200 fAdvDataMap size:145 Puck?:1 roomInMap:1	
+00:19.728.331	Debug	bluetoothd (94)	com.apple.bluetooth	Server.XPC	createXpcAdvData sending data:<private> length:6 originalLength:6 lenError:0	
+00:19.728.344	Debug	locationd (74)	com.apple.locationd.Core	Harvester	{"msg":"#CLAvengerReconciler: creating CLAvengerScannerReconciledInformation", "reconciledInformation.description":<private>}	
+00:19.728.362	Debug	bluetoothd (94)	com.apple.bluetooth	Server.App	moreAvailable=0, isFromADVBuffer=0	
+00:19.728.373	Debug	locationd (74)	com.apple.locationd.Core	AvengerScanner	{"msg":"didDiscoverPeripheral", "ClientId":CLSubHarvesterAvenger, "peripheral":<private>, "advertisementData":<private>}	
+00:19.728.427	Debug	locationd (74)	com.apple.locationd.Position	Proximity	{"msg":"#durian onAvengerAdvertisement - not durian/hawkeye or not Apple advertisement", "status":0}	
+00:19.728.431	Debug	locationd (74)	com.apple.locationd.Core	Harvester	{"msg":"#CLAvengerReconciler advertisement reconciled: ", "ownerUUID":<private>, "nonownerUUID":<private>, "address":<private>, "uuidMap":<private>}	
+00:19.728.477	Debug	bluetoothd (94)	com.apple.bluetooth	Server.LE.Scan	No match found for device "D19775BC-9789-D01A-18FB-19FB5541D892"	
+00:19.728.484	Debug	locationd (74)	com.apple.locationd.Core	Harvester	{"msg":"#CLAvengerReconciler: creating CLAvengerScannerReconciledInformation", "reconciledInformation.description":<private>}	
+00:19.728.506	Debug	bluetoothd (94)	com.apple.bluetooth	Server.LE.Scan	Show dup for given rule with puck type 0x12	
+00:19.728.555	Default	locationd (74)	com.apple.locationd.Core	Harvester	{"msg":"onAvengerAdvertisementDetected: got avenger advertisement", "subHarvester":11}	
+00:19.728.572	Info	bluetoothd (94)	com.apple.bluetooth	Server.LE.Scan	Device "D19775BC-9789-D01A-18FB-19FB5541D892" matched MFG data	
+00:19.728.594	Debug	locationd (74)	com.apple.locationd.Core	AvengerScanner	{"msg":"didDiscoverPeripheral", "ClientId":CLTrackingAvoidanceService, "peripheral":<private>, "advertisementData":<private>}	
+00:19.728.619	Default	locationd (74)	com.apple.locationd.Core	Harvester	{"msg":"convertToSPAdvertisement", "address":<private>, "data":<private>, "date":<private>, "rssi":<private>, "status":<private>, "reserved":<private>, "subHarvester":11}	
+00:19.728.688	Debug	locationd (74)	com.apple.locationd.Core	Harvester	{"msg":"#CLAvengerReconciler advertisement reconciled: ", "ownerUUID":<private>, "nonownerUUID":<private>, "address":<private>, "uuidMap":<private>}	
+00:19.728.711	Debug	bluetoothd (94)	com.apple.bluetooth	Server.LE.Scan	doesDeviceMatch: fAdvDataMap size:96 fMaxNumOfReportsInMap:200 fAdvDataMap size:96 Puck?:1 roomInMap:1	
+00:19.728.783	Default	locationd (74)	com.apple.locationd.Core	Harvester	{"msg":"onAvengerAdvertisementDetected: advertisement is near-owner from other people and do not process it", "subHarvester":11}	
+00:19.728.839	Debug	bluetoothd (94)	com.apple.bluetooth	Server.XPC	createXpcAdvData sending data:<private> length:6 originalLength:6 lenError:0	
+00:19.728.865	Debug	locationd (74)	com.apple.locationd.Core	Harvester	{"msg":"#CLAvengerReconciler: creating CLAvengerScannerReconciledInformation", "reconciledInformation.description":<private>}	
+00:19.728.932	Debug	bluetoothd (94)	com.apple.bluetooth	Server.App	moreAvailable=0, isFromADVBuffer=0	
+00:19.729.114	Debug	locationd (74)	com.apple.locationd.Position	TrackingAvoidance	#ut received advertisement	
+00:19.729.158	Debug	bluetoothd (94)	com.apple.bluetooth	Server.LE.Scan	No match found for device "D19775BC-9789-D01A-18FB-19FB5541D892"	
+00:19.729.192	Debug	bluetoothd (94)	com.apple.bluetooth	Server.LE.Scan	Agents: com.apple.locationd-central-74-54 hashedUUIDs=0 Nbmatchrules=1 ServiceUUID=2 | com.apple.locationd-central-74-62 hashedUUIDs=0 Nbmatchrules=1 ServiceUUID=2 | com.apple.locationd-central-74-69 hashedUUIDs=0 Nbmatchrules=1 ServiceUUID=2 | com.apple.locationd-central-74-124 hashedUUIDs=0 Nbmatchrules=1 ServiceUUID=2 | 	
+00:19.729.245	Debug	locationd (74)	com.apple.locationd.Core	AvengerScanner	{"msg":"didDiscoverPeripheral", "ClientId":CLAvengerObservationReporterService, "peripheral":<private>, "advertisementData":<private>}	
+00:19.729.267	Debug	locationd (74)	com.apple.locationd.Position	GeneralCLX	TaMetricEvent, onAvengerAdvertisement, id, <private>, <private>, <private>, 3	
+00:19.729.379	Debug	locationd (74)	com.apple.locationd.Core	Harvester	{"msg":"#CLAvengerReconciler advertisement reconciled: ", "ownerUUID":<private>, "nonownerUUID":<private>, "address":<private>, "uuidMap":<private>}	
+00:19.729.422	Debug	bluetoothd (94)	com.apple.CFBundle	strings	Bundle: <private>, key: bt_type_generic, value: , table: CBLocalizable, localizationNames: , result: Bluetooth Device	
+00:19.729.456	Default	locationd (74)	com.apple.tracking-avoidance	Events	<private>	
+00:19.729.528	Debug	locationd (74)	com.apple.locationd.Core	Harvester	{"msg":"#CLAvengerReconciler: creating CLAvengerScannerReconciledInformation", "reconciledInformation.description":<private>}	
+00:19.729.766	Debug	locationd (74)	com.apple.tracking-avoidance	Status	#TAStore not adding TASPAdvertisement due to irrelevant device type:<private>	
+00:19.732.361	Debug	SpringBoard (34)	com.apple.locationd.Motion	Motion	Ping timer fired, resetting watchdog	
+00:19.732.458	Debug	locationd (74)	com.apple.locationd.Position	WifiPosition	@WifiLogic, entry, clienttimer	
+00:19.732.514	Default	locationd (74)	com.apple.locationd.Utility	QA	os_transaction created: (6,174,848,968) wifi1Event	
+00:19.732.559	Default	locationd (74)	com.apple.locationd.Position	WifiPosition	@WifiLogic, handleInput, Client::UpdateTimer	
+00:19.733.365	Debug	PerfPowerServices (1452)	com.apple.powerlog	time	Linear approximation: systemNow=Mon Nov 18 11:54:34 2024, lastSystemTimeRecalibrated=Mon Nov 18 11:54:34 2024, currentTime=Tue Jan 13 05:38:10 1970	
+00:19.733.558	Debug	PerfPowerServices (1452)	com.apple.powerlog	time	Linear approximation: systemNow=Mon Nov 18 11:54:34 2024, lastSystemTimeRecalibrated=Mon Nov 18 11:54:34 2024, currentTime=Tue Jan 13 05:38:10 1970	
+00:19.733.975	Info	locationd (74)	com.apple.locationd.Position	WifiPosition	{"msg":"wifi location update request state change", "before":Request, type, none, lowPriority, no, requester, default, numOfRequestedScans, 0, timestamp, -1.0, age, 753594875.7, "after":Request, type, none, lowPriority, no, requester, default, numOfRequestedScans, 0, timestamp, -1.0, age, 753594875.7}	
+00:19.733.996	Debug	backboardd (68)	com.apple.CoreBrightness.ColourSensorFilterPlugin	default	Color: X=158.9845(50.6063) Y=151.2257(48.1366) Z=58.7716(18.7076) 
+	
+00:19.734.014	Default	locationd (74)	com.apple.locationd.Position	WifiPosition	{"msg":"CLWifi1SystemLogic::apply", "event":elapsed, "begin_mach":1,168,540,432,755, "end_mach":1,168,540,465,009, "elapsed_s":"0.0013", "event":Client::UpdateTimer, "now_s":"753,594,874.6712"}	
+00:19.734.058	Default	backboardd (68)	com.apple.CoreBrightness.ColourSensorFilterPlugin	default	[ALS] ts=48,689.1758 lux=169.2886<private> xy=(0.4309 0.4098) chs=[992.0000 2,666.0000 6,709.0000 9,702.0000 10,134.0000] CCT1=3,302.0608 gain=512x mode=<private> subsamples=24 rawLux=175.5238 nits=1,083 xTalk=[9 18 34 46 61] status=0xb copyEvent=0	
+00:19.734.099	Default	locationd (74)	com.apple.locationd.Utility	QA	os_transaction releasing: (6,174,848,968) wifi1Event	
+00:19.734.167	Debug	locationd (74)	com.apple.locationd.Position	Position	AmbientLight,DecisionTree,x,177.9742,y,169.2886,z,65.7915,out,3	
+00:19.734.194	Debug	locationd (74)	com.apple.locationd.Position	Position	AmbientLightDecisionTreeOutput,3	
+00:19.734.194	Debug	backboardd (68)	com.apple.CoreBrightness.CBColorModule.Primary	default	key=ALSIntegrationMode result=	
+00:19.734.230	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[4]: 	
+00:19.734.255	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[2]: ALSIntegrationMode	
+00:19.734.285	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[2]: ALSIntegrationMode result=3	
+00:19.734.309	Debug	backboardd (68)	com.apple.CoreBrightness.CBABModuleiOS	default	key=ALSIntegrationMode result=3	
+00:19.734.332	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayContaineriOS	BuiltIn	key=ALSIntegrationMode result=3	
+00:19.734.358	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[4]: _plugInEnabled=1	
+00:19.734.381	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[4]: 0xdb4ccd900 0xdb61fa450	
+00:19.734.408	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[10]: 169.2886 	
+00:19.734.469	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[10]: als->_Esensor_device=169.2886	
+00:19.734.529	Debug	backboardd (68)	com.apple.CoreBrightness.CBALSEvent	default	Tristimulus values: XYZ[0]=56.6509, XYZ[1]=53.8862, XYZ[2]=20.9421 | CCT1=3,302.0608	
+00:19.734.563	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[2]: _luxFilter=3 als->_Ehistory_max=8	
+00:19.734.592	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[10]: Median filter computed on 8 samples	
+00:19.734.630	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	Median filter computed on 8 samples	
+00:19.734.670	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[10]: ts=48,689.1758 Esensor=170.3768 Emedian=171.4754	
+00:19.734.700	Debug	PerfPowerServices (1452)	com.apple.powerlog	time	Linear approximation: systemNow=Mon Nov 18 11:54:34 2024, lastSystemTimeRecalibrated=Mon Nov 18 11:54:34 2024, currentTime=Tue Jan 13 05:38:10 1970	
+00:19.734.725	Info	backboardd (68)	com.apple.CoreBrightness.AABRear.CBRearALSModule	default	Copy Grimaldi Lux = 54.49038	
+00:19.734.749	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	E 171.4754, Ecapped 171.4754, EmaxCap -1.0000 => finalE 171.4754	
+00:19.734.785	Debug	backboardd (68)	com.apple.CoreBrightness.AABRear	default	AABRear: shouldUseRearLuxFrontLux called with (fLux:171.4754, rLux:54.4904, cap: 1,900.5753)	
+00:19.734.849	Debug	backboardd (68)	com.apple.CoreBrightness.AABRear	default	AABRear: using rear? 0	
+00:19.734.876	Debug	PerfPowerServices (1452)	com.apple.powerlog	time	Linear approximation: systemNow=Mon Nov 18 11:54:34 2024, lastSystemTimeRecalibrated=Mon Nov 18 11:54:34 2024, currentTime=Tue Jan 13 05:38:10 1970	
+00:19.734.918	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	E 171.4754, Ecapped 171.4754, EmaxCap -1.0000 => finalE 171.4754	
+00:19.734.959	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayContaineriOS	BuiltIn	Notification block key=RLuxStats, value=<private>
+	
+00:19.735.015	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	Handle notification for key = RLuxStats and property = <private>	
+00:19.735.083	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[10]: _Esensor_filtered=171.4754 _Esensor_trusted=171.4754 _Esensor_aggregated=171.4754	
+00:19.735.162	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[10]: _Esensor_trusted=171.4754 _state=kAABStateAutoBrightness _proxState=kProxNone _touchIsObstucted=0 _settings._internal._dimPolicy=kDimPolicyFullDimming 3 _orientation=kIOHIDDisplayOrientationTypeAmbiguous	
+00:19.735.195	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	E 171.4754, Ecapped 171.4754, EmaxCap -1.0000 => finalE 171.4754	
+00:19.735.217	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[1/1] Esensor_device: 169.2886 als->_Esensor_filtered: 171.4754 _Esensor_trusted: 171.4754  L: 192.7283 L_reflected: 1.0916	
+00:19.735.251	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[10]: dimRestriction=kDimRestrictionUnrestricted	
+00:19.735.277	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	Set capped lux to IOMFB 171.4754 (170.7550)	
+00:19.735.678	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[4]: 	
+00:19.735.712	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[200]: inputs: L=192.7283 (shouldRamp=true dimRestriction=kDimRestrictionUnrestricted _Esensor_trusted=171.4754) curveChanged=0	
+00:19.735.736	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[200]: _fastRampMode=0 dimRestriction=kDimRestrictionUnrestricted L_newtarget=192.7283 _L_current=76.2887 _L_minimum=191.4493	
+00:19.735.762	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	PLT	shallUpdateBacklight: Pstart=0.7645 Pcurrent=0.7645 Pnewtarget=0.7553 Pdelta=-0.0092 Pthreshold_dim=0.0500 (0.1000 * 0.5000) Pthreshold_brighten=0.1000 (0.1000 * 1.0000) plt_x=0.2500 plt_y=0.3700 plt_z=0.1000	
+00:19.735.786	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[200]: _L_target=205.5501 Pnewtarget=0.7553 Ptarget=0.7645 Pdelta=-0.0092  	
+00:19.735.814	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[200]: systemShallUpdateBacklight=false L_target=192.7283 timeConstant=0.0000	
+00:19.735.871	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=RLuxStats value=<private>	
+00:19.735.896	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=RLuxStats property=<private>	
+00:19.735.931	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	passed for client 58881740544	
+00:19.736.047	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=<private> value=<private>	
+00:19.736.074	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=<private> property=<private>	
+00:19.736.137	Debug	backboardd (68)	com.apple.CoreBrightness.CBALSEvent	default	Tristimulus values: XYZ[0]=56.6509, XYZ[1]=53.8862, XYZ[2]=20.9421 | CCT1=3,302.0608	
+00:19.736.150	Debug	PerfPowerServices (1452)	com.apple.CoreBrightness	default	key=<private> property=<private> queue=0x97ede5100 clientBlock=0x97e365e90	
+00:19.736.165	Debug	backboardd (68)	com.apple.CoreBrightness.CBALSNode	default	<private>	
+00:19.736.318	Info	PerfPowerServices (1452)	com.apple.CoreBrightness.BSCI	default	use_synchronous_remote=1	
+00:19.736.322	Debug	backboardd (68)	com.apple.CoreBrightness.CBBrightestALSFilter	default	ALS events <private>	
+00:19.736.341	Info	backboardd (68)	com.apple.CoreBrightness.CBColorPolicyFilter	default	HarmonyPolicy: Sample IS  from mitigated region	
+00:19.736.356	Info	backboardd (68)	com.apple.CoreBrightness.CBColorPolicyFilter	default	HarmonyPolicy: BaselineHarmony: mitigatedStr, for (lux, nits): 169.0000, 1,083.0000 = 0.1300 (rounded)	
+00:19.736.363	Default	PerfPowerServices (1452)	com.apple.xpc	connection	[0x97ef066c0] activating connection: mach=1 listener=0 peer=0 name=com.apple.backlightd	
+00:19.736.390	Info	backboardd (68)	com.apple.CoreBrightness.CBColorPolicyFilter	default	HarmonyPolicy: Sample IS NOT from CE region	
+00:19.736.416	Info	backboardd (68)	com.apple.CoreBrightness.CBColorPolicyFilter	default	HarmonyPolicy: Incoming ALS sample, pushed to queue: <private>	
+00:19.736.481	Info	backboardd (68)	com.apple.CoreBrightness.CBColorPolicyFilter	default	HarmonyPolicy: _filteredALS: <private>, _filtered strength: 0.2700	
+00:19.736.500	Default	PerfPowerServices (1452)	com.apple.CoreBrightness	default	Register notification block	
+00:19.736.507	Debug	backboardd (68)	com.apple.CoreBrightness.CBColorModule.Primary	default	ALS event with orientation = 1	
+00:19.736.556	Info	backboardd (68)	com.apple.CoreBrightness.CBColorModule.Primary	default	HarmonyPolicy: Using Baseline	
+00:19.736.610	Debug	backboardd (68)	com.apple.CoreBrightness.CBColorModule.Primary	default	input ambient color sample: xy = (0.4309;0.4098)	
+00:19.736.632	Default	backboardd (68)	com.apple.xpc	connection	[0xdb5089b80] activating connection: mach=0 listener=0 peer=1 name=com.apple.backlightd.peer[1452].0xdb5089b80	
+00:19.736.687	Debug	backboardd (68)	CoreBrightness	Default	LOWLUX 53.8862
+	
+00:19.736.744	Info	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	client=58903569952 key=<private>	
+00:19.736.764	Debug	backboardd (68)	CoreBrightness	Default	[ColorEffects.c:_CFXRestrictLowAmbientColor] xy=(0.4309,0.4098), CCT = 3,157.0000, CCT1 = 3,302.0608	
+00:19.736.893	Debug	backboardd (68)	CoreBrightness	Default	Restrict: (17.0856, 17.0856) -> (13.7470, 46.7772)
+	
+00:19.736.950	Debug	backboardd (68)	CoreBrightness	Default	60.5960 17.0856 58.1374 -> ANGLE 1.6777 -> BIN 2	
+00:19.736.982	Debug	backboardd (68)	CoreBrightness	Default	BIN 13: (0.4309, 0.4098) fitting in (0.4150, 0.3821)-(0.4373, 0.3893)-(0.4303, 0.4173)
+	
+00:19.737.033	Info	backboardd (68)	com.apple.CoreBrightness.CBColorModule.Primary	default	Set ambient color sample ALS event = [Orientation = 1; Illuminance = 169.000000; xy = (0.430874,0.409846); XYZ = (56.650940,53.886238,20.942070); CCT1 = 3302.060791; Integration time = 0.002906; Gain = 33554432; Obstructed = 0; First = 0, mitigation = 1, timestamp = 87734770]	
+00:19.737.079	Debug	backboardd (68)	com.apple.CoreBrightness.CBColorModule.Primary	default	key=<private> result=<private>	
+00:19.737.109	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayContaineriOS	BuiltIn	key=<private> result=<private>	
+00:19.737.204	Info	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=<private> result=<private>	
+00:19.737.485	Debug	PerfPowerServices (1452)	com.apple.CoreBrightness.Client	Default	BSC dealloc	
+00:19.737.521	Default	PerfPowerServices (1452)	com.apple.CoreBrightness	default	Register notification block	
+00:19.737.556	Default	PerfPowerServices (1452)	com.apple.xpc	connection	[0x97ef066c0] invalidated because the current process cancelled the connection by calling xpc_connection_cancel()	
+00:19.737.601	Debug	PerfPowerServices (1452)	com.apple.powerlog	display	Received notification for CBrLuxStats: <private>	
+00:19.737.629	Default	backboardd (68)	com.apple.xpc	connection	[0xdb5089b80] invalidated because the client process (pid 1,452) either cancelled the connection or exited	
+00:19.737.652	Debug	PerfPowerServices (1452)	com.apple.CoreBrightness.BSCI	default	BSCI dealloc	
+00:19.737.677	Default	PerfPowerServices (1452)	com.apple.CoreBrightness	default	Register notification block	
+00:19.739.841	Debug	DTServiceHub (360)	DVTInstrumentsFoundation	Default	Data Size: 101,438, Rows Sent: 1,330, Stack depth: 3,255	
+00:19.744.024	Info	bluetoothd (94)	com.apple.bluetooth	Stack.LE	 Invalid Dual mode support indication in AD flags 0x00000000.	
+00:19.744.167	Info	bluetoothd (94)	com.apple.bluetooth	Server.LE.Scan	Setting mfgr data:<private> len:6 id:4c	
+00:19.744.286	Debug	bluetoothd (94)	com.apple.bluetooth	Server.LE.Scan	Found device "B0B10D96-4AFC-96AA-F370-2F1DD46B043B Random D7:DD:2E:5E:1A:93 RSSI:-92 with data:RSSI: 0 dB (non-saturated), MFR Data: 4C 00 12 02 00 01[AppleTypesBitmap:0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001000000000000000000], non-connectable, sourceCore: MainCore, IsELNAOn: 0, IsPassup: 0, IsFromSCCompensation0, IsCoexDenied0, 	
+00:19.744.336	Debug	bluetoothd (94)	com.apple.bluetooth	Server.LE.Scan	Show dup for given rule with puck type 0x12	
+00:19.744.356	Info	bluetoothd (94)	com.apple.bluetooth	Server.LE.Scan	Device "B0B10D96-4AFC-96AA-F370-2F1DD46B043B" matched MFG data	
+00:19.744.379	Debug	bluetoothd (94)	com.apple.bluetooth	Server.LE.Scan	doesDeviceMatch: fAdvDataMap size:145 fMaxNumOfReportsInMap:200 fAdvDataMap size:145 Puck?:1 roomInMap:1	
+00:19.744.424	Debug	bluetoothd (94)	com.apple.bluetooth	Server.XPC	createXpcAdvData sending data:<private> length:6 originalLength:6 lenError:0	
+00:19.744.452	Debug	bluetoothd (94)	com.apple.bluetooth	Server.App	moreAvailable=0, isFromADVBuffer=0	
+00:19.744.597	Debug	bluetoothd (94)	com.apple.bluetooth	Server.LE.Scan	Show dup for given rule with puck type 0x12	
+00:19.744.616	Info	bluetoothd (94)	com.apple.bluetooth	Server.LE.Scan	Device "B0B10D96-4AFC-96AA-F370-2F1DD46B043B" matched MFG data	
+00:19.744.648	Debug	bluetoothd (94)	com.apple.bluetooth	Server.LE.Scan	doesDeviceMatch: fAdvDataMap size:145 fMaxNumOfReportsInMap:200 fAdvDataMap size:145 Puck?:1 roomInMap:1	
+00:19.744.676	Debug	bluetoothd (94)	com.apple.bluetooth	Server.XPC	createXpcAdvData sending data:<private> length:6 originalLength:6 lenError:0	
+00:19.744.697	Debug	bluetoothd (94)	com.apple.bluetooth	Server.App	moreAvailable=0, isFromADVBuffer=0	
+00:19.744.780	Debug	bluetoothd (94)	com.apple.bluetooth	Server.LE.Scan	Show dup for given rule with puck type 0x12	
+00:19.744.802	Info	bluetoothd (94)	com.apple.bluetooth	Server.LE.Scan	Device "B0B10D96-4AFC-96AA-F370-2F1DD46B043B" matched MFG data	
+00:19.744.804	Debug	locationd (74)	com.apple.locationd.Core	AvengerScanner	{"msg":"didDiscoverPeripheral", "ClientId":CLDurianService, "peripheral":<private>, "advertisementData":<private>}	
+00:19.744.822	Debug	bluetoothd (94)	com.apple.bluetooth	Server.LE.Scan	doesDeviceMatch: fAdvDataMap size:145 fMaxNumOfReportsInMap:200 fAdvDataMap size:145 Puck?:1 roomInMap:1	
+00:19.744.849	Debug	bluetoothd (94)	com.apple.bluetooth	Server.XPC	createXpcAdvData sending data:<private> length:6 originalLength:6 lenError:0	
+00:19.744.869	Debug	bluetoothd (94)	com.apple.bluetooth	Server.App	moreAvailable=0, isFromADVBuffer=0	
+00:19.744.904	Debug	locationd (74)	com.apple.locationd.Core	AvengerScanner	{"msg":"didDiscoverPeripheral", "ClientId":CLSubHarvesterAvenger, "peripheral":<private>, "advertisementData":<private>}	
+00:19.744.907	Debug	locationd (74)	com.apple.locationd.Core	Harvester	{"msg":"#CLAvengerReconciler advertisement reconciled: ", "ownerUUID":<private>, "nonownerUUID":<private>, "address":<private>, "uuidMap":<private>}	
+00:19.744.951	Debug	locationd (74)	com.apple.locationd.Core	Harvester	{"msg":"#CLAvengerReconciler advertisement reconciled: ", "ownerUUID":<private>, "nonownerUUID":<private>, "address":<private>, "uuidMap":<private>}	
+00:19.744.951	Debug	bluetoothd (94)	com.apple.bluetooth	Server.LE.Scan	No match found for device "B0B10D96-4AFC-96AA-F370-2F1DD46B043B"	
+00:19.744.987	Debug	locationd (74)	com.apple.locationd.Core	Harvester	{"msg":"#CLAvengerReconciler: creating CLAvengerScannerReconciledInformation", "reconciledInformation.description":<private>}	
+00:19.744.996	Debug	locationd (74)	com.apple.locationd.Core	Harvester	{"msg":"#CLAvengerReconciler: creating CLAvengerScannerReconciledInformation", "reconciledInformation.description":<private>}	
+00:19.745.046	Debug	locationd (74)	com.apple.locationd.Position	Proximity	{"msg":"#durian onAvengerAdvertisement - not durian/hawkeye or not Apple advertisement", "status":0}	
+00:19.745.051	Debug	bluetoothd (94)	com.apple.bluetooth	Server.LE.Scan	Show dup for given rule with puck type 0x12	
+00:19.745.053	Default	locationd (74)	com.apple.locationd.Core	Harvester	{"msg":"onAvengerAdvertisementDetected: got avenger advertisement", "subHarvester":11}	
+00:19.745.057	Debug	locationd (74)	com.apple.locationd.Core	AvengerScanner	{"msg":"didDiscoverPeripheral", "ClientId":CLTrackingAvoidanceService, "peripheral":<private>, "advertisementData":<private>}	
+00:19.745.122	Default	locationd (74)	com.apple.locationd.Core	Harvester	{"msg":"convertToSPAdvertisement", "address":<private>, "data":<private>, "date":<private>, "rssi":<private>, "status":<private>, "reserved":<private>, "subHarvester":11}	
+00:19.745.125	Info	bluetoothd (94)	com.apple.bluetooth	Server.LE.Scan	Device "B0B10D96-4AFC-96AA-F370-2F1DD46B043B" matched MFG data	
+00:19.745.161	Debug	locationd (74)	com.apple.locationd.Core	Harvester	{"msg":"#CLAvengerReconciler advertisement reconciled: ", "ownerUUID":<private>, "nonownerUUID":<private>, "address":<private>, "uuidMap":<private>}	
+00:19.745.190	Debug	bluetoothd (94)	com.apple.bluetooth	Server.LE.Scan	doesDeviceMatch: fAdvDataMap size:96 fMaxNumOfReportsInMap:200 fAdvDataMap size:96 Puck?:1 roomInMap:1	
+00:19.745.240	Default	locationd (74)	com.apple.locationd.Core	Harvester	{"msg":"onAvengerAdvertisementDetected: advertisement is near-owner from other people and do not process it", "subHarvester":11}	
+00:19.745.278	Debug	bluetoothd (94)	com.apple.bluetooth	Server.XPC	createXpcAdvData sending data:<private> length:6 originalLength:6 lenError:0	
+00:19.745.298	Debug	locationd (74)	com.apple.locationd.Core	Harvester	{"msg":"#CLAvengerReconciler: creating CLAvengerScannerReconciledInformation", "reconciledInformation.description":<private>}	
+00:19.745.339	Debug	bluetoothd (94)	com.apple.bluetooth	Server.App	moreAvailable=0, isFromADVBuffer=0	
+00:19.745.457	Debug	locationd (74)	com.apple.locationd.Position	TrackingAvoidance	#ut received advertisement	
+00:19.745.490	Debug	bluetoothd (94)	com.apple.bluetooth	Server.LE.Scan	No match found for device "B0B10D96-4AFC-96AA-F370-2F1DD46B043B"	
+00:19.745.515	Debug	bluetoothd (94)	com.apple.bluetooth	Server.LE.Scan	Agents: com.apple.locationd-central-74-54 hashedUUIDs=0 Nbmatchrules=1 ServiceUUID=2 | com.apple.locationd-central-74-62 hashedUUIDs=0 Nbmatchrules=1 ServiceUUID=2 | com.apple.locationd-central-74-69 hashedUUIDs=0 Nbmatchrules=1 ServiceUUID=2 | com.apple.locationd-central-74-124 hashedUUIDs=0 Nbmatchrules=1 ServiceUUID=2 | 	
+00:19.745.551	Debug	locationd (74)	com.apple.locationd.Position	GeneralCLX	TaMetricEvent, onAvengerAdvertisement, id, <private>, <private>, <private>, 3	
+00:19.745.552	Debug	locationd (74)	com.apple.locationd.Core	AvengerScanner	{"msg":"didDiscoverPeripheral", "ClientId":CLAvengerObservationReporterService, "peripheral":<private>, "advertisementData":<private>}	
+00:19.745.644	Debug	locationd (74)	com.apple.locationd.Core	Harvester	{"msg":"#CLAvengerReconciler advertisement reconciled: ", "ownerUUID":<private>, "nonownerUUID":<private>, "address":<private>, "uuidMap":<private>}	
+00:19.745.704	Debug	bluetoothd (94)	com.apple.CFBundle	strings	Bundle: <private>, key: bt_type_generic, value: , table: CBLocalizable, localizationNames: , result: Bluetooth Device	
+00:19.745.730	Default	locationd (74)	com.apple.tracking-avoidance	Events	<private>	
+00:19.745.776	Debug	locationd (74)	com.apple.locationd.Core	Harvester	{"msg":"#CLAvengerReconciler: creating CLAvengerScannerReconciledInformation", "reconciledInformation.description":<private>}	
+00:19.745.919	Debug	locationd (74)	com.apple.tracking-avoidance	Status	#TAStore not adding TASPAdvertisement due to irrelevant device type:<private>	
+00:19.754.256	Debug	backboardd (68)	com.apple.BackBoard	MotionEvents	Motion event usagePage:0xff0c usage:1 	
+00:19.754.367	Debug	locationd (74)	com.apple.locationd.Motion	AOP	MotionCoprocessor received TimeSync data machTimestamp,<private>,oscarTimestamp,<private>	
+00:19.754.702	Debug	backboardd (68)	com.apple.BackBoard	MotionEvents	Motion event usagePage:0xff0c usage:1 	
+00:19.754.897	Debug	locationd (74)	com.apple.locationd.Motion	Motion	visitKFFilteredPressure,nowAP,753,594,874.6935,nowAOP,349,887,701,065,filteredPressure,102,636.6406,pressureTimestamp,349,884,980,711,kfElevation,-108.5252,wallTimePressureCorrected,753,594,871.9730,wallTimeKFCorrected,753,594,874.6594,temperatureDerivative,0.0000,absAltUnc,-0.0000	
+00:19.755.123	Debug	locationd (74)	com.apple.locationd.Motion	Altimeter	received KF filtered pressure from AOP,now,<private>,filteredPressureTimestamp,<private>,filteredPressure,<private>,kfTimestamp,<private>,kfElevation,<private>,kfPressure,<private> temperature,<private>,absAltUnc,<private>	
+00:19.755.157	Debug	locationd (74)	com.apple.locationd.Motion	Altimeter	{"msg":"kfPressure source updated with", "timestamp_s":"<private>", "kfPressure":"<private>", "kfElevation":"<private>", "absAltUncertainty":"<private>"}	
+00:19.779.888	Default	MonoProxyTunnel (390)	com.apple.containermanager	unspecified	container_create_or_lookup_app_group_path_by_app_group_identifier: success	
+00:19.781.389	Debug	MonoProxyTunnel (390)	com.apple.CFBundle	resources	Resource lookup at <private>
+	Request       : InfoPlist type: strings
+	Result        : None
+	
+00:19.781.480	Debug	MonoProxyTunnel (390)	com.apple.CFBundle	resources	Resource lookup at <private>
+	Request       : InfoPlist type: stringsdict
+	Result        : None
+	
+00:19.852.960	Debug	Photos (1680)	com.apple.photos.Neutrino	ui	-[NUMediaView _transitionToInsets:duration:animationCurve:updateRenderContent:] - render view content size: <private>	
+00:19.853.234	Debug	Photos (1680)	com.apple.photos.Neutrino	ui	-[NURenderView animationDidStop:finished:] - finished: 1 shouldRemoveAnimation: 0	
+00:19.853.394	Debug	Photos (1680)	com.apple.photos.Neutrino	schedule	job 0x4d4735900 stage Prepare schedule high, 0.0000	
+00:19.853.552	Debug	Photos (1680)	com.apple.photos.ui	PhotoEdit	_prepareViewsForCleanupIfReady; not ready. _mediaViewIsReady: NO, modelDeliveryManager ready: NO, mediaView: <private>, isActiveTool: YES	
+00:19.853.569	Debug	Photos (1680)	com.apple.photos.Neutrino	schedule	job 0x4d4735900 NUMediaViewRenderer-zoomedToFit prepare	
+00:19.853.859	Debug	Photos (1680)	com.apple.photos.ui	UI	[ImageModulation] Asked <private> for its presentedVC:  to determine effectiveHDRFocus: 1.0000	
+00:19.853.875	Debug	Photos (1680)	com.apple.photos.ui	UI	[ImageModulation] Asked <private> for its presentedVC: <private> to determine effectiveHDRFocus: 1.0000	
+00:19.853.906	Debug	Photos (1680)	com.apple.photos.ui	UI	[ImageModulation] Asked <private> for its presentedVC:  to determine effectiveHDRFocus: 1.0000	
+00:19.853.913	Debug	Photos (1680)	com.apple.photos.ui	UI	[ImageModulation] Asked <private> for its presentedVC: <private> to determine effectiveHDRFocus: 1.0000	
+00:19.853.937	Debug	Photos (1680)	com.apple.photos.ui	UI	[ImageModulation] Asked <private> for its presentedVC:  to determine effectiveHDRFocus: 1.0000	
+00:19.853.944	Debug	Photos (1680)	com.apple.photos.ui	UI	[ImageModulation] Asked <private> for its presentedVC: <private> to determine effectiveHDRFocus: 1.0000	
+00:19.853.993	Debug	Photos (1680)	com.apple.photos.Neutrino	render	FlexRange metadata: <private>	
+00:19.854.108	Debug	Photos (1680)	com.apple.photos.ui	UI	[ImageModulation] Asked <private> for its presentedVC:  to determine effectiveHDRFocus: 1.0000	
+00:19.854.175	Debug	Photos (1680)	com.apple.photos.ui	UI	[ImageModulation] Asked <private> for its presentedVC: <private> to determine effectiveHDRFocus: 1.0000	
+00:19.854.198	Debug	Photos (1680)	com.apple.photos.Neutrino	render	FlexRange properties: <private>	
+00:19.854.237	Debug	Photos (1680)	com.apple.photos.ui	UI	[ImageModulation] Asked <private> for its presentedVC:  to determine effectiveHDRFocus: 1.0000	
+00:19.854.282	Debug	Photos (1680)	com.apple.defaults	User Defaults	found no value for key PI_SEMANTIC_STYLE_DISABLE_STYLE_ENGINE in CFPrefsSearchListSource<0x303794000> (Domain: com.apple.mobileslideshow, Container: (null))	
+00:19.854.284	Debug	Photos (1680)	com.apple.photos.ui	UI	[ImageModulation] Asked <private> for its presentedVC: <private> to determine effectiveHDRFocus: 1.0000	
+00:19.854.400	Debug	Photos (1680)	com.apple.photos.ui	UI	[ImageModulation] Asked <private> for its presentedVC:  to determine effectiveHDRFocus: 1.0000	
+00:19.854.449	Debug	Photos (1680)	com.apple.defaults	User Defaults	found no value for key PI_DEBUG_USE_STYLE_ENGINE in CFPrefsSearchListSource<0x303794000> (Domain: com.apple.mobileslideshow, Container: (null))	
+00:19.854.464	Debug	Photos (1680)	com.apple.photos.ui	UI	[ImageModulation] Asked <private> for its presentedVC: <private> to determine effectiveHDRFocus: 1.0000	
+00:19.854.523	Debug	Photos (1680)	com.apple.photos.Neutrino	render	FlexRange metadata: <private>	
+00:19.854.549	Debug	Photos (1680)	com.apple.photos.ui	UI	[ImageModulation] Asked <private> for its presentedVC:  to determine effectiveHDRFocus: 1.0000	
+00:19.854.598	Debug	Photos (1680)	com.apple.photos.Neutrino	render	FlexRange properties: <private>	
+00:19.854.614	Debug	Photos (1680)	com.apple.photos.ui	UI	[ImageModulation] Asked <private> for its presentedVC: <private> to determine effectiveHDRFocus: 1.0000	
+00:19.854.662	Debug	Photos (1680)	com.apple.photos.Neutrino	schedule	Prepare node:
+<private>	
+00:19.854.701	Debug	Photos (1680)	com.apple.photos.ui	UI	[ImageModulation] Asked <private> for its presentedVC:  to determine effectiveHDRFocus: 1.0000	
+00:19.854.752	Debug	Photos (1680)	com.apple.photos.ui	UI	[ImageModulation] Asked <private> for its presentedVC: <private> to determine effectiveHDRFocus: 1.0000	
+00:19.854.786	Debug	Photos (1680)	com.apple.photos.ui	UI	[ImageModulation] Asked <private> for its presentedVC:  to determine effectiveHDRFocus: 1.0000	
+00:19.854.857	Debug	Photos (1680)	com.apple.photos.Neutrino	schedule	Render scale: 1,320:4,284	
+00:19.854.865	Debug	Photos (1680)	com.apple.photos.ui	UI	[ImageModulation] Asked <private> for its presentedVC: <private> to determine effectiveHDRFocus: 1.0000	
+00:19.854.897	Debug	Photos (1680)	com.apple.photos.Neutrino	schedule	Output geometry: <private>	
+00:19.854.972	Debug	Photos (1680)	com.apple.photos.ui	UI	[ImageModulation] Asked <private> for its presentedVC:  to determine effectiveHDRFocus: 1.0000	
+00:19.855.028	Debug	Photos (1680)	com.apple.photos.ui	UI	[ImageModulation] Asked <private> for its presentedVC: <private> to determine effectiveHDRFocus: 1.0000	
+00:19.855.070	Debug	Photos (1680)	com.apple.photos.ui	UI	[ImageModulation] Asked <private> for its presentedVC:  to determine effectiveHDRFocus: 1.0000	
+00:19.855.144	Debug	Photos (1680)	com.apple.photos.Neutrino	render	FlexRange metadata: <private>	
+00:19.855.181	Debug	Photos (1680)	com.apple.photos.ui	UI	[ImageModulation] Asked <private> for its presentedVC: <private> to determine effectiveHDRFocus: 1.0000	
+00:19.855.190	Debug	Photos (1680)	com.apple.photos.Neutrino	render	FlexRange properties: <private>	
+00:19.855.207	Debug	Photos (1680)	com.apple.photos.ui	UI	[ImageModulation] Asked <private> for its presentedVC:  to determine effectiveHDRFocus: 1.0000	
+00:19.855.267	Debug	Photos (1680)	com.apple.photos.ui	UI	[ImageModulation] Asked <private> for its presentedVC: <private> to determine effectiveHDRFocus: 1.0000	
+00:19.855.298	Debug	Photos (1680)	com.apple.photos.ui	UI	[ImageModulation] Asked <private> for its presentedVC:  to determine effectiveHDRFocus: 1.0000	
+00:19.855.330	Debug	Photos (1680)	com.apple.photos.Neutrino	render	FlexRange metadata: <private>	
+00:19.855.349	Debug	Photos (1680)	com.apple.photos.ui	UI	[ImageModulation] Asked <private> for its presentedVC: <private> to determine effectiveHDRFocus: 1.0000	
+00:19.855.410	Debug	Photos (1680)	com.apple.photos.Neutrino	render	FlexRange properties: <private>	
+00:19.855.435	Debug	Photos (1680)	com.apple.photos.ui	UI	[ImageModulation] Asked <private> for its presentedVC:  to determine effectiveHDRFocus: 1.0000	
+00:19.855.554	Debug	Photos (1680)	com.apple.photos.ui	UI	[ImageModulation] Asked <private> for its presentedVC: <private> to determine effectiveHDRFocus: 1.0000	
+00:19.855.622	Debug	Photos (1680)	com.apple.photos.ui	UI	[ImageModulation] Asked <private> for its presentedVC:  to determine effectiveHDRFocus: 1.0000	
+00:19.855.654	Debug	Photos (1680)	com.apple.photos.ui	UI	[ImageModulation] Asked <private> for its presentedVC: <private> to determine effectiveHDRFocus: 1.0000	
+00:19.855.692	Debug	Photos (1680)	com.apple.photos.Neutrino	render	FlexRange metadata: <private>	
+00:19.855.732	Debug	Photos (1680)	com.apple.photos.ui	UI	[ImageModulation] Asked <private> for its presentedVC:  to determine effectiveHDRFocus: 1.0000	
+00:19.855.763	Debug	Photos (1680)	com.apple.photos.Neutrino	render	FlexRange properties: <private>	
+00:19.855.779	Debug	Photos (1680)	com.apple.photos.ui	UI	[ImageModulation] Asked <private> for its presentedVC: <private> to determine effectiveHDRFocus: 1.0000	
+00:19.855.862	Debug	Photos (1680)	com.apple.photos.Neutrino	schedule	Render node:
+<private>	
+00:19.855.889	Debug	Photos (1680)	com.apple.photos.ui	UI	[ImageModulation] Asked <private> for its presentedVC:  to determine effectiveHDRFocus: 1.0000	
+00:19.855.957	Debug	Photos (1680)	com.apple.photos.ui	UI	[ImageModulation] Asked <private> for its presentedVC: <private> to determine effectiveHDRFocus: 1.0000	
+00:19.855.965	Debug	Photos (1680)	com.apple.photos.Neutrino	schedule	Output image: <private>	
+00:19.856.025	Debug	Photos (1680)	com.apple.photos.ui	UI	[ImageModulation] Asked <private> for its presentedVC:  to determine effectiveHDRFocus: 1.0000	
+00:19.856.042	Debug	Photos (1680)	com.apple.photos.Neutrino	render	FlexRange metadata: <private>	
+00:19.856.092	Debug	Photos (1680)	com.apple.photos.ui	UI	[ImageModulation] Asked <private> for its presentedVC: <private> to determine effectiveHDRFocus: 1.0000	
+00:19.856.164	Debug	Photos (1680)	com.apple.photos.Neutrino	render	FlexRange properties: <private>	
+00:19.856.204	Debug	Photos (1680)	com.apple.photos.ui	UI	[ImageModulation] Asked <private> for its presentedVC:  to determine effectiveHDRFocus: 1.0000	
+00:19.856.243	Debug	Photos (1680)	com.apple.photos.ui	UI	[ImageModulation] Asked <private> for its presentedVC: <private> to determine effectiveHDRFocus: 1.0000	
+00:19.856.308	Debug	Photos (1680)	com.apple.photos.ui	UI	[ImageModulation] Asked <private> for its presentedVC:  to determine effectiveHDRFocus: 1.0000	
+00:19.856.314	Debug	Photos (1680)	com.apple.photos.Neutrino	schedule	job 0x4d4735900 didPrepare 0.0028 s	
+00:19.856.342	Debug	Photos (1680)	com.apple.photos.ui	UI	[ImageModulation] Asked <private> for its presentedVC: <private> to determine effectiveHDRFocus: 1.0000	
+00:19.856.396	Debug	Photos (1680)	com.apple.photos.ui	UI	[ImageModulation] Asked <private> for its presentedVC:  to determine effectiveHDRFocus: 1.0000	
+00:19.856.403	Debug	Photos (1680)	com.apple.photos.ui	UI	[ImageModulation] Asked <private> for its presentedVC: <private> to determine effectiveHDRFocus: 1.0000	
+00:19.856.421	Debug	Photos (1680)	com.apple.photos.Neutrino	schedule	job 0x4d4735900 stage Render schedule high, 0.0000	
+00:19.856.470	Debug	Photos (1680)	com.apple.photos.ui	UI	[ImageModulation] Asked <private> for its presentedVC:  to determine effectiveHDRFocus: 1.0000	
+00:19.856.512	Debug	Photos (1680)	com.apple.photos.ui	UI	[ImageModulation] Asked <private> for its presentedVC: <private> to determine effectiveHDRFocus: 1.0000	
+00:19.856.542	Debug	Photos (1680)	com.apple.photos.Neutrino	schedule	job 0x4d4735900 NUMediaViewRenderer-zoomedToFit render	
+00:19.856.571	Debug	Photos (1680)	com.apple.photos.ui	UI	[ImageModulation] Asked <private> for its presentedVC:  to determine effectiveHDRFocus: 1.0000	
+00:19.856.604	Debug	Photos (1680)	com.apple.photos.Neutrino	render	beginAccess 0x3033588a0 <NURegion:0x301b4cca0 1 rects: {{0, 0}, {1320, 1760}}>	
+00:19.856.621	Debug	Photos (1680)	com.apple.photos.ui	UI	[ImageModulation] Asked <private> for its presentedVC: <private> to determine effectiveHDRFocus: 1.0000	
+00:19.856.689	Debug	Photos (1680)	com.apple.photos.ui	UI	[ImageModulation] Asked <private> for its presentedVC:  to determine effectiveHDRFocus: 1.0000	
+00:19.856.753	Debug	Photos (1680)	com.apple.photos.ui	UI	[ImageModulation] Asked <private> for its presentedVC: <private> to determine effectiveHDRFocus: 1.0000	
+00:19.856.763	Debug	Photos (1680)	com.apple.photos.ui	UI	[ImageModulation] Asked <private> for its presentedVC:  to determine effectiveHDRFocus: 1.0000	
+00:19.856.852	Debug	Photos (1680)	com.apple.photos.ui	UI	[ImageModulation] Asked <private> for its presentedVC: <private> to determine effectiveHDRFocus: 1.0000	
+00:19.856.879	Debug	Photos (1680)	com.apple.photos.ui	UI	[ImageModulation] Asked <private> for its presentedVC:  to determine effectiveHDRFocus: 1.0000	
+00:19.856.886	Debug	Photos (1680)	com.apple.photos.ui	UI	[ImageModulation] Asked <private> for its presentedVC: <private> to determine effectiveHDRFocus: 1.0000	
+00:19.856.896	Debug	Photos (1680)	com.apple.photos.ui	UI	[ImageModulation] Asked <private> for its presentedVC:  to determine effectiveHDRFocus: 1.0000	
+00:19.856.925	Debug	Photos (1680)	com.apple.photos.ui	UI	[ImageModulation] Asked <private> for its presentedVC: <private> to determine effectiveHDRFocus: 1.0000	
+00:19.857.000	Debug	Photos (1680)	com.apple.photos.ui	UI	[ImageModulation] Asked <private> for its presentedVC:  to determine effectiveHDRFocus: 1.0000	
+00:19.857.007	Debug	Photos (1680)	com.apple.photos.ui	UI	[ImageModulation] Asked <private> for its presentedVC: <private> to determine effectiveHDRFocus: 1.0000	
+00:19.857.035	Debug	Photos (1680)	com.apple.photos.ui	UI	[ImageModulation] Asked <private> for its presentedVC:  to determine effectiveHDRFocus: 1.0000	
+00:19.857.063	Debug	Photos (1680)	com.apple.photos.ui	UI	[ImageModulation] Asked <private> for its presentedVC: <private> to determine effectiveHDRFocus: 1.0000	
+00:19.857.890	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 1,536x1,792, format: <private>	
+00:19.858.009	Debug	Photos (1680)	com.apple.photos.Neutrino	schedule	job 0x4d4735900 <CIRenderDestination: 0x301b4cc90 (NUMediaViewRenderer-zoomedToFit-j45) format: RGBAh size: 1536x1792 mtltexture: 0x4d5857980> render ROI {origin={0, 0} size={1320, 1760}}]	
+00:19.858.661	Debug	Photos (1680)	com.apple.photos.Neutrino	schedule	job 0x4d4735900 didRender 0.0022 s	
+00:19.858.690	Debug	Photos (1680)	com.apple.photos.Neutrino	schedule	job 0x4d4735900 stage Complete schedule high, 0.0000	
+00:19.858.741	Debug	Photos (1680)	com.apple.photos.Neutrino	schedule	job 0x4d4735900 NUMediaViewRenderer-zoomedToFit complete	
+00:19.862.504	Debug	Photos (1680)	com.apple.photos.Neutrino	render	CIRenderInfo: exec=0.9581ms pass=1 pixels=2.2156Mpix	
+00:19.862.887	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 1,024x1,024, format: <private>	
+00:19.863.072	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 296x1,024, format: <private>	
+00:19.863.327	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 1,024x736, format: <private>	
+00:19.863.438	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 296x736, format: <private>	
+00:19.863.826	Debug	Photos (1680)	com.apple.photos.Neutrino	schedule	job 0x4d4735900 didComplete 0.0051 s	
+00:19.863.832	Debug	Photos (1680)	com.apple.photos.Neutrino	schedule	respond job 0x4d4735900 NUMediaViewRenderer-zoomedToFit: success	
+00:19.863.852	Debug	Photos (1680)	com.apple.photos.Neutrino	render	endAccess 0x3033588a0 <NURegion:0x301b4cca0 1 rects: {{0, 0}, {1320, 1760}}>	
+00:19.863.870	Debug	Photos (1680)	com.apple.photos.Neutrino	schedule	job 0x4d4735900 NUMediaViewRenderer-zoomedToFit totalDuration 0.0107 s	
+00:19.863.974	Debug	Photos (1680)	com.apple.photos.Neutrino	ui	-[NUMediaView _rendererDidFinishWithStatistics:] - setting scroll view content size: <private>	
+00:19.863.996	Debug	Photos (1680)	com.apple.photos.Neutrino	ui	-[NUMediaView _rendererDidFinishWithStatistics:] - transitionTargetSize:<private>	
+00:19.864.007	Debug	Photos (1680)	com.apple.photos.Neutrino	ui	-[NURenderView renderFrameReachedTargetSize] - transitionInFlight: 0   has animation: 1   hasSublayerTransform: 0   currentSize: <private>	
+00:19.864.014	Debug	Photos (1680)	com.apple.photos.Neutrino	ui	-[NURenderView renderFrameReachedTargetSize] - removing transition	
+00:19.864.025	Debug	Photos (1680)	com.apple.photos.Neutrino	ui	+[NUMediaView _proposedInsetsForInsets:contentSize:inFrame:centerContent:] - content is not centered, so returning input insets: <private>	
+00:19.864.064	Debug	Photos (1680)	com.apple.photos.ui	PhotoEdit	_prepareViewsForCleanupIfReady; not ready. _mediaViewIsReady: YES, modelDeliveryManager ready: NO, mediaView: <private>, isActiveTool: YES	
+00:19.869.618	Debug	Photos (1680)	com.apple.defaults	User Defaults	found no value for key PUPhotoEditAppearanceKey in CFPrefsSearchListSource<0x303794000> (Domain: com.apple.mobileslideshow, Container: (null))	
+00:19.869.709	Debug	Photos (1680)	com.apple.defaults	User Defaults	found no value for key PUPhotoEditAppearanceKey in CFPrefsSearchListSource<0x303794000> (Domain: com.apple.mobileslideshow, Container: (null))	
+00:19.870.383	Debug	Photos (1680)	com.apple.CFBundle	resources	Resource lookup at <private>
+	Request       : PhotosUICore.PXModelDeliveryProgressViewController type: nib
+	Result        : None
+	
+00:19.870.398	Debug	Photos (1680)	com.apple.CFBundle	resources	Resource lookup at <private>
+	Request       : PhotosUICore.PXModelDeliveryProgressView type: nib
+	Result        : None

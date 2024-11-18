@@ -1,0 +1,1000 @@
+00:15.097.836	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=<private> property=<private>	
+00:15.098.130	Default	Unknown (0)	AppleCS42L79Audio	Default	enableFlickerBias inEnable:0	
+00:15.098.348	Default	Unknown (0)	AppleCS42L79Audio	Default	Read  Adr:10010 Val:2ff	
+00:15.098.509	Default	Unknown (0)	AppleCS42L79Audio	Default	Write Adr:10010 Val:ff	
+00:15.098.516	Default	Unknown (0)	AppleCS42L79Audio	Default	MClk Enable:0 client:8 mask:24	
+00:15.098.517	Default	Unknown (0)	AppleCS42L79Audio	Default	FlickerBiasRequest Enable=0 ret:0	
+00:15.098.542	Error	Unknown (0)	AppleSPU	Default	Error setting grimaldi power state	
+00:15.098.773	Default	appleh16camerad (129)	com.apple.coreaudio	aurioc	AURemoteIO.cpp:1,697 Stopping AURemoteIO(0x9c22d4040)	
+00:15.098.859	Debug	audiomxd (105)	com.apple.coreaudio	aurios	RemoteIOServer.cpp:2,069 ->AUIOServer_StopIO 0x6968c	
+00:15.098.862	Default	Unknown (0)	AppleH16PhotonDetector	Default	AppleH16PhotonDetectorUserClient:free - Freeing UserClient for process appleh16camerad (pid 129)
+	
+00:15.098.918	Debug	audiomxd (105)	com.apple.coreaudio	aqme	MEDeviceStreamClient.cpp:447 -> 0x4ac442200 <RemoteIOClient@0x4ad474700(@0x4ad474780); input; CMSession(appleh16camerad[129], 0xffffffff)>	
+00:15.098.959	Debug	audiomxd (105)	AudioToolbox	Default	MEDeviceStreamClient.cpp:388 runningClientCount: 0	
+00:15.098.985	Default	audiomxd (105)	com.apple.coreaudio	aqme	MEDeviceStreamClient.cpp:479 AQME Device-VirtualAudioDevice_Hawking: client stopping: <RemoteIOClient@0x4ad474700(@0x4ad474780); input; CMSession(appleh16camerad[129], 0xffffffff)>; running count now 0	
+00:15.110.810	Debug	backboardd (68)	com.apple.BackBoard	MotionEvents	Motion event usagePage:0xff0c usage:1 	
+00:15.110.979	Debug	locationd (74)	com.apple.locationd.Motion	Motion	visitKFFilteredPressure,nowAP,753,594,870.0496,nowAOP,349,883,057,060,filteredPressure,102,630.5625,pressureTimestamp,349,880,336,461,kfElevation,-109.0727,wallTimePressureCorrected,753,594,867.3287,wallTimeKFCorrected,753,594,870.0151,temperatureDerivative,0.0000,absAltUnc,-0.0000	
+00:15.111.015	Debug	backboardd (68)	com.apple.BackBoard	MotionEvents	Motion event usagePage:0xff0c usage:1 	
+00:15.111.079	Debug	locationd (74)	com.apple.locationd.Motion	Altimeter	received KF filtered pressure from AOP,now,<private>,filteredPressureTimestamp,<private>,filteredPressure,<private>,kfTimestamp,<private>,kfElevation,<private>,kfPressure,<private> temperature,<private>,absAltUnc,<private>	
+00:15.111.110	Debug	locationd (74)	com.apple.locationd.Motion	Altimeter	{"msg":"kfPressure source updated with", "timestamp_s":"<private>", "kfPressure":"<private>", "kfElevation":"<private>", "absAltUncertainty":"<private>"}	
+00:15.111.215	Info	locationd (74)	com.apple.locationd.Position	Position	#pbio forwarding 1 samples to fuser	
+00:15.111.236	Info	locationd (74)	com.apple.locationd.Position	Position	LocationController,got IO samples,mct,349,883.0577,count,1,propagation_us,31.2500	
+00:15.111.267	Debug	locationd (74)	com.apple.locationd.Position	LCFusion	InertialOdometry,PDR,cannot compute course,sample mct,349,881.7869,GDistanceMoved,0.0000,dPosX,0.0000,dPosY,0.0000	
+00:15.111.285	Debug	locationd (74)	com.apple.locationd.Position	LCFusion	InertialOdometry,PDR,consumed IO sample,mct,349,881.7869,RefF,1,sample_interval_s,1.0000,isPDRValid,1,dPosXYZ_m,0.0000,0.0000,-1.6382,isVDRValid,1,dVelXYZ_mps,-0.0191,-0.0038,-0.0427,GDis,0.0000,GSpeedRate,0.0194	
+00:15.111.306	Debug	locationd (74)	com.apple.locationd.Position	LCFusion	InertialOdometry,PDR,VDR xcheck detected non-stationary,mct,349,881.7869,horizSpeedRate_mps2,0.0194,horizSpeedRateCumSum_mps2,0.0194,dtCumSum_s,1.0000,lastPDRVVel_mps,0.7346,currPDRVVel,-1.6382,VVel_dt_s,0.0049	
+00:15.111.321	Debug	locationd (74)	com.apple.locationd.Position	LCFusion	InertialOdometry,Batch IO cumsum,prev IO mct,349,880.7918,curr IO mct,349,881.7869,dTime,0.9951,IO_Context,4,HorizSpeed_dt_s,1.0000,HSpeed_mps,0.0194,GDistMoved_dt_s,1.0000,GDis_m,0.0000,VDis_m,-1.6382,CumSumGDistMoved_dt_s,349,812.8434,CumSumGDist_m,3.1267	
+00:15.111.338	Debug	locationd (74)	com.apple.locationd.Position	LCFusion	#fusion,mct,349,881.7869,InertialOdometry derived dynamics Mode update,dynamicsMode,7,CM_dynamicsMode,7	
+00:15.111.365	Debug	locationd (74)	com.apple.locationd.Position	LCFusion	KFCV:FilterStateLog,1,004,753,594,868.7703,349,881.7869,4,0,<private>,<private>,<private>,-1.0000,-1.0000,25.8848,30.0000,59.9556,-1.0000,0.1136,7,2,0,predict state success	
+00:15.111.381	Debug	locationd (74)	com.apple.locationd.Position	LCFusion	KFCV:FilterStateLog,1,004,753,594,868.7703,349,881.7869,4,0,<private>,<private>,<private>,-1.0000,-1.0000,25.8848,30.0000,59.9556,-1.0000,0.1136,7,2,0,DynamicsMode-based propagation and update	
+00:15.111.398	Debug	locationd (74)	com.apple.locationd.Position	Position	#CLProactiveLoc,rvo,IO,d_X,0.0000,d_Y,0.0000,d_Z,-1.6382,cumulativeX,3.0619,cumulativeY,0.6132,cumulativeZ,1.5907	
+00:15.117.125	Default	audiomxd (105)	com.apple.coreaudio	va_hplayr	VirtualAudioQueue.h:169 :769:: Client request to stop IO proc ID 0x4acaf5e00 on VAD: '[ type: vhaw; id: 151; addr: 0x4acc41900; context id: 0; hidden: 0; VA strms: { i/156/0x4ac0538e0,  }; agg dev: [ id: 130; addr: 0x104e0c350; uid: "VAD [vhaw] AggDev 3"; virt strms: { i/0x4ac90c300,  	
+00:15.117.146	Debug	audiomxd (105)	com.apple.coreaudio	aqme	AQMEIO_HAL.cpp:2,726 Audio device stopped by mix engine, after waiting on state guard	
+00:15.117.177	Default	audiomxd (105)	CoreAudio	Default	HALS_IOContext_Legacy_Impl.cpp:486  HALS_IOContext_Legacy_Impl::Server_Internal_StopIOProcID: 133 Flicker (VAD [vhaw] AggDev 3):	
+00:15.117.195	Default	audiomxd (105)	com.apple.coreaudio	va_aggdev	VirtualAudioQueue.h:169 :492:: IOProc (AggregateDevice 130, IO type NonNullIOProc) running state is now not running (0).	
+00:15.117.233	Debug	audiomxd (105)	com.apple.coreaudio	aurios	RemoteIOServer.cpp:2,073 <-AUIOServer_StopIO 0x6968c	
+00:15.117.245	Default	audiomxd (105)	CoreAudio	Default	HALS_IOContext_Legacy_Impl.cpp:492  HALS_IOContext_Legacy_Impl::Server_Internal_StopIOProcID: stopping 0x21 state: Prewarm: 0 Play: 1 State: Running IOProc 0x21: yes	
+00:15.117.248	Default	audiomxd (105)	com.apple.coreaudio	va_aggdev	VirtualAudioQueue.h:169 :596:: Stopping IO type 0 on AggregateDevice 130.	
+00:15.117.330	Debug	appleh16camerad (129)	com.apple.coreaudio	aurioc	AURemoteIO.cpp:2,341 AURIOCallbackReceiver_TerminateOwnIOThread	
+00:15.117.341	Default	audiomxd (105)	CoreAudio	Default	HALS_IOEngine2.cpp:2,239  HALS_IOEngine2::StopIO: stopping IO on device <private>	
+00:15.117.374	Debug	appleh16camerad (129)	com.apple.coreaudio	aurioc	AURemoteIO.cpp:2,053 AURemoteIO@0x9c22d4040: IOThread exiting	
+00:15.117.407	Default	Unknown (0)	AppleCS42L79Audio	Default	AppleCS42L79Audio::notifySecondaryActiveChangeGated(Flicker) enable:0 direction:1 	
+00:15.117.424	Default	Unknown (0)	AppleCS42L79Audio	Default	disableFlicker Ch:7	
+00:15.117.497	Debug	appleh16camerad (129)	com.apple.coreaudio	aurioc	AURemoteIO.cpp:1,720 <-AURemoteIO::Stop	
+00:15.117.534	Debug	appleh16camerad (129)	com.apple.coreaudio	aurioc	AURemoteIO.cpp:1,255 ->AURemoteIO(0x9c22d4040)::Cleanup	
+00:15.117.557	Default	appleh16camerad (129)	com.apple.coreaudio	aurioc	AURemoteIO.cpp:1,697 Stopping AURemoteIO(0x9c22d4040)	
+00:15.117.577	Debug	appleh16camerad (129)	com.apple.coreaudio	aurioc	AURemoteIO.cpp:1,720 <-AURemoteIO::Stop	
+00:15.117.625	Default	Unknown (0)	AppleCS42L79Audio	Default	Read  Adr:450004 Val:5004d4c	
+00:15.117.679	Debug	audiomxd (105)	com.apple.coreaudio	aurios	RemoteIOServer.cpp:1,924 AUIOServer_Cleanup	
+00:15.117.743	Debug	appleh16camerad (129)	com.apple.coreaudio	aurioc	AURemoteIO.cpp:1,263 <-AURemoteIO::Cleanup	
+00:15.117.786	Default	Unknown (0)	AppleCS42L79Audio	Default	Write Adr:450004 Val:4d4c	
+00:15.117.892	Debug	appleh16camerad (129)	com.apple.coreaudio	aurioc	AURemoteIO.cpp:453 ->AURemoteIO@0x9c22d4040 destructor	
+00:15.117.922	Default	appleh16camerad (129)	com.apple.coreaudio	aurioc	AURemoteIO.cpp:1,697 Stopping AURemoteIO(0x9c22d4040)	
+00:15.117.946	Default	Unknown (0)	AppleCS42L79Audio	Default	Write Adr:10000 Val:f203	
+00:15.117.953	Default	Unknown (0)	AppleCS42L79Audio	Default	disableFlicker Ch:8	
+00:15.117.967	Debug	appleh16camerad (129)	com.apple.coreaudio	aurioc	AURemoteIO.cpp:1,720 <-AURemoteIO::Stop	
+00:15.118.016	Debug	audiomxd (105)	com.apple.coreaudio	aurios	RemoteIOServer.cpp:1,851 AUIOServer_DisposeInstance	
+00:15.118.065	Debug	audiomxd (105)	com.apple.coreaudio	aqme	AQMixEngine.cpp:968 ->AQMEDevice(0x4ac442200)::RemoveIOClient <RemoteIOClient@0x4ad474700(@0x4ad474780); input; CMSession(appleh16camerad[129], 0xffffffff)>	
+00:15.118.090	Debug	audiomxd (105)	com.apple.coreaudio	aqme	MEInputManager.cpp:40 MEInputManager(0x4aca9dd80)::RemoveInputClient 0x4ad474780	
+00:15.118.113	Debug	audiomxd (105)	com.apple.coreaudio	aqme	MEInputManager.cpp:60 MEInputManager::RemoveInputClient 0x4ad474780, disposed	
+00:15.118.122	Default	Unknown (0)	AppleCS42L79Audio	Default	Read  Adr:450008 Val:6	
+00:15.118.182	Debug	appleh16camerad (129)	com.apple.coreaudio	aurioc	AURemoteIO.cpp:485 <-AURemoteIO@0x9c22d4040 destructor	
+00:15.118.289	Default	Unknown (0)	AppleCS42L79Audio	Default	Write Adr:450008 Val:0	
+00:15.118.398	Default	audiomxd (105)	com.apple.coreaudio	AMCP	191,039 HALS_IOEngine2.cpp:2,635 HALS_IOEngine2::_StopIO(89) called on Context 133  current state: Prewarm: 0 Play: 1 State: Running	
+00:15.118.442	Default	Unknown (0)	AppleCS42L79Audio	Default	Write Adr:10000 Val:f003	
+00:15.118.446	Debug	appleh16camerad (129)	com.apple.isp	general	H16ISPFlickerDetectorStopDataCollection - Success
+	
+00:15.118.525	Debug	appleh16camerad (129)	com.apple.isp	general	FlickerDetector: Released resource access
+
+	
+00:15.118.541	Debug	appleh16camerad (129)	com.apple.isp	general	FlickerDetector: FlickerResourceArbiterClientDelegate cleanup at shutting down
+
+	
+00:15.118.556	Default	appleh16camerad (129)	com.apple.isp	general	H16ISPFlickerDetectorDispose - Success
+	
+00:15.118.572	Default	appleh16camerad (129)	com.apple.isp	daemon	Removing client: pid <private>
+	
+00:15.118.587	Default	appleh16camerad (129)	com.apple.isp	daemon	Total number of connections: 0
+	
+00:15.118.616	Default	Unknown (0)	AppleCS42L79Audio	Default	Read  Adr:470000 Val:406	
+00:15.118.765	Default	Unknown (0)	AppleCS42L79Audio	Default	Write Adr:470000 Val:404	
+00:15.118.778	Default	Unknown (0)	AppleCS42L79Audio	Default	Disable Route ASP:2 Tx:1 Ch:2 Start:7	
+00:15.118.941	Default	Unknown (0)	AppleCS42L79Audio	Default	Read  Adr:470024 Val:180	
+00:15.119.090	Default	Unknown (0)	AppleCS42L79Audio	Default	Write Adr:470024 Val:0	
+00:15.119.097	Default	Unknown (0)	AppleCS42L79Audio	Default	Set Internal MClk client:4  mask:20	
+00:15.119.239	Default	Unknown (0)	AppleCS42L79Audio	Default	Write Adr:30000 Val:0	
+00:15.120.081	Default	Unknown (0)	AppleCS42L79Audio	Default	MClk Enable:0 client:4 mask:20	
+00:15.120.096	Default	Unknown (0)	AppleARMIISAudio	Default	+ Flicker::stopIOEngineGated()	
+00:15.120.103	Default	Unknown (0)	AppleARMIISAudio	Default	+ Flicker stopTransport	
+00:15.122.675	Default	Unknown (0)	AppleARMIISAudio	Default	- Flicker stopTransport ret=success(0)	
+00:15.122.706	Default	Unknown (0)	AppleARMIISAudio	Default	- Flicker::stopIOEngineGated() ret=success(0)	
+00:15.122.717	Default	Unknown (0)	AppleEmbeddedAudio	Default	Flicker: off
+	
+00:15.122.740	Default	audiomxd (105)	CoreAudio	Default	HALS_IOA2Device.cpp:2,266  HALS_IOA2Device::IOAudio2DeviceNotificationPortMessageHandler: <private>|86 +++++++++------>	
+00:15.122.817	Default	audiomxd (105)	CoreAudio	Default	HALS_IOA2Device.cpp:2,343  HALS_IOA2Device::IOAudio2DeviceNotificationPortMessageHandler: <private>|86 <------+++++++++	
+00:15.122.939	Default	audiomxd (105)	CoreAudio	Default	HALS_IOContext_Legacy_Impl.cpp:2,013  IO Stopped Context 133 after 9,216 frames.	
+00:15.123.024	Default	audiomxd (105)	CoreAudio	Default	HALS_IOContext_Legacy_Impl.cpp:2,037  HALS_IOContext_Legacy_Impl::IOWorkLoopDeinit: 133 Flicker (VAD [vhaw] AggDev 3): stopping with error 0	
+00:15.123.032	Default	audiomxd (105)	CoreAudio	Default	HALB_PowerAssertion.cpp:157  HALB_PowerAssertion::Release: releasing power assertion ID 32,775 of type 'PreventUserIdleSystemSleep' with name: 'com.apple.audio.VAD [vhaw] AggDev 3.context.preventuseridlesleep' taken at <private> for 0.2295 seconds	
+00:15.123.202	Debug	audiomxd (105)	com.apple.coreaudio	aqme	AQMEIO_HAL.cpp:3,469 aqmeio@0x4af3b4f00 IsRunning 0	
+00:15.123.279	Debug	audiomxd (105)	com.apple.coreaudio	AMCP	191,039 HALS_IOContext_Legacy_Impl.cpp:2,046 Completed HALS_IOContext_Legacy_Impl::IOWorkLoopDeinit	
+00:15.123.611	Default	audiomxd (105)	com.apple.coreaudio	va_vadevc	VirtualAudio_IONotificationManager.cpp:184 UpdateAndNotify() - need to notify I/O state = 1 new I/O running state = 0 previous I/O running state = 1	
+00:15.123.653	Default	audiomxd (105)	com.apple.coreaudio	va_vadevc	VirtualAudio_IONotificationManager.cpp:192 Sending notification "com.apple.coreaudio.IORunning" of I/O running state 0 forced notification = 0	
+00:15.124.183	Default	powerexperienced (125)	com.apple.powerexperienced	signalMonitor	Audio playback stopped. Dropping a resource hint	
+00:15.124.267	Default	powerexperienced (125)	com.apple.PowerExperienceFramework	ResourceConnection	ResourceConnection:updateResourceHint <private> with state 0	
+00:15.124.599	Default	powerexperienced (125)	com.apple.powerexperienced	resourcemanager	updating resource state for <private>:AudioPlayback from 1 to 0	
+00:15.124.642	Info	powerexperienced (125)	com.apple.powerexperienced	InUseChargingMode	evaluatePowerMode resources <private>	
+00:15.124.684	Default	powerexperienced (125)	com.apple.powerexperienced	RestrictedPerfMode	evaluatePowerMode: <private>: 0 display 1, carPlaySession 0, nFCSession 0, audioSession 0, sleepInProgress 0, wakeInProgress 0, onenessSession 0, siriAudio 0, pluggedIn 0 (allowOnCharger: 0)	
+00:15.124.804	Debug	powerexperienced (125)	com.apple.defaults	User Defaults	looked up value <private> for key resources in CFPrefsPlistSource<0xdbc044d80> (Domain: com.apple.powerexperienced.resourcemanager, User: kCFPreferencesCurrentUser, ByHost: No, Container: (null), Contents Need Refresh: No) via CFPrefsSearchListSource<0xdbc044b80> (Domain: com.apple.powerexperienced.resourcemanager, Container: (null))	
+00:15.124.852	Debug	powerexperienced (125)	com.apple.powerexperienced	resourcemanager	savedResourcesMutable <private>	
+00:15.125.177	Debug	powerexperienced (125)	com.apple.defaults	User Defaults	setting <private> in CFPrefsPlistSource<0xdbc044d80> (Domain: com.apple.powerexperienced.resourcemanager, User: kCFPreferencesCurrentUser, ByHost: No, Container: (null), Contents Need Refresh: No)	
+00:15.125.613	Debug	cfprefsd (107)	com.apple.defaults	cfprefsd	Process 125 (powerexperienced) sent a request related to { com.apple.powerexperienced.resourcemanager, user: root, kCFPreferencesAnyHost, /var/root/Library/Preferences/com.apple.powerexperienced.resourcemanager.plist, managed: 0 } (0xd3c1cf0c0)	
+00:15.125.716	Debug	cfprefsd (107)	com.apple.defaults	cfprefsd	Process 125 (powerexperienced) wrote the key(s) resources in { com.apple.powerexperienced.resourcemanager, root, kCFPreferencesAnyHost, /var/root/Library/Preferences/com.apple.powerexperienced.resourcemanager.plist, managed: 0 }	
+00:15.129.065	Debug	symptomsd (207)	com.apple.symptomsd	other	OutrankFlowMonitor  _timerMaintenance timer expiry, active polling 1	
+00:15.129.100	Debug	powerd (46)	com.apple.powerd	battery	Battery poll: UserVis	
+00:15.129.160	Debug	symptomsd (207)	com.apple.symptomsd	other	OutrankFlowMonitor  _timerMaintenance timer expiry	
+00:15.129.229	Debug	symptomsd (207)	com.apple.symptomsd	other	OutrankFlowMonitor  _timerMaintenance timer expiry, gap is 349,864.3265 so kick off poll	
+00:15.129.437	Debug	symptomsd (207)	com.apple.symptomsd	other	RefreshScheduler, refreshDataUsageFor has delegate 0x100bb9bb0	
+00:15.129.547	Info	symptomsd (207)	com.apple.symptomsd	attribution	pollFlows started	
+00:15.129.836	Debug	symptomsd (207)	com.apple.symptomsd	analytics	skip typical flow processing for subflow 153,204	
+00:15.129.889	Debug	symptomsd (207)	com.apple.symptomsd	analytics	skip typical flow processing for subflow 153,203	
+00:15.129.931	Debug	symptomsd (207)	com.apple.symptomsd	analytics	skip typical flow processing for subflow 153,202	
+00:15.130.039	Debug	symptomsd (207)	com.apple.symptomsd	analytics	skip typical flow processing for subflow 153,180	
+00:15.130.084	Debug	symptomsd (207)	com.apple.symptomsd	analytics	skip typical flow processing for subflow 153,179	
+00:15.130.117	Debug	symptomsd (207)	com.apple.symptomsd	analytics	skip typical flow processing for subflow 153,178	
+00:15.130.156	Debug	symptomsd (207)	com.apple.symptomsd	analytics	skip typical flow processing for subflow 153,176	
+00:15.130.191	Debug	symptomsd (207)	com.apple.symptomsd	analytics	skip typical flow processing for subflow 153,174	
+00:15.130.296	Debug	symptomsd (207)	com.apple.symptomsd	analytics	Flow data on entry is DTServiceHub TCP6 flow id 153173 (refresh) so i/f 27 props 0x4001010 first 0 pkts rx 42 tx 6824, bytes 19148 70461902 cell 0 0 wifi 0 0 wired 21668 70871342 comp_bt 0 0 deltas 0 518792 0 0 0 0 0 525752 0 0 acct_deltas 0 0 0 0 0 525752	
+00:15.130.468	Debug	symptomsd (207)	com.apple.symptomsd	attribution	flow is not closed. cache count 10
+src 153,173 snapshot: DTServiceHub TCP6 flow id 153173 (refresh) so i/f 27 props 0x4001010 first 0 pkts rx 42 tx 6824, bytes 19148 70461902 cell 0 0 wifi 0 0 wired 21668 70871342 comp_bt 0 0 deltas 0 518792 0 0 0 0 0 525752 0 0 acct_deltas 0 0 0 0 0 525752
+flow: TrackedFlow 153173 Wired tcp6 flow owner (null) start 11:53:39.258 +0800 duration 50.811 trackers: self 0x0 - other 0x0 - rx pkts 42 tx pkts 6708	
+00:15.130.515	Debug	symptomsd (207)	com.apple.symptomsd	flow	Don't have a tracker for WiredEthernet interface type	
+00:15.130.570	Debug	symptomsd (207)	com.apple.symptomsd	analytics	_processFetchForName: Return existing cached Process for processName <private> type CacheTypeProcessName	
+00:15.130.615	Debug	symptomsd (207)	com.apple.symptomsd	analytics	found LU hint (mode: 0) for remoted: 0xcd8023d90, subscriber tag: 0	
+00:15.130.662	Default	symptomsd (207)	com.apple.symptomsd	analytics	Data Usage for remoted on flow 153,173 - WiFi in/out: 49981/197500, WiFi delta_in/delta_out: 0/0, Cell in/out: 0/0, Cell delta_in/delta_out: 0/0, RNF: 0, subscriber tag: 0, total duration: 50.8110	
+00:15.130.750	Debug	symptomsd (207)	com.apple.symptomsd	analytics	Data Usage for remoted on flow 153,173 - Wired in/out: 0/0, Wired delta_in/delta_out: 0/0, subscriber tag: 0, total duration: 50.8110	
+00:15.130.970	Debug	symptomsd (207)	com.apple.symptomsd	analytics	Flow data on entry is notification_proxy TCP6 flow id 152349 (refresh) so i/f 27 props 0x4001010 first 0 pkts rx 178 tx 2, bytes 676 484 cell 0 0 wifi 0 0 wired 11356 604 comp_bt 0 0 deltas 0 0 0 0 0 0 60 0 0 0 acct_deltas 0 0 0 0 60 0	
+00:15.131.129	Debug	symptomsd (207)	com.apple.symptomsd	attribution	flow is not closed. cache count 10
+src 152,349 snapshot: notification_proxy TCP6 flow id 152349 (refresh) so i/f 27 props 0x4001010 first 0 pkts rx 178 tx 2, bytes 676 484 cell 0 0 wifi 0 0 wired 11356 604 comp_bt 0 0 deltas 0 0 0 0 0 0 60 0 0 0 acct_deltas 0 0 0 0 60 0
+flow: TrackedFlow 152349 Wired tcp6 flow owner (null) start 11:51:21.784 +0800 duration 188.286 trackers: self 0x0 - other 0x0 - rx pkts 4 tx pkts 2	
+00:15.131.238	Debug	symptomsd (207)	com.apple.symptomsd	flow	Don't have a tracker for WiredEthernet interface type	
+00:15.131.326	Debug	symptomsd (207)	com.apple.symptomsd	analytics	Flow data on entry is remoted TCP6 flow id 152212 (refresh) so i/f 27 props 0x4001010 first 0 pkts rx 25 tx 23, bytes 4458 15626 cell 0 0 wifi 0 0 wired 5958 17006 comp_bt 0 0 deltas 0 0 0 0 0 0 0 0 0 0 acct_deltas 0 0 0 0 0 0	
+00:15.131.400	Debug	symptomsd (207)	com.apple.symptomsd	attribution	flow is not closed. cache count 10
+src 152,212 snapshot: remoted TCP6 flow id 152212 (refresh) so i/f 27 props 0x4001010 first 0 pkts rx 25 tx 23, bytes 4458 15626 cell 0 0 wifi 0 0 wired 5958 17006 comp_bt 0 0 deltas 0 0 0 0 0 0 0 0 0 0 acct_deltas 0 0 0 0 0 0
+flow: TrackedFlow 152212 Wired tcp6 flow owner (null) start 11:51:21.699 +0800 duration 188.371 trackers: self 0x0 - other 0x0 - rx pkts 25 tx pkts 23	
+00:15.131.428	Debug	symptomsd (207)	com.apple.symptomsd	flow	Don't have a tracker for WiredEthernet interface type	
+00:15.131.494	Debug	symptomsd (207)	com.apple.symptomsd	analytics	Flow data on entry is remotepairingdeviced TCP6 flow id 152178 (refresh) ch i/f 29 props 0x4000810 first 0 pkts rx 21582 tx 111696, bytes 1047659 142382570 cell 0 0 wifi 0 0 wired 3896735 149084330 comp_bt 0 0 deltas 9583 570007 0 0 0 0 37963 602887 0 0 acct_deltas 0 0 0 0 37963 602887	
+00:15.131.558	Debug	symptomsd (207)	com.apple.symptomsd	attribution	flow is not closed. cache count 10
+src 152,178 snapshot: remotepairingdeviced TCP6 flow id 152178 (refresh) ch i/f 29 props 0x4000810 first 0 pkts rx 21582 tx 111696, bytes 1047659 142382570 cell 0 0 wifi 0 0 wired 3896735 149084330 comp_bt 0 0 deltas 9583 570007 0 0 0 0 37963 602887 0 0 acct_deltas 0 0 0 0 37963 602887
+flow: TrackedFlow 152178 Wired tcp6 flow owner (null) start 11:51:21.665 +0800 duration 188.405 trackers: self 0x0 - other 0x0 - rx pkts 21367 tx pkts 111148	
+00:15.131.583	Debug	symptomsd (207)	com.apple.symptomsd	flow	Don't have a tracker for WiredEthernet interface type	
+00:15.131.616	Debug	symptomsd (207)	com.apple.symptomsd	analytics	_processFetchForName: Return existing cached Process for processName <private> type CacheTypeProcessName	
+00:15.131.645	Debug	symptomsd (207)	com.apple.symptomsd	analytics	found LU hint (mode: 0) for remotepairingdeviced: 0xcd81e77f0, subscriber tag: 0	
+00:15.131.677	Default	symptomsd (207)	com.apple.symptomsd	analytics	Data Usage for remotepairingdeviced on flow 152,178 - WiFi in/out: 314837/758120, WiFi delta_in/delta_out: 0/0, Cell in/out: 0/0, Cell delta_in/delta_out: 0/0, RNF: 0, subscriber tag: 0, total duration: 188.4048	
+00:15.131.749	Debug	symptomsd (207)	com.apple.symptomsd	analytics	Data Usage for remotepairingdeviced on flow 152,178 - Wired in/out: 0/0, Wired delta_in/delta_out: 0/0, subscriber tag: 0, total duration: 188.4048	
+00:15.131.879	Debug	symptomsd (207)	com.apple.symptomsd	analytics	Flow data on entry is remotepairingdeviced TCP6 flow id 151577 (refresh) so i/f 29 props 0x4000810 first 0 pkts rx 4 tx 5, bytes 983 3557 cell 0 0 wifi 0 0 wired 1223 3857 comp_bt 0 0 deltas 0 0 0 0 0 0 0 0 0 0 acct_deltas 0 0 0 0 0 0	
+00:15.131.950	Debug	symptomsd (207)	com.apple.symptomsd	attribution	flow is not closed. cache count 10
+src 151,577 snapshot: remotepairingdeviced TCP6 flow id 151577 (refresh) so i/f 29 props 0x4000810 first 0 pkts rx 4 tx 5, bytes 983 3557 cell 0 0 wifi 0 0 wired 1223 3857 comp_bt 0 0 deltas 0 0 0 0 0 0 0 0 0 0 acct_deltas 0 0 0 0 0 0
+flow: TrackedFlow 151577 Wired tcp6 flow owner (null) start 11:50:29.228 +0800 duration 240.843 trackers: self 0x0 - other 0x0 - rx pkts 4 tx pkts 5	
+00:15.131.980	Debug	symptomsd (207)	com.apple.symptomsd	flow	Don't have a tracker for WiredEthernet interface type	
+00:15.132.046	Debug	symptomsd (207)	com.apple.symptomsd	analytics	Flow data on entry is remoted TCP6 flow id 151465 (refresh) so i/f 29 props 0x2001010 first 0 pkts rx 0 tx 0, bytes 0 0 cell 0 0 wifi 0 0 wired 0 0 comp_bt 0 0 deltas 0 0 0 0 0 0 0 0 0 0 acct_deltas 0 0 0 0 0 0	
+00:15.132.106	Debug	symptomsd (207)	com.apple.symptomsd	attribution	flow is not closed. cache count 10
+src 151,465 snapshot: remoted TCP6 flow id 151465 (refresh) so i/f 29 props 0x2001010 first 0 pkts rx 0 tx 0, bytes 0 0 cell 0 0 wifi 0 0 wired 0 0 comp_bt 0 0 deltas 0 0 0 0 0 0 0 0 0 0 acct_deltas 0 0 0 0 0 0
+flow: TrackedFlow 151465 Wired tcp6 flow owner (null) start 11:50:18.008 +0800 duration 252.062 trackers: self 0x0 - other 0x0 - rx pkts 0 tx pkts 0	
+00:15.132.165	Debug	symptomsd (207)	com.apple.symptomsd	flow	Don't have a tracker for WiredEthernet interface type	
+00:15.132.238	Debug	symptomsd (207)	com.apple.symptomsd	analytics	Flow data on entry is remoted TCP6 flow id 151463 (refresh) so i/f 29 props 0x2001010 first 0 pkts rx 0 tx 0, bytes 0 0 cell 0 0 wifi 0 0 wired 0 0 comp_bt 0 0 deltas 0 0 0 0 0 0 0 0 0 0 acct_deltas 0 0 0 0 0 0	
+00:15.132.453	Debug	symptomsd (207)	com.apple.symptomsd	attribution	flow is not closed. cache count 10
+src 151,463 snapshot: remoted TCP6 flow id 151463 (refresh) so i/f 29 props 0x2001010 first 0 pkts rx 0 tx 0, bytes 0 0 cell 0 0 wifi 0 0 wired 0 0 comp_bt 0 0 deltas 0 0 0 0 0 0 0 0 0 0 acct_deltas 0 0 0 0 0 0
+flow: TrackedFlow 151463 Wired tcp6 flow owner (null) start 11:50:18.007 +0800 duration 252.064 trackers: self 0x0 - other 0x0 - rx pkts 0 tx pkts 0	
+00:15.132.485	Debug	symptomsd (207)	com.apple.symptomsd	flow	Don't have a tracker for WiredEthernet interface type	
+00:15.132.550	Debug	symptomsd (207)	com.apple.symptomsd	analytics	Flow data on entry is remoted TCP6 flow id 151273 (refresh) so i/f 29 props 0x8000810 first 0 pkts rx 116 tx 6, bytes 2174 3266 cell 0 0 wifi 0 0 wired 9134 3626 comp_bt 0 0 deltas 0 0 0 0 0 0 0 0 0 0 acct_deltas 0 0 0 0 0 0	
+00:15.132.614	Debug	symptomsd (207)	com.apple.symptomsd	attribution	flow is not closed. cache count 10
+src 151,273 snapshot: remoted TCP6 flow id 151273 (refresh) so i/f 29 props 0x8000810 first 0 pkts rx 116 tx 6, bytes 2174 3266 cell 0 0 wifi 0 0 wired 9134 3626 comp_bt 0 0 deltas 0 0 0 0 0 0 0 0 0 0 acct_deltas 0 0 0 0 0 0
+flow: TrackedFlow 151273 Wired tcp6 flow owner (null) start 11:50:17.002 +0800 duration 253.069 trackers: self 0x0 - other 0x0 - rx pkts 8 tx pkts 6	
+00:15.132.642	Debug	symptomsd (207)	com.apple.symptomsd	flow	Don't have a tracker for WiredEthernet interface type	
+00:15.132.724	Debug	symptomsd (207)	com.apple.symptomsd	analytics	Flow data on entry is mDNSResponder UDP4 flow id 106 (refresh) so i/f 28 props 0x810 first 0 pkts rx 11575 tx 11149, bytes 3044225 2543559 cell 0 0 wifi 28442 30071 wired 222383 0 comp_bt 0 0 deltas 1046 990 0 0 0 0 509 0 0 0 acct_deltas 0 0 0 0 509 0	
+00:15.132.800	Debug	symptomsd (207)	com.apple.symptomsd	attribution	flow is not closed. cache count 10
+src 106 snapshot: mDNSResponder UDP4 flow id 106 (refresh) so i/f 28 props 0x810 first 0 pkts rx 11575 tx 11149, bytes 3044225 2543559 cell 0 0 wifi 28442 30071 wired 222383 0 comp_bt 0 0 deltas 1046 990 0 0 0 0 509 0 0 0 acct_deltas 0 0 0 0 509 0
+flow: TrackedFlow 106 WiFi udp4 flow owner com.apple.datausage.dns.multicast start 10:43:26.270 +0800 duration 349863.801 trackers: self 0x0 - other 0x0 - rx pkts 11573 tx pkts 11147	
+00:15.132.846	Debug	symptomsd (207)	com.apple.symptomsd	analytics	_processFetchForName: Return existing cached Process for processName <private> type CacheTypeBundleName	
+00:15.132.877	Debug	symptomsd (207)	com.apple.symptomsd	analytics	found LU hint (mode: 1) for com.apple.datausage.dns.multicast: 0xcd8023c50, subscriber tag: 0	
+00:15.132.945	Default	symptomsd (207)	com.apple.symptomsd	analytics	Data Usage for com.apple.datausage.dns.multicast (delegation: mDNSResponder) on flow 106 - WiFi in/out: 60237/51619, WiFi delta_in/delta_out: 0/0, Cell in/out: 0/0, Cell delta_in/delta_out: 0/0, RNF: 0, subscriber tag: 0, total duration: 349,867.0793	
+00:15.132.974	Debug	symptomsd (207)	com.apple.symptomsd	analytics	Data Usage for com.apple.datausage.dns.multicast (delegation: mDNSResponder) on flow 106 - Wired in/out: 0/0, Wired delta_in/delta_out: 0/0, subscriber tag: 0, total duration: 349,867.0793	
+00:15.133.035	Debug	symptomsd (207)	com.apple.symptomsd	analytics	Flow data on entry is mDNSResponder UDP6 flow id 105 (refresh) so i/f 28 props 0x810 first 0 pkts rx 12540 tx 11584, bytes 3024727 2627876 cell 0 0 wifi 32291 21896 wired 503816 84059 comp_bt 0 0 deltas 1455 1455 0 0 0 0 946 0 0 0 acct_deltas 0 0 0 0 946 0	
+00:15.133.096	Debug	symptomsd (207)	com.apple.symptomsd	attribution	flow is not closed. cache count 10
+src 105 snapshot: mDNSResponder UDP6 flow id 105 (refresh) so i/f 28 props 0x810 first 0 pkts rx 12540 tx 11584, bytes 3024727 2627876 cell 0 0 wifi 32291 21896 wired 503816 84059 comp_bt 0 0 deltas 1455 1455 0 0 0 0 946 0 0 0 acct_deltas 0 0 0 0 946 0
+flow: TrackedFlow 105 WiFi udp6 flow owner com.apple.datausage.dns.multicast start 10:43:26.275 +0800 duration 349863.797 trackers: self 0x0 - other 0x0 - rx pkts 12537 tx pkts 11581	
+00:15.133.133	Debug	symptomsd (207)	com.apple.symptomsd	analytics	_processFetchForName: Return existing cached Process for processName <private> type CacheTypeBundleName	
+00:15.133.160	Debug	symptomsd (207)	com.apple.symptomsd	analytics	found LU hint (mode: 1) for com.apple.datausage.dns.multicast: 0xcd8023c50, subscriber tag: 0	
+00:15.133.195	Default	symptomsd (207)	com.apple.symptomsd	analytics	Data Usage for com.apple.datausage.dns.multicast (delegation: mDNSResponder) on flow 105 - WiFi in/out: 60237/51619, WiFi delta_in/delta_out: 0/0, Cell in/out: 0/0, Cell delta_in/delta_out: 0/0, RNF: 0, subscriber tag: 0, total duration: 349,867.0792	
+00:15.133.238	Debug	symptomsd (207)	com.apple.symptomsd	analytics	Data Usage for com.apple.datausage.dns.multicast (delegation: mDNSResponder) on flow 105 - Wired in/out: 0/0, Wired delta_in/delta_out: 0/0, subscriber tag: 0, total duration: 349,867.0792	
+00:15.133.272	Info	symptomsd (207)	com.apple.symptomsd	attribution	Netstats refresh complete	
+00:15.133.306	Debug	symptomsd (207)	com.apple.symptomsd	other	RefreshScheduler, didPollFlowsAt finds single shot with reference 0	
+00:15.133.350	Debug	symptomsd (207)	com.apple.symptomsd	other	OutrankFlowMonitor  _timerMaintenance timer expiry, requested poll completed	
+00:15.133.374	Debug	symptomsd (207)	com.apple.symptomsd	other	OutrankFlowMonitor  _timerMaintenance with polling 1 active 0	
+00:15.133.395	Debug	symptomsd (207)	com.apple.symptomsd	other	OutrankFlowMonitor  _timerMaintenance set timer expiry to 1.0000	
+00:15.147.899	Default	Unknown (0)	IOgPTPPlugin	Default	Using IOSkywalkLegacyEthernet as no other controller was found for en0
+	
+00:15.147.971	Debug	locationd (74)	com.apple.locationd.Core	Notifier	{"msg":"CLDaemonStatus::onBatteryStatusChanged", "event":activity, "this":"35,304,245,760"}	
+00:15.148.155	Debug	locationd (74)	com.apple.locationd.Utility	Utility	Failed to get charger family	
+00:15.148.346	Info	SpringBoard (34)	com.apple.UIKit	UIDevice.battery	Updating battery status with populated properties	
+00:15.148.471	Default	locationd (74)	com.apple.locationd.Utility	Utility	{"msg":"adapter details", "adapterDescription":batt, "batteryChargerType":1, "level":99, "family":0, "fullyCharged":0, "connected":0, "wasConnected":0}	
+00:15.148.511	Debug	locationd (74)	com.apple.locationd.Utility	Utility	{"msg":"battery capacity info", "batteryStatus":24 Bytes, "currentCapacity":99, "maximumCapacity":100, "batteryIsDifferent":0}	
+00:15.148.522	Debug	SpringBoard (34)	com.apple.UIKit	UIDevice.battery	Updating battery data based on properties: {
+    AdapterDetails =     {
+        AdapterID = 0;
+        AdapterPowerTier = 0;
+        AdapterVoltage = 5000;
+        Current = 0;
+        Description = batt;
+        ErrorFlags = 0;
+        IsWireless = 0;
+        PMUConfiguration = 0;
+        SharedSource = 0;
+        Source = 0;
+        Watts = 0;
+    };
+    AdapterInfo = 0;
+    AtCriticalLevel = 0;
+    CurrentCapacity = 99;
+    ExternalChargeCapable = 0;
+    ExternalConnected = 0;
+    FullyCharged = 0;
+    IsCharging = 0;
+    MaxCapacity = 100;
+    Voltage = 4342;
+}	
+00:15.148.625	Debug	SpringBoard (34)	com.apple.defaults	User Defaults	looked up value <private> for key SBHideACPower in CFPrefsSource<0x302319980> (Domain: Volatile, User: , ByHost: No, Container: , Contents Need Refresh: No) via CFPrefsSearchListSource<0x30181d900> (Domain: com.apple.springboard, Container: (null))	
+00:15.149.193	Default	wifid (50)	WiFiPolicy	Default	manager->wow.lpasSetting 1 CFSetGetCount(manager->wow.wowClients) 0 isWowActivityRegistered=0 manager->wow.overrideWoWState 0 manager->externalPower 0 manager->iokit.battery.chargeLevel 99	
+00:15.149.424	Default	UserEventAgent (31)	IOAccessoryManager	Default	handle battery state update: isExtChg=0->0, enableHalogenMitigationsAndUI 1	
+00:15.149.588	Debug	dasd (80)	com.apple.duetactivityscheduler	batteryTemperatureRecorder	Current temp 3,400, recent temp 3,400, change 0	
+00:15.149.679	Default	wifid (50)	WiFiPolicy	Default	Posting metrics for AJ	
+00:15.149.779	Default	wifid (50)	WiFiPolicy	Default	External power state is 0	
+00:15.149.866	Default	wifid (50)	WiFiPolicy	Default	External power state is same as before 0, bailing out	
+00:15.150.579	Default	symptomsd (207)	com.apple.symptomsd	analytics	Power: battery-percentage 99.0000 battery-power-connected 0 battery-charging 0 battery-warn 0 battery-critical 0 battery-absolute-capacity-mAh 4,683 battery-voltage-mV 4,342 battery-current-capacity-%% 99 battery-maximum-capacity-%% 100 battery-design-capacity-mAh 4,630 battery-time-remaining 164 battery-fully-charged 0 battery-temperature 3,389 screen-brightness 550,000 battery-raw-current-capacity 4,554 battery-raw-maximum-capacity 4,778 presentDOD 0	
+00:15.151.154	Debug	safetyalertsd (91)	com.apple.safetyalertsd	general	{"msg":"#SABatteryServiceProd,onSABatteryStateChange"}	
+00:15.151.313	Debug	DTServiceHub (360)	DVTInstrumentsFoundation	Default	Encoding a RESET command	
+00:15.151.439	Debug	safetyalertsd (91)	com.apple.safetyalertsd	general	{"msg":"#SABatteryServiceProd,adapterDetails", "adapterDetails":<private>}	
+00:15.151.475	Info	contextstored (65)	com.apple.coreduet.context	client	Setting keypath: <private>	
+00:15.151.551	Debug	UserEventAgent (31)	com.apple.powerlog	energyDebug	isCharging:0, isPlugged:0	
+00:15.151.660	Debug	UserEventAgent (31)	com.apple.powerlog	energyDebug	energy:0.0000, unclamped:0.0000	
+00:15.151.681	Debug	safetyalertsd (91)	com.apple.safetyalertsd	general	{"msg":"#SABatteryServiceProd,batteryInfo", "level":99, "fullyCharged":0, "connected":0, "wasConnected":0, "currentCapacity":99, "maximumCapacity":100}	
+00:15.151.713	Debug	UserEventAgent (31)	com.apple.powerlog	energyDebug	energyAbsolute:-34.8040, unclamped:-34.8040	
+00:15.151.756	Debug	UserEventAgent (31)	com.apple.powerlog	energyDebug	energyRaw:-82.6595, unclamped:-82.6595	
+00:15.152.342	Debug	PerfPowerServices (1452)	com.apple.powerlog	time	Linear approximation: systemNow=Mon Nov 18 11:54:30 2024, lastSystemTimeRecalibrated=Mon Nov 18 11:54:03 2024, currentTime=Tue Jan 13 05:38:05 1970	
+00:15.152.856	Debug	sharingd (72)	com.apple.sharing	SFPowerSourceMonitor	0x914F: Power notification: AnyPowerSource	
+00:15.152.960	Default	sharingd (72)	com.apple.xpc	connection	[0xbf4991800] activating connection: mach=1 listener=0 peer=0 name=com.apple.iokit.powerdxpc	
+00:15.153.319	Info	UserEventAgent (31)	com.apple.CoreAnalytics	client	Dropping "com.apple.power.backlightUsersetting" as it isn't used in any transform (not in the config or budgeted?)	
+00:15.153.380	Default	powerd (46)	com.apple.xpc	connection	[0x5b237dcc0] activating connection: mach=0 listener=0 peer=1 name=com.apple.iokit.powerdxpc.peer[72].0x5b237dcc0	
+00:15.154.110	Info	UserEventAgent (31)	com.apple.CoreAnalytics	client	Dropping "com.apple.power.backlightUsersetting" as it isn't used in any transform (not in the config or budgeted?)	
+00:15.154.704	Debug	contextstored (65)	com.apple.coreduet.context		CDUserContext: SET <private> => <private>	
+00:15.154.933	Info	contextstored (65)	com.apple.coreduet.context		Setting value for /device/system/battery/dataDictionary: <private>	
+00:15.154.957	Debug	UserEventAgent (31)	com.apple.CoreAnalytics.event	send	<private> <private>	
+00:15.155.369	Info	contextstored (65)	com.apple.coreduet.context		Executing callback for client: com.apple.dasd.trigger, registration: <private>, based on keypath change: /device/system/battery/dataDictionary	
+00:15.155.447	Default	sharingd (72)	com.apple.xpc	connection	[0xbf4991800] invalidated after the last release of the connection object	
+00:15.155.489	Debug	sharingd (72)	com.apple.sharing	SFPowerSourceMonitor	0x914F: #3175 Updating with sourcesCount 1 vs currently tracked powerSources count 1	
+00:15.155.562	Debug	sharingd (72)	com.apple.sharing	SFPowerSourceMonitor	0x914F: #3175 Tracked powersource <SFPowerSource 0x1A5E, SID 3014755, L -99.0%, GroupID Internal, Col 0, MaxC 100, Typ 'InternalBattery', TPT 'Internal', Nm 'InternalBattery-0', StUnplugged>	
+00:15.155.598	Default	sharingd (72)	com.apple.xpc	connection	[0xbf4991800] activating connection: mach=1 listener=0 peer=0 name=com.apple.iokit.powerdxpc	
+00:15.155.729	Debug	analyticsd (110)	com.apple.analyticsd.critical	db	[Config Store] Retrieving transforms for event with name '<private>'	
+00:15.155.743	Debug	PerfPowerServices (1452)	com.apple.powerlog	time	Linear approximation: systemNow=Mon Nov 18 11:54:30 2024, lastSystemTimeRecalibrated=Mon Nov 18 11:54:03 2024, currentTime=Tue Jan 13 05:38:05 1970	
+00:15.155.856	Default	powerd (46)	com.apple.xpc	connection	[0x5b237cf00] activating connection: mach=0 listener=0 peer=1 name=com.apple.iokit.powerdxpc.peer[72].0x5b237cf00	
+00:15.155.918	Default	powerd (46)	com.apple.xpc	connection	[0x5b237dcc0] invalidated because the client process (pid 72) either cancelled the connection or exited	
+00:15.155.968	Debug	powerd (46)	powerd	Default	Received error "Connection invalid" on peer 0x5b237dcc0(pid 72)
+	
+00:15.156.009	Debug	powerd (46)	com.apple.powerd	battery	Returned adapter details dictionary 
+	
+00:15.156.031	Default	sharingd (72)	com.apple.xpc	connection	[0xbf4991800] invalidated after the last release of the connection object	
+00:15.156.144	Debug	sharingd (72)	com.apple.sharing	SFPowerSourceMonitor	0x914F: #3175 In powersource description { "Max Capacity" : 100, "Date of manufacture" : 2024-09-11 00:00:00.000, "Show Charging UI" : false, "Is Present" : true, "Battery Provides Time Remaining" : true, "Name" : "InternalBattery-0", "Type" : "InternalBattery", "LPM Active" : false, "Trusted Battery Data" : { "Trusted Data Enabled" : true, "Trusted LifeTime Max WRdc" : 60, "Trusted Data Timestamp" : 1731817982, "Trusted Cycle Count" : 2, "Trusted Maximum Capacity" : 104, "Trusted Data Failed Timestamp" : 0, "Trusted Date Of First Use" : 2024-10-20 00:00:00.000, }, "Is Charging" : false, "Time to Full Charge" : 0, "Date of first use" : 2024-10-20 00:00:00.000, "Cycle count" : 2, "Current Capacity" : 99, "Transport Type" : "Internal", "Optimized Battery Charging Engaged" : false, "Play Charging Chime" : false, "Raw External Connected" : false, "Time to Empty" : 0, "Power Source ID" : 3014755, "Power Source State" : "Battery Power", }	
+00:15.156.191	Debug	PerfPowerServices (1452)	com.apple.powerlog	time	Linear approximation: systemNow=Mon Nov 18 11:54:30 2024, lastSystemTimeRecalibrated=Mon Nov 18 11:54:03 2024, currentTime=Tue Jan 13 05:38:05 1970	
+00:15.156.237	Debug	sharingd (72)	com.apple.sharing	SFPowerSourceMonitor	0x914F: #3175 Updated powersource <SFPowerSource 0x1A5E, SID 3014755, L -99.0%, GroupID Internal, Col 0, MaxC 100, Typ 'InternalBattery', TPT 'Internal', Nm 'InternalBattery-0', StUnplugged> with changes 0x0 < >	
+00:15.156.337	Debug	sharingd (72)	com.apple.sharing	SFPowerSourceMonitor	0x914F: #3175 Processing group with ID Internal, type NULL, 1 entries	
+00:15.156.373	Debug	sharingd (72)	com.apple.sharing	SFPowerSourceMonitor	0x914F: #3175 Group changes; allLost:no, allAdded:no, changes:0x0 < >	
+00:15.156.431	Default	powerd (46)	com.apple.xpc	connection	[0x5b237cf00] invalidated because the client process (pid 72) either cancelled the connection or exited	
+00:15.156.489	Debug	powerd (46)	powerd	Default	Received error "Connection invalid" on peer 0x5b237cf00(pid 72)
+	
+00:15.156.521	Debug	PerfPowerServices (1452)	com.apple.powerlog	PerfPowerServices	No metadata for metric: PeakPerformanceCapacity	
+00:15.156.592	Debug	analyticsd (110)	com.apple.analyticsd.critical	xform	[Transform Factory] No Transform aggregation period specified.	
+00:15.156.642	Debug	analyticsd (110)	com.apple.analyticsd.critical	xform_cache	[Transform Cache] Cache miss. Loading <private> - <private> for input event <private>	
+00:15.156.670	Debug	PerfPowerServices (1452)	com.apple.powerlog	PerfPowerServices	No metadata for metric: Port1Current	
+00:15.156.767	Debug	PerfPowerServices (1452)	com.apple.powerlog	PerfPowerServices	No metadata for metric: TimeChargingThermallyLimited	
+00:15.156.879	Debug	PerfPowerServices (1452)	com.apple.powerlog	PerfPowerServices	No metadata for metric: ChargingVoltage	
+00:15.156.983	Debug	analyticsd (110)	com.apple.analyticsd.critical	xform_cache	[Transform Cache] Cache performance for input event <private>: { transforms: 1, hit: 0, loaded: 1, inserted: 1}	
+00:15.157.012	Info	dasd (80)	com.apple.coreduet.context	client	Registration fired for <private>	
+00:15.157.078	Debug	contextstored (65)	com.apple.coreduet	SharedMemoryKeyValueStore	Updated value for key context.keyPath./system/battery/dataDictionary.0	
+00:15.157.151	Debug	dasd (80)	com.apple.coreduet.context	client	Uncached value for <private>	
+00:15.157.253	Debug	PerfPowerServices (1452)	com.apple.powerlog	PerfPowerServices	No metadata for metric: ChargerAlert	
+00:15.157.262	Debug	contextstored (65)	com.apple.coreduet	SharedMemoryKeyValueStore	Starting persist to shared memory.	
+00:15.157.446	Debug	PerfPowerServices (1452)	com.apple.powerlog	PerfPowerServices	No metadata for metric: SimRate	
+00:15.157.559	Default	dasd (80)	com.apple.duetactivityscheduler	default	Trigger: <private> is now [<private>]	
+00:15.157.585	Debug	PerfPowerServices (1452)	com.apple.powerlog	PerfPowerServices	No metadata for metric: DODatEOC	
+00:15.157.666	Debug	PerfPowerServices (1452)	com.apple.powerlog	PerfPowerServices	No metadata for metric: SystemPower	
+00:15.157.753	Info	contextstored (65)	com.apple.coreduet.context		Executing callback for registration: <private>, based on keypath change: /device/system/battery/dataDictionary	
+00:15.157.759	Debug	PerfPowerServices (1452)	com.apple.powerlog	PerfPowerServices	No metadata for metric: ChargerRegisterStatus	
+00:15.157.761	Debug	contextstored (65)	com.apple.coreduet.instrumentation		Used 72,926 bytes of 262,144 bytes in shared object.	
+00:15.157.787	Debug	PerfPowerServices (1452)	com.apple.powerlog	PerfPowerServices	No metadata for metric: ChargeStatus	
+00:15.157.886	Debug	PerfPowerServices (1452)	com.apple.powerlog	PerfPowerServices	No metadata for metric: BatteryHealthMetric	
+00:15.157.910	Debug	PerfPowerServices (1452)	com.apple.powerlog	PerfPowerServices	No metadata for metric: RaUpdateDisqualified	
+00:15.157.932	Debug	PerfPowerServices (1452)	com.apple.powerlog	PerfPowerServices	No metadata for metric: CurrentSenseMonitorStatus	
+00:15.157.953	Debug	PerfPowerServices (1452)	com.apple.powerlog	PerfPowerServices	No metadata for metric: ChemID	
+00:15.157.992	Debug	PerfPowerServices (1452)	com.apple.powerlog	PerfPowerServices	No metadata for metric: Port1Power	
+00:15.158.014	Debug	PerfPowerServices (1452)	com.apple.powerlog	PerfPowerServices	No metadata for metric: <private>	
+00:15.158.035	Debug	PerfPowerServices (1452)	com.apple.powerlog	PerfPowerServices	No metadata for metric: DesignCapacity	
+00:15.158.056	Debug	PerfPowerServices (1452)	com.apple.powerlog	PerfPowerServices	No metadata for metric: InductiveFWMode	
+00:15.158.062	Debug	PerfPowerServices (1452)	com.apple.CoreAnalytics.event	send	<private> <private>	
+00:15.158.076	Debug	PerfPowerServices (1452)	com.apple.powerlog	PerfPowerServices	No metadata for metric: AverageAmperage	
+00:15.158.105	Debug	PerfPowerServices (1452)	com.apple.powerlog	PerfPowerServices	No metadata for metric: ChargingCurrent	
+00:15.158.126	Debug	PerfPowerServices (1452)	com.apple.CoreAnalytics.event	send	<private> <private>	
+00:15.158.126	Debug	PerfPowerServices (1452)	com.apple.powerlog	PerfPowerServices	No metadata for metric: WeightedRa	
+00:15.158.191	Debug	PerfPowerServices (1452)	com.apple.powerlog	PerfPowerServices	No metadata for metric: QmaxDisqualificationReason	
+00:15.158.227	Debug	PerfPowerServices (1452)	com.apple.powerlog	PerfPowerServices	No metadata for metric: SOC1Voltage	
+00:15.158.275	Debug	PerfPowerServices (1452)	com.apple.powerlog	PerfPowerServices	No metadata for metric: ITMiscStatus	
+00:15.158.316	Debug	PerfPowerServices (1452)	com.apple.powerlog	PerfPowerServices	No metadata for metric: AdapterVoltage	
+00:15.158.340	Debug	PerfPowerServices (1452)	com.apple.powerlog	PerfPowerServices	No metadata for metric: Port1FilteredPower	
+00:15.158.348	Debug	DTServiceHub (360)	DVTInstrumentsFoundation	Default	Data Size: 100,534, Rows Sent: 1,207, Stack depth: 215	
+00:15.158.692	Debug	analyticsd (110)	com.apple.analyticsd.critical	db	[Config Store] Retrieving transforms for event with name '<private>'	
+00:15.158.735	Info	contextstored (65)	com.apple.coreduet.context	client	Registration fired for <private>	
+00:15.159.220	Debug	contextstored (65)	com.apple.coreduet.context	client	Uncached value for <private>	
+00:15.159.285	Debug	PerfPowerServices (1452)	com.apple.powerlog	PerfPowerServices	No metadata for metric: ChemicalWeightedRa	
+00:15.159.528	Debug	PerfPowerServices (1452)	com.apple.powerlog	PerfPowerServices	No metadata for metric: NominalChargeCapacity	
+00:15.159.573	Debug	PerfPowerServices (1452)	com.apple.powerlog	PerfPowerServices	No metadata for metric: AppleRawBatteryVoltage	
+00:15.159.611	Debug	PerfPowerServices (1452)	com.apple.powerlog	PerfPowerServices	No metadata for metric: ChargerInhibitReason	
+00:15.159.692	Debug	PerfPowerServices (1452)	com.apple.powerlog	PerfPowerServices	No metadata for metric: KioskModeMode	
+00:15.159.755	Debug	PerfPowerServices (1452)	com.apple.powerlog	PerfPowerServices	No metadata for metric: TLCDuration	
+00:15.159.802	Debug	PerfPowerServices (1452)	com.apple.powerlog	PerfPowerServices	No metadata for metric: FilteredCurrent	
+00:15.159.835	Debug	PerfPowerServices (1452)	com.apple.powerlog	PerfPowerServices	No metadata for metric: ShallowDischargeScore	
+00:15.159.853	Debug	PerfPowerServices (1452)	com.apple.powerlog	PerfPowerServices	No metadata for metric: CycleCount	
+00:15.159.879	Debug	PerfPowerServices (1452)	com.apple.powerlog	PerfPowerServices	No metadata for metric: MaxCapacity	
+00:15.159.897	Debug	PerfPowerServices (1452)	com.apple.powerlog	PerfPowerServices	No metadata for metric: Dod0AtQualifiedQmax	
+00:15.159.913	Debug	PerfPowerServices (1452)	com.apple.powerlog	PerfPowerServices	No metadata for metric: InstantAmperage	
+00:15.159.953	Debug	PerfPowerServices (1452)	com.apple.powerlog	PerfPowerServices	No metadata for metric: PresentDOD	
+00:15.159.972	Debug	PerfPowerServices (1452)	com.apple.powerlog	PerfPowerServices	No metadata for metric: LPEMMode	
+00:15.160.026	Debug	PerfPowerServices (1452)	com.apple.powerlog	PerfPowerServices	No metadata for metric: BatteryCellDisconnectCount	
+00:15.160.046	Debug	PerfPowerServices (1452)	com.apple.powerlog	PerfPowerServices	No metadata for metric: AppleRawCurrentCapacity	
+00:15.160.133	Debug	PerfPowerServices (1452)	com.apple.powerlog	PerfPowerServices	No metadata for metric: SWRawFCC	
+00:15.160.253	Debug	PerfPowerServices (1452)	com.apple.powerlog	PerfPowerServices	No metadata for metric: OCV	
+00:15.160.293	Debug	PerfPowerServices (1452)	com.apple.powerlog	PerfPowerServices	No metadata for metric: FullAvailableCapacity	
+00:15.160.313	Debug	PerfPowerServices (1452)	com.apple.powerlog	PerfPowerServices	No metadata for metric: CurrentCapacity	
+00:15.160.437	Debug	contextstored (65)	com.apple.coreduet.context	client	Uncached value for <private>	
+00:15.160.442	Debug	PerfPowerServices (1452)	com.apple.powerlog	PerfPowerServices	No metadata for metric: RawLevel	
+00:15.160.467	Debug	PerfPowerServices (1452)	com.apple.powerlog	PerfPowerServices	No metadata for metric: ShallowDischargeFlag	
+00:15.160.540	Debug	PerfPowerServices (1452)	com.apple.powerlog	PerfPowerServices	No metadata for metric: Flags	
+00:15.160.559	Debug	PerfPowerServices (1452)	com.apple.powerlog	PerfPowerServices	No metadata for metric: KioskModeHighSocSeconds	
+00:15.160.578	Debug	PerfPowerServices (1452)	com.apple.powerlog	PerfPowerServices	No metadata for metric: QmaxUpdateDisqualified	
+00:15.160.596	Debug	PerfPowerServices (1452)	com.apple.powerlog	PerfPowerServices	No metadata for metric: AtCriticalLevel	
+00:15.160.612	Debug	PerfPowerServices (1452)	com.apple.powerlog	PerfPowerServices	No metadata for metric: AdapterPower	
+00:15.160.629	Debug	PerfPowerServices (1452)	com.apple.powerlog	PerfPowerServices	No metadata for metric: ChargerStatus	
+00:15.160.646	Debug	PerfPowerServices (1452)	com.apple.powerlog	PerfPowerServices	No metadata for metric: AdapterPowerTier	
+00:15.160.693	Debug	PerfPowerServices (1452)	com.apple.powerlog	PerfPowerServices	No metadata for metric: FullyCharged	
+00:15.160.723	Debug	PerfPowerServices (1452)	com.apple.powerlog	PerfPowerServices	No metadata for metric: Temperature	
+00:15.160.741	Debug	PerfPowerServices (1452)	com.apple.powerlog	PerfPowerServices	No metadata for metric: VacVoltageLimit	
+00:15.160.758	Debug	PerfPowerServices (1452)	com.apple.powerlog	PerfPowerServices	No metadata for metric: SOCFThreshold	
+00:15.160.774	Debug	PerfPowerServices (1452)	com.apple.powerlog	PerfPowerServices	No metadata for metric: TimeSinceLastOCV	
+00:15.161.010	Debug	PerfPowerServices (1452)	com.apple.powerlog	PerfPowerServices	No metadata for metric: PMUConfiguration	
+00:15.161.057	Debug	PerfPowerServices (1452)	com.apple.powerlog	PerfPowerServices	No metadata for metric: ShallowDischargeLevels	
+00:15.161.079	Debug	PerfPowerServices (1452)	com.apple.powerlog	PerfPowerServices	No metadata for metric: SOCAlarm	
+00:15.161.097	Debug	PerfPowerServices (1452)	com.apple.powerlog	PerfPowerServices	No metadata for metric: Port1Voltage	
+00:15.161.113	Debug	PerfPowerServices (1452)	com.apple.powerlog	PerfPowerServices	No metadata for metric: PMUConfigured	
+00:15.161.127	Debug	analyticsd (110)	com.apple.analyticsd.critical	xform	[Transform Factory] No Transform aggregation period specified.	
+00:15.161.130	Debug	PerfPowerServices (1452)	com.apple.powerlog	PerfPowerServices	No metadata for metric: PresentMaxRa0-8	
+00:15.161.146	Debug	PerfPowerServices (1452)	com.apple.powerlog	PerfPowerServices	No metadata for metric: RSS	
+00:15.161.180	Debug	PerfPowerServices (1452)	com.apple.powerlog	PerfPowerServices	No metadata for metric: OCVCount	
+00:15.161.212	Debug	PerfPowerServices (1452)	com.apple.powerlog	PerfPowerServices	No metadata for metric: ResScale	
+00:15.161.230	Debug	PerfPowerServices (1452)	com.apple.powerlog	PerfPowerServices	No metadata for metric: BatteryRsenseOpenCount	
+00:15.161.246	Debug	PerfPowerServices (1452)	com.apple.powerlog	PerfPowerServices	No metadata for metric: VirtualTemperature	
+00:15.161.263	Debug	PerfPowerServices (1452)	com.apple.powerlog	PerfPowerServices	No metadata for metric: GaugeResetCounter	
+00:15.161.274	Debug	analyticsd (110)	com.apple.analyticsd.critical	xform_cache	[Transform Cache] Cache miss. Loading <private> - <private> for input event <private>	
+00:15.161.424	Debug	contextstored (65)	com.apple.coreduet.context	client	Uncached value for <private>	
+00:15.161.670	Debug	PerfPowerServices (1452)	com.apple.powerlog	PerfPowerServices	No metadata for metric: DynamicEntryStatus	
+00:15.161.705	Debug	PerfPowerServices (1452)	com.apple.powerlog	PerfPowerServices	No metadata for metric: Qstart	
+00:15.161.743	Debug	PerfPowerServices (1452)	com.apple.powerlog	PerfPowerServices	No metadata for metric: SWRemCap	
+00:15.161.867	Debug	PerfPowerServices (1452)	com.apple.powerlog	PerfPowerServices	No metadata for metric: SWRawSOC	
+00:15.161.906	Debug	PerfPowerServices (1452)	com.apple.powerlog	PerfPowerServices	No metadata for metric: SlowChargingReason	
+00:15.161.971	Debug	PerfPowerServices (1452)	com.apple.powerlog	PerfPowerServices	No metadata for metric: AdapterInfo	
+00:15.161.997	Info	contextstored (65)	com.apple.duetknowledged	deviceactivitymonitor	Active: 1 | Plugged In : 0 | Screen On: 1 | CarPlay Active: 0 | LIMITS IMPOSED: 0	
+00:15.162.027	Debug	PerfPowerServices (1452)	com.apple.powerlog	PerfPowerServices	No metadata for metric: LifetimeMaxRa0-8Updated	
+00:15.162.066	Debug	PerfPowerServices (1452)	com.apple.powerlog	PerfPowerServices	[Log] Number of entries for subsystem/category: BatteryMetrics/Battery : 1	
+00:15.162.143	Debug	analyticsd (110)	com.apple.analyticsd.critical	xform	[Transform Cache] Eviction callback for transform <private> - <private>	
+00:15.162.264	Debug	PerfPowerServices (1452)	com.apple.powerlog	time	Linear approximation: systemNow=Mon Nov 18 11:54:30 2024, lastSystemTimeRecalibrated=Mon Nov 18 11:54:03 2024, currentTime=Tue Jan 13 05:38:05 1970	
+00:15.162.371	Debug	PerfPowerServices (1452)	com.apple.powerlog	time	Linear approximation: systemNow=Mon Nov 18 11:54:30 2024, lastSystemTimeRecalibrated=Mon Nov 18 11:54:03 2024, currentTime=Tue Jan 13 05:38:05 1970	
+00:15.162.513	Debug	PerfPowerServices (1452)	com.apple.powerlog	time	Linear approximation: systemNow=Mon Nov 18 11:54:30 2024, lastSystemTimeRecalibrated=Mon Nov 18 11:54:03 2024, currentTime=Tue Jan 13 05:38:05 1970	
+00:15.162.567	Info	PerfPowerServices (1452)	com.apple.powerlog		Logging powerout details: <private>	
+00:15.162.841	Debug	PerfPowerServices (1452)	com.apple.powerlog	time	Linear approximation: systemNow=Mon Nov 18 11:54:30 2024, lastSystemTimeRecalibrated=Mon Nov 18 11:54:03 2024, currentTime=Tue Jan 13 05:38:05 1970	
+00:15.162.880	Info	PerfPowerServices (1452)	com.apple.powerlog		Filtered Power: 4,747.0000	
+00:15.162.902	Info	PerfPowerServices (1452)	com.apple.powerlog		Accounting Power Out	
+00:15.162.920	Info	PerfPowerServices (1452)	com.apple.powerlog		Power Diff: 90,250.0000   Count Diff: 19.0000   Error Count Diff: 0.0000	
+00:15.162.943	Info	PerfPowerServices (1452)	com.apple.powerlog		Total Power: 1,447,470.0000   Total Count: 305.0000	
+00:15.162.963	Debug	PerfPowerServices (1452)	com.apple.powerlog		Avg power: 4,745.8033	
+00:15.162.988	Debug	PerfPowerServices (1452)	com.apple.powerlog	time	Linear approximation: systemNow=Mon Nov 18 11:54:30 2024, lastSystemTimeRecalibrated=Mon Nov 18 11:54:03 2024, currentTime=Tue Jan 13 05:38:05 1970	
+00:15.163.008	Info	PerfPowerServices (1452)	com.apple.powerlog		Distribution Weight: <private>	
+00:15.163.080	Debug	analyticsd (110)	com.apple.analyticsd.critical	xform_cache	[Transform Cache] Cache performance for input event <private>: { transforms: 1, hit: 0, loaded: 1, inserted: 1}	
+00:15.163.198	Debug	analyticsd (110)	com.apple.analyticsd.critical	db	[Config Store] Retrieving transforms for event with name '<private>'	
+00:15.163.208	Debug	PerfPowerServices (1452)	com.apple.powerlog	time	Linear approximation: systemNow=Mon Nov 18 11:54:30 2024, lastSystemTimeRecalibrated=Mon Nov 18 11:54:03 2024, currentTime=Tue Jan 13 05:38:05 1970	
+00:15.163.316	Debug	PerfPowerServices (1452)	com.apple.powerlog	time	Linear approximation: systemNow=Mon Nov 18 11:54:30 2024, lastSystemTimeRecalibrated=Mon Nov 18 11:54:03 2024, currentTime=Tue Jan 13 05:38:05 1970	
+00:15.163.338	Debug	PerfPowerServices (1452)	com.apple.powerlog	time	Linear approximation: systemNow=Mon Nov 18 11:54:30 2024, lastSystemTimeRecalibrated=Mon Nov 18 11:54:03 2024, currentTime=Tue Jan 13 05:38:05 1970	
+00:15.163.355	Debug	analyticsd (110)	com.apple.analyticsd.critical	xform	[Transform Factory] No Transform aggregation period specified.	
+00:15.163.430	Debug	analyticsd (110)	com.apple.analyticsd.critical	xform_cache	[Transform Cache] Cache miss. Loading <private> - <private> for input event <private>	
+00:15.163.551	Debug	PerfPowerServices (1452)	com.apple.powerlog	time	Linear approximation: systemNow=Mon Nov 18 11:54:30 2024, lastSystemTimeRecalibrated=Mon Nov 18 11:54:03 2024, currentTime=Tue Jan 13 05:38:05 1970	
+00:15.163.568	Debug	analyticsd (110)	com.apple.analyticsd.critical	xform	[Transform Cache] Eviction callback for transform <private> - <private>	
+00:15.163.583	Debug	PerfPowerServices (1452)	com.apple.powerlog	time	Linear approximation: systemNow=Mon Nov 18 11:54:30 2024, lastSystemTimeRecalibrated=Mon Nov 18 11:54:03 2024, currentTime=Tue Jan 13 05:38:05 1970	
+00:15.163.773	Debug	PerfPowerServices (1452)	com.apple.powerlog		Calling power out with <private> <private> <private>	
+00:15.163.811	Debug	PerfPowerServices (1452)	com.apple.powerlog		Handle power out callback with payload <private>	
+00:15.163.841	Debug	PerfPowerServices (1452)	com.apple.powerlog	time	Linear approximation: systemNow=Mon Nov 18 11:54:30 2024, lastSystemTimeRecalibrated=Mon Nov 18 11:54:03 2024, currentTime=Tue Jan 13 05:38:05 1970	
+00:15.163.891	Debug	PerfPowerServices (1452)	com.apple.powerlog	time	Linear approximation: systemNow=Mon Nov 18 11:54:30 2024, lastSystemTimeRecalibrated=Mon Nov 18 11:54:03 2024, currentTime=Tue Jan 13 05:38:05 1970	
+00:15.164.240	Debug	analyticsd (110)	com.apple.analyticsd.critical	xform	[Transform Cache] Eviction callback for transform <private> - <private>	
+00:15.164.572	Debug	analyticsd (110)	com.apple.analyticsd.critical	xform_cache	[Transform Cache] Cache performance for input event <private>: { transforms: 1, hit: 0, loaded: 1, inserted: 1}	
+00:15.164.688	Debug	PerfPowerServices (1452)	com.apple.powerlog	time	Linear approximation: systemNow=Mon Nov 18 11:54:30 2024, lastSystemTimeRecalibrated=Mon Nov 18 11:54:03 2024, currentTime=Tue Jan 13 05:38:05 1970	
+00:15.165.043	Debug	PerfPowerServices (1452)	com.apple.powerlog		TLC: was:0 now:0	
+00:15.165.089	Info	PerfPowerServices (1452)	com.apple.powerlog		Start Camera Streaming Interval Tracking Section	
+00:15.165.114	Info	PerfPowerServices (1452)	com.apple.powerlog		Camera Streaming State: 0	
+00:15.165.137	Info	PerfPowerServices (1452)	com.apple.powerlog		Camera Streaming not active OR device not plugged in	
+00:15.165.159	Default	PerfPowerServices (1452)	com.apple.powerlog		intervalType=4 state=0	
+00:15.165.180	Info	PerfPowerServices (1452)	com.apple.powerlog		failed to find open 4 interval	
+00:15.165.198	Default	PerfPowerServices (1452)	com.apple.powerlog		intervalType=6 state=0	
+00:15.165.220	Info	PerfPowerServices (1452)	com.apple.powerlog		failed to find open 6 interval	
+00:15.165.238	Default	PerfPowerServices (1452)	com.apple.powerlog		intervalType=3 state=0	
+00:15.165.257	Info	PerfPowerServices (1452)	com.apple.powerlog		failed to find open 3 interval	
+00:15.165.276	Debug	PerfPowerServices (1452)	com.apple.powerlog		"bui_tlc_notif_iOS" feature flag is enabled.	
+00:15.165.299	Debug	PerfPowerServices (1452)	com.apple.powerlog		TLC: External Connected: 0  TLC notification surfaced: 0  TLC aggregated time: 0.0000   Battery Level: 99.0000  OBC Engaged: 0	
+00:15.165.321	Debug	PerfPowerServices (1452)	com.apple.powerlog		TLC: CEC Engaged: 0	
+00:15.165.340	Debug	PerfPowerServices (1452)	com.apple.powerlog		TLC conditions not met OR TLC notification already surfaced	
+00:15.165.359	Default	PerfPowerServices (1452)	com.apple.powerlog		intervalType=9 state=0	
+00:15.165.377	Info	PerfPowerServices (1452)	com.apple.powerlog		failed to find open 9 interval	
+00:15.165.403	Debug	PerfPowerServices (1452)	com.apple.powerlog	time	Linear approximation: systemNow=Mon Nov 18 11:54:30 2024, lastSystemTimeRecalibrated=Mon Nov 18 11:54:03 2024, currentTime=Tue Jan 13 05:38:05 1970	
+00:15.165.438	Debug	PerfPowerServices (1452)	com.apple.powerlog	time	Linear approximation: systemNow=Mon Nov 18 11:54:30 2024, lastSystemTimeRecalibrated=Mon Nov 18 11:54:03 2024, currentTime=Tue Jan 13 05:38:05 1970	
+00:15.165.469	Debug	PerfPowerServices (1452)	com.apple.powerlog	time	Linear approximation: systemNow=Mon Nov 18 11:54:30 2024, lastSystemTimeRecalibrated=Mon Nov 18 11:54:03 2024, currentTime=Tue Jan 13 05:38:05 1970	
+00:15.166.258	Debug	PerfPowerServices (1452)	com.apple.powerlog	time	Linear approximation: systemNow=Mon Nov 18 11:54:30 2024, lastSystemTimeRecalibrated=Mon Nov 18 11:54:03 2024, currentTime=Tue Jan 13 05:38:05 1970	
+00:15.166.348	Debug	PerfPowerServices (1452)	com.apple.powerlog	time	Linear approximation: systemNow=Mon Nov 18 11:54:30 2024, lastSystemTimeRecalibrated=Mon Nov 18 11:54:03 2024, currentTime=Tue Jan 13 05:38:05 1970	
+00:15.166.441	Debug	PerfPowerServices (1452)	com.apple.powerlog	time	Linear approximation: systemNow=Mon Nov 18 11:54:30 2024, lastSystemTimeRecalibrated=Mon Nov 18 11:54:03 2024, currentTime=Tue Jan 13 05:38:05 1970	
+00:15.175.836	Debug	PerfPowerServices (1452)	com.apple.powerlog	time	Linear approximation: systemNow=Mon Nov 18 11:54:30 2024, lastSystemTimeRecalibrated=Mon Nov 18 11:54:03 2024, currentTime=Tue Jan 13 05:38:05 1970	
+00:15.175.977	Debug	PerfPowerServices (1452)	com.apple.powerlog	time	Linear approximation: systemNow=Mon Nov 18 11:54:30 2024, lastSystemTimeRecalibrated=Mon Nov 18 11:54:03 2024, currentTime=Tue Jan 13 05:38:05 1970	
+00:15.176.254	Debug	PerfPowerServices (1452)	com.apple.powerlog		[EABattery]: checking for accessory	
+00:15.176.470	Debug	backboardd (68)	libIOReport.dylib	Default	iterated 14 channels with 14 iterations	
+00:15.176.578	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	CPMS: Current Power Output:308.8212 Budget Constraint:5,310.0000/5,684.6821	
+00:15.176.688	Debug	powerd (46)	com.apple.powerd	batteryhealth	battery auth state: 1 flags: 0x0	
+00:15.176.760	Default	powerd (46)	com.apple.powerd	batteryhealth	Previous Battery Health: Flags:3 State:0 MaxCapacity:104 CycleCount:2
+	
+00:15.176.799	Default	powerd (46)	com.apple.powerd	batteryhealth	calib: svcFlags pre: 0x3	
+00:15.176.827	Default	powerd (46)	com.apple.powerd	batteryhealth	calib0: device not relevant	
+00:15.176.849	Default	powerd (46)	com.apple.powerd	batteryhealth	calib: svcFlags post: 0x3	
+00:15.176.878	Debug	powerd (46)	com.apple.powerd	batteryhealth	Battery NominalCapacity:0 DesignCapacity:0 NCC:104
+	
+00:15.176.945	Debug	powerd (46)	com.apple.defaults	User Defaults	CFPrefsPlistSource<0x5b2074300> (Domain: com.apple.batteryhealthdata, User: kCFPreferencesCurrentUser, ByHost: No, Container: /var/MobileSoftwareUpdate/Hardware/Battery/, Contents Need Refresh: No) skipping setting already-present value for key Trusted LifeTime Max WRdc	
+00:15.176.994	Debug	powerd (46)	com.apple.defaults	User Defaults	CFPrefsPlistSource<0x5b2074300> (Domain: com.apple.batteryhealthdata, User: kCFPreferencesCurrentUser, ByHost: No, Container: /var/MobileSoftwareUpdate/Hardware/Battery/, Contents Need Refresh: No) skipping setting already-present value for key Battery Serial	
+00:15.177.031	Debug	powerd (46)	com.apple.defaults	User Defaults	CFPrefsPlistSource<0x5b2074300> (Domain: com.apple.batteryhealthdata, User: kCFPreferencesCurrentUser, ByHost: No, Container: /var/MobileSoftwareUpdate/Hardware/Battery/, Contents Need Refresh: No) skipping setting already-present value for key Battery Service State	
+00:15.177.069	Debug	powerd (46)	com.apple.defaults	User Defaults	CFPrefsPlistSource<0x5b2074300> (Domain: com.apple.batteryhealthdata, User: kCFPreferencesCurrentUser, ByHost: No, Container: /var/MobileSoftwareUpdate/Hardware/Battery/, Contents Need Refresh: No) skipping setting already-present value for key Maximum Capacity Percent	
+00:15.177.103	Debug	powerd (46)	com.apple.defaults	User Defaults	CFPrefsPlistSource<0x5b2074300> (Domain: com.apple.batteryhealthdata, User: kCFPreferencesCurrentUser, ByHost: No, Container: /var/MobileSoftwareUpdate/Hardware/Battery/, Contents Need Refresh: No) skipping setting already-present value for key Battery Service Flags	
+00:15.177.136	Debug	powerd (46)	com.apple.defaults	User Defaults	CFPrefsPlistSource<0x5b2074300> (Domain: com.apple.batteryhealthdata, User: kCFPreferencesCurrentUser, ByHost: No, Container: /var/MobileSoftwareUpdate/Hardware/Battery/, Contents Need Refresh: No) skipping setting already-present value for key CycleCount	
+00:15.177.167	Default	powerd (46)	com.apple.powerd	batteryhealth	Updated Battery Health: Flags:3
+	
+00:15.177.197	Default	powerd (46)	com.apple.powerd	batteryhealth	Updated Battery Health: State:0
+	
+00:15.177.221	Default	powerd (46)	com.apple.powerd	batteryhealth	Updated Battery Health: MaxCapacity:104
+	
+00:15.177.242	Default	powerd (46)	com.apple.powerd	batteryhealth	Updated Battery Health: CycleCount:2
+	
+00:15.177.787	Debug	powerd (46)	com.apple.powerd	batteryhealth	battery auth state: 1 flags: 0x0	
+00:15.177.845	Default	powerd (46)	com.apple.powerd	batteryhealth	Previous Battery Health: Flags:3 State:0 MaxCapacity:104 CycleCount:2
+	
+00:15.177.871	Default	powerd (46)	com.apple.powerd	batteryhealth	calib: svcFlags pre: 0x3	
+00:15.177.892	Default	powerd (46)	com.apple.powerd	batteryhealth	calib0: device not relevant	
+00:15.177.912	Default	powerd (46)	com.apple.powerd	batteryhealth	calib: svcFlags post: 0x3	
+00:15.177.937	Debug	powerd (46)	com.apple.powerd	batteryhealth	Battery NominalCapacity:0 DesignCapacity:0 NCC:104
+	
+00:15.177.978	Debug	powerd (46)	com.apple.defaults	User Defaults	CFPrefsPlistSource<0x5b2074300> (Domain: com.apple.batteryhealthdata, User: kCFPreferencesCurrentUser, ByHost: No, Container: /var/MobileSoftwareUpdate/Hardware/Battery/, Contents Need Refresh: No) skipping setting already-present value for key Trusted LifeTime Max WRdc	
+00:15.178.015	Debug	powerd (46)	com.apple.defaults	User Defaults	CFPrefsPlistSource<0x5b2074300> (Domain: com.apple.batteryhealthdata, User: kCFPreferencesCurrentUser, ByHost: No, Container: /var/MobileSoftwareUpdate/Hardware/Battery/, Contents Need Refresh: No) skipping setting already-present value for key Battery Serial	
+00:15.178.066	Debug	powerd (46)	com.apple.defaults	User Defaults	CFPrefsPlistSource<0x5b2074300> (Domain: com.apple.batteryhealthdata, User: kCFPreferencesCurrentUser, ByHost: No, Container: /var/MobileSoftwareUpdate/Hardware/Battery/, Contents Need Refresh: No) skipping setting already-present value for key Battery Service State	
+00:15.178.112	Debug	powerd (46)	com.apple.defaults	User Defaults	CFPrefsPlistSource<0x5b2074300> (Domain: com.apple.batteryhealthdata, User: kCFPreferencesCurrentUser, ByHost: No, Container: /var/MobileSoftwareUpdate/Hardware/Battery/, Contents Need Refresh: No) skipping setting already-present value for key Maximum Capacity Percent	
+00:15.178.151	Debug	powerd (46)	com.apple.defaults	User Defaults	CFPrefsPlistSource<0x5b2074300> (Domain: com.apple.batteryhealthdata, User: kCFPreferencesCurrentUser, ByHost: No, Container: /var/MobileSoftwareUpdate/Hardware/Battery/, Contents Need Refresh: No) skipping setting already-present value for key Battery Service Flags	
+00:15.178.185	Debug	powerd (46)	com.apple.defaults	User Defaults	CFPrefsPlistSource<0x5b2074300> (Domain: com.apple.batteryhealthdata, User: kCFPreferencesCurrentUser, ByHost: No, Container: /var/MobileSoftwareUpdate/Hardware/Battery/, Contents Need Refresh: No) skipping setting already-present value for key CycleCount	
+00:15.178.214	Default	powerd (46)	com.apple.powerd	batteryhealth	Updated Battery Health: Flags:3
+	
+00:15.178.238	Default	powerd (46)	com.apple.powerd	batteryhealth	Updated Battery Health: State:0
+	
+00:15.178.261	Default	powerd (46)	com.apple.powerd	batteryhealth	Updated Battery Health: MaxCapacity:104
+	
+00:15.178.282	Default	powerd (46)	com.apple.powerd	batteryhealth	Updated Battery Health: CycleCount:2
+	
+00:15.203.951	Default	nearbyd (148)	com.apple.nearbyd	general	#ses-devicepresence,measurement timeout (<private>s) fired for device token hash: 0x<private>	
+00:15.204.100	Default	nearbyd (148)	com.apple.nearbyd	general	#threshold-detector, resetRssiOffset originalOffset: <private>, originalRssiThresh: <private>, newRssiThresh: <private>	
+00:15.204.192	Default	nearbyd (148)	com.apple.nearbyd	general	#nrby-eng,#spatialGesturesPredictor #region change ses_id: <private> dev: 0x<private> from <private> -> <private>, intent score: <private>, range_m: <private>, rssi_dbm: <private>	
+00:15.204.263	Debug	nearbyd (148)	com.apple.nearbyd	general	#nrby-eng,#region-class device monitor for device 0x<private> was <private>	
+00:15.204.932	Default	sharingd (72)	com.apple.sharing	ProximityController	didUpdateRegion object: <private> newRegion: <private>	
+00:15.205.027	Default	sharingd (72)	com.apple.sharing	ProximityController	removing devicepresetid: <private> from presetidlist: <private>	
+00:15.205.075	Default	sharingd (72)	com.apple.sharing	ProximityController	removing devicepresetid: <private> from delegatelist size: <private>	
+00:15.234.167	Debug	backboardd (68)	com.apple.CoreBrightness.ColourSensorFilterPlugin	default	Color: X=154.4400(49.1598) Y=147.0066(46.7937) Z=57.1466(18.1903) 
+	
+00:15.234.270	Default	backboardd (68)	com.apple.CoreBrightness.ColourSensorFilterPlugin	default	[ALS] ts=48,684.6754 lux=164.5688<private> xy=(0.4307 0.4100) chs=[971.0000 2,575.0000 6,548.0000 9,402.0000 9,848.0000] CCT1=3,318.3218 gain=512x mode=<private> subsamples=24 rawLux=170.8040 nits=1,083 xTalk=[9 18 34 46 61] status=0xb copyEvent=0	
+00:15.234.491	Debug	backboardd (68)	com.apple.CoreBrightness.CBColorModule.Primary	default	key=ALSIntegrationMode result=	
+00:15.234.525	Debug	locationd (74)	com.apple.locationd.Position	Position	AmbientLight,DecisionTree,x,172.8902,y,164.5688,z,63.9737,out,3	
+00:15.234.560	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[4]: 	
+00:15.234.604	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[2]: ALSIntegrationMode	
+00:15.234.605	Debug	locationd (74)	com.apple.locationd.Position	Position	AmbientLightDecisionTreeOutput,3	
+00:15.234.655	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[2]: ALSIntegrationMode result=3	
+00:15.234.697	Debug	backboardd (68)	com.apple.CoreBrightness.CBABModuleiOS	default	key=ALSIntegrationMode result=3	
+00:15.234.736	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayContaineriOS	BuiltIn	key=ALSIntegrationMode result=3	
+00:15.234.781	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[4]: _plugInEnabled=1	
+00:15.234.830	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[4]: 0xdb4ccd900 0xdb61fa530	
+00:15.234.877	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[10]: 164.5688 	
+00:15.234.914	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[10]: als->_Esensor_device=164.5688	
+00:15.235.015	Debug	backboardd (68)	com.apple.CoreBrightness.CBALSEvent	default	Tristimulus values: XYZ[0]=55.0327, XYZ[1]=52.3839, XYZ[2]=20.3635 | CCT1=3,318.3218	
+00:15.235.067	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[2]: _luxFilter=3 als->_Ehistory_max=8	
+00:15.235.136	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[10]: Median filter computed on 8 samples	
+00:15.235.212	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	Median filter computed on 8 samples	
+00:15.235.280	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[10]: ts=48,684.6758 Esensor=165.3907 Emedian=165.3907	
+00:15.235.397	Info	backboardd (68)	com.apple.CoreBrightness.AABRear.CBRearALSModule	default	Copy Grimaldi Lux = 53.53458	
+00:15.235.441	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	E 165.3907, Ecapped 165.3907, EmaxCap -1.0000 => finalE 165.3907	
+00:15.235.532	Debug	backboardd (68)	com.apple.CoreBrightness.AABRear	default	AABRear: shouldUseRearLuxFrontLux called with (fLux:165.3907, rLux:53.5346, cap: 1,886.3167)	
+00:15.235.667	Debug	backboardd (68)	com.apple.CoreBrightness.AABRear	default	AABRear: using rear? 0	
+00:15.235.779	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	E 165.3907, Ecapped 165.3907, EmaxCap -1.0000 => finalE 165.3907	
+00:15.235.859	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayContaineriOS	BuiltIn	Notification block key=RLuxStats, value=<private>
+	
+00:15.235.913	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	Handle notification for key = RLuxStats and property = <private>	
+00:15.235.986	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayContaineriOS	BuiltIn	Notification block key=TrustedLux, value=165.3907
+	
+00:15.236.032	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	Handle notification for key = TrustedLux and property = 165.3907	
+00:15.236.199	Info	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	Set trusted lux = 165.3907	
+00:15.236.204	Default	backboardd (68)	com.apple.coreanimation	Brightness	Display 1 commitBrightness sdr: -1.0000, headroom: -1.0000, ambient lux: 165.3907, filtered ambient: -1.0000, limit: -1.0000, low ambient strength: -1.0000, high ambient strength: -1.0000, brightness ctl disabled 18,446,744,073,709,551,615
+	
+00:15.236.274	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayContaineriOS	BuiltIn	Notification block key=TrustedFrontLux, value=160.6456
+	
+00:15.236.411	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	Handle notification for key = TrustedFrontLux and property = 160.6456	
+00:15.236.469	Default	backboardd (68)	com.apple.CoreBrightness.AABC	default	trusted Lux: 165.3907, trusted front Lux: 165.3907, trusted capped Lux: 165.3907	
+00:15.236.510	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[10]: _Esensor_filtered=165.3907 _Esensor_trusted=165.3907 _Esensor_aggregated=165.3907	
+00:15.236.618	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayContaineriOS	BuiltIn	Notification block key=Lux, value=165.3907
+	
+00:15.236.675	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	Handle notification for key = Lux and property = 165.3907	
+00:15.236.756	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[10]: _Esensor_trusted=165.3907 _state=kAABStateAutoBrightness _proxState=kProxNone _touchIsObstucted=0 _settings._internal._dimPolicy=kDimPolicyFullDimming 3 _orientation=kIOHIDDisplayOrientationTypeAmbiguous	
+00:15.236.810	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	E 165.3907, Ecapped 165.3907, EmaxCap -1.0000 => finalE 165.3907	
+00:15.236.850	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[1/1] Esensor_device: 164.5688 als->_Esensor_filtered: 165.3907 _Esensor_trusted: 165.3907  L: 192.3410 L_reflected: 1.0529	
+00:15.236.948	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[10]: dimRestriction=kDimRestrictionUnrestricted	
+00:15.237.010	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	Superbright EDR restrictions [would be]: CLTM 1,512.3809, UPO 2,175.0000, bottom [lower] restriction 1.0000, nits cap hdr: 2,175.0000, after BDM: 1,600.0000	
+00:15.237.049	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	Ambient change - SetLibEDRBrightness - physicalBrightness:118.8318, maxLum: 1,600.0000, edrState: 0, lux: 165.3907, brightness boost: 1.1381
+	
+00:15.237.143	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	SetLibEDRBrightness to currentBrightness=118.8318, maxBrightness=1,600.0000, currentLux=165.3907, compensationBoost=1.1381	
+00:15.237.199	Debug	backboardd (68)	CoreBrightness	Default	CBEDRServerDisplayBrightness: display: 0 | target: 118.8318 | max: 1,600.0000 | ambient: 165.3907 | boost=1.1381	
+00:15.237.296	Info	backboardd (68)	libEDR	Default	libEDR - EDRServerSetDisplayBrightnessForDisplay: (display: 0, targetBrightness: 118.8318, maxLuminance: 1,600.0000, ambientIlluminance: 165.3907, brightnessScaler: 1.1381)
+	
+00:15.237.360	Info	backboardd (68)	libEDR	Default	libEDR - NotificationCallback: (type: kEDRNotifyBrightness, display: 0, brightness: 0.0743, backlight: 0.0743, edrScaler: 1.0000, maxLuminance: 1,600.0000, ambientIlluminance: 165.3907, brightnessScaler: 1.1381)
+	
+00:15.237.397	Info	backboardd (68)	libEDR	Default	libEDR - PostNotification: (display: 0, brightness: 0.0743, backlight: 0.0743, edrScaling: 1.0000, maxLuminance: 1,600.0000, ambientIlluminance: 165.3907, brightnessScaler: 1.1381)
+	
+00:15.237.491	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[4]: 	
+00:15.237.608	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[200]: inputs: L=192.3410 (shouldRamp=true dimRestriction=kDimRestrictionUnrestricted _Esensor_trusted=165.3907) curveChanged=0	
+00:15.237.660	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[200]: _fastRampMode=0 dimRestriction=kDimRestrictionUnrestricted L_newtarget=192.3410 _L_current=76.2887 _L_minimum=191.4493	
+00:15.237.758	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	PLT	shallUpdateBacklight: Pstart=0.7645 Pcurrent=0.7645 Pnewtarget=0.7550 Pdelta=-0.0095 Pthreshold_dim=0.0500 (0.1000 * 0.5000) Pthreshold_brighten=0.1000 (0.1000 * 1.0000) plt_x=0.2500 plt_y=0.3700 plt_z=0.1000	
+00:15.237.815	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[200]: _L_target=205.5501 Pnewtarget=0.7550 Ptarget=0.7645 Pdelta=-0.0095  	
+00:15.237.857	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[200]: systemShallUpdateBacklight=false L_target=192.3410 timeConstant=0.0000	
+00:15.238.030	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	Handle notification for key = TrustedLux and property = 165.3907	
+00:15.238.166	Default	backboardd (68)	com.apple.coreanimation	Brightness	Display 1 commitBrightness sdr: -1.0000, headroom: -1.0000, ambient lux: 165.3907, filtered ambient: -1.0000, limit: -1.0000, low ambient strength: -1.0000, high ambient strength: -1.0000, brightness ctl disabled 18,446,744,073,709,551,615
+	
+00:15.238.189	Info	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	Set trusted lux = 165.3907	
+00:15.238.350	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayContaineriOS	BuiltIn	Notification block key=TrustedLux, value=165.3907
+	
+00:15.238.521	Debug	backboardd (68)	com.apple.CoreBrightness.CBALSEvent	default	Tristimulus values: XYZ[0]=55.0327, XYZ[1]=52.3839, XYZ[2]=20.3635 | CCT1=3,318.3218	
+00:15.238.572	Debug	backboardd (68)	com.apple.CoreBrightness.CBALSNode	default	<private>	
+00:15.238.623	Debug	backboardd (68)	com.apple.CoreBrightness.CBBrightestALSFilter	default	ALS events <private>	
+00:15.238.674	Info	backboardd (68)	com.apple.CoreBrightness.CBColorPolicyFilter	default	HarmonyPolicy: Sample IS  from mitigated region	
+00:15.238.717	Info	backboardd (68)	com.apple.CoreBrightness.CBColorPolicyFilter	default	HarmonyPolicy: BaselineHarmony: mitigatedStr, for (lux, nits): 164.0000, 1,083.0000 = 0.1200 (rounded)	
+00:15.238.757	Info	backboardd (68)	com.apple.CoreBrightness.CBColorPolicyFilter	default	HarmonyPolicy: Sample IS NOT from CE region	
+00:15.238.810	Info	backboardd (68)	com.apple.CoreBrightness.CBColorPolicyFilter	default	HarmonyPolicy: Incoming ALS sample, pushed to queue: <private>	
+00:15.238.887	Info	backboardd (68)	com.apple.CoreBrightness.CBColorPolicyFilter	default	HarmonyPolicy: _filteredALS: <private>, _filtered strength: 0.2700	
+00:15.238.926	Debug	backboardd (68)	com.apple.CoreBrightness.CBColorModule.Primary	default	ALS event with orientation = 1	
+00:15.239.012	Info	backboardd (68)	com.apple.CoreBrightness.CBColorModule.Primary	default	HarmonyPolicy: Using Baseline	
+00:15.239.060	Debug	backboardd (68)	com.apple.CoreBrightness.CBColorModule.Primary	default	input ambient color sample: xy = (0.4307;0.4100)	
+00:15.239.124	Debug	backboardd (68)	CoreBrightness	Default	LOWLUX 52.3839
+	
+00:15.239.185	Debug	backboardd (68)	CoreBrightness	Default	[ColorEffects.c:_CFXRestrictLowAmbientColor] xy=(0.4307,0.4100), CCT = 3,161.0000, CCT1 = 3,318.3218	
+00:15.239.224	Debug	backboardd (68)	CoreBrightness	Default	Restrict: (16.9640, 16.9640) -> (13.6592, 46.8017)
+	
+00:15.239.263	Debug	backboardd (68)	CoreBrightness	Default	60.5501 16.9640 58.1252 -> ANGLE 1.6795 -> BIN 2	
+00:15.239.322	Debug	backboardd (68)	CoreBrightness	Default	BIN 13: (0.4307, 0.4100) fitting in (0.4150, 0.3821)-(0.4373, 0.3893)-(0.4303, 0.4173)
+	
+00:15.239.377	Info	backboardd (68)	com.apple.CoreBrightness.CBColorModule.Primary	default	Set ambient color sample ALS event = [Orientation = 1; Illuminance = 164.000000; xy = (0.430683,0.409954); XYZ = (55.032665,52.383873,20.363453); CCT1 = 3318.321777; Integration time = 0.002906; Gain = 33554432; Obstructed = 0; First = 0, mitigation = 1, timestamp = 87730269]	
+00:15.239.486	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=RLuxStats value=<private>	
+00:15.239.522	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=RLuxStats property=<private>	
+00:15.239.566	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	passed for client 58881740544	
+00:15.239.703	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=<private> value=<private>	
+00:15.239.733	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=<private> property=<private>	
+00:15.239.769	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=TrustedLux value=165.3907	
+00:15.239.803	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=TrustedLux property=165.3907	
+00:15.239.826	Debug	PerfPowerServices (1452)	com.apple.CoreBrightness	default	key=<private> property=<private> queue=0x97ede5100 clientBlock=0x97e365e90	
+00:15.239.837	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	passed for client 58870513280	
+00:15.239.908	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=<private> value=165.3907	
+00:15.239.939	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=<private> property=165.3907	
+00:15.239.963	Info	PerfPowerServices (1452)	com.apple.CoreBrightness.BSCI	default	use_synchronous_remote=1	
+00:15.239.973	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=TrustedFrontLux value=160.6456	
+00:15.239.988	Debug	locationd (74)	com.apple.CoreBrightness	default	key=<private> property=165.3907 queue=0x838c59d80 clientBlock=0x838ae4840	
+00:15.240.008	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=TrustedFrontLux property=160.6456	
+00:15.240.061	Default	PerfPowerServices (1452)	com.apple.xpc	connection	[0x97ef066c0] activating connection: mach=1 listener=0 peer=0 name=com.apple.backlightd	
+00:15.240.113	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=<private> value=160.6456	
+00:15.240.116	Debug	locationd (74)	com.apple.locationd.Position	Outdoor	AmbientLight,context,<private>,startTime,<private>,lux,<private>	
+00:15.240.254	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=<private> property=160.6456	
+00:15.240.299	Default	PerfPowerServices (1452)	com.apple.CoreBrightness	default	Register notification block	
+00:15.240.432	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=Lux value=165.3907	
+00:15.240.536	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=Lux property=165.3907	
+00:15.240.549	Default	backboardd (68)	com.apple.xpc	connection	[0xdb50883c0] activating connection: mach=0 listener=0 peer=1 name=com.apple.backlightd.peer[1452].0xdb50883c0	
+00:15.240.661	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=<private> value=165.3907	
+00:15.240.745	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=<private> property=165.3907	
+00:15.240.812	Info	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	client=58903570112 key=<private>	
+00:15.240.825	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=TrustedLux value=165.3907	
+00:15.240.928	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=TrustedLux property=165.3907	
+00:15.240.966	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	passed for client 58870513280	
+00:15.241.062	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=<private> value=165.3907	
+00:15.241.093	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=<private> property=165.3907	
+00:15.241.123	Debug	locationd (74)	com.apple.CoreBrightness	default	key=<private> property=165.3907 queue=0x838c59d80 clientBlock=0x838ae4840	
+00:15.241.150	Debug	backboardd (68)	com.apple.CoreBrightness.CBColorModule.Primary	default	key=<private> result=<private>	
+00:15.241.176	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayContaineriOS	BuiltIn	key=<private> result=<private>	
+00:15.241.202	Info	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=<private> result=<private>	
+00:15.241.210	Debug	locationd (74)	com.apple.locationd.Position	Outdoor	AmbientLight,context,<private>,startTime,<private>,lux,<private>	
+00:15.241.413	Debug	PerfPowerServices (1452)	com.apple.CoreBrightness.Client	Default	BSC dealloc	
+00:15.241.454	Default	PerfPowerServices (1452)	com.apple.CoreBrightness	default	Register notification block	
+00:15.241.493	Default	PerfPowerServices (1452)	com.apple.xpc	connection	[0x97ef066c0] invalidated because the current process cancelled the connection by calling xpc_connection_cancel()	
+00:15.241.525	Default	backboardd (68)	com.apple.xpc	connection	[0xdb50883c0] invalidated because the client process (pid 1,452) either cancelled the connection or exited	
+00:15.241.541	Debug	PerfPowerServices (1452)	com.apple.powerlog	display	Received notification for CBrLuxStats: <private>	
+00:15.241.592	Debug	PerfPowerServices (1452)	com.apple.CoreBrightness.BSCI	default	BSCI dealloc	
+00:15.241.618	Default	PerfPowerServices (1452)	com.apple.CoreBrightness	default	Register notification block	
+00:15.245.754	Default	backboardd (68)	com.apple.coreanimation	Brightness	Display 1 setting ambient lux to 165.3907
+	
+00:15.281.689	Debug	watchdogd (59)	com.apple.watchdogd	service-monitoring-thread	48,684,733,660,000: <private>	
+00:15.282.289	Default	watchdogd (59)	com.apple.watchdogd	service-monitoring-thread	48,684,733,852,625: <private>	
+00:15.282.341	Debug	watchdogd (59)	com.apple.watchdogd	service-monitoring-thread	48,684,733,865,083: <private>	
+00:15.282.375	Default	watchdogd (59)	com.apple.watchdogd	service-monitoring-thread	48,684,733,867,583: <private>	
+00:15.282.407	Debug	watchdogd (59)	com.apple.watchdogd	service-monitoring-thread	48,684,733,923,875: <private>	
+00:15.282.482	Debug	watchdogd (59)	com.apple.watchdogd	service-monitoring-thread	48,684,733,933,333: <private>	
+00:15.282.523	Debug	watchdogd (59)	com.apple.watchdogd	service-monitoring-thread	48,684,733,997,833: <private>	
+00:15.282.558	Debug	watchdogd (59)	com.apple.watchdogd	service-monitoring-thread	48,684,734,036,708: <private>	
+00:15.282.590	Debug	watchdogd (59)	com.apple.watchdogd	service-monitoring-thread	48,684,734,065,500: <private>	
+00:15.282.621	Debug	watchdogd (59)	com.apple.watchdogd	service-monitoring-thread	48,684,734,094,750: <private>	
+00:15.282.652	Debug	watchdogd (59)	com.apple.watchdogd	service-monitoring-thread	48,684,734,197,625: <private>	
+00:15.282.682	Debug	watchdogd (59)	com.apple.watchdogd	service-monitoring-thread	48,684,734,246,750: <private>	
+00:15.282.712	Default	watchdogd (59)	com.apple.watchdogd	service-monitoring-thread	48,684,734,264,291: <private>	
+00:15.282.752	Default	watchdogd (59)	com.apple.watchdogd	service-monitoring-thread	48,684,734,269,916: <private>	
+00:15.282.850	Default	watchdogd (59)	com.apple.watchdogd	service-monitoring-thread	48,684,734,271,875: <private>	
+00:15.282.906	Default	watchdogd (59)	com.apple.watchdogd	service-monitoring-thread	48,684,734,273,166: <private>	
+00:15.282.980	Default	watchdogd (59)	com.apple.watchdogd	service-monitoring-thread	48,684,734,274,375: <private>	
+00:15.283.036	Default	watchdogd (59)	com.apple.watchdogd	service-monitoring-thread	48,684,734,275,333: <private>	
+00:15.283.112	Default	watchdogd (59)	com.apple.watchdogd	service-monitoring-thread	48,684,734,276,250: <private>	
+00:15.283.166	Default	watchdogd (59)	com.apple.watchdogd	service-monitoring-thread	48,684,734,277,125: <private>	
+00:15.283.239	Default	watchdogd (59)	com.apple.watchdogd	service-monitoring-thread	48,684,734,278,083: <private>	
+00:15.283.294	Default	watchdogd (59)	com.apple.watchdogd	service-monitoring-thread	48,684,734,278,958: <private>	
+00:15.283.368	Default	watchdogd (59)	com.apple.watchdogd	service-monitoring-thread	48,684,734,472,875: <private>	
+00:15.330.188	Default	Unknown (0)	RTBuddy	Default	[ANS2:client1] New coldest block 1572 PEC 42 flow 1 hottestPEC 56
+	
+00:15.344.258	Default	dasd (80)	com.apple.duetactivityscheduler	lifecycle	Attempting to suspend based on triggers: (     "com.apple.duetactivityscheduler.motionstatepolicy.motionstatechange",     "com.apple.duetactivityscheduler.pluggedinpolicy.batteryStatus" )	
+00:15.345.071	Default	mobileassetd (336)	com.apple.mobileassetd	Notice	-[DownloadInfo addNewRateDataPoint:]: DownloadInfo taskDescriptor: com_apple_MobileAsset_MediaSupport.xml . task: BackgroundDownloadTask <19696666-C1F4-4405-80F0-82E438EC6A5E>.<30> taskState: running statusCode: -1 downloadSize: 0 progress: 0 / 0 isStalled: NO numStalls: 0 numNoLongerStalls: 0 backtracks: 0 callbackCount: 4 hasExtractor: NO originalUrl: https://mesu.apple.com/assets/com_apple_MobileAsset_MediaSupport/com_apple_MobileAsset_MediaSupport.xml cacheServerUrl: (null) assetType: (null) purpose: (null) shouldRetry: YES ifModifiedDate: 2017-07-06 22:26:30 +0000 options: MADownloadOptions allowsCellular: 0 resourceTimeout: 900 canUseCacheServer: 0 discretionary: 0 disableUI: 0 sessionId: (null) additionalServerParams:(null) allowsExpensiveAccess:1 requiresPowerPluggedIn: 0 prefersInfraWiFi: 1 liveServerOnly: -1 DownloadAuthorizationHeader: not present analyticsData: not present allowDaemonConnectionRetries: 0  + MAMsuDownloadOptions reqProdVersion: (null) delayPeriod: 0 managedDevice: 0 allowSameVersion: 0 prereqBuild: (null) prereqVersion: (null) prereqReleaseType: (default) liveAssetAudienceUUID: (null) purpose: (null)
+[DOWNLOAD_INFO] {addNewRateDataPoint} Download has not progressed since last update, however, download appears to be complete. Previous Total Downloaded: 0, Total Expected: 0	
+00:15.345.399	Default	dasd (80)	com.apple.duetactivityscheduler	default	Ignoring trigger com.apple.duetactivityscheduler.pluggedinpolicy.batteryStatus, conditions are worse	
+00:15.345.501	Default	dasd (80)	com.apple.duetactivityscheduler	lifecycle	Evaluating 336 activities based on triggers	
+00:15.355.065	Debug	dasd (80)	com.apple.duetactivityscheduler	lifecycle(activityGroup)	<private>: Current Load=0 (Pre-running=0)	
+00:15.355.487	Default	dasd (80)	com.apple.duetactivityscheduler	scoring	com.apple.cloudphotod.sync.discretionary:CF1846:[
+	{name: Network Quality Policy, policyWeight: 11.400, response: {33, 0.00, [{[wifiQuality]: Required:100.00, Observed:0.00},{[cellQuality]: Required:100.00, Observed:0.00},]}}
+ ], Decision: MNP}	
+00:15.355.834	Debug	dasd (80)	com.apple.duetactivityscheduler	lifecycle(activityGroup)	com.apple.cloudkit.BackgroundConnectionPool: Current Load=0 (Pre-running=0)	
+00:15.356.118	Default	dasd (80)	com.apple.duetactivityscheduler	scoring	com.apple.CFNetwork-cc-205-83-Task <A1E96638-8DDC-4C90-8088-E31D143DA048>.<1>:2F93E7:[
+	{name: Network Quality Policy, policyWeight: 11.400, response: {33, 0.00, [{[wifiQuality]: Required:50.00, Observed:0.00},{[cellQuality]: Required:100.00, Observed:0.00},]}}
+ ], Decision: MNP}	
+00:15.356.358	Debug	dasd (80)	com.apple.duetactivityscheduler	lifecycle(activityGroup)	com.apple.dasd.defaultNetwork: Current Load=0 (Pre-running=0)	
+00:15.356.604	Default	dasd (80)	com.apple.duetactivityscheduler	scoring	com.apple.anomalydetectiond.CSFolderMonitorIgneous.metadata:FB1355:[
+	{name: Device Activity Policy, policyWeight: 20.000, response: {33, 0.00, [{deviceActivity == 1}]}}
+	{name: Network Quality Policy, policyWeight: 8.400, response: {33, 0.00, [{[wifiQuality]: Required:50.00, Observed:0.00},{[cellQuality]: Required:50.00, Observed:0.00},]}}
+ ], Decision: MNP}	
+00:15.356.803	Debug	dasd (80)	com.apple.duetactivityscheduler	lifecycle(activityGroup)	com.apple.dasd.defaultNetwork: Current Load=0 (Pre-running=0)	
+00:15.357.035	Default	dasd (80)	com.apple.duetactivityscheduler	scoring	com.apple.anomalydetectiond.CSFolderMonitor.metadata:1BEF1A:[
+	{name: Device Activity Policy, policyWeight: 20.000, response: {33, 0.00, [{deviceActivity == 1}]}}
+	{name: Network Quality Policy, policyWeight: 8.400, response: {33, 0.00, [{[wifiQuality]: Required:50.00, Observed:0.00},{[cellQuality]: Required:50.00, Observed:0.00},]}}
+ ], Decision: MNP}	
+00:15.357.078	Debug	dasd (80)	com.apple.duetactivityscheduler	lifecycle(activityGroup)	com.apple.dasd.defaultNetwork: Current Load=0 (Pre-running=0)	
+00:15.357.293	Debug	dasd (80)	com.apple.duetactivityscheduler	lifecycle(activityGroup)	com.apple.dasd.defaultNetwork: Current Load=0 (Pre-running=0)	
+00:15.357.524	Default	dasd (80)	com.apple.duetactivityscheduler	scoring	com.apple.healthd.ontology.update:C2209A:[
+	{name: Network Quality Policy, policyWeight: 8.400, response: {33, 0.00, [{[wifiQuality]: Required:50.00, Observed:0.00},{[cellQuality]: Required:50.00, Observed:0.00},]}}
+ ], Decision: MNP}	
+00:15.357.559	Debug	dasd (80)	com.apple.duetactivityscheduler	lifecycle(activityGroup)	com.apple.dasd.defaultNetwork: Current Load=0 (Pre-running=0)	
+00:15.357.697	Debug	dasd (80)	com.apple.duetactivityscheduler	lifecycle(activityGroup)	com.apple.dasd.defaultNetwork: Current Load=0 (Pre-running=0)	
+00:15.357.889	Default	dasd (80)	com.apple.duetactivityscheduler	scoring	com.apple.healthd.sync.cloud.periodic:5A436E:[
+	{name: Network Quality Policy, policyWeight: 8.400, response: {33, 0.00, [{[wifiQuality]: Required:50.00, Observed:0.00},{[cellQuality]: Required:50.00, Observed:0.00},]}}
+ ], Decision: MNP}	
+00:15.357.923	Debug	dasd (80)	com.apple.duetactivityscheduler	lifecycle(activityGroup)	com.apple.dasd.defaultNetwork: Current Load=0 (Pre-running=0)	
+00:15.358.057	Debug	dasd (80)	com.apple.duetactivityscheduler	lifecycle(activityGroup)	com.apple.dasd.defaultNetwork: Current Load=0 (Pre-running=0)	
+00:15.358.263	Default	dasd (80)	com.apple.duetactivityscheduler	scoring	com.apple.Seymour.Scheduling.PrivateDataNetworkActivity:D99844:[
+	{name: Network Quality Policy, policyWeight: 11.400, response: {33, 0.00, [{[wifiQuality]: Required:50.00, Observed:0.00},{[cellQuality]: Required:100.00, Observed:0.00},]}}
+ ], Decision: MNP}	
+00:15.358.297	Debug	dasd (80)	com.apple.duetactivityscheduler	lifecycle(activityGroup)	com.apple.dasd.defaultNetwork: Current Load=0 (Pre-running=0)	
+00:15.358.422	Debug	dasd (80)	com.apple.duetactivityscheduler	lifecycle(activityGroup)	com.apple.dasd.defaultNetwork: Current Load=0 (Pre-running=0)	
+00:15.358.604	Default	dasd (80)	com.apple.duetactivityscheduler	scoring	com.apple.icloud.searchpartyd.WildModeAssociationRecordsPublisher:9C3211:[
+	{name: Network Quality Policy, policyWeight: 6.000, response: {33, 0.00, [{[wifiQuality]: Required:50.00, Observed:0.00},{[cellQuality]: Required:50.00, Observed:0.00},]}}
+ ], Decision: MNP}	
+00:15.358.637	Debug	dasd (80)	com.apple.duetactivityscheduler	lifecycle(activityGroup)	com.apple.dasd.defaultNetwork: Current Load=0 (Pre-running=0)	
+00:15.358.762	Debug	dasd (80)	com.apple.duetactivityscheduler	lifecycle(activityGroup)	com.apple.dasd.defaultNetwork: Current Load=0 (Pre-running=0)	
+00:15.358.949	Default	dasd (80)	com.apple.duetactivityscheduler	scoring	com.apple.icloud.searchpartyd.XPCScheduler.FirmwareUpdateService:B08B13:[
+	{name: Network Quality Policy, policyWeight: 6.000, response: {33, 0.00, [{[wifiQuality]: Required:50.00, Observed:0.00},{[cellQuality]: Required:50.00, Observed:0.00},]}}
+ ], Decision: MNP}	
+00:15.358.982	Debug	dasd (80)	com.apple.duetactivityscheduler	lifecycle(activityGroup)	com.apple.dasd.defaultNetwork: Current Load=0 (Pre-running=0)	
+00:15.359.106	Debug	dasd (80)	com.apple.duetactivityscheduler	lifecycle(activityGroup)	com.apple.dasd.defaultNetwork: Current Load=0 (Pre-running=0)	
+00:15.359.279	Default	dasd (80)	com.apple.duetactivityscheduler	scoring	com.apple.networkserviceproxy.metadata-refresh-22h:36081C:[
+	{name: Network Quality Policy, policyWeight: 6.000, response: {33, 0.00, [{[wifiQuality]: Required:50.00, Observed:0.00},{[cellQuality]: Required:50.00, Observed:0.00},]}}
+ ], Decision: MNP}	
+00:15.359.310	Debug	dasd (80)	com.apple.duetactivityscheduler	lifecycle(activityGroup)	com.apple.dasd.defaultNetwork: Current Load=0 (Pre-running=0)	
+00:15.359.431	Debug	dasd (80)	com.apple.duetactivityscheduler	lifecycle(activityGroup)	com.apple.dasd.defaultNetwork: Current Load=0 (Pre-running=0)	
+00:15.359.605	Default	dasd (80)	com.apple.duetactivityscheduler	scoring	com.apple.icloud.searchpartyd.XPCScheduler.WildModeAssociation:479076:[
+	{name: Network Quality Policy, policyWeight: 6.000, response: {33, 0.00, [{[wifiQuality]: Required:50.00, Observed:0.00},{[cellQuality]: Required:50.00, Observed:0.00},]}}
+ ], Decision: MNP}	
+00:15.359.637	Debug	dasd (80)	com.apple.duetactivityscheduler	lifecycle(activityGroup)	com.apple.dasd.defaultNetwork: Current Load=0 (Pre-running=0)	
+00:15.359.773	Debug	dasd (80)	com.apple.duetactivityscheduler	lifecycle(activityGroup)	com.apple.dasd.defaultNetwork: Current Load=0 (Pre-running=0)	
+00:15.359.947	Default	dasd (80)	com.apple.duetactivityscheduler	scoring	com.apple.attributionkitd.token-vending-fetch:E82772:[
+	{name: Network Quality Policy, policyWeight: 8.400, response: {33, 0.00, [{[wifiQuality]: Required:50.00, Observed:0.00},{[cellQuality]: Required:50.00, Observed:0.00},]}}
+ ], Decision: MNP}	
+00:15.359.980	Debug	dasd (80)	com.apple.duetactivityscheduler	lifecycle(activityGroup)	com.apple.dasd.defaultNetwork: Current Load=0 (Pre-running=0)	
+00:15.360.106	Debug	dasd (80)	com.apple.duetactivityscheduler	lifecycle(activityGroup)	com.apple.dasd.defaultNetwork: Current Load=0 (Pre-running=0)	
+00:15.360.283	Default	dasd (80)	com.apple.duetactivityscheduler	scoring	com.apple.mail.blackpearl.categorizer:85D60E:[
+	{name: Network Quality Policy, policyWeight: 8.400, response: {33, 0.00, [{[wifiQuality]: Required:50.00, Observed:0.00},{[cellQuality]: Required:50.00, Observed:0.00},]}}
+ ], Decision: MNP}	
+00:15.360.313	Debug	dasd (80)	com.apple.duetactivityscheduler	lifecycle(activityGroup)	com.apple.dasd.defaultNetwork: Current Load=0 (Pre-running=0)	
+00:15.360.435	Debug	dasd (80)	com.apple.duetactivityscheduler	lifecycle(activityGroup)	com.apple.dasd.defaultNetwork: Current Load=0 (Pre-running=0)	
+00:15.360.615	Default	dasd (80)	com.apple.duetactivityscheduler	scoring	com.apple.searchpartyd.OwnDevicePublish:C98B07:[
+	{name: Network Quality Policy, policyWeight: 8.400, response: {33, 0.00, [{[wifiQuality]: Required:50.00, Observed:0.00},{[cellQuality]: Required:50.00, Observed:0.00},]}}
+ ], Decision: MNP}	
+00:15.360.645	Debug	dasd (80)	com.apple.duetactivityscheduler	lifecycle(activityGroup)	com.apple.dasd.defaultNetwork: Current Load=0 (Pre-running=0)	
+00:15.360.765	Debug	dasd (80)	com.apple.duetactivityscheduler	lifecycle(activityGroup)	com.apple.dasd.defaultNetwork: Current Load=0 (Pre-running=0)	
+00:15.360.940	Default	dasd (80)	com.apple.duetactivityscheduler	scoring	com.apple.FitnessFriends.PeriodicUpdateActivity:4A8FD6:[
+	{name: Network Quality Policy, policyWeight: 8.400, response: {33, 0.00, [{[wifiQuality]: Required:50.00, Observed:0.00},{[cellQuality]: Required:50.00, Observed:0.00},]}}
+ ], Decision: MNP}	
+00:15.360.972	Debug	dasd (80)	com.apple.duetactivityscheduler	lifecycle(activityGroup)	com.apple.dasd.defaultNetwork: Current Load=0 (Pre-running=0)	
+00:15.361.091	Debug	dasd (80)	com.apple.duetactivityscheduler	lifecycle(activityGroup)	com.apple.dasd.defaultNetwork: Current Load=0 (Pre-running=0)	
+00:15.361.266	Default	dasd (80)	com.apple.duetactivityscheduler	scoring	com.apple.locationd.TileDownloadWifiReachability:968192:[
+	{name: Network Quality Policy, policyWeight: 8.400, response: {33, 0.00, [{[wifiQuality]: Required:50.00, Observed:0.00},{[cellQuality]: Required:50.00, Observed:0.00},]}}
+ ], Decision: MNP}	
+00:15.361.307	Debug	dasd (80)	com.apple.duetactivityscheduler	lifecycle(activityGroup)	com.apple.dasd.defaultNetwork: Current Load=0 (Pre-running=0)	
+00:15.361.420	Debug	dasd (80)	com.apple.duetactivityscheduler	lifecycle(activityGroup)	com.apple.dasd.defaultNetwork: Current Load=0 (Pre-running=0)	
+00:15.361.671	Default	dasd (80)	com.apple.duetactivityscheduler	scoring	com.apple.GeoServices.UpdateExperiment:03828C:[
+	{name: Network Quality Policy, policyWeight: 8.400, response: {33, 0.00, [{[wifiQuality]: Required:50.00, Observed:0.00},{[cellQuality]: Required:50.00, Observed:0.00},]}}
+ ], Decision: MNP}	
+00:15.361.710	Debug	dasd (80)	com.apple.duetactivityscheduler	lifecycle(activityGroup)	com.apple.dasd.defaultNetwork: Current Load=0 (Pre-running=0)	
+00:15.361.864	Debug	dasd (80)	com.apple.duetactivityscheduler	lifecycle(activityGroup)	com.apple.dasd.defaultNetwork: Current Load=0 (Pre-running=0)	
+00:15.362.059	Default	dasd (80)	com.apple.duetactivityscheduler	scoring	com.apple.homeenergyd.sync.activity:F90D3B:[
+	{name: Network Quality Policy, policyWeight: 8.400, response: {33, 0.00, [{[wifiQuality]: Required:50.00, Observed:0.00},{[cellQuality]: Required:50.00, Observed:0.00},]}}
+ ], Decision: MNP}	
+00:15.362.095	Debug	dasd (80)	com.apple.duetactivityscheduler	lifecycle(activityGroup)	com.apple.dasd.defaultNetwork: Current Load=0 (Pre-running=0)	
+00:15.362.208	Debug	dasd (80)	com.apple.duetactivityscheduler	lifecycle(activityGroup)	com.apple.dasd.defaultNetwork: Current Load=0 (Pre-running=0)	
+00:15.362.390	Default	dasd (80)	com.apple.duetactivityscheduler	scoring	com.apple.AuthenticationServicesCore.AuthenticationServicesAgent.PeriodicMaintenanceActivity:166BEA:[
+	{name: Network Quality Policy, policyWeight: 8.400, response: {33, 0.00, [{[wifiQuality]: Required:50.00, Observed:0.00},{[cellQuality]: Required:50.00, Observed:0.00},]}}
+ ], Decision: MNP}	
+00:15.362.424	Debug	dasd (80)	com.apple.duetactivityscheduler	lifecycle(activityGroup)	com.apple.dasd.defaultNetwork: Current Load=0 (Pre-running=0)	
+00:15.362.524	Debug	dasd (80)	com.apple.duetactivityscheduler	lifecycle(activityGroup)	com.apple.dasd.defaultNetwork: Current Load=0 (Pre-running=0)	
+00:15.362.702	Default	dasd (80)	com.apple.duetactivityscheduler	scoring	com.apple.ak.signinwithapple.healthcheck:3F45E1:[
+	{name: Network Quality Policy, policyWeight: 8.400, response: {33, 0.00, [{[wifiQuality]: Required:50.00, Observed:0.00},{[cellQuality]: Required:50.00, Observed:0.00},]}}
+ ], Decision: MNP}	
+00:15.362.732	Debug	dasd (80)	com.apple.duetactivityscheduler	lifecycle(activityGroup)	com.apple.dasd.defaultNetwork: Current Load=0 (Pre-running=0)	
+00:15.362.861	Debug	dasd (80)	com.apple.duetactivityscheduler	lifecycle(activityGroup)	com.apple.dasd.defaultNetwork: Current Load=0 (Pre-running=0)	
+00:15.363.035	Default	dasd (80)	com.apple.duetactivityscheduler	scoring	com.apple.FileProvider.fpfs.telemetry:05522D:[
+	{name: Network Quality Policy, policyWeight: 8.400, response: {33, 0.00, [{[wifiQuality]: Required:50.00, Observed:0.00},{[cellQuality]: Required:50.00, Observed:0.00},]}}
+ ], Decision: MNP}	
+00:15.363.066	Debug	dasd (80)	com.apple.duetactivityscheduler	lifecycle(activityGroup)	com.apple.dasd.defaultNetwork: Current Load=0 (Pre-running=0)	
+00:15.363.222	Debug	dasd (80)	com.apple.duetactivityscheduler	lifecycle(activityGroup)	com.apple.dasd.defaultNetwork: Current Load=0 (Pre-running=0)	
+00:15.363.399	Default	dasd (80)	com.apple.duetactivityscheduler	scoring	ams:MercuryCacheUpdateActivity_22080432716_update:4578EE:[
+	{name: Network Quality Policy, policyWeight: 8.400, response: {33, 0.00, [{[wifiQuality]: Required:50.00, Observed:0.00},{[cellQuality]: Required:50.00, Observed:0.00},]}}
+ ], Decision: MNP}	
+00:15.363.432	Debug	dasd (80)	com.apple.duetactivityscheduler	lifecycle(activityGroup)	com.apple.dasd.defaultNetwork: Current Load=0 (Pre-running=0)	
+00:15.363.549	Debug	dasd (80)	com.apple.duetactivityscheduler	lifecycle(activityGroup)	com.apple.dasd.defaultNetwork: Current Load=0 (Pre-running=0)	
+00:15.363.725	Default	dasd (80)	com.apple.duetactivityscheduler	scoring	com.apple.attributionkitd.postback-transmission:079541:[
+	{name: Network Quality Policy, policyWeight: 8.400, response: {33, 0.00, [{[wifiQuality]: Required:50.00, Observed:0.00},{[cellQuality]: Required:50.00, Observed:0.00},]}}
+ ], Decision: MNP}	
+00:15.363.757	Debug	dasd (80)	com.apple.duetactivityscheduler	lifecycle(activityGroup)	com.apple.dasd.defaultNetwork: Current Load=0 (Pre-running=0)	
+00:15.363.877	Debug	dasd (80)	com.apple.duetactivityscheduler	lifecycle(activityGroup)	com.apple.dasd.defaultNetwork: Current Load=0 (Pre-running=0)	
+00:15.363.946	Debug	DTServiceHub (360)	DVTInstrumentsFoundation	Default	Data Size: 100,844, Rows Sent: 1,345, Stack depth: 841	
+00:15.364.117	Default	dasd (80)	com.apple.duetactivityscheduler	scoring	com.apple.devicecheck.notify.attest:0DE9D6:[
+	{name: Network Quality Policy, policyWeight: 8.400, response: {33, 0.00, [{[wifiQuality]: Required:50.00, Observed:0.00},{[cellQuality]: Required:50.00, Observed:0.00},]}}
+ ], Decision: MNP}	
+00:15.364.162	Debug	dasd (80)	com.apple.duetactivityscheduler	lifecycle(activityGroup)	com.apple.dasd.defaultNetwork: Current Load=0 (Pre-running=0)	
+00:15.364.320	Debug	dasd (80)	com.apple.duetactivityscheduler	lifecycle(activityGroup)	com.apple.dasd.defaultNetwork: Current Load=0 (Pre-running=0)	
+00:15.364.704	Default	dasd (80)	com.apple.duetactivityscheduler	scoring	com.apple.dasd.dailyPeriodicUtilityNetworking:ABADA8:[
+	{name: Network Quality Policy, policyWeight: 8.400, response: {33, 0.00, [{[wifiQuality]: Required:50.00, Observed:0.00},{[cellQuality]: Required:50.00, Observed:0.00},]}}
+ ], Decision: MNP}	
+00:15.364.750	Debug	dasd (80)	com.apple.duetactivityscheduler	lifecycle(activityGroup)	com.apple.dasd.defaultNetwork: Current Load=0 (Pre-running=0)	
+00:15.364.964	Debug	dasd (80)	com.apple.duetactivityscheduler	lifecycle(activityGroup)	com.apple.dasd.defaultNetwork: Current Load=0 (Pre-running=0)	
+00:15.365.189	Default	dasd (80)	com.apple.duetactivityscheduler	scoring	com.apple.devicecheck.notify:8E77E7:[
+	{name: Network Quality Policy, policyWeight: 8.400, response: {33, 0.00, [{[wifiQuality]: Required:50.00, Observed:0.00},{[cellQuality]: Required:50.00, Observed:0.00},]}}
+ ], Decision: MNP}	
+00:15.365.226	Debug	dasd (80)	com.apple.duetactivityscheduler	lifecycle(activityGroup)	com.apple.dasd.defaultNetwork: Current Load=0 (Pre-running=0)	
+00:15.365.358	Debug	dasd (80)	com.apple.duetactivityscheduler	lifecycle(activityGroup)	com.apple.dasd.defaultNetwork: Current Load=0 (Pre-running=0)	
+00:15.365.580	Default	dasd (80)	com.apple.duetactivityscheduler	scoring	com.apple.groupkitd.bgtask.healthcheck:703C0E:[
+	{name: Network Quality Policy, policyWeight: 8.400, response: {33, 0.00, [{[wifiQuality]: Required:50.00, Observed:0.00},{[cellQuality]: Required:50.00, Observed:0.00},]}}
+ ], Decision: MNP}	
+00:15.365.620	Debug	dasd (80)	com.apple.duetactivityscheduler	lifecycle(activityGroup)	com.apple.dasd.defaultNetwork: Current Load=0 (Pre-running=0)	
+00:15.365.754	Debug	dasd (80)	com.apple.duetactivityscheduler	lifecycle(activityGroup)	com.apple.dasd.defaultNetwork: Current Load=0 (Pre-running=0)	
+00:15.365.930	Default	dasd (80)	com.apple.duetactivityscheduler	scoring	com.apple.attributionkitd.flush-system-health-metrics:975B74:[
+	{name: Network Quality Policy, policyWeight: 8.400, response: {33, 0.00, [{[wifiQuality]: Required:50.00, Observed:0.00},{[cellQuality]: Required:50.00, Observed:0.00},]}}
+ ], Decision: MNP}	
+00:15.365.965	Debug	dasd (80)	com.apple.duetactivityscheduler	lifecycle(activityGroup)	<private>: Current Load=0 (Pre-running=0)	
+00:15.366.235	Debug	dasd (80)	com.apple.duetactivityscheduler	lifecycle(activityGroup)	<private>: Current Load=0 (Pre-running=0)	
+00:15.366.415	Default	dasd (80)	com.apple.duetactivityscheduler	scoring	com.apple.DifferentialPrivacy.telemetry:094F62:[
+	{name: Network Quality Policy, policyWeight: 8.400, response: {33, 0.00, [{[wifiQuality]: Required:50.00, Observed:0.00},{[cellQuality]: Required:50.00, Observed:0.00},]}}
+ ], Decision: MNP}	
+00:15.366.445	Debug	dasd (80)	com.apple.duetactivityscheduler	lifecycle(activityGroup)	com.apple.dasd.defaultNetwork: Current Load=0 (Pre-running=0)	
+00:15.366.582	Debug	dasd (80)	com.apple.duetactivityscheduler	lifecycle(activityGroup)	com.apple.dasd.defaultNetwork: Current Load=0 (Pre-running=0)	
+00:15.366.748	Default	dasd (80)	com.apple.duetactivityscheduler	scoring	com.apple.managedappdistributiond.ddm-repair:D71166:[
+	{name: Network Quality Policy, policyWeight: 8.400, response: {33, 0.00, [{[wifiQuality]: Required:50.00, Observed:0.00},{[cellQuality]: Required:50.00, Observed:0.00},]}}
+ ], Decision: MNP}	
+00:15.366.786	Debug	dasd (80)	com.apple.duetactivityscheduler	lifecycle(activityGroup)	com.apple.dasd.defaultNetwork: Current Load=0 (Pre-running=0)	
+00:15.366.881	Debug	dasd (80)	com.apple.duetactivityscheduler	lifecycle(activityGroup)	com.apple.dasd.defaultNetwork: Current Load=0 (Pre-running=0)	
+00:15.367.036	Default	dasd (80)	com.apple.duetactivityscheduler	scoring	com.apple.healthrecordsd.clinicalsharing.dailysync:2420AF:[
+	{name: Network Quality Policy, policyWeight: 8.400, response: {33, 0.00, [{[wifiQuality]: Required:50.00, Observed:0.00},{[cellQuality]: Required:50.00, Observed:0.00},]}}
+ ], Decision: MNP}	
+00:15.367.064	Debug	dasd (80)	com.apple.duetactivityscheduler	lifecycle(activityGroup)	com.apple.dasd.defaultNetwork: Current Load=0 (Pre-running=0)	
+00:15.367.201	Debug	dasd (80)	com.apple.duetactivityscheduler	lifecycle(activityGroup)	com.apple.dasd.defaultNetwork: Current Load=0 (Pre-running=0)	
+00:15.367.436	Default	dasd (80)	com.apple.duetactivityscheduler	scoring	com.apple.mobileactivationd.splunklogging.daily:90DB76:[
+	{name: Network Quality Policy, policyWeight: 8.400, response: {33, 0.00, [{[wifiQuality]: Required:50.00, Observed:0.00},{[cellQuality]: Required:50.00, Observed:0.00},]}}
+ ], Decision: MNP}	
+00:15.367.471	Debug	dasd (80)	com.apple.duetactivityscheduler	lifecycle(activityGroup)	com.apple.dasd.defaultNetwork: Current Load=0 (Pre-running=0)	
+00:15.367.581	Debug	dasd (80)	com.apple.duetactivityscheduler	lifecycle(activityGroup)	com.apple.dasd.defaultNetwork: Current Load=0 (Pre-running=0)	
+00:15.367.735	Default	dasd (80)	com.apple.duetactivityscheduler	scoring	com.apple.mobileactivationd.DCRT.OOB:664768:[
+	{name: Network Quality Policy, policyWeight: 8.400, response: {33, 0.00, [{[wifiQuality]: Required:50.00, Observed:0.00},{[cellQuality]: Required:50.00, Observed:0.00},]}}
+ ], Decision: MNP}	
+00:15.367.761	Debug	dasd (80)	com.apple.duetactivityscheduler	lifecycle(activityGroup)	com.apple.dasd.defaultNetwork: Current Load=0 (Pre-running=0)	
+00:15.367.868	Debug	dasd (80)	com.apple.duetactivityscheduler	lifecycle(activityGroup)	com.apple.dasd.defaultNetwork: Current Load=0 (Pre-running=0)	
+00:15.368.019	Default	dasd (80)	com.apple.duetactivityscheduler	scoring	com.apple.mobileactivationd.splunklogging:80DD4B:[
+	{name: Network Quality Policy, policyWeight: 8.400, response: {33, 0.00, [{[wifiQuality]: Required:50.00, Observed:0.00},{[cellQuality]: Required:50.00, Observed:0.00},]}}
+ ], Decision: MNP}	
+00:15.368.048	Debug	dasd (80)	com.apple.duetactivityscheduler	lifecycle(activityGroup)	com.apple.dasd.defaultNetwork: Current Load=0 (Pre-running=0)	
+00:15.368.147	Debug	dasd (80)	com.apple.duetactivityscheduler	lifecycle(activityGroup)	com.apple.dasd.defaultNetwork: Current Load=0 (Pre-running=0)	
+00:15.368.295	Default	dasd (80)	com.apple.duetactivityscheduler	scoring	com.apple.mobileactivationd.SDCRT.OOB:C91091:[
+	{name: Network Quality Policy, policyWeight: 8.400, response: {33, 0.00, [{[wifiQuality]: Required:50.00, Observed:0.00},{[cellQuality]: Required:50.00, Observed:0.00},]}}
+ ], Decision: MNP}	
+00:15.368.322	Debug	dasd (80)	com.apple.duetactivityscheduler	lifecycle(activityGroup)	com.apple.dasd.defaultNetwork: Current Load=0 (Pre-running=0)	
+00:15.368.421	Debug	dasd (80)	com.apple.duetactivityscheduler	lifecycle(activityGroup)	com.apple.dasd.defaultNetwork: Current Load=0 (Pre-running=0)	
+00:15.368.564	Default	dasd (80)	com.apple.duetactivityscheduler	scoring	com.apple.bluetooth.mobileassets:0072EB:[
+	{name: Network Quality Policy, policyWeight: 8.400, response: {33, 0.00, [{[wifiQuality]: Required:50.00, Observed:0.00},{[cellQuality]: Required:50.00, Observed:0.00},]}}
+ ], Decision: MNP}	
+00:15.368.607	Debug	dasd (80)	com.apple.duetactivityscheduler	lifecycle(activityGroup)	com.apple.dasd.defaultNetwork: Current Load=0 (Pre-running=0)	
+00:15.368.734	Debug	dasd (80)	com.apple.duetactivityscheduler	lifecycle(activityGroup)	com.apple.dasd.defaultNetwork: Current Load=0 (Pre-running=0)	
+00:15.368.905	Default	dasd (80)	com.apple.duetactivityscheduler	scoring	com.apple.healthd.healthrecords.opt-in-data-upload:09128C:[
+	{name: Network Quality Policy, policyWeight: 8.400, response: {33, 0.00, [{[wifiQuality]: Required:50.00, Observed:0.00},{[cellQuality]: Required:50.00, Observed:0.00},]}}
+ ], Decision: MNP}	
+00:15.368.933	Debug	dasd (80)	com.apple.duetactivityscheduler	lifecycle(activityGroup)	com.apple.dasd.defaultNetwork: Current Load=0 (Pre-running=0)	
+00:15.369.038	Debug	dasd (80)	com.apple.duetactivityscheduler	lifecycle(activityGroup)	com.apple.dasd.defaultNetwork: Current Load=0 (Pre-running=0)	
+00:15.369.197	Default	dasd (80)	com.apple.duetactivityscheduler	scoring	com.apple.findmy.PublishTagMetrics:522302:[
+	{name: Network Quality Policy, policyWeight: 8.400, response: {33, 0.00, [{[wifiQuality]: Required:50.00, Observed:0.00},{[cellQuality]: Required:50.00, Observed:0.00},]}}
+ ], Decision: MNP}	
+00:15.369.223	Debug	dasd (80)	com.apple.duetactivityscheduler	lifecycle(activityGroup)	com.apple.dasd.defaultNetwork: Current Load=0 (Pre-running=0)	
+00:15.369.325	Debug	dasd (80)	com.apple.duetactivityscheduler	lifecycle(activityGroup)	com.apple.dasd.defaultNetwork: Current Load=0 (Pre-running=0)	
+00:15.369.474	Default	dasd (80)	com.apple.duetactivityscheduler	scoring	com.apple.messages.ckMetricsLogging:5BF4C6:[
+	{name: Network Quality Policy, policyWeight: 8.400, response: {33, 0.00, [{[wifiQuality]: Required:50.00, Observed:0.00},{[cellQuality]: Required:50.00, Observed:0.00},]}}
+ ], Decision: MNP}	
+00:15.369.500	Debug	dasd (80)	com.apple.duetactivityscheduler	lifecycle(activityGroup)	com.apple.parsec-fbf.uploadActivities: Current Load=0 (Pre-running=0)	
+00:15.369.599	Debug	dasd (80)	com.apple.duetactivityscheduler	lifecycle(activityGroup)	com.apple.parsec-fbf.uploadActivities: Current Load=0 (Pre-running=0)	
+00:15.369.746	Default	dasd (80)	com.apple.duetactivityscheduler	scoring	com.apple.parsec-fbf.cleanup:6449B1:[
+	{name: Network Quality Policy, policyWeight: 8.400, response: {33, 0.00, [{[wifiQuality]: Required:50.00, Observed:0.00},{[cellQuality]: Required:50.00, Observed:0.00},]}}
+ ], Decision: MNP}	
+00:15.369.775	Debug	dasd (80)	com.apple.duetactivityscheduler	lifecycle(activityGroup)	com.apple.dasd.defaultNetwork: Current Load=0 (Pre-running=0)	
+00:15.369.900	Debug	dasd (80)	com.apple.duetactivityscheduler	lifecycle(activityGroup)	com.apple.dasd.defaultNetwork: Current Load=0 (Pre-running=0)	
+00:15.370.054	Default	dasd (80)	com.apple.duetactivityscheduler	scoring	com.apple.siriactionsd.RemoteQuarantineUpdate:91FF67:[
+	{name: Network Quality Policy, policyWeight: 8.400, response: {33, 0.00, [{[wifiQuality]: Required:50.00, Observed:0.00},{[cellQuality]: Required:50.00, Observed:0.00},]}}
+ ], Decision: MNP}	
+00:15.370.079	Debug	dasd (80)	com.apple.duetactivityscheduler	lifecycle(activityGroup)	com.apple.dasd.defaultNetwork: Current Load=0 (Pre-running=0)	
+00:15.370.192	Debug	dasd (80)	com.apple.duetactivityscheduler	lifecycle(activityGroup)	com.apple.dasd.defaultNetwork: Current Load=0 (Pre-running=0)	
+00:15.370.341	Default	dasd (80)	com.apple.duetactivityscheduler	scoring	com.apple.siri.xpc_activity.refresh_validation:84E79D:[
+	{name: Network Quality Policy, policyWeight: 8.400, response: {33, 0.00, [{[wifiQuality]: Required:50.00, Observed:0.00},{[cellQuality]: Required:50.00, Observed:0.00},]}}
+ ], Decision: MNP}	
+00:15.370.367	Debug	dasd (80)	com.apple.duetactivityscheduler	lifecycle(activityGroup)	com.apple.dasd.defaultNetwork: Current Load=0 (Pre-running=0)	
+00:15.370.481	Debug	dasd (80)	com.apple.duetactivityscheduler	lifecycle(activityGroup)	com.apple.dasd.defaultNetwork: Current Load=0 (Pre-running=0)	
+00:15.370.629	Default	dasd (80)	com.apple.duetactivityscheduler	scoring	com.apple.routined.cloudkit.initializeSentinelZone:3E430D:[
+	{name: Network Quality Policy, policyWeight: 8.400, response: {33, 0.00, [{[wifiQuality]: Required:50.00, Observed:0.00},{[cellQuality]: Required:50.00, Observed:0.00},]}}
+ ], Decision: MNP}	
+00:15.370.655	Debug	dasd (80)	com.apple.duetactivityscheduler	lifecycle(activityGroup)	com.apple.dasd.defaultNetwork: Current Load=0 (Pre-running=0)	
+00:15.370.775	Debug	dasd (80)	com.apple.duetactivityscheduler	lifecycle(activityGroup)	com.apple.dasd.defaultNetwork: Current Load=0 (Pre-running=0)	
+00:15.370.925	Default	dasd (80)	com.apple.duetactivityscheduler	scoring	com.apple.healthrecordsd.issuerDirectory.catalogDownload:DFCB2E:[
+	{name: Network Quality Policy, policyWeight: 8.400, response: {33, 0.00, [{[wifiQuality]: Required:50.00, Observed:0.00},{[cellQuality]: Required:50.00, Observed:0.00},]}}
+ ], Decision: MNP}	
+00:15.370.961	Debug	dasd (80)	com.apple.duetactivityscheduler	lifecycle(activityGroup)	com.apple.dasd.defaultNetwork: Current Load=0 (Pre-running=0)	
+00:15.371.056	Debug	dasd (80)	com.apple.duetactivityscheduler	lifecycle(activityGroup)	com.apple.dasd.defaultNetwork: Current Load=0 (Pre-running=0)	
+00:15.371.204	Default	dasd (80)	com.apple.duetactivityscheduler	scoring	com.apple.healthd.healthrecords.ingestion:16E34A:[
+	{name: Network Quality Policy, policyWeight: 8.400, response: {33, 0.00, [{[wifiQuality]: Required:50.00, Observed:0.00},{[cellQuality]: Required:50.00, Observed:0.00},]}}
+ ], Decision: MNP}	
+00:15.371.234	Debug	dasd (80)	com.apple.duetactivityscheduler	lifecycle(activityGroup)	com.apple.dasd.defaultNetwork: Current Load=0 (Pre-running=0)	
+00:15.371.368	Debug	dasd (80)	com.apple.duetactivityscheduler	lifecycle(activityGroup)	com.apple.dasd.defaultNetwork: Current Load=0 (Pre-running=0)	
+00:15.371.579	Debug	dasd (80)	com.apple.duetactivityscheduler	processRateLimiter	'com.apple.KeyValueService.EndToEndEncrypted.AllPlatforms.Production.Private.sync:4F22CD' is timewise eligible for rate limit configuration <private> while device LPM state is 0	
+00:15.371.618	Default	dasd (80)	com.apple.duetactivityscheduler	scoring	com.apple.KeyValueService.EndToEndEncrypted.AllPlatforms.Production.Private.sync:4F22CD:[
+	{name: Network Quality Policy, policyWeight: 8.400, response: {33, 0.00, [{[wifiQuality]: Required:50.00, Observed:0.00},{[cellQuality]: Required:50.00, Observed:0.00},]}}
+ ], Decision: MNP}	
+00:15.371.646	Debug	dasd (80)	com.apple.duetactivityscheduler	lifecycle(activityGroup)	com.apple.dasd.defaultNetwork: Current Load=0 (Pre-running=0)	
+00:15.371.751	Debug	dasd (80)	com.apple.duetactivityscheduler	lifecycle(activityGroup)	com.apple.dasd.defaultNetwork: Current Load=0 (Pre-running=0)	
+00:15.371.942	Debug	dasd (80)	com.apple.duetactivityscheduler	processRateLimiter	'com.apple.security.shared.keychain.Production.Private.sync:59013D' is timewise eligible for rate limit configuration <private> while device LPM state is 0	
+00:15.371.983	Default	dasd (80)	com.apple.duetactivityscheduler	scoring	com.apple.security.shared.keychain.Production.Private.sync:59013D:[
+	{name: Network Quality Policy, policyWeight: 8.400, response: {33, 0.00, [{[wifiQuality]: Required:50.00, Observed:0.00},{[cellQuality]: Required:50.00, Observed:0.00},]}}
+ ], Decision: MNP}	
+00:15.372.009	Debug	dasd (80)	com.apple.duetactivityscheduler	lifecycle(activityGroup)	com.apple.dasd.defaultNetwork: Current Load=0 (Pre-running=0)	
+00:15.372.113	Debug	dasd (80)	com.apple.duetactivityscheduler	lifecycle(activityGroup)	com.apple.dasd.defaultNetwork: Current Load=0 (Pre-running=0)	
+00:15.372.283	Debug	dasd (80)	com.apple.duetactivityscheduler	processRateLimiter	'com.apple.security.shared.keychain.Production.Shared.sync:6870F3' is timewise eligible for rate limit configuration <private> while device LPM state is 0	
+00:15.372.319	Default	dasd (80)	com.apple.duetactivityscheduler	scoring	com.apple.security.shared.keychain.Production.Shared.sync:6870F3:[
+	{name: Network Quality Policy, policyWeight: 8.400, response: {33, 0.00, [{[wifiQuality]: Required:50.00, Observed:0.00},{[cellQuality]: Required:50.00, Observed:0.00},]}}
+ ], Decision: MNP}	
+00:15.372.348	Debug	dasd (80)	com.apple.duetactivityscheduler	lifecycle(activityGroup)	<private>: Current Load=0 (Pre-running=0)	
+00:15.372.481	Debug	dasd (80)	com.apple.duetactivityscheduler	lifecycle(activityGroup)	<private>: Current Load=0 (Pre-running=0)	
+00:15.372.667	Debug	dasd (80)	com.apple.duetactivityscheduler	processRateLimiter	'com.apple.coredata.cloudkit.activity.export.17211DA7-ECBE-4A78-8E96-FF52D97DED56:10F8A6' is timewise eligible for rate limit configuration <private> while device LPM state is 0	
+00:15.372.702	Default	dasd (80)	com.apple.duetactivityscheduler	scoring	com.apple.coredata.cloudkit.activity.export.17211DA7-ECBE-4A78-8E96-FF52D97DED56:10F8A6:[
+	{name: Network Quality Policy, policyWeight: 8.400, response: {33, 0.00, [{[wifiQuality]: Required:50.00, Observed:0.00},{[cellQuality]: Required:50.00, Observed:0.00},]}}
+ ], Decision: MNP}	
+00:15.372.731	Debug	dasd (80)	com.apple.duetactivityscheduler	lifecycle(activityGroup)	<private>: Current Load=0 (Pre-running=0)	
+00:15.372.862	Debug	dasd (80)	com.apple.duetactivityscheduler	lifecycle(activityGroup)	<private>: Current Load=0 (Pre-running=0)	
+00:15.373.039	Debug	dasd (80)	com.apple.duetactivityscheduler	processRateLimiter	'com.apple.coredata.cloudkit.activity.import.17211DA7-ECBE-4A78-8E96-FF52D97DED56:81B28A' is timewise eligible for rate limit configuration <private> while device LPM state is 0	
+00:15.373.072	Default	dasd (80)	com.apple.duetactivityscheduler	scoring	com.apple.coredata.cloudkit.activity.import.17211DA7-ECBE-4A78-8E96-FF52D97DED56:81B28A:[
+	{name: Network Quality Policy, policyWeight: 8.400, response: {33, 0.00, [{[wifiQuality]: Required:50.00, Observed:0.00},{[cellQuality]: Required:50.00, Observed:0.00},]}}
+ ], Decision: MNP}	
+00:15.373.102	Debug	dasd (80)	com.apple.duetactivityscheduler	lifecycle(activityGroup)	<private>: Current Load=0 (Pre-running=0)	
+00:15.373.248	Debug	dasd (80)	com.apple.duetactivityscheduler	lifecycle(activityGroup)	<private>: Current Load=0 (Pre-running=0)	
+00:15.373.437	Debug	dasd (80)	com.apple.duetactivityscheduler	processRateLimiter	'com.apple.coredata.cloudkit.activity.export.858B8A0B-CED5-4B4B-81A4-9B675701CAAC:F56675' is timewise eligible for rate limit configuration <private> while device LPM state is 0	
+00:15.373.470	Default	dasd (80)	com.apple.duetactivityscheduler	scoring	com.apple.coredata.cloudkit.activity.export.858B8A0B-CED5-4B4B-81A4-9B675701CAAC:F56675:[
+	{name: Network Quality Policy, policyWeight: 8.400, response: {33, 0.00, [{[wifiQuality]: Required:50.00, Observed:0.00},{[cellQuality]: Required:50.00, Observed:0.00},]}}
+ ], Decision: MNP}	
+00:15.373.501	Debug	dasd (80)	com.apple.duetactivityscheduler	lifecycle(activityGroup)	<private>: Current Load=0 (Pre-running=0)	
+00:15.373.630	Debug	dasd (80)	com.apple.duetactivityscheduler	lifecycle(activityGroup)	<private>: Current Load=0 (Pre-running=0)	
+00:15.373.807	Debug	dasd (80)	com.apple.duetactivityscheduler	processRateLimiter	'com.apple.coredata.cloudkit.activity.export.EBD0385B-582C-4430-8AE4-553FD661D7A4:3F0269' is timewise eligible for rate limit configuration <private> while device LPM state is 0	
+00:15.373.841	Default	dasd (80)	com.apple.duetactivityscheduler	scoring	com.apple.coredata.cloudkit.activity.export.EBD0385B-582C-4430-8AE4-553FD661D7A4:3F0269:[
+	{name: Network Quality Policy, policyWeight: 8.400, response: {33, 0.00, [{[wifiQuality]: Required:50.00, Observed:0.00},{[cellQuality]: Required:50.00, Observed:0.00},]}}
+ ], Decision: MNP}	
+00:15.373.870	Debug	dasd (80)	com.apple.duetactivityscheduler	lifecycle(activityGroup)	<private>: Current Load=0 (Pre-running=0)	
+00:15.373.993	Debug	dasd (80)	com.apple.duetactivityscheduler	lifecycle(activityGroup)	<private>: Current Load=0 (Pre-running=0)	
+00:15.374.163	Debug	dasd (80)	com.apple.duetactivityscheduler	processRateLimiter	'com.apple.coredata.cloudkit.activity.import.EBD0385B-582C-4430-8AE4-553FD661D7A4:D31621' is timewise eligible for rate limit configuration <private> while device LPM state is 0	
+00:15.374.199	Default	dasd (80)	com.apple.duetactivityscheduler	scoring	com.apple.coredata.cloudkit.activity.import.EBD0385B-582C-4430-8AE4-553FD661D7A4:D31621:[
+	{name: Network Quality Policy, policyWeight: 8.400, response: {33, 0.00, [{[wifiQuality]: Required:50.00, Observed:0.00},{[cellQuality]: Required:50.00, Observed:0.00},]}}
+ ], Decision: MNP}	
+00:15.374.226	Debug	dasd (80)	com.apple.duetactivityscheduler	lifecycle(activityGroup)	<private>: Current Load=0 (Pre-running=0)	
+00:15.374.351	Debug	dasd (80)	com.apple.duetactivityscheduler	lifecycle(activityGroup)	<private>: Current Load=0 (Pre-running=0)	
+00:15.374.522	Debug	dasd (80)	com.apple.duetactivityscheduler	processRateLimiter	'com.apple.coredata.cloudkit.activity.import.858B8A0B-CED5-4B4B-81A4-9B675701CAAC:405524' is timewise eligible for rate limit configuration <private> while device LPM state is 0	
+00:15.374.555	Default	dasd (80)	com.apple.duetactivityscheduler	scoring	com.apple.coredata.cloudkit.activity.import.858B8A0B-CED5-4B4B-81A4-9B675701CAAC:405524:[
+	{name: Network Quality Policy, policyWeight: 8.400, response: {33, 0.00, [{[wifiQuality]: Required:50.00, Observed:0.00},{[cellQuality]: Required:50.00, Observed:0.00},]}}
+ ], Decision: MNP}	
+00:15.374.585	Debug	dasd (80)	com.apple.duetactivityscheduler	lifecycle(activityGroup)	<private>: Current Load=0 (Pre-running=0)	
+00:15.374.721	Debug	dasd (80)	com.apple.duetactivityscheduler	lifecycle(activityGroup)	<private>: Current Load=0 (Pre-running=0)	
+00:15.374.911	Debug	dasd (80)	com.apple.duetactivityscheduler	processRateLimiter	'com.apple.coredata.cloudkit.activity.export.84B7467D-2B45-410E-ACF5-5AFE329745E9:C79675' is timewise eligible for rate limit configuration <private> while device LPM state is 0	
+00:15.374.944	Default	dasd (80)	com.apple.duetactivityscheduler	scoring	com.apple.coredata.cloudkit.activity.export.84B7467D-2B45-410E-ACF5-5AFE329745E9:C79675:[
+	{name: Network Quality Policy, policyWeight: 8.400, response: {33, 0.00, [{[wifiQuality]: Required:50.00, Observed:0.00},{[cellQuality]: Required:50.00, Observed:0.00},]}}
+ ], Decision: MNP}	
+00:15.374.978	Debug	dasd (80)	com.apple.duetactivityscheduler	lifecycle(activityGroup)	<private>: Current Load=0 (Pre-running=0)	
+00:15.375.106	Debug	dasd (80)	com.apple.duetactivityscheduler	lifecycle(activityGroup)	<private>: Current Load=0 (Pre-running=0)	
+00:15.375.298	Debug	dasd (80)	com.apple.duetactivityscheduler	processRateLimiter	'com.apple.coredata.cloudkit.activity.export.A67F97A8-01DA-4754-86D4-94636CCA1C34:D6EB5E' is timewise eligible for rate limit configuration <private> while device LPM state is 0	
+00:15.375.333	Default	dasd (80)	com.apple.duetactivityscheduler	scoring	com.apple.coredata.cloudkit.activity.export.A67F97A8-01DA-4754-86D4-94636CCA1C34:D6EB5E:[
+	{name: Network Quality Policy, policyWeight: 8.400, response: {33, 0.00, [{[wifiQuality]: Required:50.00, Observed:0.00},{[cellQuality]: Required:50.00, Observed:0.00},]}}
+ ], Decision: MNP}	
+00:15.375.364	Debug	dasd (80)	com.apple.duetactivityscheduler	lifecycle(activityGroup)	<private>: Current Load=0 (Pre-running=0)	
+00:15.375.483	Debug	dasd (80)	com.apple.duetactivityscheduler	lifecycle(activityGroup)	<private>: Current Load=0 (Pre-running=0)	
+00:15.375.649	Debug	dasd (80)	com.apple.duetactivityscheduler	processRateLimiter	'com.apple.coredata.cloudkit.activity.import.84B7467D-2B45-410E-ACF5-5AFE329745E9:DE32CD' is timewise eligible for rate limit configuration <private> while device LPM state is 0	
+00:15.375.681	Default	dasd (80)	com.apple.duetactivityscheduler	scoring	com.apple.coredata.cloudkit.activity.import.84B7467D-2B45-410E-ACF5-5AFE329745E9:DE32CD:[
+	{name: Network Quality Policy, policyWeight: 8.400, response: {33, 0.00, [{[wifiQuality]: Required:50.00, Observed:0.00},{[cellQuality]: Required:50.00, Observed:0.00},]}}
+ ], Decision: MNP}	
+00:15.375.712	Debug	dasd (80)	com.apple.duetactivityscheduler	lifecycle(activityGroup)	<private>: Current Load=0 (Pre-running=0)	
+00:15.375.836	Debug	dasd (80)	com.apple.duetactivityscheduler	lifecycle(activityGroup)	<private>: Current Load=0 (Pre-running=0)	
+00:15.376.007	Debug	dasd (80)	com.apple.duetactivityscheduler	processRateLimiter	'com.apple.coredata.cloudkit.activity.import.A67F97A8-01DA-4754-86D4-94636CCA1C34:19DF3D' is timewise eligible for rate limit configuration <private> while device LPM state is 0	
+00:15.376.040	Default	dasd (80)	com.apple.duetactivityscheduler	scoring	com.apple.coredata.cloudkit.activity.import.A67F97A8-01DA-4754-86D4-94636CCA1C34:19DF3D:[
+	{name: Network Quality Policy, policyWeight: 8.400, response: {33, 0.00, [{[wifiQuality]: Required:50.00, Observed:0.00},{[cellQuality]: Required:50.00, Observed:0.00},]}}
+ ], Decision: MNP}	
+00:15.376.070	Debug	dasd (80)	com.apple.duetactivityscheduler	lifecycle(activityGroup)	<private>: Current Load=0 (Pre-running=0)	
+00:15.376.194	Debug	dasd (80)	com.apple.duetactivityscheduler	lifecycle(activityGroup)	<private>: Current Load=0 (Pre-running=0)	
+00:15.376.373	Debug	dasd (80)	com.apple.duetactivityscheduler	processRateLimiter	'com.apple.coredata.cloudkit.activity.export.25A464B6-F8F9-4F57-83E9-310AFA5407AE:E2965B' is timewise eligible for rate limit configuration <private> while device LPM state is 0	
+00:15.376.408	Default	dasd (80)	com.apple.duetactivityscheduler	scoring	com.apple.coredata.cloudkit.activity.export.25A464B6-F8F9-4F57-83E9-310AFA5407AE:E2965B:[
+	{name: Network Quality Policy, policyWeight: 8.400, response: {33, 0.00, [{[wifiQuality]: Required:50.00, Observed:0.00},{[cellQuality]: Required:50.00, Observed:0.00},]}}
+ ], Decision: MNP}	
+00:15.376.437	Debug	dasd (80)	com.apple.duetactivityscheduler	lifecycle(activityGroup)	<private>: Current Load=0 (Pre-running=0)	
+00:15.376.557	Debug	dasd (80)	com.apple.duetactivityscheduler	lifecycle(activityGroup)	<private>: Current Load=0 (Pre-running=0)	
+00:15.376.729	Debug	dasd (80)	com.apple.duetactivityscheduler	processRateLimiter	'com.apple.coredata.cloudkit.activity.import.25A464B6-F8F9-4F57-83E9-310AFA5407AE:5E3EFF' is timewise eligible for rate limit configuration <private> while device LPM state is 0	
+00:15.376.762	Default	dasd (80)	com.apple.duetactivityscheduler	scoring	com.apple.coredata.cloudkit.activity.import.25A464B6-F8F9-4F57-83E9-310AFA5407AE:5E3EFF:[
+	{name: Network Quality Policy, policyWeight: 8.400, response: {33, 0.00, [{[wifiQuality]: Required:50.00, Observed:0.00},{[cellQuality]: Required:50.00, Observed:0.00},]}}
+ ], Decision: MNP}	
+00:15.376.797	Debug	dasd (80)	com.apple.duetactivityscheduler	lifecycle(activityGroup)	<private>: Current Load=0 (Pre-running=0)	
+00:15.376.922	Debug	dasd (80)	com.apple.duetactivityscheduler	lifecycle(activityGroup)	<private>: Current Load=0 (Pre-running=0)	
+00:15.377.098	Debug	dasd (80)	com.apple.duetactivityscheduler	processRateLimiter	'com.apple.coredata.cloudkit.activity.export.47B1DD85-3E2C-4BF8-A293-6C05B737DF78:09DC94' is timewise eligible for rate limit configuration <private> while device LPM state is 0	
+00:15.377.132	Default	dasd (80)	com.apple.duetactivityscheduler	scoring	com.apple.coredata.cloudkit.activity.export.47B1DD85-3E2C-4BF8-A293-6C05B737DF78:09DC94:[
+	{name: Network Quality Policy, policyWeight: 8.400, response: {33, 0.00, [{[wifiQuality]: Required:50.00, Observed:0.00},{[cellQuality]: Required:50.00, Observed:0.00},]}}
+ ], Decision: MNP}	
+00:15.377.162	Debug	dasd (80)	com.apple.duetactivityscheduler	lifecycle(activityGroup)	<private>: Current Load=0 (Pre-running=0)	
+00:15.377.279	Debug	dasd (80)	com.apple.duetactivityscheduler	lifecycle(activityGroup)	<private>: Current Load=0 (Pre-running=0)	
+00:15.377.517	Debug	dasd (80)	com.apple.duetactivityscheduler	processRateLimiter	'com.apple.coredata.cloudkit.activity.import.47B1DD85-3E2C-4BF8-A293-6C05B737DF78:F64620' is timewise eligible for rate limit configuration <private> while device LPM state is 0	
+00:15.377.561	Default	dasd (80)	com.apple.duetactivityscheduler	scoring	com.apple.coredata.cloudkit.activity.import.47B1DD85-3E2C-4BF8-A293-6C05B737DF78:F64620:[
+	{name: Network Quality Policy, policyWeight: 8.400, response: {33, 0.00, [{[wifiQuality]: Required:50.00, Observed:0.00},{[cellQuality]: Required:50.00, Observed:0.00},]}}
+ ], Decision: MNP}	
+00:15.377.595	Debug	dasd (80)	com.apple.duetactivityscheduler	lifecycle(activityGroup)	<private>: Current Load=0 (Pre-running=0)	
+00:15.377.749	Debug	dasd (80)	com.apple.duetactivityscheduler	lifecycle(activityGroup)	<private>: Current Load=0 (Pre-running=0)	
+00:15.377.968	Debug	dasd (80)	com.apple.duetactivityscheduler	processRateLimiter	'com.apple.coredata.cloudkit.activity.export.A115D675-F563-4F2A-8F6E-9D5ED7F0ABB8:8B8767' is timewise eligible for rate limit configuration <private> while device LPM state is 0	
+00:15.378.007	Default	dasd (80)	com.apple.duetactivityscheduler	scoring	com.apple.coredata.cloudkit.activity.export.A115D675-F563-4F2A-8F6E-9D5ED7F0ABB8:8B8767:[
+	{name: Network Quality Policy, policyWeight: 8.400, response: {33, 0.00, [{[wifiQuality]: Required:50.00, Observed:0.00},{[cellQuality]: Required:50.00, Observed:0.00},]}}
+ ], Decision: MNP}	
+00:15.378.036	Debug	dasd (80)	com.apple.duetactivityscheduler	lifecycle(activityGroup)	<private>: Current Load=0 (Pre-running=0)	
+00:15.378.170	Debug	dasd (80)	com.apple.duetactivityscheduler	lifecycle(activityGroup)	<private>: Current Load=0 (Pre-running=0)	
+00:15.378.360	Debug	dasd (80)	com.apple.duetactivityscheduler	processRateLimiter	'com.apple.coredata.cloudkit.activity.import.A115D675-F563-4F2A-8F6E-9D5ED7F0ABB8:295CE1' is timewise eligible for rate limit configuration <private> while device LPM state is 0	
+00:15.378.395	Default	dasd (80)	com.apple.duetactivityscheduler	scoring	com.apple.coredata.cloudkit.activity.import.A115D675-F563-4F2A-8F6E-9D5ED7F0ABB8:295CE1:[
+	{name: Network Quality Policy, policyWeight: 8.400, response: {33, 0.00, [{[wifiQuality]: Required:50.00, Observed:0.00},{[cellQuality]: Required:50.00, Observed:0.00},]}}
+ ], Decision: MNP}	
+00:15.378.426	Debug	dasd (80)	com.apple.duetactivityscheduler	lifecycle(activityGroup)	<private>: Current Load=0 (Pre-running=0)	
+00:15.378.556	Debug	dasd (80)	com.apple.duetactivityscheduler	lifecycle(activityGroup)	<private>: Current Load=0 (Pre-running=0)	
+00:15.378.752	Debug	dasd (80)	com.apple.duetactivityscheduler	processRateLimiter	'com.apple.coredata.cloudkit.activity.export.DA91F45B-118E-45FA-9E26-260FB1855DB7:5C2C7B' is timewise eligible for rate limit configuration <private> while device LPM state is 0	
+00:15.378.787	Default	dasd (80)	com.apple.duetactivityscheduler	scoring	com.apple.coredata.cloudkit.activity.export.DA91F45B-118E-45FA-9E26-260FB1855DB7:5C2C7B:[
+	{name: Network Quality Policy, policyWeight: 8.400, response: {33, 0.00, [{[wifiQuality]: Required:50.00, Observed:0.00},{[cellQuality]: Required:50.00, Observed:0.00},]}}
+ ], Decision: MNP}	
+00:15.378.823	Debug	dasd (80)	com.apple.duetactivityscheduler	lifecycle(activityGroup)	<private>: Current Load=0 (Pre-running=0)	
+00:15.378.956	Debug	dasd (80)	com.apple.duetactivityscheduler	lifecycle(activityGroup)	<private>: Current Load=0 (Pre-running=0)	
+00:15.379.149	Debug	dasd (80)	com.apple.duetactivityscheduler	processRateLimiter	'com.apple.coredata.cloudkit.activity.export.35F6F350-90B3-4C58-82B2-0657740DC6DF:10A0CA' is timewise eligible for rate limit configuration <private> while device LPM state is 0	
+00:15.379.185	Default	dasd (80)	com.apple.duetactivityscheduler	scoring	com.apple.coredata.cloudkit.activity.export.35F6F350-90B3-4C58-82B2-0657740DC6DF:10A0CA:[
+	{name: Network Quality Policy, policyWeight: 8.400, response: {33, 0.00, [{[wifiQuality]: Required:50.00, Observed:0.00},{[cellQuality]: Required:50.00, Observed:0.00},]}}
+ ], Decision: MNP}	
+00:15.379.212	Debug	dasd (80)	com.apple.duetactivityscheduler	lifecycle(activityGroup)	<private>: Current Load=0 (Pre-running=0)	
+00:15.379.343	Debug	dasd (80)	com.apple.duetactivityscheduler	lifecycle(activityGroup)	<private>: Current Load=0 (Pre-running=0)	
+00:15.379.523	Debug	dasd (80)	com.apple.duetactivityscheduler	processRateLimiter	'com.apple.coredata.cloudkit.activity.import.35F6F350-90B3-4C58-82B2-0657740DC6DF:60C5D8' is timewise eligible for rate limit configuration <private> while device LPM state is 0	
+00:15.379.560	Default	dasd (80)	com.apple.duetactivityscheduler	scoring	com.apple.coredata.cloudkit.activity.import.35F6F350-90B3-4C58-82B2-0657740DC6DF:60C5D8:[
+	{name: Network Quality Policy, policyWeight: 8.400, response: {33, 0.00, [{[wifiQuality]: Required:50.00, Observed:0.00},{[cellQuality]: Required:50.00, Observed:0.00},]}}

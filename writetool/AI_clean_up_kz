@@ -1,0 +1,1000 @@
+00:46.315.011	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 3,584x3,328, format: <private>	
+00:46.315.096	Debug	Photos (1680)	com.apple.photos.Neutrino	schedule	job 0x4d9b9c000 <CIRenderDestination: 0x301b7eeb0 (PIInpaintCacheNode-setup s:1-j103) format: RGBAh size: 3584x3328 mtltexture: 0x4d5857980> render ROI {origin={1280, 0} size={3584, 3260}}]	
+00:46.316.984	Debug	Photos (1680)	com.apple.CFBundle	resources	Resource lookup at <private>
+	Request       : ci_stdlib type: metallib
+	Result        : file:///System/Library/Frameworks/CoreImage.framework/ci_stdlib.metallib
+	
+00:46.317.061	Debug	Photos (1680)	com.apple.CFBundle	resources	Resource lookup at <private>
+	Request       : ci_filters type: metallib
+	Result        : file:///System/Library/Frameworks/CoreImage.framework/ci_filters.metallib
+	
+00:46.317.246	Debug	Photos (1680)	com.apple.CFBundle	resources	Resource lookup at <private>
+	Request       : ci_stdlib_stitchable type: metallib
+	Result        : file:///System/Library/Frameworks/CoreImage.framework/ci_stdlib_stitchable.metallib
+	
+00:46.317.334	Debug	Photos (1680)	com.apple.CFBundle	resources	Resource lookup at <private>
+	Request       : ci_filters_stitchable type: metallib
+	Result        : file:///System/Library/Frameworks/CoreImage.framework/ci_filters_stitchable.metallib
+	
+00:46.323.475	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Using new _NUStyleEngine instance: 0x30022c400, queue:0x4d4e44c00 usage:apply config:<private> params:<private>	
+00:46.323.522	Debug	Photos (1680)	com.apple.defaults	User Defaults	found no value for key forceDeviceName in CFPrefsSearchListSource<0x3037de300> (Domain: com.apple.Metal, Container: (null))	
+00:46.323.580	Debug	Photos (1680)	com.apple.CFBundle	resources	Resource lookup at <private>
+	Request       : default type: metallib
+	Result        : file:///System/Library/PrivateFrameworks/CMImaging.framework/default.metallib
+	
+00:46.326.423	Default	Unknown (0)	AppleT8140	Default	AppleH17PPlatformErrorHandler::_dcsWritePTD: 112109103114 3 offset f00 @ <private>[0x3003d0f00] <- 8
+
+	
+00:46.326.434	Default	Unknown (0)	AppleT8140	Default	AppleH17PPlatformErrorHandler::_dcsHandleDCSOdtsEvent: Reset _dcsOdtsBelowThresholdCount to 0
+
+	
+00:46.326.437	Default	Unknown (0)	AppleT8140	Default	AppleH17PPlatformErrorHandler::_dcsHandleDCSOdtsEvent: start next polling
+
+	
+00:46.330.278	Debug	DTServiceHub (360)	DVTInstrumentsFoundation	Default	Data Size: 100,926, Rows Sent: 1,392, Stack depth: 1,696	
+00:46.335.369	Info	Photos (1680)	com.apple.corespotlight	default	flush activites - count: 1 resigned: 0 forced: 0	
+00:46.336.270	Info	Photos (1680)	com.apple.corespotlight	default	Flushing UA queue, count:1, flush:NO	
+00:46.341.818	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Reusing _NUStyleEngine instance: 0x30022c400, queue:0x4d4e44c00 usage:apply config:<private> params:<private>	
+00:46.345.028	Debug	Photos (1680)	com.apple.photos.Neutrino	schedule	job 0x4d9b9c000 didRender 0.0357 s	
+00:46.345.056	Debug	Photos (1680)	com.apple.photos.Neutrino	schedule	job 0x4d9b9c780 PIInpaintCacheNode-setup s:1 render	
+00:46.345.063	Debug	Photos (1680)	com.apple.photos.Neutrino	schedule	job 0x4d9b9c000 stage Complete schedule high, 0.0000	
+00:46.345.073	Debug	Photos (1680)	com.apple.photos.Neutrino	render	beginAccess 0x307d97540 <NURegion:0x301b2be80 1 rects: {{1280, 1024}, {3584, 3260}}>	
+00:46.345.201	Debug	Photos (1680)	com.apple.photos.Neutrino	schedule	job 0x4d9b9c000 PIInpaintCacheNode-setup s:1 complete	
+00:46.345.437	Default	mobileassetd (336)	com.apple.mobileassetd	Notice	-[DownloadInfo addNewRateDataPoint:]: DownloadInfo taskDescriptor: com_apple_MobileAsset_MediaSupport.xml . task: BackgroundDownloadTask <19696666-C1F4-4405-80F0-82E438EC6A5E>.<30> taskState: running statusCode: -1 downloadSize: 0 progress: 0 / 0 isStalled: NO numStalls: 0 numNoLongerStalls: 0 backtracks: 0 callbackCount: 4 hasExtractor: NO originalUrl: https://mesu.apple.com/assets/com_apple_MobileAsset_MediaSupport/com_apple_MobileAsset_MediaSupport.xml cacheServerUrl: (null) assetType: (null) purpose: (null) shouldRetry: YES ifModifiedDate: 2017-07-06 22:26:30 +0000 options: MADownloadOptions allowsCellular: 0 resourceTimeout: 900 canUseCacheServer: 0 discretionary: 0 disableUI: 0 sessionId: (null) additionalServerParams:(null) allowsExpensiveAccess:1 requiresPowerPluggedIn: 0 prefersInfraWiFi: 1 liveServerOnly: -1 DownloadAuthorizationHeader: not present analyticsData: not present allowDaemonConnectionRetries: 0  + MAMsuDownloadOptions reqProdVersion: (null) delayPeriod: 0 managedDevice: 0 allowSameVersion: 0 prereqBuild: (null) prereqVersion: (null) prereqReleaseType: (default) liveAssetAudienceUUID: (null) purpose: (null)
+[DOWNLOAD_INFO] {addNewRateDataPoint} Download has not progressed since last update, however, download appears to be complete. Previous Total Downloaded: 0, Total Expected: 0	
+00:46.345.726	Default	Photos (1680)	CoreSpotlight	Default	sConnectionName: com.apple.spotlight.IndexAgent	
+00:46.345.780	Default	Photos (1680)	CoreSpotlight	Default	Start service name com.apple.spotlight.IndexAgent	
+00:46.345.891	Default	Photos (1680)	com.apple.xpc	connection	[0x302681a40] activating connection: mach=1 listener=0 peer=0 name=com.apple.spotlight.IndexAgent	
+00:46.346.266	Info	searchd (216)	com.apple.corespotlight	default	new connection(0x10e5f9cc0) for service com.apple.spotlight.IndexAgent pid: 1,680	
+00:46.349.190	Debug	searchd (216)	com.apple.launchservices	error	Constructing NSError NSOSStatusErrorDomain/18,446,744,073,709,540,802 at _LSPluginFindWithPlatformInfo:691	
+00:46.349.261	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 3,584x3,328, format: <private>	
+00:46.349.365	Debug	Photos (1680)	com.apple.photos.Neutrino	schedule	job 0x4d9b9c780 <CIRenderDestination: 0x301b18c50 (PIInpaintCacheNode-setup s:1-j105) format: RGBAh size: 3584x3328 mtltexture: 0x4db03de00> render ROI {origin={1280, 0} size={3584, 3260}}]	
+00:46.349.760	Debug	Photos (1680)	com.apple.photos.Neutrino	schedule	job 0x4d9b9c780 didRender 0.0047 s	
+00:46.349.783	Debug	Photos (1680)	com.apple.photos.Neutrino	schedule	job 0x4d9b9c780 stage Complete schedule high, 0.0000	
+00:46.350.327	Default	searchd (216)	com.apple.corespotlight	default	pid: 1,680 bundleID: com.apple.mobileslideshow	
+00:46.350.964	Default	searchd (216)	com.apple.xpc	connection	[0x10e5f9cc0] activating connection: mach=0 listener=0 peer=1 name=com.apple.spotlight.IndexAgent.peer[1680].0x10e5f9cc0	
+00:46.351.072	Debug	searchd (216)	com.apple.corespotlight	default	Message on connection(0x10e5f9cc0) for service com.apple.spotlight.IndexAgent pid: 1,680	
+00:46.351.103	Debug	searchd (216)	com.apple.corespotlight	default	enter connection: 0x10e5f9cc0 message: 0x1050bbd00	
+00:46.351.120	Debug	searchd (216)	com.apple.corespotlight	default	message: <private> pid: 1,680	
+00:46.351.444	Debug	searchd (216)	com.apple.corespotlight	default	request <private> from pid: 1,680	
+00:46.353.691	Debug	Photos (1680)	com.apple.photos.Neutrino	render	CIRenderInfo: exec=11.8585ms pass=8 pixels=44.6888Mpix	
+00:46.355.303	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.355.462	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.355.602	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.355.732	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.355.869	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.356.008	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.356.141	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.356.216	Debug	searchd (216)	com.apple.corespotlight	default	(com.apple.mobileslideshow) userPerformedAction, action:<private>, item:<private>, protectionClass:NSFileProtectionComplete	
+00:46.356.475	Debug	searchd (216)	com.apple.corespotlight	default	exit connection: 0x10e5f9cc0	
+00:46.356.488	Debug	searchd (216)	com.apple.corespotlight	default	queue: <private>	
+00:46.356.703	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.356.774	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.356.874	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.356.933	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.357.035	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.357.086	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.357.201	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.357.255	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.357.319	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.357.393	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.357.463	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.357.527	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.357.597	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.357.675	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.358.150	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.358.215	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.358.371	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.358.464	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.358.644	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.358.710	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.358.891	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.358.970	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.359.071	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.359.173	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.359.268	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.359.380	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.359.488	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.359.558	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.359.841	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.359.890	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.359.998	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.360.052	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.360.166	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.360.264	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.360.421	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.360.496	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.360.586	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.360.686	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.360.775	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.360.875	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.360.971	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.361.052	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.361.316	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.361.359	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.361.453	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.361.505	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.361.602	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.361.652	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.361.761	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.361.831	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.361.892	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.361.948	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.362.006	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.362.062	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.362.123	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.362.184	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.362.414	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.362.462	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.362.551	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.362.598	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.362.698	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.362.744	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.362.841	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.362.893	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.362.962	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.363.024	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.363.085	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.363.143	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.363.203	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.363.267	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.363.484	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.363.533	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.363.629	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.363.695	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.363.788	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.363.845	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.363.938	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.363.995	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.364.054	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.364.120	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.364.184	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.364.253	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.364.314	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.364.369	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.364.589	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.364.632	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.364.726	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.364.775	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.364.880	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.364.939	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.365.037	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.365.088	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.365.147	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.365.202	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.365.257	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.365.322	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.365.377	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.365.439	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.365.656	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.365.700	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.365.787	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.365.838	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.365.929	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.365.986	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.366.077	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.366.137	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.366.194	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.366.250	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.366.305	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.366.359	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.366.416	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.366.485	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.366.699	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.366.747	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.366.834	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.366.886	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.366.982	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.367.030	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.367.125	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.367.185	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.367.241	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.367.303	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.367.358	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.367.412	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.367.467	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.367.519	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.367.636	Debug	DTServiceHub (360)	DVTInstrumentsFoundation	Default	Data Size: 100,812, Rows Sent: 1,473, Stack depth: 1,764	
+00:46.367.744	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.367.799	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.367.888	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.367.951	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.368.048	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.368.102	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.368.195	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.368.244	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.368.300	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.368.369	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.368.424	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.368.487	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.368.542	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.368.602	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.368.818	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.368.858	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.368.948	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.368.998	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.369.089	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.369.143	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.369.234	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.369.285	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.369.341	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.369.395	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.369.459	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.369.517	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.369.576	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.369.987	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x188, format: <private>	
+00:46.370.030	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x188, format: <private>	
+00:46.370.073	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x188, format: <private>	
+00:46.370.118	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x188, format: <private>	
+00:46.370.163	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x188, format: <private>	
+00:46.370.205	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x188, format: <private>	
+00:46.370.248	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x188, format: <private>	
+00:46.370.367	Debug	Photos (1680)	com.apple.photos.Neutrino	schedule	job 0x4d9b9c000 didComplete 0.0252 s	
+00:46.370.374	Debug	Photos (1680)	com.apple.photos.Neutrino	schedule	respond job 0x4d9b9c000 PIInpaintCacheNode-setup s:1: success	
+00:46.370.396	Debug	Photos (1680)	com.apple.photos.Neutrino	schedule	job 0x4d9b9c000 PIInpaintCacheNode-setup s:1 totalDuration 0.0998 s	
+00:46.370.402	Debug	Photos (1680)	com.apple.photos.Neutrino	render	endAccess 0x307d97540 <NURegion:0x301b2be80 1 rects: {{1280, 1024}, {3584, 3260}}>	
+00:46.370.468	Debug	Photos (1680)	com.apple.photos.Neutrino	schedule	job 0x4d9b9c780 PIInpaintCacheNode-setup s:1 complete	
+00:46.370.490	Debug	Photos (1680)	com.apple.photos.Neutrino	render	CIRenderInfo: exec=3.2813ms pass=1 pixels=11.1426Mpix	
+00:46.370.508	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.370.521	Debug	Photos (1680)	com.apple.photos.Neutrino	schedule	job 0x4d9b9c780 PIInpaintCacheNode-setup s:1 cancel	
+00:46.370.532	Debug	Photos (1680)	com.apple.photos.Neutrino	schedule	job 0x4d9b9c780 PIInpaintCacheNode-setup s:1 abort complete	
+00:46.370.751	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.370.819	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.370.921	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.370.976	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.371.074	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.371.127	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.371.226	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.371.290	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.371.365	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.371.425	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.371.483	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.371.541	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.371.601	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.371.658	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.371.880	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.371.936	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.372.040	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.372.094	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.372.190	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.372.245	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.372.346	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.372.406	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.372.471	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.372.544	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.372.615	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.372.674	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.372.737	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.372.800	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.373.039	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.373.087	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.373.176	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.373.238	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.373.343	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.373.395	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.373.492	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.373.551	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.373.618	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.373.683	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.373.746	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.373.814	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.373.885	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.373.946	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.374.402	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.374.455	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.374.591	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.374.654	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.374.794	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.374.879	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.375.017	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.375.093	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.375.177	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.375.262	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.375.339	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.375.430	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.375.500	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.375.584	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.375.843	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.375.897	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.375.994	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.376.052	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.376.156	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.376.230	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.376.369	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.376.461	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.376.545	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.376.629	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.376.718	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.376.800	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.376.885	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.376.955	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.377.200	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.377.266	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.377.353	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.377.407	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.377.501	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.377.555	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.377.647	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.377.703	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.377.761	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.377.837	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.377.898	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.377.957	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.378.016	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.378.079	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.378.299	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.378.346	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.378.439	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.378.509	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.378.605	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.378.660	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.378.756	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.378.812	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.378.870	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.378.929	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.379.002	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.379.069	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.379.137	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.379.196	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.379.426	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.379.473	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.379.559	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.379.618	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.379.725	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.379.788	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.379.883	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.379.940	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.380.004	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.380.063	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.380.123	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.380.181	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.380.248	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.380.317	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.380.535	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.380.585	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.380.674	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.380.730	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.380.826	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.380.883	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.380.987	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.381.052	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.381.114	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.381.177	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.381.235	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.381.299	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.381.357	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.381.419	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.381.642	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.381.696	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.381.784	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.381.843	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.381.934	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.381.988	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.382.081	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.382.139	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.382.208	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.382.275	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.382.338	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.382.396	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.382.453	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.382.513	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.382.733	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.382.782	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.382.880	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.382.941	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.383.038	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.383.090	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.383.186	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.383.239	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.383.299	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.383.368	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.383.432	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.383.497	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.383.559	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.383.617	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.383.839	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.383.887	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.383.973	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.384.039	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.384.133	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.384.195	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.384.292	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.384.347	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.384.406	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.384.471	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.384.528	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.384.597	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.384.657	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x256, format: <private>	
+00:46.384.725	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x188, format: <private>	
+00:46.384.893	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x188, format: <private>	
+00:46.384.934	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x188, format: <private>	
+00:46.385.001	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x188, format: <private>	
+00:46.385.048	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x188, format: <private>	
+00:46.385.123	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x188, format: <private>	
+00:46.385.167	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x188, format: <private>	
+00:46.385.240	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x188, format: <private>	
+00:46.385.294	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x188, format: <private>	
+00:46.385.342	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x188, format: <private>	
+00:46.385.397	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x188, format: <private>	
+00:46.385.449	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x188, format: <private>	
+00:46.385.499	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x188, format: <private>	
+00:46.385.548	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Allocating new storage of size: 256x188, format: <private>	
+00:46.385.665	Debug	Photos (1680)	com.apple.photos.Neutrino	schedule	job 0x4d9b9c780 didComplete 0.0152 s	
+00:46.385.841	Debug	Photos (1680)	com.apple.photos.Neutrino	schedule	Rendering was canceled: Error Domain=NUError Code=10 UserInfo={NUNonLocalizedFailureReason=Request was canceled, NURelatedObject=<private>}	
+00:46.385.853	Debug	Photos (1680)	com.apple.photos.Neutrino	schedule	respond job 0x4d9b9c780 PIInpaintCacheNode-setup s:1: canceled	
+00:46.385.870	Debug	Photos (1680)	com.apple.photos.Neutrino	schedule	job 0x4d9b9c780 PIInpaintCacheNode-setup s:1 totalDuration 0.0764 s	
+00:46.385.870	Debug	Photos (1680)	com.apple.photos.Neutrino	render	endAccess 0x307d97540 <NURegion:0x301b2be80 1 rects: {{1280, 1024}, {3584, 3260}}>	
+00:46.385.944	Debug	Photos (1680)	com.apple.photos.Neutrino	schedule	job 0x4d9b9cdc0 stage Prepare schedule high, 0.0000	
+00:46.385.969	Debug	Photos (1680)	com.apple.photos.Neutrino	schedule	job 0x4d9b9cdc0 PIInpaintSubsampleCacheNode-setup s:4 prepare	
+00:46.386.018	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Dense subregions: <private>, result: <private>	
+00:46.386.026	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Dense subregions result: <private>, optimized: <private>	
+00:46.386.077	Debug	Photos (1680)	com.apple.photos.Neutrino	schedule	Output image: <private>	
+00:46.386.118	Debug	Photos (1680)	com.apple.photos.Neutrino	schedule	job 0x4d9b9cdc0 didPrepare 0.0768 s	
+00:46.386.139	Debug	Photos (1680)	com.apple.photos.Neutrino	schedule	job 0x4d9b9cdc0 stage Render schedule high, 0.0000	
+00:46.386.160	Debug	Photos (1680)	com.apple.photos.Neutrino	schedule	job 0x4d9b9cdc0 PIInpaintSubsampleCacheNode-setup s:4 render	
+00:46.386.175	Debug	Photos (1680)	com.apple.photos.Neutrino	render	beginAccess 0x307d96be0 <NURegion:0x301b7e1c0 1 rects: {{256, 512}, {1024, 512}}>	
+00:46.386.215	Debug	Photos (1680)	com.apple.photos.Neutrino	schedule	job 0x4d9b9cdc0 <CIRenderDestination: 0x301b7f090 (PIInpaintSubsampleCacheNode-setup s:4-j104) format: RGBAh size: 1024x512 mtltexture: 0x4d5856300> render ROI {origin={256, 47} size={1024, 512}}]	
+00:46.389.600	Debug	Photos (1680)	com.apple.photos.Neutrino	general	provideImageData (1,024,1,536,512,512) tid=0x3001e8a80	
+00:46.389.765	Debug	Photos (1680)	com.apple.CFBundle	resources	Resource lookup at <private>
+	Request       : ci_stdlib type: metallib
+	Result        : file:///System/Library/Frameworks/CoreImage.framework/ci_stdlib.metallib
+	
+00:46.389.824	Debug	Photos (1680)	com.apple.CFBundle	resources	Resource lookup at <private>
+	Request       : ci_filters type: metallib
+	Result        : file:///System/Library/Frameworks/CoreImage.framework/ci_filters.metallib
+	
+00:46.389.949	Debug	Photos (1680)	com.apple.CFBundle	resources	Resource lookup at <private>
+	Request       : ci_stdlib_stitchable type: metallib
+	Result        : file:///System/Library/Frameworks/CoreImage.framework/ci_stdlib_stitchable.metallib
+	
+00:46.389.980	Debug	Photos (1680)	com.apple.CFBundle	resources	Resource lookup at <private>
+	Request       : ci_filters_stitchable type: metallib
+	Result        : file:///System/Library/Frameworks/CoreImage.framework/ci_filters_stitchable.metallib
+	
+00:46.390.025	Debug	Photos (1680)	com.apple.defaults	User Defaults	found no value for key PI_INPAINT_DUMPS_ORIGINAL_MASKS in CFPrefsSearchListSource<0x30355b680> (Domain: com.apple.mobileslideshow, Container: (null))	
+00:46.390.043	Debug	Photos (1680)	com.apple.defaults	User Defaults	found no value for key PI_INPAINT_FILL_MASK_HOLES in CFPrefsSearchListSource<0x30355b680> (Domain: com.apple.mobileslideshow, Container: (null))	
+00:46.390.107	Debug	Photos (1680)	com.apple.launchservices	binding	BindingEvaluator::CreateWithBundleInfo(ID=<private>, name=<private>, CC=????, vers=)	
+00:46.390.115	Debug	Photos (1680)	com.apple.launchservices	binding	Running evaluator 0x16c7a1a20	
+00:46.390.119	Debug	Photos (1680)	com.apple.defaults	User Defaults	found no value for key PI_INPAINT_ORIENT_INPUTS in CFPrefsSearchListSource<0x30355b680> (Domain: com.apple.mobileslideshow, Container: (null))	
+00:46.390.120	Debug	Photos (1680)	com.apple.launchservices	binding	Adding user preferences	
+00:46.390.125	Debug	Photos (1680)	com.apple.launchservices	binding	Skipping weak binding due to options	
+00:46.390.156	Debug	Photos (1680)	com.apple.defaults	User Defaults	found no value for key PI_INPAINT_DUMPS_PROCESSED_MASKS in CFPrefsSearchListSource<0x30355b680> (Domain: com.apple.mobileslideshow, Container: (null))	
+00:46.390.184	Debug	Photos (1680)	com.apple.defaults	User Defaults	found no value for key PI_INPAINT_OVERLAYS_MASKS in CFPrefsSearchListSource<0x30355b680> (Domain: com.apple.mobileslideshow, Container: (null))	
+00:46.390.237	Debug	Photos (1680)	com.apple.launchservices	binding	0 bindings found	
+00:46.390.329	Debug	Photos (1680)	com.apple.launchservices	binding	Truncating a list of bindings to max 1 known-good ones.	
+00:46.390.357	Debug	Photos (1680)	com.apple.launchservices	binding	Adding and sorting bundles	
+00:46.390.458	Debug	Photos (1680)	com.apple.launchservices	binding	+++ photos.app (B:0x3dc, C:0x0) 	
+00:46.390.480	Debug	Photos (1680)	com.apple.launchservices	binding	+++ photos.app (B:0x4d0, C:0x0) 	
+00:46.390.560	Debug	Photos (1680)	com.apple.launchservices	binding	2 bindings found	
+00:46.390.795	Debug	Photos (1680)	com.apple.launchservices	binding	Truncating a list of bindings to max 1 known-good ones.	
+00:46.390.871	Debug	Photos (1680)	com.apple.launchservices	binding	+++ photos.app (B:0x4d0, C:0x0) 	
+00:46.390.900	Debug	Photos (1680)	com.apple.launchservices	binding	Best binding found for evaluator 6,114,909,488: <private> (B:0x4d0, C:0x0)	
+00:46.390.979	Debug	Photos (1680)	com.apple.launchservices	binding	BindingEvaluator::~BindingEvaluator(0x16c7a1a20)	
+00:46.391.499	Debug	Photos (1680)	com.apple.launchservices	binding	BindingEvaluator::~BindingEvaluator(0x16c7a1d30)	
+00:46.391.593	Info	Photos (1680)	com.apple.launchservices	extensions	Bundle record not found for current process 1,680	
+00:46.391.728	Debug	Photos (1680)	com.apple.CoreAnalytics.event	send	<private> <private>	
+00:46.391.858	Debug	analyticsd (110)	com.apple.analyticsd.critical	db	[Config Store] Retrieving transforms for event with name '<private>'	
+00:46.392.287	Debug	analyticsd (110)	com.apple.analyticsd.critical	xform	[Transform Factory] No Transform aggregation period specified.	
+00:46.392.322	Default	Photos (1680)	com.apple.coreimage	filter	CIInpaintFilter: One Tile, Refined4, Scale 0.661
+	
+00:46.392.326	Debug	analyticsd (110)	com.apple.analyticsd.critical	xform_cache	[Transform Cache] Cache miss. Loading <private> - <private> for input event <private>	
+00:46.392.347	Debug	Photos (1680)	com.apple.defaults	User Defaults	found no value for key PI_INPAINT_OVERLAYS_MASK_BOUNDS in CFPrefsSearchListSource<0x30355b680> (Domain: com.apple.mobileslideshow, Container: (null))	
+00:46.392.535	Debug	analyticsd (110)	com.apple.analyticsd.critical	xform	[Transform Cache] Eviction callback for transform <private> - <private>	
+00:46.392.948	Debug	analyticsd (110)	com.apple.analyticsd.critical	xform_cache	[Transform Cache] Cache performance for input event <private>: { transforms: 1, hit: 0, loaded: 1, inserted: 1}	
+00:46.396.782	Debug	DTServiceHub (360)	DVTInstrumentsFoundation	Default	Data Size: 101,420, Rows Sent: 1,445, Stack depth: 1,843	
+00:46.427.450	Default	Unknown (0)	AppleT8140	Default	AppleH17PPlatformErrorHandler::_dcsWritePTD: 112109103114 3 offset f00 @ <private>[0x3003d0f00] <- 8
+
+	
+00:46.427.475	Default	Unknown (0)	AppleT8140	Default	AppleH17PPlatformErrorHandler::_dcsHandleDCSOdtsEvent: Reset _dcsOdtsBelowThresholdCount to 0
+
+	
+00:46.427.480	Default	Unknown (0)	AppleT8140	Default	AppleH17PPlatformErrorHandler::_dcsHandleDCSOdtsEvent: start next polling
+
+	
+00:46.439.785	Debug	cameracaptured (66)	com.apple.MediaSafetyNet	periodic	MediaSafetyNet state: UI(Elsewhere) Cam(Cold:<private>) Mic(N/A) Pill(Unknown) Kbd(Hidden) CameraException(None) consistency: Consistent	
+00:46.471.229	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.487.429	Debug	backboardd (68)	com.apple.CoreBrightness.ColourSensorFilterPlugin	default	Color: X=143.9876(45.8327) Y=137.1047(43.6418) Z=50.8353(16.1814) 
+	
+00:46.487.597	Default	backboardd (68)	com.apple.CoreBrightness.ColourSensorFilterPlugin	default	[ALS] ts=48,715.9282 lux=153.4725<private> xy=(0.4338 0.4131) chs=[866.0000 2,394.0000 6,094.0000 8,830.0000 9,337.0000] CCT1=3,270.0066 gain=512x mode=<private> subsamples=24 rawLux=159.7077 nits=1,083 xTalk=[9 18 34 46 61] status=0xb copyEvent=0	
+00:46.487.844	Debug	backboardd (68)	com.apple.CoreBrightness.CBColorModule.Primary	default	key=ALSIntegrationMode result=	
+00:46.487.887	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[4]: 	
+00:46.487.906	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[2]: ALSIntegrationMode	
+00:46.487.932	Debug	locationd (74)	com.apple.locationd.Position	Position	AmbientLight,DecisionTree,x,161.1771,y,153.4725,z,56.9041,out,3	
+00:46.487.941	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[2]: ALSIntegrationMode result=3	
+00:46.487.958	Debug	backboardd (68)	com.apple.CoreBrightness.CBABModuleiOS	default	key=ALSIntegrationMode result=3	
+00:46.487.974	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayContaineriOS	BuiltIn	key=ALSIntegrationMode result=3	
+00:46.487.998	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[4]: _plugInEnabled=1	
+00:46.488.008	Debug	locationd (74)	com.apple.locationd.Position	Position	AmbientLightDecisionTreeOutput,3	
+00:46.488.053	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[4]: 0xdb4ccd900 0xdb5835110	
+00:46.488.153	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[10]: 153.4725 	
+00:46.488.223	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[10]: als->_Esensor_device=153.4725	
+00:46.488.270	Debug	backboardd (68)	com.apple.CoreBrightness.CBALSEvent	default	Tristimulus values: XYZ[0]=51.3043, XYZ[1]=48.8518, XYZ[2]=18.1131 | CCT1=3,270.0066	
+00:46.488.324	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[2]: _luxFilter=3 als->_Ehistory_max=8	
+00:46.488.352	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[10]: Median filter computed on 8 samples	
+00:46.488.373	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	Median filter computed on 8 samples	
+00:46.488.399	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[10]: ts=48,715.9297 Esensor=154.1948 Emedian=155.0629	
+00:46.488.441	Info	backboardd (68)	com.apple.CoreBrightness.AABRear.CBRearALSModule	default	Copy Grimaldi Lux = 31.03788	
+00:46.488.456	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	E 155.0629, Ecapped 155.0629, EmaxCap -1.0000 => finalE 155.0629	
+00:46.488.486	Debug	backboardd (68)	com.apple.CoreBrightness.AABRear	default	AABRear: shouldUseRearLuxFrontLux called with (fLux:155.0629, rLux:31.0379, cap: 1,862.1151)	
+00:46.488.513	Debug	backboardd (68)	com.apple.CoreBrightness.AABRear	default	AABRear: using rear? 0	
+00:46.488.539	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	E 155.0629, Ecapped 155.0629, EmaxCap -1.0000 => finalE 155.0629	
+00:46.488.580	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayContaineriOS	BuiltIn	Notification block key=RLuxStats, value=<private>
+	
+00:46.488.601	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	Handle notification for key = RLuxStats and property = <private>	
+00:46.488.646	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[10]: _Esensor_filtered=155.0629 _Esensor_trusted=155.0629 _Esensor_aggregated=155.0629	
+00:46.488.708	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[10]: _Esensor_trusted=155.0629 _state=kAABStateAutoBrightness _proxState=kProxNone _touchIsObstucted=0 _settings._internal._dimPolicy=kDimPolicyFullDimming 3 _orientation=kIOHIDDisplayOrientationTypeAmbiguous	
+00:46.488.749	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	E 155.0629, Ecapped 155.0629, EmaxCap -1.0000 => finalE 155.0629	
+00:46.488.779	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[1/1] Esensor_device: 153.4725 als->_Esensor_filtered: 155.0629 _Esensor_trusted: 155.0629  L: 191.6835 L_reflected: 0.9872	
+00:46.488.840	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[10]: dimRestriction=kDimRestrictionUnrestricted	
+00:46.488.898	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	Set capped lux to IOMFB 155.0629 (155.4116)	
+00:46.489.397	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[4]: 	
+00:46.489.427	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[200]: inputs: L=191.6835 (shouldRamp=true dimRestriction=kDimRestrictionUnrestricted _Esensor_trusted=155.0629) curveChanged=0	
+00:46.489.444	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[200]: _fastRampMode=0 dimRestriction=kDimRestrictionUnrestricted L_newtarget=191.6835 _L_current=76.2887 _L_minimum=191.6835	
+00:46.489.462	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	PLT	shallUpdateBacklight: Pstart=0.7645 Pcurrent=0.7645 Pnewtarget=0.7545 Pdelta=-0.0100 Pthreshold_dim=0.0500 (0.1000 * 0.5000) Pthreshold_brighten=0.1000 (0.1000 * 1.0000) plt_x=0.2500 plt_y=0.3700 plt_z=0.1000	
+00:46.489.479	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[200]: _L_target=205.5501 Pnewtarget=0.7545 Ptarget=0.7645 Pdelta=-0.0100  	
+00:46.489.494	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[200]: systemShallUpdateBacklight=false L_target=191.6835 timeConstant=0.0000	
+00:46.489.567	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=RLuxStats value=<private>	
+00:46.489.588	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=RLuxStats property=<private>	
+00:46.489.616	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	passed for client 58881740544	
+00:46.489.767	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=<private> value=<private>	
+00:46.489.795	Debug	backboardd (68)	com.apple.CoreBrightness.CBALSEvent	default	Tristimulus values: XYZ[0]=51.3043, XYZ[1]=48.8518, XYZ[2]=18.1131 | CCT1=3,270.0066	
+00:46.489.815	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=<private> property=<private>	
+00:46.489.865	Debug	PerfPowerServices (1452)	com.apple.CoreBrightness	default	key=<private> property=<private> queue=0x97ede5100 clientBlock=0x97e365e90	
+00:46.489.901	Debug	backboardd (68)	com.apple.CoreBrightness.CBALSNode	default	<private>	
+00:46.489.936	Debug	backboardd (68)	com.apple.CoreBrightness.CBBrightestALSFilter	default	ALS events <private>	
+00:46.489.957	Info	backboardd (68)	com.apple.CoreBrightness.CBColorPolicyFilter	default	HarmonyPolicy: Sample IS  from mitigated region	
+00:46.489.958	Info	PerfPowerServices (1452)	com.apple.CoreBrightness.BSCI	default	use_synchronous_remote=1	
+00:46.490.007	Info	backboardd (68)	com.apple.CoreBrightness.CBColorPolicyFilter	default	HarmonyPolicy: BaselineHarmony: mitigatedStr, for (lux, nits): 153.0000, 1,083.0000 = 0.1100 (rounded)	
+00:46.490.009	Default	PerfPowerServices (1452)	com.apple.xpc	connection	[0x97ef066c0] activating connection: mach=1 listener=0 peer=0 name=com.apple.backlightd	
+00:46.490.076	Info	backboardd (68)	com.apple.CoreBrightness.CBColorPolicyFilter	default	HarmonyPolicy: Sample IS NOT from CE region	
+00:46.490.096	Info	backboardd (68)	com.apple.CoreBrightness.CBColorPolicyFilter	default	HarmonyPolicy: Incoming ALS sample, pushed to queue: <private>	
+00:46.490.139	Info	backboardd (68)	com.apple.CoreBrightness.CBColorPolicyFilter	default	HarmonyPolicy: _filteredALS: <private>, _filtered strength: 0.2700	
+00:46.490.154	Default	PerfPowerServices (1452)	com.apple.CoreBrightness	default	Register notification block	
+00:46.490.155	Debug	backboardd (68)	com.apple.CoreBrightness.CBColorModule.Primary	default	ALS event with orientation = 1	
+00:46.490.201	Info	backboardd (68)	com.apple.CoreBrightness.CBColorModule.Primary	default	HarmonyPolicy: Using Baseline	
+00:46.490.276	Debug	backboardd (68)	com.apple.CoreBrightness.CBColorModule.Primary	default	input ambient color sample: xy = (0.4338;0.4131)	
+00:46.490.310	Default	backboardd (68)	com.apple.xpc	connection	[0xdb5089b80] activating connection: mach=0 listener=0 peer=1 name=com.apple.backlightd.peer[1452].0xdb5089b80	
+00:46.490.517	Debug	backboardd (68)	CoreBrightness	Default	LOWLUX 48.8518
+	
+00:46.490.530	Info	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	client=58903571552 key=<private>	
+00:46.490.605	Debug	backboardd (68)	CoreBrightness	Default	[ColorEffects.c:_CFXRestrictLowAmbientColor] xy=(0.4338,0.4131), CCT = 3,130.0000, CCT1 = 3,270.0066	
+00:46.490.630	Debug	backboardd (68)	CoreBrightness	Default	Restrict: (16.9044, 16.9044) -> (13.1504, 46.9436)
+	
+00:46.490.652	Debug	backboardd (68)	CoreBrightness	Default	62.6674 16.9044 60.3444 -> ANGLE 1.6904 -> BIN 2	
+00:46.490.673	Debug	backboardd (68)	CoreBrightness	Default	BIN 13: (0.4338, 0.4131) fitting in (0.4562, 0.4260)-(0.4373, 0.3893)-(0.4303, 0.4173)
+	
+00:46.490.711	Info	backboardd (68)	com.apple.CoreBrightness.CBColorModule.Primary	default	Set ambient color sample ALS event = [Orientation = 1; Illuminance = 153.000000; xy = (0.433792,0.413056); XYZ = (51.304268,48.851810,18.113129); CCT1 = 3270.006592; Integration time = 0.002906; Gain = 33554432; Obstructed = 0; First = 0, mitigation = 1, timestamp = 87761522]	
+00:46.490.760	Debug	backboardd (68)	com.apple.CoreBrightness.CBColorModule.Primary	default	key=<private> result=<private>	
+00:46.490.802	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayContaineriOS	BuiltIn	key=<private> result=<private>	
+00:46.490.845	Info	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=<private> result=<private>	
+00:46.491.086	Debug	PerfPowerServices (1452)	com.apple.CoreBrightness.Client	Default	BSC dealloc	
+00:46.491.123	Default	PerfPowerServices (1452)	com.apple.CoreBrightness	default	Register notification block	
+00:46.491.157	Default	PerfPowerServices (1452)	com.apple.xpc	connection	[0x97ef066c0] invalidated because the current process cancelled the connection by calling xpc_connection_cancel()	
+00:46.491.213	Debug	PerfPowerServices (1452)	com.apple.powerlog	display	Received notification for CBrLuxStats: <private>	
+00:46.491.221	Default	backboardd (68)	com.apple.xpc	connection	[0xdb5089b80] invalidated because the client process (pid 1,452) either cancelled the connection or exited	
+00:46.491.265	Debug	PerfPowerServices (1452)	com.apple.CoreBrightness.BSCI	default	BSCI dealloc	
+00:46.491.285	Default	PerfPowerServices (1452)	com.apple.CoreBrightness	default	Register notification block	
+00:46.528.497	Default	Unknown (0)	AppleT8140	Default	AppleH17PPlatformErrorHandler::_dcsWritePTD: 112109103114 3 offset f00 @ <private>[0x3003d0f00] <- 8
+
+	
+00:46.528.520	Default	Unknown (0)	AppleT8140	Default	AppleH17PPlatformErrorHandler::_dcsHandleDCSOdtsEvent: Reset _dcsOdtsBelowThresholdCount to 0
+
+	
+00:46.528.526	Default	Unknown (0)	AppleT8140	Default	AppleH17PPlatformErrorHandler::_dcsHandleDCSOdtsEvent: start next polling
+
+	
+00:46.565.616	Debug	nearbyd (148)	com.apple.locationd.Motion	Motion	Ping timer fired, resetting watchdog	
+00:46.566.506	Debug	DTServiceHub (360)	DVTInstrumentsFoundation	Default	Data Size: 100,972, Rows Sent: 1,177, Stack depth: 1,902	
+00:46.576.399	Info	backboardd (68)	com.apple.CoreAnalytics	client	Dropping "com.apple.AttentionAwareness.clientStateNegative" as it isn't used in any transform (not in the config or budgeted?)	
+00:46.576.648	Default	backboardd (68)	com.apple.AttentionAwareness	AttentionAwareness	48,716.0286: notify client com.apple.SpringBoard.HomeGrabberView-3 of <AWAttentionLostEvent: 0xdb4866c40> (timestamp:   48716.02831 attentionLostTimeout       2.00000 tagIndex 0 (tag not present in server))	
+00:46.576.810	Info	backboardd (68)	com.apple.CoreAnalytics	client	Dropping "com.apple.AttentionAwareness.clientEvent" as it isn't used in any transform (not in the config or budgeted?)	
+00:46.577.083	Error	SpringBoard (34)	com.apple.SpringBoard	IdleTimer	attention client lost event tag is not a number: 	
+00:46.578.271	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.578.570	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.579.267	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.580.137	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.581.461	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.581.666	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.582.251	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.582.932	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.583.807	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.584.482	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.585.180	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.585.886	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.586.657	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.587.373	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.588.110	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.588.871	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.589.828	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.590.527	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.591.122	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.593.336	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.594.010	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.594.744	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.595.381	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.596.094	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.596.911	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.597.783	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.598.345	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.599.215	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.599.887	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.624.181	Debug	backboardd (68)	com.apple.BackBoard	MotionEvents	Motion event usagePage:0xff0c usage:1 	
+00:46.624.354	Debug	locationd (74)	com.apple.locationd.Motion	Motion	visitKFFilteredPressure,nowAP,753,594,901.5627,nowAOP,349,914,570,507,filteredPressure,102,621.8672,pressureTimestamp,349,911,850,156,kfElevation,-107.4536,wallTimePressureCorrected,753,594,898.8424,wallTimeKFCorrected,753,594,901.5288,temperatureDerivative,0.0000,absAltUnc,-0.0000	
+00:46.624.604	Debug	audiomxd (105)	com.apple.MediaSafetyNet	periodic	MediaSafetyNet state: UI(Elsewhere) Cam(N/A) Mic(Cold:<private>) Pill(Unknown) Kbd(Hidden) CameraException(None) consistency: Consistent	
+00:46.624.705	Debug	locationd (74)	com.apple.locationd.Motion	Altimeter	received KF filtered pressure from AOP,now,<private>,filteredPressureTimestamp,<private>,filteredPressure,<private>,kfTimestamp,<private>,kfElevation,<private>,kfPressure,<private> temperature,<private>,absAltUnc,<private>	
+00:46.624.858	Debug	locationd (74)	com.apple.locationd.Motion	Altimeter	{"msg":"kfPressure source updated with", "timestamp_s":"<private>", "kfPressure":"<private>", "kfElevation":"<private>", "absAltUncertainty":"<private>"}	
+00:46.629.540	Default	Unknown (0)	AppleT8140	Default	AppleH17PPlatformErrorHandler::_dcsWritePTD: 112109103114 3 offset f00 @ <private>[0x3003d0f00] <- 8
+
+	
+00:46.629.560	Default	Unknown (0)	AppleT8140	Default	AppleH17PPlatformErrorHandler::_dcsHandleDCSOdtsEvent: Reset _dcsOdtsBelowThresholdCount to 0
+
+	
+00:46.629.565	Default	Unknown (0)	AppleT8140	Default	AppleH17PPlatformErrorHandler::_dcsHandleDCSOdtsEvent: start next polling
+
+	
+00:46.672.293	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.672.630	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.673.167	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.674.712	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.675.412	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.676.095	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.676.849	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.677.573	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.678.304	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.678.991	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.679.717	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.680.562	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.681.259	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.681.945	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.682.685	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.683.467	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.684.722	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.684.969	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.685.686	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.686.435	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.687.157	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.687.843	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.688.562	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.689.383	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.690.009	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.690.926	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.691.580	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.692.280	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.692.962	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.693.694	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.694.975	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.695.169	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.695.978	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.696.662	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.697.416	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.698.143	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.698.837	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.699.573	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.700.336	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.701.004	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.701.779	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.702.452	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.703.146	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.703.913	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.705.513	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.706.290	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.707.291	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.707.731	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.708.495	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.709.278	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.709.907	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.710.643	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.711.443	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.712.126	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.712.844	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.713.037	Info	bluetoothd (94)	com.apple.bluetooth	Stack.LE	 Invalid Dual mode support indication in AD flags 0x00000000.	
+00:46.713.119	Info	bluetoothd (94)	com.apple.bluetooth	Server.LE.Scan	Setting mfgr data:<private> len:6 id:4c	
+00:46.713.244	Debug	bluetoothd (94)	com.apple.bluetooth	Server.LE.Scan	Found device "3083EB79-724B-1BF9-3342-0DAEEEF73D02 Random EB:39:6D:98:F0:2E RSSI:-67 with data:RSSI: 0 dB (non-saturated), MFR Data: 4C 00 12 02 2C 00[AppleTypesBitmap:0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001000000000000000000], connectable, sourceCore: MainCore, IsELNAOn: 0, IsPassup: 0, IsFromSCCompensation0, IsCoexDenied0, 	
+00:46.713.321	Debug	bluetoothd (94)	com.apple.bluetooth	Server.LE.Scan	Show dup for given rule with puck type 0x12	
+00:46.713.352	Info	bluetoothd (94)	com.apple.bluetooth	Server.LE.Scan	Device "3083EB79-724B-1BF9-3342-0DAEEEF73D02" matched MFG data	
+00:46.713.381	Debug	bluetoothd (94)	com.apple.bluetooth	Server.LE.Scan	doesDeviceMatch: fAdvDataMap size:145 fMaxNumOfReportsInMap:200 fAdvDataMap size:145 Puck?:1 roomInMap:1	
+00:46.713.439	Debug	bluetoothd (94)	com.apple.bluetooth	Server.XPC	createXpcAdvData sending data:<private> length:6 originalLength:6 lenError:0	
+00:46.713.475	Debug	bluetoothd (94)	com.apple.bluetooth	Server.App	moreAvailable=0, isFromADVBuffer=0	
+00:46.713.612	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.713.653	Debug	bluetoothd (94)	com.apple.bluetooth	Server.LE.Scan	Show dup for given rule with puck type 0x12	
+00:46.713.686	Info	bluetoothd (94)	com.apple.bluetooth	Server.LE.Scan	Device "3083EB79-724B-1BF9-3342-0DAEEEF73D02" matched MFG data	
+00:46.713.713	Debug	bluetoothd (94)	com.apple.bluetooth	Server.LE.Scan	doesDeviceMatch: fAdvDataMap size:145 fMaxNumOfReportsInMap:200 fAdvDataMap size:145 Puck?:1 roomInMap:1	
+00:46.713.755	Debug	bluetoothd (94)	com.apple.bluetooth	Server.XPC	createXpcAdvData sending data:<private> length:6 originalLength:6 lenError:0	
+00:46.713.786	Debug	bluetoothd (94)	com.apple.bluetooth	Server.App	moreAvailable=0, isFromADVBuffer=0	
+00:46.713.831	Debug	locationd (74)	com.apple.locationd.Core	AvengerScanner	{"msg":"didDiscoverPeripheral", "ClientId":CLDurianService, "peripheral":<private>, "advertisementData":<private>}	
+00:46.713.908	Debug	locationd (74)	com.apple.locationd.Core	Harvester	{"msg":"#CLAvengerReconciler advertisement reconciled: ", "ownerUUID":<private>, "nonownerUUID":<private>, "address":<private>, "uuidMap":<private>}	
+00:46.713.914	Debug	bluetoothd (94)	com.apple.bluetooth	Server.LE.Scan	Show dup for given rule with puck type 0x12	
+00:46.713.940	Info	bluetoothd (94)	com.apple.bluetooth	Server.LE.Scan	Device "3083EB79-724B-1BF9-3342-0DAEEEF73D02" matched MFG data	
+00:46.713.965	Debug	bluetoothd (94)	com.apple.bluetooth	Server.LE.Scan	doesDeviceMatch: fAdvDataMap size:145 fMaxNumOfReportsInMap:200 fAdvDataMap size:145 Puck?:1 roomInMap:1	
+00:46.713.968	Debug	locationd (74)	com.apple.locationd.Core	Harvester	{"msg":"#CLAvengerReconciler: creating CLAvengerScannerReconciledInformation", "reconciledInformation.description":<private>}	
+00:46.714.046	Debug	locationd (74)	com.apple.locationd.Core	AvengerScanner	{"msg":"didDiscoverPeripheral", "ClientId":CLSubHarvesterAvenger, "peripheral":<private>, "advertisementData":<private>}	
+00:46.714.092	Default	locationd (74)	com.apple.locationd.Position	Proximity	{"msg":"#durian onAvengerAdvertisement", "address":<private>, "date":Mon Nov 18 11:55:01 2024, "data":<private>, "status":<private>, "needsmaint":<private>, "isWild":<private>, "uuid":<private>}	
+00:46.714.107	Debug	locationd (74)	com.apple.locationd.Core	Harvester	{"msg":"#CLAvengerReconciler advertisement reconciled: ", "ownerUUID":<private>, "nonownerUUID":<private>, "address":<private>, "uuidMap":<private>}	
+00:46.714.111	Debug	bluetoothd (94)	com.apple.bluetooth	Server.XPC	createXpcAdvData sending data:<private> length:6 originalLength:6 lenError:0	
+00:46.714.155	Debug	locationd (74)	com.apple.locationd.Core	Harvester	{"msg":"#CLAvengerReconciler: creating CLAvengerScannerReconciledInformation", "reconciledInformation.description":<private>}	
+00:46.714.237	Default	locationd (74)	com.apple.locationd.Core	Harvester	{"msg":"onAvengerAdvertisementDetected: got avenger advertisement", "subHarvester":11}	
+00:46.714.269	Debug	bluetoothd (94)	com.apple.bluetooth	Server.App	moreAvailable=0, isFromADVBuffer=0	
+00:46.714.296	Default	locationd (74)	com.apple.locationd.Core	Harvester	{"msg":"convertToSPAdvertisement", "address":<private>, "data":<private>, "date":<private>, "rssi":<private>, "status":<private>, "reserved":<private>, "subHarvester":11}	
+00:46.714.394	Default	locationd (74)	com.apple.locationd.Core	Harvester	{"msg":"onAvengerAdvertisementDetected: advertisement is near-owner from other people and do not process it", "subHarvester":11}	
+00:46.714.563	Debug	bluetoothd (94)	com.apple.bluetooth	Server.LE.Scan	No match found for device "3083EB79-724B-1BF9-3342-0DAEEEF73D02"	
+00:46.714.688	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.714.692	Debug	bluetoothd (94)	com.apple.bluetooth	Server.LE.Scan	Show dup for given rule with puck type 0x12	
+00:46.714.715	Debug	locationd (74)	com.apple.locationd.Core	AvengerScanner	{"msg":"didDiscoverPeripheral", "ClientId":CLTrackingAvoidanceService, "peripheral":<private>, "advertisementData":<private>}	
+00:46.714.856	Debug	locationd (74)	com.apple.locationd.Core	Harvester	{"msg":"#CLAvengerReconciler advertisement reconciled: ", "ownerUUID":<private>, "nonownerUUID":<private>, "address":<private>, "uuidMap":<private>}	
+00:46.714.862	Info	bluetoothd (94)	com.apple.bluetooth	Server.LE.Scan	Device "3083EB79-724B-1BF9-3342-0DAEEEF73D02" matched MFG data	
+00:46.715.026	Debug	locationd (74)	com.apple.locationd.Core	Harvester	{"msg":"#CLAvengerReconciler: creating CLAvengerScannerReconciledInformation", "reconciledInformation.description":<private>}	
+00:46.715.032	Debug	bluetoothd (94)	com.apple.bluetooth	Server.LE.Scan	doesDeviceMatch: fAdvDataMap size:96 fMaxNumOfReportsInMap:200 fAdvDataMap size:96 Puck?:1 roomInMap:1	
+00:46.715.144	Debug	locationd (74)	com.apple.locationd.Position	TrackingAvoidance	#ut received advertisement	
+00:46.715.179	Debug	bluetoothd (94)	com.apple.bluetooth	Server.XPC	createXpcAdvData sending data:<private> length:6 originalLength:6 lenError:0	
+00:46.715.267	Debug	locationd (74)	com.apple.locationd.Position	GeneralCLX	TaMetricEvent, onAvengerAdvertisement, id, <private>, <private>, <private>, 3	
+00:46.715.306	Debug	bluetoothd (94)	com.apple.bluetooth	Server.App	moreAvailable=0, isFromADVBuffer=0	
+00:46.715.491	Default	locationd (74)	com.apple.tracking-avoidance	Events	<private>	
+00:46.715.646	Debug	bluetoothd (94)	com.apple.bluetooth	Server.LE.Scan	No match found for device "3083EB79-724B-1BF9-3342-0DAEEEF73D02"	
+00:46.715.754	Debug	bluetoothd (94)	com.apple.bluetooth	Server.LE.Scan	Agents: com.apple.locationd-central-74-54 hashedUUIDs=0 Nbmatchrules=1 ServiceUUID=2 | com.apple.locationd-central-74-62 hashedUUIDs=0 Nbmatchrules=1 ServiceUUID=2 | com.apple.locationd-central-74-69 hashedUUIDs=0 Nbmatchrules=1 ServiceUUID=2 | com.apple.locationd-central-74-124 hashedUUIDs=0 Nbmatchrules=1 ServiceUUID=2 | 	
+00:46.715.769	Debug	locationd (74)	com.apple.locationd.Core	AvengerScanner	{"msg":"didDiscoverPeripheral", "ClientId":CLAvengerObservationReporterService, "peripheral":<private>, "advertisementData":<private>}	
+00:46.715.868	Debug	locationd (74)	com.apple.tracking-avoidance	Status	#TAStore not adding TASPAdvertisement due to owner advertisement type:<private>	
+00:46.715.985	Debug	locationd (74)	com.apple.locationd.Core	Harvester	{"msg":"#CLAvengerReconciler advertisement reconciled: ", "ownerUUID":<private>, "nonownerUUID":<private>, "address":<private>, "uuidMap":<private>}	
+00:46.716.023	Debug	bluetoothd (94)	com.apple.CFBundle	strings	Bundle: <private>, key: bt_type_generic, value: , table: CBLocalizable, localizationNames: , result: Bluetooth Device	
+00:46.716.098	Debug	locationd (74)	com.apple.locationd.Core	Harvester	{"msg":"#CLAvengerReconciler: creating CLAvengerScannerReconciledInformation", "reconciledInformation.description":<private>}	
+00:46.716.275	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.716.557	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.717.252	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.718.044	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.718.631	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.719.450	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.720.080	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.720.913	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.721.620	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.722.525	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.723.104	Debug	DTServiceHub (360)	DVTInstrumentsFoundation	Default	Data Size: 100,956, Rows Sent: 1,227, Stack depth: 2,026	
+00:46.723.253	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.724.045	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.724.485	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.725.269	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.726.926	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.727.477	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.728.163	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.728.809	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.729.541	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.730.301	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.730.578	Default	Unknown (0)	AppleT8140	Default	AppleH17PPlatformErrorHandler::_dcsWritePTD: 112109103114 3 offset f00 @ <private>[0x3003d0f00] <- 8
+
+	
+00:46.730.596	Default	Unknown (0)	AppleT8140	Default	AppleH17PPlatformErrorHandler::_dcsHandleDCSOdtsEvent: Reset _dcsOdtsBelowThresholdCount to 0
+
+	
+00:46.730.600	Default	Unknown (0)	AppleT8140	Default	AppleH17PPlatformErrorHandler::_dcsHandleDCSOdtsEvent: start next polling
+
+	
+00:46.731.038	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.731.824	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.732.544	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.733.225	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.733.998	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.734.663	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.735.427	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.737.029	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.737.181	Debug	backboardd (68)	com.apple.BackBoard	MotionEvents	Motion event usagePage:0xff0c usage:1 	
+00:46.737.381	Info	locationd (74)	com.apple.locationd.Motion	AOP	{"msg":"received AOP log", "log":72 Bytes}	
+00:46.737.604	Debug	backboardd (68)	com.apple.CoreBrightness.ColourSensorFilterPlugin	default	Color: X=144.1082(45.8711) Y=136.9054(43.5783) Z=51.7908(16.4855) 
+	
+00:46.737.688	Default	backboardd (68)	com.apple.CoreBrightness.ColourSensorFilterPlugin	default	[ALS] ts=48,716.1782 lux=153.2495<private> xy=(0.4330 0.4114) chs=[880.0000 2,401.0000 6,066.0000 8,837.0000 9,275.0000] CCT1=3,263.0903 gain=512x mode=<private> subsamples=24 rawLux=159.4847 nits=1,083 xTalk=[9 18 34 46 61] status=0xb copyEvent=0	
+00:46.737.717	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.737.861	Debug	backboardd (68)	com.apple.CoreBrightness.CBColorModule.Primary	default	key=ALSIntegrationMode result=	
+00:46.737.871	Debug	locationd (74)	com.apple.locationd.Position	Position	AmbientLight,DecisionTree,x,161.3122,y,153.2495,z,57.9736,out,3	
+00:46.737.907	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[4]: 	
+00:46.737.919	Debug	locationd (74)	com.apple.locationd.Position	Position	AmbientLightDecisionTreeOutput,3	
+00:46.737.940	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[2]: ALSIntegrationMode	
+00:46.737.946	Debug	locationd (74)	com.apple.locationd.Position	Position	LocationController,gnssPredictedAvailability,0,probability,0.2000,timestamp,349,914.6844,lastPredictionTimestamp,349,913.6842,propagation_us,719,086.5417	
+00:46.737.975	Debug	locationd (74)	com.apple.locationd.Core	Notifier	{"msg":"notifyClientsWithData", "event":activity, "name":controller, "notification":36}	
+00:46.737.977	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[2]: ALSIntegrationMode result=3	
+00:46.738.006	Debug	backboardd (68)	com.apple.CoreBrightness.CBABModuleiOS	default	key=ALSIntegrationMode result=3	
+00:46.738.034	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayContaineriOS	BuiltIn	key=ALSIntegrationMode result=3	
+00:46.738.051	Info	locationd (74)	com.apple.locationd.Position	Position	BaroAlt,time,349,914.6846,getGpsTimeDerivedCFAbsoluteTimeOrSystemTime,success,0,cfAbsTime,753,594,901.6764	
+00:46.738.067	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[4]: _plugInEnabled=1	
+00:46.738.090	Info	locationd (74)	com.apple.locationd.Position	Position	#CLPDM,isPressureAvailableForLocation,<private>	
+00:46.738.094	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[4]: 0xdb4ccd900 0xdb58357a0	
+00:46.738.130	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[10]: 153.2495 	
+00:46.738.156	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[10]: als->_Esensor_device=153.2495	
+00:46.738.165	Debug	locationd (74)	com.apple.locationd.Position	Outdoor	GnssAvailabilityPredictor,startTime,<private>,mctTime,<private>,measSource,<private>,state,<private>,stateProbability,<private>	
+00:46.738.235	Debug	backboardd (68)	com.apple.CoreBrightness.CBALSEvent	default	Tristimulus values: XYZ[0]=51.3473, XYZ[1]=48.7808, XYZ[2]=18.4536 | CCT1=3,263.0903	
+00:46.738.361	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[2]: _luxFilter=3 als->_Ehistory_max=8	
+00:46.738.420	Info	locationd (74)	com.apple.locationd.Position	Position	#CLPDM,Pressure not available at location	
+00:46.738.442	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.738.452	Info	locationd (74)	com.apple.locationd.Position	Position	BaroAlt,#Warning,Als Baro,pressure not available at location	
+00:46.738.470	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[10]: Median filter computed on 8 samples	
+00:46.738.521	Info	locationd (74)	com.apple.locationd.Position	Gnss	BaroAlt,#Warning,Outdoor calibration trigger disabled or AVL file not available	
+00:46.738.571	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	Median filter computed on 8 samples	
+00:46.738.674	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[10]: ts=48,716.1797 Esensor=153.8526 Emedian=155.0629	
+00:46.738.813	Info	backboardd (68)	com.apple.CoreBrightness.AABRear.CBRearALSModule	default	Copy Grimaldi Lux = 31.03788	
+00:46.739.015	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	E 155.0629, Ecapped 155.0629, EmaxCap -1.0000 => finalE 155.0629	
+00:46.739.168	Debug	backboardd (68)	com.apple.CoreBrightness.AABRear	default	AABRear: shouldUseRearLuxFrontLux called with (fLux:155.0629, rLux:31.0379, cap: 1,862.1151)	
+00:46.739.334	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.739.353	Debug	backboardd (68)	com.apple.CoreBrightness.AABRear	default	AABRear: using rear? 0	
+00:46.739.636	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	E 155.0629, Ecapped 155.0629, EmaxCap -1.0000 => finalE 155.0629	
+00:46.739.768	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayContaineriOS	BuiltIn	Notification block key=RLuxStats, value=<private>
+	
+00:46.739.901	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	Handle notification for key = RLuxStats and property = <private>	
+00:46.740.066	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[10]: _Esensor_filtered=155.0629 _Esensor_trusted=155.0629 _Esensor_aggregated=155.0629	
+00:46.740.207	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[10]: _Esensor_trusted=155.0629 _state=kAABStateAutoBrightness _proxState=kProxNone _touchIsObstucted=0 _settings._internal._dimPolicy=kDimPolicyFullDimming 3 _orientation=kIOHIDDisplayOrientationTypeAmbiguous	
+00:46.740.344	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	E 155.0629, Ecapped 155.0629, EmaxCap -1.0000 => finalE 155.0629	
+00:46.740.450	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.740.532	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[1/1] Esensor_device: 153.2495 als->_Esensor_filtered: 155.0629 _Esensor_trusted: 155.0629  L: 191.6835 L_reflected: 0.9872	
+00:46.740.595	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[10]: dimRestriction=kDimRestrictionUnrestricted	
+00:46.740.637	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[4]: 	
+00:46.740.740	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[200]: inputs: L=191.6835 (shouldRamp=true dimRestriction=kDimRestrictionUnrestricted _Esensor_trusted=155.0629) curveChanged=0	
+00:46.740.849	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[200]: _fastRampMode=0 dimRestriction=kDimRestrictionUnrestricted L_newtarget=191.6835 _L_current=76.2887 _L_minimum=191.6835	
+00:46.740.946	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	PLT	shallUpdateBacklight: Pstart=0.7645 Pcurrent=0.7645 Pnewtarget=0.7545 Pdelta=-0.0100 Pthreshold_dim=0.0500 (0.1000 * 0.5000) Pthreshold_brighten=0.1000 (0.1000 * 1.0000) plt_x=0.2500 plt_y=0.3700 plt_z=0.1000	
+00:46.740.948	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.741.054	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[200]: _L_target=205.5501 Pnewtarget=0.7545 Ptarget=0.7645 Pdelta=-0.0100  	
+00:46.741.107	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[200]: systemShallUpdateBacklight=false L_target=191.6835 timeConstant=0.0000	
+00:46.741.287	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=RLuxStats value=<private>	
+00:46.741.297	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.741.423	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=RLuxStats property=<private>	
+00:46.741.508	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	passed for client 58881740544	
+00:46.741.631	Debug	backboardd (68)	com.apple.CoreBrightness.CBALSEvent	default	Tristimulus values: XYZ[0]=51.3473, XYZ[1]=48.7808, XYZ[2]=18.4536 | CCT1=3,263.0903	
+00:46.741.651	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=<private> value=<private>	
+00:46.741.683	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=<private> property=<private>	
+00:46.741.856	Debug	PerfPowerServices (1452)	com.apple.CoreBrightness	default	key=<private> property=<private> queue=0x97ede5100 clientBlock=0x97e365e90	
+00:46.741.860	Debug	backboardd (68)	com.apple.CoreBrightness.CBALSNode	default	<private>	
+00:46.742.039	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.742.051	Info	PerfPowerServices (1452)	com.apple.CoreBrightness.BSCI	default	use_synchronous_remote=1	
+00:46.742.170	Default	PerfPowerServices (1452)	com.apple.xpc	connection	[0x97ef066c0] activating connection: mach=1 listener=0 peer=0 name=com.apple.backlightd	
+00:46.742.276	Debug	backboardd (68)	com.apple.CoreBrightness.CBBrightestALSFilter	default	ALS events <private>	
+00:46.742.413	Default	PerfPowerServices (1452)	com.apple.CoreBrightness	default	Register notification block	
+00:46.742.666	Info	backboardd (68)	com.apple.CoreBrightness.CBColorPolicyFilter	default	HarmonyPolicy: Sample IS  from mitigated region	
+00:46.742.687	Default	backboardd (68)	com.apple.xpc	connection	[0xdb508a080] activating connection: mach=0 listener=0 peer=1 name=com.apple.backlightd.peer[1452].0xdb508a080	
+00:46.742.831	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.742.954	Info	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	client=58903571392 key=<private>	
+00:46.743.211	Info	backboardd (68)	com.apple.CoreBrightness.CBColorPolicyFilter	default	HarmonyPolicy: BaselineHarmony: mitigatedStr, for (lux, nits): 153.0000, 1,083.0000 = 0.1100 (rounded)	
+00:46.743.310	Info	backboardd (68)	com.apple.CoreBrightness.CBColorPolicyFilter	default	HarmonyPolicy: Sample IS NOT from CE region	
+00:46.743.391	Info	backboardd (68)	com.apple.CoreBrightness.CBColorPolicyFilter	default	HarmonyPolicy: Incoming ALS sample, pushed to queue: <private>	
+00:46.743.486	Info	backboardd (68)	com.apple.CoreBrightness.CBColorPolicyFilter	default	HarmonyPolicy: _filteredALS: <private>, _filtered strength: 0.2700	
+00:46.743.528	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.743.557	Debug	backboardd (68)	com.apple.CoreBrightness.CBColorModule.Primary	default	ALS event with orientation = 1	
+00:46.743.639	Info	backboardd (68)	com.apple.CoreBrightness.CBColorModule.Primary	default	HarmonyPolicy: Using Baseline	
+00:46.743.723	Debug	backboardd (68)	com.apple.CoreBrightness.CBColorModule.Primary	default	input ambient color sample: xy = (0.4330;0.4114)	
+00:46.743.808	Debug	backboardd (68)	CoreBrightness	Default	LOWLUX 48.7808
+	
+00:46.743.845	Debug	backboardd (68)	CoreBrightness	Default	[ColorEffects.c:_CFXRestrictLowAmbientColor] xy=(0.4330,0.4114), CCT = 3,131.0000, CCT1 = 3,263.0903	
+00:46.743.876	Debug	backboardd (68)	CoreBrightness	Default	Restrict: (17.2995, 17.2995) -> (13.6311, 46.8095)
+	
+00:46.743.913	Debug	backboardd (68)	CoreBrightness	Default	61.8743 17.2995 59.4067 -> ANGLE 1.6801 -> BIN 2	
+00:46.743.942	Debug	backboardd (68)	CoreBrightness	Default	BIN 13: (0.4330, 0.4114) fitting in (0.4562, 0.4260)-(0.4373, 0.3893)-(0.4303, 0.4173)
+	
+00:46.744.001	Info	backboardd (68)	com.apple.CoreBrightness.CBColorModule.Primary	default	Set ambient color sample ALS event = [Orientation = 1; Illuminance = 153.000000; xy = (0.433012,0.411369); XYZ = (51.347267,48.780819,18.453585); CCT1 = 3263.090332; Integration time = 0.002906; Gain = 33554432; Obstructed = 0; First = 0, mitigation = 1, timestamp = 87761772]	
+00:46.744.056	Debug	backboardd (68)	com.apple.CoreBrightness.CBColorModule.Primary	default	key=<private> result=<private>	
+00:46.744.087	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayContaineriOS	BuiltIn	key=<private> result=<private>	
+00:46.744.112	Info	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=<private> result=<private>	
+00:46.744.230	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.744.417	Debug	PerfPowerServices (1452)	com.apple.CoreBrightness.Client	Default	BSC dealloc	
+00:46.744.462	Default	PerfPowerServices (1452)	com.apple.CoreBrightness	default	Register notification block	
+00:46.744.504	Default	PerfPowerServices (1452)	com.apple.xpc	connection	[0x97ef066c0] invalidated because the current process cancelled the connection by calling xpc_connection_cancel()	
+00:46.744.533	Default	backboardd (68)	com.apple.xpc	connection	[0xdb508a080] invalidated because the client process (pid 1,452) either cancelled the connection or exited	
+00:46.744.552	Debug	PerfPowerServices (1452)	com.apple.powerlog	display	Received notification for CBrLuxStats: <private>	
+00:46.744.604	Debug	PerfPowerServices (1452)	com.apple.CoreBrightness.BSCI	default	BSCI dealloc	
+00:46.744.629	Default	PerfPowerServices (1452)	com.apple.CoreBrightness	default	Register notification block	
+00:46.744.881	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.745.558	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.746.840	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.747.114	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.747.829	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.748.546	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.749.143	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.749.870	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.750.600	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.751.336	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.752.145	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.752.835	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.753.634	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.754.382	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.760.587	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.761.197	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.761.627	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.762.474	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.763.126	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.763.772	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.765.654	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.766.107	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.766.824	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.767.764	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.768.175	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.768.948	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.769.575	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.770.328	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.771.047	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.771.808	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.772.791	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.773.542	Default	MonoProxyTunnel (390)	com.apple.containermanager	unspecified	container_create_or_lookup_app_group_path_by_app_group_identifier: success	
+00:46.773.877	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.774.132	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.774.714	Debug	MonoProxyTunnel (390)	com.apple.CFBundle	resources	Resource lookup at <private>
+	Request       : InfoPlist type: strings
+	Result        : None
+	
+00:46.774.776	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.774.810	Debug	MonoProxyTunnel (390)	com.apple.CFBundle	resources	Resource lookup at <private>
+	Request       : InfoPlist type: stringsdict
+	Result        : None
+	
+00:46.775.580	Debug	backboardd (68)	com.apple.BackBoard	MotionEvents	Motion event usagePage:0xff0c usage:1 	
+00:46.775.729	Debug	locationd (74)	com.apple.locationd.Motion	AOP	MotionCoprocessor received TimeSync data machTimestamp,<private>,oscarTimestamp,<private>	
+00:46.776.623	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.776.923	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.777.676	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.778.365	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.778.976	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.779.813	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.780.568	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.781.219	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.781.980	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.782.695	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.783.421	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.784.131	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.784.846	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.786.452	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.787.057	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.787.815	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.788.520	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.789.322	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.790.079	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.790.842	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.791.659	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.792.224	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.792.887	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.793.964	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.794.353	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.795.065	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.796.949	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.797.349	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.798.183	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.798.889	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.799.583	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.800.274	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.800.992	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.801.676	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.802.431	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.803.158	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.803.913	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.804.610	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.805.391	Default	cameracaptured (66)	com.apple.coremedia.CMCapture.FigCaptureMemoryReporter		m11:43,921, m12:44,145, m21:4,491,264, m22:33,104, m23:1,151,840, m24:1,146,784, m25:981,008	
+00:46.806.902	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.808.094	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.808.448	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.808.801	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.809.092	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.809.823	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.810.485	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.811.162	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.811.842	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.812.538	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.813.262	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.813.985	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.815.553	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.816.177	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.816.911	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.817.651	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.818.413	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.819.067	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.819.845	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.820.554	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.821.224	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.821.997	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.822.796	Debug	DTServiceHub (360)	DVTInstrumentsFoundation	Default	Data Size: 101,300, Rows Sent: 1,297, Stack depth: 2,075	
+00:46.822.867	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.823.619	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.824.382	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.826.001	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.826.412	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.827.093	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.827.909	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.828.613	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.829.395	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.830.181	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.830.954	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.831.628	Default	Unknown (0)	AppleT8140	Default	AppleH17PPlatformErrorHandler::_dcsWritePTD: 112109103114 3 offset f00 @ <private>[0x3003d0f00] <- 8
+
+	
+00:46.831.665	Default	Unknown (0)	AppleT8140	Default	AppleH17PPlatformErrorHandler::_dcsHandleDCSOdtsEvent: Reset _dcsOdtsBelowThresholdCount to 0
+
+	

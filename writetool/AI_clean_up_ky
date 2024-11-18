@@ -1,0 +1,1000 @@
+00:46.197.022	Default	MonoProxyTunnel (390)	com.apple.network	path	nw_path_libinfo_path_check [AD2C1068-D1FE-4C81-A34E-390BAEAA9A7A IPv4#a1082bf4:995 tcp, legacy-socket, attribution: developer]
+	libinfo check path: unsatisfied (Path was denied by NECP policy), interface: utun5, ipv4	
+00:46.197.081	Debug	MonoProxyTunnel (390)	com.apple.network		-[NWConcrete_nw_path_evaluator dealloc] 16 Bytes	
+00:46.197.167	Debug	MonoProxyTunnel (390)	com.apple.network		-[NWConcrete_nw_path_evaluator dealloc] 16 Bytes	
+00:46.197.187	Debug	MonoProxyTunnel (390)	com.apple.network.libinfo	getaddrinfo	nat64_v4_synthesize(0, 737,877,104, ...) returned 0	
+00:46.197.540	Default	mediaplaybackd (278)	com.apple.coremedia		<<<< FigExportCommmon >>>> assetReaderTrack_Invalidate: (0x62a59ff00)	
+00:46.197.632	Debug	ind (194)	com.apple.network	connection	nw_socket_handle_socket_event [C40.1.1.1.1:4] Event mask: 2	
+00:46.197.660	Default	ind (194)	com.apple.network	connection	nw_socket_handle_socket_event [C40.1.1.1.1:4] Socket received READ_CLOSE event	
+00:46.197.684	Info	ind (194)	com.apple.network		nw_http_connect_restart_after_disconnect [C40.1.1.1.1:3] Waiting to restart after disconnect	
+00:46.197.716	Info	ind (194)	com.apple.network		nw_http_connect_restart_after_disconnect_block_invoke [C40.1.1.1.1:3] Finished waiting to restart after disconnect	
+00:46.197.729	Info	ind (194)	com.apple.network		nw_http_connect_restart_after_disconnect_block_invoke [C40.1.1.1.1:3] Not restarting because no response bytes were received	
+00:46.197.743	Default	ind (194)	com.apple.network	boringssl	nw_protocol_boringssl_error(1,973) [C40.1.1.1.1:2][0x5661b9a00] Lower protocol stack error pre TLS handshake. [22: <private>]	
+00:46.197.768	Info	ind (194)	com.apple.network	connection	nw_flow_error [C40.1.1.1.1 ::1.49313 in_progress socket-flow (satisfied (Path is satisfied), viable, interface: lo0)] Output protocol (http_connect) sent error: Invalid argument	
+00:46.197.863	Debug	ind (194)	com.apple.CFNetwork	Default	Applying proxy auth: response=, proxyURL=, request=, credentials=, handle=0x566325980	
+00:46.197.875	Default	Unknown (0)	AppleARMIISAudio	Default	- Flicker stopTransport ret=success(0)	
+00:46.197.887	Default	Unknown (0)	AppleARMIISAudio	Default	- Flicker::stopIOEngineGated() ret=success(0)	
+00:46.197.891	Default	Unknown (0)	AppleEmbeddedAudio	Default	Flicker: off
+	
+00:46.197.903	Default	audiomxd (105)	CoreAudio	Default	HALS_IOA2Device.cpp:2,266  HALS_IOA2Device::IOAudio2DeviceNotificationPortMessageHandler: <private>|86 +++++++++------>	
+00:46.197.956	Default	audiomxd (105)	CoreAudio	Default	HALS_IOA2Device.cpp:2,343  HALS_IOA2Device::IOAudio2DeviceNotificationPortMessageHandler: <private>|86 <------+++++++++	
+00:46.198.000	Default	audiomxd (105)	CoreAudio	Default	HALS_IOContext_Legacy_Impl.cpp:2,013  IO Stopped Context 133 after 9,216 frames.	
+00:46.198.057	Default	audiomxd (105)	CoreAudio	Default	HALS_IOContext_Legacy_Impl.cpp:2,037  HALS_IOContext_Legacy_Impl::IOWorkLoopDeinit: 133 Flicker (VAD [vhaw] AggDev 3): stopping with error 0	
+00:46.198.059	Default	audiomxd (105)	CoreAudio	Default	HALB_PowerAssertion.cpp:157  HALB_PowerAssertion::Release: releasing power assertion ID 32,775 of type 'PreventUserIdleSystemSleep' with name: 'com.apple.audio.VAD [vhaw] AggDev 3.context.preventuseridlesleep' taken at <private> for 0.2281 seconds	
+00:46.198.208	Debug	ind (194)	com.apple.network	boringssl	boringssl_bio_destroy(196) 	
+00:46.198.302	Debug	ind (194)	com.apple.network		nw_path_flow_registration_close Removed flow F9C39723-1B63-4733-AE81-85CEDF25D79E from D7223640-95EA-4224-8C50-5E4A39FA7506	
+00:46.198.338	Error	ind (194)	com.apple.network	connection	nw_endpoint_flow_failed_with_error [C40.1.1.1.1 ::1.49313 in_progress socket-flow (satisfied (Path is satisfied), viable, interface: lo0)] already failing, returning	
+00:46.198.362	Debug	ind (194)	com.apple.network	connection	nw_endpoint_resolver_receive_report [C40.1.1.1 localhost:49313 in_progress resolver (satisfied (Path is satisfied), interface: lo0)] received child report: [C40.1.1.1.1 ::1.49313 failed socket-flow (satisfied (Path is satisfied), viable, interface: lo0)] 	
+00:46.198.384	Debug	ind (194)	com.apple.network	connection	nw_endpoint_proxy_receive_report [C40.1.1 Hostname#ff1a03f4:443 in_progress proxy (satisfied (Path is satisfied), interface: utun5, ipv4, dns, proxy)] received child report: [C40.1.1.1.1 ::1.49313 failed socket-flow (satisfied (Path is satisfied), viable, interface: lo0)] 	
+00:46.198.388	Debug	audiomxd (105)	com.apple.coreaudio	aqme	AQMEIO_HAL.cpp:3,469 aqmeio@0x4af3b4f00 IsRunning 0	
+00:46.198.725	Debug	ind (194)	com.apple.network	connection	nw_endpoint_transform_receive_report [C40.1 Hostname#ff1a03f4:443 in_progress transform (satisfied (Path is satisfied), interface: utun5, ipv4, dns, proxy)] received child report: [C40.1.1.1.1 ::1.49313 failed socket-flow (satisfied (Path is satisfied), viable, interface: lo0)] 	
+00:46.198.747	Debug	ind (194)	com.apple.network	connection	nw_endpoint_flow_receive_report [C40 Hostname#ff1a03f4:443 in_progress parent-flow (satisfied (Path is satisfied), interface: utun5, ipv4, dns, proxy)] received child report: [C40.1.1.1.1 ::1.49313 failed socket-flow (satisfied (Path is satisfied), viable, interface: lo0)] 	
+00:46.198.825	Default	ind (194)	com.apple.network	connection	[C40.1.1.1.1 ::1.49313 failed socket-flow (satisfied (Path is satisfied), viable, interface: lo0)] event: flow:failed_connect @0.11s, error Invalid argument	
+00:46.198.836	Default	audiomxd (105)	com.apple.coreaudio	va_vadevc	VirtualAudio_IONotificationManager.cpp:184 UpdateAndNotify() - need to notify I/O state = 1 new I/O running state = 0 previous I/O running state = 1	
+00:46.198.864	Default	audiomxd (105)	com.apple.coreaudio	va_vadevc	VirtualAudio_IONotificationManager.cpp:192 Sending notification "com.apple.coreaudio.IORunning" of I/O running state 0 forced notification = 0	
+00:46.198.973	Debug	ind (194)	com.apple.network		nw_connection_report_symptom_internal_on_nw_queue Symptom sent: Connection failed after setup(67010)	
+00:46.199.006	Info	ind (194)	com.apple.network	connection	nw_connection_report_symptom_on_nw_queue [C40] reported Connection failed after setup symptom	
+00:46.199.126	Info	ind (194)	com.apple.network	connection	nw_endpoint_resolver_receive_report [C40.1.1.1 localhost:49313 in_progress resolver (satisfied (Path is satisfied), interface: lo0)] all started children failed, start next child.	
+00:46.199.182	Debug	symptomsd (207)	com.apple.symptomsd	transport	message from pid:194 euid:501 egid:501	
+00:46.199.317	Debug	symptomsd (207)	com.apple.symptomsd	transport	symptomConnectionIncomingData for connId 47 at 0xcd823cd14 len 60	
+00:46.199.340	Debug	symptomsd (207)	com.apple.symptomsd	transport	receivePayload: reporter libnetcore desc 0xcd823cd14 type 1 len 56 msg size 60
+	
+00:46.199.360	Debug	symptomsd (207)	com.apple.symptomsd	transport	Sending a read	
+00:46.199.371	Error	ind (194)	com.apple.network	connection	nw_endpoint_flow_failed_with_error [C40.1.1.1.1 ::1.49313 failed socket-flow (satisfied (Path is satisfied), viable, interface: lo0)] already failing, returning	
+00:46.199.381	Debug	symptomsd (207)	com.apple.symptomsd	transport	client_write called, id 47 data 0x16f3e64c0 len 24	
+00:46.199.404	Debug	ind (194)	com.apple.network	connection	nw_endpoint_resolver_receive_report [C40.1.1.1 localhost:49313 in_progress resolver (satisfied (Path is satisfied), interface: lo0)] received child report: [C40.1.1.1.1 ::1.49313 failed socket-flow (satisfied (Path is satisfied), viable, interface: lo0)] 	
+00:46.199.465	Debug	symptomsd (207)	com.apple.symptomsd	transport	message from pid:194 euid:501 egid:501	
+00:46.199.480	Debug	ind (194)	com.apple.network	connection	nw_endpoint_proxy_receive_report [C40.1.1 Hostname#ff1a03f4:443 in_progress proxy (satisfied (Path is satisfied), interface: utun5, ipv4, dns, proxy)] received child report: [C40.1.1.1.1 ::1.49313 failed socket-flow (satisfied (Path is satisfied), viable, interface: lo0)] 	
+00:46.199.488	Debug	symptomsd (207)	com.apple.symptomsd	transport	symptomConnectionIncomingData for connId 47 at 0xcd8201094 len 276	
+00:46.199.506	Debug	symptomsd (207)	com.apple.symptomsd	transport	receivePayload: reporter libnetcore desc 0xcd8201094 type 1 len 272 msg size 276
+	
+00:46.199.532	Debug	symptomsd (207)	com.apple.symptomsd	transport	Parsing additional qualifiers	
+00:46.199.549	Debug	ind (194)	com.apple.network	connection	nw_endpoint_transform_receive_report [C40.1 Hostname#ff1a03f4:443 in_progress transform (satisfied (Path is satisfied), interface: utun5, ipv4, dns, proxy)] received child report: [C40.1.1.1.1 ::1.49313 failed socket-flow (satisfied (Path is satisfied), viable, interface: lo0)] 	
+00:46.199.550	Debug	symptomsd (207)	com.apple.symptomsd	transport	receivePayload: Additional qualifier with length 36	
+00:46.199.582	Debug	symptomsd (207)	com.apple.symptomsd	transport	receivePayload: symptom qualifier type 4 with length 25	
+00:46.199.608	Debug	symptomsd (207)	com.apple.symptomsd	transport	Added qualifier at 0xcd820112c	
+00:46.199.610	Debug	ind (194)	com.apple.network	connection	nw_endpoint_flow_receive_report [C40 Hostname#ff1a03f4:443 in_progress parent-flow (satisfied (Path is satisfied), interface: utun5, ipv4, dns, proxy)] received child report: [C40.1.1.1.1 ::1.49313 failed socket-flow (satisfied (Path is satisfied), viable, interface: lo0)] 	
+00:46.199.642	Debug	symptomsd (207)	com.apple.symptomsd	transport	receivePayload: Additional qualifier with length 12	
+00:46.199.654	Debug	audiomxd (105)	com.apple.coreaudio	AMCP	196,711 HALS_IOContext_Legacy_Impl.cpp:2,046 Completed HALS_IOContext_Legacy_Impl::IOWorkLoopDeinit	
+00:46.199.692	Default	ind (194)	com.apple.network	connection	[C40.1.1.1.1 ::1.49313 failed socket-flow (satisfied (Path is satisfied), viable, interface: lo0)] event: flow:failed_connect @0.12s, error Invalid argument	
+00:46.199.802	Debug	symptomsd (207)	com.apple.symptomsd	transport	receivePayload: symptom qualifier type 10 with length 4	
+00:46.199.907	Debug	symptomsd (207)	com.apple.symptomsd	transport	Added qualifier at 0xcd8201154	
+00:46.199.910	Debug	ind (194)	com.apple.network		nw_connection_report_symptom_internal_on_nw_queue Symptom sent: Connection failed after setup(67010)	
+00:46.199.925	Info	ind (194)	com.apple.network	connection	nw_connection_report_symptom_on_nw_queue [C40] reported Connection failed after setup symptom	
+00:46.199.925	Debug	symptomsd (207)	com.apple.symptomsd	transport	receivePayload: Additional qualifier with length 12	
+00:46.199.942	Info	ind (194)	com.apple.network	connection	nw_endpoint_resolver_receive_report [C40.1.1.1 localhost:49313 in_progress resolver (satisfied (Path is satisfied), interface: lo0)] all started children failed, start next child.	
+00:46.199.969	Debug	symptomsd (207)	com.apple.symptomsd	transport	receivePayload: symptom qualifier type 3 with length 4	
+00:46.199.982	Debug	DTServiceHub (360)	DVTInstrumentsFoundation	Default	Data Size: 102,400, Rows Sent: 1,472, Stack depth: 515	
+00:46.200.079	Debug	ind (194)	com.apple.network		nw_fd_wrapper_close closed <fd_wrapper 8, guarded: true>	
+00:46.200.085	Debug	symptomsd (207)	com.apple.symptomsd	transport	Added qualifier at 0xcd8201164	
+00:46.200.100	Info	ind (194)	com.apple.network	connection	nw_endpoint_resolver_start_next_child [C40.1.1.1 localhost:49313 in_progress resolver (satisfied (Path is satisfied), interface: lo0)] starting child endpoint 127.0.0.1:49313	
+00:46.200.102	Debug	symptomsd (207)	com.apple.symptomsd	transport	receivePayload: Additional qualifier with length 24	
+00:46.200.128	Info	ind (194)	com.apple.network	connection	nw_endpoint_handler_start [C40.1.1.1.2 127.0.0.1:49313 initial path ()] 	
+00:46.200.148	Debug	symptomsd (207)	com.apple.symptomsd	transport	receivePayload: symptom qualifier type 2 with length 16	
+00:46.200.176	Debug	ind (194)	com.apple.network	connection	nw_endpoint_resolver_receive_report [C40.1.1.1 localhost:49313 in_progress resolver (satisfied (Path is satisfied), interface: lo0)] received child report: [C40.1.1.1.2 127.0.0.1:49313 initial path ()] 	
+00:46.200.194	Debug	symptomsd (207)	com.apple.symptomsd	transport	Added qualifier at 0xcd8201174	
+00:46.200.270	Debug	symptomsd (207)	com.apple.symptomsd	transport	receivePayload: Additional qualifier with length 20	
+00:46.200.285	Default	mediaplaybackd (278)	com.apple.coremedia		<<<< FigExportCommmon >>>> assetReaderTrack_Invalidate: (0x62a59c1c0)	
+00:46.200.426	Debug	ind (194)	com.apple.network	connection	nw_endpoint_proxy_receive_report [C40.1.1 Hostname#ff1a03f4:443 in_progress proxy (satisfied (Path is satisfied), interface: utun5, ipv4, dns, proxy)] received child report: [C40.1.1.1.2 127.0.0.1:49313 initial path ()] 	
+00:46.200.473	Debug	symptomsd (207)	com.apple.symptomsd	transport	receivePayload: symptom qualifier type 12 with length 10	
+00:46.200.506	Debug	ind (194)	com.apple.network	connection	nw_endpoint_transform_receive_report [C40.1 Hostname#ff1a03f4:443 in_progress transform (satisfied (Path is satisfied), interface: utun5, ipv4, dns, proxy)] received child report: [C40.1.1.1.2 127.0.0.1:49313 initial path ()] 	
+00:46.200.587	Debug	symptomsd (207)	com.apple.symptomsd	transport	Added qualifier at 0xcd8201190	
+00:46.200.617	Debug	ind (194)	com.apple.network	connection	nw_endpoint_flow_receive_report [C40 Hostname#ff1a03f4:443 in_progress parent-flow (satisfied (Path is satisfied), interface: utun5, ipv4, dns, proxy)] received child report: [C40.1.1.1.2 127.0.0.1:49313 initial path ()] 	
+00:46.200.649	Default	ind (194)	com.apple.network	connection	[C40.1.1.1.2 127.0.0.1:49313 initial path ()] event: path:start @0.13s	
+00:46.200.754	Info	symptomsd (207)	com.apple.symptomsd	other	[0.001]   194 ind              (null) SYMPTOM_LIBNETCORE_CONNECTION_FAILED     libne 00000001 000000c2 -------- -------- [3 <4 bytes>] [10 <4 bytes>] [4 <25 bytes>] [2 <16 bytes>] [12 <10 bytes>]	
+00:46.200.799	Debug	symptomsd (207)	com.apple.symptomsd	transport	Received basic symptom, event EventDescription sb at 0xcd81cfde0 from pid 194 ind SYMPTOM 0x6767010  flags 0x40000003 qual0 0x1 qual1 0xc2 key 421904 num additional quals 5	
+00:46.200.868	Debug	symptomsd (207)	com.apple.symptomsd	evaluation	Simple Processing, postIncomingEvent key 421904	
+00:46.200.948	Debug	symptomsd (207)	com.apple.symptomsd	evaluation	Call handler 0, <ConnectionFailureHandler: 0xcd8160420>	
+00:46.200.985	Debug	symptomsd (207)	com.apple.symptomsd	other	ConnectionFailureHandler: EventDescription: EventDescription sb at 0xcd81cfde0 from pid 194 ind SYMPTOM 0x6767010  flags 0x40000003 qual0 0x1 qual1 0xc2 key 421904 num additional quals 5	
+00:46.201.012	Debug	ind (194)	com.apple.network	connection	nw_endpoint_handler_path_change [C40.1.1.1.2 127.0.0.1:49313 waiting path (satisfied (Path is satisfied), interface: lo0)] 	
+00:46.201.034	Debug	ind (194)	com.apple.network	connection	nw_endpoint_resolver_receive_report [C40.1.1.1 localhost:49313 in_progress resolver (satisfied (Path is satisfied), interface: lo0)] received child report: [C40.1.1.1.2 127.0.0.1:49313 waiting path (satisfied (Path is satisfied), interface: lo0)] 	
+00:46.201.050	Debug	ind (194)	com.apple.network	connection	nw_endpoint_proxy_receive_report [C40.1.1 Hostname#ff1a03f4:443 in_progress proxy (satisfied (Path is satisfied), interface: utun5, ipv4, dns, proxy)] received child report: [C40.1.1.1.2 127.0.0.1:49313 waiting path (satisfied (Path is satisfied), interface: lo0)] 	
+00:46.201.064	Debug	ind (194)	com.apple.network	connection	nw_endpoint_transform_receive_report [C40.1 Hostname#ff1a03f4:443 in_progress transform (satisfied (Path is satisfied), interface: utun5, ipv4, dns, proxy)] received child report: [C40.1.1.1.2 127.0.0.1:49313 waiting path (satisfied (Path is satisfied), interface: lo0)] 	
+00:46.201.154	Debug	ind (194)	com.apple.network	connection	nw_endpoint_flow_receive_report [C40 Hostname#ff1a03f4:443 in_progress parent-flow (satisfied (Path is satisfied), interface: utun5, ipv4, dns, proxy)] received child report: [C40.1.1.1.2 127.0.0.1:49313 waiting path (satisfied (Path is satisfied), interface: lo0)] 	
+00:46.201.173	Default	ind (194)	com.apple.network	connection	[C40.1.1.1.2 127.0.0.1:49313 waiting path (satisfied (Path is satisfied), interface: lo0)] event: path:satisfied @0.14s, uuid: 79692D4F-1534-4619-92B6-DB6D8CF00E22	
+00:46.201.317	Info	symptomsd (207)	com.apple.symptomsd	rnf	libnetcore symptom uses effective process name: ind	
+00:46.201.346	Debug	symptomsd (207)	com.apple.symptomsd	evaluation	Converted qualifier 4 to string, was null terminated, result p68-quota.icloud.com:443	
+00:46.201.366	Debug	symptomsd (207)	com.apple.symptomsd	evaluation	Converted qualifier 10 to string, was null terminated, result \^V	
+00:46.201.375	Debug	ind (194)	com.apple.network		nw_path_evaluator_create_flow_inner Added flow BD425B17-E229-4FA8-86AF-22A20E3DB36A to 79692D4F-1534-4619-92B6-DB6D8CF00E22	
+00:46.201.391	Debug	symptomsd (207)	com.apple.symptomsd	evaluation	Converted qualifier 12 to string, was null terminated, result localhost	
+00:46.201.415	Debug	symptomsd (207)	com.apple.symptomsd	evaluation	Simple Processing, postSymptom exit
+	
+00:46.201.466	Info	ind (194)	com.apple.network	connection	nw_endpoint_flow_setup_protocols [C40.1.1.1.2 127.0.0.1:49313 in_progress socket-flow (satisfied (Path is satisfied), interface: lo0)] setup flow id BD425B17-E229-4FA8-86AF-22A20E3DB36A	
+00:46.201.510	Info	symptomsd (207)	com.apple.network		-[NWNumericAccumulator updateState:forName:] Updating state of kextsInstalled from None to None	
+00:46.201.578	Debug	ind (194)	com.apple.network	connection	nw_endpoint_flow_attach_protocols [C40.1.1.1.2 127.0.0.1:49313 in_progress socket-flow (satisfied (Path is satisfied), interface: lo0)] 	
+00:46.201.599	Debug	symptomsd (207)	com.apple.network		-[NWNumericAccumulator updateState:forName:] Updating state of kextsInstalled from None to None	
+00:46.201.634	Debug	ind (194)	com.apple.network	connection	nw_endpoint_flow_attach_protocols_block_invoke [C40.1.1.1.2 127.0.0.1:49313 in_progress socket-flow (satisfied (Path is satisfied), interface: lo0)] Attached application protocol: CFNetworkConnection-3011124920	
+00:46.201.662	Debug	ind (194)	com.apple.network	connection	nw_endpoint_flow_attach_protocols_block_invoke [C40.1.1.1.2 127.0.0.1:49313 in_progress socket-flow (satisfied (Path is satisfied), interface: lo0)] Attached application protocol: tls	
+00:46.201.676	Debug	symptomsd (207)	com.apple.symptomsd	transport	message from pid:194 euid:501 egid:501	
+00:46.201.701	Debug	symptomsd (207)	com.apple.symptomsd	transport	symptomConnectionIncomingData for connId 47 at 0xcd823cd14 len 60	
+00:46.201.738	Debug	ind (194)	com.apple.network	connection	nw_endpoint_flow_attach_protocols_block_invoke [C40.1.1.1.2 127.0.0.1:49313 in_progress socket-flow (satisfied (Path is satisfied), interface: lo0)] Attached application protocol: http_connect	
+00:46.201.758	Debug	symptomsd (207)	com.apple.symptomsd	transport	receivePayload: reporter libnetcore desc 0xcd823cd14 type 1 len 56 msg size 60
+	
+00:46.201.778	Debug	symptomsd (207)	com.apple.symptomsd	transport	Sending a read	
+00:46.201.838	Debug	symptomsd (207)	com.apple.symptomsd	transport	client_write called, id 47 data 0x16f3e64c0 len 24	
+00:46.201.907	Debug	ind (194)	com.apple.network		nw_fd_wrapper_create Created <fd_wrapper 8, guarded: false>	
+00:46.202.019	Debug	symptomsd (207)	com.apple.network		-[NWNumericAccumulator addCount:toAccumulation:]_block_invoke New value for <private>: 7911 (+1), states: <private>	
+00:46.202.235	Debug	symptomsd (207)	com.apple.symptomsd	transport	message from pid:194 euid:501 egid:501	
+00:46.202.246	Debug	ind (194)	com.apple.network	connection	nw_protocol_socket_set_necp_attributes [C40.1.1.1.2:4] setsockopt 8 SO_NECP_ATTRIBUTES
+parameters: tcp, tls, attribution: developer, context: com.apple.CFNetwork.NSURLSession.{288CA7B9-CE5D-479A-BFBA-9B42349CD902}{(null)}{Y}{2}{0x0} (private), proc: 622B72E7-CEE2-3C2B-B6F6-AEE607963A13, no transport, endpoint: 127.0.0.1:49313  
+<private>	
+00:46.202.287	Debug	ind (194)	com.apple.network	connection	nw_endpoint_flow_attach_protocols [C40.1.1.1.2 127.0.0.1:49313 in_progress socket-flow (satisfied (Path is satisfied), interface: lo0)] Attached socket protocol	
+00:46.202.336	Debug	symptomsd (207)	com.apple.symptomsd	transport	symptomConnectionIncomingData for connId 47 at 0xcd8201094 len 276	
+00:46.202.398	Debug	ind (194)	com.apple.network	connection	nw_endpoint_flow_setup_protocols [C40.1.1.1.2 127.0.0.1:49313 in_progress socket-flow (satisfied (Path is satisfied), interface: lo0)] leaf flow starting	
+00:46.202.475	Debug	ind (194)	com.apple.network	connection	nw_endpoint_resolver_receive_report [C40.1.1.1 localhost:49313 in_progress resolver (satisfied (Path is satisfied), interface: lo0)] received child report: [C40.1.1.1.2 127.0.0.1:49313 in_progress socket-flow (satisfied (Path is satisfied), interface: lo0)] 	
+00:46.202.507	Debug	symptomsd (207)	com.apple.symptomsd	transport	receivePayload: reporter libnetcore desc 0xcd8201094 type 1 len 272 msg size 276
+	
+00:46.202.535	Debug	ind (194)	com.apple.network	connection	nw_endpoint_proxy_receive_report [C40.1.1 Hostname#ff1a03f4:443 in_progress proxy (satisfied (Path is satisfied), interface: utun5, ipv4, dns, proxy)] received child report: [C40.1.1.1.2 127.0.0.1:49313 in_progress socket-flow (satisfied (Path is satisfied), interface: lo0)] 	
+00:46.202.561	Debug	symptomsd (207)	com.apple.symptomsd	transport	Parsing additional qualifiers	
+00:46.202.621	Debug	ind (194)	com.apple.network	connection	nw_endpoint_transform_receive_report [C40.1 Hostname#ff1a03f4:443 in_progress transform (satisfied (Path is satisfied), interface: utun5, ipv4, dns, proxy)] received child report: [C40.1.1.1.2 127.0.0.1:49313 in_progress socket-flow (satisfied (Path is satisfied), interface: lo0)] 	
+00:46.202.664	Debug	symptomsd (207)	com.apple.symptomsd	transport	receivePayload: Additional qualifier with length 36	
+00:46.202.673	Debug	ind (194)	com.apple.network	connection	nw_endpoint_flow_receive_report [C40 Hostname#ff1a03f4:443 in_progress parent-flow (satisfied (Path is satisfied), interface: utun5, ipv4, dns, proxy)] received child report: [C40.1.1.1.2 127.0.0.1:49313 in_progress socket-flow (satisfied (Path is satisfied), interface: lo0)] 	
+00:46.202.713	Debug	symptomsd (207)	com.apple.symptomsd	transport	receivePayload: symptom qualifier type 4 with length 25	
+00:46.202.729	Default	ind (194)	com.apple.network	connection	[C40.1.1.1.2 127.0.0.1:49313 in_progress socket-flow (satisfied (Path is satisfied), interface: lo0)] event: flow:start_connect @0.15s	
+00:46.202.761	Info	ind (194)	com.apple.network	boringssl	boringssl_context_restore_ssl_context(2,632) [0x5661b8200] New context	
+00:46.202.789	Debug	symptomsd (207)	com.apple.symptomsd	transport	Added qualifier at 0xcd820112c	
+00:46.202.809	Debug	symptomsd (207)	com.apple.symptomsd	transport	receivePayload: Additional qualifier with length 12	
+00:46.202.825	Debug	ind (194)	com.apple.network	connection	nw_socket_connect [C40.1.1.1.2:4] Calling connectx(8, [srcif=0, srcaddr=0 Bytes, dstaddr=<private>], SAE_ASSOCID_ANY, 0, NULL, 0, NULL, SAE_CONNID_ANY)	
+00:46.202.854	Debug	symptomsd (207)	com.apple.symptomsd	transport	receivePayload: symptom qualifier type 10 with length 4	
+00:46.202.924	Debug	symptomsd (207)	com.apple.symptomsd	transport	Added qualifier at 0xcd8201154	
+00:46.202.941	Debug	symptomsd (207)	com.apple.symptomsd	transport	receivePayload: Additional qualifier with length 12	
+00:46.202.996	Info	ind (194)	com.apple.network	connection	nw_endpoint_resolver_start_next_child [C40.1.1.1 localhost:49313 in_progress resolver (satisfied (Path is satisfied), interface: lo0)] starting next child endpoint in 250ms	
+00:46.203.063	Debug	ind (194)	com.apple.network	connection	nw_endpoint_resolver_start_next_child [C40.1.1.1 localhost:49313 in_progress resolver (satisfied (Path is satisfied), interface: lo0)] no child at index 2	
+00:46.203.100	Debug	symptomsd (207)	com.apple.symptomsd	transport	receivePayload: symptom qualifier type 3 with length 4	
+00:46.203.120	Debug	symptomsd (207)	com.apple.symptomsd	transport	Added qualifier at 0xcd8201164	
+00:46.203.135	Debug	symptomsd (207)	com.apple.symptomsd	transport	receivePayload: Additional qualifier with length 24	
+00:46.203.174	Debug	symptomsd (207)	com.apple.symptomsd	transport	receivePayload: symptom qualifier type 2 with length 16	
+00:46.203.304	Debug	symptomsd (207)	com.apple.symptomsd	transport	Added qualifier at 0xcd8201174	
+00:46.203.347	Debug	ind (194)	com.apple.network	connection	nw_endpoint_handler_path_change [C40.1.1.1.2 127.0.0.1:49313 in_progress socket-flow (satisfied (Path is satisfied), viable, interface: lo0)] 	
+00:46.203.396	Debug	ind (194)	com.apple.network	connection	-[NWConcrete_nw_endpoint_flow updatePathWithHandler:] [C40.1.1.1.2 127.0.0.1:49313 in_progress socket-flow (satisfied (Path is satisfied), viable, interface: lo0)] 	
+00:46.203.524	Debug	symptomsd (207)	com.apple.symptomsd	transport	receivePayload: Additional qualifier with length 20	
+00:46.203.581	Debug	ind (194)	com.apple.network		nw_path_necp_check_for_updates Failed to copy updated result (2)	
+00:46.203.598	Debug	symptomsd (207)	com.apple.symptomsd	transport	receivePayload: symptom qualifier type 12 with length 10	
+00:46.203.611	Debug	ind (194)	com.apple.network	connection	nw_socket_handle_socket_event [C40.1.1.1.2:4] Event mask: 800	
+00:46.203.645	Debug	symptomsd (207)	com.apple.symptomsd	transport	Added qualifier at 0xcd8201190	
+00:46.203.702	Default	ind (194)	com.apple.network	connection	nw_socket_handle_socket_event [C40.1.1.1.2:4] Socket received CONNECTED event	
+00:46.203.862	Info	symptomsd (207)	com.apple.symptomsd	other	[0.003]   194 ind              (null) SYMPTOM_LIBNETCORE_CONNECTION_FAILED     libne 00000001 000000c2 -------- -------- [3 <4 bytes>] [10 <4 bytes>] [4 <25 bytes>] [2 <16 bytes>] [12 <10 bytes>]	
+00:46.203.916	Debug	symptomsd (207)	com.apple.symptomsd	transport	Received basic symptom, event EventDescription sb at 0xcd81cfde0 from pid 194 ind SYMPTOM 0x6767010  flags 0x40000003 qual0 0x1 qual1 0xc2 key 421904 num additional quals 5	
+00:46.203.935	Debug	symptomsd (207)	com.apple.symptomsd	evaluation	Simple Processing, postIncomingEvent key 421904	
+00:46.203.955	Debug	symptomsd (207)	com.apple.symptomsd	evaluation	Call handler 0, <ConnectionFailureHandler: 0xcd8160420>	
+00:46.204.012	Debug	symptomsd (207)	com.apple.symptomsd	other	ConnectionFailureHandler: EventDescription: EventDescription sb at 0xcd81cfde0 from pid 194 ind SYMPTOM 0x6767010  flags 0x40000003 qual0 0x1 qual1 0xc2 key 421904 num additional quals 5	
+00:46.204.017	Debug	ind (194)	com.apple.network	connection	nw_socket_setup_notsent_lowat [C40.1.1.1.2:4] Set TCP_NOTSENT_LOWAT(16,384)	
+00:46.204.217	Debug	ind (194)	com.apple.network		nw_http_connect_send_request [C40.1.1.1.2:3] Sending http_message 0x5660f2220	
+00:46.204.298	Info	symptomsd (207)	com.apple.symptomsd	rnf	libnetcore symptom uses effective process name: ind	
+00:46.204.327	Debug	symptomsd (207)	com.apple.symptomsd	evaluation	Converted qualifier 4 to string, was null terminated, result p68-quota.icloud.com:443	
+00:46.204.346	Debug	symptomsd (207)	com.apple.symptomsd	evaluation	Converted qualifier 10 to string, was null terminated, result \^V	
+00:46.204.367	Debug	symptomsd (207)	com.apple.symptomsd	evaluation	Converted qualifier 12 to string, was null terminated, result localhost	
+00:46.204.381	Info	ind (194)	com.apple.network		nw_http_connect_send_request [C40.1.1.1.2:3] Sent http connect request to proxy	
+00:46.204.387	Debug	symptomsd (207)	com.apple.symptomsd	evaluation	Simple Processing, postSymptom exit
+	
+00:46.204.432	Info	symptomsd (207)	com.apple.network		-[NWNumericAccumulator updateState:forName:] Updating state of kextsInstalled from None to None	
+00:46.204.447	Debug	symptomsd (207)	com.apple.network		-[NWNumericAccumulator updateState:forName:] Updating state of kextsInstalled from None to None	
+00:46.204.639	Debug	symptomsd (207)	com.apple.network		-[NWNumericAccumulator addCount:toAccumulation:]_block_invoke New value for <private>: 7912 (+1), states: <private>	
+00:46.204.696	Debug	backboardd (68)	com.apple.BackBoard	MotionEvents	Motion event usagePage:0xff0c usage:1 	
+00:46.204.858	Info	locationd (74)	com.apple.locationd.Motion	AOP	{"msg":"received AOP log", "log":72 Bytes}	
+00:46.205.842	Default	MonoProxyTunnel (390)	com.apple.network	path	nw_path_libinfo_path_check [BFA5CC04-E7C5-4114-8F96-FE43F8CF38C2 IPv4#a1082bf4:995 tcp, legacy-socket, attribution: developer]
+	libinfo check path: unsatisfied (Path was denied by NECP policy), interface: utun5, ipv4	
+00:46.205.897	Debug	MonoProxyTunnel (390)	com.apple.network		-[NWConcrete_nw_path_evaluator dealloc] 16 Bytes	
+00:46.206.019	Debug	MonoProxyTunnel (390)	com.apple.network		-[NWConcrete_nw_path_evaluator dealloc] 16 Bytes	
+00:46.206.038	Debug	MonoProxyTunnel (390)	com.apple.network.libinfo	getaddrinfo	nat64_v4_synthesize(0, 737,877,104, ...) returned 0	
+00:46.206.242	Error	mediaplaybackd (278)	com.apple.coremedia		<< FigXPC >> figXPCConnection_CallClientMessageHandlers: Client message bound for stale objectID 1cf010000004501	
+00:46.206.716	Debug	ind (194)	com.apple.network	connection	nw_socket_handle_socket_event [C40.1.1.1.2:4] Event mask: 2	
+00:46.206.766	Default	ind (194)	com.apple.network	connection	nw_socket_handle_socket_event [C40.1.1.1.2:4] Socket received READ_CLOSE event	
+00:46.206.788	Info	ind (194)	com.apple.network		nw_http_connect_restart_after_disconnect [C40.1.1.1.2:3] Waiting to restart after disconnect	
+00:46.206.825	Info	ind (194)	com.apple.network		nw_http_connect_restart_after_disconnect_block_invoke [C40.1.1.1.2:3] Finished waiting to restart after disconnect	
+00:46.206.839	Info	ind (194)	com.apple.network		nw_http_connect_restart_after_disconnect_block_invoke [C40.1.1.1.2:3] Not restarting because no response bytes were received	
+00:46.206.856	Default	ind (194)	com.apple.network	boringssl	nw_protocol_boringssl_error(1,973) [C40.1.1.1.2:2][0x5661b8200] Lower protocol stack error pre TLS handshake. [22: <private>]	
+00:46.206.885	Info	ind (194)	com.apple.network	connection	nw_flow_error [C40.1.1.1.2 127.0.0.1:49313 in_progress socket-flow (satisfied (Path is satisfied), viable, interface: lo0)] Output protocol (http_connect) sent error: Invalid argument	
+00:46.206.934	Debug	ind (194)	com.apple.CFNetwork	Default	Applying proxy auth: response=, proxyURL=, request=, credentials=, handle=0x566326880	
+00:46.207.018	Debug	ind (194)	com.apple.network	boringssl	boringssl_bio_destroy(196) 	
+00:46.207.054	Debug	ind (194)	com.apple.network		nw_path_flow_registration_close Removed flow BD425B17-E229-4FA8-86AF-22A20E3DB36A from 79692D4F-1534-4619-92B6-DB6D8CF00E22	
+00:46.207.073	Error	ind (194)	com.apple.network	connection	nw_endpoint_flow_failed_with_error [C40.1.1.1.2 127.0.0.1:49313 in_progress socket-flow (satisfied (Path is satisfied), viable, interface: lo0)] already failing, returning	
+00:46.207.102	Debug	ind (194)	com.apple.network	connection	nw_endpoint_resolver_receive_report [C40.1.1.1 localhost:49313 in_progress resolver (satisfied (Path is satisfied), interface: lo0)] received child report: [C40.1.1.1.2 127.0.0.1:49313 failed socket-flow (satisfied (Path is satisfied), viable, interface: lo0)] 	
+00:46.207.120	Debug	ind (194)	com.apple.network	connection	nw_endpoint_proxy_receive_report [C40.1.1 Hostname#ff1a03f4:443 in_progress proxy (satisfied (Path is satisfied), interface: utun5, ipv4, dns, proxy)] received child report: [C40.1.1.1.2 127.0.0.1:49313 failed socket-flow (satisfied (Path is satisfied), viable, interface: lo0)] 	
+00:46.207.135	Debug	ind (194)	com.apple.network	connection	nw_endpoint_transform_receive_report [C40.1 Hostname#ff1a03f4:443 in_progress transform (satisfied (Path is satisfied), interface: utun5, ipv4, dns, proxy)] received child report: [C40.1.1.1.2 127.0.0.1:49313 failed socket-flow (satisfied (Path is satisfied), viable, interface: lo0)] 	
+00:46.207.149	Debug	ind (194)	com.apple.network	connection	nw_endpoint_flow_receive_report [C40 Hostname#ff1a03f4:443 in_progress parent-flow (satisfied (Path is satisfied), interface: utun5, ipv4, dns, proxy)] received child report: [C40.1.1.1.2 127.0.0.1:49313 failed socket-flow (satisfied (Path is satisfied), viable, interface: lo0)] 	
+00:46.207.165	Default	ind (194)	com.apple.network	connection	[C40.1.1.1.2 127.0.0.1:49313 failed socket-flow (satisfied (Path is satisfied), viable, interface: lo0)] event: flow:failed_connect @0.20s, error Invalid argument	
+00:46.207.232	Debug	ind (194)	com.apple.network		nw_connection_report_symptom_internal_on_nw_queue Symptom sent: Connection failed after setup(67010)	
+00:46.207.259	Info	ind (194)	com.apple.network	connection	nw_connection_report_symptom_on_nw_queue [C40] reported Connection failed after setup symptom	
+00:46.207.301	Info	ind (194)	com.apple.network	connection	nw_endpoint_resolver_receive_report [C40.1.1.1 localhost:49313 in_progress resolver (satisfied (Path is satisfied), interface: lo0)] all children failed	
+00:46.207.316	Debug	ind (194)	com.apple.network	connection	nw_endpoint_proxy_receive_report [C40.1.1 Hostname#ff1a03f4:443 in_progress proxy (satisfied (Path is satisfied), interface: utun5, ipv4, dns, proxy)] received child report: [C40.1.1.1 localhost:49313 failed resolver (satisfied (Path is satisfied), interface: lo0)] 	
+00:46.207.581	Debug	symptomsd (207)	com.apple.symptomsd	transport	message from pid:194 euid:501 egid:501	
+00:46.207.612	Debug	ind (194)	com.apple.network	connection	nw_endpoint_transform_receive_report [C40.1 Hostname#ff1a03f4:443 in_progress transform (satisfied (Path is satisfied), interface: utun5, ipv4, dns, proxy)] received child report: [C40.1.1.1 localhost:49313 failed resolver (satisfied (Path is satisfied), interface: lo0)] 	
+00:46.207.632	Debug	ind (194)	com.apple.network	connection	nw_endpoint_flow_receive_report [C40 Hostname#ff1a03f4:443 in_progress parent-flow (satisfied (Path is satisfied), interface: utun5, ipv4, dns, proxy)] received child report: [C40.1.1.1 localhost:49313 failed resolver (satisfied (Path is satisfied), interface: lo0)] 	
+00:46.207.711	Debug	symptomsd (207)	com.apple.symptomsd	transport	symptomConnectionIncomingData for connId 47 at 0xcd823cd14 len 60	
+00:46.207.735	Debug	symptomsd (207)	com.apple.symptomsd	transport	receivePayload: reporter libnetcore desc 0xcd823cd14 type 1 len 56 msg size 60
+	
+00:46.207.768	Default	ind (194)	com.apple.network	connection	[C40.1.1.1 localhost:49313 failed resolver (satisfied (Path is satisfied), interface: lo0)] event: resolver:children_failed @0.20s	
+00:46.207.779	Debug	symptomsd (207)	com.apple.symptomsd	transport	Sending a read	
+00:46.207.819	Debug	symptomsd (207)	com.apple.symptomsd	transport	client_write called, id 47 data 0x16f3e64c0 len 24	
+00:46.207.972	Debug	symptomsd (207)	com.apple.symptomsd	transport	message from pid:194 euid:501 egid:501	
+00:46.208.004	Debug	symptomsd (207)	com.apple.symptomsd	transport	symptomConnectionIncomingData for connId 47 at 0xcd8201094 len 276	
+00:46.208.011	Info	ind (194)	com.apple.network	connection	nw_endpoint_proxy_receive_report [C40.1.1 Hostname#ff1a03f4:443 in_progress proxy (satisfied (Path is satisfied), interface: utun5, ipv4, dns, proxy)] all children failed	
+00:46.208.020	Debug	symptomsd (207)	com.apple.symptomsd	transport	receivePayload: reporter libnetcore desc 0xcd8201094 type 1 len 272 msg size 276
+	
+00:46.208.042	Debug	symptomsd (207)	com.apple.symptomsd	transport	Parsing additional qualifiers	
+00:46.208.044	Debug	ind (194)	com.apple.network	connection	nw_endpoint_transform_receive_report [C40.1 Hostname#ff1a03f4:443 in_progress transform (satisfied (Path is satisfied), interface: utun5, ipv4, dns, proxy)] received child report: [C40.1.1 Hostname#ff1a03f4:443 failed proxy (satisfied (Path is satisfied), interface: utun5, ipv4, dns, proxy)] 	
+00:46.208.059	Debug	ind (194)	com.apple.network	connection	nw_endpoint_flow_receive_report [C40 Hostname#ff1a03f4:443 in_progress parent-flow (satisfied (Path is satisfied), interface: utun5, ipv4, dns, proxy)] received child report: [C40.1.1 Hostname#ff1a03f4:443 failed proxy (satisfied (Path is satisfied), interface: utun5, ipv4, dns, proxy)] 	
+00:46.208.073	Default	ind (194)	com.apple.network	connection	[C40.1.1 Hostname#ff1a03f4:443 failed proxy (satisfied (Path is satisfied), interface: utun5, ipv4, dns, proxy)] event: proxy:children_failed @0.21s	
+00:46.208.156	Debug	ind (194)	com.apple.network		nw_connection_report_symptom_internal_on_nw_queue Symptom sent: Proxy failed(6700e)	
+00:46.208.205	Debug	symptomsd (207)	com.apple.symptomsd	transport	receivePayload: Additional qualifier with length 36	
+00:46.208.233	Info	ind (194)	com.apple.network	connection	nw_connection_report_symptom_on_nw_queue [C40] reported Proxy failed symptom	
+00:46.208.254	Debug	symptomsd (207)	com.apple.symptomsd	transport	receivePayload: symptom qualifier type 4 with length 25	
+00:46.208.297	Info	ind (194)	com.apple.network	connection	nw_endpoint_transform_receive_report [C40.1 Hostname#ff1a03f4:443 in_progress transform (satisfied (Path is satisfied), interface: utun5, ipv4, dns, proxy)] all children failed	
+00:46.208.337	Debug	symptomsd (207)	com.apple.symptomsd	transport	Added qualifier at 0xcd820112c	
+00:46.208.363	Debug	ind (194)	com.apple.network	connection	nw_endpoint_flow_receive_report [C40 Hostname#ff1a03f4:443 in_progress parent-flow (satisfied (Path is satisfied), interface: utun5, ipv4, dns, proxy)] received child report: [C40.1 Hostname#ff1a03f4:443 failed transform (satisfied (Path is satisfied), interface: utun5, ipv4, dns, proxy)] 	
+00:46.208.433	Debug	symptomsd (207)	com.apple.symptomsd	transport	receivePayload: Additional qualifier with length 12	
+00:46.208.492	Default	ind (194)	com.apple.network	connection	[C40.1 Hostname#ff1a03f4:443 failed transform (satisfied (Path is satisfied), interface: utun5, ipv4, dns, proxy)] event: transform:children_failed @0.21s	
+00:46.208.513	Debug	symptomsd (207)	com.apple.symptomsd	transport	receivePayload: symptom qualifier type 10 with length 4	
+00:46.208.540	Info	ind (194)	com.apple.network	connection	nw_endpoint_flow_receive_report [C40 Hostname#ff1a03f4:443 in_progress parent-flow (satisfied (Path is satisfied), interface: utun5, ipv4, dns, proxy)] child failed	
+00:46.208.562	Debug	symptomsd (207)	com.apple.symptomsd	transport	Added qualifier at 0xcd8201154	
+00:46.208.601	Info	ind (194)	com.apple.network	connection	nw_endpoint_handler_cancel [C40.1 Hostname#ff1a03f4:443 failed transform (satisfied (Path is satisfied), interface: utun5, ipv4, dns, proxy)] 	
+00:46.208.630	Debug	symptomsd (207)	com.apple.symptomsd	transport	receivePayload: Additional qualifier with length 12	
+00:46.208.691	Info	ind (194)	com.apple.network	connection	nw_endpoint_handler_cancel [C40.1.1 Hostname#ff1a03f4:443 failed proxy (satisfied (Path is satisfied), interface: utun5, ipv4, dns, proxy)] 	
+00:46.208.692	Debug	symptomsd (207)	com.apple.symptomsd	transport	receivePayload: symptom qualifier type 3 with length 4	
+00:46.208.721	Info	ind (194)	com.apple.network	connection	nw_association_schedule_deactivation <nw_association Hostname#ff1a03f4:443> will become dormant after 10,000ms of inactivity	
+00:46.208.759	Debug	symptomsd (207)	com.apple.symptomsd	transport	Added qualifier at 0xcd8201164	
+00:46.208.773	Debug	ind (194)	com.apple.network	connection	-[NWConcrete_nw_endpoint_proxy cancelWithHandler:forced:] [C40.1.1 Hostname#ff1a03f4:443 cancelled proxy ()] 	
+00:46.208.801	Debug	symptomsd (207)	com.apple.symptomsd	transport	receivePayload: Additional qualifier with length 24	
+00:46.208.828	Info	ind (194)	com.apple.network	connection	nw_endpoint_handler_cancel [C40.1.1.1 localhost:49313 failed resolver (satisfied (Path is satisfied), interface: lo0)] 	
+00:46.208.870	Debug	symptomsd (207)	com.apple.symptomsd	transport	receivePayload: symptom qualifier type 2 with length 16	
+00:46.208.890	Info	ind (194)	com.apple.network	connection	nw_association_schedule_deactivation <nw_association localhost:49313> will become dormant after 10,000ms of inactivity	
+00:46.208.903	Debug	symptomsd (207)	com.apple.symptomsd	transport	Added qualifier at 0xcd8201174	
+00:46.208.944	Info	ind (194)	com.apple.network	connection	nw_endpoint_handler_cancel [C40.1.1.1.1 ::1.49313 failed socket-flow (satisfied (Path is satisfied), viable, interface: lo0)] 	
+00:46.208.959	Debug	symptomsd (207)	com.apple.symptomsd	transport	receivePayload: Additional qualifier with length 20	
+00:46.208.973	Info	ind (194)	com.apple.network	connection	nw_association_schedule_deactivation <nw_association ::1.49313> will become dormant after 10,000ms of inactivity	
+00:46.209.007	Debug	symptomsd (207)	com.apple.symptomsd	transport	receivePayload: symptom qualifier type 12 with length 10	
+00:46.209.025	Debug	ind (194)	com.apple.network	connection	nw_flow_cancel_read_write_requests [C40.1.1.1.1 ::1.49313 cancelled socket-flow ()] cancelling read/write requests	
+00:46.209.048	Debug	symptomsd (207)	com.apple.symptomsd	transport	Added qualifier at 0xcd8201190	
+00:46.209.052	Info	ind (194)	com.apple.network	connection	nw_endpoint_handler_cancel [C40.1.1.1.2 127.0.0.1:49313 failed socket-flow (satisfied (Path is satisfied), viable, interface: lo0)] 	
+00:46.209.118	Info	ind (194)	com.apple.network	connection	nw_association_schedule_deactivation <nw_association 127.0.0.1:49313> will become dormant after 10,000ms of inactivity	
+00:46.209.148	Info	symptomsd (207)	com.apple.symptomsd	other	[0.001]   194 ind              (null) SYMPTOM_LIBNETCORE_CONNECTION_FAILED     libne 00000001 000000c2 -------- -------- [3 <4 bytes>] [10 <4 bytes>] [4 <25 bytes>] [2 <16 bytes>] [12 <10 bytes>]	
+00:46.209.148	Error	ind (194)	com.apple.network	connection	nw_endpoint_flow_failed_with_error [C40.1.1.1.2 127.0.0.1:49313 cancelled socket-flow ()] already failing, returning	
+00:46.209.177	Debug	symptomsd (207)	com.apple.symptomsd	transport	Received basic symptom, event EventDescription sb at 0xcd81cfde0 from pid 194 ind SYMPTOM 0x6767010  flags 0x40000003 qual0 0x1 qual1 0xc2 key 421904 num additional quals 5	
+00:46.209.193	Debug	ind (194)	com.apple.network	connection	nw_flow_cancel_read_write_requests [C40.1.1.1.2 127.0.0.1:49313 cancelled socket-flow ()] cancelling read/write requests	
+00:46.209.210	Debug	symptomsd (207)	com.apple.symptomsd	evaluation	Simple Processing, postIncomingEvent key 421904	
+00:46.209.243	Debug	symptomsd (207)	com.apple.symptomsd	evaluation	Call handler 0, <ConnectionFailureHandler: 0xcd8160420>	
+00:46.209.252	Debug	ind (194)	com.apple.network	connection	nw_resolver_cancel [C40.1.1.1] 0x5661ac000	
+00:46.209.302	Debug	symptomsd (207)	com.apple.symptomsd	other	ConnectionFailureHandler: EventDescription: EventDescription sb at 0xcd81cfde0 from pid 194 ind SYMPTOM 0x6767010  flags 0x40000003 qual0 0x1 qual1 0xc2 key 421904 num additional quals 5	
+00:46.209.327	Info	ind (194)	com.apple.network	connection	nw_endpoint_handler_reset_mode [C40 Hostname#ff1a03f4:443 waiting parent-flow (satisfied (Path is satisfied), interface: utun5, ipv4, dns, proxy)] reset	
+00:46.209.384	Default	ind (194)	com.apple.network	connection	[C40 Hostname#ff1a03f4:443 waiting parent-flow (satisfied (Path is satisfied), interface: utun5, ipv4, dns, proxy)] event: flow:child_failed @0.22s	
+00:46.209.474	Default	ind (194)	com.apple.network	connection	nw_connection_report_state_with_handler_on_nw_queue [C40] reporting state waiting error Invalid argument	
+00:46.209.512	Info	symptomsd (207)	com.apple.symptomsd	rnf	libnetcore symptom uses effective process name: ind	
+00:46.209.537	Debug	symptomsd (207)	com.apple.symptomsd	evaluation	Converted qualifier 4 to string, was null terminated, result p68-quota.icloud.com:443	
+00:46.209.556	Debug	symptomsd (207)	com.apple.symptomsd	evaluation	Converted qualifier 10 to string, was null terminated, result \^V	
+00:46.209.558	Debug	ind (194)	com.apple.network		nw_fd_wrapper_close closed <fd_wrapper 8, guarded: true>	
+00:46.209.578	Debug	symptomsd (207)	com.apple.symptomsd	evaluation	Converted qualifier 12 to string, was null terminated, result localhost	
+00:46.209.644	Default	ind (194)	com.apple.CFNetwork	Default	Connection 40: is waiting to connect, reason 18,446,744,073,709,551,615	
+00:46.209.653	Debug	symptomsd (207)	com.apple.symptomsd	evaluation	Simple Processing, postSymptom exit
+	
+00:46.209.740	Info	symptomsd (207)	com.apple.network		-[NWNumericAccumulator updateState:forName:] Updating state of kextsInstalled from None to None	
+00:46.209.758	Debug	symptomsd (207)	com.apple.network		-[NWNumericAccumulator updateState:forName:] Updating state of kextsInstalled from None to None	
+00:46.209.821	Debug	symptomsd (207)	com.apple.symptomsd	transport	message from pid:194 euid:501 egid:501	
+00:46.209.843	Debug	symptomsd (207)	com.apple.symptomsd	transport	symptomConnectionIncomingData for connId 47 at 0xcd823cd14 len 60	
+00:46.209.908	Debug	symptomsd (207)	com.apple.symptomsd	transport	receivePayload: reporter libnetcore desc 0xcd823cd14 type 1 len 56 msg size 60
+	
+00:46.209.923	Debug	symptomsd (207)	com.apple.symptomsd	transport	Sending a read	
+00:46.209.950	Debug	symptomsd (207)	com.apple.symptomsd	transport	client_write called, id 47 data 0x16f3e64c0 len 24	
+00:46.210.055	Debug	symptomsd (207)	com.apple.network		-[NWNumericAccumulator addCount:toAccumulation:]_block_invoke New value for <private>: 7913 (+1), states: <private>	
+00:46.210.083	Debug	symptomsd (207)	com.apple.symptomsd	transport	message from pid:194 euid:501 egid:501	
+00:46.210.101	Debug	symptomsd (207)	com.apple.symptomsd	transport	symptomConnectionIncomingData for connId 47 at 0xcd8201094 len 236	
+00:46.210.116	Debug	symptomsd (207)	com.apple.symptomsd	transport	receivePayload: reporter libnetcore desc 0xcd8201094 type 1 len 232 msg size 236
+	
+00:46.210.133	Debug	symptomsd (207)	com.apple.symptomsd	transport	Parsing additional qualifiers	
+00:46.210.147	Debug	symptomsd (207)	com.apple.symptomsd	transport	receivePayload: Additional qualifier with length 36	
+00:46.210.161	Debug	symptomsd (207)	com.apple.symptomsd	transport	receivePayload: symptom qualifier type 4 with length 25	
+00:46.210.178	Debug	symptomsd (207)	com.apple.symptomsd	transport	Added qualifier at 0xcd820112c	
+00:46.210.193	Debug	symptomsd (207)	com.apple.symptomsd	transport	receivePayload: Additional qualifier with length 12	
+00:46.210.206	Debug	symptomsd (207)	com.apple.symptomsd	transport	receivePayload: symptom qualifier type 3 with length 4	
+00:46.210.221	Debug	symptomsd (207)	com.apple.symptomsd	transport	Added qualifier at 0xcd8201154	
+00:46.210.262	Debug	symptomsd (207)	com.apple.symptomsd	transport	receivePayload: Additional qualifier with length 24	
+00:46.210.287	Debug	symptomsd (207)	com.apple.symptomsd	transport	receivePayload: symptom qualifier type 2 with length 16	
+00:46.210.306	Debug	symptomsd (207)	com.apple.symptomsd	transport	Added qualifier at 0xcd8201164	
+00:46.210.366	Info	symptomsd (207)	com.apple.symptomsd	other	[0.002]   194 ind              (null) SYMPTOM_LIBNETCORE_PROXY_FAILED          libne 0000001a 000000c2 -------- -------- [4 <25 bytes>] [3 <4 bytes>] [2 <16 bytes>]	
+00:46.210.393	Debug	symptomsd (207)	com.apple.symptomsd	transport	Received basic symptom, event EventDescription sb at 0xcd81cfde0 from pid 194 ind SYMPTOM 0x676700e  flags 0x40000003 qual0 0x1a qual1 0xc2 key 421902 num additional quals 3	
+00:46.210.410	Debug	symptomsd (207)	com.apple.symptomsd	evaluation	Simple Processing, postIncomingEvent key 421902	
+00:46.210.435	Debug	symptomsd (207)	com.apple.symptomsd	evaluation	Call handler 0, <ConnectionFailureHandler: 0xcd8160420>	
+00:46.210.468	Debug	symptomsd (207)	com.apple.symptomsd	other	ConnectionFailureHandler: EventDescription: EventDescription sb at 0xcd81cfde0 from pid 194 ind SYMPTOM 0x676700e  flags 0x40000003 qual0 0x1a qual1 0xc2 key 421902 num additional quals 3	
+00:46.210.620	Info	symptomsd (207)	com.apple.symptomsd	rnf	libnetcore symptom uses effective process name: ind	
+00:46.210.642	Debug	symptomsd (207)	com.apple.symptomsd	evaluation	Converted qualifier 4 to string, was null terminated, result p68-quota.icloud.com:443	
+00:46.210.665	Debug	symptomsd (207)	com.apple.symptomsd	evaluation	Simple Processing, postSymptom exit
+	
+00:46.210.698	Info	symptomsd (207)	com.apple.network		-[NWNumericAccumulator updateState:forName:] Updating state of kextsInstalled from None to None	
+00:46.210.713	Debug	symptomsd (207)	com.apple.network		-[NWNumericAccumulator updateState:forName:] Updating state of kextsInstalled from None to None	
+00:46.210.758	Debug	symptomsd (207)	com.apple.network		-[NWNumericAccumulator addCount:toAccumulation:]_block_invoke New value for <private>: 2821 (+1), states: <private>	
+00:46.210.922	Default	powerexperienced (125)	com.apple.powerexperienced	signalMonitor	Audio playback stopped. Dropping a resource hint	
+00:46.210.966	Default	powerexperienced (125)	com.apple.PowerExperienceFramework	ResourceConnection	ResourceConnection:updateResourceHint <private> with state 0	
+00:46.211.239	Default	powerexperienced (125)	com.apple.powerexperienced	resourcemanager	updating resource state for <private>:AudioPlayback from 1 to 0	
+00:46.211.279	Info	powerexperienced (125)	com.apple.powerexperienced	InUseChargingMode	evaluatePowerMode resources <private>	
+00:46.211.315	Default	powerexperienced (125)	com.apple.powerexperienced	RestrictedPerfMode	evaluatePowerMode: <private>: 0 display 1, carPlaySession 0, nFCSession 0, audioSession 0, sleepInProgress 0, wakeInProgress 0, onenessSession 0, siriAudio 0, pluggedIn 0 (allowOnCharger: 0)	
+00:46.211.390	Default	Unknown (0)	AppleAVD	Default	AppleAVD: removeClient(): clientID: 11 - rollingAvgFPS: 554	
+00:46.211.398	Default	Unknown (0)	AppleAVD	Default	AppleAVD: + clientClosedGated [<private>] : client <private>; m_pUserClientList[0..3] = <private> <private> <private> <private> clientid 11, m_numActiveUserClients 15	
+00:46.211.403	Info	Unknown (0)	CoreAnalyticsFamily	Default	IOReturn CoreAnalyticsUserClient::sendDataToUser(uint8_t *, size_t)::309: sending 2,297 bytes
+	
+00:46.211.488	Debug	analyticsd (110)	com.apple.analyticsd	kernellistener	[KernelClient] Got data from _queueAddr 2,297
+	
+00:46.211.678	Default	videocodecd (463)	AVD.videodecoder	Default	AppleAVD: AppleAVDWrapperHEVCDecoderInvalidate() codecType: HEVC, encryptionScheme 6, 1,920 x 1,440, session: 0x5d21ca020	
+00:46.211.739	Default	videocodecd (463)	AVD.videodecoder	Default	AppleAVD: AppleAVDWrapperHEVCDecoderFinalize() codecType: HEVC, encryptionScheme 6, 1,920 x 1,440, session: 0x5d21ca020	
+00:46.211.796	Debug	powerexperienced (125)	com.apple.defaults	User Defaults	looked up value <private> for key resources in CFPrefsPlistSource<0xdbc044d80> (Domain: com.apple.powerexperienced.resourcemanager, User: kCFPreferencesCurrentUser, ByHost: No, Container: (null), Contents Need Refresh: No) via CFPrefsSearchListSource<0xdbc044b80> (Domain: com.apple.powerexperienced.resourcemanager, Container: (null))	
+00:46.211.884	Debug	DTServiceHub (360)	DVTInstrumentsFoundation	Default	Data Size: 101,028, Rows Sent: 1,376, Stack depth: 877	
+00:46.211.908	Default	videocodecd (463)	CoreVideo	Default	<private>	
+00:46.212.051	Debug	powerexperienced (125)	com.apple.powerexperienced	resourcemanager	savedResourcesMutable <private>	
+00:46.212.471	Debug	powerexperienced (125)	com.apple.defaults	User Defaults	setting <private> in CFPrefsPlistSource<0xdbc044d80> (Domain: com.apple.powerexperienced.resourcemanager, User: kCFPreferencesCurrentUser, ByHost: No, Container: (null), Contents Need Refresh: No)	
+00:46.212.518	Debug	analyticsd (110)	com.apple.analyticsd	kernellistener	[KernelEventToJson] Successfully deserialized: <private> - {
+    "SessionDim_AV1FrameOverrideSize" = 0;
+    "SessionDim_AVDCoreIndex" = 1;
+    "SessionDim_ChromaFormat" = 2;
+    "SessionDim_CodecType" = 3;
+    "SessionDim_ColorDepth" = 8;
+    "SessionDim_CompressedBuffersEnabled" = 1;
+    "SessionDim_CryptScheme" = 7;
+    "SessionDim_EnableRVRA" = 0;
+    "SessionDim_FTCDEnabled" = 0;
+    "SessionDim_FilmGrainMode" = 1;
+    "SessionDim_IChatUsage" = 1;
+    "SessionDim_IPCMEnabled" = 0;
+    "SessionDim_LosslessEnabled" = 0;
+    "SessionDim_MultiCore" = 0;
+    "SessionDim_MultiViewClient" = 0;
+    "SessionDim_ParavirtualizedSession" = 0;
+    "SessionDim_ParsingMode" = 1;
+    "SessionDim_TileDecodeMode" = 0;
+    "SessionMeas_AvgDataLength" = 45561;
+    "SessionMeas_AvgNumSlices" = 1;
+    "SessionMeas_DecodeRate_fps" = 0;
+    "SessionMeas_FrameHeight" = 1440;
+    "SessionMeas_FrameWidth" = 1920;
+    "SessionMeas_MaxDataLength" = 267637;
+    "SessionMeas_MaxNumSlices" = 1;
+    "SessionMeas_NumFramesHWErrFatal" = 0;
+    "SessionMeas_NumFramesHWErrNonFatal" = 	
+00:46.212.637	Debug	analyticsd (110)	com.apple.analyticsd.event	recv	<private> <private>	
+00:46.212.713	Debug	analyticsd (110)	com.apple.analyticsd.critical	db	[Config Store] Retrieving modify-eventdefs for event with name '<private>'	
+00:46.212.801	Debug	cfprefsd (107)	com.apple.defaults	cfprefsd	Process 125 (powerexperienced) sent a request related to { com.apple.powerexperienced.resourcemanager, user: root, kCFPreferencesAnyHost, /var/root/Library/Preferences/com.apple.powerexperienced.resourcemanager.plist, managed: 0 } (0xd3c1cf0c0)	
+00:46.212.895	Debug	cfprefsd (107)	com.apple.defaults	cfprefsd	Process 125 (powerexperienced) wrote the key(s) resources in { com.apple.powerexperienced.resourcemanager, root, kCFPreferencesAnyHost, /var/root/Library/Preferences/com.apple.powerexperienced.resourcemanager.plist, managed: 0 }	
+00:46.214.215	Default	videocodecd (463)	CoreVideo	Default	<private>	
+00:46.214.315	Debug	analyticsd (110)	com.apple.analyticsd.critical	db	[Config Store] Retrieving transforms for event with name '<private>'	
+00:46.214.539	Default	mediaplaybackd (278)	com.apple.coremedia		<<<< FigExportCommmon >>>> assetReaderTrack_Invalidate: (0x62a59c380)	
+00:46.214.638	Error	mediaplaybackd (278)	com.apple.coremedia		<< FigXPC >> figXPCConnection_CallClientMessageHandlers: Client message bound for stale objectID 1cf010000004601	
+00:46.214.985	Debug	analyticsd (110)	com.apple.analyticsd.critical	xform	[Transform Factory] No Transform aggregation period specified.	
+00:46.215.060	Debug	analyticsd (110)	com.apple.analyticsd.critical	xform_cache	[Transform Cache] Cache miss. Loading <private> - <private> for input event <private>	
+00:46.215.632	Debug	analyticsd (110)	com.apple.analyticsd.critical	xform	[Transform Factory] No Transform aggregation period specified.	
+00:46.215.680	Debug	analyticsd (110)	com.apple.analyticsd.critical	xform_cache	[Transform Cache] Cache miss. Loading <private> - <private> for input event <private>	
+00:46.215.931	Default	Unknown (0)	AppleAVD	Default	AppleAVD: removeClient(): clientID: 12 - rollingAvgFPS: 11,547	
+00:46.215.945	Info	Unknown (0)	CoreAnalyticsFamily	Default	IOReturn CoreAnalyticsUserClient::sendDataToUser(uint8_t *, size_t)::309: sending 2,293 bytes
+	
+00:46.215.946	Default	Unknown (0)	AppleAVD	Default	AppleAVD: + clientClosedGated [<private>] : client <private>; m_pUserClientList[0..3] = <private> <private> <private> <private> clientid 12, m_numActiveUserClients 14	
+00:46.216.131	Debug	analyticsd (110)	com.apple.analyticsd.critical	xform	[Transform Factory] No Transform aggregation period specified.	
+00:46.216.218	Debug	analyticsd (110)	com.apple.analyticsd.critical	xform_cache	[Transform Cache] Cache miss. Loading <private> - <private> for input event <private>	
+00:46.216.218	Default	videocodecd (463)	CoreVideo	Default	<private>	
+00:46.216.310	Debug	analyticsd (110)	com.apple.analyticsd	kernellistener	[KernelClient] Got data from _queueAddr 2,293
+	
+00:46.216.671	Default	videocodecd (463)	CoreVideo	Default	<private>	
+00:46.216.730	Default	videocodecd (463)	AVD.videodecoder	Default	AppleAVD: AppleAVDWrapperHEVCDecoderInvalidate() codecType: HEVC, encryptionScheme 6, 256 x 192, session: 0x5d0d2c020	
+00:46.216.802	Default	videocodecd (463)	AVD.videodecoder	Default	AppleAVD: AppleAVDWrapperHEVCDecoderFinalize() codecType: HEVC, encryptionScheme 6, 256 x 192, session: 0x5d0d2c020	
+00:46.216.951	Debug	analyticsd (110)	com.apple.analyticsd.critical	xform	[Transform Factory] No Transform aggregation period specified.	
+00:46.216.977	Debug	analyticsd (110)	com.apple.analyticsd.critical	xform_cache	[Transform Cache] Cache miss. Loading <private> - <private> for input event <private>	
+00:46.217.144	Error	mediaplaybackd (278)	com.apple.coremedia		<< FigXPC >> figXPCConnection_CallClientMessageHandlers: Client message bound for stale objectID 1cf010000004701	
+00:46.217.165	Default	mediaplaybackd (278)	com.apple.coremedia		<<<< FigExportCommmon >>>> assetReaderTrack_Invalidate: (0x62a59c540)	
+00:46.217.344	Debug	analyticsd (110)	com.apple.analyticsd.critical	xform_cache	[Transform Cache] Cache performance for input event <private>: { transforms: 4, hit: 0, loaded: 4, inserted: 4}	
+00:46.217.706	Debug	analyticsd (110)	com.apple.analyticsd	kernellistener	[KernelEventToJson] Successfully deserialized: <private> - {
+    "SessionDim_AV1FrameOverrideSize" = 0;
+    "SessionDim_AVDCoreIndex" = 1;
+    "SessionDim_ChromaFormat" = 1;
+    "SessionDim_CodecType" = 3;
+    "SessionDim_ColorDepth" = 8;
+    "SessionDim_CompressedBuffersEnabled" = 0;
+    "SessionDim_CryptScheme" = 7;
+    "SessionDim_EnableRVRA" = 0;
+    "SessionDim_FTCDEnabled" = 0;
+    "SessionDim_FilmGrainMode" = 1;
+    "SessionDim_IChatUsage" = 1;
+    "SessionDim_IPCMEnabled" = 0;
+    "SessionDim_LosslessEnabled" = 0;
+    "SessionDim_MultiCore" = 0;
+    "SessionDim_MultiViewClient" = 0;
+    "SessionDim_ParavirtualizedSession" = 0;
+    "SessionDim_ParsingMode" = 1;
+    "SessionDim_TileDecodeMode" = 0;
+    "SessionMeas_AvgDataLength" = 42;
+    "SessionMeas_AvgNumSlices" = 1;
+    "SessionMeas_DecodeRate_fps" = 1;
+    "SessionMeas_FrameHeight" = 192;
+    "SessionMeas_FrameWidth" = 256;
+    "SessionMeas_MaxDataLength" = 90;
+    "SessionMeas_MaxNumSlices" = 1;
+    "SessionMeas_NumFramesHWErrFatal" = 0;
+    "SessionMeas_NumFramesHWErrNonFatal" = 0;
+    "S	
+00:46.217.797	Debug	analyticsd (110)	com.apple.analyticsd.event	recv	<private> <private>	
+00:46.217.832	Debug	analyticsd (110)	com.apple.analyticsd.critical	db	[Config Store] Retrieving modify-eventdefs for event with name '<private>'	
+00:46.218.217	Default	Unknown (0)	AppleAVD	Default	AppleAVD: removeClient(): clientID: 13 - rollingAvgFPS: 10,786	
+00:46.218.229	Default	Unknown (0)	AppleAVD	Default	AppleAVD: + clientClosedGated [<private>] : client <private>; m_pUserClientList[0..3] = <private> <private> <private> <private> clientid 13, m_numActiveUserClients 13	
+00:46.218.232	Info	Unknown (0)	CoreAnalyticsFamily	Default	IOReturn CoreAnalyticsUserClient::sendDataToUser(uint8_t *, size_t)::309: sending 2,293 bytes
+	
+00:46.218.406	Default	videocodecd (463)	CoreVideo	Default	<private>	
+00:46.218.508	Debug	analyticsd (110)	com.apple.analyticsd	kernellistener	[KernelClient] Got data from _queueAddr 2,293
+	
+00:46.218.854	Default	videocodecd (463)	CoreVideo	Default	<private>	
+00:46.218.903	Default	videocodecd (463)	AVD.videodecoder	Default	AppleAVD: AppleAVDWrapperHEVCDecoderInvalidate() codecType: HEVC, encryptionScheme 6, 256 x 192, session: 0x5d0d31020	
+00:46.218.941	Default	videocodecd (463)	AVD.videodecoder	Default	AppleAVD: AppleAVDWrapperHEVCDecoderFinalize() codecType: HEVC, encryptionScheme 6, 256 x 192, session: 0x5d0d31020	
+00:46.219.327	Error	mediaplaybackd (278)	com.apple.coremedia		<< FigXPC >> figXPCConnection_CallClientMessageHandlers: Client message bound for stale objectID 1cf010000004801	
+00:46.219.356	Default	mediaplaybackd (278)	com.apple.coremedia		<<<< FigExportCommmon >>>> assetReaderTrack_Invalidate: (0x62a59e3e0)	
+00:46.219.801	Debug	analyticsd (110)	com.apple.analyticsd.critical	xform_cache	[Transform Cache] Cache performance for input event <private>: { transforms: 4, hit: 4, loaded: 0, inserted: 0}	
+00:46.219.844	Debug	analyticsd (110)	com.apple.analyticsd.critical	xform_cache	[Transform Manager] Cache performance: {cacheHits: 19,276 / 24,898 (77.4199%%), keyCount: 11, nodeCount: 11, cacheCost: 11}	
+00:46.220.146	Debug	analyticsd (110)	com.apple.analyticsd	kernellistener	[KernelEventToJson] Successfully deserialized: <private> - {
+    "SessionDim_AV1FrameOverrideSize" = 0;
+    "SessionDim_AVDCoreIndex" = 1;
+    "SessionDim_ChromaFormat" = 1;
+    "SessionDim_CodecType" = 3;
+    "SessionDim_ColorDepth" = 8;
+    "SessionDim_CompressedBuffersEnabled" = 0;
+    "SessionDim_CryptScheme" = 7;
+    "SessionDim_EnableRVRA" = 0;
+    "SessionDim_FTCDEnabled" = 0;
+    "SessionDim_FilmGrainMode" = 1;
+    "SessionDim_IChatUsage" = 1;
+    "SessionDim_IPCMEnabled" = 0;
+    "SessionDim_LosslessEnabled" = 0;
+    "SessionDim_MultiCore" = 0;
+    "SessionDim_MultiViewClient" = 0;
+    "SessionDim_ParavirtualizedSession" = 0;
+    "SessionDim_ParsingMode" = 1;
+    "SessionDim_TileDecodeMode" = 0;
+    "SessionMeas_AvgDataLength" = 188;
+    "SessionMeas_AvgNumSlices" = 1;
+    "SessionMeas_DecodeRate_fps" = 1;
+    "SessionMeas_FrameHeight" = 192;
+    "SessionMeas_FrameWidth" = 256;
+    "SessionMeas_MaxDataLength" = 240;
+    "SessionMeas_MaxNumSlices" = 1;
+    "SessionMeas_NumFramesHWErrFatal" = 0;
+    "SessionMeas_NumFramesHWErrNonFatal" = 0;
+    	
+00:46.220.220	Debug	analyticsd (110)	com.apple.analyticsd.event	recv	<private> <private>	
+00:46.220.253	Debug	analyticsd (110)	com.apple.analyticsd.critical	db	[Config Store] Retrieving modify-eventdefs for event with name '<private>'	
+00:46.220.444	Default	Unknown (0)	AppleAVD	Default	AppleAVD: removeClient(): clientID: 14 - rollingAvgFPS: 9,561	
+00:46.220.457	Default	Unknown (0)	AppleAVD	Default	AppleAVD: + clientClosedGated [<private>] : client <private>; m_pUserClientList[0..3] = <private> <private> <private> <private> clientid 14, m_numActiveUserClients 12	
+00:46.220.474	Info	Unknown (0)	CoreAnalyticsFamily	Default	IOReturn CoreAnalyticsUserClient::sendDataToUser(uint8_t *, size_t)::309: sending 2,293 bytes
+	
+00:46.220.505	Debug	analyticsd (110)	com.apple.analyticsd	kernellistener	[KernelClient] Got data from _queueAddr 2,293
+	
+00:46.220.544	Default	videocodecd (463)	CoreVideo	Default	<private>	
+00:46.220.826	Default	videocodecd (463)	CoreVideo	Default	<private>	
+00:46.220.876	Default	videocodecd (463)	AVD.videodecoder	Default	AppleAVD: AppleAVDWrapperHEVCDecoderInvalidate() codecType: HEVC, encryptionScheme 6, 256 x 192, session: 0x5d0d36020	
+00:46.220.911	Default	videocodecd (463)	AVD.videodecoder	Default	AppleAVD: AppleAVDWrapperHEVCDecoderFinalize() codecType: HEVC, encryptionScheme 6, 256 x 192, session: 0x5d0d36020	
+00:46.221.044	Default	videocodecd (463)	CoreVideo	Default	<private>	
+00:46.221.624	Debug	analyticsd (110)	com.apple.analyticsd.critical	xform_cache	[Transform Cache] Cache performance for input event <private>: { transforms: 4, hit: 4, loaded: 0, inserted: 0}	
+00:46.221.853	Debug	analyticsd (110)	com.apple.analyticsd	kernellistener	[KernelEventToJson] Successfully deserialized: <private> - {
+    "SessionDim_AV1FrameOverrideSize" = 0;
+    "SessionDim_AVDCoreIndex" = 1;
+    "SessionDim_ChromaFormat" = 1;
+    "SessionDim_CodecType" = 3;
+    "SessionDim_ColorDepth" = 8;
+    "SessionDim_CompressedBuffersEnabled" = 0;
+    "SessionDim_CryptScheme" = 7;
+    "SessionDim_EnableRVRA" = 0;
+    "SessionDim_FTCDEnabled" = 0;
+    "SessionDim_FilmGrainMode" = 1;
+    "SessionDim_IChatUsage" = 1;
+    "SessionDim_IPCMEnabled" = 0;
+    "SessionDim_LosslessEnabled" = 0;
+    "SessionDim_MultiCore" = 0;
+    "SessionDim_MultiViewClient" = 0;
+    "SessionDim_ParavirtualizedSession" = 0;
+    "SessionDim_ParsingMode" = 1;
+    "SessionDim_TileDecodeMode" = 0;
+    "SessionMeas_AvgDataLength" = 41;
+    "SessionMeas_AvgNumSlices" = 1;
+    "SessionMeas_DecodeRate_fps" = 1;
+    "SessionMeas_FrameHeight" = 192;
+    "SessionMeas_FrameWidth" = 256;
+    "SessionMeas_MaxDataLength" = 90;
+    "SessionMeas_MaxNumSlices" = 1;
+    "SessionMeas_NumFramesHWErrFatal" = 0;
+    "SessionMeas_NumFramesHWErrNonFatal" = 0;
+    "S	
+00:46.221.902	Debug	analyticsd (110)	com.apple.analyticsd.event	recv	<private> <private>	
+00:46.221.995	Debug	analyticsd (110)	com.apple.analyticsd.critical	db	[Config Store] Retrieving modify-eventdefs for event with name '<private>'	
+00:46.222.358	Default	videocodecd (463)	CoreVideo	Default	<private>	
+00:46.222.676	Error	mediaplaybackd (278)	com.apple.coremedia		<< FigXPC >> figXPCConnection_CallClientMessageHandlers: Client message bound for stale objectID 1cf010000004901	
+00:46.222.703	Default	mediaplaybackd (278)	com.apple.coremedia		<<<< FigExportCommmon >>>> assetReaderTrack_Invalidate: (0x62a59e4c0)	
+00:46.222.719	Default	mediaplaybackd (278)	com.apple.coremedia		<<<< FigExportCommmon >>>> assetReaderTrack_Invalidate: (0x62a5a4000)	
+00:46.222.733	Default	mediaplaybackd (278)	com.apple.coremedia		<<<< FigExportCommmon >>>> assetReaderTrack_Invalidate: (0x62a5a40e0)	
+00:46.222.741	Default	mediaplaybackd (278)	com.apple.coremedia		<<<< FigExportCommmon >>>> assetReaderTrack_Invalidate: (0x62a5a41c0)	
+00:46.222.761	Default	mediaplaybackd (278)	com.apple.coremedia		<<<< FigExportCommmon >>>> remakerFamily_Finalize: (0x62abc6800) state invalidated	
+00:46.222.777	Default	mediaplaybackd (278)	com.apple.coremedia		<<< URLAsset >>> URLAssetFinalize: Called for asset 0x62bd03880	
+00:46.223.103	Default	mediaplaybackd (278)	com.apple.coremedia		<<<< FigExportCommmon >>>> FigAssetReaderTrackFinalize: (0x62a59ff00)	
+00:46.223.114	Default	mediaplaybackd (278)	com.apple.coremedia		<<<< FigExportCommmon >>>> assetReaderTrack_Invalidate: (0x62a59ff00)	
+00:46.223.159	Default	mediaplaybackd (278)	com.apple.coremedia		<<<< VMC >>>> vmc2Finalize: Finalized VMC 0x62b04d200 on behalf of client pid 1,680	
+00:46.223.192	Default	mediaplaybackd (278)	com.apple.coremedia		<<<< FigExportCommmon >>>> FigAssetReaderTrackFinalize: (0x62a59c1c0)	
+00:46.223.201	Default	mediaplaybackd (278)	com.apple.coremedia		<<<< FigExportCommmon >>>> assetReaderTrack_Invalidate: (0x62a59c1c0)	
+00:46.223.213	Default	mediaplaybackd (278)	com.apple.coremedia		<<<< VMC >>>> vmc2Finalize: Finalized VMC 0x62b04ea00 on behalf of client pid 1,680	
+00:46.223.239	Default	mediaplaybackd (278)	com.apple.coremedia		<<<< FigExportCommmon >>>> FigAssetReaderTrackFinalize: (0x62a59c380)	
+00:46.223.247	Default	mediaplaybackd (278)	com.apple.coremedia		<<<< FigExportCommmon >>>> assetReaderTrack_Invalidate: (0x62a59c380)	
+00:46.223.258	Default	mediaplaybackd (278)	com.apple.coremedia		<<<< VMC >>>> vmc2Finalize: Finalized VMC 0x62b04f600 on behalf of client pid 1,680	
+00:46.223.288	Default	mediaplaybackd (278)	com.apple.coremedia		<<<< FigExportCommmon >>>> FigAssetReaderTrackFinalize: (0x62a59c540)	
+00:46.223.297	Default	mediaplaybackd (278)	com.apple.coremedia		<<<< FigExportCommmon >>>> assetReaderTrack_Invalidate: (0x62a59c540)	
+00:46.223.307	Default	mediaplaybackd (278)	com.apple.coremedia		<<<< VMC >>>> vmc2Finalize: Finalized VMC 0x62b04f000 on behalf of client pid 1,680	
+00:46.223.334	Default	mediaplaybackd (278)	com.apple.coremedia		<<<< FigExportCommmon >>>> FigAssetReaderTrackFinalize: (0x62a59e3e0)	
+00:46.223.343	Default	mediaplaybackd (278)	com.apple.coremedia		<<<< FigExportCommmon >>>> assetReaderTrack_Invalidate: (0x62a59e3e0)	
+00:46.223.354	Default	mediaplaybackd (278)	com.apple.coremedia		<<<< VMC >>>> vmc2Finalize: Finalized VMC 0x62b044000 on behalf of client pid 1,680	
+00:46.223.385	Default	mediaplaybackd (278)	com.apple.coremedia		<<<< FigExportCommmon >>>> FigAssetReaderTrackFinalize: (0x62a59e4c0)	
+00:46.223.394	Default	mediaplaybackd (278)	com.apple.coremedia		<<<< FigExportCommmon >>>> assetReaderTrack_Invalidate: (0x62a59e4c0)	
+00:46.223.402	Default	mediaplaybackd (278)	com.apple.coremedia		<<<< FigExportCommmon >>>> FigAssetReaderTrackFinalize: (0x62a5a4000)	
+00:46.223.437	Default	mediaplaybackd (278)	com.apple.coremedia		<<<< FigExportCommmon >>>> assetReaderTrack_Invalidate: (0x62a5a4000)	
+00:46.223.465	Default	mediaplaybackd (278)	com.apple.coremedia		<<<< FigExportCommmon >>>> FigAssetReaderTrackFinalize: (0x62a5a40e0)	
+00:46.223.482	Default	mediaplaybackd (278)	com.apple.coremedia		<<<< FigExportCommmon >>>> assetReaderTrack_Invalidate: (0x62a5a40e0)	
+00:46.223.506	Default	mediaplaybackd (278)	com.apple.coremedia		<<<< FigExportCommmon >>>> FigAssetReaderTrackFinalize: (0x62a5a41c0)	
+00:46.223.522	Default	mediaplaybackd (278)	com.apple.coremedia		<<<< FigExportCommmon >>>> assetReaderTrack_Invalidate: (0x62a5a41c0)	
+00:46.223.543	Default	mediaplaybackd (278)	com.apple.coremedia		<<<< FigExportCommmon >>>> remakerFamily_Finalize: (0x62abc6800) releasing os_transaction 0x62abe4460	
+00:46.223.761	Debug	Photos (1680)	com.apple.defaults	User Defaults	found no value for key avoperation_trace in CFPrefsSearchListSource<0x3037d0700> (Domain: com.apple.avfoundation, Container: (null))	
+00:46.224.028	Default	Unknown (0)	AppleAVD	Default	AppleAVD: removeClient(): clientID: 15 - rollingAvgFPS: 1,647	
+00:46.224.037	Default	Unknown (0)	AppleAVD	Default	AppleAVD: + clientClosedGated [<private>] : client <private>; m_pUserClientList[0..3] = <private> <private> <private> <private> clientid 15, m_numActiveUserClients 11	
+00:46.224.038	Info	Unknown (0)	CoreAnalyticsFamily	Default	IOReturn CoreAnalyticsUserClient::sendDataToUser(uint8_t *, size_t)::309: sending 2,295 bytes
+	
+00:46.224.150	Default	videocodecd (463)	CoreVideo	Default	<private>	
+00:46.224.248	Debug	analyticsd (110)	com.apple.analyticsd	kernellistener	[KernelClient] Got data from _queueAddr 2,295
+	
+00:46.224.543	Default	videocodecd (463)	CoreVideo	Default	<private>	
+00:46.224.612	Default	videocodecd (463)	AVD.videodecoder	Default	AppleAVD: AppleAVDWrapperHEVCDecoderInvalidate() codecType: HEVC, encryptionScheme 6, 128 x 96, session: 0x5d2324020	
+00:46.224.683	Default	videocodecd (463)	AVD.videodecoder	Default	AppleAVD: AppleAVDWrapperHEVCDecoderFinalize() codecType: HEVC, encryptionScheme 6, 128 x 96, session: 0x5d2324020	
+00:46.224.950	Default	videocodecd (463)	CoreVideo	Default	<private>	
+00:46.225.182	Debug	analyticsd (110)	com.apple.analyticsd.critical	xform_cache	[Transform Cache] Cache performance for input event <private>: { transforms: 4, hit: 4, loaded: 0, inserted: 0}	
+00:46.225.399	Default	Unknown (0)	AppleT8140	Default	AppleH17PPlatformErrorHandler::_dcsWritePTD: 112109103114 3 offset f00 @ <private>[0x3003d0f00] <- 8
+
+	
+00:46.225.414	Default	Unknown (0)	AppleT8140	Default	AppleH17PPlatformErrorHandler::_dcsHandleDCSOdtsEvent: Reset _dcsOdtsBelowThresholdCount to 0
+
+	
+00:46.225.416	Default	Unknown (0)	AppleT8140	Default	AppleH17PPlatformErrorHandler::_dcsHandleDCSOdtsEvent: start next polling
+
+	
+00:46.225.423	Debug	analyticsd (110)	com.apple.analyticsd	kernellistener	[KernelEventToJson] Successfully deserialized: <private> - {
+    "SessionDim_AV1FrameOverrideSize" = 0;
+    "SessionDim_AVDCoreIndex" = 1;
+    "SessionDim_ChromaFormat" = 2;
+    "SessionDim_CodecType" = 3;
+    "SessionDim_ColorDepth" = 10;
+    "SessionDim_CompressedBuffersEnabled" = 0;
+    "SessionDim_CryptScheme" = 7;
+    "SessionDim_EnableRVRA" = 0;
+    "SessionDim_FTCDEnabled" = 0;
+    "SessionDim_FilmGrainMode" = 1;
+    "SessionDim_IChatUsage" = 1;
+    "SessionDim_IPCMEnabled" = 0;
+    "SessionDim_LosslessEnabled" = 0;
+    "SessionDim_MultiCore" = 0;
+    "SessionDim_MultiViewClient" = 0;
+    "SessionDim_ParavirtualizedSession" = 0;
+    "SessionDim_ParsingMode" = 1;
+    "SessionDim_TileDecodeMode" = 0;
+    "SessionMeas_AvgDataLength" = 458;
+    "SessionMeas_AvgNumSlices" = 1;
+    "SessionMeas_DecodeRate_fps" = 0;
+    "SessionMeas_FrameHeight" = 96;
+    "SessionMeas_FrameWidth" = 128;
+    "SessionMeas_MaxDataLength" = 1953;
+    "SessionMeas_MaxNumSlices" = 1;
+    "SessionMeas_NumFramesHWErrFatal" = 0;
+    "SessionMeas_NumFramesHWErrNonFatal" = 0;
+   	
+00:46.225.505	Debug	analyticsd (110)	com.apple.analyticsd.event	recv	<private> <private>	
+00:46.225.566	Debug	analyticsd (110)	com.apple.analyticsd.critical	db	[Config Store] Retrieving modify-eventdefs for event with name '<private>'	
+00:46.225.953	Default	videocodecd (463)	CoreVideo	Default	<private>	
+00:46.226.742	Debug	analyticsd (110)	com.apple.analyticsd.critical	xform_cache	[Transform Cache] Cache performance for input event <private>: { transforms: 4, hit: 4, loaded: 0, inserted: 0}	
+00:46.231.060	Default	mediaplaybackd (278)	com.apple.coremedia		<<<< FigExportCommmon >>>> remakerFamily_handleLastStep: (0x62abc6300) state finish writing called	
+00:46.231.111	Default	mediaplaybackd (278)	com.apple.coremedia		<<<< FigExportCommmon >>>> remakerFamily_handleLastStep: Was not in started state when trying to handle last step finish writing called	
+00:46.231.245	Debug	mediaplaybackd (278)	com.apple.defaults	User Defaults	found no value for key fmdw_qtmeta_trace in CFPrefsSearchListSource<0x100514980> (Domain: com.apple.coremedia, Container: (null))	
+00:46.232.367	Default	mediaplaybackd (278)	com.apple.coremedia		<<<< FigFile >>>> FigFileForkSynchronize: fsync starts fork 0xcbc208010 fd 14	
+00:46.233.157	Default	mediaplaybackd (278)	com.apple.coremedia		<<<< FigFile >>>> FigFileForkSynchronize: fsync ends   fork 0xcbc208010 fd 14	
+00:46.233.296	Default	mediaplaybackd (278)	H9.videoencoder	Default	48,715,685,308 20 AVE INFO: Enter AVE_HEVCInvalidate 0x62adb8000	
+00:46.233.600	Default	mediaplaybackd (278)	H9.videoencoder	Default	48,715,685,618 20 AVE INFO: Exit AVE_HEVCInvalidate 0x62adb8000 0	
+00:46.233.665	Default	mediaplaybackd (278)	com.apple.coremedia		<<<< FigExportCommmon >>>> remakerfamily_setFailureStatusIfError: (0x62abc6300) err 0 state finish writing called	
+00:46.233.695	Default	mediaplaybackd (278)	com.apple.coremedia		<<<< FigExportCommmon >>>> remakerFamily_handleLastStep: Leaving [0x62abc6300] err 0 state finish writing completed	
+00:46.233.835	Default	mediaplaybackd (278)	com.apple.coremedia		<<<< FigExportCommmon >>>> assetReaderTrack_Invalidate: (0x62a5a4380)	
+00:46.233.849	Default	mediaplaybackd (278)	com.apple.coremedia		<<<< FigExportCommmon >>>> assetReaderTrack_Invalidate: (0x62a5a42a0)	
+00:46.233.858	Default	mediaplaybackd (278)	com.apple.coremedia		<<<< FigExportCommmon >>>> assetReaderTrack_Invalidate: (0x62a5a4460)	
+00:46.233.865	Default	mediaplaybackd (278)	com.apple.coremedia		<<<< FigExportCommmon >>>> assetReaderTrack_Invalidate: (0x62a5a4540)	
+00:46.233.988	Info	audiomxd (105)	com.apple.coreaudio	as_server	AVAudioSessionXPCServer.mm:2,115 Skipping deregistration of standard MXSession notification, ActiveNeroVisualStreamInfoDidChange	
+00:46.234.131	Info	audiomxd (105)	com.apple.coreaudio	as_server	AVAudioSessionXPCServer.mm:2,115 Skipping deregistration of standard MXSession notification, RoutingContextDidChange	
+00:46.234.308	Info	audiomxd (105)	com.apple.coreaudio	as_server	AVAudioSessionXPCServer.mm:2,115 Skipping deregistration of standard MXSession notification, PickableRoutesDidChange	
+00:46.234.442	Info	audiomxd (105)	com.apple.coreaudio	as_server	AVAudioSessionXPCServer.mm:2,115 Skipping deregistration of standard MXSession notification, PiPIsPossibleDidChange	
+00:46.234.534	Info	audiomxd (105)	com.apple.coreaudio	as_server	AVAudioSessionXPCServer.mm:2,115 Skipping deregistration of standard MXSession notification, SystemVolumeDidChange	
+00:46.234.595	Info	audiomxd (105)	com.apple.coreaudio	as_server	AVAudioSessionXPCServer.mm:2,115 Skipping deregistration of standard MXSession notification, Interruption	
+00:46.234.691	Info	audiomxd (105)	com.apple.coreaudio	as_server	AVAudioSessionXPCServer.mm:2,115 Skipping deregistration of standard MXSession notification, AvailableFormatsDidChange	
+00:46.234.781	Info	audiomxd (105)	com.apple.coreaudio	as_server	AVAudioSessionXPCServer.mm:2,115 Skipping deregistration of standard MXSession notification, AudioModeDidChange	
+00:46.234.872	Info	audiomxd (105)	com.apple.coreaudio	as_server	AVAudioSessionXPCServer.mm:2,115 Skipping deregistration of standard MXSession notification, ActiveAudioRouteDidChange	
+00:46.234.970	Info	audiomxd (105)	com.apple.coreaudio	as_server	AVAudioSessionXPCServer.mm:2,115 Skipping deregistration of standard MXSession notification, ApplicationStateDidChange	
+00:46.235.054	Info	audiomxd (105)	com.apple.coreaudio	as_server	AVAudioSessionXPCServer.mm:2,115 Skipping deregistration of standard MXSession notification, AudioBehaviourDidChange	
+00:46.235.118	Default	mediaplaybackd (278)	com.apple.coremedia		<<<< FigExportCommmon >>>> remakerFamily_Finalize: (0x62abc6300) state invalidated	
+00:46.235.123	Default	audiomxd (105)	com.apple.coreaudio	as_server	ServerSessionManager.mm:427 { "action":"destroy_session", "session":{"ID":"0x69057","name":"mediaplaybackd(278)","sibling_of":"0x69042 Photos(1680)"}, "details":null }	
+00:46.235.132	Default	mediaplaybackd (278)	com.apple.coremedia		<<<< FigExportCommmon >>>> FigAssetReaderTrackFinalize: (0x62a5a4380)	
+00:46.235.136	Error	audiomxd (105)	com.apple.coreaudio	as_server	AudioApplicationInfoImpl.mm:442 Session 0x69057 not found in app's known sessions (app: {"name":"[implicit] Photos","pid":1680})	
+00:46.235.141	Default	mediaplaybackd (278)	com.apple.coremedia		<<<< FigExportCommmon >>>> assetReaderTrack_Invalidate: (0x62a5a4380)	
+00:46.235.144	Default	audiomxd (105)	com.apple.coreaudio	as_server	AVAudioSessionXPCServer.mm:1,179 Session with ID 0x69057 was removed	
+00:46.235.156	Default	mediaplaybackd (278)	H9.videoencoder	Default	48,715,687,180 20 AVE INFO: Enter AVE_HEVCFinalize 0x62adb8000	
+00:46.235.206	Debug	DTServiceHub (360)	DVTInstrumentsFoundation	Default	Data Size: 100,686, Rows Sent: 1,358, Stack depth: 1,122	
+00:46.235.211	Default	mediaplaybackd (278)	com.apple.xpc	connection	[0x62a3f1900] invalidated because the current process cancelled the connection by calling xpc_connection_cancel()	
+00:46.235.281	Default	audiomxd (105)	com.apple.xpc	connection	[0x4ac341900] invalidated because the client process (pid 278) either cancelled the connection or exited	
+00:46.235.339	Default	audiomxd (105)	com.apple.coreaudio	as_server	AVAudioSessionXPCServer.mm:760 Invalidated connection: <NSXPCConnection: 0x4ac1bb8e0> connection from pid 278 on mach service named com.apple.audio.AudioSession (0x4ac718cc0)	
+00:46.235.366	Info	audiomxd (105)	com.apple.coreaudio	as_server	AVAudioSessionXPCServer.mm:739 Deallocated connection 0x4ac718cc0	
+00:46.235.371	Default	audiomxd (105)	com.apple.coremedia		-MXSession- -[MXSession(InterfaceImpl) _dealloc]: Deallocating <MXSessionID: 43f, CoreSessionID = 41 Name = sid:0x69042, Photos(1680), 'prim', Muted = NO, Playing = NO, MutePriority = MutePriority_Two, PiP = NO, DoesntActuallyPlayAudio = NO, clientType = 1, IsPlayingOutput = NO. Current MXSessions count for CoreSession = 1	
+00:46.235.414	Default	audiomxd (105)	com.apple.coremedia		-MXSession- +[MXSession(InternalUse) updateIsPlaying:]: Setting SomeMXSessionIsPlaying on CoreSession[sid:0x69042, Photos(1680), 'prim'] to: NO; AudioSessionPlaying : NO, FigPlayerPlaying: NO, FigSBARPlaying : NO	
+00:46.235.471	Default	audiomxd (105)	com.apple.coremedia		-MXSession- +[MXSession(InternalUse) updateIsRecording:]: Setting IsRecording on CoreSession[sid:0x69042, Photos(1680), 'prim'] to: NO; AudioSessionRecording : NO, FigPlayerRecording: NO, FigSBARRecording : NO	
+00:46.235.546	Default	audiomxd (105)	com.apple.coremedia		-CMVAEndptMgr- vaemIsAC3EncodingSupported: Device doesn't support AC3 encoding, canEncodeToAC3 = 0, isAC3Supported = 0	
+00:46.235.572	Default	audiomxd (105)	com.apple.coremedia		-MXSession- +[MXSession(InternalUse) updatePreferredOutputSampleRate:]: CMSession: Setting the PreferredOutputSampleRate property on CoreSession[sid:0x69042, Photos(1680), 'prim'] to 0	
+00:46.235.594	Default	audiomxd (105)	com.apple.coremedia		-CMSessionMgr- MXCoreSessionSetProperty: Session sid:0x69042, Photos(1680), 'prim' setting sample rate to: 0.0000.	
+00:46.235.645	Default	audiomxd (105)	com.apple.coremedia		-CMVAEndptMgr- vaemIsAC3EncodingSupported: Device doesn't support AC3 encoding, canEncodeToAC3 = 0, isAC3Supported = 0	
+00:46.236.397	Debug	backboardd (68)	com.apple.CoreBrightness.ColourSensorFilterPlugin	default	Color: X=145.3609(46.2698) Y=138.3257(44.0304) Z=52.8993(16.8384) 
+	
+00:46.236.492	Default	backboardd (68)	com.apple.CoreBrightness.ColourSensorFilterPlugin	default	[ALS] ts=48,715.6782 lux=154.8361<private> xy=(0.4319 0.4110) chs=[894.0000 2,443.0000 6,122.0000 8,907.0000 9,351.0000] CCT1=3,282.1428 gain=512x mode=<private> subsamples=24 rawLux=161.0713 nits=1,083 xTalk=[9 18 34 46 61] status=0xb copyEvent=0	
+00:46.236.662	Debug	locationd (74)	com.apple.locationd.Position	Position	AmbientLight,DecisionTree,x,162.7110,y,154.8361,z,59.2133,out,3	
+00:46.236.665	Debug	backboardd (68)	com.apple.CoreBrightness.CBColorModule.Primary	default	key=ALSIntegrationMode result=	
+00:46.236.702	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[4]: 	
+00:46.236.721	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[2]: ALSIntegrationMode	
+00:46.236.751	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[2]: ALSIntegrationMode result=3	
+00:46.236.769	Debug	backboardd (68)	com.apple.CoreBrightness.CBABModuleiOS	default	key=ALSIntegrationMode result=3	
+00:46.236.786	Debug	locationd (74)	com.apple.locationd.Position	Position	AmbientLightDecisionTreeOutput,3	
+00:46.236.786	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayContaineriOS	BuiltIn	key=ALSIntegrationMode result=3	
+00:46.236.813	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[4]: _plugInEnabled=1	
+00:46.236.831	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[4]: 0xdb4ccd900 0xdb5836450	
+00:46.236.859	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[10]: 154.8361 	
+00:46.236.874	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[10]: als->_Esensor_device=154.8361	
+00:46.236.899	Debug	backboardd (68)	com.apple.CoreBrightness.CBALSEvent	default	Tristimulus values: XYZ[0]=51.7925, XYZ[1]=49.2859, XYZ[2]=18.8482 | CCT1=3,282.1428	
+00:46.236.974	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[2]: _luxFilter=3 als->_Ehistory_max=8	
+00:46.237.040	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[10]: Median filter computed on 8 samples	
+00:46.237.057	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	Median filter computed on 8 samples	
+00:46.237.099	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[10]: ts=48,715.6797 Esensor=154.4927 Emedian=155.0629	
+00:46.237.172	Info	backboardd (68)	com.apple.CoreBrightness.AABRear.CBRearALSModule	default	Copy Grimaldi Lux = 31.03788	
+00:46.237.195	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	E 155.0629, Ecapped 155.0629, EmaxCap -1.0000 => finalE 155.0629	
+00:46.237.228	Debug	backboardd (68)	com.apple.CoreBrightness.AABRear	default	AABRear: shouldUseRearLuxFrontLux called with (fLux:155.0629, rLux:31.0379, cap: 1,862.1151)	
+00:46.237.268	Debug	backboardd (68)	com.apple.CoreBrightness.AABRear	default	AABRear: using rear? 0	
+00:46.237.311	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	E 155.0629, Ecapped 155.0629, EmaxCap -1.0000 => finalE 155.0629	
+00:46.237.347	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayContaineriOS	BuiltIn	Notification block key=RLuxStats, value=<private>
+	
+00:46.237.373	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	Handle notification for key = RLuxStats and property = <private>	
+00:46.237.424	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayContaineriOS	BuiltIn	Notification block key=TrustedLux, value=155.0629
+	
+00:46.237.441	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	Handle notification for key = TrustedLux and property = 155.0629	
+00:46.237.529	Info	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	Set trusted lux = 155.0629	
+00:46.237.530	Default	backboardd (68)	com.apple.coreanimation	Brightness	Display 1 commitBrightness sdr: -1.0000, headroom: -1.0000, ambient lux: 155.0629, filtered ambient: -1.0000, limit: -1.0000, low ambient strength: -1.0000, high ambient strength: -1.0000, brightness ctl disabled 18,446,744,073,709,551,615
+	
+00:46.237.548	Default	backboardd (68)	com.apple.CoreBrightness.AABC	default	trusted Lux: 155.0629, trusted front Lux: 155.0629, trusted capped Lux: 155.0629	
+00:46.237.569	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[10]: _Esensor_filtered=155.0629 _Esensor_trusted=155.0629 _Esensor_aggregated=155.0629	
+00:46.237.591	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayContaineriOS	BuiltIn	Notification block key=Lux, value=155.0629
+	
+00:46.237.608	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	Handle notification for key = Lux and property = 155.0629	
+00:46.237.665	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[10]: _Esensor_trusted=155.0629 _state=kAABStateAutoBrightness _proxState=kProxNone _touchIsObstucted=0 _settings._internal._dimPolicy=kDimPolicyFullDimming 3 _orientation=kIOHIDDisplayOrientationTypeAmbiguous	
+00:46.237.688	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	E 155.0629, Ecapped 155.0629, EmaxCap -1.0000 => finalE 155.0629	
+00:46.237.704	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[1/1] Esensor_device: 154.8361 als->_Esensor_filtered: 155.0629 _Esensor_trusted: 155.0629  L: 191.6835 L_reflected: 0.9872	
+00:46.237.755	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[10]: dimRestriction=kDimRestrictionUnrestricted	
+00:46.237.784	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	Superbright EDR restrictions [would be]: CLTM 1,512.3809, UPO 2,175.0000, bottom [lower] restriction 1.0000, nits cap hdr: 2,175.0000, after BDM: 1,600.0000	
+00:46.237.806	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	Ambient change - SetLibEDRBrightness - physicalBrightness:118.8318, maxLum: 1,600.0000, edrState: 0, lux: 155.0629, brightness boost: 1.1381
+	
+00:46.237.829	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	SetLibEDRBrightness to currentBrightness=118.8318, maxBrightness=1,600.0000, currentLux=155.0629, compensationBoost=1.1381	
+00:46.237.854	Debug	backboardd (68)	CoreBrightness	Default	CBEDRServerDisplayBrightness: display: 0 | target: 118.8318 | max: 1,600.0000 | ambient: 155.0629 | boost=1.1381	
+00:46.237.896	Info	backboardd (68)	libEDR	Default	libEDR - EDRServerSetDisplayBrightnessForDisplay: (display: 0, targetBrightness: 118.8318, maxLuminance: 1,600.0000, ambientIlluminance: 155.0629, brightnessScaler: 1.1381)
+	
+00:46.237.928	Info	backboardd (68)	libEDR	Default	libEDR - NotificationCallback: (type: kEDRNotifyBrightness, display: 0, brightness: 0.0743, backlight: 0.0743, edrScaler: 1.0000, maxLuminance: 1,600.0000, ambientIlluminance: 155.0629, brightnessScaler: 1.1381)
+	
+00:46.237.943	Info	backboardd (68)	libEDR	Default	libEDR - PostNotification: (display: 0, brightness: 0.0743, backlight: 0.0743, edrScaling: 1.0000, maxLuminance: 1,600.0000, ambientIlluminance: 155.0629, brightnessScaler: 1.1381)
+	
+00:46.237.967	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	Set capped lux to IOMFB 155.0629 (155.4186)	
+00:46.238.299	Default	Unknown (0)	AppleAVE2	Default	48,715,690,328 2 AVE : ID: 230 | Process: 86 0 Drop: 0 0 | I: 4 0 P: 19 0 B: 63 0 	
+00:46.238.302	Default	Unknown (0)	AppleAVE2	Default	48,715,690,332 2 AVE : close <private> ID: 230  | EU: 0 1 | FPS: 29.599 - 80.296 | 78.190 Num: 0	
+00:46.238.344	Info	Unknown (0)	CoreAnalyticsFamily	Default	IOReturn CoreAnalyticsUserClient::sendDataToUser(uint8_t *, size_t)::309: sending 1,820 bytes
+	
+00:46.238.373	Debug	analyticsd (110)	com.apple.analyticsd	kernellistener	[KernelClient] Got data from _queueAddr 1,820
+	
+00:46.238.530	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[4]: 	
+00:46.238.566	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[200]: inputs: L=191.6835 (shouldRamp=true dimRestriction=kDimRestrictionUnrestricted _Esensor_trusted=155.0629) curveChanged=0	
+00:46.238.584	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[200]: _fastRampMode=0 dimRestriction=kDimRestrictionUnrestricted L_newtarget=191.6835 _L_current=76.2887 _L_minimum=191.6972	
+00:46.238.603	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	PLT	shallUpdateBacklight: Pstart=0.7645 Pcurrent=0.7645 Pnewtarget=0.7545 Pdelta=-0.0100 Pthreshold_dim=0.0500 (0.1000 * 0.5000) Pthreshold_brighten=0.1000 (0.1000 * 1.0000) plt_x=0.2500 plt_y=0.3700 plt_z=0.1000	
+00:46.238.621	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[200]: _L_target=205.5501 Pnewtarget=0.7545 Ptarget=0.7645 Pdelta=-0.0100  	
+00:46.238.651	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[200]: systemShallUpdateBacklight=false L_target=191.6835 timeConstant=0.0000	
+00:46.238.716	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	Handle notification for key = TrustedLux and property = 155.0629	
+00:46.238.866	Info	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	Set trusted lux = 155.0629	
+00:46.238.936	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayContaineriOS	BuiltIn	Notification block key=TrustedLux, value=155.0629
+	
+00:46.239.063	Debug	backboardd (68)	com.apple.CoreBrightness.CBALSEvent	default	Tristimulus values: XYZ[0]=51.7925, XYZ[1]=49.2859, XYZ[2]=18.8482 | CCT1=3,282.1428	
+00:46.239.121	Debug	backboardd (68)	com.apple.CoreBrightness.CBALSNode	default	<private>	
+00:46.239.175	Debug	backboardd (68)	com.apple.CoreBrightness.CBBrightestALSFilter	default	ALS events <private>	
+00:46.239.216	Info	backboardd (68)	com.apple.CoreBrightness.CBColorPolicyFilter	default	HarmonyPolicy: Sample IS  from mitigated region	
+00:46.239.269	Info	backboardd (68)	com.apple.CoreBrightness.CBColorPolicyFilter	default	HarmonyPolicy: BaselineHarmony: mitigatedStr, for (lux, nits): 154.0000, 1,083.0000 = 0.1100 (rounded)	
+00:46.239.322	Info	backboardd (68)	com.apple.CoreBrightness.CBColorPolicyFilter	default	HarmonyPolicy: Sample IS NOT from CE region	
+00:46.239.394	Info	backboardd (68)	com.apple.CoreBrightness.CBColorPolicyFilter	default	HarmonyPolicy: Incoming ALS sample, pushed to queue: <private>	
+00:46.239.479	Info	backboardd (68)	com.apple.CoreBrightness.CBColorPolicyFilter	default	HarmonyPolicy: _filteredALS: <private>, _filtered strength: 0.2700	
+00:46.239.541	Debug	backboardd (68)	com.apple.CoreBrightness.CBColorModule.Primary	default	ALS event with orientation = 1	
+00:46.239.567	Info	backboardd (68)	com.apple.CoreBrightness.CBColorModule.Primary	default	HarmonyPolicy: Using Baseline	
+00:46.239.607	Debug	backboardd (68)	com.apple.CoreBrightness.CBColorModule.Primary	default	input ambient color sample: xy = (0.4319;0.4110)	
+00:46.239.657	Debug	backboardd (68)	CoreBrightness	Default	LOWLUX 49.2859
+	
+00:46.239.699	Debug	backboardd (68)	CoreBrightness	Default	[ColorEffects.c:_CFXRestrictLowAmbientColor] xy=(0.4319,0.4110), CCT = 3,148.0000, CCT1 = 3,282.1428	
+00:46.239.722	Debug	backboardd (68)	CoreBrightness	Default	Restrict: (17.0123, 17.0123) -> (13.5291, 46.8380)
+	
+00:46.239.762	Debug	backboardd (68)	CoreBrightness	Default	61.3047 17.0123 58.8969 -> ANGLE 1.6823 -> BIN 2	
+00:46.239.802	Debug	backboardd (68)	CoreBrightness	Default	BIN 13: (0.4319, 0.4110) fitting in (0.4150, 0.3821)-(0.4373, 0.3893)-(0.4303, 0.4173)
+	
+00:46.239.835	Info	backboardd (68)	com.apple.CoreBrightness.CBColorModule.Primary	default	Set ambient color sample ALS event = [Orientation = 1; Illuminance = 154.000000; xy = (0.431869,0.410967); XYZ = (51.792511,49.285854,18.848179); CCT1 = 3282.142822; Integration time = 0.002906; Gain = 33554432; Obstructed = 0; First = 0, mitigation = 1, timestamp = 87761272]	
+00:46.239.923	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=RLuxStats value=<private>	
+00:46.239.941	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=RLuxStats property=<private>	
+00:46.239.983	Debug	analyticsd (110)	com.apple.analyticsd	kernellistener	[KernelEventToJson] Successfully deserialized: <private> - {
+    ChromaFormat = 420;
+    ClientType = ENCODE;
+    CodecType = HEVC;
+    EncMode = FRAME;
+    GOPMode = IPB;
+    InputBitDepth = 8;
+    InputFPS = 80;
+    InputPixelFormat = "&8f0";
+    NumOfCores = 2;
+    NumOfOpenClients = 1;
+    OutputBitDepth = 8;
+    OutputFPS = 78;
+    PixelsPerFrame = 2764800;
+    PixelsPerSecond = 216179818;
+    PowerStateRatioMax = 98;
+    PowerStateRatioMid = 0;
+    PowerStateRatioMin = 2;
+    ScheduleMode = HWMC;
+    SessionIdleRatio = 4;
+    SessionIdleTime = 0;
+    SessionLength = 1;
+    ThroughputModeRatioMedium = 0;
+    ThroughputModeRatioNormal = 96;
+    ThroughputModeRatioSlow = 0;
+    ThroughputModeRatioTurbo = 0;
+    ThroughputModeRatioUltra = 0;
+    ThroughputModeRatioUltra1 = 0;
+}	
+00:46.239.999	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	passed for client 58881740544	
+00:46.240.096	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=<private> value=<private>	
+00:46.240.114	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=<private> property=<private>	
+00:46.240.135	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=TrustedLux value=155.0629	
+00:46.240.179	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=TrustedLux property=155.0629	
+00:46.240.191	Debug	PerfPowerServices (1452)	com.apple.CoreBrightness	default	key=<private> property=<private> queue=0x97ede5100 clientBlock=0x97e365e90	
+00:46.240.239	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	passed for client 58870513280	
+00:46.240.285	Info	PerfPowerServices (1452)	com.apple.CoreBrightness.BSCI	default	use_synchronous_remote=1	
+00:46.240.321	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=<private> value=155.0629	
+00:46.240.334	Default	PerfPowerServices (1452)	com.apple.xpc	connection	[0x97ef066c0] activating connection: mach=1 listener=0 peer=0 name=com.apple.backlightd	
+00:46.240.373	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=<private> property=155.0629	
+00:46.240.429	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=Lux value=155.0629	
+00:46.240.436	Debug	locationd (74)	com.apple.CoreBrightness	default	key=<private> property=155.0629 queue=0x838c59d80 clientBlock=0x838ae4840	
+00:46.240.482	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=Lux property=155.0629	
+00:46.240.518	Default	PerfPowerServices (1452)	com.apple.CoreBrightness	default	Register notification block	
+00:46.240.520	Debug	locationd (74)	com.apple.locationd.Position	Outdoor	AmbientLight,context,<private>,startTime,<private>,lux,<private>	
+00:46.240.537	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=<private> value=155.0629	
+00:46.240.568	Default	backboardd (68)	com.apple.coreanimation	Brightness	Display 1 setting ambient lux to 155.0629
+	
+00:46.240.589	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=<private> property=155.0629	
+00:46.240.657	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=TrustedLux value=155.0629	
+00:46.240.696	Default	backboardd (68)	com.apple.xpc	connection	[0xdb5089f40] activating connection: mach=0 listener=0 peer=1 name=com.apple.backlightd.peer[1452].0xdb5089f40	
+00:46.240.709	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=TrustedLux property=155.0629	
+00:46.240.787	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	passed for client 58870513280	
+00:46.240.883	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=<private> value=155.0629	
+00:46.240.922	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=<private> property=155.0629	
+00:46.240.945	Debug	locationd (74)	com.apple.CoreBrightness	default	key=<private> property=155.0629 queue=0x838c59d80 clientBlock=0x838ae4840	
+00:46.241.000	Debug	locationd (74)	com.apple.locationd.Position	Outdoor	AmbientLight,context,<private>,startTime,<private>,lux,<private>	
+00:46.241.084	Info	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	client=58903571392 key=<private>	
+00:46.241.124	Debug	backboardd (68)	com.apple.CoreBrightness.CBColorModule.Primary	default	key=<private> result=<private>	
+00:46.241.143	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayContaineriOS	BuiltIn	key=<private> result=<private>	
+00:46.241.225	Default	backboardd (68)	com.apple.coreanimation	Brightness	Display 1 commitBrightness sdr: -1.0000, headroom: -1.0000, ambient lux: 155.0629, filtered ambient: -1.0000, limit: -1.0000, low ambient strength: -1.0000, high ambient strength: -1.0000, brightness ctl disabled 18,446,744,073,709,551,615
+	
+00:46.241.311	Info	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=<private> result=<private>	
+00:46.241.336	Debug	analyticsd (110)	com.apple.analyticsd.event	recv	<private> <private>	
+00:46.241.532	Debug	analyticsd (110)	com.apple.analyticsd.critical	db	[Config Store] Retrieving transforms for event with name '<private>'	
+00:46.241.538	Debug	PerfPowerServices (1452)	com.apple.CoreBrightness.Client	Default	BSC dealloc	
+00:46.241.571	Default	PerfPowerServices (1452)	com.apple.CoreBrightness	default	Register notification block	
+00:46.241.601	Default	PerfPowerServices (1452)	com.apple.xpc	connection	[0x97ef066c0] invalidated because the current process cancelled the connection by calling xpc_connection_cancel()	
+00:46.241.640	Debug	PerfPowerServices (1452)	com.apple.powerlog	display	Received notification for CBrLuxStats: <private>	
+00:46.241.644	Default	backboardd (68)	com.apple.xpc	connection	[0xdb5089f40] invalidated because the client process (pid 1,452) either cancelled the connection or exited	
+00:46.241.683	Debug	PerfPowerServices (1452)	com.apple.CoreBrightness.BSCI	default	BSCI dealloc	
+00:46.241.701	Default	PerfPowerServices (1452)	com.apple.CoreBrightness	default	Register notification block	
+00:46.241.896	Debug	analyticsd (110)	com.apple.analyticsd.critical	xform	[Transform Factory] No Transform aggregation period specified.	
+00:46.241.923	Debug	analyticsd (110)	com.apple.analyticsd.critical	xform_cache	[Transform Cache] Cache miss. Loading <private> - <private> for input event <private>	
+00:46.242.050	Debug	analyticsd (110)	com.apple.analyticsd.critical	xform	[Transform Factory] No Transform aggregation period specified.	
+00:46.242.072	Debug	analyticsd (110)	com.apple.analyticsd.critical	xform_cache	[Transform Cache] Cache miss. Loading <private> - <private> for input event <private>	
+00:46.242.154	Debug	analyticsd (110)	com.apple.analyticsd.critical	xform	[Transform Factory] No Transform aggregation period specified.	
+00:46.242.174	Debug	analyticsd (110)	com.apple.analyticsd.critical	xform_cache	[Transform Cache] Cache miss. Loading <private> - <private> for input event <private>	
+00:46.242.277	Debug	analyticsd (110)	com.apple.analyticsd.critical	xform	[Transform Factory] No Transform aggregation period specified.	
+00:46.242.301	Debug	analyticsd (110)	com.apple.analyticsd.critical	xform_cache	[Transform Cache] Cache miss. Loading <private> - <private> for input event <private>	
+00:46.242.374	Debug	analyticsd (110)	com.apple.analyticsd.critical	xform	[Transform Factory] No Transform aggregation period specified.	
+00:46.242.394	Debug	analyticsd (110)	com.apple.analyticsd.critical	xform_cache	[Transform Cache] Cache miss. Loading <private> - <private> for input event <private>	
+00:46.242.476	Debug	analyticsd (110)	com.apple.analyticsd.critical	xform	[Transform Factory] No Transform aggregation period specified.	
+00:46.242.496	Debug	analyticsd (110)	com.apple.analyticsd.critical	xform_cache	[Transform Cache] Cache miss. Loading <private> - <private> for input event <private>	
+00:46.242.567	Debug	analyticsd (110)	com.apple.analyticsd.critical	xform	[Transform Factory] No Transform aggregation period specified.	
+00:46.242.591	Debug	analyticsd (110)	com.apple.analyticsd.critical	xform_cache	[Transform Cache] Cache miss. Loading <private> - <private> for input event <private>	
+00:46.242.654	Default	mediaplaybackd (278)	H9.videoencoder	Default	48,715,694,676 20 AVE INFO: Exit AVE_HEVCFinalize 0x62adb8000 0	
+00:46.242.704	Debug	analyticsd (110)	com.apple.analyticsd.critical	xform	[Transform Factory] No Transform aggregation period specified.	
+00:46.242.726	Debug	analyticsd (110)	com.apple.analyticsd.critical	xform_cache	[Transform Cache] Cache miss. Loading <private> - <private> for input event <private>	
+00:46.242.784	Default	mediaplaybackd (278)	com.apple.coremedia		<<<< FigExportCommmon >>>> FigAssetReaderTrackFinalize: (0x62a5a42a0)	
+00:46.242.797	Default	mediaplaybackd (278)	com.apple.coremedia		<<<< FigExportCommmon >>>> assetReaderTrack_Invalidate: (0x62a5a42a0)	
+00:46.242.808	Default	mediaplaybackd (278)	com.apple.coremedia		<<<< FigExportCommmon >>>> FigAssetReaderTrackFinalize: (0x62a5a4460)	
+00:46.242.816	Default	mediaplaybackd (278)	com.apple.coremedia		<<<< FigExportCommmon >>>> assetReaderTrack_Invalidate: (0x62a5a4460)	
+00:46.242.824	Default	mediaplaybackd (278)	com.apple.coremedia		<<<< FigExportCommmon >>>> FigAssetReaderTrackFinalize: (0x62a5a4540)	
+00:46.242.826	Debug	analyticsd (110)	com.apple.analyticsd.critical	xform	[Transform Factory] No Transform aggregation period specified.	
+00:46.242.834	Default	mediaplaybackd (278)	com.apple.coremedia		<<<< FigExportCommmon >>>> assetReaderTrack_Invalidate: (0x62a5a4540)	
+00:46.242.857	Default	mediaplaybackd (278)	com.apple.coremedia		<<<< FigExportCommmon >>>> remakerFamily_Finalize: (0x62abc6300) releasing os_transaction 0x62abe4d20	
+00:46.242.907	Debug	analyticsd (110)	com.apple.analyticsd.critical	xform_cache	[Transform Cache] Cache miss. Loading <private> - <private> for input event <private>	
+00:46.243.050	Debug	analyticsd (110)	com.apple.analyticsd.critical	xform	[Transform Factory] No Transform aggregation period specified.	
+00:46.243.069	Debug	analyticsd (110)	com.apple.analyticsd.critical	xform_cache	[Transform Cache] Cache miss. Loading <private> - <private> for input event <private>	
+00:46.243.206	Debug	analyticsd (110)	com.apple.analyticsd.critical	xform	[Transform Factory] No Transform aggregation period specified.	
+00:46.243.239	Debug	analyticsd (110)	com.apple.analyticsd.critical	xform_cache	[Transform Cache] Cache miss. Loading <private> - <private> for input event <private>	
+00:46.243.363	Debug	analyticsd (110)	com.apple.analyticsd.critical	xform	[Transform Factory] No Transform aggregation period specified.	
+00:46.243.394	Debug	analyticsd (110)	com.apple.analyticsd.critical	xform_cache	[Transform Cache] Cache miss. Loading <private> - <private> for input event <private>	
+00:46.243.455	Debug	Photos (1680)	com.apple.photos.Neutrino	schedule	job 0x4d3ced2c0 didRender 1.4410 s	
+00:46.243.472	Debug	Photos (1680)	com.apple.photos.Neutrino	schedule	respond job 0x4d3ced2c0 PICompositionExporter-video: success	
+00:46.243.499	Debug	Photos (1680)	com.apple.photos.Neutrino	schedule	job 0x4d3ced2c0 PICompositionExporter-video totalDuration 1.4422 s	
+00:46.243.513	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Export Composition: exporting video complement complete	
+00:46.243.525	Debug	analyticsd (110)	com.apple.analyticsd.critical	xform	[Transform Factory] No Transform aggregation period specified.	
+00:46.243.561	Debug	analyticsd (110)	com.apple.analyticsd.critical	xform_cache	[Transform Cache] Cache miss. Loading <private> - <private> for input event <private>	
+00:46.243.657	Debug	analyticsd (110)	com.apple.analyticsd.critical	xform	[Transform Factory] No Transform aggregation period specified.	
+00:46.243.676	Debug	analyticsd (110)	com.apple.analyticsd.critical	xform_cache	[Transform Cache] Cache miss. Loading <private> - <private> for input event <private>	
+00:46.243.738	Debug	analyticsd (110)	com.apple.analyticsd.critical	xform	[Transform Factory] No Transform aggregation period specified.	
+00:46.243.754	Debug	analyticsd (110)	com.apple.analyticsd.critical	xform_cache	[Transform Cache] Cache miss. Loading <private> - <private> for input event <private>	
+00:46.243.815	Debug	analyticsd (110)	com.apple.analyticsd.critical	xform	[Transform Factory] No Transform aggregation period specified.	
+00:46.243.834	Debug	analyticsd (110)	com.apple.analyticsd.critical	xform_cache	[Transform Cache] Cache miss. Loading <private> - <private> for input event <private>	
+00:46.243.906	Debug	analyticsd (110)	com.apple.analyticsd.critical	xform	[Transform Factory] No Transform aggregation period specified.	
+00:46.243.924	Debug	analyticsd (110)	com.apple.analyticsd.critical	xform_cache	[Transform Cache] Cache miss. Loading <private> - <private> for input event <private>	
+00:46.243.991	Debug	analyticsd (110)	com.apple.analyticsd.critical	xform	[Transform Factory] No Transform aggregation period specified.	
+00:46.244.008	Debug	analyticsd (110)	com.apple.analyticsd.critical	xform_cache	[Transform Cache] Cache miss. Loading <private> - <private> for input event <private>	
+00:46.244.074	Debug	analyticsd (110)	com.apple.analyticsd.critical	xform	[Transform Factory] No Transform aggregation period specified.	
+00:46.244.089	Debug	analyticsd (110)	com.apple.analyticsd.critical	xform_cache	[Transform Cache] Cache miss. Loading <private> - <private> for input event <private>	
+00:46.244.172	Debug	analyticsd (110)	com.apple.analyticsd.critical	xform	[Transform Factory] No Transform aggregation period specified.	
+00:46.244.192	Debug	analyticsd (110)	com.apple.analyticsd.critical	xform_cache	[Transform Cache] Cache miss. Loading <private> - <private> for input event <private>	
+00:46.244.246	Debug	analyticsd (110)	com.apple.analyticsd.critical	xform	[Transform Cache] Eviction callback for transform <private> - <private>	
+00:46.244.495	Debug	analyticsd (110)	com.apple.analyticsd.critical	xform	[Transform Cache] Eviction callback for transform <private> - <private>	
+00:46.244.733	Debug	analyticsd (110)	com.apple.analyticsd.critical	xform	[Transform Factory] No Transform aggregation period specified.	
+00:46.244.796	Debug	analyticsd (110)	com.apple.analyticsd.critical	xform_cache	[Transform Cache] Cache miss. Loading <private> - <private> for input event <private>	
+00:46.244.895	Debug	analyticsd (110)	com.apple.analyticsd.critical	xform	[Transform Factory] No Transform aggregation period specified.	
+00:46.244.914	Debug	analyticsd (110)	com.apple.analyticsd.critical	xform_cache	[Transform Cache] Cache miss. Loading <private> - <private> for input event <private>	
+00:46.244.963	Debug	analyticsd (110)	com.apple.analyticsd.critical	xform	[Transform Cache] Eviction callback for transform <private> - <private>	
+00:46.245.171	Debug	analyticsd (110)	com.apple.analyticsd.critical	xform	[Transform Factory] No Transform aggregation period specified.	
+00:46.245.190	Debug	analyticsd (110)	com.apple.analyticsd.critical	xform_cache	[Transform Cache] Cache miss. Loading <private> - <private> for input event <private>	
+00:46.245.291	Debug	analyticsd (110)	com.apple.analyticsd.critical	xform	[Transform Cache] Eviction callback for transform <private> - <private>	
+00:46.245.504	Debug	analyticsd (110)	com.apple.analyticsd.critical	xform	[Transform Factory] No Transform aggregation period specified.	
+00:46.245.527	Debug	analyticsd (110)	com.apple.analyticsd.critical	xform_cache	[Transform Cache] Cache miss. Loading <private> - <private> for input event <private>	
+00:46.245.545	Default	Photos (1680)	CoreVideo	Default	<private>	
+00:46.245.584	Debug	analyticsd (110)	com.apple.analyticsd.critical	xform	[Transform Cache] Eviction callback for transform <private> - <private>	
+00:46.245.723	Default	Photos (1680)	CoreVideo	Default	<private>	
+00:46.245.799	Debug	analyticsd (110)	com.apple.analyticsd.critical	xform	[Transform Factory] No Transform aggregation period specified.	
+00:46.245.819	Debug	analyticsd (110)	com.apple.analyticsd.critical	xform_cache	[Transform Cache] Cache miss. Loading <private> - <private> for input event <private>	
+00:46.245.868	Debug	analyticsd (110)	com.apple.analyticsd.critical	xform	[Transform Cache] Eviction callback for transform <private> - <private>	
+00:46.245.915	Debug	Photos (1680)	com.apple.photos.Neutrino	schedule	job 0x4d3cec280 PICompositionExporter-HDRGainMap render	
+00:46.246.010	Debug	analyticsd (110)	com.apple.analyticsd.critical	xform_cache	[Transform Cache] Cache performance for input event <private>: { transforms: 25, hit: 0, loaded: 25, inserted: 25}	
+00:46.250.509	Default	MTLCompilerService (1695)	MTLCompiler	Default	Compilation BEGIN (ParentProcessName=Photos_1680) Build request: MTLBuildFunctions - pipeline	
+00:46.254.774	Default	MTLCompilerService (1695)	MTLCompiler	Default	Compilation SUCCESS (ParentProcessName=Photos_1680) (TYPE=MTLBuildFunctions - pipeline): Time 4.2311 ms 	
+00:46.261.562	Debug	Photos (1680)	com.apple.photos.Neutrino	schedule	job 0x4d3cec280 didRender 0.0157 s	
+00:46.261.602	Debug	Photos (1680)	com.apple.photos.Neutrino	schedule	job 0x4d3cec280 stage Complete schedule high, 0.0000	
+00:46.261.665	Debug	Photos (1680)	com.apple.photos.Neutrino	schedule	job 0x4d3cec280 PICompositionExporter-HDRGainMap complete	
+00:46.265.132	Debug	Photos (1680)	com.apple.photos.Neutrino	schedule	job 0x4d3cec280 didComplete 0.0035 s	
+00:46.265.139	Debug	Photos (1680)	com.apple.photos.Neutrino	schedule	respond job 0x4d3cec280 PICompositionExporter-HDRGainMap: success	
+00:46.265.198	Debug	Photos (1680)	com.apple.photos.Neutrino	schedule	job 0x4d3cec280 PICompositionExporter-HDRGainMap totalDuration 1.4637 s	
+00:46.266.121	Debug	Photos (1680)	com.apple.launchservices	record	Invoking selector identifierWithContext:tableID:unitID:unitBytes: on <_UTDeclaredTypeRecord 0x300b39110> to get the value for property identifier	
+00:46.266.175	Debug	Photos (1680)	com.apple.photos.Neutrino	schedule	job 0x3025ff700 stage Prepare schedule high, 0.0000	
+00:46.266.200	Debug	Photos (1680)	com.apple.photos.Neutrino	schedule	job 0x3025ff700 PICompositionExporter-image prepare	
+00:46.266.325	Debug	Photos (1680)	com.apple.photos.Neutrino	render	FlexRange metadata: <private>	
+00:46.266.391	Debug	Photos (1680)	com.apple.photos.Neutrino	render	FlexRange properties: <private>	
+00:46.266.415	Debug	Photos (1680)	com.apple.defaults	User Defaults	found no value for key PI_SEMANTIC_STYLE_DISABLE_STYLE_ENGINE in CFPrefsSearchListSource<0x30355b680> (Domain: com.apple.mobileslideshow, Container: (null))	
+00:46.266.528	Debug	Photos (1680)	com.apple.defaults	User Defaults	found no value for key PI_DEBUG_USE_STYLE_ENGINE in CFPrefsSearchListSource<0x30355b680> (Domain: com.apple.mobileslideshow, Container: (null))	
+00:46.266.546	Debug	Photos (1680)	com.apple.photos.Neutrino	render	FlexRange metadata: <private>	
+00:46.266.585	Debug	Photos (1680)	com.apple.photos.Neutrino	render	FlexRange properties: <private>	
+00:46.266.601	Debug	Photos (1680)	com.apple.photos.Neutrino	schedule	Prepare node:
+<private>	
+00:46.266.750	Debug	Photos (1680)	com.apple.photos.Neutrino	schedule	Render scale: 1:1	
+00:46.266.761	Debug	Photos (1680)	com.apple.photos.Neutrino	schedule	Output geometry: <private>	
+00:46.266.928	Debug	Photos (1680)	com.apple.photos.Neutrino	render	FlexRange metadata: <private>	
+00:46.266.968	Debug	Photos (1680)	com.apple.photos.Neutrino	render	FlexRange properties: <private>	
+00:46.267.046	Debug	Photos (1680)	com.apple.photos.Neutrino	render	FlexRange metadata: <private>	
+00:46.267.082	Debug	Photos (1680)	com.apple.photos.Neutrino	render	FlexRange properties: <private>	
+00:46.267.338	Debug	Photos (1680)	com.apple.photos.Neutrino	schedule	Render node:
+<private>	
+00:46.268.819	Default	Photos (1680)	com.apple.photos.Neutrino	general	Inpaint intermediate #1 cache miss [purged] (operation #1 out of 1)	
+00:46.269.135	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.269.665	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.270.533	Default	Photos (1680)	com.apple.photos.Neutrino	general	Inpaint intermediate #1 cache miss [1 operations] (0x4d9b9cb40)	
+00:46.270.546	Default	Photos (1680)	com.apple.photos.Neutrino	general	PIInpaintCacheNode cache miss: /cf68290da3350c32ebecad133680bb36	
+00:46.270.547	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.270.727	Default	Photos (1680)	com.apple.photos.Neutrino	general	Inpaint intermediate #4 cache miss [purged] (operation #1 out of 1)	
+00:46.270.814	Default	Photos (1680)	com.apple.photos.Neutrino	general	Inpaint intermediate #4 cache miss [1 operations] (0x4d9b9c8c0)	
+00:46.270.826	Default	Photos (1680)	com.apple.photos.Neutrino	general	PIInpaintSubsampleCacheNode cache miss: /97baa680c278d294e3534da86f897f55	
+00:46.270.874	Debug	Photos (1680)	com.apple.photos.Neutrino	render	FlexRange metadata: <private>	
+00:46.270.924	Debug	Photos (1680)	com.apple.photos.Neutrino	render	FlexRange properties: <private>	
+00:46.270.945	Debug	Photos (1680)	com.apple.photos.Neutrino	schedule	Render dependent jobs: <private>	
+00:46.270.979	Debug	Photos (1680)	com.apple.photos.Neutrino	schedule	job 0x4d9b9cdc0 stage Prepare schedule high, 0.0000	
+00:46.270.988	Debug	Photos (1680)	com.apple.photos.Neutrino	schedule	job 0x4d9b9c000 stage Prepare schedule high, 0.0000	
+00:46.271.063	Debug	Photos (1680)	com.apple.photos.Neutrino	schedule	job 0x4d9b9c000 PIInpaintCacheNode-setup s:1 prepare	
+00:46.271.113	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.271.139	Debug	Photos (1680)	com.apple.photos.Neutrino	schedule	Render node:
+<private>	
+00:46.271.296	Debug	DTServiceHub (360)	DVTInstrumentsFoundation	Default	Data Size: 100,714, Rows Sent: 1,185, Stack depth: 1,599	
+00:46.272.227	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.272.716	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.273.342	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.273.791	Debug	Photos (1680)	com.apple.defaults	User Defaults	found no value for key forceDeviceName in CFPrefsSearchListSource<0x3037de300> (Domain: com.apple.Metal, Container: (null))	
+00:46.274.156	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.274.739	Debug	Photos (1680)	com.apple.defaults	User Defaults	found no value for key forceDeviceName in CFPrefsSearchListSource<0x3037de300> (Domain: com.apple.Metal, Container: (null))	
+00:46.274.939	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.275.188	Debug	Photos (1680)	com.apple.defaults	User Defaults	found no value for key forceDeviceName in CFPrefsSearchListSource<0x3037de300> (Domain: com.apple.Metal, Container: (null))	
+00:46.275.590	Debug	Photos (1680)	com.apple.defaults	User Defaults	found no value for key forceDeviceName in CFPrefsSearchListSource<0x3037de300> (Domain: com.apple.Metal, Container: (null))	
+00:46.275.782	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.275.993	Debug	Photos (1680)	com.apple.defaults	User Defaults	found no value for key forceDeviceName in CFPrefsSearchListSource<0x3037de300> (Domain: com.apple.Metal, Container: (null))	
+00:46.276.324	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.276.366	Debug	Photos (1680)	com.apple.defaults	User Defaults	found no value for key forceDeviceName in CFPrefsSearchListSource<0x3037de300> (Domain: com.apple.Metal, Container: (null))	
+00:46.276.740	Debug	Photos (1680)	com.apple.defaults	User Defaults	found no value for key forceDeviceName in CFPrefsSearchListSource<0x3037de300> (Domain: com.apple.Metal, Container: (null))	
+00:46.277.049	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.277.140	Debug	Photos (1680)	com.apple.defaults	User Defaults	found no value for key forceDeviceName in CFPrefsSearchListSource<0x3037de300> (Domain: com.apple.Metal, Container: (null))	
+00:46.277.527	Debug	Photos (1680)	com.apple.defaults	User Defaults	found no value for key forceDeviceName in CFPrefsSearchListSource<0x3037de300> (Domain: com.apple.Metal, Container: (null))	
+00:46.277.749	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.277.939	Debug	Photos (1680)	com.apple.defaults	User Defaults	found no value for key forceDeviceName in CFPrefsSearchListSource<0x3037de300> (Domain: com.apple.Metal, Container: (null))	
+00:46.278.410	Debug	Photos (1680)	com.apple.defaults	User Defaults	found no value for key forceDeviceName in CFPrefsSearchListSource<0x3037de300> (Domain: com.apple.Metal, Container: (null))	
+00:46.278.545	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.278.827	Debug	Photos (1680)	com.apple.defaults	User Defaults	found no value for key forceDeviceName in CFPrefsSearchListSource<0x3037de300> (Domain: com.apple.Metal, Container: (null))	
+00:46.279.200	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.279.226	Debug	Photos (1680)	com.apple.defaults	User Defaults	found no value for key forceDeviceName in CFPrefsSearchListSource<0x3037de300> (Domain: com.apple.Metal, Container: (null))	
+00:46.279.640	Debug	Photos (1680)	com.apple.defaults	User Defaults	found no value for key forceDeviceName in CFPrefsSearchListSource<0x3037de300> (Domain: com.apple.Metal, Container: (null))	
+00:46.279.924	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.280.035	Debug	Photos (1680)	com.apple.defaults	User Defaults	found no value for key forceDeviceName in CFPrefsSearchListSource<0x3037de300> (Domain: com.apple.Metal, Container: (null))	
+00:46.280.435	Debug	Photos (1680)	com.apple.defaults	User Defaults	found no value for key forceDeviceName in CFPrefsSearchListSource<0x3037de300> (Domain: com.apple.Metal, Container: (null))	
+00:46.280.648	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.280.818	Debug	Photos (1680)	com.apple.defaults	User Defaults	found no value for key forceDeviceName in CFPrefsSearchListSource<0x3037de300> (Domain: com.apple.Metal, Container: (null))	
+00:46.281.202	Debug	Photos (1680)	com.apple.defaults	User Defaults	found no value for key forceDeviceName in CFPrefsSearchListSource<0x3037de300> (Domain: com.apple.Metal, Container: (null))	
+00:46.281.425	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.281.588	Debug	Photos (1680)	com.apple.defaults	User Defaults	found no value for key forceDeviceName in CFPrefsSearchListSource<0x3037de300> (Domain: com.apple.Metal, Container: (null))	
+00:46.281.985	Debug	Photos (1680)	com.apple.defaults	User Defaults	found no value for key forceDeviceName in CFPrefsSearchListSource<0x3037de300> (Domain: com.apple.Metal, Container: (null))	
+00:46.282.388	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.282.390	Debug	Photos (1680)	com.apple.defaults	User Defaults	found no value for key forceDeviceName in CFPrefsSearchListSource<0x3037de300> (Domain: com.apple.Metal, Container: (null))	
+00:46.282.800	Debug	Photos (1680)	com.apple.defaults	User Defaults	found no value for key forceDeviceName in CFPrefsSearchListSource<0x3037de300> (Domain: com.apple.Metal, Container: (null))	
+00:46.283.041	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.283.203	Debug	Photos (1680)	com.apple.defaults	User Defaults	found no value for key forceDeviceName in CFPrefsSearchListSource<0x3037de300> (Domain: com.apple.Metal, Container: (null))	
+00:46.283.573	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.283.605	Debug	Photos (1680)	com.apple.defaults	User Defaults	found no value for key forceDeviceName in CFPrefsSearchListSource<0x3037de300> (Domain: com.apple.Metal, Container: (null))	
+00:46.284.015	Debug	Photos (1680)	com.apple.defaults	User Defaults	found no value for key forceDeviceName in CFPrefsSearchListSource<0x3037de300> (Domain: com.apple.Metal, Container: (null))	
+00:46.284.296	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:46.284.398	Debug	Photos (1680)	com.apple.defaults	User Defaults	found no value for key forceDeviceName in CFPrefsSearchListSource<0x3037de300> (Domain: com.apple.Metal, Container: (null))	
+00:46.284.799	Debug	Photos (1680)	com.apple.defaults	User Defaults	found no value for key forceDeviceName in CFPrefsSearchListSource<0x3037de300> (Domain: com.apple.Metal, Container: (null))	
+00:46.285.181	Debug	Photos (1680)	com.apple.defaults	User Defaults	found no value for key forceDeviceName in CFPrefsSearchListSource<0x3037de300> (Domain: com.apple.Metal, Container: (null))	
+00:46.285.565	Debug	Photos (1680)	com.apple.defaults	User Defaults	found no value for key forceDeviceName in CFPrefsSearchListSource<0x3037de300> (Domain: com.apple.Metal, Container: (null))	
+00:46.285.962	Debug	Photos (1680)	com.apple.defaults	User Defaults	found no value for key forceDeviceName in CFPrefsSearchListSource<0x3037de300> (Domain: com.apple.Metal, Container: (null))	
+00:46.286.365	Debug	Photos (1680)	com.apple.defaults	User Defaults	found no value for key forceDeviceName in CFPrefsSearchListSource<0x3037de300> (Domain: com.apple.Metal, Container: (null))	
+00:46.286.771	Debug	Photos (1680)	com.apple.defaults	User Defaults	found no value for key forceDeviceName in CFPrefsSearchListSource<0x3037de300> (Domain: com.apple.Metal, Container: (null))	
+00:46.287.167	Debug	Photos (1680)	com.apple.defaults	User Defaults	found no value for key forceDeviceName in CFPrefsSearchListSource<0x3037de300> (Domain: com.apple.Metal, Container: (null))	
+00:46.287.565	Debug	Photos (1680)	com.apple.defaults	User Defaults	found no value for key forceDeviceName in CFPrefsSearchListSource<0x3037de300> (Domain: com.apple.Metal, Container: (null))	
+00:46.287.946	Debug	Photos (1680)	com.apple.defaults	User Defaults	found no value for key forceDeviceName in CFPrefsSearchListSource<0x3037de300> (Domain: com.apple.Metal, Container: (null))	
+00:46.288.344	Debug	Photos (1680)	com.apple.defaults	User Defaults	found no value for key forceDeviceName in CFPrefsSearchListSource<0x3037de300> (Domain: com.apple.Metal, Container: (null))	
+00:46.288.743	Debug	Photos (1680)	com.apple.defaults	User Defaults	found no value for key forceDeviceName in CFPrefsSearchListSource<0x3037de300> (Domain: com.apple.Metal, Container: (null))	
+00:46.289.147	Debug	Photos (1680)	com.apple.defaults	User Defaults	found no value for key forceDeviceName in CFPrefsSearchListSource<0x3037de300> (Domain: com.apple.Metal, Container: (null))	
+00:46.289.542	Debug	Photos (1680)	com.apple.defaults	User Defaults	found no value for key forceDeviceName in CFPrefsSearchListSource<0x3037de300> (Domain: com.apple.Metal, Container: (null))	
+00:46.289.935	Debug	Photos (1680)	com.apple.defaults	User Defaults	found no value for key forceDeviceName in CFPrefsSearchListSource<0x3037de300> (Domain: com.apple.Metal, Container: (null))	
+00:46.290.339	Debug	Photos (1680)	com.apple.defaults	User Defaults	found no value for key forceDeviceName in CFPrefsSearchListSource<0x3037de300> (Domain: com.apple.Metal, Container: (null))	
+00:46.290.756	Debug	Photos (1680)	com.apple.defaults	User Defaults	found no value for key forceDeviceName in CFPrefsSearchListSource<0x3037de300> (Domain: com.apple.Metal, Container: (null))	
+00:46.291.177	Debug	Photos (1680)	com.apple.defaults	User Defaults	found no value for key forceDeviceName in CFPrefsSearchListSource<0x3037de300> (Domain: com.apple.Metal, Container: (null))	
+00:46.291.585	Debug	Photos (1680)	com.apple.defaults	User Defaults	found no value for key forceDeviceName in CFPrefsSearchListSource<0x3037de300> (Domain: com.apple.Metal, Container: (null))	
+00:46.291.986	Debug	Photos (1680)	com.apple.defaults	User Defaults	found no value for key forceDeviceName in CFPrefsSearchListSource<0x3037de300> (Domain: com.apple.Metal, Container: (null))	
+00:46.292.161	Debug	backboardd (68)	com.apple.BackBoard	MotionEvents	Motion event usagePage:0xff0c usage:1 	
+00:46.292.290	Debug	locationd (74)	com.apple.locationd.Motion	Motion	visitKFFilteredPressure,nowAP,753,594,901.2306,nowAOP,349,914,238,537,filteredPressure,102,621.8906,pressureTimestamp,349,911,518,413,kfElevation,-107.4584,wallTimePressureCorrected,753,594,898.5107,wallTimeKFCorrected,753,594,901.1971,temperatureDerivative,0.0000,absAltUnc,-0.0000	
+00:46.292.360	Debug	locationd (74)	com.apple.locationd.Motion	Altimeter	received KF filtered pressure from AOP,now,<private>,filteredPressureTimestamp,<private>,filteredPressure,<private>,kfTimestamp,<private>,kfElevation,<private>,kfPressure,<private> temperature,<private>,absAltUnc,<private>	
+00:46.292.386	Debug	Photos (1680)	com.apple.defaults	User Defaults	found no value for key forceDeviceName in CFPrefsSearchListSource<0x3037de300> (Domain: com.apple.Metal, Container: (null))	
+00:46.292.423	Debug	locationd (74)	com.apple.locationd.Motion	Altimeter	{"msg":"pressure source updated with", "time_s":"753,594,898.5107", "pressure":"<private>", "temperature":"<private>"}	
+00:46.292.464	Debug	locationd (74)	com.apple.locationd.Motion	Altimeter	{"msg":"kfPressure source updated with", "timestamp_s":"<private>", "kfPressure":"<private>", "kfElevation":"<private>", "absAltUncertainty":"<private>"}	
+00:46.292.767	Debug	Photos (1680)	com.apple.defaults	User Defaults	found no value for key forceDeviceName in CFPrefsSearchListSource<0x3037de300> (Domain: com.apple.Metal, Container: (null))	
+00:46.293.152	Debug	Photos (1680)	com.apple.defaults	User Defaults	found no value for key forceDeviceName in CFPrefsSearchListSource<0x3037de300> (Domain: com.apple.Metal, Container: (null))	
+00:46.295.558	Debug	Photos (1680)	com.apple.defaults	User Defaults	found no value for key forceDeviceName in CFPrefsSearchListSource<0x3037de300> (Domain: com.apple.Metal, Container: (null))	
+00:46.309.178	Debug	Photos (1680)	com.apple.photos.Neutrino	schedule	Output image: <private>	
+00:46.309.280	Debug	Photos (1680)	com.apple.photos.Neutrino	schedule	job 0x4d9b9c000 didPrepare 0.0382 s	
+00:46.309.303	Debug	Photos (1680)	com.apple.photos.Neutrino	schedule	job 0x4d9b9c000 stage Render schedule high, 0.0000	
+00:46.309.313	Debug	Photos (1680)	com.apple.photos.Neutrino	schedule	job 0x4d9b9cdc0 PIInpaintSubsampleCacheNode-setup s:4 prepare	
+00:46.309.329	Debug	Photos (1680)	com.apple.photos.Neutrino	schedule	job 0x4d9b9c000 PIInpaintCacheNode-setup s:1 render	
+00:46.309.346	Debug	Photos (1680)	com.apple.photos.Neutrino	render	beginAccess 0x307d97540 <NURegion:0x301b2be80 1 rects: {{1280, 1024}, {3584, 3260}}>	
+00:46.309.425	Debug	Photos (1680)	com.apple.photos.Neutrino	schedule	Render node:
+<private>	
+00:46.309.448	Default	Photos (1680)	com.apple.photos.Neutrino	general	PIInpaintCacheNode cache miss: /cf68290da3350c32ebecad133680bb36	
+00:46.309.503	Debug	Photos (1680)	com.apple.photos.Neutrino	schedule	Render dependent jobs: <private>	
+00:46.309.540	Debug	Photos (1680)	com.apple.photos.Neutrino	schedule	job 0x4d9b9c780 stage Prepare schedule high, 0.0000	
+00:46.309.574	Debug	Photos (1680)	com.apple.photos.Neutrino	schedule	job 0x4d9b9c780 PIInpaintCacheNode-setup s:1 prepare	
+00:46.309.644	Debug	Photos (1680)	com.apple.photos.Neutrino	schedule	Render node:
+<private>	
+00:46.309.661	Debug	Photos (1680)	com.apple.photos.Neutrino	schedule	Output image: <private>	
+00:46.309.693	Debug	Photos (1680)	com.apple.photos.Neutrino	schedule	job 0x4d9b9c780 didPrepare 0.0001 s	
+00:46.309.717	Debug	Photos (1680)	com.apple.photos.Neutrino	schedule	job 0x4d9b9c780 stage Render schedule high, 0.0000	

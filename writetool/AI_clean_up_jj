@@ -1,0 +1,1000 @@
+00:34.441.399	Debug	locationd (74)	com.apple.locationd.Position	Position	#indoor-fitness-classifier, motion activity, <private>, internal activity, <private>	
+00:34.441.431	Debug	locationd (74)	com.apple.locationd.Position	LCFusion	Received motion state mediator activity notification,activity_type,3,confidence,2,is_historical,<private>,now_mct,349,902.3880,propagation_us,1.7083	
+00:34.441.459	Debug	locationd (74)	com.apple.locationd.Position	GeneralCLX	<private> -- we're not in a runnable state (i.e. no clients; clients = <private>)	
+00:34.441.476	Debug	locationd (74)	com.apple.locationd.Position	Outdoor	CLOutdoorEstimatorController,CLOutdoorEstimatorTurnOffCMGpsModelOutput	
+00:34.441.507	Debug	locationd (74)	com.apple.locationd.Position	LCFusion	#fusion,received motion state,<private>,mct_now,349,902.3880,start_time_cfat,753,594,889.3711,timestamp,48,703.5658,type,3,confidence,2,<private>	
+00:34.441.558	Debug	locationd (74)	com.apple.locationd.Position	LCFusion	#motion,last known non-static dynamics mode used,mct,349,902.3880,current dynamics mode,7,last non-static dynamics mode,7,last non-static dynamics mct,349,902.3835	
+00:34.441.594	Debug	locationd (74)	com.apple.locationd.Position	Outdoor	CLOutdoorEstimatorController,CLOutdoorEstimatorTurnOffCMWifiModelOutput	
+00:34.441.616	Debug	locationd (74)	com.apple.LocationSupport	Connection	{"msg":"CLConnection::sendMessage", "name":kCLConnectionMessageMotionActivityUpdate}	
+00:34.441.621	Debug	locationd (74)	com.apple.locationd.Position	LCFusion	#motion,dynamics mode on motion update,mct,349,902.3880,type,3,confidence,2,old dynamics mode,7,new dynamics mode,7	
+00:34.441.649	Debug	locationd (74)	com.apple.locationd.Position	Outdoor	CLOutdoorEstimatorController,CLOutdoorEstimatorTurnOffCMAlsModelOutput	
+00:34.441.683	Debug	locationd (74)	com.apple.locationd.Motion	Calorimetry	ActivitySpectator,activity{State,<private>,Confidence,<private>,MountedState,<private>,MountedConfidence,<private>,exitState,<private>,estExitTime,<private>,startTime,<private>},nataliFeatures{fVectorMagnitude,<private>,fEpochType,<private>,fStanding,<private>,fMachineFrequency,<private>,fRowStrokeFrequency,<private>,fRowStrokeAmplitude,<private>,fRowStrokePower,<private>,fPushVectorMagnitude,<private>}	
+00:34.441.727	Debug	locationd (74)	com.apple.locationd.Position	LCFusion	KFCV:FilterStateLog,1,004,753,594,889.3714,349,902.3880,4,0,<private>,<private>,<private>,0.0000,-1.0000,592.4519,30.0257,13.0543,-1.0000,7.6446,7,2,0,predict state success	
+00:34.441.730	Debug	locationd (74)	com.apple.locationd.Position	Outdoor	CLOutdoorEstimator_NoAlsEvidence,currentTime,<private>	
+00:34.441.757	Debug	locationd (74)	com.apple.locationd.Motion	Calorimetry	<private> is ready at, <private>, timeout, <private>	
+00:34.441.796	Debug	locationd (74)	com.apple.locationd.Core	Notifier	{"msg":"CLMotionActivitySubscription::onMotionActivityNotification", "event":activity, "this":"35,310,536,256"}	
+00:34.441.809	Info	locationd (74)	com.apple.locationd.Position	Outdoor	CLOutdoorEstimator_HMM Estimate,startTime,<private>,mctTimestampSec,<private>,type, <private>,confidence,<private>,estimatedStateProbabilityOutdoor,<private>,isAstronomicalDaytime,<private>,daylightConfidence,<private>	
+00:34.441.905	Debug	locationd (74)	com.apple.locationd.Position	LCFusion	KFCV:FilterStateLog,1,004,753,594,889.3714,349,902.3880,4,0,<private>,<private>,<private>,0.0000,-1.0000,592.4519,30.0257,13.0543,-1.0000,7.6446,7,2,0,DynamicsMode-based propagation and update	
+00:34.441.914	Info	locationd (74)	com.apple.locationd.Position	Outdoor	DaylightEstimator,state,<private>,startTime,<private>	
+00:34.441.926	Info	locationd (74)	com.apple.locationd.Position	Outdoor	Update reached MotionStateMediator, startTime, <private>, mctTimestampSec, <private> type, <private>, confidence, <private>, estimatedStateProbabilityOutdoor, <private>, isAstronomicalDaytime, <private>, daylightConfidence, <private>	
+00:34.441.941	Debug	locationd (74)	com.apple.locationd.Position	LCFusion	#fusion,received outdoor update,mct_now,349,902.3885,start_time_cfat,753,594,889.3711,type,1,confidence,3,prob,0.0395	
+00:34.441.947	Debug	locationd (74)	com.apple.LocationSupport	Connection	{"msg":"CLConnection::sendMessage", "name":kCLConnectionMessageMotionActivityUpdate}	
+00:34.441.984	Debug	locationd (74)	com.apple.locationd.Core	Notifier	{"msg":"CLVehicleStateNotifier::onMotionStateUpdate", "event":activity, "this":"35,308,002,304"}	
+00:34.442.048	Debug	locationd (74)	com.apple.locationd.Core	Notifier	{"msg":"CLMotionActivitySubscription::onMotionActivityNotification", "event":activity, "this":"35,311,186,240"}	
+00:34.442.072	Debug	locationd (74)	com.apple.locationd.Motion	Activity	[MotionCues] suppressed vehicular	
+00:34.442.173	Debug	locationd (74)	com.apple.locationd.Core	Notifier	{"msg":"CLEmergencyController::onMotionNotification", "event":activity, "this":"35,307,570,688"}	
+00:34.442.190	Default	locationd (74)	com.apple.locationd.Position	Emergency	{"msg":"#EmergCon,handleAssistanceMotion,", "mountState":<private>}	
+00:34.442.210	Debug	locationd (74)	com.apple.locationd.Core	Notifier	{"msg":"CLKappaNotifier::onMotionStateUpdate", "event":activity, "this":"35,308,658,816"}	
+00:34.442.218	Debug	locationd (74)	com.apple.LocationSupport	Connection	{"msg":"CLConnection::sendMessage", "name":kCLConnectionMessageMotionActivityUpdate}	
+00:34.442.236	Info	locationd (74)	com.apple.locationd.Motion	Kappa	(onMotionStateUpdate) EventActivity; hints <private> <private> <private> <private> <private>	
+00:34.442.241	Default	safetyalertsd (91)	com.apple.safetyalertsd	general	{"msg":"#motion,cb"}	
+00:34.442.275	Debug	locationd (74)	com.apple.locationd.Core	Notifier	{"msg":"CLMotionActivitySubscription::onMotionActivityNotification", "event":activity, "this":"35,311,600,640"}	
+00:34.442.327	Debug	locationd (74)	com.apple.locationd.Core	Notifier	{"msg":"CLMotionStateObserver::onMotionStateMediatorNotification", "event":activity, "this":"35,305,637,376"}	
+00:34.442.397	Debug	locationd (74)	com.apple.LocationSupport	Connection	{"msg":"CLConnection::sendMessage", "name":kCLConnectionMessageMotionActivityUpdate}	
+00:34.442.457	Debug	locationd (74)	com.apple.locationd.Core	Notifier	{"msg":"CLMotionActivitySubscription::onMotionActivityNotification", "event":activity, "this":"35,312,341,888"}	
+00:34.442.484	Default	safetyalertsd (91)	com.apple.safetyalertsd	general	{"msg":"#motion,cb", "isStationary":<private>, "walking":<private>, "automotive":<private>, "cycling":<private>, "fMotionState":<private>}	
+00:34.442.550	Debug	locationd (74)	com.apple.LocationSupport	Connection	{"msg":"CLConnection::sendMessage", "name":kCLConnectionMessageMotionActivityUpdate}	
+00:34.442.582	Debug	locationd (74)	com.apple.locationd.Core	Notifier	{"msg":"CLMotionActivitySubscription::onMotionActivityNotification", "event":activity, "this":"35,312,353,024"}	
+00:34.442.688	Debug	locationd (74)	com.apple.LocationSupport	Connection	{"msg":"CLConnection::sendMessage", "name":kCLConnectionMessageMotionActivityUpdate}	
+00:34.442.853	Debug	contextstored (65)	com.apple.Biome	BiomeSource	Event donation to stream: Motion.Activity with timestamp: 753,594,889.3812	
+00:34.442.966	Debug	analyticsd (110)	com.apple.analyticsd.critical	query-state	[MotionStateResolver] motionState: <private>	
+00:34.442.975	Info	contextstored (65)	com.apple.Biome	BiomeCompute	Subscription marker exists: YES for stream: Motion.Activity using domain: User path: /private/var/mobile/Library/Biome/compute/sessions/F8BC9602-7A46-4644-8255-A3117CB8AD12/subscriptions/Motion.Activity	
+00:34.443.186	Debug	backboardd (68)	com.apple.BackBoard	MotionEvents	Motion event usagePage:0xff0c usage:1 	
+00:34.443.225	Debug	contextstored (65)	com.apple.Biome	BiomeCompute	BMComputeSourceClient send event with identifier Motion.Activity to compute server: com.apple.biome.compute.source	
+00:34.443.271	Info	locationd (74)	com.apple.locationd.Motion	AOP	{"msg":"received AOP log", "log":72 Bytes}	
+00:34.443.339	Debug	routined (37)	com.apple.CoreRoutine	MOTION ACTIVITY	caching RTMotionActivity, <private>	
+00:34.443.437	Debug	routined (37)	com.apple.CoreRoutine	MOTION ACTIVITY	2 activites in the last 30.0000 seconds	
+00:34.443.469	Debug	routined (37)	com.apple.CoreRoutine	MOTION ACTIVITY	1, <private>	
+00:34.443.489	Debug	routined (37)	com.apple.CoreRoutine	MOTION ACTIVITY	2, <private>	
+00:34.443.502	Debug	biomed (49)	com.apple.Biome	BiomeCompute	BMComputeSourceServerConnection send event with identifier <private>, event 	
+00:34.443.612	Debug	contextstored (65)	com.apple.CoreAnalytics.event	send	<private> <private>	
+00:34.443.621	Debug	biomed (49)	com.apple.Biome	BiomeCompute	Found current connection, resolving publisher server based on service name: com.apple.biome.compute.source	
+00:34.443.700	Debug	biomed (49)	com.apple.Biome	BiomeCompute	Found current connection, resolving publisher server based on service name: com.apple.biome.compute.source	
+00:34.443.728	Info	biomed (49)	com.apple.Biome	BiomeCompute	Using publisher server for domain: System, bookmark storage domain: User when processing new event write for stream <private> subscription count: 0, event: 	
+00:34.443.912	Debug	analyticsd (110)	com.apple.analyticsd.critical	xform_cache	[Transform Cache] Cache performance for input event <private>: { transforms: 1, hit: 1, loaded: 0, inserted: 0}	
+00:34.444.094	Debug	biomed (49)	com.apple.intelligenceplatform	views	SourceUpdater: Dropping notification for <private> - no listeners	
+00:34.446.607	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Reusing _NUStyleEngine instance: 0x30022b280, queue:0x4d98f5800 usage:apply config:<private> params:<private>	
+00:34.449.082	Debug	DTServiceHub (360)	DVTInstrumentsFoundation	Default	Data Size: 100,760, Rows Sent: 1,329, Stack depth: 2,934	
+00:34.449.848	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Reusing _NUStyleEngine instance: 0x30022b280, queue:0x4d98f5800 usage:apply config:<private> params:<private>	
+00:34.453.788	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Reusing _NUStyleEngine instance: 0x30022b280, queue:0x4d98f5800 usage:apply config:<private> params:<private>	
+00:34.454.265	Debug	backboardd (68)	com.apple.locationd.Motion	Motion	Ping timer fired, resetting watchdog	
+00:34.454.319	Default	backboardd (68)	com.apple.CoreBrightness.CBGrimaldiModule	default	Requesting lux from APDS	
+00:34.456.067	Default	backboardd (68)	com.apple.xpc	connection	[0xdb4bd3800] activating connection: mach=1 listener=0 peer=0 name=com.apple.appleh16camerad	
+00:34.458.067	Default	Unknown (0)	AppleH16PhotonDetector	Default	AppleH16PhotonDetectorUserClient:init - New UserClient for process: appleh16camerad (pid 129)
+	
+00:34.458.181	Default	appleh16camerad (129)	com.apple.isp	daemon	addClient_block_invoke - Photon Detector device open returned 0
+
+	
+00:34.458.238	Default	Unknown (0)	AppleCS42L79Audio	Default	enableFlickerBias inEnable:1	
+00:34.458.243	Default	Unknown (0)	AppleCS42L79Audio	Default	Set External MClk client:8  mask:20	
+00:34.458.281	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Reusing _NUStyleEngine instance: 0x30022b280, queue:0x4d98f5800 usage:apply config:<private> params:<private>	
+00:34.459.745	Default	Unknown (0)	AppleCS42L79Audio	Default	Write Adr:30000 Val:2	
+00:34.459.755	Default	Unknown (0)	AppleCS42L79Audio	Default	MClk Enable:1 client:8 mask:28	
+00:34.459.908	Default	Unknown (0)	AppleCS42L79Audio	Default	Read  Adr:10010 Val:ff	
+00:34.460.048	Default	Unknown (0)	AppleCS42L79Audio	Default	Write Adr:10010 Val:2ff	
+00:34.461.192	Default	Unknown (0)	AppleCS42L79Audio	Default	FlickerBiasRequest Enable=1 ret:0	
+00:34.463.622	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Reusing _NUStyleEngine instance: 0x30022b280, queue:0x4d98f5800 usage:apply config:<private> params:<private>	
+00:34.467.872	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Reusing _NUStyleEngine instance: 0x30022b280, queue:0x4d98f5800 usage:apply config:<private> params:<private>	
+00:34.472.526	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Reusing _NUStyleEngine instance: 0x30022b280, queue:0x4d98f5800 usage:apply config:<private> params:<private>	
+00:34.476.880	Default	appleh16camerad (129)	com.apple.isp	daemon	addClient_block_invoke - Photon Detector power on device returned 0
+
+	
+00:34.476.976	Default	appleh16camerad (129)	com.apple.isp	daemon	New connection: pid <private>
+	
+00:34.477.016	Default	appleh16camerad (129)	com.apple.isp	daemon	Total number of connections: 1
+	
+00:34.477.042	Default	appleh16camerad (129)	com.apple.xpc	connection	[0x9c22483c0] activating connection: mach=0 listener=0 peer=1 name=com.apple.appleh16camerad.peer[68].0x9c22483c0	
+00:34.477.104	Default	appleh16camerad (129)	com.apple.isp	general	H16ISPFlickerDetectorCreate - HWType = 10; pContext = 0x9c2240300 
+
+	
+00:34.477.114	Info	appleh16camerad (129)	com.apple.isp	daemon	getProperty - 100
+	
+00:34.477.139	Error	appleh16camerad (129)	com.apple.isp	daemon	getProperty: Incoming query from client (pid <private>), num pending requests = 1
+
+	
+00:34.477.173	Info	appleh16camerad (129)	com.apple.isp	daemon	getProperty - 100 complete (res=0x0)
+
+	
+00:34.477.180	Error	appleh16camerad (129)	com.apple.isp	photon	GetLuxInfo - GetLuxInfo: Scheduling the lux query on the serial queue
+	
+00:34.478.284	Default	appleh16camerad (129)	com.apple.isp	general	FlickerDetector: ArbiterClient resource access granted=1
+
+	
+00:34.478.325	Debug	appleh16camerad (129)	com.apple.coreaudio	audiocomp	AudioComponentPluginMgr.mm:1,213 findNext auou/hkip/appl -> 0x9c20c4c80 auou/hkip/appl/0x8000/0x0	
+00:34.478.361	Debug	appleh16camerad (129)	com.apple.coreaudio	aurioc	AURemoteIO.cpp:321 AURemoteIO@0x9c22d4040: constructing	
+00:34.478.445	Debug	audiomxd (105)	com.apple.coreaudio	aurios	RemoteIOServer.cpp:1,804 AUIOServer_NewClient; personality=3	
+00:34.478.676	Debug	audiomxd (105)	com.apple.coreaudio	aqme	AQIONode.cpp:323 AQIONodeClient 0x4ad474780: 1	
+00:34.478.710	Debug	appleh16camerad (129)	com.apple.coreaudio	aurioc	AURemoteIO.cpp:405 AURemoteIO::AURemoteIO: Server PID = 105	
+00:34.478.750	Debug	appleh16camerad (129)	com.apple.coreaudio	aurioc	AURemoteIO.cpp:1,444 AURemoteIO(0x9c22d4040)::SetupConverter: input  bus
+  from:  1 ch,      0 Hz, Float32
+    to:  2 ch,  48000 Hz, Float32, interleaved	
+00:34.478.783	Debug	appleh16camerad (129)	com.apple.coreaudio	aurioc	AUIOHelper.cpp:30 AUIOHelper::Initialize	
+00:34.478.821	Debug	appleh16camerad (129)	com.apple.coreaudio	aurioc	AURemoteIO.cpp:787 AURemoteIO(0x9c22d4040)::SetProperty scope 0, elem 0, prop 2,005, 16 bytes: a8a1fa0201802471000324c209000000	
+00:34.478.845	Debug	appleh16camerad (129)	com.apple.coreaudio	aurioc	AURemoteIO.cpp:1,043 AURemoteIO@0x9c22d4040: Initialize	
+00:34.478.864	Debug	appleh16camerad (129)	com.apple.coreaudio	aurioc	AURemoteIO.cpp:1,064 AURemoteIO@0x9c22d4040: outputFormat:  1 ch,      0 Hz, Float32	
+00:34.478.882	Debug	appleh16camerad (129)	com.apple.coreaudio	aurioc	AURemoteIO.cpp:1,065 AURemoteIO@0x9c22d4040: inputFormat:   2 ch,  48000 Hz, Float32, interleaved	
+00:34.478.900	Debug	appleh16camerad (129)	com.apple.coreaudio	aurioc	AURemoteIO.cpp:787 AURemoteIO(0x9c22d4040)::SetProperty scope 0, elem 0, prop 2,996, 12 bytes: 000000000000000000000000	
+00:34.478.994	Default	appleh16camerad (129)	com.apple.coreaudio	aurioc	AURemoteIO.cpp:1,086 AURemoteIO@0x9c22d4040: set kAudioOutputUnitProperty_OutputChannelLayout.  Layout = tag=0x0, 0 channel descriptions [], err = 0	
+00:34.479.046	Debug	audiomxd (105)	com.apple.coreaudio	aurios	RemoteIOServer.cpp:442 connecting 0x4ad474700, enables 1	
+00:34.479.099	Debug	audiomxd (105)	com.apple.CFBundle	strings	Bundle: <private>, key: L, value: L, table: AudioChannelShortLabels, localizationNames: , result: L	
+00:34.479.125	Debug	audiomxd (105)	com.apple.CFBundle	strings	Bundle: <private>, key: R, value: R, table: AudioChannelShortLabels, localizationNames: , result: R	
+00:34.479.141	Default	audiomxd (105)	com.apple.coreaudio	aqme	RemoteIOServer.h:101 rio@0x4ad474700 Got input layout from io node or spatialized client: tag=0x0, 2 channel descriptions [L, R]	
+00:34.479.166	Debug	audiomxd (105)	com.apple.coreaudio	aqme	AQMixEngine.cpp:885 ->AQMEDevice(0x4ac442200)::AddIOClient <RemoteIOClient@0x4ad474700(@0x4ad474780); input; CMSession(appleh16camerad[129], 0xffffffff)>	
+00:34.479.175	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Reusing _NUStyleEngine instance: 0x30022b280, queue:0x4d98f5800 usage:apply config:<private> params:<private>	
+00:34.479.185	Debug	audiomxd (105)	com.apple.coreaudio	aqme	MEDeviceStreamClient.cpp:1,194 inputA:        2 ch,  48000 Hz, Float32, deinterleaved	
+00:34.479.200	Debug	audiomxd (105)	com.apple.coreaudio	aqme	MEDeviceStreamClient.cpp:1,211 inputB:        2 ch,  48000 Hz, Float32, deinterleaved	
+00:34.479.214	Debug	audiomxd (105)	com.apple.coreaudio	aqme	MEInputManager.cpp:23 MEInputManager(0x4aca9dd80)::AddInputClient 0x4ad474780	
+00:34.479.229	Debug	audiomxd (105)	com.apple.coreaudio	aqme	MEInputManager.cpp:185 InputDispatcher(0x4b0011aa0, client 0x4ad474780)::AdaptToIOFormat:  2 ch,  48000 Hz, Float32, deinterleaved	
+00:34.479.245	Debug	audiomxd (105)	com.apple.coreaudio	aqme	MEInputManager.cpp:33 MEInputManager::AddInputClient 0x4ad474780	
+00:34.479.305	Debug	audiomxd (105)	com.apple.coreaudio	aurios	RemoteIOServer.cpp:460 mInput I/O format:      2 ch,  48000 Hz, Float32, deinterleaved	
+00:34.479.321	Debug	audiomxd (105)	com.apple.coreaudio	aurios	RemoteIOServer.cpp:461 mInput client format:   2 ch,  48000 Hz, Float32, interleaved	
+00:34.479.397	Debug	appleh16camerad (129)	com.apple.coreaudio	aurioc	AURemoteIO.cpp:1,161 outputFormat -, inputFormat  2 ch,  48000 Hz, Float32, deinterleaved	
+00:34.479.430	Debug	appleh16camerad (129)	com.apple.coreaudio	aurioc	AURemoteIO.cpp:1,207 0x9c22d4040 enables 1; formats:	
+00:34.479.451	Debug	appleh16camerad (129)	com.apple.coreaudio	aurioc	AURemoteIO.cpp:1,214 Input client:     2 ch,  48000 Hz, Float32, interleaved	
+00:34.479.469	Debug	appleh16camerad (129)	com.apple.coreaudio	aurioc	AURemoteIO.cpp:1,215 Input hardware:   2 ch,  48000 Hz, Float32, deinterleaved	
+00:34.479.509	Debug	appleh16camerad (129)	com.apple.CFBundle	strings	Bundle: <private>, key: L, value: L, table: AudioChannelShortLabels, localizationNames: , result: L	
+00:34.479.528	Debug	appleh16camerad (129)	com.apple.CFBundle	strings	Bundle: <private>, key: R, value: R, table: AudioChannelShortLabels, localizationNames: , result: R	
+00:34.479.544	Debug	appleh16camerad (129)	com.apple.coreaudio	aurioc	AURemoteIO.cpp:1,216 Input hardware layout: tag=0x0, 2 channel descriptions [L, R]	
+00:34.479.573	Debug	appleh16camerad (129)	com.apple.coreaudio	aurioc	AUIOHelper.cpp:30 AUIOHelper::Initialize	
+00:34.479.595	Debug	appleh16camerad (129)	com.apple.coreaudio	aurioc	AURemoteIO.cpp:1,444 AURemoteIO(0x9c22d4040)::SetupConverter: output bus
+  from:  1 ch,      0 Hz, Float32
+    to:  1 ch,      0 Hz, Float32	
+00:34.479.698	Debug	appleh16camerad (129)	com.apple.defaults	User Defaults	found no value for key converterkTracesPermitted in CFPrefsSearchListSource<0x9c2062600> (Domain: com.apple.coreaudio, Container: (null))	
+00:34.479.719	Debug	appleh16camerad (129)	com.apple.defaults	User Defaults	found no value for key converterkTracesPermitted in CFPrefsSearchListSource<0x9c2062600> (Domain: com.apple.coreaudio, Container: (null))	
+00:34.479.754	Debug	appleh16camerad (129)	com.apple.defaults	User Defaults	found no value for key converterkTracesPermitted in CFPrefsSearchListSource<0x9c2062600> (Domain: com.apple.coreaudio, Container: (null))	
+00:34.479.772	Default	appleh16camerad (129)	com.apple.coreaudio	AudioConverter	AudioConverter.cpp:1,010 Created a new in process converter -> 0x9c233d2c0, from  2 ch,  48000 Hz, Float32, deinterleaved to  2 ch,  48000 Hz, Float32, interleaved	
+00:34.479.821	Debug	appleh16camerad (129)	com.apple.coreaudio	aurioc	AURemoteIO.cpp:1,435 AURemoteIO(0x9c22d4040)::SetupConverter: input  bus
+<AudioConverterRef 0x8149b [0x9c233d2c0]>
+	
+00:34.479.854	Debug	appleh16camerad (129)	com.apple.coreaudio	aurioc	AURemoteIO.cpp:787 AURemoteIO(0x9c22d4040)::SetProperty scope 1, elem 1, prop 2,022, 4 bytes: 0000803f	
+00:34.479.953	Default	audiomxd (105)	com.apple.coreaudio	va_vadevc	VirtualAudio_Device.cpp:2,848 [volm/inpt/0] on VAD '[ type: vhaw; id: 151; addr: 0x4acc41900; context id: 0; hidden: 0; VA strms: { i/156/0x4ac0538e0,  }; agg dev: [ id: 130; addr: 0x104e0c350; uid: "VAD [vhaw] AggDev 3"; virt strms: { i/0x4ac90c300,  }; phys devs: { [ id: 86; addr: 0x4ac4d8600; uid: "Flicker"; streams: { i/87/0x4ac9c0248,  } ] } ] ]': 1.0000.	
+00:34.479.989	Default	audiomxd (105)	com.apple.coreaudio	va_contrl	InputVolumeControl_HAL_Common.cpp:161   Setting Input Volume: 0.0000 dB, Final HW Volume: 0.0000 dB, Final SW Volume: 0.0000 dB	
+00:34.480.005	Default	audiomxd (105)	com.apple.coreaudio	va_contrl	InputVolumeControl_HAL_Common.cpp:162   VAD '[ id: 86; addr: 0x4ac4d8600; uid: "Flicker"; streams: { i/87/0x4ac9c0248,  } ]'	
+00:34.480.022	Default	audiomxd (105)	com.apple.coreaudio	va_contrl	InputVolumeControl_HAL_Common.cpp:164   PhysicalDevice UID = "Flicker"	
+00:34.480.036	Default	audiomxd (105)	com.apple.coreaudio	va_contrl	InputVolumeControl_HAL_Common.cpp:165   Scope = 1,768,845,428 ("inpt")	
+00:34.480.052	Default	audiomxd (105)	com.apple.coreaudio	va_contrl	InputVolumeControl_HAL_Common.cpp:166   Element = 0 ("0")	
+00:34.480.065	Debug	audiomxd (105)	com.apple.coreaudio	va_contrl	InputVolumeControl_HAL_Common.cpp:167   SW Volume: disabled	
+00:34.480.816	Default	appleh16camerad (129)	com.apple.coreaudio	aurioc	AURemoteIO.cpp:1,622 Starting AURemoteIO(0x9c22d4040)
+output client:  1 ch,      0 Hz, Float32, output HW:  1 ch,      0 Hz, Float32
+input client:   2 ch,  48000 Hz, Float32, interleaved, input HW:   2 ch,  48000 Hz, Float32, deinterleaved	
+00:34.480.851	Debug	appleh16camerad (129)	com.apple.coreaudio	aurioc	AURemoteIO.cpp:1,492 AURemoteIO(0x9c22d4040)::Start (period 0.0853, 2,048,000)	
+00:34.480.903	Info	audiomxd (105)	com.apple.coreaudio	aurios	RemoteIOServer.cpp:1,969 workgroup 0x10503	
+00:34.480.937	Default	appleh16camerad (129)	com.apple.coreaudio	aurioc	AURemoteIO.cpp:1,683 workgroup port 0x8abb	
+00:34.481.036	Info	appleh16camerad (129)	com.apple.coreaudio	aurioc	AURemoteIO.cpp:2,027 AURemoteIO@0x9c22d4040: IOThread starting	
+00:34.481.057	Debug	audiomxd (105)	com.apple.coreaudio	aurios	RemoteIOServer.cpp:2,043 ->AUIOServer_StartIO 0x696d5	
+00:34.481.079	Debug	audiomxd (105)	com.apple.coreaudio	aurios	RemoteIOServer.cpp:356 -> msgSeqNum: 0	
+00:34.481.093	Debug	audiomxd (105)	com.apple.coreaudio	aurios	RemoteIOServer.cpp:380 <-	
+00:34.481.110	Debug	audiomxd (105)	com.apple.coreaudio	aqme	AQMixEngine.cpp:1,011 ->AQMEDevice(0x4ac442200)::AddRunningClient <RemoteIOClient@0x4ad474700(@0x4ad474780); input; CMSession(appleh16camerad[129], 0xffffffff)> count 0	
+00:34.481.129	Default	audiomxd (105)	com.apple.coreaudio	aqme	MEDeviceStreamClient.cpp:227 AQME Device-VirtualAudioDevice_Hawking: client starting: <RemoteIOClient@0x4ad474700(@0x4ad474780); input; CMSession(appleh16camerad[129], 0xffffffff)>; running count now 1	
+00:34.481.180	Default	audiomxd (105)	com.apple.coreaudio	aqme	AQMEIO_HAL.cpp:2,657 FetchAndLogFrameSize starting IO deviceID=151, frame size is 1,024	
+00:34.481.311	Default	audiomxd (105)	com.apple.coreaudio	va_hplayr	HP_HardwarePlugInInterface.cpp:686 Client request to start IO proc ID 0x4acaf5e00 on VAD: '[ type: vhaw; id: 151; addr: 0x4acc41900; context id: 0; hidden: 0; VA strms: { i/156/0x4ac0538e0,  }; agg dev: [ id: 130; addr: 0x104e0c350; uid: "VAD [vhaw] AggDev 3"; virt strms: { i/0x4ac90c300,  }; phys devs: { [ id: 86; addr: 0x4ac4d8600; uid: "Flicker"; streams: { i/87/0x4ac9c0248,  } ] } ] ]'.	
+00:34.481.366	Default	audiomxd (105)	com.apple.coreaudio	va_aggdev	VirtualAudioQueue.h:169 :492:: IOProc (AggregateDevice 130, IO type NonNullIOProc) running state is now running (2).	
+00:34.481.398	Debug	audiomxd (105)	com.apple.coreaudio	va_aggdev	AggregateDevice_CommonBase.cpp:1,646 Get sample rate value of 48,000.0000 from AggregateDevice_Common2 (selector: kAudioDevicePropertyNominalSampleRate; scope: 'glob' (1,735,159,650); element: 0).	
+00:34.481.427	Debug	audiomxd (105)	com.apple.coreaudio	va_aggdev	AggregateDevice_CommonBase.cpp:1,646 Get sample rate value of 48,000.0000 from AggregateDevice_Common2 (selector: kAudioDevicePropertyNominalSampleRate; scope: 'glob' (1,735,159,650); element: 0).	
+00:34.481.445	Default	audiomxd (105)	com.apple.coreaudio	va_aggdev	AggregateDevice_Common.cpp:1,075 Current HAL IOProc format is [ 32/48000/2; flags: 0x9; bpp: 8; fpp: 1; Bpf: 8 ]	
+00:34.481.475	Debug	audiomxd (105)	com.apple.coreaudio	va_aggdev	AggregateDevice_CommonBase.cpp:1,646 Get sample rate value of 48,000.0000 from AggregateDevice_Common2 (selector: kAudioDevicePropertyNominalSampleRate; scope: 'glob' (1,735,159,650); element: 0).	
+00:34.481.496	Info	audiomxd (105)	com.apple.coreaudio	va_aggdev	AggregateDevice_Common.cpp:1,091 DSP is disabled:
+
+================
+Chain Name:VAD - Unknown
+Before processing reformatting: unneeded
+DSPChain is empty.
+After processing reformatting: unneeded
+================
+	
+00:34.481.513	Info	audiomxd (105)	com.apple.coreaudio	va_aggdev	AggregateDevice_Common.cpp:1,094 Chain Description: 
+================
+Chain Name:VAD - Unknown
+Before processing reformatting: unneeded
+DSPChain is empty.
+After processing reformatting: unneeded
+================
+	
+00:34.481.530	Default	audiomxd (105)	com.apple.coreaudio	va_aggdev	AggregateDevice_Common.cpp:1,191 Updated IOProcCache for VAD 'vhaw'. NumStreams: 0 SampleRate: 48,000.0000	
+00:34.481.545	Info	audiomxd (105)	com.apple.coreaudio	va_aggdev	AggregateDevice_Common.cpp:1,446 stream capture flags : 00000000 (anc|tel|sec|pri|hal)	
+00:34.481.565	Default	audiomxd (105)	com.apple.coreaudio	va_aggdev	AggregateDevice.cpp:434 Disabling HAL data taps, Setting kAudioDevicePropertyEnableCaptureFile to 0	
+00:34.481.593	Info	audiomxd (105)	com.apple.coreaudio	va_aggdev	AggregateDeviceUtilities.cpp:129 Could not find fixed buffer size for VAD [vhaw]	
+00:34.481.610	Default	audiomxd (105)	com.apple.coreaudio	va_aggdev	AggregateDevice_Common.cpp:409 Starting IO type 0 on AggregateDevice 130.	
+00:34.481.627	Default	audiomxd (105)	CoreAudio	Default	HALS_IOContext_Legacy_Impl.cpp:366  HALS_IOContext_Legacy_Impl::Server_Internal_StartIOProcID: 133 Flicker (VAD [vhaw] AggDev 3):	
+00:34.481.646	Default	audiomxd (105)	CoreAudio	Default	HALS_IOContext_Legacy_Impl.cpp:372  				starting ProcID 0x21 state: Prewarm: 0 Play: 0 State: Stopped IOProc 0x21: no	
+00:34.481.662	Debug	audiomxd (105)	com.apple.coreaudio	AMCP	258,855 HALS_IOContext_Legacy_Impl.cpp:5,817 HALS_IOContext_Legacy_Impl::Start_ActivateDSP [hal_dsp] >>>> (Context ID: 133) - HOSTED DSP IS NOT ENABLED <<<<	
+00:34.481.732	Default	audiomxd (105)	CoreAudio	Default	HALS_IOContext_Legacy_Impl.cpp:1,680  HALS_IOContext_Legacy_Impl::IOWorkLoopInit: 133 Flicker (VAD [vhaw] AggDev 3): starting	
+00:34.481.815	Default	audiomxd (105)	CoreAudio	Default	HALS_IOEngine2.cpp:2,225  HALS_IOEngine2::StartIO: starting IO on device <private>	
+00:34.481.857	Default	Unknown (0)	AppleCS42L79Audio	Default	AppleCS42L79Audio::notifySecondaryActiveChangeGated(Flicker) enable:1 direction:1 	
+00:34.481.868	Default	Unknown (0)	AppleCS42L79Audio	Default	MClk Enable:1 client:4 mask:2c	
+00:34.481.870	Default	Unknown (0)	AppleCS42L79Audio	Default	Enable Route ASP:2 Tx:1 Ch:2 Start:7	
+00:34.481.938	Default	audiomxd (105)	CoreAudio	Default	HALB_PowerAssertion.cpp:119  HALB_PowerAssertion::Take: taking power assertion ID 32,775 of type 'PreventUserIdleSystemSleep' with name: 'com.apple.audio.VAD [vhaw] AggDev 3.context.preventuseridlesleep'	
+00:34.481.990	Debug	audiomxd (105)	com.apple.coreaudio	AMCP	187,363 HALS_IOEngine2.cpp:2,535 >>> HALS_IOEngine2::_StartIO(89) called on Context 133  current state: Prewarm: 0 Play: 0 State: Stopped	
+00:34.482.050	Default	Unknown (0)	AppleCS42L79Audio	Default	Read  Adr:470074 Val:f00e1	
+00:34.482.195	Default	Unknown (0)	AppleCS42L79Audio	Default	Write Adr:470074 Val:f00e1	
+00:34.482.350	Default	Unknown (0)	AppleCS42L79Audio	Default	Read  Adr:470078 Val:f0101	
+00:34.482.495	Default	Unknown (0)	AppleCS42L79Audio	Default	Write Adr:470078 Val:f0101	
+00:34.482.641	Default	Unknown (0)	AppleCS42L79Audio	Default	Read  Adr:470024 Val:0	
+00:34.482.746	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Reusing _NUStyleEngine instance: 0x30022b280, queue:0x4d98f5800 usage:apply config:<private> params:<private>	
+00:34.482.779	Default	Unknown (0)	AppleCS42L79Audio	Default	Write Adr:470024 Val:180	
+00:34.482.947	Default	Unknown (0)	AppleCS42L79Audio	Default	Read  Adr:470000 Val:404	
+00:34.483.079	Default	Unknown (0)	AppleCS42L79Audio	Default	Write Adr:470000 Val:406	
+00:34.483.082	Default	Unknown (0)	AppleCS42L79Audio	Default	enableFlicker Src:5 Ch:7	
+00:34.483.226	Default	Unknown (0)	AppleCS42L79Audio	Default	Read  Adr:450004 Val:4d4c	
+00:34.483.364	Default	Unknown (0)	AppleCS42L79Audio	Default	Write Adr:450004 Val:5004d4c	
+00:34.483.367	Default	Unknown (0)	AppleCS42L79Audio	Default	getADCGain result:0 adc:5 gain:3c0
+	
+00:34.483.517	Default	Unknown (0)	AppleCS42L79Audio	Default	Read  Adr:4d0000 Val:afc4	
+00:34.483.659	Default	Unknown (0)	AppleCS42L79Audio	Default	Write Adr:4d0000 Val:afc4	
+00:34.483.794	Default	Unknown (0)	AppleCS42L79Audio	Default	Write Adr:10000 Val:f103	
+00:34.483.798	Default	Unknown (0)	AppleCS42L79Audio	Default	enableFlicker Src:6 Ch:8	
+00:34.483.944	Default	Unknown (0)	AppleCS42L79Audio	Default	Read  Adr:450008 Val:0	
+00:34.484.087	Default	Unknown (0)	AppleCS42L79Audio	Default	Write Adr:450008 Val:6	
+00:34.484.090	Default	Unknown (0)	AppleCS42L79Audio	Default	getADCGain result:0 adc:6 gain:3c0
+	
+00:34.484.233	Default	Unknown (0)	AppleCS42L79Audio	Default	Read  Adr:4d0004 Val:afc4	
+00:34.484.377	Default	Unknown (0)	AppleCS42L79Audio	Default	Write Adr:4d0004 Val:afc4	
+00:34.484.515	Default	Unknown (0)	AppleCS42L79Audio	Default	Write Adr:10000 Val:f303	
+00:34.484.524	Default	Unknown (0)	AppleARMIISAudio	Default	+ Flicker::startIOEngineGated()	
+00:34.484.533	Default	Unknown (0)	AppleARMIISAudio	Default	+ Flicker startTransport
+	
+00:34.484.783	Debug	DTServiceHub (360)	DVTInstrumentsFoundation	Default	Data Size: 101,012, Rows Sent: 1,260, Stack depth: 3,252	
+00:34.484.951	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Reusing _NUStyleEngine instance: 0x30022b280, queue:0x4d98f5800 usage:apply config:<private> params:<private>	
+00:34.486.199	Debug	backboardd (68)	com.apple.CoreBrightness.ColourSensorFilterPlugin	default	Color: X=141.9220(45.1752) Y=135.2890(43.0638) Z=55.2789(17.5958) 
+	
+00:34.486.292	Default	backboardd (68)	com.apple.CoreBrightness.ColourSensorFilterPlugin	default	[ALS] ts=48,703.9271 lux=151.4381<private> xy=(0.4268 0.4069) chs=[950.0000 2,408.0000 5,996.0000 8,642.0000 9,135.0000] CCT1=3,364.7581 gain=512x mode=<private> subsamples=24 rawLux=157.6734 nits=1,083 xTalk=[9 18 34 46 61] status=0xb copyEvent=0	
+00:34.486.394	Debug	backboardd (68)	com.apple.CoreBrightness.CBColorModule.Primary	default	key=ALSIntegrationMode result=	
+00:34.486.395	Debug	locationd (74)	com.apple.locationd.Position	Position	AmbientLight,DecisionTree,x,158.8630,y,151.4381,z,61.8774,out,3	
+00:34.486.417	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[4]: 	
+00:34.486.432	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[2]: ALSIntegrationMode	
+00:34.486.451	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[2]: ALSIntegrationMode result=3	
+00:34.486.465	Debug	backboardd (68)	com.apple.CoreBrightness.CBABModuleiOS	default	key=ALSIntegrationMode result=3	
+00:34.486.477	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayContaineriOS	BuiltIn	key=ALSIntegrationMode result=3	
+00:34.486.483	Debug	locationd (74)	com.apple.locationd.Position	Position	AmbientLightDecisionTreeOutput,3	
+00:34.486.492	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[4]: _plugInEnabled=1	
+00:34.486.501	Debug	locationd (74)	com.apple.locationd.Position	Position	LocationController,gnssPredictedAvailability,0,probability,0.2000,timestamp,349,902.4330,lastPredictionTimestamp,349,901.1835,propagation_us,44,561.3750	
+00:34.486.505	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[4]: 0xdb4ccd900 0xdb61fbf70	
+00:34.486.524	Debug	locationd (74)	com.apple.locationd.Core	Notifier	{"msg":"notifyClientsWithData", "event":activity, "name":controller, "notification":36}	
+00:34.486.545	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[10]: 151.4381 	
+00:34.486.600	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[10]: als->_Esensor_device=151.4381	
+00:34.486.639	Debug	backboardd (68)	com.apple.CoreBrightness.CBALSEvent	default	Tristimulus values: XYZ[0]=50.5677, XYZ[1]=48.2043, XYZ[2]=19.6962 | CCT1=3,364.7581	
+00:34.486.676	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[2]: _luxFilter=3 als->_Ehistory_max=8	
+00:34.486.727	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[10]: Median filter computed on 8 samples	
+00:34.486.752	Info	locationd (74)	com.apple.locationd.Position	Position	BaroAlt,time,349,902.4333,getGpsTimeDerivedCFAbsoluteTimeOrSystemTime,success,0,cfAbsTime,753,594,889.4252	
+00:34.486.789	Info	locationd (74)	com.apple.locationd.Position	Position	#CLPDM,isPressureAvailableForLocation,<private>	
+00:34.486.799	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	Median filter computed on 8 samples	
+00:34.486.826	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[10]: ts=48,703.9258 Esensor=156.8286 Emedian=159.5280	
+00:34.486.875	Info	backboardd (68)	com.apple.CoreBrightness.AABRear.CBRearALSModule	default	Copy Grimaldi Lux = 51.82344	
+00:34.486.891	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	E 159.5280, Ecapped 159.5280, EmaxCap -1.0000 => finalE 159.5280	
+00:34.486.910	Debug	locationd (74)	com.apple.locationd.Position	Outdoor	GnssAvailabilityPredictor,startTime,<private>,mctTime,<private>,measSource,<private>,state,<private>,stateProbability,<private>	
+00:34.486.941	Debug	backboardd (68)	com.apple.CoreBrightness.AABRear	default	AABRear: shouldUseRearLuxFrontLux called with (fLux:159.5280, rLux:51.8234, cap: 1,872.5781)	
+00:34.486.959	Debug	backboardd (68)	com.apple.CoreBrightness.AABRear	default	AABRear: using rear? 0	
+00:34.487.022	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	E 159.5280, Ecapped 159.5280, EmaxCap -1.0000 => finalE 159.5280	
+00:34.487.055	Info	locationd (74)	com.apple.locationd.Position	Position	#CLPDM,Pressure not available at location	
+00:34.487.089	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayContaineriOS	BuiltIn	Notification block key=RLuxStats, value=<private>
+	
+00:34.487.137	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	Handle notification for key = RLuxStats and property = <private>	
+00:34.487.153	Info	locationd (74)	com.apple.locationd.Position	Position	BaroAlt,#Warning,Als Baro,pressure not available at location	
+00:34.487.209	Info	locationd (74)	com.apple.locationd.Position	Gnss	BaroAlt,#Warning,Outdoor calibration trigger disabled or AVL file not available	
+00:34.487.242	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[10]: _Esensor_filtered=159.5280 _Esensor_trusted=159.5280 _Esensor_aggregated=159.5280	
+00:34.487.270	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[10]: _Esensor_trusted=159.5280 _state=kAABStateAutoBrightness _proxState=kProxNone _touchIsObstucted=0 _settings._internal._dimPolicy=kDimPolicyFullDimming 3 _orientation=kIOHIDDisplayOrientationTypeAmbiguous	
+00:34.487.290	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	E 159.5280, Ecapped 159.5280, EmaxCap -1.0000 => finalE 159.5280	
+00:34.487.304	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[1/1] Esensor_device: 151.4381 als->_Esensor_filtered: 159.5280 _Esensor_trusted: 159.5280  L: 191.9677 L_reflected: 1.0156	
+00:34.487.352	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[10]: dimRestriction=kDimRestrictionUnrestricted	
+00:34.487.418	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	Set capped lux to IOMFB 159.5280 (158.6508)	
+00:34.488.294	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[4]: 	
+00:34.488.313	Default	Unknown (0)	AppleARMIISAudio	Default	- Flicker startTransport ret=success(0)	
+00:34.488.322	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[200]: inputs: L=191.9677 (shouldRamp=true dimRestriction=kDimRestrictionUnrestricted _Esensor_trusted=159.5280) curveChanged=0	
+00:34.488.331	Default	Unknown (0)	AppleARMIISAudio	Default	- Flicker::startIOEngineGated() ret=success(0)	
+00:34.488.335	Default	Unknown (0)	AppleEmbeddedAudio	Default	Flicker: streaming audio
+	
+00:34.488.339	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[200]: _fastRampMode=0 dimRestriction=kDimRestrictionUnrestricted L_newtarget=191.9677 _L_current=76.2887 _L_minimum=191.8134	
+00:34.488.347	Default	audiomxd (105)	CoreAudio	Default	HALS_IOA2Device.cpp:2,266  HALS_IOA2Device::IOAudio2DeviceNotificationPortMessageHandler: <private>|86 +++++++++------>	
+00:34.488.355	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	PLT	shallUpdateBacklight: Pstart=0.7645 Pcurrent=0.7645 Pnewtarget=0.7547 Pdelta=-0.0098 Pthreshold_dim=0.0500 (0.1000 * 0.5000) Pthreshold_brighten=0.1000 (0.1000 * 1.0000) plt_x=0.2500 plt_y=0.3700 plt_z=0.1000	
+00:34.488.371	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[200]: _L_target=205.5501 Pnewtarget=0.7547 Ptarget=0.7645 Pdelta=-0.0098  	
+00:34.488.384	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[200]: systemShallUpdateBacklight=false L_target=191.9677 timeConstant=0.0000	
+00:34.488.403	Default	audiomxd (105)	CoreAudio	Default	HALS_IOA2Device.cpp:2,343  HALS_IOA2Device::IOAudio2DeviceNotificationPortMessageHandler: <private>|86 <------+++++++++	
+00:34.488.474	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=RLuxStats value=<private>	
+00:34.488.508	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=RLuxStats property=<private>	
+00:34.488.588	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	passed for client 58881740544	
+00:34.488.700	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=<private> value=<private>	
+00:34.488.768	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=<private> property=<private>	
+00:34.488.934	Debug	PerfPowerServices (1452)	com.apple.CoreBrightness	default	key=<private> property=<private> queue=0x97ede5100 clientBlock=0x97e365e90	
+00:34.488.955	Debug	audiomxd (105)	com.apple.defaults	User Defaults	found no value for key converterkTracesPermitted in CFPrefsSearchListSource<0x104dee660> (Domain: com.apple.coreaudio, Container: (null))	
+00:34.488.980	Debug	audiomxd (105)	com.apple.defaults	User Defaults	found no value for key converterkTracesPermitted in CFPrefsSearchListSource<0x104dee660> (Domain: com.apple.coreaudio, Container: (null))	
+00:34.489.014	Debug	audiomxd (105)	com.apple.defaults	User Defaults	found no value for key converterkTracesPermitted in CFPrefsSearchListSource<0x104dee660> (Domain: com.apple.coreaudio, Container: (null))	
+00:34.489.034	Default	audiomxd (105)	com.apple.coreaudio	AudioConverter	AudioConverter.cpp:1,010 Created a new in process converter -> 0x4af5b3840, from  2 ch,  48000 Hz, Int16, interleaved to  2 ch,  48000 Hz, Float32, interleaved	
+00:34.489.036	Info	PerfPowerServices (1452)	com.apple.CoreBrightness.BSCI	default	use_synchronous_remote=1	
+00:34.489.083	Default	PerfPowerServices (1452)	com.apple.xpc	connection	[0x97ef066c0] activating connection: mach=1 listener=0 peer=0 name=com.apple.backlightd	
+00:34.489.211	Default	PerfPowerServices (1452)	com.apple.CoreBrightness	default	Register notification block	
+00:34.489.362	Default	backboardd (68)	com.apple.xpc	connection	[0xdb508a080] activating connection: mach=0 listener=0 peer=1 name=com.apple.backlightd.peer[1452].0xdb508a080	
+00:34.489.505	Info	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	client=58903569312 key=<private>	
+00:34.489.840	Debug	backboardd (68)	com.apple.CoreBrightness.CBALSEvent	default	Tristimulus values: XYZ[0]=50.5677, XYZ[1]=48.2043, XYZ[2]=19.6962 | CCT1=3,364.7581	
+00:34.489.868	Debug	backboardd (68)	com.apple.CoreBrightness.CBALSNode	default	<private>	
+00:34.489.927	Debug	backboardd (68)	com.apple.CoreBrightness.CBBrightestALSFilter	default	ALS events <private>	
+00:34.489.999	Info	backboardd (68)	com.apple.CoreBrightness.CBColorPolicyFilter	default	HarmonyPolicy: Sample IS  from mitigated region	
+00:34.490.047	Info	backboardd (68)	com.apple.CoreBrightness.CBColorPolicyFilter	default	HarmonyPolicy: BaselineHarmony: mitigatedStr, for (lux, nits): 151.0000, 1,083.0000 = 0.1100 (rounded)	
+00:34.490.122	Info	backboardd (68)	com.apple.CoreBrightness.CBColorPolicyFilter	default	HarmonyPolicy: Sample IS NOT from CE region	
+00:34.490.204	Info	backboardd (68)	com.apple.CoreBrightness.CBColorPolicyFilter	default	HarmonyPolicy: Incoming ALS sample, pushed to queue: <private>	
+00:34.490.296	Info	backboardd (68)	com.apple.CoreBrightness.CBColorPolicyFilter	default	HarmonyPolicy: _filteredALS: <private>, _filtered strength: 0.2700	
+00:34.490.347	Debug	backboardd (68)	com.apple.CoreBrightness.CBColorModule.Primary	default	ALS event with orientation = 1	
+00:34.490.420	Info	backboardd (68)	com.apple.CoreBrightness.CBColorModule.Primary	default	HarmonyPolicy: Using Baseline	
+00:34.490.467	Debug	Photos (1680)	com.apple.photos.Neutrino	general	Reusing _NUStyleEngine instance: 0x30022b280, queue:0x4d98f5800 usage:apply config:<private> params:<private>	
+00:34.490.481	Debug	backboardd (68)	com.apple.CoreBrightness.CBColorModule.Primary	default	input ambient color sample: xy = (0.4268;0.4069)	
+00:34.490.497	Default	audiomxd (105)	com.apple.coreaudio	AMCP	187,363 HALS_IOEngine2.cpp:2,567 		HALS_IOEngine2::_StartIO(89) succeeded on Context 133  new state: Prewarm: 0 Play: 1 State: Running	
+00:34.490.556	Debug	backboardd (68)	CoreBrightness	Default	LOWLUX 48.2043
+	
+00:34.490.599	Debug	backboardd (68)	CoreBrightness	Default	[ColorEffects.c:_CFXRestrictLowAmbientColor] xy=(0.4268,0.4069), CCT = 3,206.0000, CCT1 = 3,364.7581	
+00:34.490.695	Debug	backboardd (68)	CoreBrightness	Default	Restrict: (16.7119, 16.7119) -> (14.0012, 46.7063)
+	
+00:34.490.782	Debug	backboardd (68)	CoreBrightness	Default	58.1997 16.7119 55.7487 -> ANGLE 1.6722 -> BIN 2	
+00:34.490.832	Debug	backboardd (68)	CoreBrightness	Default	BIN 13: (0.4268, 0.4069) fitting in (0.4150, 0.3821)-(0.4373, 0.3893)-(0.4303, 0.4173)
+	
+00:34.490.887	Info	backboardd (68)	com.apple.CoreBrightness.CBColorModule.Primary	default	Set ambient color sample ALS event = [Orientation = 1; Illuminance = 151.000000; xy = (0.426846,0.406896); XYZ = (50.567665,48.204258,19.696203); CCT1 = 3364.758057; Integration time = 0.002906; Gain = 33554432; Obstructed = 0; First = 0, mitigation = 1, timestamp = 87749521]	
+00:34.490.955	Debug	backboardd (68)	com.apple.CoreBrightness.CBColorModule.Primary	default	key=<private> result=<private>	
+00:34.491.003	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayContaineriOS	BuiltIn	key=<private> result=<private>	
+00:34.491.046	Info	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=<private> result=<private>	
+00:34.491.292	Debug	PerfPowerServices (1452)	com.apple.CoreBrightness.Client	Default	BSC dealloc	
+00:34.491.324	Default	PerfPowerServices (1452)	com.apple.CoreBrightness	default	Register notification block	
+00:34.491.352	Default	PerfPowerServices (1452)	com.apple.xpc	connection	[0x97ef066c0] invalidated because the current process cancelled the connection by calling xpc_connection_cancel()	
+00:34.491.383	Default	backboardd (68)	com.apple.xpc	connection	[0xdb508a080] invalidated because the client process (pid 1,452) either cancelled the connection or exited	
+00:34.491.392	Debug	PerfPowerServices (1452)	com.apple.powerlog	display	Received notification for CBrLuxStats: <private>	
+00:34.491.431	Debug	PerfPowerServices (1452)	com.apple.CoreBrightness.BSCI	default	BSCI dealloc	
+00:34.491.446	Default	PerfPowerServices (1452)	com.apple.CoreBrightness	default	Register notification block	
+00:34.511.833	Default	audiomxd (105)	com.apple.coreaudio	aqme	AQMEIO_HAL.cpp:2,625 aqmeio@0x4af3b4f00, device 151 (VirtualAudioDevice_Hawking), AudioDeviceStart (err 0)	
+00:34.511.907	Debug	audiomxd (105)	com.apple.coreaudio	aqme	AQMEIO_HAL.cpp:3,469 aqmeio@0x4af3b4f00 IsRunning 1	
+00:34.512.032	Debug	audiomxd (105)	com.apple.coreaudio	AMCP	187,363 HALS_IOContext_Legacy_Impl.cpp:1,937 Completed HALS_IOContext_Legacy_Impl::IOWorkLoopInit - 0	
+00:34.512.144	Default	audiomxd (105)	com.apple.coreaudio	va_vadevc	VirtualAudio_IONotificationManager.cpp:184 UpdateAndNotify() - need to notify I/O state = 1 new I/O running state = 1 previous I/O running state = 0	
+00:34.512.170	Default	audiomxd (105)	com.apple.coreaudio	va_vadevc	VirtualAudio_IONotificationManager.cpp:192 Sending notification "com.apple.coreaudio.IORunning" of I/O running state 1 forced notification = 0	
+00:34.512.511	Default	powerexperienced (125)	com.apple.powerexperienced	signalMonitor	Audio playback started current_state 1. Creating a resource hint	
+00:34.512.558	Default	powerexperienced (125)	com.apple.PowerExperienceFramework	ResourceConnection	ResourceConnection:updateResourceHint <private> with state 1	
+00:34.512.821	Default	powerexperienced (125)	com.apple.powerexperienced	resourcemanager	updating resource state for <private>:AudioPlayback from 0 to 1	
+00:34.512.847	Info	powerexperienced (125)	com.apple.powerexperienced	InUseChargingMode	evaluatePowerMode resources <private>	
+00:34.512.876	Default	powerexperienced (125)	com.apple.powerexperienced	RestrictedPerfMode	evaluatePowerMode: <private>: 0 display 1, carPlaySession 0, nFCSession 0, audioSession 1, sleepInProgress 0, wakeInProgress 0, onenessSession 0, siriAudio 0, pluggedIn 0 (allowOnCharger: 0)	
+00:34.512.965	Debug	powerexperienced (125)	com.apple.defaults	User Defaults	looked up value <private> for key resources in CFPrefsPlistSource<0xdbc044d80> (Domain: com.apple.powerexperienced.resourcemanager, User: kCFPreferencesCurrentUser, ByHost: No, Container: (null), Contents Need Refresh: No) via CFPrefsSearchListSource<0xdbc044b80> (Domain: com.apple.powerexperienced.resourcemanager, Container: (null))	
+00:34.512.995	Debug	powerexperienced (125)	com.apple.powerexperienced	resourcemanager	savedResourcesMutable <private>	
+00:34.513.200	Debug	powerexperienced (125)	com.apple.defaults	User Defaults	setting <private> in CFPrefsPlistSource<0xdbc044d80> (Domain: com.apple.powerexperienced.resourcemanager, User: kCFPreferencesCurrentUser, ByHost: No, Container: (null), Contents Need Refresh: No)	
+00:34.513.473	Debug	cfprefsd (107)	com.apple.defaults	cfprefsd	Process 125 (powerexperienced) sent a request related to { com.apple.powerexperienced.resourcemanager, user: root, kCFPreferencesAnyHost, /var/root/Library/Preferences/com.apple.powerexperienced.resourcemanager.plist, managed: 0 } (0xd3c1cf0c0)	
+00:34.513.527	Debug	cfprefsd (107)	com.apple.defaults	cfprefsd	Process 125 (powerexperienced) wrote the key(s) resources in { com.apple.powerexperienced.resourcemanager, root, kCFPreferencesAnyHost, /var/root/Library/Preferences/com.apple.powerexperienced.resourcemanager.plist, managed: 0 }	
+00:34.516.126	Debug	Photos (1680)	com.apple.defaults	User Defaults	found no value for key NU_INPAINT_SEGMENT_INPUT_TENSOR_DUMP_PATH in CFPrefsSearchListSource<0x30355b680> (Domain: com.apple.mobileslideshow, Container: (null))	
+00:34.516.231	Debug	Photos (1680)	com.apple.ane	client	anesubtype 512	
+00:34.516.272	Debug	Photos (1680)	com.apple.ane	client	anesubtype 512	
+00:34.522.275	Default	Unknown (0)	AppleT8140	Default	AppleH17PPlatformErrorHandler::_dcsWritePTD: 112109103114 3 offset f00 @ <private>[0x3003d0f00] <- 6
+
+	
+00:34.522.298	Default	Unknown (0)	AppleT8140	Default	AppleH17PPlatformErrorHandler::_dcsHandleDCSOdtsEvent: _dcsOdtsBelowThresholdCount = 61
+
+	
+00:34.522.300	Default	Unknown (0)	AppleT8140	Default	AppleH17PPlatformErrorHandler::_dcsHandleDCSOdtsEvent: start next polling
+
+	
+00:34.522.940	Debug	Photos (1680)	com.apple.ane	common	<private> ANEProgramProcessRequestDirect() for lModel <private> waitForResults is 1	
+00:34.522.959	Debug	Photos (1680)	com.apple.ane	common	-----> <private>: ANEProgramProcessRequestDirect() disableIOFences option not nil value is 0 	
+00:34.523.001	Default	Unknown (0)	AppleH16ANEInterface	Default	ANE0: DartMapIntermediateBuffer: pIntermediateBuffer: <private>, DMACommand: <private>, memoryDescriptor: <private>
+	
+00:34.523.028	Default	Unknown (0)	AppleH16ANEInterface	Default	ANE0: ANE_MemoryMapRequest_gated: programHandle: 0x1101d4a465f, programId: 27, processId: 27, procedureId 0, bufferCount: 1, numCachedBuffers: 9
+	
+00:34.533.249	Debug	audiomxd (105)	com.apple.coreaudio	aqme	AQMEIO.cpp:224 Audio device started by mix engine	
+00:34.533.368	Debug	audiomxd (105)	AudioToolbox	Default	MEDeviceStreamClient.cpp:388 runningClientCount: 1	
+00:34.533.391	Debug	audiomxd (105)	com.apple.coreaudio	aqme	AQMEIO_HAL.cpp:1,571 audioDeviceID = 151	
+00:34.533.436	Default	audiomxd (105)	com.apple.coreaudio	aqme	AQMEIO_HAL.cpp:1,646 Could not get active ports for audioDeviceID 0x97	
+00:34.533.456	Debug	audiomxd (105)	com.apple.coreaudio	aqme	AQMEIO_HAL.cpp:1,648 isValidHeadphones: 0, isAppleHeadphones: 0, isWiredHeadphones: 0	
+00:34.533.474	Debug	audiomxd (105)	com.apple.coreaudio	aurios	RemoteIOServer.cpp:2,055 <-AUIOServer_StartIO 0x696d5 err 0	
+00:34.533.515	Debug	appleh16camerad (129)	com.apple.isp	general	FlickerDetector: Requested resource access
+
+	
+00:34.533.568	Debug	appleh16camerad (129)	com.apple.isp	general	H16ISPFlickerDetectorStartDataCollection - Success
+	
+00:34.533.599	Debug	appleh16camerad (129)	com.apple.coreaudio	aurioc	AURemoteIO.cpp:787 AURemoteIO(0x9c22d4040)::SetProperty scope 1, elem 1, prop 2,022, 4 bytes: 0000803f	
+00:34.533.713	Default	audiomxd (105)	com.apple.coreaudio	va_vadevc	VirtualAudio_Device.cpp:2,848 [volm/inpt/0] on VAD '[ type: vhaw; id: 151; addr: 0x4acc41900; context id: 0; hidden: 0; VA strms: { i/156/0x4ac0538e0,  }; agg dev: [ id: 130; addr: 0x104e0c350; uid: "VAD [vhaw] AggDev 3"; virt strms: { i/0x4ac90c300,  }; phys devs: { [ id: 86; addr: 0x4ac4d8600; uid: "Flicker"; streams: { i/87/0x4ac9c0248,  } ] } ] ]': 1.0000.	
+00:34.533.758	Default	audiomxd (105)	com.apple.coreaudio	va_contrl	InputVolumeControl_HAL_Common.cpp:161   Setting Input Volume: 0.0000 dB, Final HW Volume: 0.0000 dB, Final SW Volume: 0.0000 dB	
+00:34.533.777	Default	audiomxd (105)	com.apple.coreaudio	va_contrl	InputVolumeControl_HAL_Common.cpp:162   VAD '[ id: 86; addr: 0x4ac4d8600; uid: "Flicker"; streams: { i/87/0x4ac9c0248,  } ]'	
+00:34.533.803	Default	audiomxd (105)	com.apple.coreaudio	va_contrl	InputVolumeControl_HAL_Common.cpp:164   PhysicalDevice UID = "Flicker"	
+00:34.533.820	Default	audiomxd (105)	com.apple.coreaudio	va_contrl	InputVolumeControl_HAL_Common.cpp:165   Scope = 1,768,845,428 ("inpt")	
+00:34.533.839	Default	audiomxd (105)	com.apple.coreaudio	va_contrl	InputVolumeControl_HAL_Common.cpp:166   Element = 0 ("0")	
+00:34.533.854	Debug	audiomxd (105)	com.apple.coreaudio	va_contrl	InputVolumeControl_HAL_Common.cpp:167   SW Volume: disabled	
+00:34.533.905	Error	appleh16camerad (129)	com.apple.isp	photon	GetLuxInfo_block_invoke - GetLuxInfo_block_invoke: Waiting for lux
+	
+00:34.546.301	Debug	audiomxd (105)	com.apple.locationd.Motion	Motion	Ping timer fired, resetting watchdog	
+00:34.546.480	Debug	audiomxd (105)	com.apple.MediaSafetyNet	periodic	MediaSafetyNet state: UI(Elsewhere) Cam(N/A) Mic(Cold:<private>) Pill(Unknown) Kbd(Hidden) CameraException(None) consistency: Consistent	
+00:34.555.327	Debug	DTServiceHub (360)	DVTInstrumentsFoundation	Default	Data Size: 101,278, Rows Sent: 1,279, Stack depth: 3,439	
+00:34.581.679	Debug	thermalmonitord (64)	libIOReport.dylib	Default	iterated 1 channels with 1 iterations	
+00:34.582.892	Debug	thermalmonitord (64)	libIOReport.dylib	Default	iterated 14 channels with 14 iterations	
+00:34.591.940	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:34.592.274	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:34.592.835	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:34.593.419	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:34.594.019	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:34.594.371	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:34.595.171	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:34.596.001	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:34.596.711	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:34.597.422	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:34.598.267	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:34.598.927	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:34.600.650	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:34.600.974	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:34.601.701	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:34.602.416	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:34.603.136	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:34.603.926	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:34.604.626	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:34.605.704	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:34.606.284	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:34.606.905	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:34.607.830	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:34.608.491	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:34.609.264	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:34.610.991	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:34.611.417	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:34.612.077	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:34.612.739	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:34.613.788	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:34.614.303	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:34.615.035	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:34.615.867	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:34.616.387	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:34.617.233	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:34.618.009	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:34.618.713	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:34.619.571	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:34.620.960	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:34.621.341	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:34.622.007	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:34.622.524	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:34.623.190	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:34.623.310	Default	Unknown (0)	AppleT8140	Default	AppleH17PPlatformErrorHandler::_dcsWritePTD: 112109103114 3 offset f00 @ <private>[0x3003d0f00] <- 6
+
+	
+00:34.623.328	Default	Unknown (0)	AppleT8140	Default	AppleH17PPlatformErrorHandler::_dcsHandleDCSOdtsEvent: _dcsOdtsBelowThresholdCount = 62
+
+	
+00:34.623.330	Default	Unknown (0)	AppleT8140	Default	AppleH17PPlatformErrorHandler::_dcsHandleDCSOdtsEvent: start next polling
+
+	
+00:34.624.116	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:34.624.639	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:34.625.336	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:34.626.138	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:34.626.777	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:34.627.746	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:34.628.444	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:34.628.966	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:34.630.785	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:34.630.918	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:34.631.136	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:34.632.098	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:34.632.717	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:34.633.348	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:34.634.010	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:34.634.783	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:34.636.675	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:34.636.993	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:34.637.818	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:34.638.740	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:34.639.357	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:34.640.238	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:34.642.092	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:34.642.436	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:34.643.086	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:34.643.788	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:34.644.749	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:34.646.163	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:34.646.666	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:34.647.438	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:34.648.119	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:34.648.858	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:34.649.617	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:34.650.279	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:34.652.367	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:34.652.628	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:34.653.250	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:34.653.883	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:34.654.968	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:34.655.515	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:34.658.739	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:34.659.426	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:34.659.890	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:34.660.133	Default	Unknown (0)	AppleH16ANEInterface	Default	ANE0: processTargetToHostIOCommand: DEBUG: Got the program request complete notification - programId: 27 processId: 27 uuid: 0x<private> procedureid: 0 programEvent: 1
+	
+00:34.660.151	Debug	Photos (1680)	com.apple.ane	common	-----> <private>: ANEProgramProcessRequestDirect() status=0x0 : statusType=0x8 : qos=0x15	
+00:34.660.807	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:34.661.415	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:34.662.105	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:34.662.813	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:34.663.488	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:34.665.215	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:34.665.730	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:34.666.542	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:34.667.228	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:34.667.931	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:34.668.675	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:34.669.418	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:34.671.193	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:34.672.034	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:34.672.714	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:34.673.122	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:34.673.242	Debug	DTServiceHub (360)	DVTInstrumentsFoundation	Default	Data Size: 101,490, Rows Sent: 1,217, Stack depth: 3,494	
+00:34.673.923	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:34.674.846	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:34.676.220	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:34.676.442	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:34.676.858	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:34.677.487	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:34.678.244	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:34.678.913	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:34.680.393	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:34.680.767	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:34.681.150	Debug	remotepairingdeviced (62)	com.apple.network	boringssl	nw_protocol_boringssl_get_output_frames(1,706) [C19:1][0x8d411fc00] Waiting for writable frames -- returning 0 frames	
+00:34.682.581	Debug	backboardd (68)	com.apple.BackBoard	MotionEvents	Motion event usagePage:0xff0c usage:1 	
+00:34.682.889	Debug	locationd (74)	com.apple.locationd.Motion	Motion	visitKFFilteredPressure,nowAP,753,594,889.6213,nowAOP,349,902,628,715,filteredPressure,102,630.1328,pressureTimestamp,349,899,908,370,kfElevation,-107.7766,wallTimePressureCorrected,753,594,886.9006,wallTimeKFCorrected,753,594,889.5870,temperatureDerivative,0.0000,absAltUnc,-0.0000	
+00:34.683.054	Debug	locationd (74)	com.apple.locationd.Motion	Altimeter	received KF filtered pressure from AOP,now,<private>,filteredPressureTimestamp,<private>,filteredPressure,<private>,kfTimestamp,<private>,kfElevation,<private>,kfPressure,<private> temperature,<private>,absAltUnc,<private>	
+00:34.683.088	Debug	locationd (74)	com.apple.locationd.Motion	Altimeter	{"msg":"kfPressure source updated with", "timestamp_s":"<private>", "kfPressure":"<private>", "kfElevation":"<private>", "absAltUncertainty":"<private>"}	
+00:34.684.786	Default	appleh16camerad (129)	com.apple.isp	general	skip buffer size in (float)8,192, acc size 65,536
+
+	
+00:34.685.243	Error	appleh16camerad (129)	com.apple.isp	photon	GetLuxInfo - GetLuxInfo: Sending lux, ret = 0x0
+	
+00:34.685.300	Info	appleh16camerad (129)	com.apple.isp	daemon	Sent reply to client: rc 0 (pid <private>), num pending requests = 0
+	
+00:34.685.349	Default	backboardd (68)	com.apple.xpc	connection	[0xdb4bd3800] invalidated because the current process cancelled the connection by calling xpc_connection_cancel()	
+00:34.685.387	Default	backboardd (68)	com.apple.CoreBrightness.CBGrimaldiModule	default	RearLuxOutput <private>	
+00:34.685.426	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayContaineriOS	BuiltIn	Notification block key=RLuxOutput, value=<private>
+	
+00:34.685.460	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	Handle notification for key = RLuxOutput and property = <private>	
+00:34.685.469	Default	appleh16camerad (129)	com.apple.xpc	connection	[0x9c22483c0] invalidated because the client process (pid 68) either cancelled the connection or exited	
+00:34.685.527	Info	appleh16camerad (129)	com.apple.isp	daemon	Client disconnecting (pid <private>)
+	
+00:34.685.534	Debug	backboardd (68)	com.apple.CoreBrightness.CBGrimaldiModule	default	Rear Lux Dictionary: lux = 49.8244, gain = 0.0000, numSamples= 1, absoluteTime = 1,168,899,293,804, StrobeCoex = 0, JasperCoex = 0, GainChanged = 0 (sample 1/1)	
+00:34.685.627	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=RLuxOutput value=<private>	
+00:34.685.663	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=RLuxOutput property=<private>	
+00:34.685.720	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=<private> value=<private>	
+00:34.685.740	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=<private> property=<private>	
+00:34.685.822	Default	Unknown (0)	AppleCS42L79Audio	Default	enableFlickerBias inEnable:0	
+00:34.686.130	Default	Unknown (0)	AppleCS42L79Audio	Default	Read  Adr:10010 Val:2ff	
+00:34.686.289	Default	Unknown (0)	AppleCS42L79Audio	Default	Write Adr:10010 Val:ff	
+00:34.686.298	Default	Unknown (0)	AppleCS42L79Audio	Default	MClk Enable:0 client:8 mask:24	
+00:34.686.299	Default	Unknown (0)	AppleCS42L79Audio	Default	FlickerBiasRequest Enable=0 ret:0	
+00:34.686.405	Error	Unknown (0)	AppleSPU	Default	Error setting grimaldi power state	
+00:34.686.718	Default	appleh16camerad (129)	com.apple.coreaudio	aurioc	AURemoteIO.cpp:1,697 Stopping AURemoteIO(0x9c22d4040)	
+00:34.686.755	Default	Unknown (0)	AppleH16PhotonDetector	Default	AppleH16PhotonDetectorUserClient:free - Freeing UserClient for process appleh16camerad (pid 129)
+	
+00:34.686.882	Debug	audiomxd (105)	com.apple.coreaudio	aurios	RemoteIOServer.cpp:2,069 ->AUIOServer_StopIO 0x696d5	
+00:34.686.959	Debug	audiomxd (105)	com.apple.coreaudio	aqme	MEDeviceStreamClient.cpp:447 -> 0x4ac442200 <RemoteIOClient@0x4ad474700(@0x4ad474780); input; CMSession(appleh16camerad[129], 0xffffffff)>	
+00:34.687.009	Debug	audiomxd (105)	AudioToolbox	Default	MEDeviceStreamClient.cpp:388 runningClientCount: 0	
+00:34.687.039	Default	audiomxd (105)	com.apple.coreaudio	aqme	MEDeviceStreamClient.cpp:479 AQME Device-VirtualAudioDevice_Hawking: client stopping: <RemoteIOClient@0x4ad474700(@0x4ad474780); input; CMSession(appleh16camerad[129], 0xffffffff)>; running count now 0	
+00:34.690.734	Debug	Photos (1680)	com.apple.defaults	User Defaults	found no value for key forceDeviceName in CFPrefsSearchListSource<0x3037de300> (Domain: com.apple.Metal, Container: (null))	
+00:34.691.211	Debug	Photos (1680)	com.apple.CFBundle	resources	Resource lookup at <private>
+	Request       : default type: metallib
+	Result        : file:///System/Library/Frameworks/VideoToolbox.framework/default.metallib
+	
+00:34.698.824	Debug	Photos (1680)	com.apple.defaults	User Defaults	found no value for key forceDeviceName in CFPrefsSearchListSource<0x3037de300> (Domain: com.apple.Metal, Container: (null))	
+00:34.698.980	Debug	Photos (1680)	com.apple.CFBundle	resources	Resource lookup at <private>
+	Request       : default type: metallib
+	Result        : file:///System/Library/Frameworks/VideoToolbox.framework/default.metallib
+	
+00:34.700.710	Info	bluetoothd (94)	com.apple.bluetooth	Stack.LE	 Invalid Dual mode support indication in AD flags 0x00000000.	
+00:34.700.816	Info	bluetoothd (94)	com.apple.bluetooth	Server.LE.Scan	Setting mfgr data:<private> len:6 id:4c	
+00:34.700.949	Debug	bluetoothd (94)	com.apple.bluetooth	Server.LE.Scan	Found device "D205E2AF-73B5-9C53-F9C2-43E2CB409B24 Random F9:BB:BD:56:C4:E5 RSSI:-88 with data:RSSI: 0 dB (non-saturated), MFR Data: 4C 00 12 02 00 02[AppleTypesBitmap:0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001000000000000000000], non-connectable, sourceCore: MainCore, IsELNAOn: 0, IsPassup: 0, IsFromSCCompensation0, IsCoexDenied0, 	
+00:34.700.996	Debug	bluetoothd (94)	com.apple.bluetooth	Server.LE.Scan	Show dup for given rule with puck type 0x12	
+00:34.701.014	Info	bluetoothd (94)	com.apple.bluetooth	Server.LE.Scan	Device "D205E2AF-73B5-9C53-F9C2-43E2CB409B24" matched MFG data	
+00:34.701.032	Debug	bluetoothd (94)	com.apple.bluetooth	Server.LE.Scan	doesDeviceMatch: fAdvDataMap size:145 fMaxNumOfReportsInMap:200 fAdvDataMap size:145 Puck?:1 roomInMap:1	
+00:34.701.076	Debug	bluetoothd (94)	com.apple.bluetooth	Server.XPC	createXpcAdvData sending data:<private> length:6 originalLength:6 lenError:0	
+00:34.701.101	Debug	bluetoothd (94)	com.apple.bluetooth	Server.App	moreAvailable=0, isFromADVBuffer=0	
+00:34.701.233	Debug	bluetoothd (94)	com.apple.bluetooth	Server.LE.Scan	Show dup for given rule with puck type 0x12	
+00:34.701.248	Info	bluetoothd (94)	com.apple.bluetooth	Server.LE.Scan	Device "D205E2AF-73B5-9C53-F9C2-43E2CB409B24" matched MFG data	
+00:34.701.265	Debug	bluetoothd (94)	com.apple.bluetooth	Server.LE.Scan	doesDeviceMatch: fAdvDataMap size:145 fMaxNumOfReportsInMap:200 fAdvDataMap size:145 Puck?:1 roomInMap:1	
+00:34.701.287	Debug	bluetoothd (94)	com.apple.bluetooth	Server.XPC	createXpcAdvData sending data:<private> length:6 originalLength:6 lenError:0	
+00:34.701.305	Debug	bluetoothd (94)	com.apple.bluetooth	Server.App	moreAvailable=0, isFromADVBuffer=0	
+00:34.701.375	Debug	bluetoothd (94)	com.apple.bluetooth	Server.LE.Scan	Show dup for given rule with puck type 0x12	
+00:34.701.389	Info	bluetoothd (94)	com.apple.bluetooth	Server.LE.Scan	Device "D205E2AF-73B5-9C53-F9C2-43E2CB409B24" matched MFG data	
+00:34.701.405	Debug	bluetoothd (94)	com.apple.bluetooth	Server.LE.Scan	doesDeviceMatch: fAdvDataMap size:145 fMaxNumOfReportsInMap:200 fAdvDataMap size:145 Puck?:1 roomInMap:1	
+00:34.701.415	Debug	locationd (74)	com.apple.locationd.Core	AvengerScanner	{"msg":"didDiscoverPeripheral", "ClientId":CLDurianService, "peripheral":<private>, "advertisementData":<private>}	
+00:34.701.426	Debug	bluetoothd (94)	com.apple.bluetooth	Server.XPC	createXpcAdvData sending data:<private> length:6 originalLength:6 lenError:0	
+00:34.701.460	Debug	bluetoothd (94)	com.apple.bluetooth	Server.App	moreAvailable=0, isFromADVBuffer=0	
+00:34.701.462	Debug	locationd (74)	com.apple.locationd.Core	AvengerScanner	{"msg":"didDiscoverPeripheral", "ClientId":CLSubHarvesterAvenger, "peripheral":<private>, "advertisementData":<private>}	
+00:34.701.484	Debug	locationd (74)	com.apple.locationd.Core	Harvester	{"msg":"#CLAvengerReconciler advertisement reconciled: ", "ownerUUID":<private>, "nonownerUUID":<private>, "address":<private>, "uuidMap":<private>}	
+00:34.701.498	Debug	locationd (74)	com.apple.locationd.Core	Harvester	{"msg":"#CLAvengerReconciler advertisement reconciled: ", "ownerUUID":<private>, "nonownerUUID":<private>, "address":<private>, "uuidMap":<private>}	
+00:34.701.527	Debug	locationd (74)	com.apple.locationd.Core	Harvester	{"msg":"#CLAvengerReconciler: creating CLAvengerScannerReconciledInformation", "reconciledInformation.description":<private>}	
+00:34.701.541	Debug	locationd (74)	com.apple.locationd.Core	Harvester	{"msg":"#CLAvengerReconciler: creating CLAvengerScannerReconciledInformation", "reconciledInformation.description":<private>}	
+00:34.701.543	Debug	bluetoothd (94)	com.apple.bluetooth	Server.LE.Scan	No match found for device "D205E2AF-73B5-9C53-F9C2-43E2CB409B24"	
+00:34.701.560	Debug	bluetoothd (94)	com.apple.bluetooth	Server.LE.Scan	Show dup for given rule with puck type 0x12	
+00:34.701.589	Debug	locationd (74)	com.apple.locationd.Position	Proximity	{"msg":"#durian onAvengerAdvertisement - not durian/hawkeye or not Apple advertisement", "status":0}	
+00:34.701.590	Default	locationd (74)	com.apple.locationd.Core	Harvester	{"msg":"onAvengerAdvertisementDetected: got avenger advertisement", "subHarvester":11}	
+00:34.701.623	Debug	locationd (74)	com.apple.locationd.Core	AvengerScanner	{"msg":"didDiscoverPeripheral", "ClientId":CLTrackingAvoidanceService, "peripheral":<private>, "advertisementData":<private>}	
+00:34.701.673	Info	bluetoothd (94)	com.apple.bluetooth	Server.LE.Scan	Device "D205E2AF-73B5-9C53-F9C2-43E2CB409B24" matched MFG data	
+00:34.701.684	Default	locationd (74)	com.apple.locationd.Core	Harvester	{"msg":"convertToSPAdvertisement", "address":<private>, "data":<private>, "date":<private>, "rssi":<private>, "status":<private>, "reserved":<private>, "subHarvester":11}	
+00:34.701.707	Debug	locationd (74)	com.apple.locationd.Core	Harvester	{"msg":"#CLAvengerReconciler advertisement reconciled: ", "ownerUUID":<private>, "nonownerUUID":<private>, "address":<private>, "uuidMap":<private>}	
+00:34.701.751	Default	locationd (74)	com.apple.locationd.Core	Harvester	{"msg":"onAvengerAdvertisementDetected: advertisement is near-owner from other people and do not process it", "subHarvester":11}	
+00:34.701.761	Debug	bluetoothd (94)	com.apple.bluetooth	Server.LE.Scan	doesDeviceMatch: fAdvDataMap size:96 fMaxNumOfReportsInMap:200 fAdvDataMap size:96 Puck?:1 roomInMap:1	
+00:34.701.777	Debug	locationd (74)	com.apple.locationd.Core	Harvester	{"msg":"#CLAvengerReconciler: creating CLAvengerScannerReconciledInformation", "reconciledInformation.description":<private>}	
+00:34.701.812	Debug	bluetoothd (94)	com.apple.bluetooth	Server.XPC	createXpcAdvData sending data:<private> length:6 originalLength:6 lenError:0	
+00:34.701.865	Debug	bluetoothd (94)	com.apple.bluetooth	Server.App	moreAvailable=0, isFromADVBuffer=0	
+00:34.701.911	Debug	locationd (74)	com.apple.locationd.Position	TrackingAvoidance	#ut received advertisement	
+00:34.702.033	Debug	locationd (74)	com.apple.locationd.Position	GeneralCLX	TaMetricEvent, onAvengerAdvertisement, id, <private>, <private>, <private>, 3	
+00:34.702.040	Debug	bluetoothd (94)	com.apple.bluetooth	Server.LE.Scan	No match found for device "D205E2AF-73B5-9C53-F9C2-43E2CB409B24"	
+00:34.702.107	Debug	bluetoothd (94)	com.apple.bluetooth	Server.LE.Scan	Agents: com.apple.locationd-central-74-54 hashedUUIDs=0 Nbmatchrules=1 ServiceUUID=2 | com.apple.locationd-central-74-62 hashedUUIDs=0 Nbmatchrules=1 ServiceUUID=2 | com.apple.locationd-central-74-69 hashedUUIDs=0 Nbmatchrules=1 ServiceUUID=2 | com.apple.locationd-central-74-124 hashedUUIDs=0 Nbmatchrules=1 ServiceUUID=2 | 	
+00:34.702.118	Debug	locationd (74)	com.apple.locationd.Core	AvengerScanner	{"msg":"didDiscoverPeripheral", "ClientId":CLAvengerObservationReporterService, "peripheral":<private>, "advertisementData":<private>}	
+00:34.702.177	Default	locationd (74)	com.apple.tracking-avoidance	Events	<private>	
+00:34.702.221	Debug	locationd (74)	com.apple.locationd.Core	Harvester	{"msg":"#CLAvengerReconciler advertisement reconciled: ", "ownerUUID":<private>, "nonownerUUID":<private>, "address":<private>, "uuidMap":<private>}	
+00:34.702.341	Debug	bluetoothd (94)	com.apple.CFBundle	strings	Bundle: <private>, key: bt_type_generic, value: , table: CBLocalizable, localizationNames: , result: Bluetooth Device	
+00:34.702.346	Debug	locationd (74)	com.apple.locationd.Core	Harvester	{"msg":"#CLAvengerReconciler: creating CLAvengerScannerReconciledInformation", "reconciledInformation.description":<private>}	
+00:34.702.366	Debug	locationd (74)	com.apple.tracking-avoidance	Status	#TAStore not adding TASPAdvertisement due to irrelevant device type:<private>	
+00:34.703.148	Debug	Photos (1680)	com.apple.defaults	User Defaults	found no value for key forceDeviceName in CFPrefsSearchListSource<0x3037de300> (Domain: com.apple.Metal, Container: (null))	
+00:34.703.279	Debug	Photos (1680)	com.apple.CFBundle	resources	Resource lookup at <private>
+	Request       : default type: metallib
+	Result        : file:///System/Library/Frameworks/VideoToolbox.framework/default.metallib
+	
+00:34.703.904	Default	audiomxd (105)	com.apple.coreaudio	va_hplayr	VirtualAudioQueue.h:169 :769:: Client request to stop IO proc ID 0x4acaf5e00 on VAD: '[ type: vhaw; id: 151; addr: 0x4acc41900; context id: 0; hidden: 0; VA strms: { i/156/0x4ac0538e0,  }; agg dev: [ id: 130; addr: 0x104e0c350; uid: "VAD [vhaw] AggDev 3"; virt strms: { i/0x4ac90c300,  	
+00:34.703.917	Debug	audiomxd (105)	com.apple.coreaudio	aqme	AQMEIO_HAL.cpp:2,726 Audio device stopped by mix engine, after waiting on state guard	
+00:34.703.946	Default	audiomxd (105)	CoreAudio	Default	HALS_IOContext_Legacy_Impl.cpp:486  HALS_IOContext_Legacy_Impl::Server_Internal_StopIOProcID: 133 Flicker (VAD [vhaw] AggDev 3):	
+00:34.703.982	Default	audiomxd (105)	CoreAudio	Default	HALS_IOContext_Legacy_Impl.cpp:492  HALS_IOContext_Legacy_Impl::Server_Internal_StopIOProcID: stopping 0x21 state: Prewarm: 0 Play: 1 State: Running IOProc 0x21: yes	
+00:34.703.987	Debug	audiomxd (105)	com.apple.coreaudio	aurios	RemoteIOServer.cpp:2,073 <-AUIOServer_StopIO 0x696d5	
+00:34.703.994	Default	audiomxd (105)	com.apple.coreaudio	va_aggdev	VirtualAudioQueue.h:169 :492:: IOProc (AggregateDevice 130, IO type NonNullIOProc) running state is now not running (0).	
+00:34.704.024	Default	audiomxd (105)	com.apple.coreaudio	va_aggdev	VirtualAudioQueue.h:169 :596:: Stopping IO type 0 on AggregateDevice 130.	
+00:34.704.034	Default	audiomxd (105)	CoreAudio	Default	HALS_IOEngine2.cpp:2,239  HALS_IOEngine2::StopIO: stopping IO on device <private>	
+00:34.704.058	Debug	appleh16camerad (129)	com.apple.coreaudio	aurioc	AURemoteIO.cpp:2,341 AURIOCallbackReceiver_TerminateOwnIOThread	
+00:34.704.117	Debug	appleh16camerad (129)	com.apple.coreaudio	aurioc	AURemoteIO.cpp:2,053 AURemoteIO@0x9c22d4040: IOThread exiting	
+00:34.704.141	Default	Unknown (0)	AppleCS42L79Audio	Default	AppleCS42L79Audio::notifySecondaryActiveChangeGated(Flicker) enable:0 direction:1 	
+00:34.704.166	Default	Unknown (0)	AppleCS42L79Audio	Default	disableFlicker Ch:7	
+00:34.704.369	Default	Unknown (0)	AppleCS42L79Audio	Default	Read  Adr:450004 Val:5004d4c	
+00:34.704.432	Debug	appleh16camerad (129)	com.apple.coreaudio	aurioc	AURemoteIO.cpp:1,720 <-AURemoteIO::Stop	
+00:34.704.506	Default	Unknown (0)	AppleCS42L79Audio	Default	Write Adr:450004 Val:4d4c	
+00:34.704.529	Debug	appleh16camerad (129)	com.apple.coreaudio	aurioc	AURemoteIO.cpp:1,255 ->AURemoteIO(0x9c22d4040)::Cleanup	
+00:34.704.545	Default	appleh16camerad (129)	com.apple.coreaudio	aurioc	AURemoteIO.cpp:1,697 Stopping AURemoteIO(0x9c22d4040)	
+00:34.704.575	Debug	appleh16camerad (129)	com.apple.coreaudio	aurioc	AURemoteIO.cpp:1,720 <-AURemoteIO::Stop	
+00:34.704.658	Default	Unknown (0)	AppleCS42L79Audio	Default	Write Adr:10000 Val:f203	
+00:34.704.662	Default	Unknown (0)	AppleCS42L79Audio	Default	disableFlicker Ch:8	
+00:34.704.767	Debug	audiomxd (105)	com.apple.coreaudio	aurios	RemoteIOServer.cpp:1,924 AUIOServer_Cleanup	
+00:34.704.826	Default	Unknown (0)	AppleCS42L79Audio	Default	Read  Adr:450008 Val:6	
+00:34.704.967	Default	Unknown (0)	AppleCS42L79Audio	Default	Write Adr:450008 Val:0	
+00:34.705.024	Debug	appleh16camerad (129)	com.apple.coreaudio	aurioc	AURemoteIO.cpp:1,263 <-AURemoteIO::Cleanup	
+00:34.705.129	Default	Unknown (0)	AppleCS42L79Audio	Default	Write Adr:10000 Val:f003	
+00:34.705.177	Debug	appleh16camerad (129)	com.apple.coreaudio	aurioc	AURemoteIO.cpp:453 ->AURemoteIO@0x9c22d4040 destructor	
+00:34.705.285	Default	Unknown (0)	AppleCS42L79Audio	Default	Read  Adr:470000 Val:406	
+00:34.705.428	Default	Unknown (0)	AppleCS42L79Audio	Default	Write Adr:470000 Val:404	
+00:34.705.431	Default	Unknown (0)	AppleCS42L79Audio	Default	Disable Route ASP:2 Tx:1 Ch:2 Start:7	
+00:34.705.579	Default	Unknown (0)	AppleCS42L79Audio	Default	Read  Adr:470024 Val:180	
+00:34.705.713	Default	Unknown (0)	AppleCS42L79Audio	Default	Write Adr:470024 Val:0	
+00:34.705.718	Default	Unknown (0)	AppleCS42L79Audio	Default	Set Internal MClk client:4  mask:20	
+00:34.705.851	Default	Unknown (0)	AppleCS42L79Audio	Default	Write Adr:30000 Val:0	
+00:34.706.816	Default	appleh16camerad (129)	com.apple.coreaudio	aurioc	AURemoteIO.cpp:1,697 Stopping AURemoteIO(0x9c22d4040)	
+00:34.706.827	Default	Unknown (0)	AppleCS42L79Audio	Default	MClk Enable:0 client:4 mask:20	
+00:34.706.843	Default	Unknown (0)	AppleARMIISAudio	Default	+ Flicker::stopIOEngineGated()	
+00:34.706.848	Default	Unknown (0)	AppleARMIISAudio	Default	+ Flicker stopTransport	
+00:34.707.210	Debug	appleh16camerad (129)	com.apple.coreaudio	aurioc	AURemoteIO.cpp:1,720 <-AURemoteIO::Stop	
+00:34.707.424	Debug	audiomxd (105)	com.apple.coreaudio	aurios	RemoteIOServer.cpp:1,851 AUIOServer_DisposeInstance	
+00:34.707.517	Debug	audiomxd (105)	com.apple.coreaudio	aqme	AQMixEngine.cpp:968 ->AQMEDevice(0x4ac442200)::RemoveIOClient <RemoteIOClient@0x4ad474700(@0x4ad474780); input; CMSession(appleh16camerad[129], 0xffffffff)>	
+00:34.707.548	Debug	audiomxd (105)	com.apple.coreaudio	aqme	MEInputManager.cpp:40 MEInputManager(0x4aca9dd80)::RemoveInputClient 0x4ad474780	
+00:34.707.570	Debug	audiomxd (105)	com.apple.coreaudio	aqme	MEInputManager.cpp:60 MEInputManager::RemoveInputClient 0x4ad474780, disposed	
+00:34.707.782	Debug	appleh16camerad (129)	com.apple.coreaudio	aurioc	AURemoteIO.cpp:485 <-AURemoteIO@0x9c22d4040 destructor	
+00:34.708.298	Debug	appleh16camerad (129)	com.apple.isp	general	H16ISPFlickerDetectorStopDataCollection - Success
+	
+00:34.708.435	Debug	appleh16camerad (129)	com.apple.isp	general	FlickerDetector: Released resource access
+
+	
+00:34.708.686	Debug	appleh16camerad (129)	com.apple.isp	general	FlickerDetector: FlickerResourceArbiterClientDelegate cleanup at shutting down
+
+	
+00:34.708.761	Default	appleh16camerad (129)	com.apple.isp	general	H16ISPFlickerDetectorDispose - Success
+	
+00:34.708.863	Default	appleh16camerad (129)	com.apple.isp	daemon	Removing client: pid <private>
+	
+00:34.708.906	Default	appleh16camerad (129)	com.apple.isp	daemon	Total number of connections: 0
+	
+00:34.709.024	Default	audiomxd (105)	com.apple.coreaudio	AMCP	187,363 HALS_IOEngine2.cpp:2,635 HALS_IOEngine2::_StopIO(89) called on Context 133  current state: Prewarm: 0 Play: 1 State: Running	
+00:34.709.465	Default	Unknown (0)	AppleARMIISAudio	Default	- Flicker stopTransport ret=success(0)	
+00:34.709.482	Default	Unknown (0)	AppleARMIISAudio	Default	- Flicker::stopIOEngineGated() ret=success(0)	
+00:34.709.487	Default	Unknown (0)	AppleEmbeddedAudio	Default	Flicker: off
+	
+00:34.709.506	Default	audiomxd (105)	CoreAudio	Default	HALS_IOA2Device.cpp:2,266  HALS_IOA2Device::IOAudio2DeviceNotificationPortMessageHandler: <private>|86 +++++++++------>	
+00:34.709.571	Default	audiomxd (105)	CoreAudio	Default	HALS_IOA2Device.cpp:2,343  HALS_IOA2Device::IOAudio2DeviceNotificationPortMessageHandler: <private>|86 <------+++++++++	
+00:34.709.633	Default	audiomxd (105)	CoreAudio	Default	HALS_IOContext_Legacy_Impl.cpp:2,013  IO Stopped Context 133 after 9,216 frames.	
+00:34.709.712	Default	audiomxd (105)	CoreAudio	Default	HALS_IOContext_Legacy_Impl.cpp:2,037  HALS_IOContext_Legacy_Impl::IOWorkLoopDeinit: 133 Flicker (VAD [vhaw] AggDev 3): stopping with error 0	
+00:34.709.715	Default	audiomxd (105)	CoreAudio	Default	HALB_PowerAssertion.cpp:157  HALB_PowerAssertion::Release: releasing power assertion ID 32,775 of type 'PreventUserIdleSystemSleep' with name: 'com.apple.audio.VAD [vhaw] AggDev 3.context.preventuseridlesleep' taken at <private> for 0.2278 seconds	
+00:34.710.060	Debug	audiomxd (105)	com.apple.coreaudio	aqme	AQMEIO_HAL.cpp:3,469 aqmeio@0x4af3b4f00 IsRunning 0	
+00:34.710.390	Debug	audiomxd (105)	com.apple.coreaudio	AMCP	187,363 HALS_IOContext_Legacy_Impl.cpp:2,046 Completed HALS_IOContext_Legacy_Impl::IOWorkLoopDeinit	
+00:34.710.535	Default	audiomxd (105)	com.apple.coreaudio	va_vadevc	VirtualAudio_IONotificationManager.cpp:184 UpdateAndNotify() - need to notify I/O state = 1 new I/O running state = 0 previous I/O running state = 1	
+00:34.710.562	Default	audiomxd (105)	com.apple.coreaudio	va_vadevc	VirtualAudio_IONotificationManager.cpp:192 Sending notification "com.apple.coreaudio.IORunning" of I/O running state 0 forced notification = 0	
+00:34.711.035	Default	powerexperienced (125)	com.apple.powerexperienced	signalMonitor	Audio playback stopped. Dropping a resource hint	
+00:34.711.108	Default	powerexperienced (125)	com.apple.PowerExperienceFramework	ResourceConnection	ResourceConnection:updateResourceHint <private> with state 0	
+00:34.711.456	Default	powerexperienced (125)	com.apple.powerexperienced	resourcemanager	updating resource state for <private>:AudioPlayback from 1 to 0	
+00:34.711.567	Info	powerexperienced (125)	com.apple.powerexperienced	InUseChargingMode	evaluatePowerMode resources <private>	
+00:34.711.615	Default	powerexperienced (125)	com.apple.powerexperienced	RestrictedPerfMode	evaluatePowerMode: <private>: 0 display 1, carPlaySession 0, nFCSession 0, audioSession 0, sleepInProgress 0, wakeInProgress 0, onenessSession 0, siriAudio 0, pluggedIn 0 (allowOnCharger: 0)	
+00:34.711.702	Debug	powerexperienced (125)	com.apple.defaults	User Defaults	looked up value <private> for key resources in CFPrefsPlistSource<0xdbc044d80> (Domain: com.apple.powerexperienced.resourcemanager, User: kCFPreferencesCurrentUser, ByHost: No, Container: (null), Contents Need Refresh: No) via CFPrefsSearchListSource<0xdbc044b80> (Domain: com.apple.powerexperienced.resourcemanager, Container: (null))	
+00:34.711.735	Debug	powerexperienced (125)	com.apple.powerexperienced	resourcemanager	savedResourcesMutable <private>	
+00:34.711.973	Debug	powerexperienced (125)	com.apple.defaults	User Defaults	setting <private> in CFPrefsPlistSource<0xdbc044d80> (Domain: com.apple.powerexperienced.resourcemanager, User: kCFPreferencesCurrentUser, ByHost: No, Container: (null), Contents Need Refresh: No)	
+00:34.712.444	Debug	cfprefsd (107)	com.apple.defaults	cfprefsd	Process 125 (powerexperienced) sent a request related to { com.apple.powerexperienced.resourcemanager, user: root, kCFPreferencesAnyHost, /var/root/Library/Preferences/com.apple.powerexperienced.resourcemanager.plist, managed: 0 } (0xd3c1cf0c0)	
+00:34.712.636	Debug	cfprefsd (107)	com.apple.defaults	cfprefsd	Process 125 (powerexperienced) wrote the key(s) resources in { com.apple.powerexperienced.resourcemanager, root, kCFPreferencesAnyHost, /var/root/Library/Preferences/com.apple.powerexperienced.resourcemanager.plist, managed: 0 }	
+00:34.716.997	Debug	Photos (1680)	com.apple.photos.Neutrino	schedule	job 0x302530400 didRender 0.4283 s	
+00:34.717.011	Debug	Photos (1680)	com.apple.photos.Neutrino	schedule	respond job 0x302530400 NUVisionInstanceSegmentationRequest-117: success	
+00:34.717.076	Debug	Photos (1680)	com.apple.photos.Neutrino	schedule	job 0x302530400 NUVisionInstanceSegmentationRequest-117 totalDuration 0.4965 s	
+00:34.717.095	Debug	Photos (1680)	com.apple.photos.ui	PhotoEdit	Cleanup: Attempting intersection with Target Points; retrieved 1 instances	
+00:34.717.874	Debug	Photos (1680)	com.apple.photos.ui	PhotoEdit	Cleanup: mask instance 1 has size 1,024 x 768	
+00:34.718.144	Debug	Photos (1680)	com.apple.CFBundle	resources	Resource lookup at <private>
+	Request       : ci_stdlib type: metallib
+	Result        : file:///System/Library/Frameworks/CoreImage.framework/ci_stdlib.metallib
+	
+00:34.718.209	Debug	Photos (1680)	com.apple.CFBundle	resources	Resource lookup at <private>
+	Request       : ci_filters type: metallib
+	Result        : file:///System/Library/Frameworks/CoreImage.framework/ci_filters.metallib
+	
+00:34.718.386	Debug	Photos (1680)	com.apple.CFBundle	resources	Resource lookup at <private>
+	Request       : ci_stdlib_stitchable type: metallib
+	Result        : file:///System/Library/Frameworks/CoreImage.framework/ci_stdlib_stitchable.metallib
+	
+00:34.718.425	Debug	Photos (1680)	com.apple.CFBundle	resources	Resource lookup at <private>
+	Request       : ci_filters_stitchable type: metallib
+	Result        : file:///System/Library/Frameworks/CoreImage.framework/ci_filters_stitchable.metallib
+	
+00:34.718.604	Debug	Photos (1680)	com.apple.launchservices	binding	BindingEvaluator::CreateWithBundleInfo(ID=<private>, name=<private>, CC=????, vers=)	
+00:34.718.668	Debug	Photos (1680)	com.apple.launchservices	binding	Running evaluator 0x16c229a20	
+00:34.718.734	Debug	Photos (1680)	com.apple.launchservices	binding	Adding user preferences	
+00:34.718.795	Debug	Photos (1680)	com.apple.launchservices	binding	Skipping weak binding due to options	
+00:34.718.916	Debug	Photos (1680)	com.apple.launchservices	binding	0 bindings found	
+00:34.718.980	Debug	Photos (1680)	com.apple.launchservices	binding	Truncating a list of bindings to max 1 known-good ones.	
+00:34.719.038	Debug	Photos (1680)	com.apple.launchservices	binding	Adding and sorting bundles	
+00:34.719.171	Debug	Photos (1680)	com.apple.launchservices	binding	+++ photos.app (B:0x3dc, C:0x0) 	
+00:34.719.199	Debug	Photos (1680)	com.apple.launchservices	binding	+++ photos.app (B:0x4d0, C:0x0) 	
+00:34.719.213	Debug	Photos (1680)	com.apple.launchservices	binding	2 bindings found	
+00:34.719.309	Debug	Photos (1680)	com.apple.launchservices	binding	Truncating a list of bindings to max 1 known-good ones.	
+00:34.719.326	Debug	Photos (1680)	com.apple.launchservices	binding	+++ photos.app (B:0x4d0, C:0x0) 	
+00:34.719.341	Debug	Photos (1680)	com.apple.launchservices	binding	Best binding found for evaluator 6,109,175,088: <private> (B:0x4d0, C:0x0)	
+00:34.719.349	Debug	Photos (1680)	com.apple.launchservices	binding	BindingEvaluator::~BindingEvaluator(0x16c229a20)	
+00:34.719.372	Debug	Photos (1680)	com.apple.launchservices	binding	BindingEvaluator::~BindingEvaluator(0x16c229d30)	
+00:34.719.450	Info	Photos (1680)	com.apple.launchservices	extensions	Bundle record not found for current process 1,680	
+00:34.719.632	Debug	Photos (1680)	com.apple.CoreAnalytics.event	send	<private> <private>	
+00:34.720.013	Debug	analyticsd (110)	com.apple.analyticsd.critical	xform_cache	[Transform Cache] Cache performance for input event <private>: { transforms: 1, hit: 1, loaded: 0, inserted: 0}	
+00:34.723.006	Info	bluetoothd (94)	com.apple.bluetooth	Stack.LE	 Invalid Dual mode support indication in AD flags 0x00000000.	
+00:34.723.085	Info	bluetoothd (94)	com.apple.bluetooth	Server.LE.Scan	Setting mfgr data:<private> len:6 id:4c	
+00:34.723.182	Debug	bluetoothd (94)	com.apple.bluetooth	Server.LE.Scan	Found device "373EEABC-6CD5-0835-EEC1-8B41D3C5A68A Random E4:2C:22:32:54:89 RSSI:-89 with data:RSSI: 0 dB (non-saturated), MFR Data: 4C 00 12 02 37 02[AppleTypesBitmap:0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001000000000000000000], connectable, sourceCore: MainCore, IsELNAOn: 0, IsPassup: 0, IsFromSCCompensation0, IsCoexDenied0, 	
+00:34.723.217	Debug	bluetoothd (94)	com.apple.bluetooth	Server.LE.Scan	Show dup for given rule with puck type 0x12	
+00:34.723.230	Info	bluetoothd (94)	com.apple.bluetooth	Server.LE.Scan	Device "373EEABC-6CD5-0835-EEC1-8B41D3C5A68A" matched MFG data	
+00:34.723.246	Debug	bluetoothd (94)	com.apple.bluetooth	Server.LE.Scan	doesDeviceMatch: fAdvDataMap size:145 fMaxNumOfReportsInMap:200 fAdvDataMap size:145 Puck?:1 roomInMap:1	
+00:34.723.289	Debug	bluetoothd (94)	com.apple.bluetooth	Server.XPC	createXpcAdvData sending data:<private> length:6 originalLength:6 lenError:0	
+00:34.723.314	Debug	bluetoothd (94)	com.apple.bluetooth	Server.App	moreAvailable=0, isFromADVBuffer=0	
+00:34.723.463	Debug	bluetoothd (94)	com.apple.bluetooth	Server.LE.Scan	Show dup for given rule with puck type 0x12	
+00:34.723.480	Info	bluetoothd (94)	com.apple.bluetooth	Server.LE.Scan	Device "373EEABC-6CD5-0835-EEC1-8B41D3C5A68A" matched MFG data	
+00:34.723.503	Debug	bluetoothd (94)	com.apple.bluetooth	Server.LE.Scan	doesDeviceMatch: fAdvDataMap size:145 fMaxNumOfReportsInMap:200 fAdvDataMap size:145 Puck?:1 roomInMap:1	
+00:34.723.525	Debug	bluetoothd (94)	com.apple.bluetooth	Server.XPC	createXpcAdvData sending data:<private> length:6 originalLength:6 lenError:0	
+00:34.723.569	Debug	bluetoothd (94)	com.apple.bluetooth	Server.App	moreAvailable=0, isFromADVBuffer=0	
+00:34.723.615	Debug	locationd (74)	com.apple.locationd.Core	AvengerScanner	{"msg":"didDiscoverPeripheral", "ClientId":CLDurianService, "peripheral":<private>, "advertisementData":<private>}	
+00:34.723.662	Debug	backboardd (68)	com.apple.BackBoard	MotionEvents	Motion event usagePage:0xff0c usage:1 	
+00:34.723.664	Debug	Photos (1680)	com.apple.CFBundle	resources	Resource lookup at <private>
+	Request       : ci_stdlib type: metallib
+	Result        : file:///System/Library/Frameworks/CoreImage.framework/ci_stdlib.metallib
+	
+00:34.723.682	Debug	locationd (74)	com.apple.locationd.Core	Harvester	{"msg":"#CLAvengerReconciler advertisement reconciled: ", "ownerUUID":<private>, "nonownerUUID":<private>, "address":<private>, "uuidMap":<private>}	
+00:34.723.692	Debug	bluetoothd (94)	com.apple.bluetooth	Server.LE.Scan	Show dup for given rule with puck type 0x12	
+00:34.723.697	Debug	Photos (1680)	com.apple.CFBundle	resources	Resource lookup at <private>
+	Request       : ci_filters type: metallib
+	Result        : file:///System/Library/Frameworks/CoreImage.framework/ci_filters.metallib
+	
+00:34.723.720	Debug	locationd (74)	com.apple.locationd.Core	Harvester	{"msg":"#CLAvengerReconciler: creating CLAvengerScannerReconciledInformation", "reconciledInformation.description":<private>}	
+00:34.723.765	Info	locationd (74)	com.apple.locationd.Motion	AOP	{"msg":"received AOP log", "log":72 Bytes}	
+00:34.723.771	Debug	Photos (1680)	com.apple.CFBundle	resources	Resource lookup at <private>
+	Request       : ci_stdlib_stitchable type: metallib
+	Result        : file:///System/Library/Frameworks/CoreImage.framework/ci_stdlib_stitchable.metallib
+	
+00:34.723.788	Info	bluetoothd (94)	com.apple.bluetooth	Server.LE.Scan	Device "373EEABC-6CD5-0835-EEC1-8B41D3C5A68A" matched MFG data	
+00:34.723.800	Debug	Photos (1680)	com.apple.CFBundle	resources	Resource lookup at <private>
+	Request       : ci_filters_stitchable type: metallib
+	Result        : file:///System/Library/Frameworks/CoreImage.framework/ci_filters_stitchable.metallib
+	
+00:34.723.810	Debug	locationd (74)	com.apple.locationd.Core	AvengerScanner	{"msg":"didDiscoverPeripheral", "ClientId":CLSubHarvesterAvenger, "peripheral":<private>, "advertisementData":<private>}	
+00:34.723.824	Default	locationd (74)	com.apple.locationd.Position	Proximity	{"msg":"#durian onAvengerAdvertisement", "address":<private>, "date":Mon Nov 18 11:54:49 2024, "data":<private>, "status":<private>, "needsmaint":<private>, "isWild":<private>, "uuid":<private>}	
+00:34.723.832	Debug	locationd (74)	com.apple.locationd.Core	Harvester	{"msg":"#CLAvengerReconciler advertisement reconciled: ", "ownerUUID":<private>, "nonownerUUID":<private>, "address":<private>, "uuidMap":<private>}	
+00:34.723.853	Debug	locationd (74)	com.apple.locationd.Core	Harvester	{"msg":"#CLAvengerReconciler: creating CLAvengerScannerReconciledInformation", "reconciledInformation.description":<private>}	
+00:34.723.858	Debug	Photos (1680)	com.apple.launchservices	binding	BindingEvaluator::CreateWithBundleInfo(ID=<private>, name=<private>, CC=????, vers=)	
+00:34.723.899	Debug	bluetoothd (94)	com.apple.bluetooth	Server.LE.Scan	doesDeviceMatch: fAdvDataMap size:145 fMaxNumOfReportsInMap:200 fAdvDataMap size:145 Puck?:1 roomInMap:1	
+00:34.723.942	Debug	Photos (1680)	com.apple.launchservices	binding	Running evaluator 0x16c459a20	
+00:34.723.959	Default	locationd (74)	com.apple.locationd.Core	Harvester	{"msg":"onAvengerAdvertisementDetected: got avenger advertisement", "subHarvester":11}	
+00:34.723.981	Debug	bluetoothd (94)	com.apple.bluetooth	Server.XPC	createXpcAdvData sending data:<private> length:6 originalLength:6 lenError:0	
+00:34.724.043	Default	locationd (74)	com.apple.locationd.Core	Harvester	{"msg":"convertToSPAdvertisement", "address":<private>, "data":<private>, "date":<private>, "rssi":<private>, "status":<private>, "reserved":<private>, "subHarvester":11}	
+00:34.724.066	Debug	bluetoothd (94)	com.apple.bluetooth	Server.App	moreAvailable=0, isFromADVBuffer=0	
+00:34.724.075	Debug	Photos (1680)	com.apple.launchservices	binding	Adding user preferences	
+00:34.724.107	Default	locationd (74)	com.apple.locationd.Core	Harvester	{"msg":"onAvengerAdvertisementDetected: advertisement is near-owner from other people and do not process it", "subHarvester":11}	
+00:34.724.110	Default	Unknown (0)	AppleT8140	Default	AppleH17PPlatformErrorHandler::_dcsWritePTD: 112109103114 3 offset f00 @ <private>[0x3003d0f00] <- 6
+
+	
+00:34.724.126	Default	Unknown (0)	AppleT8140	Default	AppleH17PPlatformErrorHandler::_dcsHandleDCSOdtsEvent: _dcsOdtsBelowThresholdCount = 63
+
+	
+00:34.724.128	Default	Unknown (0)	AppleT8140	Default	AppleH17PPlatformErrorHandler::_dcsHandleDCSOdtsEvent: start next polling
+
+	
+00:34.724.216	Debug	Photos (1680)	com.apple.launchservices	binding	Skipping weak binding due to options	
+00:34.724.226	Debug	bluetoothd (94)	com.apple.bluetooth	Server.LE.Scan	No match found for device "373EEABC-6CD5-0835-EEC1-8B41D3C5A68A"	
+00:34.724.278	Debug	bluetoothd (94)	com.apple.bluetooth	Server.LE.Scan	Show dup for given rule with puck type 0x12	
+00:34.724.291	Debug	locationd (74)	com.apple.locationd.Core	AvengerScanner	{"msg":"didDiscoverPeripheral", "ClientId":CLTrackingAvoidanceService, "peripheral":<private>, "advertisementData":<private>}	
+00:34.724.323	Debug	Photos (1680)	com.apple.launchservices	binding	0 bindings found	
+00:34.724.335	Info	bluetoothd (94)	com.apple.bluetooth	Server.LE.Scan	Device "373EEABC-6CD5-0835-EEC1-8B41D3C5A68A" matched MFG data	
+00:34.724.365	Debug	locationd (74)	com.apple.locationd.Core	Harvester	{"msg":"#CLAvengerReconciler advertisement reconciled: ", "ownerUUID":<private>, "nonownerUUID":<private>, "address":<private>, "uuidMap":<private>}	
+00:34.724.385	Debug	bluetoothd (94)	com.apple.bluetooth	Server.LE.Scan	doesDeviceMatch: fAdvDataMap size:96 fMaxNumOfReportsInMap:200 fAdvDataMap size:96 Puck?:1 roomInMap:1	
+00:34.724.411	Debug	Photos (1680)	com.apple.launchservices	binding	Truncating a list of bindings to max 1 known-good ones.	
+00:34.724.439	Debug	locationd (74)	com.apple.locationd.Core	Harvester	{"msg":"#CLAvengerReconciler: creating CLAvengerScannerReconciledInformation", "reconciledInformation.description":<private>}	
+00:34.724.464	Debug	bluetoothd (94)	com.apple.bluetooth	Server.XPC	createXpcAdvData sending data:<private> length:6 originalLength:6 lenError:0	
+00:34.724.509	Debug	bluetoothd (94)	com.apple.bluetooth	Server.App	moreAvailable=0, isFromADVBuffer=0	
+00:34.724.540	Debug	Photos (1680)	com.apple.launchservices	binding	Adding and sorting bundles	
+00:34.724.561	Debug	locationd (74)	com.apple.locationd.Position	TrackingAvoidance	#ut received advertisement	
+00:34.724.621	Debug	bluetoothd (94)	com.apple.bluetooth	Server.LE.Scan	No match found for device "373EEABC-6CD5-0835-EEC1-8B41D3C5A68A"	
+00:34.724.637	Debug	bluetoothd (94)	com.apple.bluetooth	Server.LE.Scan	Agents: com.apple.locationd-central-74-54 hashedUUIDs=0 Nbmatchrules=1 ServiceUUID=2 | com.apple.locationd-central-74-62 hashedUUIDs=0 Nbmatchrules=1 ServiceUUID=2 | com.apple.locationd-central-74-69 hashedUUIDs=0 Nbmatchrules=1 ServiceUUID=2 | com.apple.locationd-central-74-124 hashedUUIDs=0 Nbmatchrules=1 ServiceUUID=2 | 	
+00:34.724.642	Debug	Photos (1680)	com.apple.launchservices	binding	+++ photos.app (B:0x3dc, C:0x0) 	
+00:34.724.735	Debug	locationd (74)	com.apple.locationd.Position	GeneralCLX	TaMetricEvent, onAvengerAdvertisement, id, <private>, <private>, <private>, 3	
+00:34.724.816	Debug	locationd (74)	com.apple.locationd.Core	AvengerScanner	{"msg":"didDiscoverPeripheral", "ClientId":CLAvengerObservationReporterService, "peripheral":<private>, "advertisementData":<private>}	
+00:34.725.090	Debug	bluetoothd (94)	com.apple.CFBundle	strings	Bundle: <private>, key: bt_type_generic, value: , table: CBLocalizable, localizationNames: , result: Bluetooth Device	
+00:34.725.133	Default	locationd (74)	com.apple.tracking-avoidance	Events	<private>	
+00:34.725.135	Debug	Photos (1680)	com.apple.launchservices	binding	+++ photos.app (B:0x4d0, C:0x0) 	
+00:34.725.225	Debug	locationd (74)	com.apple.locationd.Core	Harvester	{"msg":"#CLAvengerReconciler advertisement reconciled: ", "ownerUUID":<private>, "nonownerUUID":<private>, "address":<private>, "uuidMap":<private>}	
+00:34.725.311	Debug	Photos (1680)	com.apple.launchservices	binding	2 bindings found	
+00:34.725.364	Debug	locationd (74)	com.apple.locationd.Core	Harvester	{"msg":"#CLAvengerReconciler: creating CLAvengerScannerReconciledInformation", "reconciledInformation.description":<private>}	
+00:34.725.430	Debug	locationd (74)	com.apple.tracking-avoidance	Status	#TAStore not adding TASPAdvertisement due to owner advertisement type:<private>	
+00:34.725.452	Debug	Photos (1680)	com.apple.launchservices	binding	Truncating a list of bindings to max 1 known-good ones.	
+00:34.725.547	Debug	Photos (1680)	com.apple.launchservices	binding	+++ photos.app (B:0x4d0, C:0x0) 	
+00:34.725.613	Debug	Photos (1680)	com.apple.launchservices	binding	Best binding found for evaluator 6,111,468,848: <private> (B:0x4d0, C:0x0)	
+00:34.725.720	Debug	Photos (1680)	com.apple.launchservices	binding	BindingEvaluator::~BindingEvaluator(0x16c459a20)	
+00:34.725.779	Debug	Photos (1680)	com.apple.launchservices	binding	BindingEvaluator::~BindingEvaluator(0x16c459d30)	
+00:34.725.879	Info	Photos (1680)	com.apple.launchservices	extensions	Bundle record not found for current process 1,680	
+00:34.726.470	Debug	Photos (1680)	com.apple.CoreAnalytics.event	send	<private> <private>	
+00:34.726.841	Debug	analyticsd (110)	com.apple.analyticsd.critical	xform_cache	[Transform Cache] Cache performance for input event <private>: { transforms: 1, hit: 1, loaded: 0, inserted: 0}	
+00:34.727.570	Debug	DTServiceHub (360)	DVTInstrumentsFoundation	Default	Data Size: 100,790, Rows Sent: 1,242, Stack depth: 3,617	
+00:34.730.400	Debug	Photos (1680)	com.apple.CFBundle	resources	Resource lookup at <private>
+	Request       : ci_stdlib type: metallib
+	Result        : file:///System/Library/Frameworks/CoreImage.framework/ci_stdlib.metallib
+	
+00:34.730.431	Debug	Photos (1680)	com.apple.CFBundle	resources	Resource lookup at <private>
+	Request       : ci_filters type: metallib
+	Result        : file:///System/Library/Frameworks/CoreImage.framework/ci_filters.metallib
+	
+00:34.730.502	Debug	Photos (1680)	com.apple.CFBundle	resources	Resource lookup at <private>
+	Request       : ci_stdlib_stitchable type: metallib
+	Result        : file:///System/Library/Frameworks/CoreImage.framework/ci_stdlib_stitchable.metallib
+	
+00:34.730.531	Debug	Photos (1680)	com.apple.CFBundle	resources	Resource lookup at <private>
+	Request       : ci_filters_stitchable type: metallib
+	Result        : file:///System/Library/Frameworks/CoreImage.framework/ci_filters_stitchable.metallib
+	
+00:34.730.623	Debug	Photos (1680)	com.apple.launchservices	binding	BindingEvaluator::CreateWithBundleInfo(ID=<private>, name=<private>, CC=????, vers=)	
+00:34.730.720	Debug	Photos (1680)	com.apple.launchservices	binding	Running evaluator 0x16c7a1a20	
+00:34.730.775	Debug	Photos (1680)	com.apple.launchservices	binding	Adding user preferences	
+00:34.730.832	Debug	Photos (1680)	com.apple.launchservices	binding	Skipping weak binding due to options	
+00:34.730.892	Debug	Photos (1680)	com.apple.launchservices	binding	0 bindings found	
+00:34.730.950	Debug	Photos (1680)	com.apple.launchservices	binding	Truncating a list of bindings to max 1 known-good ones.	
+00:34.731.017	Debug	Photos (1680)	com.apple.launchservices	binding	Adding and sorting bundles	
+00:34.731.087	Debug	Photos (1680)	com.apple.launchservices	binding	+++ photos.app (B:0x3dc, C:0x0) 	
+00:34.731.139	Debug	Photos (1680)	com.apple.launchservices	binding	+++ photos.app (B:0x4d0, C:0x0) 	
+00:34.731.205	Debug	Photos (1680)	com.apple.launchservices	binding	2 bindings found	
+00:34.731.413	Debug	Photos (1680)	com.apple.launchservices	binding	Truncating a list of bindings to max 1 known-good ones.	
+00:34.731.468	Debug	Photos (1680)	com.apple.launchservices	binding	+++ photos.app (B:0x4d0, C:0x0) 	
+00:34.731.535	Debug	Photos (1680)	com.apple.launchservices	binding	Best binding found for evaluator 6,114,909,488: <private> (B:0x4d0, C:0x0)	
+00:34.731.581	Debug	Photos (1680)	com.apple.launchservices	binding	BindingEvaluator::~BindingEvaluator(0x16c7a1a20)	
+00:34.731.623	Debug	Photos (1680)	com.apple.launchservices	binding	BindingEvaluator::~BindingEvaluator(0x16c7a1d30)	
+00:34.731.659	Info	Photos (1680)	com.apple.launchservices	extensions	Bundle record not found for current process 1,680	
+00:34.731.785	Debug	Photos (1680)	com.apple.CoreAnalytics.event	send	<private> <private>	
+00:34.732.374	Debug	SpringBoard (34)	com.apple.locationd.Motion	Motion	Ping timer fired, resetting watchdog	
+00:34.732.754	Debug	analyticsd (110)	com.apple.analyticsd.critical	xform_cache	[Transform Cache] Cache performance for input event <private>: { transforms: 1, hit: 1, loaded: 0, inserted: 0}	
+00:34.733.914	Debug	Photos (1680)	com.apple.photos.ui	PhotoEdit	Cleanup: Stroke intersecting: 86%% / Segment 1 intersecting: 81%%	
+00:34.733.944	Debug	Photos (1680)	com.apple.defaults	User Defaults	looked up value <private> for key PE_SETTINGS_RETOUCHTARGETPOINTCOVERAGETHRESHOLD in CFPrefsPlistSource<0x303785300> (Domain: com.apple.mobileslideshow, User: kCFPreferencesCurrentUser, ByHost: No, Container: (null), Contents Need Refresh: No) via CFPrefsSearchListSource<0x30355b680> (Domain: com.apple.mobileslideshow, Container: (null))	
+00:34.733.969	Debug	Photos (1680)	com.apple.photos.ui	PhotoEdit	Cleanup: coverage threshold: 0.4000 - maskPercentInsideBrush: 0.8149	
+00:34.734.009	Debug	Photos (1680)	com.apple.defaults	User Defaults	looked up value <private> for key PE_SETTINGS_RETOUCHSTROKEINTERSECTIONPERCENTAGE in CFPrefsPlistSource<0x303785300> (Domain: com.apple.mobileslideshow, User: kCFPreferencesCurrentUser, ByHost: No, Container: (null), Contents Need Refresh: No) via CFPrefsSearchListSource<0x30355b680> (Domain: com.apple.mobileslideshow, Container: (null))	
+00:34.734.016	Default	Photos (1680)	com.apple.photos.ui	PhotoEdit	Cleanup: Successfully chose 1 segments (<private>)	
+00:34.734.025	Default	Photos (1680)	com.apple.photos.ui	PhotoEdit	Cleanup: 86.0602%% of stroke was over mask segments. Stroke was a closed shape? No	
+00:34.734.061	Default	Photos (1680)	com.apple.photos.ui	PhotoEdit	No more reasons for showing progress	
+00:34.734.073	Default	Photos (1680)	com.apple.photos.ui	PhotoEdit	Will hide progress indicator.	
+00:34.734.147	Default	Photos (1680)	com.apple.photos.ui	PhotoEdit	Re-enabling user interaction for photo edit progress indicator.	
+00:34.734.398	Default	Photos (1680)	com.apple.UIKit	Orientation	<UIWindowScene: 0x10422c680> (EC1FDF2C-716B-4BA1-8DD8-2B9E404E46C1) Scene updated orientation preferences: ( Pu ) -> ( Pu Ll Lr )	
+00:34.734.609	Debug	Photos (1680)	com.apple.photos.Neutrino	schedule	job 0x3026a8ff0 PLPhotoEditRenderer-geometry prepare	
+00:34.734.762	Debug	Photos (1680)	com.apple.photos.Neutrino	render	FlexRange metadata: <private>	
+00:34.734.846	Debug	Photos (1680)	com.apple.photos.Neutrino	render	FlexRange properties: <private>	
+00:34.734.870	Debug	Photos (1680)	com.apple.defaults	User Defaults	found no value for key PI_SEMANTIC_STYLE_DISABLE_STYLE_ENGINE in CFPrefsSearchListSource<0x30355b680> (Domain: com.apple.mobileslideshow, Container: (null))	
+00:34.734.976	Debug	Photos (1680)	com.apple.defaults	User Defaults	found no value for key PI_DEBUG_USE_STYLE_ENGINE in CFPrefsSearchListSource<0x30355b680> (Domain: com.apple.mobileslideshow, Container: (null))	
+00:34.735.003	Debug	Photos (1680)	com.apple.photos.Neutrino	schedule	Prepare node:
+<private>	
+00:34.735.168	Debug	Photos (1680)	com.apple.photos.Neutrino	schedule	Render scale: 1:1	
+00:34.735.181	Debug	Photos (1680)	com.apple.photos.Neutrino	schedule	Output geometry: <private>	
+00:34.735.195	Debug	Photos (1680)	com.apple.photos.Neutrino	schedule	job 0x3026a8ff0 didPrepare 0.0006 s	
+00:34.735.215	Debug	Photos (1680)	com.apple.photos.Neutrino	schedule	respond job 0x3026a8ff0 PLPhotoEditRenderer-geometry: success	
+00:34.735.224	Debug	Photos (1680)	com.apple.photos.Neutrino	schedule	job 0x3026a8ff0 PLPhotoEditRenderer-geometry totalDuration 0.0006 s	
+00:34.735.254	Debug	Photos (1680)	com.apple.defaults	User Defaults	found no value for key PI_INPAINT_MAX_AREA_PERCENTAGE in CFPrefsSearchListSource<0x30355b680> (Domain: com.apple.mobileslideshow, Container: (null))	
+00:34.735.733	Debug	backboardd (68)	com.apple.CoreBrightness.ColourSensorFilterPlugin	default	Color: X=143.8951(45.8032) Y=137.2471(43.6871) Z=54.5405(17.3608) 
+	
+00:34.735.855	Default	backboardd (68)	com.apple.CoreBrightness.ColourSensorFilterPlugin	default	[ALS] ts=48,704.1771 lux=153.6267<private> xy=(0.4287 0.4089) chs=[929.0000 2,436.0000 6,087.0000 8,775.0000 9,260.0000] CCT1=3,342.7527 gain=512x mode=<private> subsamples=24 rawLux=159.8619 nits=1,083 xTalk=[9 18 34 46 61] status=0xb copyEvent=0	
+00:34.736.090	Debug	Photos (1680)	com.apple.photos.Neutrino	schedule	job 0x3026a8ff0 PLPhotoEditRenderer-geometry prepare	
+00:34.736.213	Debug	backboardd (68)	com.apple.CoreBrightness.CBColorModule.Primary	default	key=ALSIntegrationMode result=	
+00:34.736.229	Debug	Photos (1680)	com.apple.photos.Neutrino	render	FlexRange metadata: <private>	
+00:34.736.262	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[4]: 	
+00:34.736.279	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[2]: ALSIntegrationMode	
+00:34.736.288	Debug	Photos (1680)	com.apple.photos.Neutrino	render	FlexRange properties: <private>	
+00:34.736.305	Debug	Photos (1680)	com.apple.defaults	User Defaults	found no value for key PI_SEMANTIC_STYLE_DISABLE_STYLE_ENGINE in CFPrefsSearchListSource<0x30355b680> (Domain: com.apple.mobileslideshow, Container: (null))	
+00:34.736.311	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[2]: ALSIntegrationMode result=3	
+00:34.736.328	Debug	backboardd (68)	com.apple.CoreBrightness.CBABModuleiOS	default	key=ALSIntegrationMode result=3	
+00:34.736.343	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayContaineriOS	BuiltIn	key=ALSIntegrationMode result=3	
+00:34.736.365	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[4]: _plugInEnabled=1	
+00:34.736.401	Debug	Photos (1680)	com.apple.defaults	User Defaults	found no value for key PI_DEBUG_USE_STYLE_ENGINE in CFPrefsSearchListSource<0x30355b680> (Domain: com.apple.mobileslideshow, Container: (null))	
+00:34.736.420	Debug	Photos (1680)	com.apple.photos.Neutrino	schedule	Prepare node:
+<private>	
+00:34.736.568	Debug	Photos (1680)	com.apple.photos.Neutrino	schedule	Render scale: 1:1	
+00:34.736.578	Debug	Photos (1680)	com.apple.photos.Neutrino	schedule	Output geometry: <private>	
+00:34.736.654	Debug	locationd (74)	com.apple.locationd.Position	Position	AmbientLight,DecisionTree,x,161.0681,y,153.6267,z,61.0496,out,3	
+00:34.736.683	Debug	Photos (1680)	com.apple.photos.Neutrino	schedule	job 0x3026a8ff0 didPrepare 0.0013 s	
+00:34.736.725	Debug	Photos (1680)	com.apple.photos.Neutrino	schedule	respond job 0x3026a8ff0 PLPhotoEditRenderer-geometry: success	
+00:34.736.802	Debug	Photos (1680)	com.apple.photos.Neutrino	schedule	job 0x3026a8ff0 PLPhotoEditRenderer-geometry totalDuration 0.0014 s	
+00:34.736.903	Debug	Photos (1680)	com.apple.photos.Neutrino	schedule	job 0x3026ac000 NUGeometryRequest-123 prepare	
+00:34.736.976	Debug	Photos (1680)	com.apple.photos.Neutrino	render	FlexRange metadata: <private>	
+00:34.737.020	Debug	Photos (1680)	com.apple.photos.Neutrino	render	FlexRange properties: <private>	
+00:34.737.035	Debug	Photos (1680)	com.apple.defaults	User Defaults	found no value for key PI_SEMANTIC_STYLE_DISABLE_STYLE_ENGINE in CFPrefsSearchListSource<0x30355b680> (Domain: com.apple.mobileslideshow, Container: (null))	
+00:34.737.118	Debug	Photos (1680)	com.apple.defaults	User Defaults	found no value for key PI_DEBUG_USE_STYLE_ENGINE in CFPrefsSearchListSource<0x30355b680> (Domain: com.apple.mobileslideshow, Container: (null))	
+00:34.737.129	Debug	Photos (1680)	com.apple.photos.Neutrino	schedule	Prepare node:
+<private>	
+00:34.737.229	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[4]: 0xdb4ccd900 0xdb61f8000	
+00:34.737.269	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[10]: 153.6267 	
+00:34.737.271	Debug	Photos (1680)	com.apple.photos.Neutrino	schedule	Render scale: 1,024:5,712	
+00:34.737.285	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[10]: als->_Esensor_device=153.6267	
+00:34.737.285	Debug	Photos (1680)	com.apple.photos.Neutrino	schedule	Output geometry: <private>	
+00:34.737.301	Debug	Photos (1680)	com.apple.photos.Neutrino	schedule	job 0x3026ac000 didPrepare 0.0004 s	
+00:34.737.307	Debug	Photos (1680)	com.apple.photos.Neutrino	schedule	respond job 0x3026ac000 NUGeometryRequest-123: success	
+00:34.737.311	Debug	backboardd (68)	com.apple.CoreBrightness.CBALSEvent	default	Tristimulus values: XYZ[0]=51.2696, XYZ[1]=48.9009, XYZ[2]=19.4327 | CCT1=3,342.7527	
+00:34.737.314	Debug	Photos (1680)	com.apple.photos.Neutrino	schedule	job 0x3026ac000 NUGeometryRequest-123 totalDuration 0.0004 s	
+00:34.737.331	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[2]: _luxFilter=3 als->_Ehistory_max=8	
+00:34.737.351	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[10]: Median filter computed on 8 samples	
+00:34.737.365	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	Median filter computed on 8 samples	
+00:34.737.370	Debug	Photos (1680)	com.apple.photos.Neutrino	schedule	job 0x3026ac000 NUGeometryRequest-125 prepare	
+00:34.737.381	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[10]: ts=48,704.1758 Esensor=154.1099 Emedian=159.5280	
+00:34.737.413	Info	backboardd (68)	com.apple.CoreBrightness.AABRear.CBRearALSModule	default	Copy Grimaldi Lux = 49.82442	
+00:34.737.429	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	E 159.5280, Ecapped 159.5280, EmaxCap -1.0000 => finalE 159.5280	
+00:34.737.481	Debug	backboardd (68)	com.apple.CoreBrightness.AABRear	default	AABRear: shouldUseRearLuxFrontLux called with (fLux:159.5280, rLux:49.8244, cap: 1,872.5781)	
+00:34.737.517	Debug	backboardd (68)	com.apple.CoreBrightness.AABRear	default	AABRear: using rear? 0	
+00:34.737.521	Debug	Photos (1680)	com.apple.photos.Neutrino	render	FlexRange metadata: <private>	
+00:34.737.565	Debug	Photos (1680)	com.apple.photos.Neutrino	render	FlexRange properties: <private>	
+00:34.737.602	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	E 159.5280, Ecapped 159.5280, EmaxCap -1.0000 => finalE 159.5280	
+00:34.737.609	Debug	Photos (1680)	com.apple.defaults	User Defaults	found no value for key PI_SEMANTIC_STYLE_DISABLE_STYLE_ENGINE in CFPrefsSearchListSource<0x30355b680> (Domain: com.apple.mobileslideshow, Container: (null))	
+00:34.737.684	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayContaineriOS	BuiltIn	Notification block key=RLuxStats, value=<private>
+	
+00:34.737.724	Debug	Photos (1680)	com.apple.defaults	User Defaults	found no value for key PI_DEBUG_USE_STYLE_ENGINE in CFPrefsSearchListSource<0x30355b680> (Domain: com.apple.mobileslideshow, Container: (null))	
+00:34.737.766	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	Handle notification for key = RLuxStats and property = <private>	
+00:34.737.842	Debug	Photos (1680)	com.apple.photos.Neutrino	schedule	Prepare node:
+<private>	
+00:34.737.905	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[10]: _Esensor_filtered=159.5280 _Esensor_trusted=159.5280 _Esensor_aggregated=159.5280	
+00:34.737.990	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[10]: _Esensor_trusted=159.5280 _state=kAABStateAutoBrightness _proxState=kProxNone _touchIsObstucted=0 _settings._internal._dimPolicy=kDimPolicyFullDimming 3 _orientation=kIOHIDDisplayOrientationTypeAmbiguous	
+00:34.738.007	Debug	Photos (1680)	com.apple.photos.Neutrino	schedule	Render scale: 768:4,284	
+00:34.738.079	Debug	locationd (74)	com.apple.locationd.Position	Position	AmbientLightDecisionTreeOutput,3	
+00:34.738.080	Debug	Photos (1680)	com.apple.photos.Neutrino	schedule	Output geometry: <private>	
+00:34.738.117	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	E 159.5280, Ecapped 159.5280, EmaxCap -1.0000 => finalE 159.5280	
+00:34.738.178	Debug	Photos (1680)	com.apple.photos.Neutrino	schedule	job 0x3026ac000 didPrepare 0.0008 s	
+00:34.738.250	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[1/1] Esensor_device: 153.6267 als->_Esensor_filtered: 159.5280 _Esensor_trusted: 159.5280  L: 191.9677 L_reflected: 1.0156	
+00:34.738.336	Debug	Photos (1680)	com.apple.photos.Neutrino	schedule	respond job 0x3026ac000 NUGeometryRequest-125: success	
+00:34.738.366	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[10]: dimRestriction=kDimRestrictionUnrestricted	
+00:34.738.395	Debug	Photos (1680)	com.apple.photos.Neutrino	schedule	job 0x3026ac000 NUGeometryRequest-125 totalDuration 0.0010 s	
+00:34.738.709	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	Set capped lux to IOMFB 159.5280 (158.9291)	
+00:34.739.645	Debug	Photos (1680)	com.apple.CFBundle	strings	Lazy cache miss for bundle: <private> key: <private> table: Filters	
+00:34.739.706	Debug	Photos (1680)	com.apple.CFBundle	strings	Bundle: <private>, key: CIColorInvert, value: , table: Filters, localizationNames: , result: Color Invert	
+00:34.739.787	Debug	Photos (1680)	com.apple.CFBundle	strings	Bundle: <private>, key: inputImage, value: Image, table: Keys, localizationNames: , result: Image	
+00:34.739.820	Debug	Photos (1680)	com.apple.CFBundle	strings	Bundle: <private>, key: inputImage, value: <none>, table: Descriptions, localizationNames: , result: The image to use as an input for the effect.	
+00:34.739.869	Debug	Photos (1680)	com.apple.CFBundle	strings	Lazy cache miss for bundle: <private> key: <private> table: Descriptions	
+00:34.739.908	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[4]: 	
+00:34.739.937	Debug	Photos (1680)	com.apple.CFBundle	strings	Bundle: <private>, key: CIColorInvert.inputImage, value: The image to use as an input for the effect., table: Descriptions, localizationNames: , result: The image to use as an input for the effect.	
+00:34.740.000	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[200]: inputs: L=191.9677 (shouldRamp=true dimRestriction=kDimRestrictionUnrestricted _Esensor_trusted=159.5280) curveChanged=0	
+00:34.740.072	Default	Photos (1680)	com.apple.photos.ui	PhotoEdit	Showing progress for the reasons: <private>	
+00:34.740.194	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[200]: _fastRampMode=0 dimRestriction=kDimRestrictionUnrestricted L_newtarget=191.9677 _L_current=76.2887 _L_minimum=191.8134	
+00:34.740.255	Default	Photos (1680)	com.apple.photos.ui	PhotoEdit	Will show progress indicator.	
+00:34.740.680	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	PLT	shallUpdateBacklight: Pstart=0.7645 Pcurrent=0.7645 Pnewtarget=0.7547 Pdelta=-0.0098 Pthreshold_dim=0.0500 (0.1000 * 0.5000) Pthreshold_brighten=0.1000 (0.1000 * 1.0000) plt_x=0.2500 plt_y=0.3700 plt_z=0.1000	
+00:34.740.763	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[200]: _L_target=205.5501 Pnewtarget=0.7547 Ptarget=0.7645 Pdelta=-0.0098  	
+00:34.740.823	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[200]: systemShallUpdateBacklight=false L_target=191.9677 timeConstant=0.0000	
+00:34.740.936	Debug	Photos (1680)	com.apple.CFBundle	strings	Bundle: <private>, key: PHOTOEDIT_PROGRESS_CLEANUP_RENDERING, value: , table: PhotosUI, localizationNames: , result: PHOTOEDIT_PROGRESS_CLEANUP_RENDERING	
+00:34.740.975	Debug	Photos (1680)	com.apple.CFBundle	strings	Bundle: <private>, key: PHOTOEDIT_PROGRESS_CLEANUP_RENDERING, value: , table: PhotosUI-Edit, localizationNames: , result: PHOTOEDIT_PROGRESS_CLEANUP_RENDERING	
+00:34.741.019	Debug	Photos (1680)	com.apple.CFBundle	strings	Bundle: <private>, key: PHOTOEDIT_PROGRESS_CLEANUP_RENDERING, value: , table: PhotosUI-CTM, localizationNames: , result: PHOTOEDIT_PROGRESS_CLEANUP_RENDERING	
+00:34.741.033	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=RLuxStats value=<private>	
+00:34.741.056	Debug	Photos (1680)	com.apple.CFBundle	strings	Bundle: <private>, key: PHOTOEDIT_PROGRESS_CLEANUP_RENDERING, value: , table: PhotosUI-Styles, localizationNames: , result: PHOTOEDIT_PROGRESS_CLEANUP_RENDERING	
+00:34.741.132	Debug	Photos (1680)	com.apple.CFBundle	strings	Bundle: <private>, key: PHOTOEDIT_PROGRESS_CLEANUP_RENDERING, value: , table: PhotosUI-4K120, localizationNames: , result: PHOTOEDIT_PROGRESS_CLEANUP_RENDERING	
+00:34.741.189	Debug	Photos (1680)	com.apple.CFBundle	strings	Bundle: <private>, key: PHOTOEDIT_PROGRESS_CLEANUP_RENDERING, value: , table: PhotosUI-Cleanup, localizationNames: , result: Cleaning up	
+00:34.741.225	Default	Photos (1680)	com.apple.photos.ui	PhotoEdit	Progress indicator message: Cleaning up	
+00:34.741.278	Default	Photos (1680)	com.apple.photos.ui	PhotoEdit	Disabling user interaction for photo edit progress indicator for reason: 17	
+00:34.741.422	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=RLuxStats property=<private>	
+00:34.741.464	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	passed for client 58881740544	
+00:34.741.620	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=<private> value=<private>	
+00:34.741.636	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=<private> property=<private>	
+00:34.741.774	Default	Photos (1680)	com.apple.UIKit	Orientation	<UIWindowScene: 0x10422c680> (EC1FDF2C-716B-4BA1-8DD8-2B9E404E46C1) Scene updated orientation preferences: ( Pu Ll Lr ) -> ( Pu )	
+00:34.741.956	Debug	Photos (1680)	com.apple.photos.ui	PhotoEdit	addObjectRemovalUsingStroke: adding removal of 1 masks	
+00:34.742.357	Debug	PerfPowerServices (1452)	com.apple.CoreBrightness	default	key=<private> property=<private> queue=0x97ede5100 clientBlock=0x97e365e90	
+00:34.742.745	Debug	Photos (1680)	com.apple.photos.Neutrino	schedule	job 0x4d3cec500 stage Prepare schedule high, 0.0000	
+00:34.742.942	Debug	Photos (1680)	com.apple.defaults	User Defaults	found no value for key PUPhotoEditAppearanceKey in CFPrefsSearchListSource<0x30355b680> (Domain: com.apple.mobileslideshow, Container: (null))	
+00:34.743.085	Debug	Photos (1680)	com.apple.defaults	User Defaults	found no value for key PUPhotoEditAppearanceKey in CFPrefsSearchListSource<0x30355b680> (Domain: com.apple.mobileslideshow, Container: (null))	
+00:34.743.194	Debug	Photos (1680)	com.apple.photos.Neutrino	schedule	job 0x4d3cec500 PISensitiveContentAnalysisRequest-127.NUImageBufferRenderRequest prepare	
+00:34.743.249	Debug	Photos (1680)	com.apple.photos.Neutrino	ui	+[NUMediaView _proposedInsetsForInsets:contentSize:inFrame:centerContent:] - content is centered. input insets: <private>  content size: <private> inFrame: <private> result insets: <private>	
+00:34.743.604	Debug	Photos (1680)	com.apple.photos.Neutrino	render	FlexRange metadata: <private>	
+00:34.743.681	Info	SpringBoard (34)	com.apple.FrontBoard	ProcessScene	[(FBSceneManager):sceneID:com.apple.mobileslideshow-default] Client settings updated with diff: <private>	

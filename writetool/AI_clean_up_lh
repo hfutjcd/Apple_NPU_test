@@ -1,0 +1,1000 @@
+00:48.751.011	Default	assetsd (1696)	com.apple.xpc	connection	[0xbbc089400] activating connection: mach=1 listener=0 peer=0 name=com.apple.coremedia.mediaplaybackd.sandboxserver.xpc	
+00:48.751.091	Default	mediaplaybackd (278)	com.apple.xpc	connection	[0x62a69a400] activating connection: mach=0 listener=0 peer=1 name=com.apple.coremedia.mediaplaybackd.sandboxserver.xpc.peer[1696].0x62a69a400	
+00:48.751.142	Default	assetsd (1696)	com.apple.coremedia		<<<< FigProcessStateMonitorRemote >>>> FigProcessStateMonitorCopyRemoteStateMonitor: monitorRemoteOut <FigProcessStateMonitorRemoteRef 0xbbc005d50 <FigXPCRemoteClient 0xbbc3fc540 [0x1fbbf3308]> 278 OID: 01160d0000000801, serverDied: NO, enrolledInPurge: NO, lastPurgeID: 0> err 0	
+00:48.751.159	Debug	assetsd (1696)	com.apple.defaults	User Defaults	found no value for key logurls in CFPrefsSearchListSource<0xbbc09c880> (Domain: com.apple.coremedia, Container: (null))	
+00:48.751.567	Debug	assetsd (1696)	com.apple.defaults	User Defaults	found no value for key DiskCacheRepository in CFPrefsSearchListSource<0xbbc09c880> (Domain: com.apple.coremedia, Container: (null))	
+00:48.751.967	Default	mediaplaybackd (278)	com.apple.coremedia		<<< URLAsset >>> FigAssetCreateWithURL: Called for asset 0x62bd07840 by client assetsd, url [0x62a385b60] <redacted> createFlags 0x8 optionsDict <private>	
+00:48.752.089	Info	runningboardd (33)	com.apple.runningboard	message	PERF: Received request from [osservice<com.apple.mediaplaybackd>:278] (euid 501, auid 501) (persona 9123D57A-D0E6-47C6-938F-C289AA99CB36): lookupHandleForPredicate:error:	
+00:48.752.112	Default	runningboardd (33)	com.apple.runningboard	message	PERF: Received lookupHandleForPredicate request from [osservice<com.apple.mediaplaybackd>:278] (euid 501, auid 501) (persona )	
+00:48.752.156	Debug	runningboardd (33)	com.apple.runningboard	connection	[osservice<com.apple.mediaplaybackd>:278] query resolved to [osservice<com.apple.assetsd>:1696]	
+00:48.752.322	Info	runningboardd (33)	com.apple.runningboard	message	PERF: Received request from [osservice<com.apple.mediaplaybackd>:278] (euid 501, auid 501) (persona 9123D57A-D0E6-47C6-938F-C289AA99CB36): hostProcessForInstance:error:	
+00:48.752.378	Default	mediaplaybackd (278)	com.apple.runningboard	monitor	Updating configuration of monitor M278-12	
+00:48.752.471	Info	runningboardd (33)	com.apple.runningboard	message	PERF: Received request from [osservice<com.apple.mediaplaybackd>:278] (euid 501, auid 501) (persona 9123D57A-D0E6-47C6-938F-C289AA99CB36): void_subscribeToProcessStateChangesWithConfiguration:error:	
+00:48.752.508	Info	runningboardd (33)	com.apple.runningboard	monitor	monitor established M278-12	
+00:48.752.623	Debug	mediaplaybackd (278)	com.apple.runningboard	monitor	Successfully synced configuration for monitor M278-12	
+00:48.752.639	Default	mediaplaybackd (278)	com.apple.coremedia		<<<< FigApplicationStateMonitor >>>> fasm_ensureApplicationStateMonitor: Created state monitor: <private>	
+00:48.752.652	Debug	mediaplaybackd (278)	com.apple.runningboard	message	PERF: [osservice<com.apple.mediaplaybackd>:278] Received message from runningboardd: async_observedProcessStatesDidChange:completion:	
+00:48.752.662	Default	mediaplaybackd (278)	com.apple.coremedia	playback-memory	<<< FigDispatchUtilities >>> figPruneOSTransactionArrayWhilePerformingOperation: [Fig Transaction] Pruned transaction weak reference holder: <0x62a0174a0>	
+00:48.752.677	Default	mediaplaybackd (278)	com.apple.coremedia	playback-memory	<<< FigDispatchUtilities >>> figPruneOSTransactionArrayWhilePerformingOperation: [Fig Transaction] Pruned transaction weak reference holder: <0x62a014600>	
+00:48.752.690	Default	mediaplaybackd (278)	com.apple.coremedia	playback-memory	<<< FigDispatchUtilities >>> figPruneOSTransactionArrayWhilePerformingOperation: [Fig Transaction] Pruned transaction weak reference holder: <0x62a015500>	
+00:48.752.701	Default	mediaplaybackd (278)	com.apple.coremedia	playback-memory	<<< FigDispatchUtilities >>> figPruneOSTransactionArrayWhilePerformingOperation: [Fig Transaction] Pruned transaction weak reference holder: <0x62a017300>	
+00:48.752.707	Debug	mediaplaybackd (278)	com.apple.runningboard	process	Decoded RBSProcessHandle with IPC ID bce8fbd000006a0	
+00:48.752.710	Default	mediaplaybackd (278)	com.apple.coremedia	playback-memory	<<< FigDispatchUtilities >>> figPruneOSTransactionArrayWhilePerformingOperation: [Fig Transaction] Pruned transaction weak reference holder: <0x62a014ae0>	
+00:48.752.722	Default	mediaplaybackd (278)	com.apple.coremedia	playback-memory	<<< FigDispatchUtilities >>> figPruneOSTransactionArrayWhilePerformingOperation: [Fig Transaction] Pruned transaction weak reference holder: <0x62a00ee20>	
+00:48.752.737	Default	mediaplaybackd (278)	com.apple.coremedia	playback-memory	<<< FigDispatchUtilities >>> figPruneOSTransactionArrayWhilePerformingOperation: [Fig Transaction] Pruned transaction weak reference holder: <0x62a00e720>	
+00:48.752.749	Default	mediaplaybackd (278)	com.apple.coremedia	playback-memory	<<< FigDispatchUtilities >>> figPruneOSTransactionArrayWhilePerformingOperation: [Fig Transaction] Pruned transaction weak reference holder: <0x62a00eb80>	
+00:48.752.757	Default	mediaplaybackd (278)	com.apple.coremedia	playback-memory	<<< FigDispatchUtilities >>> figPruneOSTransactionArrayWhilePerformingOperation: [Fig Transaction] Pruned transaction weak reference holder: <0x62a00fee0>	
+00:48.752.764	Default	mediaplaybackd (278)	com.apple.runningboard	monitor	Received state update for 1,696 (osservice<com.apple.assetsd>, running-NotVisible	
+00:48.752.797	Default	mediaplaybackd (278)	com.apple.coremedia	playback-memory	<<< FigDispatchUtilities >>> figPruneOSTransactionArrayWhilePerformingOperation: [Fig Transaction] Pruned transaction weak reference holder: <0x62a00f1a0>	
+00:48.752.835	Default	mediaplaybackd (278)	com.apple.coremedia	playback-memory	<<< FigDispatchUtilities >>> figPruneOSTransactionArrayWhilePerformingOperation: [Fig Transaction] Pruned transaction weak reference holder: <0x62a00e960>	
+00:48.752.880	Default	mediaplaybackd (278)	com.apple.coremedia	playback-memory	<<< FigDispatchUtilities >>> FigOSTransactionCreateWithProcessName: [Fig Transaction] Added transaction weak reference holder <0x62a00eb60>: <private>	
+00:48.752.914	Default	mediaplaybackd (278)	com.apple.coremedia		<<<< FigApplicationStateMonitor >>>> fasm_updateHandler: application <private> updated to state 2 from state 0	
+00:48.752.924	Debug	mediaplaybackd (278)	com.apple.defaults	User Defaults	found no value for key DisableFigPerfMonitor in CFPrefsSearchListSource<0x100514980> (Domain: com.apple.coremedia, Container: (null))	
+00:48.752.939	Info	mediaplaybackd (278)	com.apple.runningboard	monitor	Update delivered for [osservice<com.apple.assetsd>:1696] with taskState 2	
+00:48.752.960	Default	mediaplaybackd (278)	com.apple.coremedia		<<<< FigApplicationStateMonitor >>>> fasm_ensureApplicationStateMonitor: Using existing monitor: <private>	
+00:48.753.055	Default	mediaplaybackd (278)	com.apple.coremedia		<<<< FigApplicationStateMonitor >>>> fasm_ensureApplicationStateMonitor: Using existing monitor: <private>	
+00:48.753.089	Default	mediaplaybackd (278)	com.apple.coremedia	playback-memory	<<< FigDispatchUtilities >>> FigOSTransactionCreateWithProcessName: [Fig Transaction] Added transaction weak reference holder <0x62a00cf20>: <private>	
+00:48.753.113	Debug	mediaplaybackd (278)	com.apple.defaults	User Defaults	found no value for key DisableFigPerfMonitor in CFPrefsSearchListSource<0x100514980> (Domain: com.apple.coremedia, Container: (null))	
+00:48.753.144	Default	mediaplaybackd (278)	com.apple.coremedia		<<<< FigApplicationStateMonitor >>>> fasm_ensureApplicationStateMonitor: Using existing monitor: <private>	
+00:48.753.233	Debug	analyticsd (110)	com.apple.analyticsd.critical	xform_cache	[Transform Cache] Cache performance for input event <private>: { transforms: 1, hit: 0, loaded: 1, inserted: 1}	
+00:48.753.733	Default	mediaplaybackd (278)	com.apple.coremedia		<<<< FigCustomURLHandling >>>> FigCustomURLLoaderCreate: newLoader: 0x62a05daa0	
+00:48.753.756	Default	mediaplaybackd (278)	com.apple.coremedia	playback-memory	<<< FigDispatchUtilities >>> FigOSTransactionCreateWithProcessName: [Fig Transaction] Added transaction weak reference holder <0x62a00ef60>: <private>	
+00:48.753.770	Debug	mediaplaybackd (278)	com.apple.defaults	User Defaults	found no value for key DisableFigPerfMonitor in CFPrefsSearchListSource<0x100514980> (Domain: com.apple.coremedia, Container: (null))	
+00:48.754.008	Debug	assetsd (1696)	com.apple.defaults	User Defaults	found no value for key customurlloader_xpc_trace in CFPrefsSearchListSource<0xbbc09c880> (Domain: com.apple.coremedia, Container: (null))	
+00:48.754.024	Default	assetsd (1696)	com.apple.xpc	connection	[0xbbc089600] activating connection: mach=1 listener=0 peer=0 name=com.apple.coremedia.mediaplaybackd.customurlloader.xpc	
+00:48.754.088	Default	mediaplaybackd (278)	com.apple.xpc	connection	[0x62a699e00] activating connection: mach=0 listener=0 peer=1 name=com.apple.coremedia.mediaplaybackd.customurlloader.xpc.peer[1696].0x62a699e00	
+00:48.754.134	Default	assetsd (1696)	com.apple.coremedia		<<<< FigProcessStateMonitorRemote >>>> FigProcessStateMonitorCopyRemoteStateMonitor: monitorRemoteOut <FigProcessStateMonitorRemoteRef 0xbbc005d50 <FigXPCRemoteClient 0xbbc3fc540 [0x1fbbf3308]> 278 OID: 01160d0000000801, serverDied: NO, enrolledInPurge: NO, lastPurgeID: 0> err 0	
+00:48.754.153	Debug	assetsd (1696)	com.apple.defaults	User Defaults	found no value for key curl_handling_trace in CFPrefsSearchListSource<0xbbc09c880> (Domain: com.apple.coremedia, Container: (null))	
+00:48.754.163	Debug	assetsd (1696)	com.apple.defaults	User Defaults	found no value for key curl_handling_trace in CFPrefsSearchListSource<0xbbc09c880> (Domain: com.apple.coremedia, Container: (null))	
+00:48.754.172	Default	assetsd (1696)	com.apple.coremedia		<<<< FigCustomURLHandling >>>> FigCustomURLLoaderCreate: newLoader: 0xbbc010000	
+00:48.754.188	Default	assetsd (1696)	com.apple.coremedia		<<<< FigCustomURLHandling >>>> FigCustomURLHandlerCreate: newHandler: com.apple.avfoundation.customurl.cfurlconnection.0xbbc8e1300 options: 	
+00:48.754.199	Debug	assetsd (1696)	com.apple.defaults	User Defaults	found no value for key customurlhandler_xpc_trace in CFPrefsSearchListSource<0xbbc09c880> (Domain: com.apple.coremedia, Container: (null))	
+00:48.754.207	Debug	assetsd (1696)	com.apple.defaults	User Defaults	found no value for key customurlhandler_xpc_trace in CFPrefsSearchListSource<0xbbc09c880> (Domain: com.apple.coremedia, Container: (null))	
+00:48.754.226	Default	assetsd (1696)	com.apple.xpc	connection	[0xbbc8ee940] activating connection: mach=0 listener=1 peer=0 name=(anonymous)	
+00:48.754.254	Default	assetsd (1696)	com.apple.xpc	connection	[0xbbc8ee940] Channel could not return listener port.	
+00:48.754.276	Debug	assetsd (1696)	com.apple.defaults	User Defaults	found no value for key figdispatchutilities_trace in CFPrefsSearchListSource<0xbbc09c880> (Domain: com.apple.coremedia, Container: (null))	
+00:48.754.287	Debug	assetsd (1696)	com.apple.defaults	User Defaults	found no value for key figdispatchutilities_trace in CFPrefsSearchListSource<0xbbc09c880> (Domain: com.apple.coremedia, Container: (null))	
+00:48.754.299	Default	assetsd (1696)	com.apple.coremedia	playback-memory	<<< FigDispatchUtilities >>> FigOSTransactionCreateWithProcessName: [Fig Transaction] Added transaction weak reference holder <0xbbc91c220>: <private>	
+00:48.754.366	Info	runningboardd (33)	com.apple.runningboard	message	PERF: Received request from [osservice<com.apple.assetsd>:1696] (euid 501, auid 501) (persona 9123D57A-D0E6-47C6-938F-C289AA99CB36): lookupHandleForPredicate:error:	
+00:48.754.381	Default	runningboardd (33)	com.apple.runningboard	message	PERF: Received lookupHandleForPredicate request from [osservice<com.apple.assetsd>:1696] (euid 501, auid 501) (persona )	
+00:48.754.406	Debug	runningboardd (33)	com.apple.runningboard	connection	[osservice<com.apple.assetsd>:1696] query resolved to [osservice<com.apple.mediaplaybackd>:278]	
+00:48.754.525	Info	runningboardd (33)	com.apple.runningboard	message	PERF: Received request from [osservice<com.apple.assetsd>:1696] (euid 501, auid 501) (persona 9123D57A-D0E6-47C6-938F-C289AA99CB36): lookupProcessName:error:	
+00:48.754.570	Default	assetsd (1696)	com.apple.coremedia		<<<< FigCustomURLHandling >>>> curll_installHandler: 0xbbc010020: handler: 0xbbc8e1300 priority: 100	
+00:48.754.606	Default	mediaplaybackd (278)	com.apple.xpc	connection	[0x62a3f35c0] activating connection: mach=0 listener=0 peer=0 name=(anonymous)	
+00:48.754.672	Default	assetsd (1696)	com.apple.xpc	connection	[0xbbc8eebc0] activating connection: mach=0 listener=0 peer=1 name=com.apple.xpc.anonymous.0xbbc8ee940.peer[278].0xbbc8eebc0	
+00:48.754.776	Default	mediaplaybackd (278)	com.apple.coremedia		<<<< FigCustomURLHandling >>>> FigCustomURLHandlerCreate: newHandler: FigCustomURLHandlerRemoteShim.0x62a0b5480 options: 	
+00:48.754.787	Default	mediaplaybackd (278)	com.apple.coremedia		<<<< FigCustomURLHandling >>>> curll_installHandler: 0x62a05dac0: handler: 0x62bb672f0 priority: 100	
+00:48.754.822	Default	assetsd (1696)	com.apple.coremedia		<<<< FigCustomURLHandling >>>> FigCustomURLHandlerCreate: newHandler: com.apple.avfoundation.authkeychain.0xbbc8e1c00 options: 	
+00:48.754.835	Default	assetsd (1696)	com.apple.coremedia	playback-memory	<<< FigDispatchUtilities >>> FigOSTransactionCreateWithProcessName: [Fig Transaction] Added transaction weak reference holder <0xbbc91c4e0>: <private>	
+00:48.754.847	Default	assetsd (1696)	com.apple.coremedia		<<<< FigCustomURLHandling >>>> curll_installHandler: 0xbbc010020: handler: 0xbbc8e1c00 priority: 800	
+00:48.754.879	Default	mediaplaybackd (278)	com.apple.coremedia		<<<< FigCustomURLHandling >>>> FigCustomURLHandlerCreate: newHandler: FigCustomURLHandlerRemoteShim.0x62a0b6100 options: 	
+00:48.754.892	Default	mediaplaybackd (278)	com.apple.coremedia		<<<< FigCustomURLHandling >>>> curll_installHandler: 0x62a05dac0: handler: 0x62bb65a40 priority: 800	
+00:48.754.987	Debug	assetsd (1696)	com.apple.defaults	User Defaults	found no value for key avmetadataitem_trace in CFPrefsSearchListSource<0xbbc3e4c80> (Domain: com.apple.avfoundation, Container: (null))	
+00:48.755.360	Debug	assetsd (1696)	PhotosFormats	Default	<private> 0xbbc9176f0: Added state handler: 8 for <private>: 0xbbc16da40	
+00:48.755.379	Debug	assetsd (1696)	PhotosFormats	Default	<private> 0xbbc9176f0: Add breadcrumb: <private>	
+00:48.755.400	Debug	assetsd (1696)	com.apple.defaults	User Defaults	found no value for key inspector_trace in CFPrefsSearchListSource<0xbbc3e4c80> (Domain: com.apple.avfoundation, Container: (null))	
+00:48.755.414	Debug	assetsd (1696)	com.apple.defaults	User Defaults	found no value for key assetinspector_trace in CFPrefsSearchListSource<0xbbc3e4c80> (Domain: com.apple.avfoundation, Container: (null))	
+00:48.755.711	Default	mediaplaybackd (278)	com.apple.coremedia	playback-memory	<<< FigDispatchUtilities >>> FigOSTransactionCreateWithProcessName: [Fig Transaction] Added transaction weak reference holder <0x62a00db80>: <private>	
+00:48.755.750	Debug	mediaplaybackd (278)	com.apple.defaults	User Defaults	found no value for key DisableFigPerfMonitor in CFPrefsSearchListSource<0x100514980> (Domain: com.apple.coremedia, Container: (null))	
+00:48.755.930	Default	mediaplaybackd (278)	com.apple.coremedia		<<< URLAsset >>> EnsureContentStreamCreated: ByteStream [0x62a3da8c0] created for asset [0x62bd07840]	
+00:48.756.653	Default	mediaplaybackd (278)	com.apple.xpc	connection	[0x62a3f2300] activating connection: mach=0 listener=0 peer=0 name=(anonymous)	
+00:48.756.705	Default	mediaparserd (279)	com.apple.xpc	connection	[0xd162cd540] activating connection: mach=0 listener=0 peer=1 name=com.apple.xpc.anonymous.0xd162cc3c0.peer[278].0xd162cd540	
+00:48.756.808	Default	mediaparserd (279)	com.apple.coremedia		<<<< FigApplicationStateMonitor >>>> fasm_ensureApplicationStateMonitor: PID 278 was excluded from monitoring	
+00:48.756.828	Default	mediaparserd (279)	com.apple.coremedia	playback-memory	<<< FigDispatchUtilities >>> figPruneOSTransactionArrayWhilePerformingOperation: [Fig Transaction] Pruned transaction weak reference holder: <0xd161c6d00>	
+00:48.756.844	Default	mediaparserd (279)	com.apple.coremedia	playback-memory	<<< FigDispatchUtilities >>> figPruneOSTransactionArrayWhilePerformingOperation: [Fig Transaction] Pruned transaction weak reference holder: <0xd161c6f80>	
+00:48.756.853	Default	mediaparserd (279)	com.apple.coremedia	playback-memory	<<< FigDispatchUtilities >>> FigOSTransactionCreateWithProcessName: [Fig Transaction] Added transaction weak reference holder <0xd161c7ba0>: <private>	
+00:48.757.221	Default	symptomsd (207)	com.apple.symptomsd	bbh	TCP metrics iteration:4,863 since 30.0000 secs: allflows=0/C=0/R=0/W=0/flows=0/unacked=0/rxbytes=0/txbytes=0/rxooo=0/rxdup=0/retx=0	
+00:48.757.247	Debug	mediaparserd (279)	com.apple.coreaudio	audiocomp	AudioComponentPluginMgr.mm:1,213 findNext adec/lpcm/appl -> 0xd160621c0 adec/1836253186/appl	
+00:48.757.269	Debug	mediaparserd (279)	com.apple.coreaudio	audiocomp	AudioComponentPluginMgr.mm:1,213 findNext acdc/lpcm/appl -> 0xd16061540 adec/.mp3/appl	
+00:48.757.284	Debug	mediaparserd (279)	com.apple.coreaudio	audiocomp	AudioComponentPluginMgr.mm:1,213 findNext adec/lpcm/appl -> 0xd160621c0 adec/1836253186/appl	
+00:48.757.293	Debug	mediaparserd (279)	com.apple.coreaudio	audiocomp	AudioComponentPluginMgr.mm:1,213 findNext acdc/lpcm/appl -> 0xd16061540 adec/.mp3/appl	
+00:48.757.297	Default	symptomsd (207)	com.apple.symptomsd	bbh	TCP progress metrics score: 0, problem ratio: 0.0000 (baseline: 0.0152)	
+00:48.757.363	Debug	assetsd (1696)	com.apple.photos.backend	PhotoKit	PLImageFormat formatWithID returning: <private>	
+00:48.757.381	Debug	assetsd (1696)	com.apple.photos.backend	PhotoKit	PLImageFormat formatWithID returning: <private>	
+00:48.757.417	Default	assetsd (1696)	com.apple.photos.backend	Thumbnails	Missing thumbnail table for format 4,531	
+00:48.757.594	Default	assetsd (1696)	com.apple.photos.backend	Thumbnails	Removing unwanted thumbnail tables (unsupportedOnly: 1)...	
+00:48.757.607	Debug	assetsd (1696)	PhotosFormats	Default	<private> 0xbbc9176f0: Add breadcrumb: <private>	
+00:48.757.634	Default	backboardd (68)	com.apple.coreanimation	Brightness	Display 1 setting ambient lux to 155.8558
+	
+00:48.757.635	Default	assetsd (1696)	com.apple.coremedia		<<<< AVAssetInspectorLoader >>>> -[AVFigAssetInspectorLoader loadValuesAsynchronouslyForKeys:keysForCollectionKeys:completionHandler:]: called (self: 0xbbc172290, keys: (
+    duration,
+    preferredRate,
+    preferredTransform,
+    creationDate,
+    metadata,
+    playable,
+    exportable,
+    readable,
+    identifyingTagClass,
+    tracks
+), keysForCollectionKeys: {
+    tracks =     (
+        trackID,
+        mediaType,
+        formatDescriptions,
+        playable,
+        decodable,
+        enabled,
+        timeRange,
+        naturalTimeScale,
+        estimatedDataRate,
+        naturalSize,
+        preferredTransform,
+        nominalFrameRate,
+        metadata,
+        dimensions
+    );
+}, handler: non-nil)	
+00:48.757.900	Debug	assetsd (1696)	com.apple.CFBundle	resources	Resource lookup at <private>
+	Request       : InfoPlist type: strings
+	Result        : None
+	
+00:48.757.916	Debug	assetsd (1696)	com.apple.CFBundle	resources	Resource lookup at <private>
+	Request       : InfoPlist type: stringsdict
+	Result        : None
+	
+00:48.758.210	Default	assetsd (1696)	com.apple.coremedia		<<<< AVAssetInspectorLoader >>>> -[AVFigAssetInspectorLoader loadValuesAsynchronouslyForKeys:keysForCollectionKeys:completionHandler:]: Calling FigAssetLoadValuesAsyncForProperties for properties (
+    "assetProperty_QuickTimeUserData",
+    CreationDate,
+    "assetProperty_ID3Metadata",
+    "assetProperty_HLSMetadata",
+    "assetProperty_ISOUserData",
+    PreferredTransform,
+    "assetProperty_Tracks",
+    "assetProperty_AVCHDMetadata",
+    "assetProperty_MatchingContainerLabelType",
+    "assetProperty_QuickTimeMetadata",
+    "assetProperty_FormatSpecificMetadata",
+    "assetProperty_AssetType",
+    Duration,
+    PreferredRate,
+    "assetProperty_MediaPlaybackValidation",
+    "assetProperty_iTunesMetadata",
+    "assetProperty_AvailableMetadataFormats",
+    "assetProperty_ProtectedStatus"
+)	
+00:48.758.321	Default	assetsd (1696)	com.apple.coremedia		<<<< AVAssetInspectorLoader >>>> -[AVFigAssetInspectorLoader loadValuesAsynchronouslyForKeys:keysForCollectionKeys:completionHandler:]: Batch 0xbbc911080: asset batch ID = 1 (err=0, alreadyLoaded=0)	
+00:48.758.339	Default	assetsd (1696)	com.apple.coremedia		<<<< AVAssetInspectorLoader >>>> -[AVFigAssetInspectorLoader loadValuesAsynchronouslyForKeys:keysForCollectionKeys:completionHandler:]: Calling FigAssetLoadValuesAsyncForTrackProperties for properties (
+    "assetTrackProperty_QuickTimeUserData",
+    "assetTrackProperty_MediaDecodingValidation",
+    PreferredTransform,
+    "assetTrackProperty_ISOUserData",
+    NaturalTimeScale,
+    "assetTrackProperty_FormatSpecificMetadata",
+    TrackDimensions,
+    EstimatedDataRate,
+    FormatDescriptionArray,
+    NaturalSize,
+    NominalFrameRate,
+    MediaCharacteristicArray,
+    "assetTrackProperty_MediaPlaybackValidation",
+    "assetTrackProperty_QuickTimeMetadata",
+    AvailableMetadataFormats,
+    IsEnabled,
+    TimeRange
+)	
+00:48.758.403	Default	assetsd (1696)	com.apple.coremedia		<<<< AVAssetInspectorLoader >>>> -[AVFigAssetInspectorLoader loadValuesAsynchronouslyForKeys:keysForCollectionKeys:completionHandler:]: Batch 0xbbc911080: track batch ID = 2 (err=0, alreadyLoaded=0)	
+00:48.759.130	Default	assetsd (1696)	com.apple.photos.backend	Thumbnails	Marking assets with thumbs for table rebuild...	
+00:48.759.910	Default	assetsd (1696)	com.apple.photos.backend	Migration	Marked assets for table thumb rebuild.	
+00:48.759.928	Default	assetsd (1696)	com.apple.photos.backend	Migration	Rebuilding image request hints...	
+00:48.760.207	Default	assetsd (1696)	com.apple.photos.backend	Migration	Reset 0 asset image request hints.	
+00:48.760.218	Default	assetsd (1696)	com.apple.photos.backend	Migration	Thumbnail processing succeeded	
+00:48.760.267	Info	assetsd (1696)	com.apple.photos.backend	Migration	sqliteErrorIndicatorFile does not exist at <private>	
+00:48.760.343	Debug	assetsd (1696)	com.apple.defaults	User Defaults	found no value for key figremotemeta_trace in CFPrefsSearchListSource<0xbbc09c880> (Domain: com.apple.coremedia, Container: (null))	
+00:48.760.416	Debug	mediaplaybackd (278)	com.apple.CFBundle	resources	Resource lookup at <private>
+	Request       : MediaValidator.plist path: D94
+	Result        : file:///System/Library/Frameworks/MediaToolbox.framework/D94/MediaValidator.plist
+	
+00:48.760.651	Default	assetsd (1696)	com.apple.photos.backend	Migration	migrateOrCreateDatabaseIfNecessary policy:allow(all) result: none	
+00:48.760.900	Debug	assetsd (1696)	com.apple.photos.backend	LibraryBundle	Inconsistent URL paths may negatively impact client access performance (original /private/var/mobile/Library/Photos/Libraries/Syndication.photoslibrary vs. current /var/mobile/Library/Photos/Libraries/Syndication.photoslibrary)	
+00:48.760.934	Default	assetsd (1696)	com.apple.migration	core	DMXPCConnection created connection 0xbbc089800	
+00:48.761.033	Default	assetsd (1696)	com.apple.migration	core	targeting foreground user session for uid 501	
+00:48.761.106	Default	assetsd (1696)	com.apple.xpc	connection	[0xbbc089800] activating connection: mach=1 listener=0 peer=0 name=com.apple.datamigrator	
+00:48.761.184	Debug	mediaplaybackd (278)	com.apple.coreaudio	audiocomp	AudioComponentPluginMgr.mm:1,213 findNext adec/lpcm/appl -> 0x62a075040 adec/1836253186/appl	
+00:48.761.213	Debug	mediaplaybackd (278)	com.apple.coreaudio	audiocomp	AudioComponentPluginMgr.mm:1,213 findNext acdc/lpcm/appl -> 0x62a075d60 acdc/pac3/appl/0x8000/0x0	
+00:48.761.304	Default	assetsd (1696)	com.apple.migration	core	DMConnection did init <DMConnection: 0xbbc1c38b0>	
+00:48.761.373	Debug	DTServiceHub (360)	DVTInstrumentsFoundation	Default	Data Size: 101,640, Rows Sent: 1,287, Stack depth: 2,693	
+00:48.761.421	Default	com.apple.datamigrator (1697)	com.apple.xpc	connection	[0xc8209c000] activating connection: mach=0 listener=0 peer=1 name=com.apple.datamigrator.peer[1696].0xc8209c000	
+00:48.761.493	Default	com.apple.datamigrator (1697)	com.apple.migration	core	DMMigratorProxy handling event 0xc82070300 msgID 6 from client pid 1696	
+00:48.761.571	Debug	com.apple.datamigrator (1697)	com.apple.defaults	User Defaults	looked up value <private> for key LastSystemVersion in CFPrefsPlistSource<0x100bbc4c0> (Domain: com.apple.migration, User: kCFPreferencesCurrentUser, ByHost: No, Container: (null), Contents Need Refresh: No)	
+00:48.761.608	Debug	com.apple.datamigrator (1697)	com.apple.defaults	User Defaults	looked up value <private> for key DMUserDataDisposition in CFPrefsPlistSource<0x100bbc4c0> (Domain: com.apple.migration, User: kCFPreferencesCurrentUser, ByHost: No, Container: (null), Contents Need Refresh: No)	
+00:48.761.664	Default	assetsd (1696)	com.apple.migration	core	DMConnection will dealloc <DMConnection: 0xbbc1c38b0>	
+00:48.761.683	Default	assetsd (1696)	com.apple.coremedia		<<<< AVAssetInspectorLoader >>>> handleFigAssetLoadingNotification: Received kFigAssetNotification_BatchPropertyLoadComplete (payload: {
+    "assetPayload_BatchID" = 1;
+})	
+00:48.761.694	Default	com.apple.datamigrator (1697)	com.apple.migration	core	DMMigratorProxy did send response for event 0xc82070300 msgID 6 to client pid 1696. User data disposition 2	
+00:48.761.705	Debug	mediaplaybackd (278)	com.apple.CFBundle	resources	Resource lookup at <private>
+	Request       : MediaValidator.plist path: D94
+	Result        : file:///System/Library/Frameworks/MediaToolbox.framework/D94/MediaValidator.plist
+	
+00:48.761.710	Default	com.apple.datamigrator (1697)	com.apple.migration	core	DMMigratorProxy did complete for event 0xc82070300 msgID 6 from client pid 1696.	
+00:48.761.943	Default	assetsd (1696)	com.apple.xpc	connection	[0xbbc089800] invalidated because the current process cancelled the connection by calling xpc_connection_cancel()	
+00:48.762.095	Debug	mediaplaybackd (278)	com.apple.CFBundle	resources	Resource lookup at <private>
+	Request       : MediaValidator.plist path: D94
+	Result        : file:///System/Library/Frameworks/MediaToolbox.framework/D94/MediaValidator.plist
+	
+00:48.762.530	Debug	assetsd (1696)	com.apple.photos.backend	LibraryServices	LSM-3-0xbbc285400: progress resigned current: <private>	
+00:48.762.706	Debug	mediaplaybackd (278)	com.apple.CFBundle	resources	Resource lookup at <private>
+	Request       : MediaValidator.plist path: D94
+	Result        : file:///System/Library/Frameworks/MediaToolbox.framework/D94/MediaValidator.plist
+	
+00:48.762.710	Default	assetsd (1696)	com.apple.photos.backend	LibraryServices	LSM-3-0xbbc285400: Completed operation <PLLibraryServicesOperation: 0xbbc294c80>{name = 'Migrate or rebuild library if necessary'} in 0.0125 seconds with QoS QOS_CLASS_USER_INITIATED	
+00:48.763.052	Default	assetsd (1696)	com.apple.photos.backend	LibraryServices	LSM-3-0xbbc285400: Transition from library services state prep-migration to prep-post-migration	
+00:48.763.097	Debug	mediaplaybackd (278)	com.apple.CFBundle	resources	Resource lookup at <private>
+	Request       : MediaValidator.plist path: D94
+	Result        : file:///System/Library/Frameworks/MediaToolbox.framework/D94/MediaValidator.plist
+	
+00:48.763.155	Debug	assetsd (1696)	com.apple.photos.backend	LibraryServices	LSM-3-0xbbc285400: Adding pending operation: <PLLibraryServicesOperation: 0xbbc295900>{name = 'Initialize change handling'} at QoS: NSQualityOfServiceDefault	
+00:48.763.239	Debug	assetsd (1696)	com.apple.photos.backend	LibraryServices	LSM-3-0xbbc285400: Adding pending operation: <PLLibraryServicesOperation: 0xbbc294dc0>{name = 'Initialize CPL manager'} at QoS: NSQualityOfServiceDefault	
+00:48.763.341	Debug	assetsd (1696)	com.apple.photos.backend	LibraryServices	LSM-3-0xbbc285400: Adding pending operation: <PLLibraryServicesOperation: 0xbbc294f00>{name = 'Backup exclusion attribute'} at QoS: NSQualityOfServiceDefault	
+00:48.763.441	Default	assetsd (1696)	com.apple.photos.backend	LibraryServices	LSM-3-0xbbc285400: Starting operation <PLLibraryServicesOperation: 0xbbc295900>{name = 'Initialize change handling'} with QoS QOS_CLASS_USER_INITIATED	
+00:48.763.451	Debug	mediaplaybackd (278)	com.apple.CFBundle	resources	Resource lookup at <private>
+	Request       : MediaValidator.plist path: D94
+	Result        : file:///System/Library/Frameworks/MediaToolbox.framework/D94/MediaValidator.plist
+	
+00:48.763.502	Debug	assetsd (1696)	com.apple.photos.backend	LibraryServices	LSM-3-0xbbc285400: progress becoming current: <private>	
+00:48.763.630	Debug	assetsd (1696)	com.apple.photos.backend	PhotosObjectLifecycle	PLServerChangePublisher 0xbbc911400 init	
+00:48.763.707	Default	assetsd (1696)	com.apple.photos.backend	ChangeHandling	Creating PLChangeHandlingContainer for library URL: <private>	
+00:48.763.977	Debug	assetsd (1696)	com.apple.photos.backend	PhotosObjectLifecycle	PLCoreDataChangeMerger 0xbbc938390 init	
+00:48.764.001	Default	assetsd (1696)	com.apple.photos.backend	ChangeHandling	PLChangeNode [<private>]: Created change node with UUID <private> for libraryURL: <private>	
+00:48.764.042	Debug	mediaplaybackd (278)	com.apple.CFBundle	resources	Resource lookup at <private>
+	Request       : MediaValidator.plist path: D94
+	Result        : file:///System/Library/Frameworks/MediaToolbox.framework/D94/MediaValidator.plist
+	
+00:48.764.091	Debug	assetsd (1696)	com.apple.photos.backend	PhotosObjectLifecycle	PLChangeNode 0xbbc0ebe80 initWithLibraryURL:<private>	
+00:48.764.172	Debug	assetsd (1696)	com.apple.photos.backend	PhotosObjectLifecycle	PLChangeHandlingNotificationObserver 0xbbc944180 initWithLowPriorityThrottleInterval:4.0000	
+00:48.764.238	Debug	assetsd (1696)	com.apple.photos.backend	PhotosObjectLifecycle	PLPersistentHistoryChangeDistributor 0xbbc0ebed0 initWithPersistentStoreCoordinator:<private>	
+00:48.764.327	Debug	assetsd (1696)	com.apple.photos.backend	PhotosObjectLifecycle	PLChangeHandlingContainer 0xbbc9380f0 initWithLibraryURL:<private>	
+00:48.764.349	Debug	assetsd (1696)	com.apple.photos.backend	PhotosObjectLifecycle	PLChangeHandlingContainer 0xbbc9380f0 start	
+00:48.764.474	Debug	assetsd (1696)	com.apple.photos.backend	LibraryServices	LSM-3-0xbbc285400: progress resigned current: <private>	
+00:48.764.566	Debug	mediaplaybackd (278)	com.apple.CFBundle	resources	Resource lookup at <private>
+	Request       : MediaValidator.plist path: D94
+	Result        : file:///System/Library/Frameworks/MediaToolbox.framework/D94/MediaValidator.plist
+	
+00:48.764.568	Debug	assetsd (1696)	com.apple.photos.backend	PersistentHistory	Setting initial _lastToken to: <private>	
+00:48.764.638	Default	assetsd (1696)	com.apple.photos.backend	LibraryServices	LSM-3-0xbbc285400: Completed operation <PLLibraryServicesOperation: 0xbbc295900>{name = 'Initialize change handling'} in 0.0012 seconds with QoS QOS_CLASS_USER_INITIATED	
+00:48.764.667	Debug	assetsd (1696)	com.apple.photos.backend	ChangeHandling	Change handling notification: Start observerving notifications with block: 0xbbc3ffe70	
+00:48.764.835	Default	assetsd (1696)	com.apple.photos.backend	LibraryServices	LSM-3-0xbbc285400: Starting operation <PLLibraryServicesOperation: 0xbbc294dc0>{name = 'Initialize CPL manager'} with QoS QOS_CLASS_USER_INITIATED	
+00:48.764.906	Debug	assetsd (1696)	com.apple.photos.backend	Backend	notify_register_dispatch() returned 0 for com.apple.photos.changeHandling.notificationLow after number 1 of 5	
+00:48.764.927	Debug	assetsd (1696)	com.apple.photos.backend	LibraryServices	LSM-3-0xbbc285400: progress becoming current: <private>	
+00:48.765.006	Debug	assetsd (1696)	com.apple.photos.backend	Backend	notify_register_dispatch() returned 0 for com.apple.photos.changeHandling.notificationHigh after number 1 of 5	
+00:48.765.111	Debug	mediaplaybackd (278)	com.apple.CFBundle	resources	Resource lookup at <private>
+	Request       : MediaValidator.plist path: D94
+	Result        : file:///System/Library/Frameworks/MediaToolbox.framework/D94/MediaValidator.plist
+	
+00:48.765.557	Default	com.apple.datamigrator (1697)	com.apple.xpc	connection	[0xc8209c000] invalidated because the client process (pid 1,696) either cancelled the connection or exited	
+00:48.765.685	Default	com.apple.datamigrator (1697)	com.apple.migration	core	DataMigrator connections count went to zero.	
+00:48.765.720	Default	assetsd (1696)	com.apple.coremedia		<<<< AVAssetInspectorLoader >>>> handleFigAssetLoadingNotification_block_invoke: Batch 0xbbc911080: Marking asset batch ID 1 as complete	
+00:48.765.867	Debug	assetsd (1696)	com.apple.photos.backend	Backend	Successfully read <private> from file <private>	
+00:48.766.340	Debug	assetsd (1696)	com.apple.defaults	User Defaults	found no value for key PLCloudPhotoLibraryMultiLibrarySyncingEnabled in CFPrefsSearchListSource<0xbbc09c900> (Domain: com.apple.assetsd, Container: (null))	
+00:48.766.690	Error	assetsd (1696)	com.apple.photos.backend	LibraryServices	LSM-3-0xbbc285400: Request for newCloudPhotoLibraryManager from a non-system photo library: <PLPhotoLibraryPathManager: 0xbbc3a5240> [UBF] [fs=16777227/file=15544]	
+00:48.766.809	Debug	assetsd (1696)	com.apple.photos.backend	LibraryServices	LSM-3-0xbbc285400: progress resigned current: <private>	
+00:48.766.881	Default	assetsd (1696)	com.apple.photos.backend	LibraryServices	LSM-3-0xbbc285400: Completed operation <PLLibraryServicesOperation: 0xbbc294dc0>{name = 'Initialize CPL manager'} in 0.0020 seconds with QoS QOS_CLASS_USER_INITIATED	
+00:48.767.010	Default	assetsd (1696)	com.apple.photos.backend	LibraryServices	LSM-3-0xbbc285400: Starting operation <PLLibraryServicesOperation: 0xbbc294f00>{name = 'Backup exclusion attribute'} with QoS QOS_CLASS_USER_INITIATED	
+00:48.767.080	Debug	assetsd (1696)	com.apple.photos.backend	LibraryServices	LSM-3-0xbbc285400: progress becoming current: <private>	
+00:48.768.220	Default	assetsd (1696)	com.apple.coremedia		<<<< AVAssetInspectorLoader >>>> -[AVFigAssetInspectorLoader _invokeCompletionHandlerForLoadingBatches:]: No completed batches	
+00:48.768.258	Default	assetsd (1696)	com.apple.FileURL	default	kExcludedFromBackupXattrName set on path: <private>	
+00:48.768.585	Default	assetsd (1696)	com.apple.FileURL	default	kExcludedFromBackupXattrName set on path: <private>	
+00:48.768.599	Debug	assetsd (1696)	com.apple.photos.backend	LibraryServices	LSM-3-0xbbc285400: progress resigned current: <private>	
+00:48.768.611	Default	assetsd (1696)	com.apple.photos.backend	LibraryServices	LSM-3-0xbbc285400: Completed operation <PLLibraryServicesOperation: 0xbbc294f00>{name = 'Backup exclusion attribute'} in 0.0016 seconds with QoS QOS_CLASS_USER_INITIATED	
+00:48.768.636	Default	assetsd (1696)	com.apple.photos.backend	LibraryServices	LSM-3-0xbbc285400: Transition from library services state prep-post-migration to prep-accessible	
+00:48.768.661	Debug	assetsd (1696)	com.apple.photos.backend	LibraryServices	LSM-3-0xbbc285400: Adding pending operation: <PLLibraryServicesOperation: 0xbbc295a40>{name = 'File System Import Notify Enter'} at QoS: NSQualityOfServiceDefault	
+00:48.768.671	Debug	assetsd (1696)	com.apple.photos.backend	LibraryServices	LSM-3-0xbbc285400: Adding pending operation: <PLLibraryServicesOperation: 0xbbc295e00>{name = 'Create singleton albums if required'} at QoS: NSQualityOfServiceDefault	
+00:48.768.680	Debug	assetsd (1696)	com.apple.photos.backend	LibraryServices	LSM-3-0xbbc285400: Adding pending operation: <PLLibraryServicesOperation: 0xbbc295f40>{name = 'Detect and enqueue outstanding transaction crash recovery operations'} at QoS: NSQualityOfServiceDefault	
+00:48.768.689	Debug	assetsd (1696)	com.apple.photos.backend	LibraryServices	LSM-3-0xbbc285400: Adding pending operation: <PLLibraryServicesOperation: 0xbbc295b80>{name = 'Update graph label set'} at QoS: NSQualityOfServiceDefault	
+00:48.768.698	Debug	assetsd (1696)	com.apple.photos.backend	LibraryServices	LSM-3-0xbbc285400: Adding pending operation: <PLLibraryServicesOperation: 0xbbc295cc0>{name = 'Check for MAD version bump'} at QoS: NSQualityOfServiceDefault	
+00:48.768.705	Debug	assetsd (1696)	com.apple.photos.backend	LibraryServices	LSM-3-0xbbc285400: Adding pending operation: <PLLibraryServicesOperation: 0xbbc295040>{name = 'Handle locale change if necessary'} at QoS: NSQualityOfServiceDefault	
+00:48.768.714	Debug	assetsd (1696)	com.apple.photos.backend	LibraryServices	LSM-3-0xbbc285400: Adding pending operation: <PLLibraryServicesOperation: 0xbbc295180>{name = 'Recovery from Duplicate Merge crash recovery'} at QoS: NSQualityOfServiceDefault	
+00:48.768.733	Default	assetsd (1696)	com.apple.photos.backend	LibraryServices	LSM-3-0xbbc285400: Starting operation <PLLibraryServicesOperation: 0xbbc295a40>{name = 'File System Import Notify Enter'} with QoS QOS_CLASS_USER_INITIATED	
+00:48.768.788	Debug	assetsd (1696)	com.apple.photos.backend	LibraryServices	LSM-3-0xbbc285400: progress becoming current: <private>	
+00:48.768.799	Debug	assetsd (1696)	com.apple.photos.backend	LibraryServices	LSM-3-0xbbc285400: progress resigned current: <private>	
+00:48.768.876	Default	assetsd (1696)	com.apple.photos.backend	LibraryServices	LSM-3-0xbbc285400: Completed operation <PLLibraryServicesOperation: 0xbbc295a40>{name = 'File System Import Notify Enter'} in 0.0001 seconds with QoS QOS_CLASS_USER_INITIATED	
+00:48.768.935	Default	assetsd (1696)	com.apple.photos.backend	LibraryServices	LSM-3-0xbbc285400: Starting operation <PLLibraryServicesOperation: 0xbbc295e00>{name = 'Create singleton albums if required'} with QoS QOS_CLASS_USER_INITIATED	
+00:48.768.955	Debug	assetsd (1696)	com.apple.photos.backend	LibraryServices	LSM-3-0xbbc285400: progress becoming current: <private>	
+00:48.768.980	Debug	assetsd (1696)	com.apple.photos.backend	PhotosObjectLifecycle	PLDatabaseContext 0xbbc910620 initWithLibraryBundle:<private>	
+00:48.769.040	Debug	assetsd (1696)	com.apple.photos.backend	PhotosObjectLifecycle	PLPhotoLibrary 0xbbc13e080 initWithName <private>	
+00:48.769.215	Debug	assetsd (1696)	com.apple.defaults	User Defaults	found no value for key fsbserialization_trace in CFPrefsSearchListSource<0xbbc09c880> (Domain: com.apple.coremedia, Container: (null))	
+00:48.769.317	Debug	assetsd (1696)	com.apple.defaults	User Defaults	found no value for key audioformatdescription_trace in CFPrefsSearchListSource<0xbbc09c880> (Domain: com.apple.coremedia, Container: (null))	
+00:48.769.329	Debug	assetsd (1696)	com.apple.CFBundle	loading	dyld image path for pointer 0x19ee296b4 is /System/Library/Frameworks/CoreMedia.framework/CoreMedia	
+00:48.769.366	Debug	assetsd (1696)	com.apple.photos.backend	LibraryBundle	Inconsistent URL paths may negatively impact client access performance (original /private/var/mobile/Library/Photos/Libraries/Syndication.photoslibrary vs. current /var/mobile/Library/Photos/Libraries/Syndication.photoslibrary)	
+00:48.769.386	Debug	assetsd (1696)	com.apple.photos.backend	PersistentHistory	Updated transaction author: <private>, for context: 0xbbc88b780	
+00:48.769.439	Debug	assetsd (1696)	com.apple.photos.backend	PhotosObjectLifecycle	PLTransientManagedObjectContext 0xbbc88b780 initWithConcurrencyType:1 pathManager:<PLPhotoLibraryPathManager: 0xbbc3a5240> [UBF] [fs=16777227/file=15544]	
+00:48.769.478	Debug	assetsd (1696)	com.apple.photos.backend	PhotosObjectLifecycle	PLTransientManagedObjectContext 0xbbc88b780 setName:<private>	
+00:48.769.515	Debug	assetsd (1696)	com.apple.photos.backend	PhotosObjectLifecycle	PLPhotoLibrary 0xbbc13e080 dealloc <private>	
+00:48.769.524	Debug	assetsd (1696)	com.apple.photos.backend	PhotosObjectLifecycle	PLManagedObjectContext 0xbbc88b780 dealloc	
+00:48.769.538	Debug	assetsd (1696)	com.apple.photos.backend	LibraryServices	LSM-3-0xbbc285400: progress resigned current: <private>	
+00:48.769.547	Default	assetsd (1696)	com.apple.photos.backend	LibraryServices	LSM-3-0xbbc285400: Completed operation <PLLibraryServicesOperation: 0xbbc295e00>{name = 'Create singleton albums if required'} in 0.0006 seconds with QoS QOS_CLASS_USER_INITIATED	
+00:48.769.563	Default	assetsd (1696)	com.apple.photos.backend	LibraryServices	LSM-3-0xbbc285400: Starting operation <PLLibraryServicesOperation: 0xbbc295f40>{name = 'Detect and enqueue outstanding transaction crash recovery operations'} with QoS QOS_CLASS_USER_INITIATED	
+00:48.769.572	Debug	assetsd (1696)	com.apple.photos.backend	LibraryServices	LSM-3-0xbbc285400: progress becoming current: <private>	
+00:48.769.611	Debug	assetsd (1696)	com.apple.CFBundle	loading	dlfcn check load bundle CFBundle 0xbbc8e6220 </System/Library/Frameworks/CoreMedia.framework> (not loaded), dlopen of /System/Library/Frameworks/CoreMedia.framework/CoreMedia mode 0x115 getting handle 0x538003327255b1	
+00:48.769.633	Debug	assetsd (1696)	com.apple.photos.backend	PhotosObjectLifecycle	PLPhotoLibrary 0xbbc13df40 initWithName <private>	
+00:48.770.178	Debug	assetsd (1696)	com.apple.photos.backend	LibraryBundle	Inconsistent URL paths may negatively impact client access performance (original /private/var/mobile/Library/Photos/Libraries/Syndication.photoslibrary vs. current /var/mobile/Library/Photos/Libraries/Syndication.photoslibrary)	
+00:48.770.240	Debug	assetsd (1696)	com.apple.photos.backend	PersistentHistory	Updated transaction author: <private>, for context: 0xbbc88ba80	
+00:48.770.391	Debug	assetsd (1696)	com.apple.photos.backend	PhotosObjectLifecycle	PLTransientManagedObjectContext 0xbbc88ba80 initWithConcurrencyType:1 pathManager:<PLPhotoLibraryPathManager: 0xbbc3a5240> [UBF] [fs=16777227/file=15544]	
+00:48.770.487	Debug	assetsd (1696)	com.apple.photos.backend	PhotosObjectLifecycle	PLTransientManagedObjectContext 0xbbc88ba80 setName:<private>	
+00:48.770.936	Debug	assetsd (1696)	com.apple.CFBundle	loading	dlfcn check load bundle CFBundle 0xbbc8e6300 </System/Library/Frameworks/AudioToolbox.framework> (not loaded), dlopen of /System/Library/Frameworks/AudioToolbox.framework/AudioToolbox mode 0x115 getting handle 0x50800332731329	
+00:48.770.955	Debug	assetsd (1696)	com.apple.CFBundle	plugin	PlugIn CFBundle 0xbbc8e6300 </System/Library/Frameworks/AudioToolbox.framework> (framework, loaded) is now unscheduled for unloading	
+00:48.770.971	Debug	assetsd (1696)	com.apple.CFBundle	loading	bundle CFBundle 0xbbc8e6300 </System/Library/Frameworks/AudioToolbox.framework> (framework, loaded) handle 0x50800332731329 dlsym returns symbol 0xd5980019f13807c for AudioConverterGetProperty	
+00:48.770.981	Debug	assetsd (1696)	com.apple.CFBundle	plugin	PlugIn CFBundle 0xbbc8e6300 </System/Library/Frameworks/AudioToolbox.framework> (framework, loaded) is now unscheduled for unloading	
+00:48.770.990	Debug	assetsd (1696)	com.apple.CFBundle	loading	bundle CFBundle 0xbbc8e6300 </System/Library/Frameworks/AudioToolbox.framework> (framework, loaded) handle 0x50800332731329 dlsym returns symbol 0xf61400019f13da18 for AudioConverterSetProperty	
+00:48.770.997	Debug	assetsd (1696)	com.apple.CFBundle	plugin	PlugIn CFBundle 0xbbc8e6300 </System/Library/Frameworks/AudioToolbox.framework> (framework, loaded) is now unscheduled for unloading	
+00:48.771.005	Debug	assetsd (1696)	com.apple.CFBundle	loading	bundle CFBundle 0xbbc8e6300 </System/Library/Frameworks/AudioToolbox.framework> (framework, loaded) handle 0x50800332731329 dlsym returns symbol 0x635600019f165c2c for AudioFormatGetProperty	
+00:48.771.012	Debug	assetsd (1696)	com.apple.CFBundle	plugin	PlugIn CFBundle 0xbbc8e6300 </System/Library/Frameworks/AudioToolbox.framework> (framework, loaded) is now unscheduled for unloading	
+00:48.771.019	Debug	assetsd (1696)	com.apple.CFBundle	loading	bundle CFBundle 0xbbc8e6300 </System/Library/Frameworks/AudioToolbox.framework> (framework, loaded) handle 0x50800332731329 dlsym returns symbol 0xd33280019f128d64 for AudioFormatGetPropertyInfo	
+00:48.771.028	Debug	assetsd (1696)	com.apple.CFBundle	plugin	PlugIn CFBundle 0xbbc8e6300 </System/Library/Frameworks/AudioToolbox.framework> (framework, loaded) is now unscheduled for unloading	
+00:48.771.115	Debug	assetsd (1696)	com.apple.CFBundle	loading	bundle CFBundle 0xbbc8e6300 </System/Library/Frameworks/AudioToolbox.framework> (framework, loaded) handle 0x50800332731329 dlsym returns symbol 0x193d80019f15f088 for AudioConverterDispose	
+00:48.771.165	Debug	assetsd (1696)	com.apple.CFBundle	plugin	PlugIn CFBundle 0xbbc8e6300 </System/Library/Frameworks/AudioToolbox.framework> (framework, loaded) is now unscheduled for unloading	
+00:48.771.189	Debug	assetsd (1696)	com.apple.CFBundle	loading	bundle CFBundle 0xbbc8e6300 </System/Library/Frameworks/AudioToolbox.framework> (framework, loaded) handle 0x50800332731329 dlsym returns symbol 0x91780019f10f8a0 for AudioConverterNew	
+00:48.771.232	Debug	backboardd (68)	com.apple.BackBoard	MotionEvents	Motion event usagePage:0xff0c usage:1 	
+00:48.771.326	Debug	backboardd (68)	com.apple.BackBoard	MotionEvents	Motion event usagePage:0xff0c usage:1 	
+00:48.771.344	Info	locationd (74)	com.apple.locationd.Motion	AOP	{"msg":"received AOP log", "log":72 Bytes}	
+00:48.771.408	Info	locationd (74)	com.apple.locationd.Motion	AOP	{"msg":"received AOP log", "log":72 Bytes}	
+00:48.771.433	Debug	cfprefsd (106)	com.apple.defaults	cfprefsd	Process 1,696 (assetsd) sent a request related to { com.apple.coreaudio, user: kCFPreferencesAnyUser, kCFPreferencesCurrentHost, /Library/Managed Preferences/com.apple.coreaudio.plist, managed: 1 } (0x9563775c0)	
+00:48.771.467	Debug	cfprefsd (106)	com.apple.defaults	cfprefsd	Couldn't open <private> due to No such file or directory	
+00:48.771.504	Debug	cfprefsd (106)	com.apple.defaults	cfprefsd	Process 1,696 (assetsd) sent a request related to { com.apple.coreaudio, user: kCFPreferencesAnyUser, kCFPreferencesCurrentHost, /var/preferences/com.apple.coreaudio.plist, managed: 0 } (0x9563775c0)	
+00:48.771.528	Debug	cfprefsd (106)	com.apple.defaults	cfprefsd	Couldn't open <private> due to No such file or directory	
+00:48.771.602	Debug	cfprefsd (107)	com.apple.defaults	cfprefsd	Process 1,696 (assetsd) sent a request related to { com.apple.coreaudio, user: mobile, kCFPreferencesCurrentHost, /Library/Managed Preferences/mobile/com.apple.coreaudio.plist, managed: 1 } (0xd3cab9f40)	
+00:48.771.629	Debug	assetsd (1696)	com.apple.defaults	User Defaults	CFPrefsManagedSource<0xbbc820f80> (Domain: com.apple.coreaudio, User: kCFPreferencesAnyUser, ByHost: Yes, Container: (null), Contents Need Refresh: No) loaded: an empty base plist and no additional changes from the base plist	
+00:48.771.640	Debug	cfprefsd (107)	com.apple.defaults	cfprefsd	Couldn't open <private> due to No such file or directory	
+00:48.771.680	Debug	assetsd (1696)	com.apple.defaults	User Defaults	CFPrefsPlistSource<0xbbc821100> (Domain: com.apple.coreaudio, User: kCFPreferencesAnyUser, ByHost: Yes, Container: (null), Contents Need Refresh: No) loaded: an empty base plist and no additional changes from the base plist	
+00:48.771.687	Debug	cfprefsd (107)	com.apple.defaults	cfprefsd	Process 1,696 (assetsd) sent a request related to { com.apple.coreaudio, user: mobile, kCFPreferencesAnyHost, /var/mobile/Library/Preferences/com.apple.coreaudio.plist, managed: 0 } (0xd3c028780)	
+00:48.771.705	Debug	cfprefsd (107)	com.apple.defaults	cfprefsd	Process 1,696 (assetsd) read data for { com.apple.coreaudio, mobile, kCFPreferencesAnyHost, /var/mobile/Library/Preferences/com.apple.coreaudio.plist, managed: 0 }, backed by /private/var/mobile/Library/Preferences/com.apple.coreaudio.plist	
+00:48.771.752	Debug	assetsd (1696)	com.apple.defaults	User Defaults	CFPrefsManagedSource<0xbbc820f00> (Domain: com.apple.coreaudio, User: kCFPreferencesCurrentUser, ByHost: Yes, Container: (null), Contents Need Refresh: No) loaded: an empty base plist and no additional changes from the base plist	
+00:48.771.772	Debug	assetsd (1696)	com.apple.defaults	User Defaults	CFPrefsPlistSource<0xbbc821000> (Domain: com.apple.coreaudio, User: kCFPreferencesCurrentUser, ByHost: No, Container: (null), Contents Need Refresh: No) loaded: a new base plist and no additional changes from the base plist	
+00:48.771.826	Debug	assetsd (1696)	com.apple.defaults	User Defaults	found no value for key AllAUsPublic in CFPrefsSearchListSource<0xbbc820e80> (Domain: com.apple.coreaudio, Container: (null))	
+00:48.772.179	Default	Unknown (0)	AppleH16ANEInterface	Default	ANE0: processTargetToHostIOCommand: fwCpuLoadScore: 10, fwCpuThrottled: 0, Enabling ANE CPU throttle, numRequestsWithFW: 0
+	
+00:48.772.265	Debug	assetsd (1696)	com.apple.defaults	User Defaults	found no value for key AllAUsPublic in CFPrefsSearchListSource<0xbbc820e80> (Domain: com.apple.coreaudio, Container: (null))	
+00:48.772.278	Debug	assetsd (1696)	com.apple.defaults	User Defaults	found no value for key AllCodecsOK in CFPrefsSearchListSource<0xbbc820e80> (Domain: com.apple.coreaudio, Container: (null))	
+00:48.772.378	Debug	backboardd (68)	com.apple.BackBoard	MotionEvents	Motion event usagePage:0xff0c usage:1 	
+00:48.772.438	Debug	backboardd (68)	com.apple.BackBoard	MotionEvents	Motion event usagePage:0xff0c usage:1 	
+00:48.772.580	Debug	assetsd (1696)	com.apple.photos.backend	ClientServerTransactions	Enqueuing outstanding transactions	
+00:48.772.600	Debug	assetsd (1696)	com.apple.photos.backend	LibraryServices	LSM-3-0xbbc285400: progress resigned current: <private>	
+00:48.772.611	Default	assetsd (1696)	com.apple.photos.backend	LibraryServices	LSM-3-0xbbc285400: Completed operation <PLLibraryServicesOperation: 0xbbc295f40>{name = 'Detect and enqueue outstanding transaction crash recovery operations'} in 0.0030 seconds with QoS QOS_CLASS_USER_INITIATED	
+00:48.772.625	Default	assetsd (1696)	com.apple.photos.backend	LibraryServices	LSM-3-0xbbc285400: Starting operation <PLLibraryServicesOperation: 0xbbc295b80>{name = 'Update graph label set'} with QoS QOS_CLASS_USER_INITIATED	
+00:48.772.668	Debug	assetsd (1696)	com.apple.photos.backend	LibraryServices	LSM-3-0xbbc285400: progress becoming current: <private>	
+00:48.772.724	Debug	Unknown (0)	ApplePearlSEPDriver	Default	returnCameraMessage_SendBuffers <- message:<private>, frameId:[119:0]
+	
+00:48.772.726	Info	Unknown (0)	ApplePearlSEPDriver	Default	sendMessageToCamera: messageType:SendBuffers (6)
+	
+00:48.772.728	Default	Unknown (0)	ApplePearlSEPDriver	Default	returnCameraMessage_SendBuffers: (Cam <-- frameId:[119:0]) -> err:0x0, _framesHeld:1)
+	
+00:48.772.729	Debug	Unknown (0)	ApplePearlSEPDriver	Default	IOPearlCameraFrame::free: frameId:[119:0], _framesHeldCount:0
+	
+00:48.772.731	Debug	Unknown (0)	ApplePearlSEPDriver	Default	cameraFrameHandler <- commandMode:4, _cameraState:3
+	
+00:48.772.733	Debug	Unknown (0)	ApplePearlSEPDriver	Default	cameraFrameHandler -> err:0x0
+	
+00:48.772.734	Debug	Unknown (0)	ApplePearlSEPDriver	Default	cameraMessageHandler: Message type: FaceDetectStatus (4)
+	
+00:48.772.735	Debug	Unknown (0)	ApplePearlSEPDriver	Default	handleCameraMessage_FaceDetectStatus <- message:<private>
+	
+00:48.772.736	Default	Unknown (0)	ApplePearlSEPDriver	Default	handleCameraMessage_FaceDetectStatus: _faceDetected:1
+	
+00:48.772.737	Debug	Unknown (0)	ApplePearlSEPDriver	Default	analyticsReceivedFaceDetectResult <- statistics:<private>, faceDetected:1
+	
+00:48.772.739	Debug	Unknown (0)	ApplePearlSEPDriver	Default	analyticsFaceDetectResult <- fdResult:0
+	
+00:48.772.740	Debug	Unknown (0)	ApplePearlSEPDriver	Default	analyticsCurrentEventFinish <- _analyticsCurrentEvent:1,003
+	
+00:48.772.742	Info	Unknown (0)	ApplePearlSEPDriver	Default	switchCameraState: FaceDetect (3) -> FaceDetectDone (4)
+	
+00:48.772.743	Debug	Unknown (0)	ApplePearlSEPDriver	Default	checkCameraState <- msDelay:0
+	
+00:48.772.748	Debug	Unknown (0)	ApplePearlSEPDriver	Default	loggingFaceDetectQueueHandleResult <- 
+	
+00:48.772.749	Debug	Unknown (0)	ApplePearlSEPDriver	Default	loggingFaceDetectQueueHandleResult -> err:0x0
+	
+00:48.772.750	Debug	Unknown (0)	ApplePearlSEPDriver	Default	handleCameraStatisticsPhaseMessage <- statistics:<private>, phase:AttCheck (4)
+	
+00:48.772.763	Default	Unknown (0)	ApplePearlSEPDriver	Default	handleCameraStatisticsPhaseMessage: phase:AttCheck (4), flood:1, sparse:0, dense:0
+	
+00:48.772.764	Debug	Unknown (0)	ApplePearlSEPDriver	Default	handleCameraStatisticsPhaseMessage -> err:0x0
+	
+00:48.772.765	Debug	Unknown (0)	ApplePearlSEPDriver	Default	handleResultStatisticsPhaseMessage <- pass:1, phase:AttCheck (4)
+	
+00:48.772.767	Debug	Unknown (0)	ApplePearlSEPDriver	Default	handleResultStatisticsPhaseMessage -> err:0x0
+	
+00:48.772.768	Debug	Unknown (0)	ApplePearlSEPDriver	Default	handleCameraMessage_FaceDetectStatus -> err:0x0
+	
+00:48.772.773	Debug	Unknown (0)	ApplePearlSEPDriver	Default	cameraStateHandler <- sender:<private>
+	
+00:48.772.776	Debug	Unknown (0)	IOBiometricFamily	Default	IOBiometricService::lockCommandAccess <- 
+	
+00:48.772.779	Default	Unknown (0)	ApplePearlSEPDriver	Default	cameraStateHandler: _commandMode:PresenceDetect (4), _cameraState:FaceDetectDone (4), _faceDetected:1, _failedCommand:0, _newOperationStarted:0
+	
+00:48.772.782	Debug	Unknown (0)	ApplePearlSEPDriver	Default	analyticsFaceDetectStop <- 
+	
+00:48.772.783	Debug	Unknown (0)	ApplePearlSEPDriver	Default	analyticsCurrentEventFinish <- _analyticsCurrentEvent:1,003
+	
+00:48.772.784	Info	Unknown (0)	ApplePearlSEPDriver	Default	analyticsCurrentEventFinish: Send data for _analyticsCurrentEvent: 1,003
+	
+00:48.772.785	Default	Unknown (0)	ApplePearlSEPDriver	Default	loggingMessage <- msgType:1,003, eventTime:0, data:<private>, dataSize:95, dataTimeId:0, seqId:0x0
+	
+00:48.772.791	Debug	Unknown (0)	IOBiometricFamily	Default	MCDataMessaging::messageClients <- type:0xe3ff8006, version:1, argument:<private>, argSize:130, argData:0x0, msgAbsTime:0
+	
+00:48.772.795	Debug	Unknown (0)	IOBiometricFamily	Default	MCDataMessaging::enqueueData <- dataStruct:<private>, dataStructSize:170
+	
+00:48.772.823	Debug	Unknown (0)	IOBiometricFamily	Default	MCDataMessaging::messageClients -> 0xe00002c7
+	
+00:48.772.824	Debug	Unknown (0)	ApplePearlSEPDriver	Default	loggingMessage -> result:0xe00002c7
+	
+00:48.772.825	Debug	Unknown (0)	ApplePearlSEPDriver	Default	analyticsClearEventContext <- 
+	
+00:48.772.826	Debug	Unknown (0)	ApplePearlSEPDriver	Default	sendFaceDetectResultToClients: _faceDetected:1
+	
+00:48.772.827	Debug	Unknown (0)	IOBiometricFamily	Default	MCDataMessaging::messageClients <- type:0xe3ff8001, version:1, argument:0x3f, argSize:42, argData:<private>, msgAbsTime:0
+	
+00:48.772.830	Debug	Unknown (0)	IOBiometricFamily	Default	MCDataMessaging::enqueueData <- dataStruct:<private>, dataStructSize:82
+	
+00:48.772.832	Debug	Unknown (0)	IOBiometricFamily	Default	MCDataMessaging::messageClients -> 0xe00002c7
+	
+00:48.772.833	Debug	Unknown (0)	IOBiometricFamily	Default	MCDataMessaging::messageClients <- type:0xe3ff8001, version:1, argument:0x3eb, argSize:0, argData:0x0, msgAbsTime:0
+	
+00:48.772.836	Debug	Unknown (0)	IOBiometricFamily	Default	MCDataMessaging::messageClients -> 0xe00002c7
+	
+00:48.772.837	Debug	Unknown (0)	ApplePearlSEPDriver	Default	loggingFaceDetectQueueHandleResult <- 
+	
+00:48.772.838	Debug	Unknown (0)	ApplePearlSEPDriver	Default	loggingFaceDetectQueueHandleResult -> err:0x0
+	
+00:48.772.839	Debug	Unknown (0)	ApplePearlSEPDriver	Default	gatherSequenceInfo <- 
+	
+00:48.772.840	Info	Unknown (0)	ApplePearlSEPDriver	Default	gatherSequenceInfo: lastSequenceNumber:118, _loggingCurrentSequenceId.number:119
+	
+00:48.772.842	Debug	Unknown (0)	IOBiometricFamily	Default	IOBiometricService::unlockCommandAccess <- 
+	
+00:48.772.843	Debug	Unknown (0)	ApplePearlSEPDriver	Default	cameraStateHandler -> void
+	
+00:48.772.848	Debug	Unknown (0)	ApplePearlSEPDriver	Default	cameraFrameHandler <- commandMode:4, _cameraState:4
+	
+00:48.772.849	Debug	Unknown (0)	ApplePearlSEPDriver	Default	cameraFrameHandler -> err:0x0
+	
+00:48.772.912	Debug	biometrickitd (116)	com.apple.BiometricKit	Daemon-Pearl	__serviceStatus 0x104d14900(<private>) --> serviceStatus:type:inValue:
+	
+00:48.772.914	Debug	assetsd (1696)	com.apple.photos.backend	PhotosObjectLifecycle	PLPhotoLibrary 0xbbc13e080 initWithName <private>	
+00:48.772.922	Debug	backboardd (68)	com.apple.BackBoard	MotionEvents	Motion event usagePage:0xff0c usage:1 	
+00:48.772.970	Debug	biometrickitd (116)	com.apple.BiometricKit	Daemon-Common	serviceStatus:type:inValue: 24,175 0xe3ff8000 1,802,594,116(0x6b716744)
+	
+00:48.772.997	Debug	biometrickitd (116)	com.apple.BiometricKit	Daemon-Pearl	performRequestMessageDataCommand:size:outData: 0x1103bfac94a 130 0x16b716510
+	
+00:48.773.029	Debug	biometrickitd (116)	com.apple.BiometricKit	Daemon-Pearl	performCommand:inValue:inData:inSize:outData:outSize: --> performCommand:version:inValue:inData:inSize:outData:outSize:
+	
+00:48.773.046	Debug	biometrickitd (116)	com.apple.BiometricKit	Daemon-Pearl	performCommand:version:inValue:inData:inSize:outData:outSize: 7 1 0 0x16b716478 8 0x52e038000 0x16b716470
+	
+00:48.773.114	Debug	biometrickitd (116)	com.apple.BiometricKit	Daemon-Pearl	performCommand:version:inValue:inData:inSize:outData:outSize: -> [0: Undefined error: 0]
+	
+00:48.773.132	Debug	biometrickitd (116)	com.apple.BiometricKit	Daemon-Pearl	performRequestMessageDataCommand -> 0
+	
+00:48.773.169	Debug	biometrickitd (116)	com.apple.BiometricKit	Daemon-Common	serviceStatus:type:inValue: MCDMExtractMessageData 3,825,172,486 1,169,237,395,786 1 0x0 130 <private> 0(0x0) 1,169,237,395,786
+	
+00:48.773.314	Debug	backboardd (68)	com.apple.BackBoard	MotionEvents	Motion event usagePage:0xff0c usage:1 	
+00:48.773.317	Debug	assetsd (1696)	com.apple.photos.backend	LibraryBundle	Inconsistent URL paths may negatively impact client access performance (original /private/var/mobile/Library/Photos/Libraries/Syndication.photoslibrary vs. current /var/mobile/Library/Photos/Libraries/Syndication.photoslibrary)	
+00:48.773.362	Debug	biometrickitd (116)	com.apple.BiometricKit	Daemon-Pearl	serviceStatus:version:ordinal:data:timestamp: 0xe3ff8006 0x1 0x0 <private> 1,169,237,395,786
+	
+00:48.773.410	Debug	assetsd (1696)	com.apple.photos.backend	PersistentHistory	Updated transaction author: <private>, for context: 0xbbc0d0000	
+00:48.773.480	Debug	biometrickitd (116)	com.apple.BiometricKit	Daemon-Pearl	serviceStatus:type:inValue: -> 0x0
+	
+00:48.773.504	Debug	biometrickitd (116)	com.apple.BiometricKit	Daemon-Pearl	analyticsKernelMessage: 1
+	
+00:48.773.583	Debug	biometrickitd (116)	com.apple.BiometricKit	Daemon-Pearl	__serviceStatus 0x104d14900(<private>) --> serviceStatus:type:inValue:
+	
+00:48.773.630	Info	biometrickitd (116)	com.apple.locationd.Motion	Orientation	Received deviceOrientationBlocking	
+00:48.773.674	Debug	biometrickitd (116)	com.apple.BiometricKit	Daemon-Common	serviceStatus:type:inValue: 24,179 0xe3ff8000 1,802,602,308(0x6b718744)
+	
+00:48.773.703	Debug	assetsd (1696)	com.apple.photos.backend	PhotosObjectLifecycle	PLTransientManagedObjectContext 0xbbc0d0000 initWithConcurrencyType:1 pathManager:<PLPhotoLibraryPathManager: 0xbbc3a5240> [UBF] [fs=16777227/file=15544]	
+00:48.773.783	Debug	biometrickitd (116)	com.apple.BiometricKit	Daemon-Pearl	performRequestMessageDataCommand:size:outData: 0x1103bfacc91 42 0x16b716510
+	
+00:48.773.829	Debug	assetsd (1696)	com.apple.photos.backend	PhotosObjectLifecycle	PLTransientManagedObjectContext 0xbbc0d0000 setName:<private>	
+00:48.773.854	Debug	biometrickitd (116)	com.apple.BiometricKit	Daemon-Pearl	performCommand:inValue:inData:inSize:outData:outSize: --> performCommand:version:inValue:inData:inSize:outData:outSize:
+	
+00:48.773.939	Debug	biometrickitd (116)	com.apple.BiometricKit	Daemon-Pearl	performCommand:version:inValue:inData:inSize:outData:outSize: 7 1 0 0x16b716478 8 0x52e29a980 0x16b716470
+	
+00:48.774.082	Info	locationd (74)	com.apple.locationd.Motion	Motion	Type,<private>,motionStateUpdate:Motion,1,conf,2,Mounted,1,MountedConf,2,exitState,<private>,turn,<private>,isVehicular,<private>,isMoving,<private>,seq,<private>,motionTypeString,<private>,startTime,753,594,903.7049,timestamp,<private>,startTimeUL,<private>,nowUL,<private> -- caltype,<private>,vm,<private>,standing,<private>,machinefrequency,<private>,strokefrequency,<private>,strokeAmplitude,<private>,strokepower,<private>,meanAngleX,<private>,pushVectorMagnitude,<private>,rawMotionType,1,rawConf,2,rawMotionTypeString,<private>,vehicularFlags:0,motionHint,<private>,gpsHint,<private>,basebandHint,<private>,wifiHint,<private>,btHint,<private>,workoutDetectionType,0,workoutDetectionTime,0.0000,vehicularConfidence,0,workoutDetectionTimeUL,<private>,workoutEscalationTime,<private>,MotionYouth,0,YouthClassificationReason,0,averageALSLux,18,446,744,073,709,551,615,vehicleType,0,vehicleShortTermMean,<private>	
+00:48.774.116	Debug	biometrickitd (116)	com.apple.BiometricKit	Daemon-Pearl	performCommand:version:inValue:inData:inSize:outData:outSize: -> [0: Undefined error: 0]
+	
+00:48.774.144	Info	locationd (74)	com.apple.locationd.Motion	AOP	{"msg":"received AOP log", "log":72 Bytes}	
+00:48.774.197	Debug	biometrickitd (116)	com.apple.BiometricKit	Daemon-Pearl	performRequestMessageDataCommand -> 0
+	
+00:48.774.247	Debug	biometrickitd (116)	com.apple.BiometricKit	Daemon-Common	serviceStatus:type:inValue: MCDMExtractMessageData 3,825,172,481 1,169,237,396,625 1 0x0 42 <private> 63(0x3f) 1,169,237,396,625
+	
+00:48.774.290	Debug	biometrickitd (116)	com.apple.BiometricKit	Daemon-Pearl	serviceStatus:version:ordinal:data:timestamp: 0xe3ff8001 0x1 0x3f <private> 1,169,237,396,625
+	
+00:48.774.342	Default	MonoProxyTunnel (390)	com.apple.containermanager	unspecified	container_create_or_lookup_app_group_path_by_app_group_identifier: success	
+00:48.774.342	Debug	biometrickitd (116)	com.apple.BiometricKit	Daemon-Common	serviceStatus:version:ordinal:data:timestamp: 0xe3ff8001 0x1 0x3f <private> 1,169,237,396,625
+	
+00:48.774.397	Debug	biometrickitd (116)	com.apple.BiometricKit	Daemon-Pearl	statusMessage:withData:timestamp: 63 <private> 1,169,237,396,625
+	
+00:48.774.512	Default	biometrickitd (116)	com.apple.locationd.Motion	Orientation	Got cached orientation 1	
+00:48.774.562	Debug	backboardd (68)	com.apple.BackBoard	MotionEvents	Motion event usagePage:0xff0c usage:1 	
+00:48.774.566	Debug	assetsd (1696)	com.apple.photos.backend	PhotosObjectLifecycle	PLPhotoLibrary 0xbbc13e080 dealloc <private>	
+00:48.774.618	Debug	biometrickitd (116)	com.apple.BiometricKit	Daemon-Pearl	faceInfo:0x52e29a980
+	
+00:48.774.658	Debug	assetsd (1696)	com.apple.photos.backend	PhotosObjectLifecycle	PLManagedObjectContext 0xbbc0d0000 dealloc	
+00:48.774.683	Info	locationd (74)	com.apple.locationd.Motion	AOP	{"msg":"received AOP log", "log":72 Bytes}	
+00:48.774.750	Debug	biometrickitd (116)	com.apple.BiometricKit	Daemon-Pearl	PearlCoreAnalytics sendFaceDetectEventAnalytics: fdMessage: 1
+	
+00:48.774.830	Debug	biometrickitd (116)	com.apple.BiometricKit	Daemon-Pearl	details:<private>
+	
+00:48.774.867	Debug	assetsd (1696)	com.apple.photos.backend	LibraryServices	LSM-3-0xbbc285400: progress resigned current: <private>	
+00:48.774.944	Debug	biometrickitd (116)	com.apple.BiometricKit	Daemon-Pearl	PearlCoreAnalytics postSimpleCoreAnalyticsEvent eventName: com.apple.biometrickit.pearl.faceDetectAttempt awdMetric: 0x52e09a800
+	
+00:48.774.993	Default	assetsd (1696)	com.apple.photos.backend	LibraryServices	LSM-3-0xbbc285400: Completed operation <PLLibraryServicesOperation: 0xbbc295b80>{name = 'Update graph label set'} in 0.0023 seconds with QoS QOS_CLASS_USER_INITIATED	
+00:48.775.101	Debug	biometrickitd (116)	com.apple.BiometricKit	Daemon-Common	cancelWithClient: <private>
+	
+00:48.775.122	Debug	biometrickitd (116)	com.apple.BiometricKit	Daemon-Pearl	PearlCoreAnalyticsEvent reset event: com.apple.biometrickit.pearl.faceDetectAttempt
+	
+00:48.775.156	Default	assetsd (1696)	com.apple.photos.backend	LibraryServices	LSM-3-0xbbc285400: Starting operation <PLLibraryServicesOperation: 0xbbc295cc0>{name = 'Check for MAD version bump'} with QoS QOS_CLASS_USER_INITIATED	
+00:48.775.173	Debug	biometrickitd (116)	com.apple.BiometricKit	Daemon-Pearl	performCommand:inValue:inData:inSize:outData:outSize: --> performCommand:version:inValue:inData:inSize:outData:outSize:
+	
+00:48.775.214	Debug	biometrickitd (116)	com.apple.BiometricKit	Daemon-Common	BiometricKitCoreAnalyticsEvent(com.apple.biometrickit.pearl.faceDetectAttempt) reset event
+	
+00:48.775.222	Default	backboardd (68)	com.apple.BiometricKit	Framework-API	BKFaceDetectOperation::statusMessage: 63
+	
+00:48.775.247	Debug	assetsd (1696)	com.apple.photos.backend	LibraryServices	LSM-3-0xbbc285400: progress becoming current: <private>	
+00:48.775.265	Debug	biometrickitd (116)	com.apple.BiometricKit	Daemon-Pearl	performCommand:version:inValue:inData:inSize:outData:outSize: 6 1 0 0x0 0 0x0 0x0
+	
+00:48.775.308	Default	backboardd (68)	com.apple.BiometricKit	Framework-Internal	BKFaceDetectOperation::statusMessage: 0xdb4866280(<private>) faceDetectStateChanged: 1
+	
+00:48.775.392	Debug	assetsd (1696)	com.apple.photos.backend	PhotosObjectLifecycle	PLPhotoLibrary 0xbbc13e080 initWithName <private>	
+00:48.775.403	Default	backboardd (68)	com.apple.BiometricKit	Framework-API	BKOperation::statusMessage: 63
+	
+00:48.775.424	Debug	biometrickitd (116)	com.apple.BiometricKit	Daemon-Pearl	PearlCoreAnalyticsEvent postEvent: com.apple.biometrickit.pearl.faceDetectAttempt
+	
+00:48.775.449	Default	backboardd (68)	com.apple.AttentionAwareness	AttentionAwareness	48,718.2275: <BiokitOperation: 0xdb4866280> operation 0xdb6f0aee0 currentOperation 0xdb6f0aee0 faceDetectStateChanged FACE FOUND pitch: -3 yaw: 0 roll: -5 orientation: Portrait attentionScore: 987faceDetectionScore: 99	
+00:48.775.511	Debug	Unknown (0)	ApplePearlSEPDriver	Default	ApplePearlUserClient::extPerform -> err:0x0
+	
+00:48.775.514	Debug	Unknown (0)	ApplePearlSEPDriver	Default	ApplePearlUserClient::externalMethod -> err:0x0
+	
+00:48.775.522	Debug	biometrickitd (116)	com.apple.BiometricKit	Daemon-Pearl	performCommand:version:inValue:inData:inSize:outData:outSize: -> [0: Undefined error: 0]
+	
+00:48.775.526	Debug	Unknown (0)	ApplePearlSEPDriver	Default	cameraStateHandler <- sender:<private>
+	
+00:48.775.527	Debug	Unknown (0)	IOBiometricFamily	Default	IOBiometricService::lockCommandAccess <- 
+	
+00:48.775.528	Default	Unknown (0)	ApplePearlSEPDriver	Default	cameraStateHandler: _commandMode:Idle (1), _cameraState:FaceDetectDone (4), _faceDetected:1, _failedCommand:0, _newOperationStarted:0
+	
+00:48.775.531	Debug	Unknown (0)	ApplePearlSEPDriver	Default	analyticsCurrentEventStop <- _analyticsCurrentEvent:1,000
+	
+00:48.775.532	Debug	Unknown (0)	ApplePearlSEPDriver	Default	stopAndPowerOffCamera <- msPowerOffDelay:0
+	
+00:48.775.533	Default	Unknown (0)	ApplePearlSEPDriver	Default	stopCamera <- 
+	
+00:48.775.536	Info	Unknown (0)	ApplePearlSEPDriver	Default	sendMessageToCamera: messageType:Stop (3)
+	
+00:48.775.541	Info	Unknown (0)	ApplePearlSEPDriver	Default	switchCameraState: FaceDetectDone (4) -> Idle (2)
+	
+00:48.775.542	Debug	Unknown (0)	IOBiometricFamily	Default	MCDataMessaging::messageClients <- type:0xe3ff8001, version:1, argument:0x3f3, argSize:0, argData:0x0, msgAbsTime:0
+	
+00:48.775.546	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16PearlCam:PearlCamMessageHandler_Stop - state=3, sequence=2
+	
+00:48.775.546	Debug	biometrickitd (116)	com.apple.BiometricKit	Daemon-Common	BiometricKitCoreAnalyticsEvent(com.apple.biometrickit.pearl.faceDetectAttempt) dictionaryRepresentation: 0
+	
+00:48.775.548	Default	Unknown (0)	AppleH16CameraInterface	Default	=============================================================
+
+	
+00:48.775.549	Debug	Unknown (0)	IOBiometricFamily	Default	MCDataMessaging::messageClients -> 0xe00002c7
+	
+00:48.775.549	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16PearlCam::PearlCam_ShowSharedMemoryAllocations_gated:
+
+	
+00:48.775.550	Debug	Unknown (0)	ApplePearlSEPDriver	Default	makeProcessingThreadsNonRealTime <- 
+	
+00:48.775.551	Default	Unknown (0)	AppleH16CameraInterface	Default	=============================================================
+
+	
+00:48.775.551	Debug	Unknown (0)	ApplePearlSEPDriver	Default	makeProcessingThreadsNonRealTime -> err:0x0
+	
+00:48.775.556	Debug	Unknown (0)	AppleSEPGenericTransfer	Default	AppleSEPGenericTransfer::getEndpoint: -> 0, 	
+00:48.775.557	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamInFrameReceiverBufferPool:ShowBuffers - PearlCam Pool Buffer (in-use): surface-id:e3, DART:100040dc000, size:1,851,520
+	
+00:48.775.557	Debug	Unknown (0)	ApplePearlSEPDriver	Default	unmapScheme3IOBMD -> err:0x0
+	
+00:48.775.559	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamInFrameReceiverBufferPool:ShowBuffers - PearlCam Pool Buffer (in-use): surface-id:e6, DART:10003f10000, size:1,851,520
+	
+00:48.775.560	Info	Unknown (0)	ApplePearlSEPDriver	Default	sendMessageToCamera: messageType:PowerOff (1)
+	
+00:48.775.561	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamInFrameReceiverBufferPool:ShowBuffers - PearlCam Pool Buffer (in-use): surface-id:d3, DART:10003d44000, size:1,851,520
+	
+00:48.775.562	Info	Unknown (0)	ApplePearlSEPDriver	Default	switchCameraState: Idle (2) -> PoweredOff (1)
+	
+00:48.775.563	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamInFrameReceiverBufferPool:ShowBuffers - PearlCam Pool Buffer (in-use): surface-id:e4, DART:10003b78000, size:1,851,520
+	
+00:48.775.564	Debug	Unknown (0)	ApplePearlSEPDriver	Default	stopAndPowerOffCamera -> err:0x0
+	
+00:48.775.565	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamInFrameReceiverBufferPool:ShowBuffers - PearlCam Pool Buffer (in-use): surface-id:cb, DART:100039ac000, size:1,851,520
+	
+00:48.775.566	Debug	Unknown (0)	IOBiometricFamily	Default	IOBiometricService::unlockCommandAccess <- 
+	
+00:48.775.567	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamInFrameReceiverBufferPool:ShowBuffers - PearlCam Pool Buffer (in-use): surface-id:df, DART:100037e0000, size:1,851,520
+	
+00:48.775.568	Debug	Unknown (0)	ApplePearlSEPDriver	Default	cameraStateHandler -> void
+	
+00:48.775.569	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamInFrameReceiverBufferPool:ShowBuffers - PearlCam Pool Buffer (in-use): surface-id:e2, DART:10003614000, size:1,851,520
+	
+00:48.775.571	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamInFrameReceiverBufferPool:ShowBuffers - PearlCam Pool Buffer (in-use): surface-id:dc, DART:10003448000, size:1,851,520
+	
+00:48.775.572	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamInFrameReceiverBufferPool:ShowBuffers - PearlCam Pool Buffer (in-use): surface-id:db, DART:1000327c000, size:1,851,520
+	
+00:48.775.574	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamInFrameReceiverBufferPool:ShowBuffers - PearlCam Pool Buffer (in-use): surface-id:da, DART:100030b0000, size:1,851,520
+	
+00:48.775.575	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamInFrameReceiverBufferPool:ShowBuffers - PearlCam Pool Buffer (in-use): surface-id:d7, DART:10002ee4000, size:1,851,520
+	
+00:48.775.577	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamInFrameReceiverBufferPool:ShowBuffers - PearlCam Pool Buffer (in-use): surface-id:d5, DART:10002d18000, size:1,851,520
+	
+00:48.775.579	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamInFrameReceiverBufferPool:ShowBuffers - PearlCam Pool Buffer (free):   surface-id:47, DART:1000241c000, size:1,851,520
+	
+00:48.775.581	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamInFrameReceiverBufferPool:ShowBuffers - PearlCam Pool Buffer (free):   surface-id:95, DART:100025e8000, size:1,851,520
+	
+00:48.775.582	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamInFrameReceiverBufferPool:ShowBuffers - PearlCam Pool Buffer (free):   surface-id:99, DART:100027b4000, size:1,851,520
+	
+00:48.775.584	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamInFrameReceiverBufferPool:ShowBuffers - PearlCam Pool Buffer (free):   surface-id:b7, DART:10002980000, size:1,851,520
+	
+00:48.775.585	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamInFrameReceiverBufferPool:ShowBuffers - PearlCam Pool Buffer (free):   surface-id:cd, DART:10002b4c000, size:1,851,520
+	
+00:48.775.587	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamInFrameReceiverBufferPool:ShowBuffers - PearlCam Pool Buffer (free):   surface-id:d6, DART:100042a8000, size:1,851,520
+	
+00:48.775.589	Default	Unknown (0)	AppleH16CameraInterface	Default	PearlCam Pool: poolID=141, inUseCount=12, freeCount=6, totalCount=18, fNumBuffersSentToFirmware=12, totalMemoryAllocated: 571,392
+
+	
+00:48.775.592	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamInFrameReceiverBufferPool:ShowBuffers - PearlCam Pool Buffer (in-use): surface-id:fb, DART:100044a4000, size:31,744
+	
+00:48.775.593	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamInFrameReceiverBufferPool:ShowBuffers - PearlCam Pool Buffer (in-use): surface-id:fd, DART:10004498000, size:31,744
+	
+00:48.775.595	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamInFrameReceiverBufferPool:ShowBuffers - PearlCam Pool Buffer (in-use): surface-id:ee, DART:1000448c000, size:31,744
+	
+00:48.775.595	Default	backboardd (68)	com.apple.BiometricKit	Framework-API	BKOperation::statusMessage: -> void
+	
+00:48.775.596	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamInFrameReceiverBufferPool:ShowBuffers - PearlCam Pool Buffer (in-use): surface-id:fc, DART:10004480000, size:31,744
+	
+00:48.775.598	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamInFrameReceiverBufferPool:ShowBuffers - PearlCam Pool Buffer (in-use): surface-id:fa, DART:10004474000, size:31,744
+	
+00:48.775.600	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamInFrameReceiverBufferPool:ShowBuffers - PearlCam Pool Buffer (in-use): surface-id:f8, DART:100023dc000, size:31,744
+	
+00:48.775.601	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamInFrameReceiverBufferPool:ShowBuffers - PearlCam Pool Buffer (in-use): surface-id:f9, DART:100023d0000, size:31,744
+	
+00:48.775.603	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamInFrameReceiverBufferPool:ShowBuffers - PearlCam Pool Buffer (in-use): surface-id:f7, DART:100023c4000, size:31,744
+	
+00:48.775.604	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamInFrameReceiverBufferPool:ShowBuffers - PearlCam Pool Buffer (in-use): surface-id:f6, DART:100023b8000, size:31,744
+	
+00:48.775.606	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamInFrameReceiverBufferPool:ShowBuffers - PearlCam Pool Buffer (in-use): surface-id:f5, DART:1000235c000, size:31,744
+	
+00:48.775.608	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamInFrameReceiverBufferPool:ShowBuffers - PearlCam Pool Buffer (in-use): surface-id:f1, DART:10002350000, size:31,744
+	
+00:48.775.609	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamInFrameReceiverBufferPool:ShowBuffers - PearlCam Pool Buffer (in-use): surface-id:ef, DART:10002344000, size:31,744
+	
+00:48.775.611	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamInFrameReceiverBufferPool:ShowBuffers - PearlCam Pool Buffer (free):   surface-id:e8, DART:100022dc000, size:31,744
+	
+00:48.775.612	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamInFrameReceiverBufferPool:ShowBuffers - PearlCam Pool Buffer (free):   surface-id:e9, DART:100022e8000, size:31,744
+	
+00:48.775.613	Debug	biometrickitd (116)	com.apple.BiometricKit	Daemon-Common	cancelWithClient: -> 0
+	
+00:48.775.614	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamInFrameReceiverBufferPool:ShowBuffers - PearlCam Pool Buffer (free):   surface-id:ea, DART:100022f4000, size:31,744
+	
+00:48.775.615	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamInFrameReceiverBufferPool:ShowBuffers - PearlCam Pool Buffer (free):   surface-id:eb, DART:10002300000, size:31,744
+	
+00:48.775.617	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamInFrameReceiverBufferPool:ShowBuffers - PearlCam Pool Buffer (free):   surface-id:ed, DART:10002338000, size:31,744
+	
+00:48.775.619	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamInFrameReceiverBufferPool:ShowBuffers - PearlCam Pool Buffer (free):   surface-id:f0, DART:100044b0000, size:31,744
+	
+00:48.775.620	Default	Unknown (0)	AppleH16CameraInterface	Default	PearlCam Pool: poolID=158, inUseCount=12, freeCount=6, totalCount=18, fNumBuffersSentToFirmware=12, totalMemoryAllocated: 2,064,384
+
+	
+00:48.775.622	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamInFrameReceiverBufferPool:ShowBuffers - PearlCam Pool Buffer (in-use): surface-id:145, DART:0, size:114,688
+	
+00:48.775.624	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamInFrameReceiverBufferPool:ShowBuffers - PearlCam Pool Buffer (in-use): surface-id:144, DART:0, size:114,688
+	
+00:48.775.626	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamInFrameReceiverBufferPool:ShowBuffers - PearlCam Pool Buffer (in-use): surface-id:143, DART:0, size:114,688
+	
+00:48.775.627	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamInFrameReceiverBufferPool:ShowBuffers - PearlCam Pool Buffer (in-use): surface-id:142, DART:0, size:114,688
+	
+00:48.775.629	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamInFrameReceiverBufferPool:ShowBuffers - PearlCam Pool Buffer (in-use): surface-id:141, DART:0, size:114,688
+	
+00:48.775.630	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamInFrameReceiverBufferPool:ShowBuffers - PearlCam Pool Buffer (in-use): surface-id:117, DART:0, size:114,688
+	
+00:48.775.632	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamInFrameReceiverBufferPool:ShowBuffers - PearlCam Pool Buffer (in-use): surface-id:109, DART:0, size:114,688
+	
+00:48.775.633	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamInFrameReceiverBufferPool:ShowBuffers - PearlCam Pool Buffer (in-use): surface-id:108, DART:0, size:114,688
+	
+00:48.775.635	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamInFrameReceiverBufferPool:ShowBuffers - PearlCam Pool Buffer (in-use): surface-id:107, DART:0, size:114,688
+	
+00:48.775.636	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamInFrameReceiverBufferPool:ShowBuffers - PearlCam Pool Buffer (in-use): surface-id:106, DART:0, size:114,688
+	
+00:48.775.637	Default	backboardd (68)	com.apple.AttentionAwareness	AttentionAwareness	48,718.2277: cameraActivityNotification 1 received	
+00:48.775.638	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamInFrameReceiverBufferPool:ShowBuffers - PearlCam Pool Buffer (in-use): surface-id:105, DART:0, size:114,688
+	
+00:48.775.639	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamInFrameReceiverBufferPool:ShowBuffers - PearlCam Pool Buffer (in-use): surface-id:104, DART:0, size:114,688
+	
+00:48.775.641	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamInFrameReceiverBufferPool:ShowBuffers - PearlCam Pool Buffer (free):   surface-id:fe, DART:0, size:114,688
+	
+00:48.775.642	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamInFrameReceiverBufferPool:ShowBuffers - PearlCam Pool Buffer (free):   surface-id:ff, DART:0, size:114,688
+	
+00:48.775.644	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamInFrameReceiverBufferPool:ShowBuffers - PearlCam Pool Buffer (free):   surface-id:100, DART:0, size:114,688
+	
+00:48.775.645	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamInFrameReceiverBufferPool:ShowBuffers - PearlCam Pool Buffer (free):   surface-id:101, DART:0, size:114,688
+	
+00:48.775.647	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamInFrameReceiverBufferPool:ShowBuffers - PearlCam Pool Buffer (free):   surface-id:102, DART:0, size:114,688
+	
+00:48.775.648	Default	Unknown (0)	AppleH16CameraInterface	Default	AppleH16CamInFrameReceiverBufferPool:ShowBuffers - PearlCam Pool Buffer (free):   surface-id:103, DART:0, size:114,688
+	
+00:48.775.650	Default	Unknown (0)	AppleH16CameraInterface	Default	totalPearlStreamingBuffersAllocationSize=35,963,136
+
+	
+00:48.775.654	Debug	biometrickitd (116)	com.apple.BiometricKit	Daemon-Common	BiometricKitCoreAnalyticsEvent(com.apple.biometrickit.pearl.faceDetectAttempt) isPasscodeSet
+	
+00:48.775.673	Default	backboardd (68)	com.apple.BiometricKit	Framework-API	BKFaceDetectOperation::statusMessage: -> void
+	
+00:48.775.700	Debug	assetsd (1696)	com.apple.photos.backend	LibraryBundle	Inconsistent URL paths may negatively impact client access performance (original /private/var/mobile/Library/Photos/Libraries/Syndication.photoslibrary vs. current /var/mobile/Library/Photos/Libraries/Syndication.photoslibrary)	
+00:48.775.730	Default	biometrickitd (116)	com.apple.BiometricKit	Daemon-Pearl	sending status message 63 to <private>
+	
+00:48.775.763	Default	backboardd (68)	com.apple.AttentionAwareness	AttentionAwareness	48,718.2278: <AWPearlAttentionSampler: 0xdb40cc140> (samplingSuppressed: false unitTestSampling: false) updateFaceState:withFaceMetadata: FACE FOUND at   48718.22777	
+00:48.775.803	Default	biometrickitd (116)	com.apple.BiometricKit	Daemon-Pearl	sending status message 63 to <private>
+	
+00:48.775.805	Debug	biometrickitd (116)	com.apple.BiometricKit	Daemon-Common	BiometricKitCoreAnalyticsEvent(com.apple.biometrickit.pearl.faceDetectAttempt) isPasscodeSet: 1
+	
+00:48.775.869	Debug	biometrickitd (116)	com.apple.BiometricKit	Daemon-Pearl	statusMessage:withData:timestamp: -> void (_ <private>)
+	
+00:48.775.872	Debug	assetsd (1696)	com.apple.photos.backend	PersistentHistory	Updated transaction author: <private>, for context: 0xbbc984000	
+00:48.775.944	Debug	biometrickitd (116)	com.apple.BiometricKit	Daemon-Common	BiometricKitCoreAnalyticsEvent(com.apple.biometrickit.pearl.faceDetectAttempt) dictionaryRepresentation: 0 _privateProperties: <private>
+	
+00:48.775.955	Info	backboardd (68)	com.apple.CoreAnalytics	client	Dropping "com.apple.AttentionAwareness.sampleSucceeded" as it isn't used in any transform (not in the config or budgeted?)	
+00:48.776.005	Debug	biometrickitd (116)	com.apple.BiometricKit	Daemon-Pearl	serviceStatus:type:inValue: -> 0x0
+	
+00:48.776.045	Default	backboardd (68)	com.apple.AttentionAwareness	AttentionAwareness	48,718.2281: <AWPearlAttentionSampler: 0xdb40cc140> (samplingSuppressed: false unitTestSampling: false) finishing presence operation 0xdb4866280 (updateFaceState:withFaceMetadata: FACE FOUND at   48718.22777)	
+00:48.776.094	Debug	biometrickitd (116)	com.apple.BiometricKit	Daemon-Common	BiometricKitCoreAnalyticsEvent(com.apple.biometrickit.pearl.faceDetectAttempt) postEvent
+	
+00:48.776.108	Debug	assetsd (1696)	com.apple.photos.backend	PhotosObjectLifecycle	PLTransientManagedObjectContext 0xbbc984000 initWithConcurrencyType:1 pathManager:<PLPhotoLibraryPathManager: 0xbbc3a5240> [UBF] [fs=16777227/file=15544]	
+00:48.776.119	Debug	biometrickitd (116)	com.apple.BiometricKit	Daemon-Pearl	__serviceStatus 0x104d14900(<private>) --> serviceStatus:type:inValue:
+	
+00:48.776.191	Default	backboardd (68)	com.apple.AttentionAwareness	AttentionAwareness	48,718.2282: <AWPearlAttentionSampler: 0xdb40cc140> (samplingSuppressed: false unitTestSampling: false) completing AWAttentionSamplerState transition (Initializing -> Present)	
+00:48.776.313	Debug	biometrickitd (116)	com.apple.BiometricKit	Daemon-Common	serviceStatus:type:inValue: 24,183 0xe3ff8000 1,802,594,116(0x6b716744)
+	
+00:48.776.320	Default	backboardd (68)	com.apple.AttentionAwareness	AttentionAwareness	48,718.2283: <AWScheduler: 0xdb4044540> (identifier: Face detect scheduler) attentionSampler state change (updateFaceState:withFaceMetadata: FACE FOUND at   48718.22777)	
+00:48.776.336	Debug	assetsd (1696)	com.apple.defaults	User Defaults	found no value for key acoustic_id in CFPrefsSearchListSource<0xbbc820e80> (Domain: com.apple.coreaudio, Container: (null))	
+00:48.776.389	Debug	assetsd (1696)	com.apple.photos.backend	PhotosObjectLifecycle	PLTransientManagedObjectContext 0xbbc984000 setName:<private>	
+00:48.776.396	Debug	biometrickitd (116)	com.apple.BiometricKit	Daemon-Common	serviceStatus:type:inValue: MCDMExtractMessageData 3,825,172,481 0 1 0x3eb 0  1,003(0x3eb) 1,169,237,396,757
+	
+00:48.776.399	Debug	biometrickitd (116)	BiometricKit	Default	PearlCA: sendEvent: com.apple.biometrickit.pearl.faceDetectAttempt (print 1 of 2): 
+<private>
+	
+00:48.776.455	Info	backboardd (68)	com.apple.CoreAnalytics	client	Dropping "com.apple.AttentionAwareness.sampleEnded" as it isn't used in any transform (not in the config or budgeted?)	
+00:48.776.486	Debug	biometrickitd (116)	com.apple.BiometricKit	Daemon-Pearl	serviceStatus:version:ordinal:data:timestamp: 0xe3ff8001 0x1 0x3eb  1,169,237,396,757
+	
+00:48.776.528	Default	backboardd (68)	com.apple.AttentionAwareness	AttentionAwareness	48,718.2285: <AWPearlAttentionSampler: 0xdb40cc140> (samplingSuppressed: false unitTestSampling: false) completing AWAttentionSamplerState transition (Present -> Unknown)	
+00:48.776.551	Default	Unknown (0)	AppleH16ANEInterface	Default	ANE0: processTargetToHostIOCommand: Received Cpu Load Notification: fANEFirmwareCpuLoadScore: 3 numPendingRequests: 0 pendingRequestsWithFirmware: 0 fwCpuThrottled: 0
+	
+00:48.776.556	Debug	biometrickitd (116)	BiometricKit	Default	PearlCA: sendEvent: com.apple.biometrickit.pearl.faceDetectAttempt (print 2 of 2): 
+<private>
+	
+00:48.776.580	Debug	biometrickitd (116)	com.apple.BiometricKit	Daemon-Common	serviceStatus:version:ordinal:data:timestamp: 0xe3ff8001 0x1 0x3eb  1,169,237,396,757
+	
+00:48.776.610	Default	backboardd (68)	com.apple.AttentionAwareness	AttentionAwareness	48,718.2286: <AWScheduler: 0xdb4044540> (identifier: Face detect scheduler) attentionSampler state change (updateFaceState:withFaceMetadata: FACE FOUND at   48718.22777)	
+00:48.776.687	Debug	locationd (74)	com.apple.locationd.Utility	Database	{"msg":"beginTransaction", "path":/var/root/Library/Caches/locationd/cache_encryptedC.db, "count":0, "rc":4 Bytes}	
+00:48.776.690	Debug	biometrickitd (116)	com.apple.BiometricKit	Daemon-Pearl	statusMessage:withData:timestamp: 1,003  1,169,237,396,757
+	
+00:48.776.693	Debug	biometrickitd (116)	com.apple.BiometricKit	Daemon-Common	BiometricKitCoreAnalyticsEvent(com.apple.biometrickit.pearl.faceDetectAttempt) postEvent - AnalyticsSendEventLazy result: 1
+	
+00:48.776.713	Debug	biometrickitd (116)	com.apple.BiometricKit	Daemon-Pearl	reportPearlInterlock: 0
+	
+00:48.776.720	Debug	assetsd (1696)	com.apple.photos.backend	PhotosObjectLifecycle	PLPhotoLibrary 0xbbc13e080 dealloc <private>	
+00:48.776.733	Debug	biometrickitd (116)	com.apple.BiometricKit	Daemon-Pearl	PearlCoreAnalyticsEvent reset event: com.apple.biometrickit.pearl.faceDetectAttempt
+	
+00:48.776.758	Default	biometrickitd (116)	com.apple.BiometricKit	Daemon-Common	postPearlInterlockFollowUpItem
+	
+00:48.776.786	Debug	biometrickitd (116)	com.apple.BiometricKit	Daemon-Common	BiometricKitCoreAnalyticsEvent(com.apple.biometrickit.pearl.faceDetectAttempt) reset event
+	
+00:48.776.789	Debug	assetsd (1696)	com.apple.photos.backend	PhotosObjectLifecycle	PLManagedObjectContext 0xbbc984000 dealloc	
+00:48.776.821	Default	biometrickitd (116)	com.apple.BiometricKit	Daemon-Common	postPearlInterlockFollowUpItem -> 1
+	
+00:48.776.853	Debug	assetsd (1696)	com.apple.photos.backend	LibraryServices	LSM-3-0xbbc285400: progress resigned current: <private>	
+00:48.776.857	Default	biometrickitd (116)	com.apple.BiometricKit	Daemon-Pearl	PearlCoreAnalyticsEvent postEvent: com.apple.biometrickit.pearl.faceDetectAttempt result:1
+	
+00:48.776.913	Debug	biometrickitd (116)	com.apple.BiometricKit	Daemon-Pearl	PearlCoreAnalytics postSimpleCoreAnalyticsEvent eventName: com.apple.biometrickit.pearl.attentionCheck awdMetric: 0x52e09a800
+	
+00:48.776.957	Default	assetsd (1696)	com.apple.photos.backend	LibraryServices	LSM-3-0xbbc285400: Completed operation <PLLibraryServicesOperation: 0xbbc295cc0>{name = 'Check for MAD version bump'} in 0.0018 seconds with QoS QOS_CLASS_USER_INITIATED	
+00:48.776.993	Default	backboardd (68)	com.apple.BiometricKit	Framework-API	BKDevicePearl::statusMessage: 1,003
+	
+00:48.777.015	Default	biometrickitd (116)	com.apple.BiometricKit	Daemon-Pearl	sending status message 1,003 to <private>
+	
+00:48.777.057	Default	backboardd (68)	com.apple.BiometricKit	Framework-API	BKDevicePearl::statusMessage: -> void
+	
+00:48.777.060	Debug	backboardd (68)	com.apple.BackBoard	MotionEvents	Motion event usagePage:0xff0c usage:1 	
+00:48.777.081	Debug	biometrickitd (116)	com.apple.BiometricKit	Daemon-Pearl	PearlCoreAnalyticsEvent reset event: com.apple.biometrickit.pearl.attentionCheck
+	
+00:48.777.086	Default	SpringBoard (34)	com.apple.BiometricKit	Framework-API	BKDevicePearl::statusMessage: 1,003
+	
+00:48.777.089	Default	backboardd (68)	com.apple.AttentionAwareness	AttentionAwareness	48,718.2291: <BiokitOperation: 0xdb4866280> pearlEventOccurred FaceDetectSucceeded, current operation 0xdb6f0aee0 state Running	
+00:48.777.145	Default	assetsd (1696)	com.apple.photos.backend	LibraryServices	LSM-3-0xbbc285400: Starting operation <PLLibraryServicesOperation: 0xbbc295040>{name = 'Handle locale change if necessary'} with QoS QOS_CLASS_USER_INITIATED	
+00:48.777.175	Default	SpringBoard (34)	com.apple.BiometricKit	Framework-API	BKDevicePearl::statusMessage: -> void
+	
+00:48.777.188	Debug	locationd (74)	com.apple.locationd.Motion	AOP	MotionCoprocessor received TimeSync data machTimestamp,<private>,oscarTimestamp,<private>	
+00:48.777.233	Debug	biometrickitd (116)	com.apple.BiometricKit	Daemon-Pearl	statusMessage:withData:timestamp: -> void (_ <private>)
+	
+00:48.777.254	Default	backboardd (68)	com.apple.AttentionAwareness	AttentionAwareness	48,718.2293: cameraActivityNotification 3 received	
+00:48.777.284	Debug	biometrickitd (116)	com.apple.BiometricKit	Daemon-Common	BiometricKitCoreAnalyticsEvent(com.apple.biometrickit.pearl.attentionCheck) reset event
+	
+00:48.777.287	Debug	assetsd (1696)	com.apple.photos.backend	LibraryServices	LSM-3-0xbbc285400: progress becoming current: <private>	
+00:48.777.330	Debug	biometrickitd (116)	com.apple.BiometricKit	Daemon-Pearl	serviceStatus:type:inValue: -> 0x0
+	
+00:48.777.375	Default	backboardd (68)	com.apple.AttentionAwareness	AttentionAwareness	48,718.2294: Device event 3 received	
+00:48.777.433	Debug	biometrickitd (116)	com.apple.BiometricKit	Daemon-Pearl	__serviceStatus 0x104d14900(<private>) --> serviceStatus:type:inValue:
+	
+00:48.777.446	Debug	biometrickitd (116)	com.apple.BiometricKit	Daemon-Pearl	PearlCoreAnalyticsEvent postEvent: com.apple.biometrickit.pearl.attentionCheck
+	
+00:48.777.474	Debug	assetsd (1696)	com.apple.photos.backend	PhotosObjectLifecycle	PLPhotoLibrary 0xbbc13e080 initWithName <private>	
+00:48.777.540	Default	backboardd (68)	com.apple.AttentionAwareness	AttentionAwareness	48,718.2296: <AWPearlAttentionSampler: 0xdb40cc140> (samplingSuppressed: false unitTestSampling: false) updateFaceState:withFaceMetadata: FACE FOUND at   48718.22955	
+00:48.777.590	Debug	biometrickitd (116)	com.apple.BiometricKit	Daemon-Common	serviceStatus:type:inValue: 24,187 0xe3ff8000 1,802,602,308(0x6b718744)
+	
+00:48.777.617	Default	Unknown (0)	AppleH16ANEInterface	Default	ANE0: processTargetToHostIOCommand: Received Cpu Load Notification: fANEFirmwareCpuLoadScore: 3 numPendingRequests: 0 pendingRequestsWithFirmware: 0 fwCpuThrottled: 0
+	
+00:48.777.680	Default	backboardd (68)	com.apple.AttentionAwareness	AttentionAwareness	48,718.2297: <AWPearlAttentionSampler: 0xdb40cc140> (samplingSuppressed: false unitTestSampling: false) completing AWAttentionSamplerState transition (Unknown -> Present)	
+00:48.777.711	Debug	biometrickitd (116)	com.apple.BiometricKit	Daemon-Common	BiometricKitCoreAnalyticsEvent(com.apple.biometrickit.pearl.attentionCheck) dictionaryRepresentation: 0
+	
+00:48.777.733	Debug	biometrickitd (116)	com.apple.BiometricKit	Daemon-Common	serviceStatus:type:inValue: MCDMExtractMessageData 3,825,172,481 0 1 0x63 0  99(0x63) 1,169,237,460,370
+	
+00:48.777.743	Debug	locationd (74)	com.apple.locationd.Position	Outdoor	Activity,context,<private>,startTime,<private>,type,<private>,standing,<private>,angeX,<private>,vectorMag,<private>,strokeAmp,<private>,strokePwr,<private>,strokeFreq,<private>,machineFreq,<private>,pushVectorMag,<private>,epochType,<private>	
+00:48.777.769	Default	backboardd (68)	com.apple.AttentionAwareness	AttentionAwareness	48,718.2298: <AWScheduler: 0xdb4044540> (identifier: Face detect scheduler) attentionSampler state change (updateFaceState:withFaceMetadata: FACE FOUND at   48718.22955)	
+00:48.777.773	Debug	biometrickitd (116)	com.apple.BiometricKit	Daemon-Common	BiometricKitCoreAnalyticsEvent(com.apple.biometrickit.pearl.attentionCheck) isPasscodeSet
+	
+00:48.777.785	Debug	assetsd (1696)	com.apple.photos.backend	LibraryBundle	Inconsistent URL paths may negatively impact client access performance (original /private/var/mobile/Library/Photos/Libraries/Syndication.photoslibrary vs. current /var/mobile/Library/Photos/Libraries/Syndication.photoslibrary)	
+00:48.777.826	Debug	biometrickitd (116)	com.apple.BiometricKit	Daemon-Pearl	serviceStatus:version:ordinal:data:timestamp: 0xe3ff8001 0x1 0x63  1,169,237,460,370
+	
+00:48.777.833	Default	backboardd (68)	com.apple.AttentionAwareness	AttentionAwareness	48,718.2299: <AWPearlAttentionSampler: 0xdb40cc140> (samplingSuppressed: false unitTestSampling: false) completing AWAttentionSamplerState transition (Present -> Unknown)	
+00:48.777.863	Debug	assetsd (1696)	com.apple.photos.backend	PersistentHistory	Updated transaction author: <private>, for context: 0xbbc984300	
+00:48.777.865	Info	locationd (74)	com.apple.locationd.Position	Outdoor	Received motion state, startTime, <private>, activityType, <private>	
+00:48.777.890	Debug	biometrickitd (116)	com.apple.BiometricKit	Daemon-Common	serviceStatus:version:ordinal:data:timestamp: 0xe3ff8001 0x1 0x63  1,169,237,460,370
+	
+00:48.777.905	Debug	biometrickitd (116)	com.apple.BiometricKit	Daemon-Common	BiometricKitCoreAnalyticsEvent(com.apple.biometrickit.pearl.attentionCheck) isPasscodeSet: 1
+	
+00:48.777.923	Default	backboardd (68)	com.apple.AttentionAwareness	AttentionAwareness	48,718.2299: <AWScheduler: 0xdb4044540> (identifier: Face detect scheduler) attentionSampler state change (updateFaceState:withFaceMetadata: FACE FOUND at   48718.22955)	
+00:48.777.969	Debug	biometrickitd (116)	com.apple.BiometricKit	Daemon-Pearl	statusMessage:withData:timestamp: 99  1,169,237,460,370
+	
+00:48.778.010	Debug	assetsd (1696)	com.apple.photos.backend	PhotosObjectLifecycle	PLTransientManagedObjectContext 0xbbc984300 initWithConcurrencyType:1 pathManager:<PLPhotoLibraryPathManager: 0xbbc3a5240> [UBF] [fs=16777227/file=15544]	
+00:48.778.039	Debug	biometrickitd (116)	com.apple.BiometricKit	Daemon-Common	BiometricKitCoreAnalyticsEvent(com.apple.biometrickit.pearl.attentionCheck) dictionaryRepresentation: 0 _privateProperties: <private>
+	
+00:48.778.102	Debug	biometrickitd (116)	com.apple.BiometricKit	Daemon-Common	switchToNextBioOperation: 0
+	
+00:48.778.152	Default	backboardd (68)	com.apple.BiometricKit	Framework-API	BKFaceDetectOperation::statusMessage: 1,050
+	
+00:48.778.154	Debug	biometrickitd (116)	com.apple.BiometricKit	Daemon-Common	BiometricKitCoreAnalyticsEvent(com.apple.biometrickit.pearl.attentionCheck) postEvent
+	
+00:48.778.190	Default	backboardd (68)	com.apple.BiometricKit	Framework-API	BKOperation::operationEndsWithReason: 1 (_cid 3,031,823,761)
+	
+00:48.778.194	Debug	biometrickitd (116)	com.apple.BiometricKit	Daemon-Common	resumeQueuedBioOperation
+	
+00:48.778.206	Debug	assetsd (1696)	com.apple.photos.backend	PhotosObjectLifecycle	PLTransientManagedObjectContext 0xbbc984300 setName:<private>	
+00:48.778.237	Info	biometrickitd (116)	com.apple.locationd.Motion	Orientation	Received deviceOrientationBlocking	
+00:48.778.251	Default	backboardd (68)	com.apple.BiometricKit	Framework-API	BKOperation::changeState 4
+	
+00:48.778.274	Debug	biometrickitd (116)	com.apple.BiometricKit	Daemon-Common	resumeQueuedBioOperation: -> void
+	
+00:48.778.320	Default	backboardd (68)	com.apple.BiometricKit	Framework-API	BKOperation::changeState -> void
+	
+00:48.778.375	Debug	biometrickitd (116)	BiometricKit	Default	PearlCA: sendEvent: com.apple.biometrickit.pearl.attentionCheck (print 1 of 2): 
+<private>
+	
+00:48.778.437	Default	backboardd (68)	com.apple.AttentionAwareness	AttentionAwareness	48,718.2305: <BiokitOperation: 0xdb4866280> operation 0xdb6f0aee0 currentOperation 0xdb6f0aee0 (timeout       0.00000) finishedWithReason Succeeded	
+00:48.778.474	Default	backboardd (68)	com.apple.AttentionAwareness	AttentionAwareness	48,718.2305: cameraActivityNotification 2 received	
+00:48.778.481	Debug	biometrickitd (116)	BiometricKit	Default	PearlCA: sendEvent: com.apple.biometrickit.pearl.attentionCheck (print 2 of 2): 
+<private>
+	
+00:48.778.497	Default	biometrickitd (116)	com.apple.BiometricKit	Daemon-Common	updateActiveOperationNotificationWithOverride: posted value = 0
+	
+00:48.778.556	Default	backboardd (68)	com.apple.BiometricKit	Framework-API	BKOperation::operationEndsWithReason: -> void
+	
+00:48.778.647	Default	biometrickitd (116)	com.apple.locationd.Motion	Orientation	Got cached orientation 1	
+00:48.778.687	Default	Unknown (0)	AppleH16ANEInterface	Default	ANE0: processTargetToHostIOCommand: Received Cpu Load Notification: fANEFirmwareCpuLoadScore: 3 numPendingRequests: 0 pendingRequestsWithFirmware: 0 fwCpuThrottled: 0
+	
+00:48.778.700	Debug	backboardd (68)	com.apple.BackBoard	MotionEvents	Motion event usagePage:0xff0c usage:1 	
+00:48.778.803	Debug	assetsd (1696)	com.apple.photos.backend	PhotosObjectLifecycle	PLPhotoLibrary 0xbbc13e080 dealloc <private>	
+00:48.778.827	Info	locationd (74)	com.apple.locationd.Motion	AOP	{"msg":"received AOP log", "log":72 Bytes}	
+00:48.778.881	Default	backboardd (68)	com.apple.AttentionAwareness	AttentionAwareness	48,718.2309: Operation end reason 1 received	
+00:48.778.884	Debug	biometrickitd (116)	com.apple.BiometricKit	Daemon-Common	BiometricKitCoreAnalyticsEvent(com.apple.biometrickit.pearl.attentionCheck) postEvent - AnalyticsSendEventLazy result: 1
+	
+00:48.778.898	Debug	assetsd (1696)	com.apple.photos.backend	PhotosObjectLifecycle	PLManagedObjectContext 0xbbc984300 dealloc	
+00:48.778.934	Default	biometrickitd (116)	com.apple.locationd.Motion	Orientation	Stopping orientation updates, latest 1, last significant 0	
+00:48.778.948	Default	backboardd (68)	com.apple.BiometricKit	Framework-API	BKOperation::statusMessage: 1,050
+	
+00:48.779.012	Default	assetsd (1696)	com.apple.photos.backend	LibraryServices	LSM-3-0xbbc285400: localeChangeCheck operation found locale change: NO	
+00:48.779.019	Debug	biometrickitd (116)	com.apple.BiometricKit	Daemon-Pearl	PearlCoreAnalyticsEvent reset event: com.apple.biometrickit.pearl.attentionCheck
+	
+00:48.779.150	Debug	biometrickitd (116)	com.apple.locationd.Motion	Accessory	unregistering for keyboard updates	
+00:48.779.268	Debug	biometrickitd (116)	com.apple.locationd.Motion	Motion	[CLIoHidInterface] Apply all dirty device properties	
+00:48.779.268	Debug	assetsd (1696)	com.apple.photos.backend	LibraryServices	LSM-3-0xbbc285400: progress resigned current: <private>	
+00:48.779.285	Default	backboardd (68)	com.apple.BiometricKit	Framework-API	BKOperation::statusMessage: -> void
+	
+00:48.779.340	Default	assetsd (1696)	com.apple.photos.backend	LibraryServices	LSM-3-0xbbc285400: Completed operation <PLLibraryServicesOperation: 0xbbc295040>{name = 'Handle locale change if necessary'} in 0.0022 seconds with QoS QOS_CLASS_USER_INITIATED	
+00:48.779.360	Debug	biometrickitd (116)	com.apple.BiometricKit	Daemon-Common	BiometricKitCoreAnalyticsEvent(com.apple.biometrickit.pearl.attentionCheck) reset event
+	
+00:48.779.386	Default	backboardd (68)	com.apple.BiometricKit	Framework-API	BKFaceDetectOperation::statusMessage: -> void
+	
+00:48.779.418	Debug	biometrickitd (116)	com.apple.BiometricKit	Daemon-Common	switchToNextBioOperation: -> void
+	
+00:48.779.431	Debug	backboardd (68)	com.apple.iohid	service	0x10000099d: set property:ReportInterval value:0 client:05581CB2-4280-49DA-85D6-D7159BDF0232	
+00:48.779.465	Default	backboardd (68)	com.apple.iohid	service	0x10000099d: set report interval:0 client:05581CB2-4280-49DA-85D6-D7159BDF0232	
+00:48.779.494	Default	biometrickitd (116)	com.apple.BiometricKit	Daemon-Pearl	PearlCoreAnalyticsEvent postEvent: com.apple.biometrickit.pearl.attentionCheck result:1
+	
+00:48.779.500	Default	assetsd (1696)	com.apple.photos.backend	LibraryServices	LSM-3-0xbbc285400: Starting operation <PLLibraryServicesOperation: 0xbbc295180>{name = 'Recovery from Duplicate Merge crash recovery'} with QoS QOS_CLASS_USER_INITIATED	
+00:48.779.518	Default	biometrickitd (116)	com.apple.locationd.Motion	Motion	[CLIoHidInterface] Property for usage pair {32, 138}: {ReportInterval = 0} was set successfully	
+00:48.779.541	Info	biometrickitd (116)	com.apple.locationd.Motion	Motion	Opening hid driver interface for usage pair {32, 138}, hidServiceRef <private>	
+00:48.779.607	Debug	assetsd (1696)	com.apple.photos.backend	LibraryServices	LSM-3-0xbbc285400: progress becoming current: <private>	
+00:48.779.620	Default	Unknown (0)	IOHIDFamily	Default	AppleSPUHIDDevice:0x100000930 close by AppleSPUHIDDeviceUserClient:0x1000070cd (0x0)
+	
+00:48.779.696	Default	biometrickitd (116)	com.apple.BiometricKit	Daemon-Pearl	sending status message 1,050 to <private>
+	
+00:48.779.696	Debug	biometrickitd (116)	com.apple.BiometricKit	Daemon-Common	cancelWithClient: <private>
+	
+00:48.779.754	Default	Unknown (0)	AppleH16ANEInterface	Default	ANE0: processTargetToHostIOCommand: Received Cpu Load Notification: fANEFirmwareCpuLoadScore: 3 numPendingRequests: 0 pendingRequestsWithFirmware: 0 fwCpuThrottled: 0
+	
+00:48.779.786	Debug	biometrickitd (116)	com.apple.BiometricKit	Daemon-Pearl	PearlCoreAnalytics sendFaceDetectEventAnalytics: -> void
+	
+00:48.779.818	Debug	biometrickitd (116)	com.apple.CFBundle	plugin	RemoveInstanceForFactory: Removed instance on 0x52e0bc180 for <CFUUID 0x52e003cc0> 44F6B535-C083-49EF-BFF0-138653A21786	
+00:48.779.864	Debug	biometrickitd (116)	com.apple.locationd.Motion	Motion	[CLIoHidInterface] Adding match entry for usage pair {65,292, 3}	
+00:48.779.906	Debug	assetsd (1696)	com.apple.photos.backend	PhotosObjectLifecycle	PLPhotoLibrary 0xbbc13e080 initWithName <private>	
+00:48.779.924	Debug	biometrickitd (116)	com.apple.locationd.Motion	Motion	[CLIoHidInterface] Setting matching multiple for 1 events	
+00:48.780.073	Debug	biometrickitd (116)	com.apple.BiometricKit	Daemon-Pearl	analyticsKernelMessage: -> void
+	
+00:48.780.165	Debug	biometrickitd (116)	com.apple.BiometricKit	Daemon-Pearl	performCommand:inValue:inData:inSize:outData:outSize: --> performCommand:version:inValue:inData:inSize:outData:outSize:
+	
+00:48.780.195	Default	backboardd (68)	com.apple.iohid	default	Connection: 05581CB2-4280-49DA-85D6-D7159BDF0232 not entitled to match protected service: 4294969844	
+00:48.780.222	Debug	biometrickitd (116)	com.apple.BiometricKit	Daemon-Pearl	performCommand:version:inValue:inData:inSize:outData:outSize: 6 1 0 0x0 0 0x0 0x0
+	
+00:48.780.243	Default	backboardd (68)	com.apple.iohid	default	Connection: 05581CB2-4280-49DA-85D6-D7159BDF0232 not entitled to match protected service: 4294969854	
+00:48.780.272	Debug	biometrickitd (116)	com.apple.BiometricKit	Daemon-Pearl	statusMessage:withData:timestamp: -> void (_ <private>)
+	
+00:48.780.296	Debug	assetsd (1696)	com.apple.photos.backend	LibraryBundle	Inconsistent URL paths may negatively impact client access performance (original /private/var/mobile/Library/Photos/Libraries/Syndication.photoslibrary vs. current /var/mobile/Library/Photos/Libraries/Syndication.photoslibrary)	
+00:48.780.334	Debug	Unknown (0)	ApplePearlSEPDriver	Default	ApplePearlUserClient::externalMethod <- selector:0, arguments:<private>, dispatch:0x0, target:0x0, reference:0x0
+	
+00:48.780.342	Debug	Unknown (0)	ApplePearlSEPDriver	Default	ApplePearlUserClient::extPerform <- inObj:<private>, inRef:0x0, inArg:<private>
+	
+00:48.780.346	Debug	Unknown (0)	IOBiometricFamily	Default	IOBiometricService::performCommand <- inData:<private>, outData:0x0, outSize:<private> --> performCommandGated
+	
+00:48.780.350	Debug	Unknown (0)	IOBiometricFamily	Default	IOBiometricService::performCommandGated <- inData:<private>, outData:0x0, outSize:<private>
+	
+00:48.780.357	Debug	Unknown (0)	ApplePearlSEPDriver	Default	performSpecificCommandGated <- cmd:<private>, payload:<private>, payloadSize:0 outData:0x0, outSize:<private>
+	
+00:48.780.359	Default	Unknown (0)	ApplePearlSEPDriver	Default	performSpecificCommandGated: command:Cancel (6), value:0, inLength:0, outLength:0
+	
+00:48.780.361	Debug	Unknown (0)	ApplePearlSEPDriver	Default	waitForInstantMatchCancelEnabled <- 
+	
+00:48.780.362	Debug	Unknown (0)	ApplePearlSEPDriver	Default	waitForInstantMatchCancelEnabled -> err:0x0
+	
+00:48.780.363	Debug	Unknown (0)	IOBiometricFamily	Default	IOBiometricService::lockCommandAccess <- 
+	
+00:48.780.365	Debug	Unknown (0)	ApplePearlSEPDriver	Default	checkCameraState <- msDelay:0
+	
+00:48.780.371	Debug	Unknown (0)	IOBiometricFamily	Default	IOBiometricService::unlockCommandAccess <- 
+	
+00:48.780.372	Debug	Unknown (0)	ApplePearlSEPDriver	Default	performSpecificCommandGated -> err:0x0
+	
+00:48.780.373	Debug	Unknown (0)	IOBiometricFamily	Default	IOBiometricService::performCommandGated -> err:0x0
+	
+00:48.780.374	Debug	Unknown (0)	ApplePearlSEPDriver	Default	ApplePearlUserClient::extPerform -> err:0x0
+	
+00:48.780.376	Debug	assetsd (1696)	com.apple.photos.backend	PersistentHistory	Updated transaction author: <private>, for context: 0xbbc984480	
+00:48.780.377	Debug	Unknown (0)	ApplePearlSEPDriver	Default	ApplePearlUserClient::externalMethod -> err:0x0
+	
+00:48.780.384	Debug	biometrickitd (116)	com.apple.BiometricKit	Daemon-Pearl	performCommand:version:inValue:inData:inSize:outData:outSize: -> [0: Undefined error: 0]
+	
+00:48.780.387	Debug	Unknown (0)	ApplePearlSEPDriver	Default	cameraStateHandler <- sender:<private>
+	
+00:48.780.389	Debug	Unknown (0)	IOBiometricFamily	Default	IOBiometricService::lockCommandAccess <- 
+	
+00:48.780.390	Default	Unknown (0)	ApplePearlSEPDriver	Default	cameraStateHandler: _commandMode:Idle (1), _cameraState:PoweredOff (1), _faceDetected:1, _failedCommand:0, _newOperationStarted:0
+	
+00:48.780.393	Debug	Unknown (0)	ApplePearlSEPDriver	Default	analyticsCurrentEventStop <- _analyticsCurrentEvent:1,000
+	
+00:48.780.394	Debug	Unknown (0)	ApplePearlSEPDriver	Default	stopAndPowerOffCamera <- msPowerOffDelay:0
+	
+00:48.780.395	Debug	Unknown (0)	ApplePearlSEPDriver	Default	stopAndPowerOffCamera -> err:0x0
+	
+00:48.780.396	Debug	Unknown (0)	IOBiometricFamily	Default	IOBiometricService::unlockCommandAccess <- 
+	
+00:48.780.397	Debug	Unknown (0)	ApplePearlSEPDriver	Default	cameraStateHandler -> void
+	
+00:48.780.421	Debug	biometrickitd (116)	com.apple.BiometricKit	Daemon-Pearl	serviceStatus:type:inValue: -> 0x0
+	
+00:48.780.437	Info	biometrickitd (116)	com.apple.locationd.Motion	Motion	[CLIoHidInterface] Invalidating hid service refs	
+00:48.780.455	Debug	biometrickitd (116)	com.apple.BiometricKit	Daemon-Common	cancelWithClient: -> 0
+	
+00:48.780.477	Debug	biometrickitd (116)	com.apple.locationd.Motion	Motion	[CLIoHidInterface] Device,hidUsagePage,65,292,hidUsage,3,hasCallback,1,serviceRef,<private>	
+00:48.780.508	Debug	biometrickitd (116)	com.apple.locationd.Motion	Motion	[CLIoHidInterface] Device,hidUsagePage,32,hidUsage,138,hasCallback,0,serviceRef,<private>	

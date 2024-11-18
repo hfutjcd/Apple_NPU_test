@@ -1,0 +1,1000 @@
+00:03.042.750	Debug	symptomsd (207)	com.apple.symptomsd	evaluation	Call handler 0, <ConnectionFailureHandler: 0xcd8160420>	
+00:03.042.778	Debug	PerfPowerServices (1452)	com.apple.powerlog	display	Received msg at timestamp: 8,396,900,389,615	
+00:03.042.780	Debug	symptomsd (207)	com.apple.symptomsd	other	ConnectionFailureHandler: EventDescription: EventDescription sb at 0xcd81cf720 from pid 379 CloudTelemetryS SYMPTOM 0x6767010  flags 0x40000003 qual0 0x1a qual1 0x17b key 421904 num additional quals 5	
+00:03.042.867	Debug	PerfPowerServices (1452)	com.apple.powerlog	display	Data: <private>	
+00:03.042.934	Info	symptomsd (207)	com.apple.symptomsd	rnf	libnetcore symptom uses effective process name: CloudTelemetryS	
+00:03.042.936	Debug	PerfPowerServices (1452)	com.apple.powerlog	time	Linear approximation: systemNow=Mon Nov 18 11:54:17 2024, lastSystemTimeRecalibrated=Mon Nov 18 11:54:03 2024, currentTime=Tue Jan 13 05:37:53 1970	
+00:03.043.011	Default	backboardd (68)	CoreBrightness	Default	BaselineHarmony: Current strength: 0.2209, ALSStrength: 0.2700, AppStrength: 0.2209	
+00:03.043.055	Debug	symptomsd (207)	com.apple.symptomsd	evaluation	Converted qualifier 4 to string, was null terminated, result gateway.icloud.com:443	
+00:03.043.088	Debug	backboardd (68)	com.apple.CoreBrightness.CBColorModule.Primary	default	send notification for key = CBTargetWhitePoint value = <private>	
+00:03.043.128	Info	backboardd (68)	com.apple.CoreBrightness.CBColorModule.Primary	default	Calling brightness control with whitepoint ( 0.3448 | 0.3535 ) and period: 0.0000	
+00:03.043.132	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayContaineriOS	BuiltIn	Notification block key=CBTargetWhitePoint, value=<private>
+	
+00:03.043.148	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	Handle notification for key = CBTargetWhitePoint and property = <private>	
+00:03.043.163	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	Superbright EDR restrictions [would be]: CLTM 1,512.3809, UPO 2,175.0000, bottom [lower] restriction 1.0000, nits cap hdr: 2,175.0000, after BDM: 1,600.0000	
+00:03.043.177	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	EDR Color brightness compensation (SetLibEDRBrightness) TargetYCompensation: 1.1985, inputL: 2,175.0000, alpha: 0.7600, Ycomp: 1.1508. L_device: 118.8318, currentLux: 263.9057, nitsCapEDR: 1,600.0000	
+00:03.043.187	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	SetLibEDRBrightness to currentBrightness=118.8318, maxBrightness=1,600.0000, currentLux=263.9057, compensationBoost=1.1508	
+00:03.043.240	Debug	backboardd (68)	CoreBrightness	Default	CBEDRServerDisplayBrightness: display: 0 | target: 118.8318 | max: 1,600.0000 | ambient: 263.9057 | boost=1.1508	
+00:03.043.252	Debug	symptomsd (207)	com.apple.symptomsd	evaluation	Converted qualifier 10 to string, was null terminated, result 6	
+00:03.043.279	Debug	symptomsd (207)	com.apple.symptomsd	evaluation	Converted qualifier 11 to string, was null terminated, result \^A	
+00:03.043.300	Debug	symptomsd (207)	com.apple.symptomsd	evaluation	Simple Processing, postSymptom exit
+	
+00:03.043.370	Info	backboardd (68)	libEDR	Default	libEDR - EDRServerSetDisplayBrightnessForDisplay: (display: 0, targetBrightness: 118.8318, maxLuminance: 1,600.0000, ambientIlluminance: 263.9057, brightnessScaler: 1.1508)
+	
+00:03.043.407	Info	symptomsd (207)	com.apple.network		-[NWNumericAccumulator updateState:forName:] Updating state of kextsInstalled from None to None	
+00:03.043.415	Debug	PerfPowerServices (1452)	com.apple.powerlog	display	Final data to be logged: <private>	
+00:03.043.439	Debug	symptomsd (207)	com.apple.network		-[NWNumericAccumulator updateState:forName:] Updating state of kextsInstalled from None to None	
+00:03.043.509	Info	backboardd (68)	libEDR	Default	libEDR - EDRServerUpdateMinScalingFactor min scaling factor set to: 0.1250
+	
+00:03.043.550	Debug	symptomsd (207)	com.apple.network		-[NWNumericAccumulator addCount:toAccumulation:]_block_invoke New value for <private>: 1016 (+1), states: <private>	
+00:03.043.653	Info	backboardd (68)	libEDR	Default	libEDR - NotificationCallback: (type: kEDRNotifyBrightness, display: 0, brightness: 0.0743, backlight: 0.0743, edrScaler: 1.0000, maxLuminance: 1,600.0000, ambientIlluminance: 263.9057, brightnessScaler: 1.1508)
+	
+00:03.043.711	Debug	DTServiceHub (360)	DVTInstrumentsFoundation	Default	Data Size: 100,556, Rows Sent: 1,316, Stack depth: 2,249	
+00:03.043.843	Info	backboardd (68)	libEDR	Default	libEDR - PostNotification: (display: 0, brightness: 0.0743, backlight: 0.0743, edrScaling: 1.0000, maxLuminance: 1,600.0000, ambientIlluminance: 263.9057, brightnessScaler: 1.1508)
+	
+00:03.044.379	Debug	PerfPowerServices (1452)	com.apple.powerlog	display	Received msg at timestamp: 8,396,900,789,261	
+00:03.044.442	Debug	CommCenter (97)	com.apple.CommCenter	pdp	#D starts...	
+00:03.044.548	Debug	CommCenter (97)	com.apple.CommCenter	pdp	#D Found interface <private>, family 18, flags 32,841, up true	
+00:03.044.570	Debug	CommCenter (97)	com.apple.CommCenter	pdp	#D Found interface <private>, family 2, flags 32,841, up true	
+00:03.044.579	Default	backboardd (68)	ASEProcessing	Default	 [1.37.0]     +[ASEProcessing shouldEnhanceWidth:height:destinationWidth:destinationHeight:]: src={ 1,320w x 2,868h }, dest={ 1,177w x 2,557h }, aseFunctionOnYesOffNo=1
+	
+00:03.044.583	Debug	CommCenter (97)	com.apple.CommCenter	pdp	#D Found interface <private>, family 30, flags 32,841, up true	
+00:03.044.595	Debug	CommCenter (97)	com.apple.CommCenter	pdp	#D Found interface <private>, family 30, flags 32,841, up true	
+00:03.044.606	Debug	CommCenter (97)	com.apple.CommCenter	pdp	#D Found interface <private>, family 18, flags 32,784, up false	
+00:03.044.618	Debug	CommCenter (97)	com.apple.CommCenter	pdp	#D go ahead for <private>, family 18, flags 32,784, up false	
+00:03.044.629	Debug	CommCenter (97)	com.apple.CommCenter	pdp	#D Interface statistics for <private>: o/i: 0/0	
+00:03.044.664	Debug	CommCenter (97)	com.apple.CommCenter	pdp	#D Found interface <private>, family 18, flags 32,784, up false	
+00:03.044.798	Debug	CommCenter (97)	com.apple.CommCenter	pdp	#D go ahead for <private>, family 18, flags 32,784, up false	
+00:03.044.811	Debug	CommCenter (97)	com.apple.CommCenter	pdp	#D Interface statistics for <private>: o/i: 0/0	
+00:03.044.841	Debug	CommCenter (97)	com.apple.CommCenter	pdp	#D Found interface <private>, family 18, flags 32,784, up false	
+00:03.044.901	Debug	CommCenter (97)	com.apple.CommCenter	pdp	#D go ahead for <private>, family 18, flags 32,784, up false	
+00:03.044.933	Debug	CommCenter (97)	com.apple.CommCenter	pdp	#D Interface statistics for <private>: o/i: 0/0	
+00:03.044.957	Debug	CommCenter (97)	com.apple.CommCenter	pdp	#D Found interface <private>, family 18, flags 32,784, up false	
+00:03.044.979	Debug	CommCenter (97)	com.apple.CommCenter	pdp	#D go ahead for <private>, family 18, flags 32,784, up false	
+00:03.045.005	Debug	CommCenter (97)	com.apple.CommCenter	pdp	#D Interface statistics for <private>: o/i: 0/0	
+00:03.045.008	Info	CloudTelemetryService (379)	com.apple.networkextension		UUID cache hit (negative) for com.apple.CloudTelemetryService.xpc	
+00:03.045.044	Debug	CommCenter (97)	com.apple.CommCenter	pdp	#D Found interface <private>, family 18, flags 32,784, up false	
+00:03.045.119	Debug	CommCenter (97)	com.apple.CommCenter	pdp	#D go ahead for <private>, family 18, flags 32,784, up false	
+00:03.045.144	Error	CloudTelemetryService (379)	com.apple.network		nw_parameters_set_source_application_by_bundle_id_internal Failed to convert from bundle ID (com.apple.CloudTelemetryService.xpc) to UUID. This could lead to incorrect policies and accounting.	
+00:03.045.194	Debug	CommCenter (97)	com.apple.CommCenter	pdp	#D Interface statistics for <private>: o/i: 0/0	
+00:03.045.239	Debug	CommCenter (97)	com.apple.CommCenter	pdp	#D Found interface <private>, family 18, flags 32,784, up false	
+00:03.045.306	Debug	CommCenter (97)	com.apple.CommCenter	pdp	#D go ahead for <private>, family 18, flags 32,784, up false	
+00:03.045.339	Debug	CommCenter (97)	com.apple.CommCenter	pdp	#D Interface statistics for <private>: o/i: 0/0	
+00:03.045.372	Debug	CommCenter (97)	com.apple.CommCenter	pdp	#D Found interface <private>, family 18, flags 32,784, up false	
+00:03.045.395	Debug	CommCenter (97)	com.apple.CommCenter	pdp	#D go ahead for <private>, family 18, flags 32,784, up false	
+00:03.045.449	Debug	CommCenter (97)	com.apple.CommCenter	pdp	#D Interface statistics for <private>: o/i: 0/0	
+00:03.045.464	Debug	PerfPowerServices (1452)	com.apple.powerlog	display	Data: <private>	
+00:03.045.493	Debug	CommCenter (97)	com.apple.CommCenter	pdp	#D Found interface <private>, family 18, flags 32,784, up false	
+00:03.045.514	Debug	CommCenter (97)	com.apple.CommCenter	pdp	#D go ahead for <private>, family 18, flags 32,784, up false	
+00:03.045.537	Debug	CommCenter (97)	com.apple.CommCenter	pdp	#D Interface statistics for <private>: o/i: 0/0	
+00:03.045.569	Debug	CommCenter (97)	com.apple.CommCenter	pdp	#D Found interface <private>, family 18, flags 32,784, up false	
+00:03.045.591	Debug	CommCenter (97)	com.apple.CommCenter	pdp	#D go ahead for <private>, family 18, flags 32,784, up false	
+00:03.045.608	Debug	CommCenter (97)	com.apple.CommCenter	pdp	#D Interface statistics for <private>: o/i: 0/0	
+00:03.045.610	Debug	PerfPowerServices (1452)	com.apple.powerlog	time	Linear approximation: systemNow=Mon Nov 18 11:54:17 2024, lastSystemTimeRecalibrated=Mon Nov 18 11:54:03 2024, currentTime=Tue Jan 13 05:37:53 1970	
+00:03.045.633	Debug	CommCenter (97)	com.apple.CommCenter	pdp	#D Found interface <private>, family 18, flags 32,784, up false	
+00:03.045.653	Debug	CommCenter (97)	com.apple.CommCenter	pdp	#D go ahead for <private>, family 18, flags 32,784, up false	
+00:03.045.674	Debug	PerfPowerServices (1452)	com.apple.powerlog	display	Final data to be logged: <private>	
+00:03.045.675	Info	CloudTelemetryService (379)	com.apple.network	connection	nw_connection_create_with_id [C160] create connection to Hostname#981f6a2f:443	
+00:03.045.687	Debug	CommCenter (97)	com.apple.CommCenter	pdp	#D Interface statistics for <private>: o/i: 0/0	
+00:03.045.718	Debug	CommCenter (97)	com.apple.CommCenter	pdp	#D Found interface <private>, family 18, flags 32,784, up false	
+00:03.045.759	Debug	CommCenter (97)	com.apple.CommCenter	pdp	#D go ahead for <private>, family 18, flags 32,784, up false	
+00:03.045.783	Debug	PerfPowerServices (1452)	com.apple.powerlog	display	Received msg at timestamp: 8,396,901,184,426	
+00:03.045.800	Debug	CommCenter (97)	com.apple.CommCenter	pdp	#D Interface statistics for <private>: o/i: 0/0	
+00:03.045.825	Debug	CommCenter (97)	com.apple.CommCenter	pdp	#D Found interface <private>, family 18, flags 0, up false	
+00:03.045.830	Info	CloudTelemetryService (379)	com.apple.network	connection	nw_connection_create_with_id_block_invoke [C160] has alternative UNKNOWN for quic	
+00:03.045.850	Debug	CommCenter (97)	com.apple.CommCenter	pdp	#D Found interface <private>, family 18, flags 32,849, up true	
+00:03.045.889	Debug	CommCenter (97)	com.apple.CommCenter	pdp	#D Found interface <private>, family 30, flags 32,849, up true	
+00:03.045.908	Debug	PerfPowerServices (1452)	com.apple.powerlog	display	Data: <private>	
+00:03.045.929	Debug	CommCenter (97)	com.apple.CommCenter	pdp	#D Found interface <private>, family 18, flags 32,849, up true	
+00:03.045.944	Default	CloudTelemetryService (379)	com.apple.CFNetwork	Default	Connection 160: enabling TLS	
+00:03.045.969	Debug	CommCenter (97)	com.apple.CommCenter	pdp	#D Found interface <private>, family 30, flags 32,849, up true	
+00:03.045.971	Debug	PerfPowerServices (1452)	com.apple.powerlog	time	Linear approximation: systemNow=Mon Nov 18 11:54:17 2024, lastSystemTimeRecalibrated=Mon Nov 18 11:54:03 2024, currentTime=Tue Jan 13 05:37:53 1970	
+00:03.046.011	Debug	CommCenter (97)	com.apple.CommCenter	pdp	#D Found interface <private>, family 18, flags 32,849, up true	
+00:03.046.044	Debug	CommCenter (97)	com.apple.CommCenter	pdp	#D Found interface <private>, family 30, flags 32,849, up true	
+00:03.046.117	Debug	CommCenter (97)	com.apple.CommCenter	pdp	#D Found interface <private>, family 18, flags 34,850, up false	
+00:03.046.154	Debug	CommCenter (97)	com.apple.CommCenter	pdp	#D Found interface <private>, family 18, flags 34,915, up true	
+00:03.046.200	Debug	CommCenter (97)	com.apple.CommCenter	pdp	#D Found interface <private>, family 18, flags 32,849, up true	
+00:03.046.276	Debug	CommCenter (97)	com.apple.CommCenter	pdp	#D Found interface <private>, family 30, flags 32,849, up true	
+00:03.046.306	Debug	CommCenter (97)	com.apple.CommCenter	pdp	#D Found interface <private>, family 18, flags 34,915, up true	
+00:03.046.345	Debug	CommCenter (97)	com.apple.CommCenter	pdp	#D Found interface <private>, family 18, flags 34,915, up true	
+00:03.046.375	Debug	CommCenter (97)	com.apple.CommCenter	pdp	#D Found interface <private>, family 18, flags 34,915, up true	
+00:03.046.429	Debug	CommCenter (97)	com.apple.CommCenter	pdp	#D Found interface <private>, family 18, flags 34,915, up true	
+00:03.048.240	Debug	CloudTelemetryService (379)	com.apple.network	connection	nw_endpoint_flow_receive_report [C160 Hostname#981f6a2f:443 in_progress parent-flow (satisfied (Path is satisfied), interface: utun5, ipv4, dns, proxy)] received child report: [C160.1 Hostname#981f6a2f:443 initial path ()] 	
+00:03.048.263	Default	CloudTelemetryService (379)	com.apple.network	connection	[C160.1 Hostname#981f6a2f:443 initial path ()] event: path:start @0.0s	
+00:03.048.285	Debug	CloudTelemetryService (379)	com.apple.network		nw_path_necp_check_for_updates Failed to copy updated result (35)	
+00:03.048.297	Debug	locationd (74)	com.apple.locationd.Utility	Database	{"msg":"Preparing statement for database", "query":<private>, "path":/var/root/Library/Caches/locationd/cache_encryptedB.db}	
+00:03.048.301	Debug	CloudTelemetryService (379)	com.apple.network	connection	nw_endpoint_handler_path_change [C160.1 Hostname#981f6a2f:443 waiting path (satisfied (Path is satisfied), interface: utun5, ipv4, dns, proxy)] 	
+00:03.048.338	Debug	CloudTelemetryService (379)	com.apple.networkextension		ne_tracker_check_is_hostname_blocked() proceeding with the external check for hostname: <private>	
+00:03.048.354	Debug	CloudTelemetryService (379)	com.apple.networkextension		NEHelperIsHostnameDesignatedTrackerExternal(): obtained signing identifier: (com.apple.CloudTelemetryService.xpc)	
+00:03.048.372	Debug	CloudTelemetryService (379)	com.apple.networkextension		NEHelperIsHostnameDesignatedTrackerExternal(): context->audit_token is not set.	
+00:03.048.392	Debug	locationd (74)	com.apple.locationd.Utility	Database	{"msg":"Prepared statement", "statement":"35,315,978,176"}	
+00:03.048.403	Debug	CloudTelemetryService (379)	com.apple.networkextension		NEHelperIsHostnameDesignatedTrackerExternal(): is_hostname_found: (0), is_tcc_allowed: (1)	
+00:03.048.433	Debug	CloudTelemetryService (379)	com.apple.networkextension		External check: hostname <private> is not a tracker. Returning: ne_tracker_status_none	
+00:03.048.454	Debug	CloudTelemetryService (379)	com.apple.network	connection	nw_endpoint_flow_receive_report [C160 Hostname#981f6a2f:443 in_progress parent-flow (satisfied (Path is satisfied), interface: utun5, ipv4, dns, proxy)] received child report: [C160.1 Hostname#981f6a2f:443 waiting path (satisfied (Path is satisfied), interface: utun5, ipv4, dns, proxy)] 	
+00:03.048.522	Debug	locationd (74)	com.apple.locationd.Utility	Database	{"msg":"Preparing statement for database", "query":<private>, "path":/var/root/Library/Caches/locationd/cache_encryptedB.db}	
+00:03.048.529	Default	CloudTelemetryService (379)	com.apple.network	connection	[C160.1 Hostname#981f6a2f:443 waiting path (satisfied (Path is satisfied), interface: utun5, ipv4, dns, proxy)] event: path:satisfied @0.1s, uuid: ECA8ADAE-7144-45CF-8BFC-D8609BB99781	
+00:03.048.549	Debug	CloudTelemetryService (379)	com.apple.network	connection	-[NWConcrete_nw_endpoint_transform startWithHandler:] [C160.1 Hostname#981f6a2f:443 waiting transform (satisfied (Path is satisfied), interface: utun5, ipv4, dns, proxy)] 	
+00:03.048.564	Debug	CloudTelemetryService (379)	com.apple.network	connection	nw_endpoint_flow_receive_report [C160 Hostname#981f6a2f:443 in_progress parent-flow (satisfied (Path is satisfied), interface: utun5, ipv4, dns, proxy)] received child report: [C160.1 Hostname#981f6a2f:443 in_progress transform (satisfied (Path is satisfied), interface: utun5, ipv4, dns, proxy)] 	
+00:03.048.572	Debug	locationd (74)	com.apple.locationd.Utility	Database	{"msg":"Prepared statement", "statement":"35,315,979,520"}	
+00:03.048.580	Default	CloudTelemetryService (379)	com.apple.network	connection	[C160.1 Hostname#981f6a2f:443 in_progress transform (satisfied (Path is satisfied), interface: utun5, ipv4, dns, proxy)] event: transform:start @0.1s	
+00:03.048.644	Debug	CloudTelemetryService (379)	com.apple.network	connection	nw_endpoint_transform_add_children_block_invoke [C160.1 Hostname#981f6a2f:443 in_progress transform (satisfied (Path is satisfied), interface: utun5, ipv4, dns, proxy)] Transform including protocol <private> cannot be used, unknown endpoint	
+00:03.048.713	Debug	locationd (74)	com.apple.locationd.Utility	Database	{"msg":"Preparing statement for database", "query":<private>, "path":/var/root/Library/Caches/locationd/cache_encryptedB.db}	
+00:03.048.721	Info	CloudTelemetryService (379)	com.apple.network	connection	nw_endpoint_handler_start [C160.1.1 Hostname#981f6a2f:443 initial path ()] 	
+00:03.048.746	Debug	CloudTelemetryService (379)	com.apple.network	connection	nw_endpoint_transform_receive_report [C160.1 Hostname#981f6a2f:443 in_progress transform (satisfied (Path is satisfied), interface: utun5, ipv4, dns, proxy)] received child report: [C160.1.1 Hostname#981f6a2f:443 initial path ()] 	
+00:03.048.764	Debug	com.apple.MapKit.SnapshotService (409)	com.apple.defaults	User Defaults	looked up value <private> for key AppleLanguages in CFPrefsPlistSource<0xb2e0bc500> (Domain: kCFPreferencesAnyApplication, User: kCFPreferencesCurrentUser, ByHost: No, Container: (null), Contents Need Refresh: No) via CFPrefsSearchListSource<0xb2e0bc200> (Domain: com.apple.MapKit.SnapshotService, Container: (null))	
+00:03.048.780	Debug	locationd (74)	com.apple.locationd.Utility	Database	{"msg":"Prepared statement", "statement":"35,315,978,176"}	
+00:03.048.823	Debug	locationd (74)	com.apple.locationd.Utility	Database	{"msg":"Preparing statement for database", "query":<private>, "path"://System/Library/Frameworks/CoreLocation.framework/Support/factory.db}	
+00:03.048.837	Debug	CloudTelemetryService (379)	com.apple.network	connection	nw_endpoint_flow_receive_report [C160 Hostname#981f6a2f:443 in_progress parent-flow (satisfied (Path is satisfied), interface: utun5, ipv4, dns, proxy)] received child report: [C160.1.1 Hostname#981f6a2f:443 initial path ()] 	
+00:03.048.876	Default	CloudTelemetryService (379)	com.apple.network	connection	[C160.1.1 Hostname#981f6a2f:443 initial path ()] event: path:start @0.1s	
+00:03.048.881	Debug	locationd (74)	com.apple.locationd.Utility	Database	{"msg":"Prepared statement", "statement":"35,299,495,424"}	
+00:03.048.961	Debug	CloudTelemetryService (379)	com.apple.network		nw_path_necp_check_for_updates Failed to copy updated result (35)	
+00:03.049.010	Debug	locationd (74)	com.apple.locationd.Position	WifiPosition	#wifitilecentroids, read cache, 8, in_tiles, 0, not_in_tiles, 8, not_found, 0	
+00:03.049.011	Debug	PerfPowerServices (1452)	com.apple.powerlog	display	Final data to be logged: <private>	
+00:03.049.018	Debug	CloudTelemetryService (379)	com.apple.network	connection	nw_endpoint_handler_path_change [C160.1.1 Hostname#981f6a2f:443 waiting path (satisfied (Path is satisfied), interface: utun5, ipv4, dns, proxy)] 	
+00:03.049.042	Debug	CloudTelemetryService (379)	com.apple.networkextension		ne_tracker_check_is_hostname_blocked() proceeding with the external check for hostname: <private>	
+00:03.049.075	Debug	CloudTelemetryService (379)	com.apple.networkextension		NEHelperIsHostnameDesignatedTrackerExternal(): obtained signing identifier: (com.apple.CloudTelemetryService.xpc)	
+00:03.049.092	Debug	CloudTelemetryService (379)	com.apple.networkextension		NEHelperIsHostnameDesignatedTrackerExternal(): context->audit_token is not set.	
+00:03.049.143	Debug	CloudTelemetryService (379)	com.apple.networkextension		NEHelperIsHostnameDesignatedTrackerExternal(): is_hostname_found: (0), is_tcc_allowed: (1)	
+00:03.049.148	Info	locationd (74)	com.apple.locationd.Position	GeneralCLX	@TileSearch, wifi, results, searched, 8, in_tiles, 0, ALS, 5	
+00:03.049.160	Debug	CloudTelemetryService (379)	com.apple.networkextension		External check: hostname <private> is not a tracker. Returning: ne_tracker_status_none	
+00:03.049.168	Debug	locationd (74)	com.apple.locationd.Position	WifiPosition	MovingApDetector, skip cross-checking centroids with GPS/Cell as requested	
+00:03.049.200	Default	locationd (74)	com.apple.locationd.Position	WifiPosition	@WifiAps, lookiter, 1 / 8, <private>, <private>, <private>, hacc, 31.0000, reach, 286, altitude, <private>, vacc, 10.0000, src, als, query age, 5.0831 days	
+00:03.049.240	Debug	CloudTelemetryService (379)	com.apple.network	connection	nw_endpoint_transform_receive_report [C160.1 Hostname#981f6a2f:443 in_progress transform (satisfied (Path is satisfied), interface: utun5, ipv4, dns, proxy)] received child report: [C160.1.1 Hostname#981f6a2f:443 waiting path (satisfied (Path is satisfied), interface: utun5, ipv4, dns, proxy)] 	
+00:03.049.243	Default	locationd (74)	com.apple.locationd.Position	WifiPosition	@WifiAps, lookiter, 2 / 8, <private>, notindb	
+00:03.049.259	Default	locationd (74)	com.apple.locationd.Position	WifiPosition	@WifiAps, lookiter, 3 / 8, <private>, unknown	
+00:03.049.269	Debug	CloudTelemetryService (379)	com.apple.network	connection	nw_endpoint_flow_receive_report [C160 Hostname#981f6a2f:443 in_progress parent-flow (satisfied (Path is satisfied), interface: utun5, ipv4, dns, proxy)] received child report: [C160.1.1 Hostname#981f6a2f:443 waiting path (satisfied (Path is satisfied), interface: utun5, ipv4, dns, proxy)] 	
+00:03.049.304	Default	CloudTelemetryService (379)	com.apple.network	connection	[C160.1.1 Hostname#981f6a2f:443 waiting path (satisfied (Path is satisfied), interface: utun5, ipv4, dns, proxy)] event: path:satisfied @0.1s, uuid: CE331CDC-8E0C-4B0B-AD3C-646B94A24B31	
+00:03.049.329	Default	locationd (74)	com.apple.locationd.Position	WifiPosition	@WifiAps, lookiter, 4 / 8, <private>, <private>, <private>, hacc, 29.0000, reach, 341, altitude, <private>, vacc, 10.0000, src, als, query age, 5.0831 days	
+00:03.049.348	Default	locationd (74)	com.apple.locationd.Position	WifiPosition	@WifiAps, lookiter, 5 / 8, <private>, notindb	
+00:03.049.375	Default	locationd (74)	com.apple.locationd.Position	WifiPosition	@WifiAps, lookiter, 6 / 8, <private>, unknown	
+00:03.049.390	Default	locationd (74)	com.apple.locationd.Position	WifiPosition	@WifiAps, lookiter, 7 / 8, <private>, <private>, <private>, hacc, 30.0000, reach, 223, altitude, <private>, vacc, 10.4800, src, als, query age, 5.0467 days	
+00:03.049.404	Default	locationd (74)	com.apple.locationd.Position	WifiPosition	@WifiAps, lookiter, 8 / 8, <private>, notindb	
+00:03.049.417	Debug	locationd (74)	com.apple.locationd.Position	WifiPosition	WlpMetric, aplookup, 8, 8, sources, tilesals, als, 37, tiles, 0, invalid, 25, unknown, 37	
+00:03.049.504	Info	symptomsd (207)	com.apple.symptomsd	proc_state	Report apps state change: {
+    "com.apple.AccessibilityUIServer.AccessibilityAppIntents" = 1;
+    "com.apple.AppStore" = 1;
+    "com.apple.AppleMediaDiscovery.AMDEngagementExtension" = 1;
+    "com.apple.Batteries.BatteriesAvocadoWidgetExtension" = 1;
+    "com.apple.Bridge" = 1;
+    "com.apple.CameraOverlayAngel" = 1;
+    "com.apple.CloudDocs.iCloudDriveFileProvider" = 1;
+    "com.apple.CoreAuthUI" = 1;
+    "com.apple.DocumentsApp" = 1;
+    "com.apple.FileProvider.LocalStorage" = 1;
+    "com.apple.GenerativePlaygroundApp" = 1;
+    "com.apple.HangHUD" = 1;
+    "com.apple.Health.HealthBalanceWidgetExtension" = 1;
+    "com.apple.Home" = 1;
+    "com.apple.Keynote" = 1;
+    "com.apple.Maps.GeneralMapsWidget" = 1;
+    "com.apple.MercuryPoster" = 1;
+    "com.apple.MobileSMS" = 1;
+    "com.apple.MobileStore" = 1;
+    "com.apple.Music.MusicFocusFilters" = 1;
+    "com.apple.Music.MusicWidgets" = 1;
+    "com.apple.Numbers" = 1;
+    "com.apple.PassKit.EngagementExtension" = 1;
+    "com.apple.PhotosUIPrivate.PhotosAmbientPosterProvider" =	
+00:03.049.638	Debug	CloudTelemetryService (379)	com.apple.network	connection	-[NWConcrete_nw_endpoint_resolver startWithHandler:] [C160.1.1 Hostname#981f6a2f:443 waiting resolver (satisfied (Path is satisfied), interface: utun5, ipv4, dns, proxy)] 	
+00:03.049.700	Debug	CloudTelemetryService (379)	com.apple.network	connection	nw_endpoint_transform_receive_report [C160.1 Hostname#981f6a2f:443 in_progress transform (satisfied (Path is satisfied), interface: utun5, ipv4, dns, proxy)] received child report: [C160.1.1 Hostname#981f6a2f:443 in_progress resolver (satisfied (Path is satisfied), interface: utun5, ipv4, dns, proxy)] 	
+00:03.049.700	Info	locationd (74)	com.apple.locationd.Position	WifiPosition	@WsbCalc, groups, 1, live	
+00:03.049.755	Debug	locationd (74)	com.apple.locationd.Position	GeneralCLX	WifiCalc, input AP, 1 / 3, <private>, <private>, <private>, hacc, 30.0000, reach, 223, altitude, <private>, vacc, 10.4800, rssi, 18,446,744,073,709,551,564, channel, 1, scan timestamp, 753,594,857.7417, query timestamp, 753,158,825.8459, <private>	
+00:03.049.761	Debug	CloudTelemetryService (379)	com.apple.network	connection	nw_endpoint_flow_receive_report [C160 Hostname#981f6a2f:443 in_progress parent-flow (satisfied (Path is satisfied), interface: utun5, ipv4, dns, proxy)] received child report: [C160.1.1 Hostname#981f6a2f:443 in_progress resolver (satisfied (Path is satisfied), interface: utun5, ipv4, dns, proxy)] 	
+00:03.049.772	Debug	locationd (74)	com.apple.locationd.Position	GeneralCLX	WifiCalc, input AP, 2 / 3, <private>, <private>, <private>, hacc, 29.0000, reach, 341, altitude, <private>, vacc, 10.0000, rssi, 18,446,744,073,709,551,541, channel, 1, scan timestamp, 753,594,857.7426, query timestamp, 753,155,681.4092, <private>	
+00:03.049.785	Debug	locationd (74)	com.apple.locationd.Position	GeneralCLX	WifiCalc, input AP, 3 / 3, <private>, <private>, <private>, hacc, 31.0000, reach, 286, altitude, <private>, vacc, 10.0000, rssi, 18,446,744,073,709,551,546, channel, 9, scan timestamp, 753,594,857.8254, query timestamp, 753,155,681.4092, <private>	
+00:03.049.805	Default	CloudTelemetryService (379)	com.apple.network	connection	[C160.1.1 Hostname#981f6a2f:443 in_progress resolver (satisfied (Path is satisfied), interface: utun5, ipv4, dns, proxy)] event: resolver:start_dns @0.2s	
+00:03.049.833	Debug	locationd (74)	com.apple.locationd.Position	GeneralCLX	WifiCalc, zaxis, num input aps, <private>, num valid unc aps, <private>	
+00:03.049.847	Debug	locationd (74)	com.apple.locationd.Position	GeneralCLX	WifiCalc, zaxis, all aps were non-slam, add them back to yield a fix	
+00:03.049.862	Debug	locationd (74)	com.apple.locationd.Position	GeneralCLX	WifiCalc, zaxis, signal environment, <private>, sufficient ap threshold, <private>	
+00:03.049.878	Debug	locationd (74)	com.apple.locationd.Position	GeneralCLX	@WifiCalc, zaxis, num accessPointsToUseInCalculation, <private>	
+00:03.049.881	Info	CloudTelemetryService (379)	com.apple.network	connection	nw_resolver_set_update_handler_block_invoke [C160.1.1] found cached endpoints [0 - IPv4#54cdbf7b:443]	
+00:03.049.900	Debug	locationd (74)	com.apple.locationd.Position	GeneralCLX	WifiCalc, zaxis, isMultimodal, <private>	
+00:03.049.913	Debug	locationd (74)	com.apple.locationd.Position	GeneralCLX	WifiCalc, zaxis, reject outlier, num input accessPointWithWeights, <private>	
+00:03.049.914	Default	CloudTelemetryService (379)	com.apple.CFNetwork	Default	Task <8FE23894-37BD-468A-8CAD-78C288E5916B>.<1> setting up Connection 160	
+00:03.049.925	Debug	locationd (74)	com.apple.locationd.Position	GeneralCLX	WifiCalc, zaxis, reject outlier, num accessPointsWithValidWeights, <private>	
+00:03.049.929	Debug	CloudTelemetryService (379)	com.apple.network	activity	Returning should log: 0 for activity cfnetwork:foreground_task	
+00:03.049.940	Debug	locationd (74)	com.apple.locationd.Position	GeneralCLX	WifiCalc, zaxis, reject outlier, medianAltitude, <private>, maxDeviationFromMedian, <private>, maxNumApsToReject, <private>, maxWeightsToReject, <private>	
+00:03.049.974	Info	CloudTelemetryService (379)	com.apple.network	connection	nw_resolver_create_dns_getaddrinfo_locked_block_invoke [C159.1.1] Invalidating getaddrinfo DNS object	
+00:03.050.027	Debug	locationd (74)	com.apple.locationd.Position	GeneralCLX	WifiCalc, zaxis, num aps after outlier rejection, <private>	
+00:03.050.052	Debug	CloudTelemetryService (379)	com.apple.network	connection	nw_endpoint_resolver_update [C160.1.1 Hostname#981f6a2f:443 in_progress resolver (satisfied (Path is satisfied), interface: utun5, ipv4, dns, proxy)] resolver is complete	
+00:03.050.052	Debug	locationd (74)	com.apple.locationd.Position	GeneralCLX	WifiCalc, zaxis, calculate uncertainty, num accessPointWithWeights, <private>	
+00:03.050.156	Debug	locationd (74)	com.apple.locationd.Position	GeneralCLX	WifiCalc, zaxis, calculate uncertainty, num accessPointsWithValidWeights, <private>	
+00:03.050.165	Default	CloudTelemetryService (379)	com.apple.network	connection	nw_endpoint_resolver_update [C160.1.1 Hostname#981f6a2f:443 in_progress resolver (satisfied (Path is satisfied), interface: utun5, ipv4, dns, proxy)] Adding endpoint handler for IPv4#54cdbf7b:443	
+00:03.050.187	Debug	locationd (74)	com.apple.locationd.Position	GeneralCLX	WifiCalc, zaxis, calculate uncertainty, dSumWeightV, <private>, dSumWeightVSquare, <private>, dSumWeightedDeviation, <private>, altVarianceDivisor, <private>	
+00:03.050.201	Debug	locationd (74)	com.apple.locationd.Position	GeneralCLX	WifiCalc, zaxis, maxRssi, <private>	
+00:03.050.215	Debug	locationd (74)	com.apple.locationd.Position	GeneralCLX	WifiCalc, est, <private>, vunc, 30.0000, numInputAps, <private>, numApsUsed, <private>, isSLAM, <private>	
+00:03.050.241	Debug	locationd (74)	com.apple.locationd.Position	GeneralCLX	WifiCalc, counts, 3, 3, 3, 3, verified, 1, hint, -1.0000, 0	
+00:03.050.295	Debug	locationd (74)	com.apple.locationd.Position	GeneralCLX	WifiCalc, apReachOverlapPercentage, <private>	
+00:03.050.324	Debug	CloudTelemetryService (379)	com.apple.network	connection	nw_endpoint_resolver_update [C160.1.1 Hostname#981f6a2f:443 in_progress resolver (satisfied (Path is satisfied), interface: utun5, ipv4, dns, proxy)] Updated endpoint list is (IPv4#54cdbf7b:443)	
+00:03.050.375	Debug	CloudTelemetryService (379)	com.apple.network	connection	nw_endpoint_transform_receive_report [C160.1 Hostname#981f6a2f:443 in_progress transform (satisfied (Path is satisfied), interface: utun5, ipv4, dns, proxy)] received child report: [C160.1.1 Hostname#981f6a2f:443 in_progress resolver (satisfied (Path is satisfied), interface: utun5, ipv4, dns, proxy)] 	
+00:03.050.401	Debug	CloudTelemetryService (379)	com.apple.network	connection	nw_endpoint_flow_receive_report [C160 Hostname#981f6a2f:443 in_progress parent-flow (satisfied (Path is satisfied), interface: utun5, ipv4, dns, proxy)] received child report: [C160.1.1 Hostname#981f6a2f:443 in_progress resolver (satisfied (Path is satisfied), interface: utun5, ipv4, dns, proxy)] 	
+00:03.050.428	Default	CloudTelemetryService (379)	com.apple.network	connection	[C160.1.1 Hostname#981f6a2f:443 in_progress resolver (satisfied (Path is satisfied), interface: utun5, ipv4, dns, proxy)] event: resolver:receive_dns @0.3s	
+00:03.050.445	Info	CloudTelemetryService (379)	com.apple.network	connection	nw_endpoint_resolver_start_next_child [C160.1.1 Hostname#981f6a2f:443 in_progress resolver (satisfied (Path is satisfied), interface: utun5, ipv4, dns, proxy)] starting child endpoint IPv4#54cdbf7b:443	
+00:03.050.465	Debug	locationd (74)	com.apple.locationd.Position	GeneralCLX	WifiCalc, est, 2.2227, <private>, <private>, hunc, 29.0000, estWorstError, 226.5946, n, 3, x, 0	
+00:03.050.468	Info	CloudTelemetryService (379)	com.apple.network	connection	nw_endpoint_handler_start [C160.1.1.1 IPv4#54cdbf7b:443 initial path ()] 	
+00:03.050.483	Debug	CloudTelemetryService (379)	com.apple.network	connection	nw_endpoint_resolver_receive_report [C160.1.1 Hostname#981f6a2f:443 in_progress resolver (satisfied (Path is satisfied), interface: utun5, ipv4, dns, proxy)] received child report: [C160.1.1.1 IPv4#54cdbf7b:443 initial path ()] 	
+00:03.050.509	Default	locationd (74)	com.apple.locationd.Position	WifiPosition	@WifiAps, compute, 3, used, 3, used_vert, 3, hint, 0	
+00:03.050.526	Debug	locationd (74)	com.apple.locationd.Position	GeneralCLX	WifiCalc, zaxis, isWsb, 1	
+00:03.050.541	Default	locationd (74)	com.apple.locationd.Position	WifiPosition	@WsbLoc, associated AP, none	
+00:03.050.596	Default	locationd (74)	com.apple.locationd.Position	WifiPosition	@WsbLoc, fix, aps, 3, 8, reproc, 0, time, 753,594,857.7082, ll, <private>, <private>, hAcc, 29.0000, alsAps, 3, tileAps, 0	
+00:03.050.597	Debug	CloudTelemetryService (379)	com.apple.network	connection	nw_endpoint_transform_receive_report [C160.1 Hostname#981f6a2f:443 in_progress transform (satisfied (Path is satisfied), interface: utun5, ipv4, dns, proxy)] received child report: [C160.1.1.1 IPv4#54cdbf7b:443 initial path ()] 	
+00:03.050.612	Debug	CloudTelemetryService (379)	com.apple.network	connection	nw_endpoint_flow_receive_report [C160 Hostname#981f6a2f:443 in_progress parent-flow (satisfied (Path is satisfied), interface: utun5, ipv4, dns, proxy)] received child report: [C160.1.1.1 IPv4#54cdbf7b:443 initial path ()] 	
+00:03.050.634	Default	CloudTelemetryService (379)	com.apple.network	connection	[C160.1.1.1 IPv4#54cdbf7b:443 initial path ()] event: path:start @0.3s	
+00:03.050.662	Debug	CloudTelemetryService (379)	com.apple.network		nw_path_necp_check_for_updates Failed to copy updated result (35)	
+00:03.050.668	Debug	locationd (74)	com.apple.locationd.Position	WifiPosition	WsbMetric, fix, aps, 3, age, 0.0045, live	
+00:03.050.703	Debug	CloudTelemetryService (379)	com.apple.network	connection	nw_endpoint_handler_path_change [C160.1.1.1 IPv4#54cdbf7b:443 waiting path (satisfied (Path is satisfied), viable, interface: utun5, ipv4, dns, proxy)] 	
+00:03.050.737	Debug	CloudTelemetryService (379)	com.apple.network	connection	nw_endpoint_resolver_receive_report [C160.1.1 Hostname#981f6a2f:443 in_progress resolver (satisfied (Path is satisfied), interface: utun5, ipv4, dns, proxy)] received child report: [C160.1.1.1 IPv4#54cdbf7b:443 waiting path (satisfied (Path is satisfied), viable, interface: utun5, ipv4, dns, proxy)] 	
+00:03.050.746	Debug	locationd (74)	com.apple.locationd.Position	WifiPosition	@WsbMetric, result, <private>	
+00:03.050.752	Debug	CloudTelemetryService (379)	com.apple.network	connection	nw_endpoint_transform_receive_report [C160.1 Hostname#981f6a2f:443 in_progress transform (satisfied (Path is satisfied), interface: utun5, ipv4, dns, proxy)] received child report: [C160.1.1.1 IPv4#54cdbf7b:443 waiting path (satisfied (Path is satisfied), viable, interface: utun5, ipv4, dns, proxy)] 	
+00:03.050.782	Debug	CloudTelemetryService (379)	com.apple.network	connection	nw_endpoint_flow_receive_report [C160 Hostname#981f6a2f:443 in_progress parent-flow (satisfied (Path is satisfied), interface: utun5, ipv4, dns, proxy)] received child report: [C160.1.1.1 IPv4#54cdbf7b:443 waiting path (satisfied (Path is satisfied), viable, interface: utun5, ipv4, dns, proxy)] 	
+00:03.050.811	Default	CloudTelemetryService (379)	com.apple.network	connection	[C160.1.1.1 IPv4#54cdbf7b:443 waiting path (satisfied (Path is satisfied), viable, interface: utun5, ipv4, dns, proxy)] event: path:satisfied @0.3s, uuid: EBEBC257-C464-43C3-9D2A-A4259A408207	
+00:03.050.817	Default	locationd (74)	com.apple.locationd.Position	WifiPosition	WsbCalc, computed, 1, of, 1, live	
+00:03.050.833	Debug	locationd (74)	com.apple.locationd.Position	WifiPosition	WsbMetric, groupresult, live, 1	
+00:03.050.872	Debug	locationd (74)	com.apple.locationd.Position	WifiPosition	@WsbMetric, wsbWithAssociatedAp, numAssociated, 0, numUnassociated, 1, numWifiFixesWithAssociatedAp, 0, passType, live	
+00:03.054.731	Debug	Photos (1680)	com.apple.BaseBoard	Common	[BSBlockSentinel:<private>] signaled! 2 of 2	
+00:03.054.783	Debug	Photos (1680)	com.apple.BaseBoard	Common	[BSBlockSentinel:<private>] dealloc	
+00:03.054.823	Info	SpringBoard (34)	com.apple.FrontBoard	ProcessScene	[0x3003c52c0:(FBSceneManager):sceneID:com.apple.mobileslideshow-default] Scene action [Forward Event][6512] completed with success: 1	
+00:03.054.827	Debug	Photos (1680)	com.apple.photos.ui	UserStatus	<PXCPLSyncActivity:0x302b88bd0, syncing:0> Sync progress provided	
+00:03.055.039	Debug	PerfPowerServices (1452)	com.apple.powerlog	display	Received msg at timestamp: 8,396,903,985,259	
+00:03.055.306	Error	CloudTelemetryService (379)	com.apple.network	connection	nw_endpoint_flow_validate_delegation [C160.1.1.1 IPv4#54cdbf7b:443 in_progress channel-flow (satisfied (Path is satisfied), viable, interface: utun5, ipv4, dns, proxy)] Network Delegation Failure: Invalid Bundle ID "com.apple.CloudTelemetryService.xpc" [I]	
+00:03.055.313	Debug	PerfPowerServices (1452)	com.apple.powerlog	display	Data: <private>	
+00:03.055.522	Debug	PerfPowerServices (1452)	com.apple.powerlog	time	Linear approximation: systemNow=Mon Nov 18 11:54:17 2024, lastSystemTimeRecalibrated=Mon Nov 18 11:54:03 2024, currentTime=Tue Jan 13 05:37:53 1970	
+00:03.055.532	Debug	CloudTelemetryService (379)	com.apple.network	connection	nw_endpoint_resolver_receive_report [C160.1.1 Hostname#981f6a2f:443 in_progress resolver (satisfied (Path is satisfied), interface: utun5, ipv4, dns, proxy)] received child report: [C160.1.1.1 IPv4#54cdbf7b:443 in_progress channel-flow (satisfied (Path is satisfied), viable, interface: utun5, ipv4, dns, proxy)] 	
+00:03.055.589	Debug	PerfPowerServices (1452)	com.apple.powerlog	display	Final data to be logged: <private>	
+00:03.055.969	Debug	CloudTelemetryService (379)	com.apple.network	connection	nw_endpoint_transform_receive_report [C160.1 Hostname#981f6a2f:443 in_progress transform (satisfied (Path is satisfied), interface: utun5, ipv4, dns, proxy)] received child report: [C160.1.1.1 IPv4#54cdbf7b:443 in_progress channel-flow (satisfied (Path is satisfied), viable, interface: utun5, ipv4, dns, proxy)] 	
+00:03.056.006	Debug	CloudTelemetryService (379)	com.apple.network	connection	nw_endpoint_flow_receive_report [C160 Hostname#981f6a2f:443 in_progress parent-flow (satisfied (Path is satisfied), interface: utun5, ipv4, dns, proxy)] received child report: [C160.1.1.1 IPv4#54cdbf7b:443 in_progress channel-flow (satisfied (Path is satisfied), viable, interface: utun5, ipv4, dns, proxy)] 	
+00:03.056.144	Default	CloudTelemetryService (379)	com.apple.network	connection	[C160.1.1.1 IPv4#54cdbf7b:443 in_progress channel-flow (satisfied (Path is satisfied), viable, interface: utun5, ipv4, dns, proxy)] event: flow:start_nexus @0.8s	
+00:03.056.218	Debug	com.apple.MapKit.SnapshotService (409)	com.apple.defaults	User Defaults	looked up value <private> for key AppleLanguages in CFPrefsPlistSource<0xb2e0bc500> (Domain: kCFPreferencesAnyApplication, User: kCFPreferencesCurrentUser, ByHost: No, Container: (null), Contents Need Refresh: No) via CFPrefsSearchListSource<0xb2e0bc200> (Domain: com.apple.MapKit.SnapshotService, Container: (null))	
+00:03.056.360	Debug	CloudTelemetryService (379)	com.apple.network		nw_path_evaluator_create_flow_inner Added flow 47AA1F41-1ED7-4660-8BA5-7A5ACF2106E4 to EBEBC257-C464-43C3-9D2A-A4259A408207	
+00:03.056.385	Info	CloudTelemetryService (379)	com.apple.network	connection	nw_endpoint_flow_setup_channel [C160.1.1.1 IPv4#54cdbf7b:443 in_progress channel-flow (satisfied (Path is satisfied), viable, interface: utun5, ipv4, dns, proxy)] requested nexus flow	
+00:03.056.471	Default	locationd (74)	com.apple.locationd.Position	WifiPosition	@WsbReproc, update, groups, 80, unknownAPs, 33, deleteTo, 0.0000	
+00:03.056.497	Debug	searchd (216)	com.apple.spotlightindex	General	#index too much enqueued (413); defer callback for work unit of 6,272,732	
+00:03.056.554	Debug	locationd (74)	com.apple.locationd.Position	WifiPosition	WsbTimer, set, 0, unknown, 33, wasempty, 0, delay, 600	
+00:03.056.600	Debug	CloudTelemetryService (379)	com.apple.network	connection	nw_endpoint_handler_path_change [C160.1.1.1 IPv4#54cdbf7b:443 in_progress channel-flow (satisfied (Path is satisfied), viable, interface: utun5, ipv4, dns, proxy)] 	
+00:03.056.635	Debug	CloudTelemetryService (379)	com.apple.network	connection	-[NWConcrete_nw_endpoint_flow updatePathWithHandler:] [C160.1.1.1 IPv4#54cdbf7b:443 in_progress channel-flow (satisfied (Path is satisfied), viable, interface: utun5, ipv4, dns, proxy)] 	
+00:03.056.654	Debug	CloudTelemetryService (379)	com.apple.network	connection	nw_endpoint_resolver_receive_report [C160.1.1 Hostname#981f6a2f:443 in_progress resolver (satisfied (Path is satisfied), interface: utun5, ipv4, dns, proxy)] received child report: [C160.1.1.1 IPv4#54cdbf7b:443 in_progress channel-flow (satisfied (Path is satisfied), viable, interface: utun5, ipv4, dns, proxy)] 	
+00:03.056.675	Debug	CloudTelemetryService (379)	com.apple.network	connection	nw_endpoint_transform_receive_report [C160.1 Hostname#981f6a2f:443 in_progress transform (satisfied (Path is satisfied), interface: utun5, ipv4, dns, proxy)] received child report: [C160.1.1.1 IPv4#54cdbf7b:443 in_progress channel-flow (satisfied (Path is satisfied), viable, interface: utun5, ipv4, dns, proxy)] 	
+00:03.056.691	Debug	CloudTelemetryService (379)	com.apple.network	connection	nw_endpoint_flow_receive_report [C160 Hostname#981f6a2f:443 in_progress parent-flow (satisfied (Path is satisfied), interface: utun5, ipv4, dns, proxy)] received child report: [C160.1.1.1 IPv4#54cdbf7b:443 in_progress channel-flow (satisfied (Path is satisfied), viable, interface: utun5, ipv4, dns, proxy)] 	
+00:03.056.707	Default	CloudTelemetryService (379)	com.apple.network	connection	[C160.1.1.1 IPv4#54cdbf7b:443 in_progress channel-flow (satisfied (Path is satisfied), viable, interface: utun5, ipv4, dns, proxy)] event: flow:receive_nexus @0.9s	
+00:03.056.724	Info	CloudTelemetryService (379)	com.apple.network	connection	nw_endpoint_flow_setup_protocols [C160.1.1.1 IPv4#54cdbf7b:443 in_progress channel-flow (satisfied (Path is satisfied), viable, interface: utun5, ipv4, dns, proxy)] setup flow id 47AA1F41-1ED7-4660-8BA5-7A5ACF2106E4	
+00:03.056.850	Debug	CloudTelemetryService (379)	com.apple.network	connection	nw_endpoint_flow_attach_protocols [C160.1.1.1 IPv4#54cdbf7b:443 in_progress channel-flow (satisfied (Path is satisfied), viable, interface: utun5, ipv4, dns, proxy)] 	
+00:03.056.884	Debug	CloudTelemetryService (379)	com.apple.network	connection	nw_endpoint_flow_attach_protocols_block_invoke [C160.1.1.1 IPv4#54cdbf7b:443 in_progress channel-flow (satisfied (Path is satisfied), viable, interface: utun5, ipv4, dns, proxy)] Attached application protocol: CFNetworkConnection-4165466820	
+00:03.056.936	Debug	CloudTelemetryService (379)	com.apple.network	connection	nw_endpoint_flow_attach_protocols_block_invoke [C160.1.1.1 IPv4#54cdbf7b:443 in_progress channel-flow (satisfied (Path is satisfied), viable, interface: utun5, ipv4, dns, proxy)] Attached application protocol: tls	
+00:03.056.964	Debug	searchd (216)	com.apple.corespotlight	index	No client state to save for bundleID:com.apple.application	
+00:03.056.998	Debug	CloudTelemetryService (379)	com.apple.network	connection	nw_endpoint_flow_attach_protocols_block_invoke [C160.1.1.1 IPv4#54cdbf7b:443 in_progress channel-flow (satisfied (Path is satisfied), viable, interface: utun5, ipv4, dns, proxy)] Attached transport protocol: tcp	
+00:03.057.050	Info	CloudTelemetryService (379)	com.apple.network	tcp	nw_protocol_tcp_register_notification [C160.1.1.1:3] segmentation_offload_notification enabled	
+00:03.057.097	Debug	siriinferenced (193)	com.apple.Biome	BiomeStorage	No more events and on last segment	
+00:03.057.109	Debug	CloudTelemetryService (379)	com.apple.network	connection	nw_endpoint_flow_attach_protocols_block_invoke [C160.1.1.1 IPv4#54cdbf7b:443 in_progress channel-flow (satisfied (Path is satisfied), viable, interface: utun5, ipv4, dns, proxy)] Attached internet protocol: ip	
+00:03.057.158	Default	locationd (74)	com.apple.locationd.Position	WifiPosition	WsbAls, query, 0, live, unknown, 33	
+00:03.057.170	Info	CloudTelemetryService (379)	com.apple.network	connection	nw_endpoint_flow_attach_channel_protocol [C160.1.1.1 IPv4#54cdbf7b:443 in_progress channel-flow (satisfied (Path is satisfied), viable, interface: utun5, ipv4, dns, proxy)] opened channel at level 2	
+00:03.057.198	Debug	CloudTelemetryService (379)	com.apple.network		nw_channel_add_input_handler Added channel input handler for 47AA1F41-1ED7-4660-8BA5-7A5ACF2106E4	
+00:03.057.215	Debug	CloudTelemetryService (379)	com.apple.network	connection	nw_endpoint_flow_attach_protocols [C160.1.1.1 IPv4#54cdbf7b:443 in_progress channel-flow (satisfied (Path is satisfied), viable, interface: utun5, ipv4, dns, proxy)] Attached channel protocol	
+00:03.057.346	Debug	CloudTelemetryService (379)	com.apple.network	connection	nw_endpoint_flow_setup_protocols [C160.1.1.1 IPv4#54cdbf7b:443 in_progress channel-flow (satisfied (Path is satisfied), viable, interface: utun5, ipv4, dns, proxy)] leaf flow starting	
+00:03.057.496	Debug	searchd (216)	com.apple.corespotlight	default	SDTransactionDone, <private>	
+00:03.057.497	Debug	CloudTelemetryService (379)	com.apple.network	connection	nw_endpoint_resolver_receive_report [C160.1.1 Hostname#981f6a2f:443 in_progress resolver (satisfied (Path is satisfied), interface: utun5, ipv4, dns, proxy)] received child report: [C160.1.1.1 IPv4#54cdbf7b:443 in_progress channel-flow (satisfied (Path is satisfied), viable, interface: utun5, ipv4, dns, proxy)] 	
+00:03.057.512	Debug	locationd (74)	com.apple.locationd.Position	WifiPosition	WsbCalc, filter, live, 1, groups, 1	
+00:03.057.519	Debug	CloudTelemetryService (379)	com.apple.network	connection	nw_endpoint_transform_receive_report [C160.1 Hostname#981f6a2f:443 in_progress transform (satisfied (Path is satisfied), interface: utun5, ipv4, dns, proxy)] received child report: [C160.1.1.1 IPv4#54cdbf7b:443 in_progress channel-flow (satisfied (Path is satisfied), viable, interface: utun5, ipv4, dns, proxy)] 	
+00:03.057.604	Debug	searchd (216)	com.apple.spotlightindex	Store	Get_base for journal <private>	
+00:03.057.606	Debug	CloudTelemetryService (379)	com.apple.network	connection	nw_endpoint_flow_receive_report [C160 Hostname#981f6a2f:443 in_progress parent-flow (satisfied (Path is satisfied), interface: utun5, ipv4, dns, proxy)] received child report: [C160.1.1.1 IPv4#54cdbf7b:443 in_progress channel-flow (satisfied (Path is satisfied), viable, interface: utun5, ipv4, dns, proxy)] 	
+00:03.057.622	Default	CloudTelemetryService (379)	com.apple.network	connection	[C160.1.1.1 IPv4#54cdbf7b:443 in_progress channel-flow (satisfied (Path is satisfied), viable, interface: utun5, ipv4, dns, proxy)] event: flow:start_connect @0.10s	
+00:03.057.647	Info	CloudTelemetryService (379)	com.apple.network	boringssl	boringssl_context_restore_ssl_context(2,632) [0x62a35b400] New context	
+00:03.057.705	Info	CloudTelemetryService (379)	com.apple.network	tcp	nw_proto_tcp_notify_segmentation_offload [C160.1.1.1:3] notifying segmentation offload value 0	
+00:03.057.731	Info	CloudTelemetryService (379)	com.apple.network		nw_protocol_ipv4_notify [C160.1.1.1:4] 0x62a149aa0 segmentation offload notify enable 0	
+00:03.057.784	Default	CloudTelemetryService (379)	com.apple.network	tcp	tcp_output [C160.1.1.1:3] flags=c2 seq=1,901,680,902, ack=0, win=65,535 state=2 rcv_nxt=0, snd_una=1,901,680,902	
+00:03.057.895	Info	CloudTelemetryService (379)	com.apple.network	connection	nw_endpoint_resolver_start_next_child [C160.1.1 Hostname#981f6a2f:443 in_progress resolver (satisfied (Path is satisfied), interface: utun5, ipv4, dns, proxy)] starting next child endpoint in 100ms	
+00:03.057.952	Default	CloudTelemetryService (379)	com.apple.network	tcp	tcp_input [C160.1.1.1:3] flags=12 seq=79,055,822, ack=1,901,680,903, win=4,096 state=2 rcv_nxt=0, snd_una=1,901,680,902	
+00:03.057.969	Info	locationd (74)	com.apple.locationd.Position	WifiPosition	{"msg":"wifi location update request state change", "before":Request, type, none, lowPriority, no, requester, default, numOfRequestedScans, 0, timestamp, -1.0, age, 753594859.0, "after":Request, type, none, lowPriority, no, requester, default, numOfRequestedScans, 0, timestamp, -1.0, age, 753594859.0}	
+00:03.057.997	Default	CloudTelemetryService (379)	com.apple.network	connection	nw_flow_connected [C160.1.1.1 IPv4#54cdbf7b:443 in_progress channel-flow (satisfied (Path is satisfied), viable, interface: utun5, ipv4, dns, proxy)] Transport protocol connected (tcp)	
+00:03.057.999	Default	locationd (74)	com.apple.locationd.Position	WifiPosition	{"msg":"CLWifi1SystemLogic::apply", "event":elapsed, "begin_mach":1,168,139,837,747, "end_mach":1,168,140,240,654, "elapsed_s":"0.0168", "event":Wifi::Wsb, "now_s":"753,594,857.9799"}	
+00:03.058.097	Debug	locationd (74)	com.apple.locationd.Position	WifiPosition	notifying clients of 1 batched wifi locations	
+00:03.058.160	Debug	locationd (74)	com.apple.locationd.Core	Notifier	{"msg":"notifyClientsWithData", "event":activity, "name":wifi, "notification":22}	
+00:03.058.219	Debug	CloudTelemetryService (379)	com.apple.network	connection	nw_endpoint_resolver_receive_report [C160.1.1 Hostname#981f6a2f:443 in_progress resolver (satisfied (Path is satisfied), interface: utun5, ipv4, dns, proxy)] received child report: [C160.1.1.1 IPv4#54cdbf7b:443 in_progress channel-flow (satisfied (Path is satisfied), viable, interface: utun5, ipv4, dns, proxy)] 	
+00:03.058.287	Default	locationd (74)	com.apple.locationd.Position	WifiPosition	WsbCalc, notify, 1	
+00:03.058.303	Debug	CloudTelemetryService (379)	com.apple.network	connection	nw_endpoint_transform_receive_report [C160.1 Hostname#981f6a2f:443 in_progress transform (satisfied (Path is satisfied), interface: utun5, ipv4, dns, proxy)] received child report: [C160.1.1.1 IPv4#54cdbf7b:443 in_progress channel-flow (satisfied (Path is satisfied), viable, interface: utun5, ipv4, dns, proxy)] 	
+00:03.058.352	Debug	CloudTelemetryService (379)	com.apple.network	connection	nw_endpoint_flow_receive_report [C160 Hostname#981f6a2f:443 in_progress parent-flow (satisfied (Path is satisfied), interface: utun5, ipv4, dns, proxy)] received child report: [C160.1.1.1 IPv4#54cdbf7b:443 in_progress channel-flow (satisfied (Path is satisfied), viable, interface: utun5, ipv4, dns, proxy)] 	
+00:03.058.362	Debug	locationd (74)	com.apple.locationd.Position	WifiPosition	@WifiLogic, decision, notifyBatched	
+00:03.058.386	Default	CloudTelemetryService (379)	com.apple.network	connection	[C160.1.1.1 IPv4#54cdbf7b:443 in_progress channel-flow (satisfied (Path is satisfied), viable, interface: utun5, ipv4, dns, proxy)] event: flow:finish_transport @0.10s	
+00:03.058.438	Info	CloudTelemetryService (379)	com.apple.network	connection	nw_endpoint_resolver_receive_report [C160.1.1 Hostname#981f6a2f:443 in_progress resolver (satisfied (Path is satisfied), interface: utun5, ipv4, dns, proxy)] pushing out endpoint race by 2,000ms	
+00:03.058.452	Debug	com.apple.MapKit.SnapshotService (409)	com.apple.defaults	User Defaults	looked up value <private> for key AppleLanguages in CFPrefsPlistSource<0xb2e0bc500> (Domain: kCFPreferencesAnyApplication, User: kCFPreferencesCurrentUser, ByHost: No, Container: (null), Contents Need Refresh: No) via CFPrefsSearchListSource<0xb2e0bc200> (Domain: com.apple.MapKit.SnapshotService, Container: (null))	
+00:03.058.524	Default	locationd (74)	com.apple.locationd.Utility	QA	os_transaction releasing: (6,170,259,992) wifi1Event	
+00:03.058.534	Debug	searchd (216)	com.apple.spotlightindex	General	Starting the indexing watchdog, timer:0x10e42be00, delta:72s, startTime:753,594,857.9973, itemCount:1, bundleID:com.apple.application	
+00:03.058.551	Info	CloudTelemetryService (379)	com.apple.network	boringssl	boringssl_context_set_ats_enforced(652) [C160.1.1.1:2][0x62a35b400] set false	
+00:03.058.571	Info	CloudTelemetryService (379)	com.apple.network	boringssl	boringssl_context_set_ats_minimum_rsa_key_size(661) [C160.1.1.1:2][0x62a35b400] set 0	
+00:03.058.586	Info	CloudTelemetryService (379)	com.apple.network	boringssl	boringssl_context_set_ats_minimum_ecdsa_key_size(670) [C160.1.1.1:2][0x62a35b400] set 0	
+00:03.058.600	Info	CloudTelemetryService (379)	com.apple.network	boringssl	boringssl_context_set_ats_minimum_signature_algorithm(680) [C160.1.1.1:2][0x62a35b400] set 0	
+00:03.058.601	Debug	locationd (74)	com.apple.locationd.Core	Notifier	{"msg":"CLLocationController::onWifiNotification", "event":activity, "this":"35,304,865,792"}	
+00:03.058.620	Debug	CloudTelemetryService (379)	com.apple.network	boringssl	boringssl_session_apply_protocol_options_for_transport_block_invoke(1,787) [C160.1.1.1:2][0x62a35b400] ECH is disabled	
+00:03.058.704	Debug	locationd (74)	com.apple.locationd.Motion	Activity	VEHICULAR: leeched location, <private>	
+00:03.058.807	Debug	DTServiceHub (360)	DVTInstrumentsFoundation	Default	Data Size: 100,788, Rows Sent: 1,312, Stack depth: 2,419	
+00:03.058.994	Default	CloudTelemetryService (379)	com.apple.network	boringssl	boringssl_session_apply_protocol_options_for_transport_block_invoke(2,042) [C160.1.1.1:2][0x62a35b400] TLS configured [min_version(0x301) max_version(0x304) name(redacted) tickets(0) false_start(0) enforce_ev(0) enforce_ats(0) ech(0)]	
+00:03.059.268	Info	CloudTelemetryService (379)	com.apple.network	boringssl	boringssl_session_install_association_state(1,421) [C160.1.1.1:2][0x62a35b400] Client session cache miss	
+00:03.059.336	Default	CloudTelemetryService (379)	com.apple.network	boringssl	boringssl_context_info_handler(2,231) [C160.1.1.1:2][0x62a35b400] Client handshake started	
+00:03.059.351	Default	locationd (74)	com.apple.locationd.Motion	Activity	VEHICULAR: qualified leeched location, type, <private>	
+00:03.059.419	Debug	locationd (74)	com.apple.locationd.Motion	Activity	VEHICULAR: previous location, type, <private>, <private>	
+00:03.059.473	Debug	CloudTelemetryService (379)	com.apple.network	boringssl	boringssl_context_log_message(2,304) [C160.1.1.1:2][0x62a35b400] Writing SSL3_RT_HANDSHAKE 512 bytes	
+00:03.059.476	Debug	locationd (74)	com.apple.locationd.Motion	Activity	VEHICULAR: distanceMoved, <private>, elapsedTime, <private>	
+00:03.059.531	Default	locationd (74)	com.apple.locationd.Motion	Activity	VEHICULAR: drop leeched location within <private> sec	
+00:03.059.554	Debug	locationd (74)	com.apple.locationd.Core	Notifier	{"msg":"notifyClientsWithData", "event":activity, "name":controller, "notification":22}	
+00:03.059.624	Default	CloudTelemetryService (379)	com.apple.network	boringssl	boringssl_context_info_handler(2,248) [C160.1.1.1:2][0x62a35b400] Client handshake state: TLS client enter_early_data	
+00:03.059.672	Default	backboardd (68)	CoreBrightness	Default	BaselineHarmony: Current strength: 0.2186, ALSStrength: 0.2700, AppStrength: 0.2186	
+00:03.059.680	Debug	CloudTelemetryService (379)	com.apple.network	boringssl	nw_protocol_boringssl_write_bytes(88) [C160.1.1.1:2][0x62a35b400] write request: 517	
+00:03.059.691	Debug	backboardd (68)	com.apple.CoreBrightness.CBColorModule.Primary	default	send notification for key = CBTargetWhitePoint value = <private>	
+00:03.059.703	Info	backboardd (68)	com.apple.CoreBrightness.CBColorModule.Primary	default	Calling brightness control with whitepoint ( 0.3445 | 0.3533 ) and period: 0.0000	
+00:03.059.717	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayContaineriOS	BuiltIn	Notification block key=CBTargetWhitePoint, value=<private>
+	
+00:03.059.761	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	Handle notification for key = CBTargetWhitePoint and property = <private>	
+00:03.059.771	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	Superbright EDR restrictions [would be]: CLTM 1,512.3809, UPO 2,175.0000, bottom [lower] restriction 1.0000, nits cap hdr: 2,175.0000, after BDM: 1,600.0000	
+00:03.059.779	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	EDR Color brightness compensation (SetLibEDRBrightness) TargetYCompensation: 1.1965, inputL: 2,175.0000, alpha: 0.7600, Ycomp: 1.1493. L_device: 118.8318, currentLux: 263.9057, nitsCapEDR: 1,600.0000	
+00:03.059.785	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	SetLibEDRBrightness to currentBrightness=118.8318, maxBrightness=1,600.0000, currentLux=263.9057, compensationBoost=1.1493	
+00:03.059.793	Debug	backboardd (68)	CoreBrightness	Default	CBEDRServerDisplayBrightness: display: 0 | target: 118.8318 | max: 1,600.0000 | ambient: 263.9057 | boost=1.1493	
+00:03.059.845	Info	backboardd (68)	libEDR	Default	libEDR - EDRServerSetDisplayBrightnessForDisplay: (display: 0, targetBrightness: 118.8318, maxLuminance: 1,600.0000, ambientIlluminance: 263.9057, brightnessScaler: 1.1493)
+	
+00:03.059.847	Debug	CloudTelemetryService (379)	com.apple.network	boringssl	nw_protocol_boringssl_write_bytes(159) [C160.1.1.1:2][0x62a35b400] total bytes written: 517	
+00:03.059.878	Default	CloudTelemetryService (379)	com.apple.network	boringssl	boringssl_context_info_handler(2,248) [C160.1.1.1:2][0x62a35b400] Client handshake state: TLS client read_server_hello	
+00:03.059.884	Info	backboardd (68)	libEDR	Default	libEDR - EDRServerUpdateMinScalingFactor min scaling factor set to: 0.1250
+	
+00:03.059.906	Debug	CloudTelemetryService (379)	com.apple.network	boringssl	nw_protocol_boringssl_read_bytes(238) [C160.1.1.1:2][0x62a35b400] read request: 5 byte(s)	
+00:03.059.932	Info	backboardd (68)	libEDR	Default	libEDR - NotificationCallback: (type: kEDRNotifyBrightness, display: 0, brightness: 0.0743, backlight: 0.0743, edrScaler: 1.0000, maxLuminance: 1,600.0000, ambientIlluminance: 263.9057, brightnessScaler: 1.1493)
+	
+00:03.059.950	Debug	CloudTelemetryService (379)	com.apple.network	boringssl	nw_protocol_boringssl_read_bytes(253) [C160.1.1.1:2][0x62a35b400] no input frames available	
+00:03.059.966	Info	backboardd (68)	libEDR	Default	libEDR - PostNotification: (display: 0, brightness: 0.0743, backlight: 0.0743, edrScaling: 1.0000, maxLuminance: 1,600.0000, ambientIlluminance: 263.9057, brightnessScaler: 1.1493)
+	
+00:03.060.007	Info	CloudTelemetryService (379)	com.apple.network	boringssl	boringssl_session_handshake_incomplete(254) [C160.1.1.1:2][0x62a35b400] Handshake incomplete: waiting for data to read [2]	
+00:03.060.022	Debug	CloudTelemetryService (379)	com.apple.network	boringssl	nw_protocol_boringssl_read_bytes(238) [C160.1.1.1:2][0x62a35b400] read request: 5 byte(s)	
+00:03.060.062	Debug	CloudTelemetryService (379)	com.apple.network	boringssl	nw_protocol_boringssl_read_bytes(253) [C160.1.1.1:2][0x62a35b400] no input frames available	
+00:03.060.075	Info	CloudTelemetryService (379)	com.apple.network	boringssl	boringssl_session_handshake_incomplete(254) [C160.1.1.1:2][0x62a35b400] Handshake incomplete: waiting for data to read [2]	
+00:03.060.101	Debug	locationd (74)	com.apple.locationd.Position	SeparationAlerts	{"msg":"#sa received WSB locations", "Count":<private>}	
+00:03.060.314	Debug	CloudTelemetryService (379)	com.apple.network	boringssl	nw_protocol_boringssl_output_available(1,276) [C160.1.1.1:2][0x62a35b400] received input available	
+00:03.060.434	Debug	CloudTelemetryService (379)	com.apple.network	boringssl	nw_protocol_boringssl_read_bytes(238) [C160.1.1.1:2][0x62a35b400] read request: 5 byte(s)	
+00:03.060.543	Debug	CloudTelemetryService (379)	com.apple.network	boringssl	nw_protocol_boringssl_read_bytes(253) [C160.1.1.1:2][0x62a35b400] no input frames available	
+00:03.060.568	Info	CloudTelemetryService (379)	com.apple.network	boringssl	boringssl_session_handshake_incomplete(254) [C160.1.1.1:2][0x62a35b400] Handshake incomplete: waiting for data to read [2]	
+00:03.060.584	Debug	CloudTelemetryService (379)	com.apple.network	boringssl	nw_protocol_boringssl_read_bytes(238) [C160.1.1.1:2][0x62a35b400] read request: 5 byte(s)	
+00:03.060.598	Debug	CloudTelemetryService (379)	com.apple.network	boringssl	nw_protocol_boringssl_read_bytes(253) [C160.1.1.1:2][0x62a35b400] no input frames available	
+00:03.060.666	Debug	com.apple.MapKit.SnapshotService (409)	com.apple.defaults	User Defaults	looked up value <private> for key AppleLanguages in CFPrefsPlistSource<0xb2e0bc500> (Domain: kCFPreferencesAnyApplication, User: kCFPreferencesCurrentUser, ByHost: No, Container: (null), Contents Need Refresh: No) via CFPrefsSearchListSource<0xb2e0bc200> (Domain: com.apple.MapKit.SnapshotService, Container: (null))	
+00:03.060.676	Info	CloudTelemetryService (379)	com.apple.network	boringssl	boringssl_session_handshake_incomplete(254) [C160.1.1.1:2][0x62a35b400] Handshake incomplete: waiting for data to read [2]	
+00:03.060.812	Debug	locationd (74)	com.apple.locationd.Position	TrackingAvoidance	#ut received <private> WSB locations	
+00:03.060.924	Default	MonoProxyTunnel (390)	com.apple.network	path	nw_path_libinfo_path_check [41C9E15B-914E-4A4C-BA22-42B4CB738D08 IPv4#a1082bf4:995 tcp, legacy-socket, attribution: developer]
+	libinfo check path: unsatisfied (Path was denied by NECP policy), interface: utun5, ipv4	
+00:03.060.943	Default	backboardd (68)	ASEProcessing	Default	 [1.37.0]     +[ASEProcessing shouldEnhanceWidth:height:destinationWidth:destinationHeight:]: src={ 1,320w x 2,868h }, dest={ 1,181w x 2,566h }, aseFunctionOnYesOffNo=1
+	
+00:03.060.957	Debug	MonoProxyTunnel (390)	com.apple.network		-[NWConcrete_nw_path_evaluator dealloc] 16 Bytes	
+00:03.061.025	Debug	MonoProxyTunnel (390)	com.apple.network		-[NWConcrete_nw_path_evaluator dealloc] 16 Bytes	
+00:03.061.036	Debug	locationd (74)	com.apple.locationd.Core	Notifier	{"msg":"CLFenceMonitorNotifier::onLocationNotification", "event":activity, "this":"35,305,070,936"}	
+00:03.061.048	Debug	MonoProxyTunnel (390)	com.apple.network.libinfo	getaddrinfo	nat64_v4_synthesize(0, 737,877,104, ...) returned 0	
+00:03.061.062	Debug	locationd (74)	com.apple.locationd.Position	GeoFencing	Fence: received WSB, <private>	
+00:03.061.345	Default	locationd (74)	com.apple.TrackingAvoidance	SeparationAlerts	{"msg":"Ingesting event", "Event":"<private>"}	
+00:03.061.681	Default	CloudTelemetryService (379)	com.apple.network	boringssl	nw_protocol_boringssl_error(1,971) [C160.1.1.1:2][0x62a35b400] Lower protocol stack error during TLS handshake. [54: <private>]	
+00:03.061.769	Info	CloudTelemetryService (379)	com.apple.network	connection	nw_flow_error [C160.1.1.1 IPv4#54cdbf7b:443 in_progress channel-flow (satisfied (Path is satisfied), viable, interface: utun5, ipv4, dns, proxy)] Output protocol (tcp) sent error: Connection reset by peer	
+00:03.061.771	Debug	searchd (216)	com.apple.spotlightindex	General	sdb only update docId: 19,216 oid: 9,222,515,841,484,742,425	
+00:03.061.817	Info	CloudTelemetryService (379)	com.apple.network	tcp	__nw_protocol_tcp_disconnect_block_invoke [C160.1.1.1:3] send disconnect to input protocol	
+00:03.061.911	Debug	CloudTelemetryService (379)	com.apple.network	boringssl	boringssl_bio_destroy(196) 	
+00:03.061.924	Debug	searchd (216)	com.apple.spotlightindex	General	Stopping the indexing watchdog, timer:0x10e42be00, delta:72s, time:0.0034, itemCount:1, bundleId:com.apple.application	
+00:03.061.942	Error	CloudTelemetryService (379)	com.apple.network	connection	nw_endpoint_flow_failed_with_error [C160.1.1.1 IPv4#54cdbf7b:443 in_progress channel-flow (satisfied (Path is satisfied), viable, interface: utun5, ipv4, dns, proxy)] already failing, returning	
+00:03.061.961	Debug	CloudTelemetryService (379)	com.apple.network	connection	nw_endpoint_resolver_receive_report [C160.1.1 Hostname#981f6a2f:443 in_progress resolver (satisfied (Path is satisfied), interface: utun5, ipv4, dns, proxy)] received child report: [C160.1.1.1 IPv4#54cdbf7b:443 failed channel-flow (satisfied (Path is satisfied), viable, interface: utun5, ipv4, dns, proxy)] 	
+00:03.061.966	Info	searchd (216)	com.apple.CoreAnalytics	client	Dropping "com.apple.searchd.indexing" as it isn't used in any transform (not in the config or budgeted?)	
+00:03.062.001	Debug	CloudTelemetryService (379)	com.apple.network	connection	nw_endpoint_transform_receive_report [C160.1 Hostname#981f6a2f:443 in_progress transform (satisfied (Path is satisfied), interface: utun5, ipv4, dns, proxy)] received child report: [C160.1.1.1 IPv4#54cdbf7b:443 failed channel-flow (satisfied (Path is satisfied), viable, interface: utun5, ipv4, dns, proxy)] 	
+00:03.062.018	Debug	CloudTelemetryService (379)	com.apple.network	connection	nw_endpoint_flow_receive_report [C160 Hostname#981f6a2f:443 in_progress parent-flow (satisfied (Path is satisfied), interface: utun5, ipv4, dns, proxy)] received child report: [C160.1.1.1 IPv4#54cdbf7b:443 failed channel-flow (satisfied (Path is satisfied), viable, interface: utun5, ipv4, dns, proxy)] 	
+00:03.062.057	Default	CloudTelemetryService (379)	com.apple.network	connection	[C160.1.1.1 IPv4#54cdbf7b:443 failed channel-flow (satisfied (Path is satisfied), viable, interface: utun5, ipv4, dns, proxy)] event: flow:failed_connect @0.14s, error Connection reset by peer	
+00:03.062.089	Debug	searchd (216)	com.apple.corespotlight	default	SDTransactionCreate, com.apple.spotlight	
+00:03.062.112	Debug	CloudTelemetryService (379)	com.apple.network		nw_connection_report_symptom_internal_on_nw_queue Symptom sent: Connection failed after setup(67010)	
+00:03.062.125	Info	CloudTelemetryService (379)	com.apple.network	connection	nw_connection_report_symptom_on_nw_queue [C160] reported Connection failed after setup symptom	
+00:03.062.142	Info	CloudTelemetryService (379)	com.apple.network	connection	nw_endpoint_resolver_receive_report [C160.1.1 Hostname#981f6a2f:443 in_progress resolver (satisfied (Path is satisfied), interface: utun5, ipv4, dns, proxy)] child failed after transport finished	
+00:03.062.171	Debug	CloudTelemetryService (379)	com.apple.network	connection	nw_endpoint_transform_receive_report [C160.1 Hostname#981f6a2f:443 in_progress transform (satisfied (Path is satisfied), interface: utun5, ipv4, dns, proxy)] received child report: [C160.1.1 Hostname#981f6a2f:443 failed resolver (satisfied (Path is satisfied), interface: utun5, ipv4, dns, proxy)] 	
+00:03.062.177	Info	searchd (216)	com.apple.corespotlight	index	Index Priority dirty qos: 9	
+00:03.062.257	Debug	CloudTelemetryService (379)	com.apple.network	connection	nw_endpoint_flow_receive_report [C160 Hostname#981f6a2f:443 in_progress parent-flow (satisfied (Path is satisfied), interface: utun5, ipv4, dns, proxy)] received child report: [C160.1.1 Hostname#981f6a2f:443 failed resolver (satisfied (Path is satisfied), interface: utun5, ipv4, dns, proxy)] 	
+00:03.062.352	Debug	searchd (216)	com.apple.corespotlight	default	SDTransactionCreate, <private>	
+00:03.062.414	Debug	locationd (74)	com.apple.TrackingAvoidance	SeparationAlertsEvents	<private>	
+00:03.062.420	Debug	locationd (74)	com.apple.locationd.Position	Position	LocationController,WifiAssoc,<private>,AssocLoc,<private>,Location	
+00:03.062.466	Debug	locationd (74)	com.apple.locationd.Core	Notifier	{"msg":"CLBarometricAltimeter::onLocationDerivedNotificationBaro", "event":activity, "this":"35,305,742,336"}	
+00:03.062.470	Debug	searchd (216)	com.apple.corespotlight	default	SDTransactionDone, <private>	
+00:03.062.487	Debug	locationd (74)	com.apple.locationd.Position	Position	BaroAlt,received onLocationDerivedNotification,<private>	
+00:03.062.502	Debug	locationd (74)	com.apple.locationd.Position	Position	BaroAlt,received WSB update, activity type,3,speed,-1.0000,Unc,-1.0000,timestamp,-1.0000,curTime,753,594,858.0012,ageOfEstimation,753,594,880.0000	
+00:03.062.520	Debug	locationd (74)	com.apple.locationd.Core	Notifier	{"msg":"CLSubHarvesterAvengerExternal::onLocationNotification", "event":activity, "this":"35,308,917,304"}	
+00:03.062.535	Default	locationd (74)	com.apple.locationd.Core	Harvester	{"msg":"got batched wifi provider location", "batchSize":1, "subHarvester":11}	
+00:03.062.553	Debug	locationd (74)	com.apple.locationd.Core	Harvester	{"msg":"receiveLocation", "isRunningCrossValidation":0, "isRunningFinalCrossValidation":0, "isHighAccuracyProviderFix":0, "isActiveVisitIfRequired":0, "subHarvester":11}	
+00:03.062.571	Default	locationd (74)	com.apple.locationd.Core	Harvester	{"msg":"updateOperationalModeIfNecessary", "fCurrentTimeOffsetThreshold":"45.0000", "subHarvester":11}	
+00:03.062.577	Debug	locationd (74)	com.apple.TrackingAvoidance	SeparationAlerts	{"msg":"#SADeviceRecord updateLocation updated", "lastLocation":"<private>"}	
+00:03.062.585	Debug	locationd (74)	com.apple.locationd.Core	Harvester	{"msg":"location is set", "lat":<private>, "lng":<private>, "ucc":<private>, "timestamp":<private>, "subHarvester":11}	
+00:03.062.608	Default	CloudTelemetryService (379)	com.apple.network	connection	[C160.1.1 Hostname#981f6a2f:443 failed resolver (satisfied (Path is satisfied), interface: utun5, ipv4, dns, proxy)] event: resolver:children_failed @0.14s	
+00:03.062.709	Debug	locationd (74)	com.apple.TrackingAvoidance	SeparationAlerts	{"msg":"#SAMonitoringSessionManager updateLocation updated", "lastLocation":"<private>"}	
+00:03.062.774	Info	CloudTelemetryService (379)	com.apple.network	connection	nw_endpoint_transform_receive_report [C160.1 Hostname#981f6a2f:443 in_progress transform (satisfied (Path is satisfied), interface: utun5, ipv4, dns, proxy)] all children failed	
+00:03.062.785	Debug	locationd (74)	com.apple.locationd.Core	Notifier	{"msg":"CLStreamingAwareLocationProvider::onLocalLocationNotification", "event":activity, "this":"35,304,251,520"}	
+00:03.062.792	Debug	CloudTelemetryService (379)	com.apple.network	connection	nw_endpoint_flow_receive_report [C160 Hostname#981f6a2f:443 in_progress parent-flow (satisfied (Path is satisfied), interface: utun5, ipv4, dns, proxy)] received child report: [C160.1 Hostname#981f6a2f:443 failed transform (satisfied (Path is satisfied), interface: utun5, ipv4, dns, proxy)] 	
+00:03.062.807	Info	locationd (74)	com.apple.locationd.Core	Streaming	{"msg":"Received local notification", "notification":22}	
+00:03.062.809	Default	CloudTelemetryService (379)	com.apple.network	connection	[C160.1 Hostname#981f6a2f:443 failed transform (satisfied (Path is satisfied), interface: utun5, ipv4, dns, proxy)] event: transform:children_failed @0.15s	
+00:03.062.822	Info	CloudTelemetryService (379)	com.apple.network	connection	nw_endpoint_flow_receive_report [C160 Hostname#981f6a2f:443 in_progress parent-flow (satisfied (Path is satisfied), interface: utun5, ipv4, dns, proxy)] child failed	
+00:03.062.822	Info	locationd (74)	com.apple.locationd.Core	Streaming	{"msg":"Stopping location for source", "source":0}	
+00:03.062.836	Info	CloudTelemetryService (379)	com.apple.network	connection	nw_endpoint_handler_cancel [C160.1 Hostname#981f6a2f:443 failed transform (satisfied (Path is satisfied), interface: utun5, ipv4, dns, proxy)] 	
+00:03.062.890	Debug	locationd (74)	com.apple.locationd.Core	Notifier	{"msg":"notifyClientsWithData", "event":activity, "name":Streaming aware location provider, "notification":22}	
+00:03.062.924	Info	CloudTelemetryService (379)	com.apple.network	connection	nw_endpoint_handler_cancel [C160.1.1 Hostname#981f6a2f:443 failed resolver (satisfied (Path is satisfied), interface: utun5, ipv4, dns, proxy)] 	
+00:03.063.179	Info	locationd (74)	com.apple.locationd.Core	Streaming	{"msg":"notifying", "client":<CLIntersiloProxyToInitiator: peer silo:CLFilteredLocationControllerSilo>, "notification":22}	
+00:03.063.216	Info	CloudTelemetryService (379)	com.apple.network	connection	nw_association_schedule_deactivation <nw_association Hostname#981f6a2f:443> will become dormant after 10,000ms of inactivity	
+00:03.063.218	Debug	locationd (74)	com.apple.locationd.Core	Notifier	{"msg":"CLFilteredLocationController::onLocationNotification", "event":activity, "this":"35,304,414,720"}	
+00:03.063.235	Debug	locationd (74)	com.apple.locationd.Core	Notifier	{"msg":"notifyClientsWithData", "event":activity, "name":filtered, "notification":22}	
+00:03.063.293	Debug	backboardd (68)	com.apple.CoreBrightness.CBColorModule.Primary	default	send notification for key = ColorRamp value = <private>	
+00:03.063.309	Debug	backboardd (68)	CoreBrightness	Default	16.0475 4.2831 15.4654 -> ANGLE 1.6933 -> BIN 2	
+00:03.063.332	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayContaineriOS	BuiltIn	Notification block key=ColorRamp, value=<private>
+	
+00:03.063.341	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	Handle notification for key = ColorRamp and property = <private>	
+00:03.063.360	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=CBTargetWhitePoint value=<private>	
+00:03.063.369	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=CBTargetWhitePoint property=<private>	
+00:03.063.381	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=<private> value=<private>	
+00:03.063.388	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=<private> property=<private>	
+00:03.063.417	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=ColorRamp value=<private>	
+00:03.063.452	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=ColorRamp property=<private>	
+00:03.063.493	Debug	locationd (74)	com.apple.locationd.Legacy	Generic_deprecated	Received kNotificationWifiLocationBatched, num,<private>,Size, <private>	
+00:03.063.494	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=<private> value=<private>	
+00:03.063.521	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=<private> property=<private>	
+00:03.063.560	Debug	searchd (216)	com.apple.spotlightindex	State	0x105353800 state: dirty	
+00:03.063.565	Debug	locationd (74)	com.apple.locationd.Legacy	Generic_deprecated	Skipping new location, since having recent more confident location	
+00:03.063.601	Debug	locationd (74)	com.apple.locationd.Core	Notifier	{"msg":"CLLocationSubscription::onLocationNotification", "event":activity, "this":"35,310,991,744"}	
+00:03.063.604	Info	CloudTelemetryService (379)	com.apple.network	connection	nw_endpoint_handler_cancel [C160.1.1.1 IPv4#54cdbf7b:443 failed channel-flow (satisfied (Path is satisfied), viable, interface: utun5, ipv4, dns, proxy)] 	
+00:03.063.644	Default	locationd (74)	com.apple.locationd.Core	Client	{"msg":"Sending location to client", "Client":p/System/Library/LocationBundles/Routine.bundle:, "DC":"35,310,944,256", "location":<private>, "desiredAccuracy":"2,147,483,645.0000"}	
+00:03.063.911	Info	CloudTelemetryService (379)	com.apple.network	connection	nw_association_schedule_deactivation <nw_association IPv4#54cdbf7b:443> will become dormant after 10,000ms of inactivity	
+00:03.063.988	Debug	locationd (74)	com.apple.LocationSupport	Connection	{"msg":"CLConnection::sendMessage", "name":kCLConnectionMessageLocation}	
+00:03.064.059	Error	CloudTelemetryService (379)	com.apple.network	connection	nw_endpoint_flow_failed_with_error [C160.1.1.1 IPv4#54cdbf7b:443 cancelled channel-flow ()] already failing, returning	
+00:03.064.150	Debug	locationd (74)	com.apple.locationd.Core	Notifier	{"msg":"CLLocationSubscription::onLocationNotification", "event":activity, "this":"35,310,744,064"}	
+00:03.064.172	Debug	locationd (74)	com.apple.locationd.Core	Notifier	{"msg":"notifyClientsWithData", "event":activity, "name":Routine, "notification":22}	
+00:03.064.210	Default	locationd (74)	com.apple.locationd.Core	Client	{"msg":"Sending location to client", "Client":p/System/Library/LocationBundles/MotionCalibration.bundle:, "DC":"35,311,721,024", "location":<private>, "desiredAccuracy":"2,147,483,645.0000"}	
+00:03.064.220	Info	locationd (74)	com.apple.locationd.Core	Routine	received location, <private>	
+00:03.064.364	Debug	locationd (74)	com.apple.LocationSupport	Connection	{"msg":"CLConnection::sendMessage", "name":kCLConnectionMessageLocation}	
+00:03.064.624	Debug	locationd (74)	com.apple.locationd.Core	Notifier	{"msg":"notifyClientsWithData", "event":activity, "name":MotionCalibration, "notification":22}	
+00:03.064.661	Debug	locationd (74)	com.apple.locationd.Core	Notifier	{"msg":"CLMotionState7::onLocationNotification", "event":activity, "this":"35,306,163,968"}	
+00:03.064.680	Debug	locationd (74)	com.apple.locationd.Core	Notifier	{"msg":"notifyClientsWithData", "event":activity, "name":CLMotionState, "notification":9}	
+00:03.064.708	Debug	locationd (74)	com.apple.locationd.Motion	Activity	Notification, Type, Speed, SpeedUncertainty, LocationTimestamp, hAcc, Lat, Long, <private>, <private>, <private>, <private>, <private>, <private>, <private>, <private>	
+00:03.064.724	Debug	locationd (74)	com.apple.locationd.Core	Notifier	{"msg":"CLVehicleStateNotifier::onMotionStateUpdate", "event":activity, "this":"35,308,002,304"}	
+00:03.064.744	Debug	locationd (74)	com.apple.locationd.Motion	Activity	[MotionCues] suppressed vehicular	
+00:03.064.817	Debug	CloudTelemetryService (379)	com.apple.network	connection	nw_flow_cancel_read_write_requests [C160.1.1.1 IPv4#54cdbf7b:443 cancelled channel-flow ()] cancelling read/write requests	
+00:03.064.910	Debug	routined (37)	com.apple.locationd.Core	Routine	{"msg":"#location #routine sendLocations to RT, didUpdateLocations)"}	
+00:03.064.982	Debug	CloudTelemetryService (379)	com.apple.network	connection	nw_resolver_cancel [C160.1.1] 0x62a2b4780	
+00:03.065.030	Info	routined (37)	com.apple.CoreRoutine	TRUSTED TIME	Trusted interval fetched with age 88.0540 and offset 0.1822	
+00:03.065.083	Debug	routined (37)	com.apple.CoreRoutine	LOCATION	<private>,<private>, <private>, processing location, <private>, integrity <private>	
+00:03.065.189	Debug	routined (37)	com.apple.CoreRoutine	LOCATION	<private>,<private>, <private>, processed location, no integrity downgrade, <private>, integrity, 0.	
+00:03.065.371	Default	CloudTelemetryService (379)	com.apple.network	connection	[C160 Hostname#981f6a2f:443 failed parent-flow (satisfied (Path is satisfied), interface: utun5, ipv4, dns, proxy)] event: flow:child_failed @0.17s	
+00:03.065.404	Default	CloudTelemetryService (379)	com.apple.network	connection	nw_connection_report_state_with_handler_on_nw_queue [C160] reporting state failed error Connection reset by peer	
+00:03.065.460	Error	CloudTelemetryService (379)	com.apple.CFNetwork	Default	Connection 160: received failure notification	
+00:03.065.481	Error	CloudTelemetryService (379)	com.apple.CFNetwork	Default	Connection 160: received ECONNRESET with incomplete TLS handshake - generating errSSLClosedNoNotify	
+00:03.065.498	Error	CloudTelemetryService (379)	com.apple.CFNetwork	Default	Connection 160: failed to connect 3:18,446,744,073,709,541,800, reason 18,446,744,073,709,551,615	
+00:03.065.510	Error	CloudTelemetryService (379)	com.apple.CFNetwork	Default	Connection 160: encountered error(3:18,446,744,073,709,541,800)	
+00:03.065.522	Default	CloudTelemetryService (379)	com.apple.CFNetwork	Default	Connection 160: cleaning up	
+00:03.065.604	Info	routined (37)	com.apple.CoreRoutine	LOCATION	<private>, received location, <private>	
+00:03.065.728	Debug	routined (37)	com.apple.CoreRoutine	LOCATION STORE	added 1 locations to cache, first, <private>, last, <private>, total, 5	
+00:03.065.747	Info	routined (37)	com.apple.CoreRoutine	METRIC	<private>, update current signal environment type, 0	
+00:03.065.818	Default	CloudTelemetryService (379)	com.apple.CFNetwork	Summary	Connection 160: summary for unused connection {protocol="", domain_lookup_duration_ms=0, connect_duration_ms=0, secure_connection_duration_ms=0, private_relay=0, idle_duration_ms=0}	
+00:03.065.911	Default	CloudTelemetryService (379)	com.apple.network	connection	[C160 22E32C91-884C-4A98-8860-DCDC4C364E95 Hostname#981f6a2f:443 quic-connection, bundle id: com.apple.CloudTelemetryService.xpc, url hash: a4dd71b9, definite, attribution: developer] cancel	
+00:03.066.033	Debug	routined (37)	com.apple.CoreRoutine	VISIT	adding 1 locations to feedbuffer. numLocations, 4, _lastMaturedLocationDate, <private>, _minWaitInterval, 15.0000	
+00:03.066.042	Default	biomed (49)	com.apple.intelligenceplatform	views	ViewUpdate: Beginning performUpdate for <private> [runMode: <private>, checkSLA: 1]	
+00:03.066.180	Info	routined (37)	com.apple.CoreRoutine	LOCATION CONTEXT	<private>, <private>, notification name, <private>	
+00:03.066.184	Default	biomed (49)	com.apple.intelligenceplatform	views	ViewUpdate: Starting schedule run <private>	
+00:03.066.330	Info	routined (37)	com.apple.CoreRoutine	LOCATION CONTEXT	<private>, <private>, in low confidence visit, NO, in high confidence visit, NO, lastPublishedLocation, <private>, latestValidLocation, <private>	
+00:03.066.523	Default	biomed (49)	com.apple.intelligenceplatform	views	ViewUpdate: Initially have 3 views that may need updating	
+00:03.066.586	Debug	analyticsd (110)	com.apple.analyticsd.critical	db	[Config Store] Retrieving transforms for event with name '<private>'	
+00:03.066.655	Debug	searchd (216)	com.apple.spotlightindex	General	fsync time 0.0006 - <private>
+	
+00:03.066.687	Default	CloudTelemetryService (379)	com.apple.network	connection	[C160 Hostname#981f6a2f:443 quic-connection, bundle id: com.apple.CloudTelemetryService.xpc, url hash: a4dd71b9, definite, attribution: developer] cancelled	
+00:03.066.709	Debug	searchd (216)	com.apple.spotlightindex	Path	skip flushReverseStore; c001d00d	
+00:03.066.714	Info	CloudTelemetryService (379)	com.apple.network	connection	nw_endpoint_handler_cancel [C160 Hostname#981f6a2f:443 failed parent-flow (satisfied (Path is satisfied), interface: utun5, ipv4, dns, proxy)] 	
+00:03.066.736	Info	CloudTelemetryService (379)	com.apple.network	connection	nw_association_schedule_deactivation <nw_association Hostname#981f6a2f:443> will become dormant after 10,000ms of inactivity	
+00:03.066.753	Debug	CloudTelemetryService (379)	com.apple.network	connection	nw_flow_cancel_read_write_requests [C160 Hostname#981f6a2f:443 cancelled parent-flow ()] cancelling read/write requests	
+00:03.066.758	Debug	searchd (216)	com.apple.spotlightindex	CI	fd_error_callback (22, 2, 13)	
+00:03.066.811	Debug	searchd (216)	com.apple.spotlightindex	CI	fd_error_callback (22, 2, 15)	
+00:03.067.004	Default	CloudTelemetryService (379)	com.apple.network	connection	nw_connection_report_state_with_handler_on_nw_queue [C160] reporting state cancelled error Connection reset by peer	
+00:03.067.110	Debug	CloudTelemetryService (379)	com.apple.CFNetwork	Default	Task <8FE23894-37BD-468A-8CAD-78C288E5916B>.<1> done setting up Connection 160	
+00:03.067.136	Info	routined (37)	com.apple.CoreRoutine	INTERMITTENT GNSS	-[RTIntermittentGNSSManager setLastWifiLocationDate:], lastWifiLocationDate, <private>	
+00:03.067.174	Default	CloudTelemetryService (379)	com.apple.CFNetwork	Default	Task <8FE23894-37BD-468A-8CAD-78C288E5916B>.<1> can retry(89) with reason(5) for error [3:18,446,744,073,709,541,800]	
+00:03.067.200	Info	routined (37)	com.apple.CoreRoutine	INTERMITTENT GNSS	-[RTIntermittentGNSSManager _updateWifiLocationStarvedTimer], RTIntermittentGNSSLocationStarvedTimer, lastWifiLocationDate, <private>, lastDenseWifiScanResultDate, <private>, interval, 840.0000	
+00:03.067.489	Info	CloudTelemetryService (379)	com.apple.network	connection	[C160 Hostname#981f6a2f:443 quic-connection, bundle id: com.apple.CloudTelemetryService.xpc, url hash: a4dd71b9, definite, attribution: developer] dealloc	
+00:03.067.897	Default	CloudTelemetryService (379)	com.apple.CFNetwork	Default	Connection 0: creating secure tcp or quic connection	
+00:03.069.203	Info	symptomsd (207)	com.apple.symptomsd	other	[0.007]   379 CloudTelemetryS  (null) SYMPTOM_LIBNETCORE_CONNECTION_FAILED     libne 0000001a 0000017b -------- -------- [10 <4 bytes>] [3 <16 bytes>] [4 <23 bytes>] [2 <16 bytes>] [11 <4 bytes>]	
+00:03.069.242	Debug	symptomsd (207)	com.apple.symptomsd	transport	Received basic symptom, event EventDescription sb at 0xcd81cf720 from pid 379 CloudTelemetryS SYMPTOM 0x6767010  flags 0x40000003 qual0 0x1a qual1 0x17b key 421904 num additional quals 5	
+00:03.069.262	Debug	symptomsd (207)	com.apple.symptomsd	evaluation	Simple Processing, postIncomingEvent key 421904	
+00:03.069.284	Debug	symptomsd (207)	com.apple.symptomsd	evaluation	Call handler 0, <ConnectionFailureHandler: 0xcd8160420>	
+00:03.069.314	Debug	symptomsd (207)	com.apple.symptomsd	other	ConnectionFailureHandler: EventDescription: EventDescription sb at 0xcd81cf720 from pid 379 CloudTelemetryS SYMPTOM 0x6767010  flags 0x40000003 qual0 0x1a qual1 0x17b key 421904 num additional quals 5	
+00:03.069.460	Info	CloudTelemetryService (379)	com.apple.network	connection	nw_connection_create_with_id [C161] create connection to Hostname#981f6a2f:443	
+00:03.069.474	Info	symptomsd (207)	com.apple.symptomsd	rnf	libnetcore symptom uses effective process name: CloudTelemetryS	
+00:03.069.512	Debug	symptomsd (207)	com.apple.symptomsd	evaluation	Converted qualifier 4 to string, was null terminated, result gateway.icloud.com:443	
+00:03.069.533	Debug	symptomsd (207)	com.apple.symptomsd	evaluation	Converted qualifier 10 to string, was null terminated, result 6	
+00:03.069.561	Debug	symptomsd (207)	com.apple.symptomsd	evaluation	Converted qualifier 11 to string, was null terminated, result \^A	
+00:03.069.594	Debug	symptomsd (207)	com.apple.symptomsd	evaluation	Simple Processing, postSymptom exit
+	
+00:03.069.650	Info	symptomsd (207)	com.apple.network		-[NWNumericAccumulator updateState:forName:] Updating state of kextsInstalled from None to None	
+00:03.069.665	Debug	symptomsd (207)	com.apple.network		-[NWNumericAccumulator updateState:forName:] Updating state of kextsInstalled from None to None	
+00:03.069.686	Info	CloudTelemetryService (379)	com.apple.network	connection	nw_connection_create_with_id_block_invoke [C161] has alternative UNKNOWN for quic	
+00:03.069.715	Debug	symptomsd (207)	com.apple.network		-[NWNumericAccumulator addCount:toAccumulation:]_block_invoke New value for <private>: 1017 (+1), states: <private>	
+00:03.069.750	Default	CloudTelemetryService (379)	com.apple.CFNetwork	Default	Connection 161: enabling TLS	
+00:03.069.754	Debug	searchd (216)	com.apple.spotlightindex	General	fsync time 0.0004 - <private>
+	
+00:03.069.775	Default	CloudTelemetryService (379)	com.apple.CFNetwork	Default	Connection 161: starting, TC(0x0)	
+00:03.069.815	Default	backboardd (68)	ASEProcessing	Default	 [1.37.0]     +[ASEProcessing shouldEnhanceWidth:height:destinationWidth:destinationHeight:]: src={ 1,320w x 2,868h }, dest={ 1,183w x 2,571h }, aseFunctionOnYesOffNo=1
+	
+00:03.069.842	Default	searchd (216)	com.apple.spotlightindex	General	Already clean cs; don't update next_id = 609	
+00:03.069.873	Debug	searchd (216)	com.apple.spotlightindex	DocStore	<private> entry	
+00:03.069.892	Default	CloudTelemetryService (379)	com.apple.network	connection	[C161 30DB2098-0967-48FF-96A5-5A42C26AA96E Hostname#981f6a2f:443 quic-connection, bundle id: com.apple.CloudTelemetryService.xpc, url hash: a4dd71b9, definite, attribution: developer, context: com.apple.CFNetwork.NSURLSession.{8F47429A-0231-40F7-A338-23A10001B368}{MMCS}{Y}{3}{0x0} (sensitive), proc: 6D6D2143-AD04-324C-9A0D-C05B4967B698] start	
+00:03.069.916	Info	CloudTelemetryService (379)	com.apple.network	connection	nw_endpoint_handler_start [C161 Hostname#981f6a2f:443 initial parent-flow ()] 	
+00:03.069.919	Debug	searchd (216)	com.apple.spotlightindex	DocStore	doc_store_sync returns 0
+	
+00:03.069.964	Default	CloudTelemetryService (379)	com.apple.network	connection	[C161 Hostname#981f6a2f:443 initial parent-flow ()] event: path:start @0.0s	
+00:03.070.039	Debug	CloudTelemetryService (379)	com.apple.network		nw_path_necp_check_for_updates Failed to copy updated result (35)	
+00:03.070.052	Debug	searchd (216)	com.apple.spotlightindex	DocStore	<private> exit; call took 0.1390ms	
+00:03.070.083	Debug	CloudTelemetryService (379)	com.apple.network	connection	nw_endpoint_handler_path_change [C161 Hostname#981f6a2f:443 waiting parent-flow (satisfied (Path is satisfied), interface: utun5, ipv4, dns, proxy)] 	
+00:03.070.115	Debug	CloudTelemetryService (379)	com.apple.networkextension		ne_tracker_check_is_hostname_blocked() proceeding with the external check for hostname: <private>	
+00:03.070.143	Debug	CloudTelemetryService (379)	com.apple.networkextension		NEHelperIsHostnameDesignatedTrackerExternal(): obtained signing identifier: (com.apple.CloudTelemetryService.xpc)	
+00:03.070.176	Debug	CloudTelemetryService (379)	com.apple.networkextension		NEHelperIsHostnameDesignatedTrackerExternal(): context->audit_token is not set.	
+00:03.070.194	Debug	PerfPowerServices (1452)	com.apple.powerlog	display	Received msg at timestamp: 8,396,904,383,686	
+00:03.070.228	Debug	CloudTelemetryService (379)	com.apple.networkextension		NEHelperIsHostnameDesignatedTrackerExternal(): is_hostname_found: (0), is_tcc_allowed: (1)	
+00:03.070.279	Debug	CloudTelemetryService (379)	com.apple.networkextension		External check: hostname <private> is not a tracker. Returning: ne_tracker_status_none	
+00:03.070.300	Default	CloudTelemetryService (379)	com.apple.network	connection	[C161 Hostname#981f6a2f:443 waiting parent-flow (satisfied (Path is satisfied), interface: utun5, ipv4, dns, proxy)] event: path:satisfied @0.0s, uuid: ECA8ADAE-7144-45CF-8BFC-D8609BB99781	
+00:03.070.432	Info	CloudTelemetryService (379)	com.apple.network	connection	nw_connection_endpoint_report_on_nw_queue_block_invoke [C161 Hostname#981f6a2f:443 waiting parent-flow (satisfied (Path is satisfied), interface: utun5, ipv4, dns, proxy)] skipping state update	
+00:03.070.436	Debug	PerfPowerServices (1452)	com.apple.powerlog	display	Data: <private>	
+00:03.070.478	Error	CloudTelemetryService (379)	com.apple.network	connection	nw_endpoint_flow_validate_delegation [C161 Hostname#981f6a2f:443 in_progress parent-flow (satisfied (Path is satisfied), interface: utun5, ipv4, dns, proxy)] Network Delegation Failure: Invalid Bundle ID "com.apple.CloudTelemetryService.xpc" [I]	
+00:03.070.515	Debug	PerfPowerServices (1452)	com.apple.powerlog	time	Linear approximation: systemNow=Mon Nov 18 11:54:18 2024, lastSystemTimeRecalibrated=Mon Nov 18 11:54:03 2024, currentTime=Tue Jan 13 05:37:53 1970	
+00:03.070.516	Debug	CloudTelemetryService (379)	com.apple.network	connection	nw_endpoint_flow_attach_protocols [C161 Hostname#981f6a2f:443 in_progress parent-flow (satisfied (Path is satisfied), interface: utun5, ipv4, dns, proxy)] 	
+00:03.070.534	Debug	CloudTelemetryService (379)	com.apple.network	connection	nw_endpoint_flow_attach_protocols [C161 Hostname#981f6a2f:443 in_progress parent-flow (satisfied (Path is satisfied), interface: utun5, ipv4, dns, proxy)] stopping after adding persistent application protocols	
+00:03.070.548	Debug	CloudTelemetryService (379)	com.apple.network	connection	nw_endpoint_flow_setup_protocols [C161 Hostname#981f6a2f:443 in_progress parent-flow (satisfied (Path is satisfied), interface: utun5, ipv4, dns, proxy)] persistent protocol stack, starting	
+00:03.070.583	Debug	PerfPowerServices (1452)	com.apple.powerlog	display	Final data to be logged: <private>	
+00:03.070.587	Default	CloudTelemetryService (379)	com.apple.network	connection	[C161 Hostname#981f6a2f:443 in_progress parent-flow (satisfied (Path is satisfied), interface: utun5, ipv4, dns, proxy)] event: flow:start_connect @0.0s	
+00:03.070.625	Debug	searchd (216)	com.apple.spotlightindex	General	fsync time 0.0005 - <private>
+	
+00:03.070.640	Default	CloudTelemetryService (379)	com.apple.network	connection	nw_connection_report_state_with_handler_on_nw_queue [C161] reporting state preparing	
+00:03.070.674	Info	CloudTelemetryService (379)	com.apple.network	connection	nw_endpoint_flow_connect [C161 Hostname#981f6a2f:443 in_progress parent-flow (satisfied (Path is satisfied), interface: utun5, ipv4, dns, proxy)] connect bottom protocol	
+00:03.070.704	Debug	CloudTelemetryService (379)	com.apple.network	connection	nw_endpoint_flow_start_child [C161 Hostname#981f6a2f:443 in_progress parent-flow (satisfied (Path is satisfied), interface: utun5, ipv4, dns, proxy)] creating and starting child handler	
+00:03.070.730	Default	searchd (216)	com.apple.spotlightindex	SDB	copy file <private> to <private>	
+00:03.070.775	Default	CloudTelemetryService (379)	com.apple.network	connection	[C161 Hostname#981f6a2f:443 in_progress parent-flow (satisfied (Path is satisfied), interface: utun5, ipv4, dns, proxy)] event: flow:start_child @0.0s	
+00:03.070.822	Info	CloudTelemetryService (379)	com.apple.network	connection	nw_endpoint_handler_start [C161.1 Hostname#981f6a2f:443 initial path ()] 	
+00:03.070.856	Debug	CloudTelemetryService (379)	com.apple.network	connection	nw_endpoint_flow_receive_report [C161 Hostname#981f6a2f:443 in_progress parent-flow (satisfied (Path is satisfied), interface: utun5, ipv4, dns, proxy)] received child report: [C161.1 Hostname#981f6a2f:443 initial path ()] 	
+00:03.070.873	Default	CloudTelemetryService (379)	com.apple.network	connection	[C161.1 Hostname#981f6a2f:443 initial path ()] event: path:start @0.0s	
+00:03.070.897	Debug	CloudTelemetryService (379)	com.apple.network		nw_path_necp_check_for_updates Failed to copy updated result (35)	
+00:03.070.912	Debug	CloudTelemetryService (379)	com.apple.network	connection	nw_endpoint_handler_path_change [C161.1 Hostname#981f6a2f:443 waiting path (satisfied (Path is satisfied), interface: utun5, ipv4, dns, proxy)] 	
+00:03.070.925	Debug	CloudTelemetryService (379)	com.apple.networkextension		ne_tracker_check_is_hostname_blocked() proceeding with the external check for hostname: <private>	
+00:03.070.938	Debug	CloudTelemetryService (379)	com.apple.networkextension		NEHelperIsHostnameDesignatedTrackerExternal(): obtained signing identifier: (com.apple.CloudTelemetryService.xpc)	
+00:03.070.953	Debug	CloudTelemetryService (379)	com.apple.networkextension		NEHelperIsHostnameDesignatedTrackerExternal(): context->audit_token is not set.	
+00:03.071.036	Debug	backboardd (68)	com.apple.BackBoard	Accelerometer	Acc (type 0): -0.0082 -0.6389 -0.7801	
+00:03.071.073	Debug	SpringBoard (34)	com.apple.locationd.Motion	Accel	[Accelerometer] x,<private>,y,<private>,z,<private>,timestamp,<private>	
+00:03.071.250	Debug	DTServiceHub (360)	DVTInstrumentsFoundation	Default	Data Size: 101,774, Rows Sent: 1,399, Stack depth: 2,562	
+00:03.071.276	Debug	CloudTelemetryService (379)	com.apple.networkextension		NEHelperIsHostnameDesignatedTrackerExternal(): is_hostname_found: (0), is_tcc_allowed: (1)	
+00:03.072.015	Default	searchd (216)	com.apple.spotlightindex	General	Already shadowed; don't shadow next_id = 609	
+00:03.072.102	Debug	CloudTelemetryService (379)	com.apple.networkextension		External check: hostname <private> is not a tracker. Returning: ne_tracker_status_none	
+00:03.072.164	Debug	CloudTelemetryService (379)	com.apple.network	connection	nw_endpoint_flow_receive_report [C161 Hostname#981f6a2f:443 in_progress parent-flow (satisfied (Path is satisfied), interface: utun5, ipv4, dns, proxy)] received child report: [C161.1 Hostname#981f6a2f:443 waiting path (satisfied (Path is satisfied), interface: utun5, ipv4, dns, proxy)] 	
+00:03.072.178	Default	searchd (216)	com.apple.spotlightindex	SDB	Shadow completed at vector count 608	
+00:03.072.215	Default	CloudTelemetryService (379)	com.apple.network	connection	[C161.1 Hostname#981f6a2f:443 waiting path (satisfied (Path is satisfied), interface: utun5, ipv4, dns, proxy)] event: path:satisfied @0.2s, uuid: ECA8ADAE-7144-45CF-8BFC-D8609BB99781	
+00:03.072.234	Debug	searchd (216)	com.apple.spotlightindex	Path	shadowReverseStore: 18,446,744,072,635,928,589	
+00:03.072.290	Debug	CloudTelemetryService (379)	com.apple.network	connection	-[NWConcrete_nw_endpoint_transform startWithHandler:] [C161.1 Hostname#981f6a2f:443 waiting transform (satisfied (Path is satisfied), interface: utun5, ipv4, dns, proxy)] 	
+00:03.072.354	Debug	CloudTelemetryService (379)	com.apple.network	connection	nw_endpoint_flow_receive_report [C161 Hostname#981f6a2f:443 in_progress parent-flow (satisfied (Path is satisfied), interface: utun5, ipv4, dns, proxy)] received child report: [C161.1 Hostname#981f6a2f:443 in_progress transform (satisfied (Path is satisfied), interface: utun5, ipv4, dns, proxy)] 	
+00:03.072.375	Default	CloudTelemetryService (379)	com.apple.network	connection	[C161.1 Hostname#981f6a2f:443 in_progress transform (satisfied (Path is satisfied), interface: utun5, ipv4, dns, proxy)] event: transform:start @0.2s	
+00:03.072.521	Debug	CloudTelemetryService (379)	com.apple.network	connection	nw_endpoint_transform_add_children_block_invoke [C161.1 Hostname#981f6a2f:443 in_progress transform (satisfied (Path is satisfied), interface: utun5, ipv4, dns, proxy)] Transform including protocol <private> cannot be used, unknown endpoint	
+00:03.072.634	Info	CloudTelemetryService (379)	com.apple.network	connection	nw_endpoint_handler_start [C161.1.1 Hostname#981f6a2f:443 initial path ()] 	
+00:03.072.658	Debug	CloudTelemetryService (379)	com.apple.network	connection	nw_endpoint_transform_receive_report [C161.1 Hostname#981f6a2f:443 in_progress transform (satisfied (Path is satisfied), interface: utun5, ipv4, dns, proxy)] received child report: [C161.1.1 Hostname#981f6a2f:443 initial path ()] 	
+00:03.072.674	Debug	CloudTelemetryService (379)	com.apple.network	connection	nw_endpoint_flow_receive_report [C161 Hostname#981f6a2f:443 in_progress parent-flow (satisfied (Path is satisfied), interface: utun5, ipv4, dns, proxy)] received child report: [C161.1.1 Hostname#981f6a2f:443 initial path ()] 	
+00:03.072.688	Default	CloudTelemetryService (379)	com.apple.network	connection	[C161.1.1 Hostname#981f6a2f:443 initial path ()] event: path:start @0.2s	
+00:03.072.780	Debug	CloudTelemetryService (379)	com.apple.network		nw_path_necp_check_for_updates Failed to copy updated result (35)	
+00:03.072.821	Debug	CloudTelemetryService (379)	com.apple.network	connection	nw_endpoint_handler_path_change [C161.1.1 Hostname#981f6a2f:443 waiting path (satisfied (Path is satisfied), interface: utun5, ipv4, dns, proxy)] 	
+00:03.072.842	Debug	CloudTelemetryService (379)	com.apple.networkextension		ne_tracker_check_is_hostname_blocked() proceeding with the external check for hostname: <private>	
+00:03.072.859	Debug	CloudTelemetryService (379)	com.apple.networkextension		NEHelperIsHostnameDesignatedTrackerExternal(): obtained signing identifier: (com.apple.CloudTelemetryService.xpc)	
+00:03.073.093	Debug	CloudTelemetryService (379)	com.apple.networkextension		NEHelperIsHostnameDesignatedTrackerExternal(): context->audit_token is not set.	
+00:03.073.190	Debug	CloudTelemetryService (379)	com.apple.networkextension		NEHelperIsHostnameDesignatedTrackerExternal(): is_hostname_found: (0), is_tcc_allowed: (1)	
+00:03.073.352	Debug	searchd (216)	com.apple.spotlightindex	General	fsync time 0.0007 - <private>
+	
+00:03.073.390	Debug	CloudTelemetryService (379)	com.apple.networkextension		External check: hostname <private> is not a tracker. Returning: ne_tracker_status_none	
+00:03.073.402	Debug	searchd (216)	com.apple.spotlightindex	State	write state:clean	
+00:03.073.439	Debug	CloudTelemetryService (379)	com.apple.network	connection	nw_endpoint_transform_receive_report [C161.1 Hostname#981f6a2f:443 in_progress transform (satisfied (Path is satisfied), interface: utun5, ipv4, dns, proxy)] received child report: [C161.1.1 Hostname#981f6a2f:443 waiting path (satisfied (Path is satisfied), interface: utun5, ipv4, dns, proxy)] 	
+00:03.073.488	Debug	CloudTelemetryService (379)	com.apple.network	connection	nw_endpoint_flow_receive_report [C161 Hostname#981f6a2f:443 in_progress parent-flow (satisfied (Path is satisfied), interface: utun5, ipv4, dns, proxy)] received child report: [C161.1.1 Hostname#981f6a2f:443 waiting path (satisfied (Path is satisfied), interface: utun5, ipv4, dns, proxy)] 	
+00:03.073.508	Default	CloudTelemetryService (379)	com.apple.network	connection	[C161.1.1 Hostname#981f6a2f:443 waiting path (satisfied (Path is satisfied), interface: utun5, ipv4, dns, proxy)] event: path:satisfied @0.3s, uuid: CE331CDC-8E0C-4B0B-AD3C-646B94A24B31	
+00:03.073.838	Debug	CloudTelemetryService (379)	com.apple.network	connection	-[NWConcrete_nw_endpoint_resolver startWithHandler:] [C161.1.1 Hostname#981f6a2f:443 waiting resolver (satisfied (Path is satisfied), interface: utun5, ipv4, dns, proxy)] 	
+00:03.073.924	Debug	CloudTelemetryService (379)	com.apple.network	connection	nw_endpoint_transform_receive_report [C161.1 Hostname#981f6a2f:443 in_progress transform (satisfied (Path is satisfied), interface: utun5, ipv4, dns, proxy)] received child report: [C161.1.1 Hostname#981f6a2f:443 in_progress resolver (satisfied (Path is satisfied), interface: utun5, ipv4, dns, proxy)] 	
+00:03.074.112	Debug	CloudTelemetryService (379)	com.apple.network	connection	nw_endpoint_flow_receive_report [C161 Hostname#981f6a2f:443 in_progress parent-flow (satisfied (Path is satisfied), interface: utun5, ipv4, dns, proxy)] received child report: [C161.1.1 Hostname#981f6a2f:443 in_progress resolver (satisfied (Path is satisfied), interface: utun5, ipv4, dns, proxy)] 	
+00:03.074.129	Debug	siriinferenced (193)	com.apple.siri.inference	SiriSignals	TimeSinceAppLastLaunchedSignal#accumulate - updated value for com.apple.mobileslideshow from 753,594,730 to 753,594,858	
+00:03.074.171	Default	CloudTelemetryService (379)	com.apple.network	connection	[C161.1.1 Hostname#981f6a2f:443 in_progress resolver (satisfied (Path is satisfied), interface: utun5, ipv4, dns, proxy)] event: resolver:start_dns @0.4s	
+00:03.074.243	Info	CloudTelemetryService (379)	com.apple.network	connection	nw_resolver_set_update_handler_block_invoke [C161.1.1] found cached endpoints [0 - IPv4#54cdbf7b:443]	
+00:03.074.392	Default	CloudTelemetryService (379)	com.apple.CFNetwork	Default	Task <8FE23894-37BD-468A-8CAD-78C288E5916B>.<1> setting up Connection 161	
+00:03.074.414	Debug	CloudTelemetryService (379)	com.apple.network	activity	Returning should log: 0 for activity cfnetwork:foreground_task	
+00:03.074.442	Debug	CloudTelemetryService (379)	com.apple.network	connection	nw_endpoint_resolver_update [C161.1.1 Hostname#981f6a2f:443 in_progress resolver (satisfied (Path is satisfied), interface: utun5, ipv4, dns, proxy)] resolver is complete	
+00:03.074.453	Debug	siriinferenced (193)	com.apple.siri.inference	SiriSignals	SignalCache: caching <private> value.	
+00:03.074.514	Default	CloudTelemetryService (379)	com.apple.network	connection	nw_endpoint_resolver_update [C161.1.1 Hostname#981f6a2f:443 in_progress resolver (satisfied (Path is satisfied), interface: utun5, ipv4, dns, proxy)] Adding endpoint handler for IPv4#54cdbf7b:443	
+00:03.074.538	Debug	CloudTelemetryService (379)	com.apple.network	connection	nw_endpoint_resolver_update [C161.1.1 Hostname#981f6a2f:443 in_progress resolver (satisfied (Path is satisfied), interface: utun5, ipv4, dns, proxy)] Updated endpoint list is (IPv4#54cdbf7b:443)	
+00:03.074.553	Debug	CloudTelemetryService (379)	com.apple.network	connection	nw_endpoint_transform_receive_report [C161.1 Hostname#981f6a2f:443 in_progress transform (satisfied (Path is satisfied), interface: utun5, ipv4, dns, proxy)] received child report: [C161.1.1 Hostname#981f6a2f:443 in_progress resolver (satisfied (Path is satisfied), interface: utun5, ipv4, dns, proxy)] 	
+00:03.074.569	Debug	CloudTelemetryService (379)	com.apple.network	connection	nw_endpoint_flow_receive_report [C161 Hostname#981f6a2f:443 in_progress parent-flow (satisfied (Path is satisfied), interface: utun5, ipv4, dns, proxy)] received child report: [C161.1.1 Hostname#981f6a2f:443 in_progress resolver (satisfied (Path is satisfied), interface: utun5, ipv4, dns, proxy)] 	
+00:03.074.583	Default	CloudTelemetryService (379)	com.apple.network	connection	[C161.1.1 Hostname#981f6a2f:443 in_progress resolver (satisfied (Path is satisfied), interface: utun5, ipv4, dns, proxy)] event: resolver:receive_dns @0.4s	
+00:03.074.634	Info	CloudTelemetryService (379)	com.apple.network	connection	nw_endpoint_resolver_start_next_child [C161.1.1 Hostname#981f6a2f:443 in_progress resolver (satisfied (Path is satisfied), interface: utun5, ipv4, dns, proxy)] starting child endpoint IPv4#54cdbf7b:443	
+00:03.074.661	Info	CloudTelemetryService (379)	com.apple.network	connection	nw_endpoint_handler_start [C161.1.1.1 IPv4#54cdbf7b:443 initial path ()] 	
+00:03.074.681	Debug	CloudTelemetryService (379)	com.apple.network	connection	nw_endpoint_resolver_receive_report [C161.1.1 Hostname#981f6a2f:443 in_progress resolver (satisfied (Path is satisfied), interface: utun5, ipv4, dns, proxy)] received child report: [C161.1.1.1 IPv4#54cdbf7b:443 initial path ()] 	
+00:03.074.696	Debug	CloudTelemetryService (379)	com.apple.network	connection	nw_endpoint_transform_receive_report [C161.1 Hostname#981f6a2f:443 in_progress transform (satisfied (Path is satisfied), interface: utun5, ipv4, dns, proxy)] received child report: [C161.1.1.1 IPv4#54cdbf7b:443 initial path ()] 	
+00:03.074.711	Debug	CloudTelemetryService (379)	com.apple.network	connection	nw_endpoint_flow_receive_report [C161 Hostname#981f6a2f:443 in_progress parent-flow (satisfied (Path is satisfied), interface: utun5, ipv4, dns, proxy)] received child report: [C161.1.1.1 IPv4#54cdbf7b:443 initial path ()] 	
+00:03.074.773	Default	CloudTelemetryService (379)	com.apple.network	connection	[C161.1.1.1 IPv4#54cdbf7b:443 initial path ()] event: path:start @0.4s	
+00:03.074.810	Debug	CloudTelemetryService (379)	com.apple.network		nw_path_necp_check_for_updates Failed to copy updated result (35)	
+00:03.074.828	Debug	CloudTelemetryService (379)	com.apple.network	connection	nw_endpoint_handler_path_change [C161.1.1.1 IPv4#54cdbf7b:443 waiting path (satisfied (Path is satisfied), viable, interface: utun5, ipv4, dns, proxy)] 	
+00:03.074.844	Debug	CloudTelemetryService (379)	com.apple.network	connection	nw_endpoint_resolver_receive_report [C161.1.1 Hostname#981f6a2f:443 in_progress resolver (satisfied (Path is satisfied), interface: utun5, ipv4, dns, proxy)] received child report: [C161.1.1.1 IPv4#54cdbf7b:443 waiting path (satisfied (Path is satisfied), viable, interface: utun5, ipv4, dns, proxy)] 	
+00:03.074.859	Debug	CloudTelemetryService (379)	com.apple.network	connection	nw_endpoint_transform_receive_report [C161.1 Hostname#981f6a2f:443 in_progress transform (satisfied (Path is satisfied), interface: utun5, ipv4, dns, proxy)] received child report: [C161.1.1.1 IPv4#54cdbf7b:443 waiting path (satisfied (Path is satisfied), viable, interface: utun5, ipv4, dns, proxy)] 	
+00:03.074.874	Debug	CloudTelemetryService (379)	com.apple.network	connection	nw_endpoint_flow_receive_report [C161 Hostname#981f6a2f:443 in_progress parent-flow (satisfied (Path is satisfied), interface: utun5, ipv4, dns, proxy)] received child report: [C161.1.1.1 IPv4#54cdbf7b:443 waiting path (satisfied (Path is satisfied), viable, interface: utun5, ipv4, dns, proxy)] 	
+00:03.074.889	Default	CloudTelemetryService (379)	com.apple.network	connection	[C161.1.1.1 IPv4#54cdbf7b:443 waiting path (satisfied (Path is satisfied), viable, interface: utun5, ipv4, dns, proxy)] event: path:satisfied @0.4s, uuid: EBEBC257-C464-43C3-9D2A-A4259A408207	
+00:03.075.010	Info	biomed (49)	com.apple.Biome	BiomeAccessService	-temporaryFileHandleWithProtection:reply: called	
+00:03.075.404	Debug	siriinferenced (193)	com.apple.siri.inference	SiriSignals	SignalRepository: accumulated a value for <private>, so marking it pre-warmed.	
+00:03.075.417	Debug	siriinferenced (193)	com.apple.siri.inference	SiriSignals	<private>	
+00:03.075.552	Info	contextstored (65)	com.apple.coreduet.context		Executing callback for client: com.apple.duetexpertd.cdidentifier, registration: <private>, based on keypath change: /device/app/dataDictionary	
+00:03.075.578	Error	CloudTelemetryService (379)	com.apple.network	connection	nw_endpoint_flow_validate_delegation [C161.1.1.1 IPv4#54cdbf7b:443 in_progress channel-flow (satisfied (Path is satisfied), viable, interface: utun5, ipv4, dns, proxy)] Network Delegation Failure: Invalid Bundle ID "com.apple.CloudTelemetryService.xpc" [I]	
+00:03.075.629	Debug	CloudTelemetryService (379)	com.apple.network	connection	nw_endpoint_resolver_receive_report [C161.1.1 Hostname#981f6a2f:443 in_progress resolver (satisfied (Path is satisfied), interface: utun5, ipv4, dns, proxy)] received child report: [C161.1.1.1 IPv4#54cdbf7b:443 in_progress channel-flow (satisfied (Path is satisfied), viable, interface: utun5, ipv4, dns, proxy)] 	
+00:03.075.644	Debug	CloudTelemetryService (379)	com.apple.network	connection	nw_endpoint_transform_receive_report [C161.1 Hostname#981f6a2f:443 in_progress transform (satisfied (Path is satisfied), interface: utun5, ipv4, dns, proxy)] received child report: [C161.1.1.1 IPv4#54cdbf7b:443 in_progress channel-flow (satisfied (Path is satisfied), viable, interface: utun5, ipv4, dns, proxy)] 	
+00:03.075.658	Debug	CloudTelemetryService (379)	com.apple.network	connection	nw_endpoint_flow_receive_report [C161 Hostname#981f6a2f:443 in_progress parent-flow (satisfied (Path is satisfied), interface: utun5, ipv4, dns, proxy)] received child report: [C161.1.1.1 IPv4#54cdbf7b:443 in_progress channel-flow (satisfied (Path is satisfied), viable, interface: utun5, ipv4, dns, proxy)] 	
+00:03.075.671	Default	CloudTelemetryService (379)	com.apple.network	connection	[C161.1.1.1 IPv4#54cdbf7b:443 in_progress channel-flow (satisfied (Path is satisfied), viable, interface: utun5, ipv4, dns, proxy)] event: flow:start_nexus @0.5s	
+00:03.075.797	Debug	PerfPowerServices (1452)	com.apple.CoreAnalytics.event	send	<private> <private>	
+00:03.075.813	Debug	CloudTelemetryService (379)	com.apple.network		nw_path_evaluator_create_flow_inner Added flow 8BC8B7FF-3570-42EC-ADF9-F202D650B49D to EBEBC257-C464-43C3-9D2A-A4259A408207	
+00:03.075.875	Info	CloudTelemetryService (379)	com.apple.network	connection	nw_endpoint_flow_setup_channel [C161.1.1.1 IPv4#54cdbf7b:443 in_progress channel-flow (satisfied (Path is satisfied), viable, interface: utun5, ipv4, dns, proxy)] requested nexus flow	
+00:03.076.042	Debug	CloudTelemetryService (379)	com.apple.network	connection	nw_endpoint_handler_path_change [C161.1.1.1 IPv4#54cdbf7b:443 in_progress channel-flow (satisfied (Path is satisfied), viable, interface: utun5, ipv4, dns, proxy)] 	
+00:03.076.106	Debug	CloudTelemetryService (379)	com.apple.network	connection	-[NWConcrete_nw_endpoint_flow updatePathWithHandler:] [C161.1.1.1 IPv4#54cdbf7b:443 in_progress channel-flow (satisfied (Path is satisfied), viable, interface: utun5, ipv4, dns, proxy)] 	
+00:03.076.158	Debug	CloudTelemetryService (379)	com.apple.network	connection	nw_endpoint_resolver_receive_report [C161.1.1 Hostname#981f6a2f:443 in_progress resolver (satisfied (Path is satisfied), interface: utun5, ipv4, dns, proxy)] received child report: [C161.1.1.1 IPv4#54cdbf7b:443 in_progress channel-flow (satisfied (Path is satisfied), viable, interface: utun5, ipv4, dns, proxy)] 	
+00:03.076.187	Debug	CloudTelemetryService (379)	com.apple.network	connection	nw_endpoint_transform_receive_report [C161.1 Hostname#981f6a2f:443 in_progress transform (satisfied (Path is satisfied), interface: utun5, ipv4, dns, proxy)] received child report: [C161.1.1.1 IPv4#54cdbf7b:443 in_progress channel-flow (satisfied (Path is satisfied), viable, interface: utun5, ipv4, dns, proxy)] 	
+00:03.076.362	Default	backboardd (68)	CoreBrightness	Default	BaselineHarmony: Current strength: 0.2163, ALSStrength: 0.2700, AppStrength: 0.2163	
+00:03.076.370	Debug	CloudTelemetryService (379)	com.apple.network	connection	nw_endpoint_flow_receive_report [C161 Hostname#981f6a2f:443 in_progress parent-flow (satisfied (Path is satisfied), interface: utun5, ipv4, dns, proxy)] received child report: [C161.1.1.1 IPv4#54cdbf7b:443 in_progress channel-flow (satisfied (Path is satisfied), viable, interface: utun5, ipv4, dns, proxy)] 	
+00:03.076.378	Debug	backboardd (68)	com.apple.CoreBrightness.CBColorModule.Primary	default	send notification for key = CBTargetWhitePoint value = <private>	
+00:03.076.389	Info	backboardd (68)	com.apple.CoreBrightness.CBColorModule.Primary	default	Calling brightness control with whitepoint ( 0.3442 | 0.3530 ) and period: 0.0000	
+00:03.076.406	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayContaineriOS	BuiltIn	Notification block key=CBTargetWhitePoint, value=<private>
+	
+00:03.076.417	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	Handle notification for key = CBTargetWhitePoint and property = <private>	
+00:03.076.423	Default	CloudTelemetryService (379)	com.apple.network	connection	[C161.1.1.1 IPv4#54cdbf7b:443 in_progress channel-flow (satisfied (Path is satisfied), viable, interface: utun5, ipv4, dns, proxy)] event: flow:receive_nexus @0.6s	
+00:03.076.439	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	Superbright EDR restrictions [would be]: CLTM 1,512.3809, UPO 2,175.0000, bottom [lower] restriction 1.0000, nits cap hdr: 2,175.0000, after BDM: 1,600.0000	
+00:03.076.446	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	EDR Color brightness compensation (SetLibEDRBrightness) TargetYCompensation: 1.1945, inputL: 2,175.0000, alpha: 0.7600, Ycomp: 1.1478. L_device: 118.8318, currentLux: 263.9057, nitsCapEDR: 1,600.0000	
+00:03.076.453	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	SetLibEDRBrightness to currentBrightness=118.8318, maxBrightness=1,600.0000, currentLux=263.9057, compensationBoost=1.1478	
+00:03.076.459	Info	CloudTelemetryService (379)	com.apple.network	connection	nw_endpoint_flow_setup_protocols [C161.1.1.1 IPv4#54cdbf7b:443 in_progress channel-flow (satisfied (Path is satisfied), viable, interface: utun5, ipv4, dns, proxy)] setup flow id 8BC8B7FF-3570-42EC-ADF9-F202D650B49D	
+00:03.076.459	Debug	backboardd (68)	CoreBrightness	Default	CBEDRServerDisplayBrightness: display: 0 | target: 118.8318 | max: 1,600.0000 | ambient: 263.9057 | boost=1.1478	
+00:03.076.485	Info	backboardd (68)	libEDR	Default	libEDR - EDRServerSetDisplayBrightnessForDisplay: (display: 0, targetBrightness: 118.8318, maxLuminance: 1,600.0000, ambientIlluminance: 263.9057, brightnessScaler: 1.1478)
+	
+00:03.076.520	Info	backboardd (68)	libEDR	Default	libEDR - EDRServerUpdateMinScalingFactor min scaling factor set to: 0.1250
+	
+00:03.076.564	Debug	CloudTelemetryService (379)	com.apple.network	connection	nw_endpoint_flow_attach_protocols [C161.1.1.1 IPv4#54cdbf7b:443 in_progress channel-flow (satisfied (Path is satisfied), viable, interface: utun5, ipv4, dns, proxy)] 	
+00:03.076.579	Info	backboardd (68)	libEDR	Default	libEDR - NotificationCallback: (type: kEDRNotifyBrightness, display: 0, brightness: 0.0743, backlight: 0.0743, edrScaler: 1.0000, maxLuminance: 1,600.0000, ambientIlluminance: 263.9057, brightnessScaler: 1.1478)
+	
+00:03.076.621	Info	backboardd (68)	libEDR	Default	libEDR - PostNotification: (display: 0, brightness: 0.0743, backlight: 0.0743, edrScaling: 1.0000, maxLuminance: 1,600.0000, ambientIlluminance: 263.9057, brightnessScaler: 1.1478)
+	
+00:03.076.646	Debug	CloudTelemetryService (379)	com.apple.network	connection	nw_endpoint_flow_attach_protocols_block_invoke [C161.1.1.1 IPv4#54cdbf7b:443 in_progress channel-flow (satisfied (Path is satisfied), viable, interface: utun5, ipv4, dns, proxy)] Attached application protocol: CFNetworkConnection-4165466820	
+00:03.076.716	Debug	CloudTelemetryService (379)	com.apple.network	connection	nw_endpoint_flow_attach_protocols_block_invoke [C161.1.1.1 IPv4#54cdbf7b:443 in_progress channel-flow (satisfied (Path is satisfied), viable, interface: utun5, ipv4, dns, proxy)] Attached application protocol: tls	
+00:03.076.933	Debug	CloudTelemetryService (379)	com.apple.network	connection	nw_endpoint_flow_attach_protocols_block_invoke [C161.1.1.1 IPv4#54cdbf7b:443 in_progress channel-flow (satisfied (Path is satisfied), viable, interface: utun5, ipv4, dns, proxy)] Attached transport protocol: tcp	
+00:03.076.980	Info	CloudTelemetryService (379)	com.apple.network	tcp	nw_protocol_tcp_register_notification [C161.1.1.1:3] segmentation_offload_notification enabled	
+00:03.077.019	Debug	CloudTelemetryService (379)	com.apple.network	connection	nw_endpoint_flow_attach_protocols_block_invoke [C161.1.1.1 IPv4#54cdbf7b:443 in_progress channel-flow (satisfied (Path is satisfied), viable, interface: utun5, ipv4, dns, proxy)] Attached internet protocol: ip	
+00:03.077.080	Info	CloudTelemetryService (379)	com.apple.network	connection	nw_endpoint_flow_attach_channel_protocol [C161.1.1.1 IPv4#54cdbf7b:443 in_progress channel-flow (satisfied (Path is satisfied), viable, interface: utun5, ipv4, dns, proxy)] opened channel at level 2	
+00:03.077.083	Debug	PerfPowerServices (1452)	com.apple.powerlog	time	Linear approximation: systemNow=Mon Nov 18 11:54:18 2024, lastSystemTimeRecalibrated=Mon Nov 18 11:54:03 2024, currentTime=Tue Jan 13 05:37:53 1970	
+00:03.077.092	Debug	PerfPowerServices (1452)	com.apple.powerlog	time	Linear approximation: systemNow=Mon Nov 18 11:54:18 2024, lastSystemTimeRecalibrated=Mon Nov 18 11:54:03 2024, currentTime=Tue Jan 13 05:37:53 1970	
+00:03.077.120	Debug	CloudTelemetryService (379)	com.apple.network		nw_channel_add_input_handler Added channel input handler for 8BC8B7FF-3570-42EC-ADF9-F202D650B49D	
+00:03.077.173	Debug	CloudTelemetryService (379)	com.apple.network	connection	nw_endpoint_flow_attach_protocols [C161.1.1.1 IPv4#54cdbf7b:443 in_progress channel-flow (satisfied (Path is satisfied), viable, interface: utun5, ipv4, dns, proxy)] Attached channel protocol	
+00:03.077.212	Debug	CloudTelemetryService (379)	com.apple.network	connection	nw_endpoint_flow_setup_protocols [C161.1.1.1 IPv4#54cdbf7b:443 in_progress channel-flow (satisfied (Path is satisfied), viable, interface: utun5, ipv4, dns, proxy)] leaf flow starting	
+00:03.077.312	Debug	CloudTelemetryService (379)	com.apple.network	connection	nw_endpoint_resolver_receive_report [C161.1.1 Hostname#981f6a2f:443 in_progress resolver (satisfied (Path is satisfied), interface: utun5, ipv4, dns, proxy)] received child report: [C161.1.1.1 IPv4#54cdbf7b:443 in_progress channel-flow (satisfied (Path is satisfied), viable, interface: utun5, ipv4, dns, proxy)] 	
+00:03.077.352	Debug	CloudTelemetryService (379)	com.apple.network	connection	nw_endpoint_transform_receive_report [C161.1 Hostname#981f6a2f:443 in_progress transform (satisfied (Path is satisfied), interface: utun5, ipv4, dns, proxy)] received child report: [C161.1.1.1 IPv4#54cdbf7b:443 in_progress channel-flow (satisfied (Path is satisfied), viable, interface: utun5, ipv4, dns, proxy)] 	
+00:03.077.418	Debug	CloudTelemetryService (379)	com.apple.network	connection	nw_endpoint_flow_receive_report [C161 Hostname#981f6a2f:443 in_progress parent-flow (satisfied (Path is satisfied), interface: utun5, ipv4, dns, proxy)] received child report: [C161.1.1.1 IPv4#54cdbf7b:443 in_progress channel-flow (satisfied (Path is satisfied), viable, interface: utun5, ipv4, dns, proxy)] 	
+00:03.077.660	Default	backboardd (68)	ASEProcessing	Default	 [1.37.0]     +[ASEProcessing shouldEnhanceWidth:height:destinationWidth:destinationHeight:]: src={ 1,320w x 2,868h }, dest={ 1,185w x 2,574h }, aseFunctionOnYesOffNo=1
+	
+00:03.077.661	Default	CloudTelemetryService (379)	com.apple.network	connection	[C161.1.1.1 IPv4#54cdbf7b:443 in_progress channel-flow (satisfied (Path is satisfied), viable, interface: utun5, ipv4, dns, proxy)] event: flow:start_connect @0.7s	
+00:03.077.736	Info	CloudTelemetryService (379)	com.apple.network	boringssl	boringssl_context_restore_ssl_context(2,632) [0x62a359000] New context	
+00:03.077.771	Debug	PerfPowerServices (1452)	com.apple.powerlog	time	Linear approximation: systemNow=Mon Nov 18 11:54:18 2024, lastSystemTimeRecalibrated=Mon Nov 18 11:54:03 2024, currentTime=Tue Jan 13 05:37:53 1970	
+00:03.077.778	Info	CloudTelemetryService (379)	com.apple.network	tcp	nw_proto_tcp_notify_segmentation_offload [C161.1.1.1:3] notifying segmentation offload value 0	
+00:03.077.802	Info	CloudTelemetryService (379)	com.apple.network		nw_protocol_ipv4_notify [C161.1.1.1:4] 0x62a149320 segmentation offload notify enable 0	
+00:03.077.819	Debug	PerfPowerServices (1452)	com.apple.powerlog		lastScreenEventAccountingTime=Thu Jan 22 11:46:20 1970	
+00:03.077.834	Default	CloudTelemetryService (379)	com.apple.network	tcp	tcp_output [C161.1.1.1:3] flags=c2 seq=4,141,856,468, ack=0, win=65,535 state=2 rcv_nxt=0, snd_una=4,141,856,468	
+00:03.077.852	Debug	PerfPowerServices (1452)	com.apple.powerlog		adding timeDifference=4.2872 for bundleID=com.apple.springboard.home-screen	
+00:03.077.955	Info	CloudTelemetryService (379)	com.apple.network	connection	nw_endpoint_resolver_start_next_child [C161.1.1 Hostname#981f6a2f:443 in_progress resolver (satisfied (Path is satisfied), interface: utun5, ipv4, dns, proxy)] starting next child endpoint in 100ms	
+00:03.078.040	Default	CloudTelemetryService (379)	com.apple.network	tcp	tcp_input [C161.1.1.1:3] flags=12 seq=79,153,022, ack=4,141,856,469, win=4,096 state=2 rcv_nxt=0, snd_una=4,141,856,468	
+00:03.078.114	Default	CloudTelemetryService (379)	com.apple.network	connection	nw_flow_connected [C161.1.1.1 IPv4#54cdbf7b:443 in_progress channel-flow (satisfied (Path is satisfied), viable, interface: utun5, ipv4, dns, proxy)] Transport protocol connected (tcp)	
+00:03.078.132	Debug	CloudTelemetryService (379)	com.apple.network	connection	nw_endpoint_resolver_receive_report [C161.1.1 Hostname#981f6a2f:443 in_progress resolver (satisfied (Path is satisfied), interface: utun5, ipv4, dns, proxy)] received child report: [C161.1.1.1 IPv4#54cdbf7b:443 in_progress channel-flow (satisfied (Path is satisfied), viable, interface: utun5, ipv4, dns, proxy)] 	
+00:03.078.148	Debug	CloudTelemetryService (379)	com.apple.network	connection	nw_endpoint_transform_receive_report [C161.1 Hostname#981f6a2f:443 in_progress transform (satisfied (Path is satisfied), interface: utun5, ipv4, dns, proxy)] received child report: [C161.1.1.1 IPv4#54cdbf7b:443 in_progress channel-flow (satisfied (Path is satisfied), viable, interface: utun5, ipv4, dns, proxy)] 	
+00:03.078.179	Debug	CloudTelemetryService (379)	com.apple.network	connection	nw_endpoint_flow_receive_report [C161 Hostname#981f6a2f:443 in_progress parent-flow (satisfied (Path is satisfied), interface: utun5, ipv4, dns, proxy)] received child report: [C161.1.1.1 IPv4#54cdbf7b:443 in_progress channel-flow (satisfied (Path is satisfied), viable, interface: utun5, ipv4, dns, proxy)] 	
+00:03.078.195	Default	CloudTelemetryService (379)	com.apple.network	connection	[C161.1.1.1 IPv4#54cdbf7b:443 in_progress channel-flow (satisfied (Path is satisfied), viable, interface: utun5, ipv4, dns, proxy)] event: flow:finish_transport @0.8s	
+00:03.078.212	Info	CloudTelemetryService (379)	com.apple.network	connection	nw_endpoint_resolver_receive_report [C161.1.1 Hostname#981f6a2f:443 in_progress resolver (satisfied (Path is satisfied), interface: utun5, ipv4, dns, proxy)] pushing out endpoint race by 2,000ms	
+00:03.078.371	Info	CloudTelemetryService (379)	com.apple.network	boringssl	boringssl_context_set_ats_enforced(652) [C161.1.1.1:2][0x62a359000] set false	
+00:03.078.399	Debug	PerfPowerServices (1452)	com.apple.powerlog	time	Linear approximation: systemNow=Mon Nov 18 11:54:18 2024, lastSystemTimeRecalibrated=Mon Nov 18 11:54:03 2024, currentTime=Tue Jan 13 05:37:53 1970	
+00:03.078.409	Debug	SpringBoard (34)	com.apple.CoreAnalytics.event	send	<private> <private>	
+00:03.078.451	Info	CloudTelemetryService (379)	com.apple.network	boringssl	boringssl_context_set_ats_minimum_rsa_key_size(661) [C161.1.1.1:2][0x62a359000] set 0	
+00:03.078.464	Info	CloudTelemetryService (379)	com.apple.network	boringssl	boringssl_context_set_ats_minimum_ecdsa_key_size(670) [C161.1.1.1:2][0x62a359000] set 0	
+00:03.078.520	Info	CloudTelemetryService (379)	com.apple.network	boringssl	boringssl_context_set_ats_minimum_signature_algorithm(680) [C161.1.1.1:2][0x62a359000] set 0	
+00:03.078.583	Default	CloudTelemetryService (379)	com.apple.network	boringssl	boringssl_session_apply_protocol_options_for_transport_block_invoke(2,042) [C161.1.1.1:2][0x62a359000] TLS configured [min_version(0x301) max_version(0x301) name(redacted) tickets(0) false_start(0) enforce_ev(0) enforce_ats(0) ech(0)]	
+00:03.078.600	Debug	PerfPowerServices (1452)	com.apple.powerlog		Screen On: Updating On Screen time for com.apple.springboard.home-screen with 4.2872 added seconds	
+00:03.078.635	Info	CloudTelemetryService (379)	com.apple.network	boringssl	boringssl_session_install_association_state(1,421) [C161.1.1.1:2][0x62a359000] Client session cache miss	
+00:03.078.679	Default	CloudTelemetryService (379)	com.apple.network	boringssl	boringssl_context_info_handler(2,231) [C161.1.1.1:2][0x62a359000] Client handshake started	
+00:03.078.730	Debug	CloudTelemetryService (379)	com.apple.network	boringssl	boringssl_context_log_message(2,304) [C161.1.1.1:2][0x62a359000] Writing SSL3_RT_HANDSHAKE 152 bytes	
+00:03.078.747	Default	CloudTelemetryService (379)	com.apple.network	boringssl	boringssl_context_info_handler(2,248) [C161.1.1.1:2][0x62a359000] Client handshake state: TLS client enter_early_data	
+00:03.078.781	Debug	CloudTelemetryService (379)	com.apple.network	boringssl	nw_protocol_boringssl_write_bytes(88) [C161.1.1.1:2][0x62a359000] write request: 157	
+00:03.078.814	Debug	CloudTelemetryService (379)	com.apple.network	boringssl	nw_protocol_boringssl_write_bytes(159) [C161.1.1.1:2][0x62a359000] total bytes written: 157	
+00:03.078.819	Default	dasd (80)	com.apple.duetactivityscheduler	energybudgeting	Report to PowerLog start tracking activity <private> from parameters <private>	
+00:03.078.829	Default	CloudTelemetryService (379)	com.apple.network	boringssl	boringssl_context_info_handler(2,248) [C161.1.1.1:2][0x62a359000] Client handshake state: TLS client read_server_hello	
+00:03.078.841	Debug	CloudTelemetryService (379)	com.apple.network	boringssl	nw_protocol_boringssl_read_bytes(238) [C161.1.1.1:2][0x62a359000] read request: 5 byte(s)	
+00:03.078.854	Debug	CloudTelemetryService (379)	com.apple.network	boringssl	nw_protocol_boringssl_read_bytes(253) [C161.1.1.1:2][0x62a359000] no input frames available	
+00:03.078.887	Debug	dasd (80)	com.apple.powerlog.energybudgeting	discretionaryenergymonitor	Reporting startEvent activityName=<private>, info=<private> from energyMonitor	
+00:03.078.920	Info	CloudTelemetryService (379)	com.apple.network	boringssl	boringssl_session_handshake_incomplete(254) [C161.1.1.1:2][0x62a359000] Handshake incomplete: waiting for data to read [2]	
+00:03.078.937	Debug	CloudTelemetryService (379)	com.apple.network	boringssl	nw_protocol_boringssl_read_bytes(238) [C161.1.1.1:2][0x62a359000] read request: 5 byte(s)	
+00:03.078.950	Debug	dasd (80)	com.apple.powerlog.energybudgeting	discretionaryenergymonitor	handling start event for activityName=<private> with info=<private>	
+00:03.078.951	Debug	CloudTelemetryService (379)	com.apple.network	boringssl	nw_protocol_boringssl_read_bytes(253) [C161.1.1.1:2][0x62a359000] no input frames available	
+00:03.078.963	Info	CloudTelemetryService (379)	com.apple.network	boringssl	boringssl_session_handshake_incomplete(254) [C161.1.1.1:2][0x62a359000] Handshake incomplete: waiting for data to read [2]	
+00:03.078.980	Debug	dasd (80)	com.apple.powerlog.energybudgeting	discretionaryenergymonitor	There is already an open interval for identifier=<private>, incrementing openCount	
+00:03.079.126	Debug	dasd (80)	com.apple.powerlog.energybudgeting	discretionaryenergymonitor	after handleStartEvent, identifierToDiscretionaryIntervals=<private>	
+00:03.079.170	Debug	CloudTelemetryService (379)	com.apple.network	boringssl	nw_protocol_boringssl_output_available(1,276) [C161.1.1.1:2][0x62a359000] received input available	
+00:03.079.214	Debug	CloudTelemetryService (379)	com.apple.network	boringssl	nw_protocol_boringssl_read_bytes(238) [C161.1.1.1:2][0x62a359000] read request: 5 byte(s)	
+00:03.079.227	Debug	CloudTelemetryService (379)	com.apple.network	boringssl	nw_protocol_boringssl_read_bytes(253) [C161.1.1.1:2][0x62a359000] no input frames available	
+00:03.079.281	Debug	backboardd (68)	com.apple.CoreBrightness.CBColorModule.Primary	default	send notification for key = ColorRamp value = <private>	
+00:03.079.296	Debug	backboardd (68)	CoreBrightness	Default	15.8753 4.2396 15.2987 -> ANGLE 1.6932 -> BIN 2	
+00:03.079.317	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayContaineriOS	BuiltIn	Notification block key=ColorRamp, value=<private>
+	
+00:03.079.325	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	Handle notification for key = ColorRamp and property = <private>	
+00:03.079.342	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=CBTargetWhitePoint value=<private>	
+00:03.079.351	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=CBTargetWhitePoint property=<private>	
+00:03.079.360	Info	CloudTelemetryService (379)	com.apple.network	boringssl	boringssl_session_handshake_incomplete(254) [C161.1.1.1:2][0x62a359000] Handshake incomplete: waiting for data to read [2]	
+00:03.079.360	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=<private> value=<private>	
+00:03.079.387	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=<private> property=<private>	
+00:03.079.430	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=ColorRamp value=<private>	
+00:03.079.491	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=ColorRamp property=<private>	
+00:03.079.521	Debug	CloudTelemetryService (379)	com.apple.network	boringssl	nw_protocol_boringssl_read_bytes(238) [C161.1.1.1:2][0x62a359000] read request: 5 byte(s)	
+00:03.079.533	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=<private> value=<private>	
+00:03.079.558	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=<private> property=<private>	
+00:03.079.596	Debug	CloudTelemetryService (379)	com.apple.network	boringssl	nw_protocol_boringssl_read_bytes(253) [C161.1.1.1:2][0x62a359000] no input frames available	
+00:03.079.682	Info	CloudTelemetryService (379)	com.apple.network	boringssl	boringssl_session_handshake_incomplete(254) [C161.1.1.1:2][0x62a359000] Handshake incomplete: waiting for data to read [2]	
+00:03.079.933	Default	MonoProxyTunnel (390)	com.apple.network	path	nw_path_libinfo_path_check [60527056-0919-44B0-811C-FE155CC523BD IPv4#a1082bf4:995 tcp, legacy-socket, attribution: developer]
+	libinfo check path: unsatisfied (Path was denied by NECP policy), interface: utun5, ipv4	
+00:03.079.969	Debug	MonoProxyTunnel (390)	com.apple.network		-[NWConcrete_nw_path_evaluator dealloc] 16 Bytes	
+00:03.080.038	Debug	MonoProxyTunnel (390)	com.apple.network		-[NWConcrete_nw_path_evaluator dealloc] 16 Bytes	
+00:03.080.059	Debug	MonoProxyTunnel (390)	com.apple.network.libinfo	getaddrinfo	nat64_v4_synthesize(0, 737,877,104, ...) returned 0	
+00:03.080.207	Info	com.apple.MapKit.SnapshotService (409)	com.apple.VectorKit	TextureAtlas	repacking glyph atlas	
+00:03.082.391	Debug	CloudTelemetryService (379)	com.apple.network	connection	nw_resolver_cancel [C161.1.1] 0x62a2b4780	
+00:03.082.454	Default	CloudTelemetryService (379)	com.apple.network	connection	[C161 Hostname#981f6a2f:443 failed parent-flow (satisfied (Path is satisfied), interface: utun5, ipv4, dns, proxy)] event: flow:child_failed @0.12s	
+00:03.082.486	Default	CloudTelemetryService (379)	com.apple.network	connection	nw_connection_report_state_with_handler_on_nw_queue [C161] reporting state failed error Connection reset by peer	
+00:03.082.653	Error	CloudTelemetryService (379)	com.apple.CFNetwork	Default	Connection 161: received failure notification	
+00:03.082.827	Error	CloudTelemetryService (379)	com.apple.CFNetwork	Default	Connection 161: received ECONNRESET with incomplete TLS handshake - generating errSSLClosedNoNotify	
+00:03.082.901	Debug	searchd (216)	com.apple.spotlightindex	General	fsync time 0.0007 - <private>
+	
+00:03.082.970	Debug	searchd (216)	com.apple.spotlightindex	State	synced SIRef:0x105353800 recoverTime:1,727,849,650	
+00:03.082.990	Error	CloudTelemetryService (379)	com.apple.CFNetwork	Default	Connection 161: failed to connect 3:18,446,744,073,709,541,800, reason 18,446,744,073,709,551,615	
+00:03.083.041	Error	CloudTelemetryService (379)	com.apple.CFNetwork	Default	Connection 161: encountered error(3:18,446,744,073,709,541,800)	
+00:03.083.100	Debug	searchd (216)	com.apple.corespotlight	default	SDTransactionDone, <private>	
+00:03.083.118	Default	CloudTelemetryService (379)	com.apple.CFNetwork	Default	Connection 161: cleaning up	
+00:03.083.133	Default	CloudTelemetryService (379)	com.apple.CFNetwork	Summary	Connection 161: summary for unused connection {protocol="", domain_lookup_duration_ms=0, connect_duration_ms=0, secure_connection_duration_ms=0, private_relay=0, idle_duration_ms=0}	
+00:03.083.225	Default	CloudTelemetryService (379)	com.apple.network	connection	[C161 30DB2098-0967-48FF-96A5-5A42C26AA96E Hostname#981f6a2f:443 quic-connection, bundle id: com.apple.CloudTelemetryService.xpc, url hash: a4dd71b9, definite, attribution: developer] cancel	
+00:03.083.249	Default	CloudTelemetryService (379)	com.apple.network	connection	[C161 Hostname#981f6a2f:443 quic-connection, bundle id: com.apple.CloudTelemetryService.xpc, url hash: a4dd71b9, definite, attribution: developer] cancelled	
+00:03.083.273	Info	searchd (216)	com.apple.corespotlight	index	Index Priority retry: 0 commit complete after 6.2988s	
+00:03.083.312	Info	CloudTelemetryService (379)	com.apple.network	connection	nw_endpoint_handler_cancel [C161 Hostname#981f6a2f:443 failed parent-flow (satisfied (Path is satisfied), interface: utun5, ipv4, dns, proxy)] 	
+00:03.083.378	Info	CloudTelemetryService (379)	com.apple.network	connection	nw_association_schedule_deactivation <nw_association Hostname#981f6a2f:443> will become dormant after 10,000ms of inactivity	
+00:03.083.438	Debug	CloudTelemetryService (379)	com.apple.network	connection	nw_flow_cancel_read_write_requests [C161 Hostname#981f6a2f:443 cancelled parent-flow ()] cancelling read/write requests	
+00:03.083.551	Default	CloudTelemetryService (379)	com.apple.network	connection	nw_connection_report_state_with_handler_on_nw_queue [C161] reporting state cancelled error Connection reset by peer	
+00:03.083.638	Debug	CloudTelemetryService (379)	com.apple.CFNetwork	Default	Task <8FE23894-37BD-468A-8CAD-78C288E5916B>.<1> done setting up Connection 161	
+00:03.083.688	Debug	symptomsd (207)	com.apple.symptomsd	transport	message from pid:379 euid:501 egid:501	
+00:03.083.746	Debug	symptomsd (207)	com.apple.symptomsd	transport	symptomConnectionIncomingData for connId 33 at 0xcd823cd14 len 60	
+00:03.083.768	Debug	symptomsd (207)	com.apple.symptomsd	transport	receivePayload: reporter libnetcore desc 0xcd823cd14 type 1 len 56 msg size 60
+	
+00:03.083.813	Debug	symptomsd (207)	com.apple.symptomsd	transport	Sending a read	
+00:03.083.844	Debug	symptomsd (207)	com.apple.symptomsd	transport	client_write called, id 33 data 0x16f3e64c0 len 24	
+00:03.083.939	Default	CloudTelemetryService (379)	com.apple.CFNetwork	Default	Task <8FE23894-37BD-468A-8CAD-78C288E5916B>.<1> can retry(78) with reason(4) for error [3:18,446,744,073,709,541,800]	
+00:03.083.967	Debug	symptomsd (207)	com.apple.symptomsd	transport	message from pid:379 euid:501 egid:501	
+00:03.083.991	Debug	symptomsd (207)	com.apple.symptomsd	transport	symptomConnectionIncomingData for connId 33 at 0xcd8201094 len 276	
+00:03.084.026	Debug	symptomsd (207)	com.apple.symptomsd	transport	receivePayload: reporter libnetcore desc 0xcd8201094 type 1 len 272 msg size 276
+	
+00:03.084.050	Debug	symptomsd (207)	com.apple.symptomsd	transport	Parsing additional qualifiers	
+00:03.084.070	Debug	symptomsd (207)	com.apple.symptomsd	transport	receivePayload: Additional qualifier with length 32	
+00:03.084.086	Debug	symptomsd (207)	com.apple.symptomsd	transport	receivePayload: symptom qualifier type 4 with length 23	
+00:03.084.123	Debug	symptomsd (207)	com.apple.symptomsd	transport	Added qualifier at 0xcd820112c	
+00:03.084.162	Debug	symptomsd (207)	com.apple.symptomsd	transport	receivePayload: Additional qualifier with length 12	
+00:03.084.181	Debug	symptomsd (207)	com.apple.symptomsd	transport	receivePayload: symptom qualifier type 11 with length 4	
+00:03.084.201	Debug	symptomsd (207)	com.apple.symptomsd	transport	Added qualifier at 0xcd8201150	
+00:03.084.218	Debug	symptomsd (207)	com.apple.symptomsd	transport	receivePayload: Additional qualifier with length 12	
+00:03.084.233	Debug	symptomsd (207)	com.apple.symptomsd	transport	receivePayload: symptom qualifier type 10 with length 4	
+00:03.084.243	Error	CloudTelemetryService (379)	com.apple.CFNetwork	Default	Task <8FE23894-37BD-468A-8CAD-78C288E5916B>.<1> HTTP load failed, 0/0 bytes (error code: 18,446,744,073,709,550,416 [3:18,446,744,073,709,541,800])	
+00:03.084.250	Debug	symptomsd (207)	com.apple.symptomsd	transport	Added qualifier at 0xcd8201160	
+00:03.084.266	Debug	symptomsd (207)	com.apple.symptomsd	transport	receivePayload: Additional qualifier with length 24	
+00:03.084.296	Debug	symptomsd (207)	com.apple.symptomsd	transport	receivePayload: symptom qualifier type 3 with length 16	
+00:03.084.322	Debug	symptomsd (207)	com.apple.symptomsd	transport	Added qualifier at 0xcd8201170	
+00:03.084.340	Debug	symptomsd (207)	com.apple.symptomsd	transport	receivePayload: Additional qualifier with length 24	
+00:03.084.376	Debug	symptomsd (207)	com.apple.symptomsd	transport	receivePayload: symptom qualifier type 2 with length 16	
+00:03.084.407	Debug	symptomsd (207)	com.apple.symptomsd	transport	Added qualifier at 0xcd820118c	
+00:03.084.549	Info	symptomsd (207)	com.apple.symptomsd	other	[0.002]   379 CloudTelemetryS  (null) SYMPTOM_LIBNETCORE_CONNECTION_FAILED     libne 0000001a 0000017b -------- -------- [10 <4 bytes>] [3 <16 bytes>] [4 <23 bytes>] [2 <16 bytes>] [11 <4 bytes>]	
+00:03.084.581	Debug	symptomsd (207)	com.apple.symptomsd	transport	Received basic symptom, event EventDescription sb at 0xcd81cf720 from pid 379 CloudTelemetryS SYMPTOM 0x6767010  flags 0x40000003 qual0 0x1a qual1 0x17b key 421904 num additional quals 5	
+00:03.084.601	Debug	symptomsd (207)	com.apple.symptomsd	evaluation	Simple Processing, postIncomingEvent key 421904	
+00:03.084.717	Debug	symptomsd (207)	com.apple.symptomsd	evaluation	Call handler 0, <ConnectionFailureHandler: 0xcd8160420>	
+00:03.084.798	Debug	symptomsd (207)	com.apple.symptomsd	other	ConnectionFailureHandler: EventDescription: EventDescription sb at 0xcd81cf720 from pid 379 CloudTelemetryS SYMPTOM 0x6767010  flags 0x40000003 qual0 0x1a qual1 0x17b key 421904 num additional quals 5	
+00:03.084.904	Info	SpringBoard (34)	com.apple.locationd.Motion	DeviceMotion	SpringBoard calling setDeviceMotionCallback:7,523,122,446,821,054,456 info:12,942,212,736 interval:0.2000 fsync:0	
+00:03.084.928	Info	SpringBoard (34)	com.apple.locationd.Motion	DeviceMotion	CLDeviceMotion::setDeviceMotionUpdateInterval changing update interval to: 0.2000	
+00:03.084.942	Info	SpringBoard (34)	com.apple.locationd.Motion	DeviceMotion	CLDeviceMotion::minimumUpdateIntervalChanged,notification,9,minimumUpdateInterval,0.2000	
+00:03.084.951	Info	SpringBoard (34)	com.apple.locationd.Motion	DeviceMotion	minimumUpdateInterval GyroOnly:0.0000, 3AxisDynamicGyro:0.2000, 6Axis:0.0000, 6AxisThrottledGyro:0.0000, 9Axis:0.0000, 9AxisWithNorthReference:0.0000, 9AxisWithTrueNorthReference:0.0000, BuildGYTT:0.0000	
+00:03.084.966	Debug	SpringBoard (34)	com.apple.locationd.Motion	Motion	[CLIoHidInterface] Apply all dirty device properties	
+00:03.084.971	Info	symptomsd (207)	com.apple.symptomsd	rnf	libnetcore symptom uses effective process name: CloudTelemetryS	
+00:03.084.993	Debug	symptomsd (207)	com.apple.symptomsd	evaluation	Converted qualifier 4 to string, was null terminated, result gateway.icloud.com:443	
+00:03.085.012	Debug	symptomsd (207)	com.apple.symptomsd	evaluation	Converted qualifier 10 to string, was null terminated, result 6	
+00:03.085.032	Debug	symptomsd (207)	com.apple.symptomsd	evaluation	Converted qualifier 11 to string, was null terminated, result \^A	
+00:03.085.052	Debug	symptomsd (207)	com.apple.symptomsd	evaluation	Simple Processing, postSymptom exit
+	
+00:03.085.054	Debug	backboardd (68)	com.apple.iohid	service	0x1000009d7: set property:GyroProperties value:{
+    GyroFactoryMode = 0;
+    GyroMeasurementRange = 2000;
+    GyroXAxisOffset = 0;
+    GyroYAxisOffset = 0;
+    GyroZAxisOffset = 0;
+} client:42819653-B5C0-4050-A8F4-030C6A1DEAFF	
+00:03.085.087	Info	symptomsd (207)	com.apple.network		-[NWNumericAccumulator updateState:forName:] Updating state of kextsInstalled from None to None	
+00:03.085.134	Debug	symptomsd (207)	com.apple.network		-[NWNumericAccumulator updateState:forName:] Updating state of kextsInstalled from None to None	
+00:03.085.149	Info	CloudTelemetryService (379)	com.apple.network	connection	[C161 Hostname#981f6a2f:443 quic-connection, bundle id: com.apple.CloudTelemetryService.xpc, url hash: a4dd71b9, definite, attribution: developer] dealloc	
+00:03.085.245	Debug	symptomsd (207)	com.apple.network		-[NWNumericAccumulator addCount:toAccumulation:]_block_invoke New value for <private>: 1018 (+1), states: <private>	
+00:03.085.495	Default	CloudTelemetryService (379)	com.apple.CFNetwork	Summary	Task <8FE23894-37BD-468A-8CAD-78C288E5916B>.<1> summary for task failure {transaction_duration_ms=66, response_status=18,446,744,073,709,551,615, connection=161, reused=1, reused_after_ms=0, request_start_ms=0, request_duration_ms=0, response_start_ms=0, response_duration_ms=0, request_bytes=0, request_throughput_kbps=0, response_bytes=0, response_throughput_kbps=0, cache_hit=0}	
+00:03.085.535	Debug	biomed (49)	com.apple.intelligenceplatform	default	LRUCache Miss for <private>	
+00:03.085.612	Debug	siriinferenced (193)	com.apple.siri.inference	SiriSignals	SignalRepository: Received Biome notification for <private>, accumulating into <private> which registered for this event	
+00:03.085.851	Info	duetexpertd (538)	com.apple.coreduet.context	client	Registration fired for <private>	
+00:03.085.912	Debug	duetexpertd (538)	com.apple.duetexpertd.atx	general	Identifier called: <private>	
+00:03.085.959	Debug	DTServiceHub (360)	DVTInstrumentsFoundation	Default	Data Size: 100,542, Rows Sent: 1,434, Stack depth: 2,595	
+00:03.085.973	Debug	duetexpertd (538)	com.apple.coreduet.context	client	Uncached value for <private>	
+00:03.086.115	Default	SpringBoard (34)	com.apple.locationd.Motion	Motion	[CLIoHidInterface] Property for usage pair {65,280, 9}: {GyroProperties = {
+    GyroFactoryMode = 0;
+    GyroMeasurementRange = 2000;
+    GyroXAxisOffset = 0;
+    GyroYAxisOffset = 0;
+    GyroZAxisOffset = 0;
+}} was set successfully	
+00:03.086.131	Debug	SpringBoard (34)	com.apple.locationd.Motion	Motion	[CLIoHidInterface] Apply all dirty device properties	
+00:03.086.200	Debug	backboardd (68)	com.apple.iohid	default	IOHIDSensorPowerLoggingFilter: set report interval:1000000 client:IOHIDEventSystemConnection uuid:42819653-B5C0-4050-A8F4-030C6A1DEAFF pid:34 process:SpringBoard type:Rate Controlled entitlements:0x18 caller:CoreMotion: CoreMotion + 160756 attributes:{
+    HighFrequency = 1;
+} state:0x0 events:25019 mask:0x106003 dropped:0 dropStatus:0 droppedMask:0x0 lastDroppedTime:NONE
+	
+00:03.086.223	Debug	backboardd (68)	com.apple.iohid	service	0x1000009d7: set property:ReportInterval value:1000000 client:42819653-B5C0-4050-A8F4-030C6A1DEAFF	
+00:03.086.231	Default	backboardd (68)	com.apple.iohid	service	0x1000009d7: set report interval:1000000 client:42819653-B5C0-4050-A8F4-030C6A1DEAFF	
+00:03.086.257	Default	SpringBoard (34)	com.apple.locationd.Motion	Motion	[CLIoHidInterface] Property for usage pair {65,280, 9}: {ReportInterval = 1000000} was set successfully	
+00:03.086.294	Debug	SpringBoard (34)	com.apple.locationd.Motion	Motion	[CLIoHidInterface] Apply all dirty device properties	
+00:03.086.360	Debug	backboardd (68)	com.apple.iohid	service	0x1000009d7: set property:GyroExtLevelTriggerSync value:0 client:42819653-B5C0-4050-A8F4-030C6A1DEAFF	
+00:03.086.397	Default	SpringBoard (34)	com.apple.locationd.Motion	Motion	[CLIoHidInterface] Property for usage pair {65,280, 9}: {GyroExtLevelTriggerSync = 0} was set successfully	
+00:03.086.432	Debug	SpringBoard (34)	com.apple.locationd.Motion	Motion	[CLIoHidInterface] Apply all dirty device properties	
+00:03.086.493	Debug	backboardd (68)	com.apple.iohid	service	0x1000009d7: set property:BatchInterval value:15000 client:42819653-B5C0-4050-A8F4-030C6A1DEAFF	
+00:03.086.501	Default	backboardd (68)	com.apple.iohid	service	0x1000009d7: set batch interval:15000 client:42819653-B5C0-4050-A8F4-030C6A1DEAFF	
+00:03.086.517	Default	SpringBoard (34)	com.apple.locationd.Motion	Motion	[CLIoHidInterface] Property for usage pair {65,280, 9}: {BatchInterval = 15000} was set successfully	
+00:03.086.539	Info	SpringBoard (34)	com.apple.locationd.Motion	Gyro	Setting gyro batch interval to: 15,000 us	
+00:03.086.595	Default	backboardd (68)	ASEProcessing	Default	 [1.37.0]     +[ASEProcessing shouldEnhanceWidth:height:destinationWidth:destinationHeight:]: src={ 1,320w x 2,868h }, dest={ 1,186w x 2,577h }, aseFunctionOnYesOffNo=1
+	
+00:03.086.856	Debug	symptomsd (207)	com.apple.symptomsd	other	OutrankFlowMonitor  _timerMaintenance timer expiry, active polling 1	
+00:03.086.896	Debug	symptomsd (207)	com.apple.symptomsd	other	OutrankFlowMonitor  _timerMaintenance timer expiry	
+00:03.086.928	Debug	symptomsd (207)	com.apple.symptomsd	other	OutrankFlowMonitor  _timerMaintenance timer expiry, gap is 349,852.2843 so kick off poll	
+00:03.086.980	Debug	symptomsd (207)	com.apple.symptomsd	other	RefreshScheduler, refreshDataUsageFor has delegate 0x100bb9bb0	
+00:03.087.010	Info	symptomsd (207)	com.apple.symptomsd	attribution	pollFlows started	
+00:03.087.123	Debug	symptomsd (207)	com.apple.symptomsd	analytics	skip typical flow processing for subflow 153,204	
+00:03.087.150	Debug	symptomsd (207)	com.apple.symptomsd	analytics	skip typical flow processing for subflow 153,203	
+00:03.087.189	Debug	symptomsd (207)	com.apple.symptomsd	analytics	skip typical flow processing for subflow 153,202	
+00:03.087.236	Debug	symptomsd (207)	com.apple.symptomsd	analytics	skip typical flow processing for subflow 153,180	
+00:03.087.272	Debug	symptomsd (207)	com.apple.symptomsd	analytics	skip typical flow processing for subflow 153,179	
+00:03.087.321	Debug	symptomsd (207)	com.apple.symptomsd	analytics	skip typical flow processing for subflow 153,178	
+00:03.087.344	Debug	symptomsd (207)	com.apple.symptomsd	analytics	skip typical flow processing for subflow 153,176	
+00:03.087.378	Debug	symptomsd (207)	com.apple.symptomsd	analytics	skip typical flow processing for subflow 153,174	
+00:03.088.924	Debug	symptomsd (207)	com.apple.symptomsd	analytics	Flow data on entry is remotepairingdeviced TCP6 flow id 152178 (refresh) ch i/f 29 props 0x4000810 first 0 pkts rx 17060 tx 65184, bytes 786093 78458632 cell 0 0 wifi 0 0 wired 3038061 82369672 comp_bt 0 0 deltas 31286 8165826 0 0 0 0 98210 8515926 0 0 acct_deltas 0 0 0 0 98210 8515926	
+00:03.089.050	Debug	symptomsd (207)	com.apple.symptomsd	attribution	flow is not closed. cache count 10
+src 152,178 snapshot: remotepairingdeviced TCP6 flow id 152178 (refresh) ch i/f 29 props 0x4000810 first 0 pkts rx 17060 tx 65184, bytes 786093 78458632 cell 0 0 wifi 0 0 wired 3038061 82369672 comp_bt 0 0 deltas 31286 8165826 0 0 0 0 98210 8515926 0 0 acct_deltas 0 0 0 0 98210 8515926
+flow: TrackedFlow 152178 Wired tcp6 flow owner (null) start 11:51:21.665 +0800 duration 176.363 trackers: self 0x0 - other 0x0 - rx pkts 16553 tx pkts 59349	
+00:03.089.096	Debug	symptomsd (207)	com.apple.symptomsd	flow	Don't have a tracker for WiredEthernet interface type	
+00:03.089.131	Debug	symptomsd (207)	com.apple.symptomsd	analytics	_processFetchForName: Return existing cached Process for processName <private> type CacheTypeProcessName	
+00:03.089.256	Debug	symptomsd (207)	com.apple.symptomsd	analytics	found LU hint (mode: 0) for remotepairingdeviced: 0xcd81e77f0, subscriber tag: 0	
+00:03.089.327	Default	symptomsd (207)	com.apple.symptomsd	analytics	Data Usage for remotepairingdeviced on flow 152,178 - WiFi in/out: 314837/758120, WiFi delta_in/delta_out: 0/0, Cell in/out: 0/0, Cell delta_in/delta_out: 0/0, RNF: 0, subscriber tag: 0, total duration: 176.3621	
+00:03.089.364	Debug	symptomsd (207)	com.apple.symptomsd	analytics	Data Usage for remotepairingdeviced on flow 152,178 - Wired in/out: 0/0, Wired delta_in/delta_out: 0/0, subscriber tag: 0, total duration: 176.3621	
+00:03.089.454	Debug	symptomsd (207)	com.apple.symptomsd	analytics	Flow data on entry is remotepairingdeviced TCP6 flow id 151577 (refresh) so i/f 29 props 0x4000810 first 0 pkts rx 4 tx 5, bytes 983 3557 cell 0 0 wifi 0 0 wired 1223 3857 comp_bt 0 0 deltas 0 0 0 0 0 0 0 0 0 0 acct_deltas 0 0 0 0 0 0	
+00:03.089.595	Debug	symptomsd (207)	com.apple.symptomsd	attribution	flow is not closed. cache count 10
+src 151,577 snapshot: remotepairingdeviced TCP6 flow id 151577 (refresh) so i/f 29 props 0x4000810 first 0 pkts rx 4 tx 5, bytes 983 3557 cell 0 0 wifi 0 0 wired 1223 3857 comp_bt 0 0 deltas 0 0 0 0 0 0 0 0 0 0 acct_deltas 0 0 0 0 0 0
+flow: TrackedFlow 151577 Wired tcp6 flow owner (null) start 11:50:29.228 +0800 duration 228.801 trackers: self 0x0 - other 0x0 - rx pkts 4 tx pkts 5	
+00:03.089.686	Debug	symptomsd (207)	com.apple.symptomsd	flow	Don't have a tracker for WiredEthernet interface type	
+00:03.089.769	Debug	symptomsd (207)	com.apple.symptomsd	analytics	Flow data on entry is remoted TCP6 flow id 151465 (refresh) so i/f 29 props 0x2001010 first 0 pkts rx 0 tx 0, bytes 0 0 cell 0 0 wifi 0 0 wired 0 0 comp_bt 0 0 deltas 0 0 0 0 0 0 0 0 0 0 acct_deltas 0 0 0 0 0 0	
+00:03.089.848	Debug	symptomsd (207)	com.apple.symptomsd	attribution	flow is not closed. cache count 10
+src 151,465 snapshot: remoted TCP6 flow id 151465 (refresh) so i/f 29 props 0x2001010 first 0 pkts rx 0 tx 0, bytes 0 0 cell 0 0 wifi 0 0 wired 0 0 comp_bt 0 0 deltas 0 0 0 0 0 0 0 0 0 0 acct_deltas 0 0 0 0 0 0
+flow: TrackedFlow 151465 Wired tcp6 flow owner (null) start 11:50:18.008 +0800 duration 240.020 trackers: self 0x0 - other 0x0 - rx pkts 0 tx pkts 0	
+00:03.089.869	Debug	symptomsd (207)	com.apple.symptomsd	flow	Don't have a tracker for WiredEthernet interface type	
+00:03.090.037	Debug	symptomsd (207)	com.apple.symptomsd	analytics	Flow data on entry is remoted TCP6 flow id 151463 (refresh) so i/f 29 props 0x2001010 first 0 pkts rx 0 tx 0, bytes 0 0 cell 0 0 wifi 0 0 wired 0 0 comp_bt 0 0 deltas 0 0 0 0 0 0 0 0 0 0 acct_deltas 0 0 0 0 0 0	
+00:03.090.158	Debug	symptomsd (207)	com.apple.symptomsd	attribution	flow is not closed. cache count 10
+src 151,463 snapshot: remoted TCP6 flow id 151463 (refresh) so i/f 29 props 0x2001010 first 0 pkts rx 0 tx 0, bytes 0 0 cell 0 0 wifi 0 0 wired 0 0 comp_bt 0 0 deltas 0 0 0 0 0 0 0 0 0 0 acct_deltas 0 0 0 0 0 0
+flow: TrackedFlow 151463 Wired tcp6 flow owner (null) start 11:50:18.007 +0800 duration 240.022 trackers: self 0x0 - other 0x0 - rx pkts 0 tx pkts 0	
+00:03.090.181	Debug	symptomsd (207)	com.apple.symptomsd	flow	Don't have a tracker for WiredEthernet interface type	
+00:03.090.245	Debug	symptomsd (207)	com.apple.symptomsd	analytics	Flow data on entry is remoted TCP6 flow id 151273 (refresh) so i/f 29 props 0x8000810 first 0 pkts rx 110 tx 6, bytes 2174 3266 cell 0 0 wifi 0 0 wired 8774 3626 comp_bt 0 0 deltas 0 0 0 0 0 0 0 0 0 0 acct_deltas 0 0 0 0 0 0	
+00:03.090.304	Debug	symptomsd (207)	com.apple.symptomsd	attribution	flow is not closed. cache count 10
+src 151,273 snapshot: remoted TCP6 flow id 151273 (refresh) so i/f 29 props 0x8000810 first 0 pkts rx 110 tx 6, bytes 2174 3266 cell 0 0 wifi 0 0 wired 8774 3626 comp_bt 0 0 deltas 0 0 0 0 0 0 0 0 0 0 acct_deltas 0 0 0 0 0 0
+flow: TrackedFlow 151273 Wired tcp6 flow owner (null) start 11:50:17.002 +0800 duration 241.027 trackers: self 0x0 - other 0x0 - rx pkts 8 tx pkts 6	
+00:03.090.330	Debug	symptomsd (207)	com.apple.symptomsd	flow	Don't have a tracker for WiredEthernet interface type	
+00:03.090.429	Debug	siriinferenced (193)	com.apple.siri.inference	SiriSignals	<private>	
+00:03.090.457	Debug	symptomsd (207)	com.apple.symptomsd	analytics	Flow data on entry is mDNSResponder UDP4 flow id 106 (refresh) so i/f 1 props 0x802 first 0 pkts rx 11558 tx 11132, bytes 3039697 2539507 cell 0 0 wifi 28442 30071 wired 219853 0 comp_bt 0 0 deltas 787 759 0 0 0 0 0 0 0 0 acct_deltas 0 0 0 0 0 0	
+00:03.090.674	Debug	symptomsd (207)	com.apple.symptomsd	attribution	flow is not closed. cache count 10
+src 106 snapshot: mDNSResponder UDP4 flow id 106 (refresh) so i/f 1 props 0x802 first 0 pkts rx 11558 tx 11132, bytes 3039697 2539507 cell 0 0 wifi 28442 30071 wired 219853 0 comp_bt 0 0 deltas 787 759 0 0 0 0 0 0 0 0 acct_deltas 0 0 0 0 0 0
+flow: TrackedFlow 106 WiFi udp4 flow owner com.apple.datausage.dns.multicast start 10:43:26.270 +0800 duration 349851.759 trackers: self 0x0 - other 0x0 - rx pkts 11550 tx pkts 11124	
+00:03.090.798	Debug	symptomsd (207)	com.apple.symptomsd	analytics	Flow data on entry is mDNSResponder UDP6 flow id 105 (refresh) so i/f 28 props 0x810 first 0 pkts rx 12514 tx 11558, bytes 3018779 2621928 cell 0 0 wifi 32291 21896 wired 499642 84059 comp_bt 0 0 deltas 1897 1897 0 0 0 0 1138 0 0 0 acct_deltas 0 0 0 0 1138 0	
+00:03.090.867	Debug	siriinferenced (193)	com.apple.siri.inference	SiriSignals	SignalRepository: accumulated a value for <private>, so marking it pre-warmed.	
+00:03.090.872	Debug	symptomsd (207)	com.apple.symptomsd	attribution	flow is not closed. cache count 10
+src 105 snapshot: mDNSResponder UDP6 flow id 105 (refresh) so i/f 28 props 0x810 first 0 pkts rx 12514 tx 11558, bytes 3018779 2621928 cell 0 0 wifi 32291 21896 wired 499642 84059 comp_bt 0 0 deltas 1897 1897 0 0 0 0 1138 0 0 0 acct_deltas 0 0 0 0 1138 0
+flow: TrackedFlow 105 WiFi udp6 flow owner com.apple.datausage.dns.multicast start 10:43:26.275 +0800 duration 349851.755 trackers: self 0x0 - other 0x0 - rx pkts 12511 tx pkts 11555	
+00:03.091.032	Debug	backboardd (68)	com.apple.BackBoard	Accelerometer	Acc (type 0): -0.0051 -0.6342 -0.7692	
+00:03.091.053	Debug	symptomsd (207)	com.apple.symptomsd	analytics	_processFetchForName: Return existing cached Process for processName <private> type CacheTypeBundleName	
+00:03.091.090	Debug	SpringBoard (34)	com.apple.locationd.Motion	Accel	[Accelerometer] x,<private>,y,<private>,z,<private>,timestamp,<private>	
+00:03.091.403	Debug	symptomsd (207)	com.apple.symptomsd	analytics	found LU hint (mode: 1) for com.apple.datausage.dns.multicast: 0xcd8023c50, subscriber tag: 0	
+00:03.091.484	Debug	biomed (49)	com.apple.Biome	BiomeFlexibleStorage	Not propagating deletions of App.InFocus via BMRegistrar it is not a BFS-managed stream	
+00:03.091.621	Default	symptomsd (207)	com.apple.symptomsd	analytics	Data Usage for com.apple.datausage.dns.multicast (delegation: mDNSResponder) on flow 105 - WiFi in/out: 60237/51619, WiFi delta_in/delta_out: 0/0, Cell in/out: 0/0, Cell delta_in/delta_out: 0/0, RNF: 0, subscriber tag: 0, total duration: 349,855.0365	
+00:03.091.723	Debug	symptomsd (207)	com.apple.symptomsd	analytics	Data Usage for com.apple.datausage.dns.multicast (delegation: mDNSResponder) on flow 105 - Wired in/out: 0/0, Wired delta_in/delta_out: 0/0, subscriber tag: 0, total duration: 349,855.0365	
+00:03.091.867	Info	symptomsd (207)	com.apple.symptomsd	attribution	Netstats refresh complete	
+00:03.092.077	Debug	symptomsd (207)	com.apple.symptomsd	other	RefreshScheduler, didPollFlowsAt finds single shot with reference 0	
+00:03.092.286	Debug	symptomsd (207)	com.apple.symptomsd	other	OutrankFlowMonitor  _timerMaintenance timer expiry, requested poll completed	
+00:03.092.327	Debug	symptomsd (207)	com.apple.symptomsd	other	OutrankFlowMonitor  _timerMaintenance with polling 1 active 0	
+00:03.092.420	Debug	symptomsd (207)	com.apple.symptomsd	other	OutrankFlowMonitor  _timerMaintenance set timer expiry to 1.0000	
+00:03.093.079	Debug	PerfPowerServices (1452)	com.apple.powerlog		Callers of entriesForKey <private> withProperties <private>	
+00:03.093.103	Default	backboardd (68)	CoreBrightness	Default	BaselineHarmony: Current strength: 0.2139, ALSStrength: 0.2700, AppStrength: 0.2139	
+00:03.093.148	Debug	backboardd (68)	com.apple.CoreBrightness.CBColorModule.Primary	default	send notification for key = CBTargetWhitePoint value = <private>	
+00:03.093.168	Info	backboardd (68)	com.apple.CoreBrightness.CBColorModule.Primary	default	Calling brightness control with whitepoint ( 0.3438 | 0.3528 ) and period: 0.0000	
+00:03.093.182	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayContaineriOS	BuiltIn	Notification block key=CBTargetWhitePoint, value=<private>
+	
+00:03.093.237	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	Handle notification for key = CBTargetWhitePoint and property = <private>	
+00:03.093.252	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	Superbright EDR restrictions [would be]: CLTM 1,512.3809, UPO 2,175.0000, bottom [lower] restriction 1.0000, nits cap hdr: 2,175.0000, after BDM: 1,600.0000	
+00:03.093.265	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	EDR Color brightness compensation (SetLibEDRBrightness) TargetYCompensation: 1.1925, inputL: 2,175.0000, alpha: 0.7600, Ycomp: 1.1463. L_device: 118.8318, currentLux: 263.9057, nitsCapEDR: 1,600.0000	
+00:03.093.275	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	SetLibEDRBrightness to currentBrightness=118.8318, maxBrightness=1,600.0000, currentLux=263.9057, compensationBoost=1.1463	
+00:03.093.286	Debug	backboardd (68)	CoreBrightness	Default	CBEDRServerDisplayBrightness: display: 0 | target: 118.8318 | max: 1,600.0000 | ambient: 263.9057 | boost=1.1463	
+00:03.093.296	Info	backboardd (68)	libEDR	Default	libEDR - EDRServerSetDisplayBrightnessForDisplay: (display: 0, targetBrightness: 118.8318, maxLuminance: 1,600.0000, ambientIlluminance: 263.9057, brightnessScaler: 1.1463)
+	
+00:03.093.328	Info	backboardd (68)	libEDR	Default	libEDR - EDRServerUpdateMinScalingFactor min scaling factor set to: 0.1250
+	
+00:03.093.369	Info	backboardd (68)	libEDR	Default	libEDR - NotificationCallback: (type: kEDRNotifyBrightness, display: 0, brightness: 0.0743, backlight: 0.0743, edrScaler: 1.0000, maxLuminance: 1,600.0000, ambientIlluminance: 263.9057, brightnessScaler: 1.1463)
+	
+00:03.093.400	Info	backboardd (68)	libEDR	Default	libEDR - PostNotification: (display: 0, brightness: 0.0743, backlight: 0.0743, edrScaling: 1.0000, maxLuminance: 1,600.0000, ambientIlluminance: 263.9057, brightnessScaler: 1.1463)
+	
+00:03.094.208	Debug	PerfPowerServices (1452)	libIOReport.dylib	Default	iterated 14 channels with 14 iterations	
+00:03.094.299	Debug	PerfPowerServices (1452)	com.apple.powerlog	time	Linear approximation: systemNow=Mon Nov 18 11:54:18 2024, lastSystemTimeRecalibrated=Mon Nov 18 11:54:03 2024, currentTime=Tue Jan 13 05:37:53 1970	
+00:03.094.511	Debug	analyticsd (110)	com.apple.analyticsd.critical	xform	[Transform Factory] No Transform aggregation period specified.	
+00:03.094.527	Debug	PerfPowerServices (1452)	com.apple.powerlog	time	Linear approximation: systemNow=Mon Nov 18 11:54:18 2024, lastSystemTimeRecalibrated=Mon Nov 18 11:54:03 2024, currentTime=Tue Jan 13 05:37:53 1970	
+00:03.094.530	Debug	com.apple.MapKit.SnapshotService (409)	com.apple.VectorKit	VKDefault	[VLR] Heavy Frame - Run Before	
+00:03.094.592	Debug	analyticsd (110)	com.apple.analyticsd.critical	xform_cache	[Transform Cache] Cache miss. Loading <private> - <private> for input event <private>	
+00:03.094.670	Debug	PerfPowerServices (1452)	com.apple.powerlog		Processing DMA data: '<private>'	
+00:03.094.756	Debug	com.apple.MapKit.SnapshotService (409)	com.apple.defaults	User Defaults	found no value for key EnableRenderableCollectorLogic in CFPrefsManagedSource<0x104b3e6f0> (Domain: com.apple.GEO, User: kCFPreferencesCurrentUser, ByHost: Yes, Container: (null), Contents Need Refresh: No)	
+00:03.094.773	Debug	com.apple.MapKit.SnapshotService (409)	com.apple.defaults	User Defaults	found no value for key EnableRenderableCollectorLogic in CFPrefsManagedSource<0x104b3ea30> (Domain: com.apple.GEO, User: kCFPreferencesAnyUser, ByHost: Yes, Container: (null), Contents Need Refresh: No)	
+00:03.094.789	Debug	com.apple.MapKit.SnapshotService (409)	com.apple.defaults	User Defaults	found no value for key EnableRenderableCollectorLogic in CFPrefsManagedSource<0x104b3e6f0> (Domain: com.apple.GEO, User: kCFPreferencesCurrentUser, ByHost: Yes, Container: (null), Contents Need Refresh: No)	
+00:03.094.800	Debug	com.apple.MapKit.SnapshotService (409)	com.apple.defaults	User Defaults	found no value for key EnableRenderableCollectorLogic in CFPrefsManagedSource<0x104b3ea30> (Domain: com.apple.GEO, User: kCFPreferencesAnyUser, ByHost: Yes, Container: (null), Contents Need Refresh: No)	
+00:03.094.809	Debug	com.apple.MapKit.SnapshotService (409)	com.apple.defaults	User Defaults	found no value for key EnableRenderableCollectorLogic in CFPrefsManagedSource<0x104b3e6f0> (Domain: com.apple.GEO, User: kCFPreferencesCurrentUser, ByHost: Yes, Container: (null), Contents Need Refresh: No)	
+00:03.094.817	Debug	com.apple.MapKit.SnapshotService (409)	com.apple.defaults	User Defaults	found no value for key EnableRenderableCollectorLogic in CFPrefsManagedSource<0x104b3ea30> (Domain: com.apple.GEO, User: kCFPreferencesAnyUser, ByHost: Yes, Container: (null), Contents Need Refresh: No)	
+00:03.094.826	Debug	com.apple.MapKit.SnapshotService (409)	com.apple.defaults	User Defaults	found no value for key EnableRenderableCollectorLogic in CFPrefsManagedSource<0x104b3e6f0> (Domain: com.apple.GEO, User: kCFPreferencesCurrentUser, ByHost: Yes, Container: (null), Contents Need Refresh: No)	
+00:03.094.833	Debug	com.apple.MapKit.SnapshotService (409)	com.apple.defaults	User Defaults	found no value for key EnableRenderableCollectorLogic in CFPrefsManagedSource<0x104b3ea30> (Domain: com.apple.GEO, User: kCFPreferencesAnyUser, ByHost: Yes, Container: (null), Contents Need Refresh: No)	
+00:03.094.865	Default	backboardd (68)	ASEProcessing	Default	 [1.37.0]     +[ASEProcessing shouldEnhanceWidth:height:destinationWidth:destinationHeight:]: src={ 1,320w x 2,868h }, dest={ 1,188w x 2,581h }, aseFunctionOnYesOffNo=1
+	
+00:03.094.888	Debug	PerfPowerServices (1452)	com.apple.CoreAnalytics.event	send	<private> <private>	
+00:03.094.892	Debug	com.apple.MapKit.SnapshotService (409)	com.apple.defaults	User Defaults	found no value for key EnableRenderableCollectorLogic in CFPrefsManagedSource<0x104b3e6f0> (Domain: com.apple.GEO, User: kCFPreferencesCurrentUser, ByHost: Yes, Container: (null), Contents Need Refresh: No)	
+00:03.094.919	Debug	com.apple.MapKit.SnapshotService (409)	com.apple.defaults	User Defaults	found no value for key EnableRenderableCollectorLogic in CFPrefsManagedSource<0x104b3ea30> (Domain: com.apple.GEO, User: kCFPreferencesAnyUser, ByHost: Yes, Container: (null), Contents Need Refresh: No)	
+00:03.094.942	Debug	com.apple.MapKit.SnapshotService (409)	com.apple.defaults	User Defaults	found no value for key EnableRenderableCollectorLogic in CFPrefsManagedSource<0x104b3e6f0> (Domain: com.apple.GEO, User: kCFPreferencesCurrentUser, ByHost: Yes, Container: (null), Contents Need Refresh: No)	
+00:03.094.963	Debug	com.apple.MapKit.SnapshotService (409)	com.apple.defaults	User Defaults	found no value for key EnableRenderableCollectorLogic in CFPrefsManagedSource<0x104b3ea30> (Domain: com.apple.GEO, User: kCFPreferencesAnyUser, ByHost: Yes, Container: (null), Contents Need Refresh: No)	
+00:03.095.042	Debug	com.apple.MapKit.SnapshotService (409)	com.apple.defaults	User Defaults	found no value for key EnableRenderableCollectorLogic in CFPrefsManagedSource<0x104b3e6f0> (Domain: com.apple.GEO, User: kCFPreferencesCurrentUser, ByHost: Yes, Container: (null), Contents Need Refresh: No)	
+00:03.095.059	Debug	PerfPowerServices (1452)	com.apple.powerlog	time	Linear approximation: systemNow=Mon Nov 18 11:54:18 2024, lastSystemTimeRecalibrated=Mon Nov 18 11:54:03 2024, currentTime=Tue Jan 13 05:37:53 1970	
+00:03.095.065	Debug	com.apple.MapKit.SnapshotService (409)	com.apple.defaults	User Defaults	found no value for key EnableRenderableCollectorLogic in CFPrefsManagedSource<0x104b3ea30> (Domain: com.apple.GEO, User: kCFPreferencesAnyUser, ByHost: Yes, Container: (null), Contents Need Refresh: No)	
+00:03.095.089	Debug	com.apple.MapKit.SnapshotService (409)	com.apple.defaults	User Defaults	found no value for key EnableRenderableCollectorLogic in CFPrefsManagedSource<0x104b3e6f0> (Domain: com.apple.GEO, User: kCFPreferencesCurrentUser, ByHost: Yes, Container: (null), Contents Need Refresh: No)	
+00:03.095.109	Debug	com.apple.MapKit.SnapshotService (409)	com.apple.defaults	User Defaults	found no value for key EnableRenderableCollectorLogic in CFPrefsManagedSource<0x104b3ea30> (Domain: com.apple.GEO, User: kCFPreferencesAnyUser, ByHost: Yes, Container: (null), Contents Need Refresh: No)	
+00:03.095.145	Debug	com.apple.MapKit.SnapshotService (409)	com.apple.defaults	User Defaults	found no value for key EnableRenderableCollectorLogic in CFPrefsManagedSource<0x104b3e6f0> (Domain: com.apple.GEO, User: kCFPreferencesCurrentUser, ByHost: Yes, Container: (null), Contents Need Refresh: No)	
+00:03.095.166	Debug	com.apple.MapKit.SnapshotService (409)	com.apple.defaults	User Defaults	found no value for key EnableRenderableCollectorLogic in CFPrefsManagedSource<0x104b3ea30> (Domain: com.apple.GEO, User: kCFPreferencesAnyUser, ByHost: Yes, Container: (null), Contents Need Refresh: No)	
+00:03.095.172	Debug	PerfPowerServices (1452)	com.apple.powerlog	display	Received msg at timestamp: 8,396,904,787,053	
+00:03.095.196	Debug	com.apple.MapKit.SnapshotService (409)	com.apple.VectorKit	ResourceLoading	cleanupResourceRequests	
+00:03.095.243	Error	com.apple.MapKit.SnapshotService (409)	com.apple.VectorKit	VKMapSnapshot	VKMapSnapshotCreator: 0xb2e0a9500 failed to render - failed tiles!	
+00:03.095.248	Debug	PerfPowerServices (1452)	com.apple.powerlog	display	Data: <private>	
+00:03.095.255	Info	com.apple.MapKit.SnapshotService (409)	com.apple.VectorKit	VKMapSnapshot	Deleting VKMapSnapshotCreator memory: 0xb2e0a9500	
+00:03.095.288	Debug	PerfPowerServices (1452)	com.apple.powerlog	time	Linear approximation: systemNow=Mon Nov 18 11:54:18 2024, lastSystemTimeRecalibrated=Mon Nov 18 11:54:03 2024, currentTime=Tue Jan 13 05:37:53 1970	
+00:03.095.321	Debug	PerfPowerServices (1452)	com.apple.powerlog	display	Final data to be logged: <private>	
+00:03.095.386	Info	com.apple.MapKit.SnapshotService (409)	com.apple.VectorKit	VKDefault	[MapEngine:0xb3078d400] destruction requested	
+00:03.095.396	Info	com.apple.MapKit.SnapshotService (409)	com.apple.VectorKit	VKDefault	Destroy MapEngine:0xb3078d400 wasQueued:1	
+00:03.095.399	Debug	PerfPowerServices (1452)	com.apple.powerlog	time	Linear approximation: systemNow=Mon Nov 18 11:54:18 2024, lastSystemTimeRecalibrated=Mon Nov 18 11:54:03 2024, currentTime=Tue Jan 13 05:37:53 1970	
+00:03.095.408	Info	com.apple.MapKit.SnapshotService (409)	com.apple.VectorKit	VKDefault	Layouts:9 LayoutNumber:8 LastLayoutReasons:<private>	
+00:03.095.502	Debug	analyticsd (110)	com.apple.analyticsd.critical	xform_cache	[Transform Cache] Cache performance for input event <private>: { transforms: 1, hit: 0, loaded: 1, inserted: 1}	
+00:03.095.550	Debug	geod (156)	com.apple.GeoServices	GEODaemon	peerID 81 sent messaageName defaults.removeChangeListenerFor	
+00:03.095.573	Debug	geod (156)	com.apple.GeoServices	UserDefaults	Peer <private> removing listeners for: <private>	
+00:03.095.622	Debug	geod (156)	com.apple.GeoServices	GEODaemon	peerID 81 sent messaageName defaults.removeChangeListenerFor	
+00:03.095.634	Debug	geod (156)	com.apple.GeoServices	UserDefaults	Peer <private> removing listeners for: <private>	
+00:03.095.668	Debug	geod (156)	com.apple.GeoServices	GEODaemon	peerID 81 sent messaageName defaults.removeChangeListenerFor	
+00:03.095.679	Debug	geod (156)	com.apple.GeoServices	UserDefaults	Peer <private> removing listeners for: <private>	
+00:03.095.711	Debug	geod (156)	com.apple.GeoServices	GEODaemon	peerID 81 sent messaageName defaults.removeChangeListenerFor	
+00:03.095.722	Debug	geod (156)	com.apple.GeoServices	UserDefaults	Peer <private> removing listeners for: <private>	
+00:03.095.758	Debug	analyticsd (110)	com.apple.analyticsd.critical	xform_cache	[Transform Cache] Cache performance for input event <private>: { transforms: 1, hit: 1, loaded: 0, inserted: 0}	
+00:03.095.841	Info	com.apple.MapKit.SnapshotService (409)	com.apple.VectorKit	VKDefault	Destroy LogicManager:0xb2e085700	
+00:03.095.959	Info	com.apple.MapKit.SnapshotService (409)	com.apple.VectorKit	VKDefault	MDL:WillShutdown LabelManager:0xb305e8018	
+00:03.095.967	Debug	geod (156)	com.apple.GeoServices	GEODaemon	peerID 81 sent messaageName defaults.removeChangeListenerFor	
+00:03.095.970	Info	com.apple.MapKit.SnapshotService (409)	com.apple.VectorKit	VKDefault	WillShutdown-End LabelManager:0xb305e8018 didBkgdTaskFinish:1	
+00:03.095.976	Info	com.apple.MapKit.SnapshotService (409)	com.apple.VectorKit	VKDefault	MDL:WillShutdown LabelManager:0xb2f386018	
+00:03.095.984	Info	com.apple.MapKit.SnapshotService (409)	com.apple.VectorKit	VKDefault	WillShutdown-End LabelManager:0xb2f386018 didBkgdTaskFinish:1	
+00:03.095.993	Info	com.apple.MapKit.SnapshotService (409)	com.apple.VectorKit	VKDefault	MDL:Destroy LabelManager:0xb305e8018 type=StandardGlobe	
+00:03.096.021	Debug	geod (156)	com.apple.GeoServices	UserDefaults	Peer <private> removing listeners for: <private>	
+00:03.096.045	Info	com.apple.MapKit.SnapshotService (409)	com.apple.VectorKit	VKDefault	MDL:Destroy LabelManager:0xb2f386018 type=Standard	
+00:03.096.101	Info	com.apple.MapKit.SnapshotService (409)	com.apple.VectorKit	VKDefault	MDL:LabelManager:0xb2f386018 Clearing System Caches	
+00:03.096.130	Debug	geod (156)	com.apple.GeoServices	GEODaemon	peerID 81 sent messaageName defaults.removeChangeListenerFor	
+00:03.096.172	Debug	geod (156)	com.apple.GeoServices	UserDefaults	Peer <private> removing listeners for: <private>	
+00:03.096.255	Debug	geod (156)	com.apple.GeoServices	GEODaemon	peerID 81 sent messaageName defaults.removeChangeListenerFor	
+00:03.096.285	Debug	geod (156)	com.apple.GeoServices	UserDefaults	Peer <private> removing listeners for: <private>	
+00:03.096.349	Debug	geod (156)	com.apple.GeoServices	GEODaemon	peerID 81 sent messaageName defaults.removeChangeListenerFor	
+00:03.096.363	Debug	geod (156)	com.apple.GeoServices	UserDefaults	Peer <private> removing listeners for: <private>	
+00:03.096.464	Debug	geod (156)	com.apple.GeoServices	GEODaemon	peerID 81 sent messaageName defaults.removeChangeListenerFor	
+00:03.096.491	Debug	geod (156)	com.apple.GeoServices	UserDefaults	Peer <private> removing listeners for: <private>	
+00:03.096.561	Debug	geod (156)	com.apple.GeoServices	GEODaemon	peerID 81 sent messaageName defaults.removeChangeListenerFor	
+00:03.096.586	Debug	geod (156)	com.apple.GeoServices	UserDefaults	Peer <private> removing listeners for: <private>	
+00:03.096.638	Debug	com.apple.MapKit.SnapshotService (409)	com.apple.VectorKit	TextureAtlas	TextureAtlasPage: Destroying TextureAtlasPage 0xb2ef3cfd8 with Texture2D 4,294,967,300	
+00:03.096.643	Debug	geod (156)	com.apple.GeoServices	GEODaemon	peerID 81 sent messaageName defaults.removeChangeListenerFor	
+00:03.096.655	Debug	geod (156)	com.apple.GeoServices	UserDefaults	Peer <private> removing listeners for: <private>	
+00:03.096.685	Debug	geod (156)	com.apple.GeoServices	GEODaemon	peerID 81 sent messaageName defaults.removeChangeListenerFor	
+00:03.096.765	Debug	geod (156)	com.apple.GeoServices	UserDefaults	Peer <private> removing listeners for: <private>	
+00:03.096.789	Debug	backboardd (68)	com.apple.CoreBrightness.CBColorModule.Primary	default	send notification for key = ColorRamp value = <private>	
+00:03.096.808	Debug	backboardd (68)	CoreBrightness	Default	15.7026 4.1959 15.1316 -> ANGLE 1.6930 -> BIN 2	
+00:03.096.831	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayContaineriOS	BuiltIn	Notification block key=ColorRamp, value=<private>
+	

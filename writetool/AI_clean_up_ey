@@ -1,0 +1,1000 @@
+00:24.407.880	Default	backboardd (68)	com.apple.xpc	connection	[0xdb4086f00] invalidated because the current process cancelled the connection by calling xpc_connection_cancel()	
+00:24.407.918	Default	backboardd (68)	com.apple.CoreBrightness.CBGrimaldiModule	default	RearLuxOutput <private>	
+00:24.407.979	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayContaineriOS	BuiltIn	Notification block key=RLuxOutput, value=<private>
+	
+00:24.408.030	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	Handle notification for key = RLuxOutput and property = <private>	
+00:24.408.052	Default	appleh16camerad (129)	com.apple.xpc	connection	[0x9c22483c0] invalidated because the client process (pid 68) either cancelled the connection or exited	
+00:24.408.107	Debug	backboardd (68)	com.apple.CoreBrightness.CBGrimaldiModule	default	Rear Lux Dictionary: lux = 53.1979, gain = 0.0000, numSamples= 1, absoluteTime = 1,168,652,633,223, StrobeCoex = 0, JasperCoex = 0, GainChanged = 0 (sample 1/1)	
+00:24.408.175	Info	appleh16camerad (129)	com.apple.isp	daemon	Client disconnecting (pid <private>)
+	
+00:24.408.254	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=RLuxOutput value=<private>	
+00:24.408.306	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=RLuxOutput property=<private>	
+00:24.408.361	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=<private> value=<private>	
+00:24.408.402	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=<private> property=<private>	
+00:24.408.455	Default	Unknown (0)	AppleCS42L79Audio	Default	enableFlickerBias inEnable:0	
+00:24.408.651	Default	Unknown (0)	AppleCS42L79Audio	Default	Read  Adr:10010 Val:2ff	
+00:24.408.808	Default	Unknown (0)	AppleCS42L79Audio	Default	Write Adr:10010 Val:ff	
+00:24.408.812	Default	Unknown (0)	AppleCS42L79Audio	Default	MClk Enable:0 client:8 mask:24	
+00:24.408.815	Default	Unknown (0)	AppleCS42L79Audio	Default	FlickerBiasRequest Enable=0 ret:0	
+00:24.408.843	Error	Unknown (0)	AppleSPU	Default	Error setting grimaldi power state	
+00:24.409.031	Default	appleh16camerad (129)	com.apple.coreaudio	aurioc	AURemoteIO.cpp:1,697 Stopping AURemoteIO(0x9c22d4040)	
+00:24.409.104	Default	Unknown (0)	AppleH16PhotonDetector	Default	AppleH16PhotonDetectorUserClient:free - Freeing UserClient for process appleh16camerad (pid 129)
+	
+00:24.409.250	Debug	audiomxd (105)	com.apple.coreaudio	aurios	RemoteIOServer.cpp:2,069 ->AUIOServer_StopIO 0x696c1	
+00:24.409.324	Debug	audiomxd (105)	com.apple.coreaudio	aqme	MEDeviceStreamClient.cpp:447 -> 0x4ac442200 <RemoteIOClient@0x4ad474700(@0x4ad474780); input; CMSession(appleh16camerad[129], 0xffffffff)>	
+00:24.409.389	Debug	audiomxd (105)	AudioToolbox	Default	MEDeviceStreamClient.cpp:388 runningClientCount: 0	
+00:24.409.440	Default	audiomxd (105)	com.apple.coreaudio	aqme	MEDeviceStreamClient.cpp:479 AQME Device-VirtualAudioDevice_Hawking: client stopping: <RemoteIOClient@0x4ad474700(@0x4ad474780); input; CMSession(appleh16camerad[129], 0xffffffff)>; running count now 0	
+00:24.427.508	Default	audiomxd (105)	com.apple.coreaudio	va_hplayr	VirtualAudioQueue.h:169 :769:: Client request to stop IO proc ID 0x4acaf5e00 on VAD: '[ type: vhaw; id: 151; addr: 0x4acc41900; context id: 0; hidden: 0; VA strms: { i/156/0x4ac0538e0,  }; agg dev: [ id: 130; addr: 0x104e0c350; uid: "VAD [vhaw] AggDev 3"; virt strms: { i/0x4ac90c300,  	
+00:24.427.518	Debug	audiomxd (105)	com.apple.coreaudio	aqme	AQMEIO_HAL.cpp:2,726 Audio device stopped by mix engine, after waiting on state guard	
+00:24.427.543	Default	audiomxd (105)	CoreAudio	Default	HALS_IOContext_Legacy_Impl.cpp:486  HALS_IOContext_Legacy_Impl::Server_Internal_StopIOProcID: 133 Flicker (VAD [vhaw] AggDev 3):	
+00:24.427.573	Default	audiomxd (105)	com.apple.coreaudio	va_aggdev	VirtualAudioQueue.h:169 :492:: IOProc (AggregateDevice 130, IO type NonNullIOProc) running state is now not running (0).	
+00:24.427.602	Debug	audiomxd (105)	com.apple.coreaudio	aurios	RemoteIOServer.cpp:2,073 <-AUIOServer_StopIO 0x696c1	
+00:24.427.614	Default	audiomxd (105)	CoreAudio	Default	HALS_IOContext_Legacy_Impl.cpp:492  HALS_IOContext_Legacy_Impl::Server_Internal_StopIOProcID: stopping 0x21 state: Prewarm: 0 Play: 1 State: Running IOProc 0x21: yes	
+00:24.427.617	Default	audiomxd (105)	com.apple.coreaudio	va_aggdev	VirtualAudioQueue.h:169 :596:: Stopping IO type 0 on AggregateDevice 130.	
+00:24.427.696	Debug	appleh16camerad (129)	com.apple.coreaudio	aurioc	AURemoteIO.cpp:2,341 AURIOCallbackReceiver_TerminateOwnIOThread	
+00:24.427.722	Default	audiomxd (105)	CoreAudio	Default	HALS_IOEngine2.cpp:2,239  HALS_IOEngine2::StopIO: stopping IO on device <private>	
+00:24.427.777	Debug	appleh16camerad (129)	com.apple.coreaudio	aurioc	AURemoteIO.cpp:2,053 AURemoteIO@0x9c22d4040: IOThread exiting	
+00:24.427.868	Default	Unknown (0)	AppleCS42L79Audio	Default	AppleCS42L79Audio::notifySecondaryActiveChangeGated(Flicker) enable:0 direction:1 	
+00:24.427.886	Default	Unknown (0)	AppleCS42L79Audio	Default	disableFlicker Ch:7	
+00:24.427.907	Debug	appleh16camerad (129)	com.apple.coreaudio	aurioc	AURemoteIO.cpp:1,720 <-AURemoteIO::Stop	
+00:24.427.970	Debug	appleh16camerad (129)	com.apple.coreaudio	aurioc	AURemoteIO.cpp:1,255 ->AURemoteIO(0x9c22d4040)::Cleanup	
+00:24.427.982	Default	audiomxd (105)	com.apple.coreaudio	AMCP	187,247 HALS_IOEngine2.cpp:2,635 HALS_IOEngine2::_StopIO(89) called on Context 133  current state: Prewarm: 0 Play: 1 State: Running	
+00:24.428.016	Default	appleh16camerad (129)	com.apple.coreaudio	aurioc	AURemoteIO.cpp:1,697 Stopping AURemoteIO(0x9c22d4040)	
+00:24.428.073	Default	Unknown (0)	AppleCS42L79Audio	Default	Read  Adr:450004 Val:5004d4c	
+00:24.428.150	Debug	appleh16camerad (129)	com.apple.coreaudio	aurioc	AURemoteIO.cpp:1,720 <-AURemoteIO::Stop	
+00:24.428.245	Default	Unknown (0)	AppleCS42L79Audio	Default	Write Adr:450004 Val:4d4c	
+00:24.428.300	Debug	audiomxd (105)	com.apple.coreaudio	aurios	RemoteIOServer.cpp:1,924 AUIOServer_Cleanup	
+00:24.428.386	Debug	appleh16camerad (129)	com.apple.coreaudio	aurioc	AURemoteIO.cpp:1,263 <-AURemoteIO::Cleanup	
+00:24.428.397	Default	Unknown (0)	AppleCS42L79Audio	Default	Write Adr:10000 Val:f203	
+00:24.428.402	Default	Unknown (0)	AppleCS42L79Audio	Default	disableFlicker Ch:8	
+00:24.428.570	Default	Unknown (0)	AppleCS42L79Audio	Default	Read  Adr:450008 Val:6	
+00:24.428.610	Debug	appleh16camerad (129)	com.apple.coreaudio	aurioc	AURemoteIO.cpp:453 ->AURemoteIO@0x9c22d4040 destructor	
+00:24.428.669	Default	appleh16camerad (129)	com.apple.coreaudio	aurioc	AURemoteIO.cpp:1,697 Stopping AURemoteIO(0x9c22d4040)	
+00:24.428.721	Debug	appleh16camerad (129)	com.apple.coreaudio	aurioc	AURemoteIO.cpp:1,720 <-AURemoteIO::Stop	
+00:24.428.726	Default	Unknown (0)	AppleCS42L79Audio	Default	Write Adr:450008 Val:0	
+00:24.428.869	Debug	audiomxd (105)	com.apple.coreaudio	aurios	RemoteIOServer.cpp:1,851 AUIOServer_DisposeInstance	
+00:24.428.879	Default	Unknown (0)	AppleCS42L79Audio	Default	Write Adr:10000 Val:f003	
+00:24.428.944	Debug	audiomxd (105)	com.apple.coreaudio	aqme	AQMixEngine.cpp:968 ->AQMEDevice(0x4ac442200)::RemoveIOClient <RemoteIOClient@0x4ad474700(@0x4ad474780); input; CMSession(appleh16camerad[129], 0xffffffff)>	
+00:24.428.997	Debug	audiomxd (105)	com.apple.coreaudio	aqme	MEInputManager.cpp:40 MEInputManager(0x4aca9dd80)::RemoveInputClient 0x4ad474780	
+00:24.429.045	Debug	audiomxd (105)	com.apple.coreaudio	aqme	MEInputManager.cpp:60 MEInputManager::RemoveInputClient 0x4ad474780, disposed	
+00:24.429.059	Default	Unknown (0)	AppleCS42L79Audio	Default	Read  Adr:470000 Val:406	
+00:24.429.211	Default	Unknown (0)	AppleCS42L79Audio	Default	Write Adr:470000 Val:404	
+00:24.429.215	Default	Unknown (0)	AppleCS42L79Audio	Default	Disable Route ASP:2 Tx:1 Ch:2 Start:7	
+00:24.429.284	Debug	appleh16camerad (129)	com.apple.coreaudio	aurioc	AURemoteIO.cpp:485 <-AURemoteIO@0x9c22d4040 destructor	
+00:24.429.367	Default	Unknown (0)	AppleCS42L79Audio	Default	Read  Adr:470024 Val:180	
+00:24.429.511	Default	Unknown (0)	AppleCS42L79Audio	Default	Write Adr:470024 Val:0	
+00:24.429.519	Default	Unknown (0)	AppleCS42L79Audio	Default	Set Internal MClk client:4  mask:20	
+00:24.429.590	Debug	appleh16camerad (129)	com.apple.isp	general	H16ISPFlickerDetectorStopDataCollection - Success
+	
+00:24.429.619	Debug	appleh16camerad (129)	com.apple.isp	general	FlickerDetector: Released resource access
+
+	
+00:24.429.663	Default	Unknown (0)	AppleCS42L79Audio	Default	Write Adr:30000 Val:0	
+00:24.429.664	Debug	appleh16camerad (129)	com.apple.isp	general	FlickerDetector: FlickerResourceArbiterClientDelegate cleanup at shutting down
+
+	
+00:24.429.694	Default	appleh16camerad (129)	com.apple.isp	general	H16ISPFlickerDetectorDispose - Success
+	
+00:24.429.815	Default	appleh16camerad (129)	com.apple.isp	daemon	Removing client: pid <private>
+	
+00:24.429.890	Default	appleh16camerad (129)	com.apple.isp	daemon	Total number of connections: 0
+	
+00:24.430.367	Default	Unknown (0)	AppleCS42L79Audio	Default	MClk Enable:0 client:4 mask:20	
+00:24.430.380	Default	Unknown (0)	AppleARMIISAudio	Default	+ Flicker::stopIOEngineGated()	
+00:24.430.384	Default	Unknown (0)	AppleARMIISAudio	Default	+ Flicker stopTransport	
+00:24.432.777	Default	MTLCompilerService (1695)	MTLCompiler	Default	Compilation SUCCESS (ParentProcessName=Photos_1680) (TYPE=MTLSpecializeFunctionToArchive - function specialization): Time 25.8735 ms 	
+00:24.433.069	Default	Unknown (0)	AppleARMIISAudio	Default	- Flicker stopTransport ret=success(0)	
+00:24.433.089	Default	Unknown (0)	AppleARMIISAudio	Default	- Flicker::stopIOEngineGated() ret=success(0)	
+00:24.433.094	Default	Unknown (0)	AppleEmbeddedAudio	Default	Flicker: off
+	
+00:24.433.098	Default	MTLCompilerService (1695)	MTLCompiler	Default	Compilation BEGIN (ParentProcessName=Photos_1680) Build request: MTLBuildFunctions - pipeline	
+00:24.433.113	Default	audiomxd (105)	CoreAudio	Default	HALS_IOA2Device.cpp:2,266  HALS_IOA2Device::IOAudio2DeviceNotificationPortMessageHandler: <private>|86 +++++++++------>	
+00:24.433.212	Default	audiomxd (105)	CoreAudio	Default	HALS_IOA2Device.cpp:2,343  HALS_IOA2Device::IOAudio2DeviceNotificationPortMessageHandler: <private>|86 <------+++++++++	
+00:24.433.335	Default	audiomxd (105)	CoreAudio	Default	HALS_IOContext_Legacy_Impl.cpp:2,013  IO Stopped Context 133 after 9,216 frames.	
+00:24.433.412	Default	audiomxd (105)	CoreAudio	Default	HALS_IOContext_Legacy_Impl.cpp:2,037  HALS_IOContext_Legacy_Impl::IOWorkLoopDeinit: 133 Flicker (VAD [vhaw] AggDev 3): stopping with error 0	
+00:24.433.422	Default	audiomxd (105)	CoreAudio	Default	HALB_PowerAssertion.cpp:157  HALB_PowerAssertion::Release: releasing power assertion ID 32,775 of type 'PreventUserIdleSystemSleep' with name: 'com.apple.audio.VAD [vhaw] AggDev 3.context.preventuseridlesleep' taken at <private> for 0.2286 seconds	
+00:24.433.580	Debug	audiomxd (105)	com.apple.coreaudio	aqme	AQMEIO_HAL.cpp:3,469 aqmeio@0x4af3b4f00 IsRunning 0	
+00:24.433.683	Debug	DTServiceHub (360)	DVTInstrumentsFoundation	Default	Data Size: 100,934, Rows Sent: 1,329, Stack depth: 4,101	
+00:24.433.700	Debug	audiomxd (105)	com.apple.coreaudio	AMCP	187,247 HALS_IOContext_Legacy_Impl.cpp:2,046 Completed HALS_IOContext_Legacy_Impl::IOWorkLoopDeinit	
+00:24.434.072	Default	audiomxd (105)	com.apple.coreaudio	va_vadevc	VirtualAudio_IONotificationManager.cpp:184 UpdateAndNotify() - need to notify I/O state = 1 new I/O running state = 0 previous I/O running state = 1	
+00:24.434.108	Default	audiomxd (105)	com.apple.coreaudio	va_vadevc	VirtualAudio_IONotificationManager.cpp:192 Sending notification "com.apple.coreaudio.IORunning" of I/O running state 0 forced notification = 0	
+00:24.434.671	Default	powerexperienced (125)	com.apple.powerexperienced	signalMonitor	Audio playback stopped. Dropping a resource hint	
+00:24.434.734	Default	powerexperienced (125)	com.apple.PowerExperienceFramework	ResourceConnection	ResourceConnection:updateResourceHint <private> with state 0	
+00:24.435.059	Default	powerexperienced (125)	com.apple.powerexperienced	resourcemanager	updating resource state for <private>:AudioPlayback from 1 to 0	
+00:24.435.154	Info	powerexperienced (125)	com.apple.powerexperienced	InUseChargingMode	evaluatePowerMode resources <private>	
+00:24.435.210	Default	powerexperienced (125)	com.apple.powerexperienced	RestrictedPerfMode	evaluatePowerMode: <private>: 0 display 1, carPlaySession 0, nFCSession 0, audioSession 0, sleepInProgress 0, wakeInProgress 0, onenessSession 0, siriAudio 0, pluggedIn 0 (allowOnCharger: 0)	
+00:24.435.330	Debug	powerexperienced (125)	com.apple.defaults	User Defaults	looked up value <private> for key resources in CFPrefsPlistSource<0xdbc044d80> (Domain: com.apple.powerexperienced.resourcemanager, User: kCFPreferencesCurrentUser, ByHost: No, Container: (null), Contents Need Refresh: No) via CFPrefsSearchListSource<0xdbc044b80> (Domain: com.apple.powerexperienced.resourcemanager, Container: (null))	
+00:24.435.383	Debug	powerexperienced (125)	com.apple.powerexperienced	resourcemanager	savedResourcesMutable <private>	
+00:24.435.846	Debug	powerexperienced (125)	com.apple.defaults	User Defaults	setting <private> in CFPrefsPlistSource<0xdbc044d80> (Domain: com.apple.powerexperienced.resourcemanager, User: kCFPreferencesCurrentUser, ByHost: No, Container: (null), Contents Need Refresh: No)	
+00:24.436.228	Debug	cfprefsd (107)	com.apple.defaults	cfprefsd	Process 125 (powerexperienced) sent a request related to { com.apple.powerexperienced.resourcemanager, user: root, kCFPreferencesAnyHost, /var/root/Library/Preferences/com.apple.powerexperienced.resourcemanager.plist, managed: 0 } (0xd3c1cf0c0)	
+00:24.436.304	Debug	cfprefsd (107)	com.apple.defaults	cfprefsd	Process 125 (powerexperienced) wrote the key(s) resources in { com.apple.powerexperienced.resourcemanager, root, kCFPreferencesAnyHost, /var/root/Library/Preferences/com.apple.powerexperienced.resourcemanager.plist, managed: 0 }	
+00:24.453.353	Debug	cameracaptured (66)	com.apple.MediaSafetyNet	periodic	MediaSafetyNet state: UI(Elsewhere) Cam(Cold:<private>) Mic(N/A) Pill(Unknown) Kbd(Hidden) CameraException(None) consistency: Consistent	
+00:24.454.652	Debug	backboardd (68)	com.apple.locationd.Motion	Motion	Ping timer fired, resetting watchdog	
+00:24.478.652	Default	MTLCompilerService (1695)	MTLCompiler	Default	Compilation SUCCESS (ParentProcessName=Photos_1680) (TYPE=MTLBuildFunctions - pipeline): Time 45.5206 ms 	
+00:24.479.350	Default	MTLCompilerService (1695)	MTLCompiler	Default	Compilation BEGIN (ParentProcessName=Photos_1680) Build request: MTLSpecializeFunctionToArchive - function specialization	
+00:24.480.341	Default	MTLCompilerService (1695)	MTLCompiler	Default	Compilation SUCCESS (ParentProcessName=Photos_1680) (TYPE=MTLSpecializeFunctionToArchive - function specialization): Time 0.9734 ms 	
+00:24.480.701	Default	MTLCompilerService (1695)	MTLCompiler	Default	Compilation BEGIN (ParentProcessName=Photos_1680) Build request: MTLSpecializeFunctionToArchive - function specialization	
+00:24.481.661	Default	MTLCompilerService (1695)	MTLCompiler	Default	Compilation SUCCESS (ParentProcessName=Photos_1680) (TYPE=MTLSpecializeFunctionToArchive - function specialization): Time 0.9288 ms 	
+00:24.484.160	Debug	backboardd (68)	com.apple.CoreBrightness.ColourSensorFilterPlugin	default	Color: X=164.5791(52.3872) Y=156.7626(49.8991) Z=62.4381(19.8747) 
+	
+00:24.484.249	Default	backboardd (68)	com.apple.CoreBrightness.ColourSensorFilterPlugin	default	[ALS] ts=48,693.9262 lux=175.4804<private> xy=(0.4288 0.4085) chs=[1,054.0000 2,771.0000 6,968.0000 10,002.0000 10,442.0000] CCT1=3,341.0764 gain=512x mode=<private> subsamples=24 rawLux=181.7157 nits=1,083 xTalk=[9 18 34 46 61] status=0xb copyEvent=0	
+00:24.484.422	Debug	locationd (74)	com.apple.locationd.Position	Position	AmbientLight,DecisionTree,x,184.2303,y,175.4804,z,69.8933,out,3	
+00:24.484.437	Debug	backboardd (68)	com.apple.CoreBrightness.CBColorModule.Primary	default	key=ALSIntegrationMode result=	
+00:24.484.494	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[4]: 	
+00:24.484.501	Debug	locationd (74)	com.apple.locationd.Position	Position	AmbientLightDecisionTreeOutput,3	
+00:24.484.536	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[2]: ALSIntegrationMode	
+00:24.484.585	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[2]: ALSIntegrationMode result=3	
+00:24.484.624	Debug	backboardd (68)	com.apple.CoreBrightness.CBABModuleiOS	default	key=ALSIntegrationMode result=3	
+00:24.484.663	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayContaineriOS	BuiltIn	key=ALSIntegrationMode result=3	
+00:24.484.706	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[4]: _plugInEnabled=1	
+00:24.484.744	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[4]: 0xdb4ccd900 0xdb61faa00	
+00:24.484.790	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[10]: 175.4804 	
+00:24.484.834	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[10]: als->_Esensor_device=175.4804	
+00:24.484.931	Debug	backboardd (68)	com.apple.CoreBrightness.CBALSEvent	default	Tristimulus values: XYZ[0]=58.6423, XYZ[1]=55.8572, XYZ[2]=22.2477 | CCT1=3,341.0764	
+00:24.484.982	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[2]: _luxFilter=3 als->_Ehistory_max=8	
+00:24.485.063	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[10]: Median filter computed on 8 samples	
+00:24.485.122	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	Median filter computed on 8 samples	
+00:24.485.208	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[10]: ts=48,693.9258 Esensor=172.9310 Emedian=166.8913	
+00:24.485.311	Info	backboardd (68)	com.apple.CoreBrightness.AABRear.CBRearALSModule	default	Copy Grimaldi Lux = 53.1979	
+00:24.485.355	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	E 166.8913, Ecapped 166.8913, EmaxCap -1.0000 => finalE 166.8913	
+00:24.485.451	Debug	backboardd (68)	com.apple.CoreBrightness.AABRear	default	AABRear: shouldUseRearLuxFrontLux called with (fLux:166.8913, rLux:53.1979, cap: 1,889.8331)	
+00:24.485.527	Debug	backboardd (68)	com.apple.CoreBrightness.AABRear	default	AABRear: using rear? 0	
+00:24.485.579	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	E 166.8913, Ecapped 166.8913, EmaxCap -1.0000 => finalE 166.8913	
+00:24.485.669	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayContaineriOS	BuiltIn	Notification block key=RLuxStats, value=<private>
+	
+00:24.485.720	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	Handle notification for key = RLuxStats and property = <private>	
+00:24.485.778	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[10]: _Esensor_filtered=166.8913 _Esensor_trusted=166.8913 _Esensor_aggregated=166.8913	
+00:24.485.861	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[10]: _Esensor_trusted=166.8913 _state=kAABStateAutoBrightness _proxState=kProxNone _touchIsObstucted=0 _settings._internal._dimPolicy=kDimPolicyFullDimming 3 _orientation=kIOHIDDisplayOrientationTypeAmbiguous	
+00:24.485.912	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	E 166.8913, Ecapped 166.8913, EmaxCap -1.0000 => finalE 166.8913	
+00:24.485.949	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[1/1] Esensor_device: 175.4804 als->_Esensor_filtered: 166.8913 _Esensor_trusted: 166.8913  L: 192.4365 L_reflected: 1.0625	
+00:24.486.004	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[10]: dimRestriction=kDimRestrictionUnrestricted	
+00:24.486.047	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	Set capped lux to IOMFB 166.8913 (168.3290)	
+00:24.486.597	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[4]: 	
+00:24.486.669	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[200]: inputs: L=192.4365 (shouldRamp=true dimRestriction=kDimRestrictionUnrestricted _Esensor_trusted=166.8913) curveChanged=0	
+00:24.486.714	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[200]: _fastRampMode=0 dimRestriction=kDimRestrictionUnrestricted L_newtarget=192.4365 _L_current=76.2887 _L_minimum=192.4365	
+00:24.486.761	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	PLT	shallUpdateBacklight: Pstart=0.7645 Pcurrent=0.7645 Pnewtarget=0.7551 Pdelta=-0.0095 Pthreshold_dim=0.0500 (0.1000 * 0.5000) Pthreshold_brighten=0.1000 (0.1000 * 1.0000) plt_x=0.2500 plt_y=0.3700 plt_z=0.1000	
+00:24.486.809	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[200]: _L_target=205.5501 Pnewtarget=0.7551 Ptarget=0.7645 Pdelta=-0.0095  	
+00:24.486.849	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[200]: systemShallUpdateBacklight=false L_target=192.4365 timeConstant=0.0000	
+00:24.486.939	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=RLuxStats value=<private>	
+00:24.486.984	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=RLuxStats property=<private>	
+00:24.487.034	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	passed for client 58881740544	
+00:24.487.211	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=<private> value=<private>	
+00:24.487.256	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=<private> property=<private>	
+00:24.487.361	Debug	PerfPowerServices (1452)	com.apple.CoreBrightness	default	key=<private> property=<private> queue=0x97ede5100 clientBlock=0x97e365e90	
+00:24.487.379	Debug	backboardd (68)	com.apple.CoreBrightness.CBALSEvent	default	Tristimulus values: XYZ[0]=58.6423, XYZ[1]=55.8572, XYZ[2]=22.2477 | CCT1=3,341.0764	
+00:24.487.491	Debug	backboardd (68)	com.apple.CoreBrightness.CBALSNode	default	<private>	
+00:24.487.524	Info	PerfPowerServices (1452)	com.apple.CoreBrightness.BSCI	default	use_synchronous_remote=1	
+00:24.487.637	Default	PerfPowerServices (1452)	com.apple.xpc	connection	[0x97ef066c0] activating connection: mach=1 listener=0 peer=0 name=com.apple.backlightd	
+00:24.487.639	Debug	backboardd (68)	com.apple.CoreBrightness.CBBrightestALSFilter	default	ALS events <private>	
+00:24.487.800	Info	backboardd (68)	com.apple.CoreBrightness.CBColorPolicyFilter	default	HarmonyPolicy: Sample IS  from mitigated region	
+00:24.487.903	Default	PerfPowerServices (1452)	com.apple.CoreBrightness	default	Register notification block	
+00:24.487.970	Info	backboardd (68)	com.apple.CoreBrightness.CBColorPolicyFilter	default	HarmonyPolicy: BaselineHarmony: mitigatedStr, for (lux, nits): 175.0000, 1,083.0000 = 0.1300 (rounded)	
+00:24.488.050	Info	backboardd (68)	com.apple.CoreBrightness.CBColorPolicyFilter	default	HarmonyPolicy: Sample IS NOT from CE region	
+00:24.488.194	Default	backboardd (68)	com.apple.xpc	connection	[0xdb508b480] activating connection: mach=0 listener=0 peer=1 name=com.apple.backlightd.peer[1452].0xdb508b480	
+00:24.488.247	Info	backboardd (68)	com.apple.CoreBrightness.CBColorPolicyFilter	default	HarmonyPolicy: Incoming ALS sample, pushed to queue: <private>	
+00:24.488.404	Info	backboardd (68)	com.apple.CoreBrightness.CBColorPolicyFilter	default	HarmonyPolicy: _filteredALS: <private>, _filtered strength: 0.2700	
+00:24.488.448	Debug	backboardd (68)	com.apple.CoreBrightness.CBColorModule.Primary	default	ALS event with orientation = 1	
+00:24.488.455	Info	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	client=58903570592 key=<private>	
+00:24.488.494	Info	backboardd (68)	com.apple.CoreBrightness.CBColorModule.Primary	default	HarmonyPolicy: Using Baseline	
+00:24.488.612	Debug	backboardd (68)	com.apple.CoreBrightness.CBColorModule.Primary	default	input ambient color sample: xy = (0.4288;0.4085)	
+00:24.488.660	Debug	backboardd (68)	CoreBrightness	Default	LOWLUX 55.8572
+	
+00:24.488.731	Debug	backboardd (68)	CoreBrightness	Default	[ColorEffects.c:_CFXRestrictLowAmbientColor] xy=(0.4288,0.4085), CCT = 3,182.0000, CCT1 = 3,341.0764	
+00:24.488.773	Debug	backboardd (68)	CoreBrightness	Default	Restrict: (16.8487, 16.8487) -> (13.8272, 46.7548)
+	
+00:24.488.818	Debug	backboardd (68)	CoreBrightness	Default	59.4105 16.8487 56.9713 -> ANGLE 1.6760 -> BIN 2	
+00:24.488.856	Debug	backboardd (68)	CoreBrightness	Default	BIN 13: (0.4288, 0.4085) fitting in (0.4150, 0.3821)-(0.4373, 0.3893)-(0.4303, 0.4173)
+	
+00:24.488.908	Info	backboardd (68)	com.apple.CoreBrightness.CBColorModule.Primary	default	Set ambient color sample ALS event = [Orientation = 1; Illuminance = 175.000000; xy = (0.428837,0.408470); XYZ = (58.642330,55.857155,22.247740); CCT1 = 3341.076416; Integration time = 0.002906; Gain = 33554432; Obstructed = 0; First = 0, mitigation = 1, timestamp = 87739520]	
+00:24.488.969	Debug	backboardd (68)	com.apple.CoreBrightness.CBColorModule.Primary	default	key=<private> result=<private>	
+00:24.489.009	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayContaineriOS	BuiltIn	key=<private> result=<private>	
+00:24.489.040	Info	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=<private> result=<private>	
+00:24.489.263	Debug	PerfPowerServices (1452)	com.apple.CoreBrightness.Client	Default	BSC dealloc	
+00:24.489.312	Default	PerfPowerServices (1452)	com.apple.CoreBrightness	default	Register notification block	
+00:24.489.360	Default	PerfPowerServices (1452)	com.apple.xpc	connection	[0x97ef066c0] invalidated because the current process cancelled the connection by calling xpc_connection_cancel()	
+00:24.489.396	Default	backboardd (68)	com.apple.xpc	connection	[0xdb508b480] invalidated because the client process (pid 1,452) either cancelled the connection or exited	
+00:24.489.414	Debug	PerfPowerServices (1452)	com.apple.powerlog	display	Received notification for CBrLuxStats: <private>	
+00:24.489.472	Debug	PerfPowerServices (1452)	com.apple.CoreBrightness.BSCI	default	BSCI dealloc	
+00:24.489.504	Default	PerfPowerServices (1452)	com.apple.CoreBrightness	default	Register notification block	
+00:24.493.719	Info	bluetoothd (94)	com.apple.bluetooth	Stack.LE	 Invalid Dual mode support indication in AD flags 0x00000000.	
+00:24.493.837	Info	bluetoothd (94)	com.apple.bluetooth	Server.LE.Scan	Setting mfgr data:<private> len:29 id:4c	
+00:24.493.951	Default	bluetoothd (94)	com.apple.bluetooth	Server.LE.Scan	decryptProximityPairingPayload device:<private> address:<private>	
+00:24.493.984	Debug	bluetoothd (94)	com.apple.bluetooth	Server.LE.Scan	Found device "EA54242B-210F-B629-F27C-54E0AEBB65F2 Random CE:69:A0:CD:03:5F RSSI:-69 with data:RSSI: 0 dB (non-saturated), MFR Data: 4C 00 12 19 00 E5 BB 8E C6 2D 7C 73 EB F2 DD 46 20 9C 98 00 6A BA BC 25 B5 6F 7F 03 00[AppleTypesBitmap:0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001000000000000000000], non-connectable, sourceCore: MainCore, IsELNAOn: 0, IsPassup: 0, IsFromSCCompensation0, IsCoexDenied0, 	
+00:24.494.022	Debug	bluetoothd (94)	com.apple.bluetooth	Server.LE.Scan	Show dup for given rule with puck type 0x12	
+00:24.494.043	Info	bluetoothd (94)	com.apple.bluetooth	Server.LE.Scan	Device "EA54242B-210F-B629-F27C-54E0AEBB65F2" matched MFG data	
+00:24.494.064	Debug	bluetoothd (94)	com.apple.bluetooth	Server.LE.Scan	doesDeviceMatch: fAdvDataMap size:145 fMaxNumOfReportsInMap:200 fAdvDataMap size:145 Puck?:1 roomInMap:1	
+00:24.494.104	Debug	bluetoothd (94)	com.apple.bluetooth	Server.XPC	createXpcAdvData sending data:<private> length:29 originalLength:29 lenError:0	
+00:24.494.134	Debug	bluetoothd (94)	com.apple.bluetooth	Server.App	moreAvailable=0, isFromADVBuffer=0	
+00:24.494.267	Debug	bluetoothd (94)	com.apple.bluetooth	Server.LE.Scan	Show dup for given rule with puck type 0x12	
+00:24.494.291	Info	bluetoothd (94)	com.apple.bluetooth	Server.LE.Scan	Device "EA54242B-210F-B629-F27C-54E0AEBB65F2" matched MFG data	
+00:24.494.313	Debug	bluetoothd (94)	com.apple.bluetooth	Server.LE.Scan	doesDeviceMatch: fAdvDataMap size:145 fMaxNumOfReportsInMap:200 fAdvDataMap size:145 Puck?:1 roomInMap:1	
+00:24.494.343	Debug	bluetoothd (94)	com.apple.bluetooth	Server.XPC	createXpcAdvData sending data:<private> length:29 originalLength:29 lenError:0	
+00:24.494.371	Debug	bluetoothd (94)	com.apple.bluetooth	Server.App	moreAvailable=0, isFromADVBuffer=0	
+00:24.494.388	Debug	locationd (74)	com.apple.locationd.Core	AvengerScanner	{"msg":"didDiscoverPeripheral", "ClientId":CLDurianService, "peripheral":<private>, "advertisementData":<private>}	
+00:24.494.452	Debug	locationd (74)	com.apple.locationd.Core	Harvester	{"msg":"#CLAvengerReconciler advertisement reconciled: ", "ownerUUID":<private>, "nonownerUUID":<private>, "address":<private>, "uuidMap":<private>}	
+00:24.494.465	Debug	bluetoothd (94)	com.apple.bluetooth	Server.LE.Scan	Show dup for given rule with puck type 0x12	
+00:24.494.485	Info	bluetoothd (94)	com.apple.bluetooth	Server.LE.Scan	Device "EA54242B-210F-B629-F27C-54E0AEBB65F2" matched MFG data	
+00:24.494.493	Debug	locationd (74)	com.apple.locationd.Core	Harvester	{"msg":"#CLAvengerReconciler: creating CLAvengerScannerReconciledInformation", "reconciledInformation.description":<private>}	
+00:24.494.505	Debug	bluetoothd (94)	com.apple.bluetooth	Server.LE.Scan	doesDeviceMatch: fAdvDataMap size:145 fMaxNumOfReportsInMap:200 fAdvDataMap size:145 Puck?:1 roomInMap:1	
+00:24.494.533	Debug	bluetoothd (94)	com.apple.bluetooth	Server.XPC	createXpcAdvData sending data:<private> length:29 originalLength:29 lenError:0	
+00:24.494.557	Debug	bluetoothd (94)	com.apple.bluetooth	Server.App	moreAvailable=0, isFromADVBuffer=0	
+00:24.494.558	Debug	locationd (74)	com.apple.locationd.Position	Proximity	{"msg":"#durian onAvengerAdvertisement - not durian/hawkeye or not Apple advertisement", "status":0}	
+00:24.494.560	Debug	locationd (74)	com.apple.locationd.Core	AvengerScanner	{"msg":"didDiscoverPeripheral", "ClientId":CLSubHarvesterAvenger, "peripheral":<private>, "advertisementData":<private>}	
+00:24.494.608	Debug	locationd (74)	com.apple.locationd.Core	Harvester	{"msg":"#CLAvengerReconciler advertisement reconciled: ", "ownerUUID":<private>, "nonownerUUID":<private>, "address":<private>, "uuidMap":<private>}	
+00:24.494.643	Debug	locationd (74)	com.apple.locationd.Core	Harvester	{"msg":"#CLAvengerReconciler: creating CLAvengerScannerReconciledInformation", "reconciledInformation.description":<private>}	
+00:24.494.649	Debug	bluetoothd (94)	com.apple.bluetooth	Server.LE.Scan	No match found for device "EA54242B-210F-B629-F27C-54E0AEBB65F2"	
+00:24.494.695	Default	locationd (74)	com.apple.locationd.Core	Harvester	{"msg":"onAvengerAdvertisementDetected: got avenger advertisement", "subHarvester":11}	
+00:24.494.732	Debug	bluetoothd (94)	com.apple.bluetooth	Server.LE.Scan	Show dup for given rule with puck type 0x12	
+00:24.494.737	Debug	locationd (74)	com.apple.locationd.Core	AvengerScanner	{"msg":"didDiscoverPeripheral", "ClientId":CLTrackingAvoidanceService, "peripheral":<private>, "advertisementData":<private>}	
+00:24.494.753	Default	locationd (74)	com.apple.locationd.Core	Harvester	{"msg":"convertToSPAdvertisement", "address":<private>, "data":<private>, "date":<private>, "rssi":<private>, "status":<private>, "reserved":<private>, "subHarvester":11}	
+00:24.494.770	Info	bluetoothd (94)	com.apple.bluetooth	Server.LE.Scan	Device "EA54242B-210F-B629-F27C-54E0AEBB65F2" matched MFG data	
+00:24.494.808	Debug	locationd (74)	com.apple.locationd.Core	Harvester	{"msg":"#CLAvengerReconciler advertisement reconciled: ", "ownerUUID":<private>, "nonownerUUID":<private>, "address":<private>, "uuidMap":<private>}	
+00:24.494.848	Debug	bluetoothd (94)	com.apple.bluetooth	Server.LE.Scan	doesDeviceMatch: fAdvDataMap size:96 fMaxNumOfReportsInMap:200 fAdvDataMap size:96 Puck?:1 roomInMap:1	
+00:24.494.906	Default	locationd (74)	com.apple.locationd.Core	Harvester	{"msg":"derivedPruneHarvest", "cacheSize":1, "beaconPayloadCacheSize":0, "subHarvester":11}	
+00:24.494.945	Debug	bluetoothd (94)	com.apple.bluetooth	Server.XPC	createXpcAdvData sending data:<private> length:29 originalLength:29 lenError:0	
+00:24.494.973	Debug	locationd (74)	com.apple.locationd.Core	Harvester	{"msg":"#CLAvengerReconciler: creating CLAvengerScannerReconciledInformation", "reconciledInformation.description":<private>}	
+00:24.495.027	Debug	bluetoothd (94)	com.apple.bluetooth	Server.App	moreAvailable=0, isFromADVBuffer=0	
+00:24.495.053	Info	locationd (74)	com.apple.locationd.Core	Harvester	{"msg":"processAdvertisementCache with last location", "subHarvester":11}	
+00:24.495.152	Debug	locationd (74)	com.apple.locationd.Position	TrackingAvoidance	#ut received advertisement	
+00:24.495.182	Debug	bluetoothd (94)	com.apple.bluetooth	Server.LE.Scan	No match found for device "EA54242B-210F-B629-F27C-54E0AEBB65F2"	
+00:24.495.186	Default	locationd (74)	com.apple.locationd.Core	Harvester	{"msg":"geotagSingleAdvertisement: advertisement within valid time window for location", "timeOffset":"-10.5529", "fCurrentTimeOffsetThreshold":"45.0000", "subHarvester":11}	
+00:24.495.237	Debug	locationd (74)	com.apple.locationd.Position	GeneralCLX	TaMetricEvent, onAvengerAdvertisement, id, <private>, <private>, <private>, 3	
+00:24.495.263	Debug	locationd (74)	com.apple.locationd.Core	AvengerScanner	{"msg":"didDiscoverPeripheral", "ClientId":CLAvengerObservationReporterService, "peripheral":<private>, "advertisementData":<private>}	
+00:24.495.274	Debug	bluetoothd (94)	com.apple.bluetooth	Server.LE.Scan	Agents: com.apple.locationd-central-74-54 hashedUUIDs=0 Nbmatchrules=1 ServiceUUID=2 | com.apple.locationd-central-74-62 hashedUUIDs=0 Nbmatchrules=1 ServiceUUID=2 | com.apple.locationd-central-74-69 hashedUUIDs=0 Nbmatchrules=1 ServiceUUID=2 | com.apple.locationd-central-74-124 hashedUUIDs=0 Nbmatchrules=1 ServiceUUID=2 | 	
+00:24.495.277	Info	locationd (74)	com.apple.locationd.Core	Harvester	{"msg":"geotagAdvertisements: completed process", "fAdvertisementCache.count":1, "saveableAdvertisements.count":1, "purgeableAdvertisements.count":0, "subHarvester":11}	
+00:24.495.337	Default	locationd (74)	com.apple.tracking-avoidance	Events	<private>	
+00:24.495.399	Default	MTLCompilerService (1695)	MTLCompiler	Default	Compilation BEGIN (ParentProcessName=Photos_1680) Build request: MTLBuildFunctions - pipeline	
+00:24.495.405	Debug	bluetoothd (94)	com.apple.CFBundle	strings	Bundle: <private>, key: bt_type_generic, value: , table: CBLocalizable, localizationNames: , result: Bluetooth Device	
+00:24.495.424	Default	locationd (74)	com.apple.locationd.Core	Harvester	{"msg":"prepareAdvertisementsForSPFinder", "avengerPublicKey":ce69a0cd035fe5bb8ec62d7c73ebf2dd46209c98006ababc25b56f7f, "subHarvester":11}	
+00:24.495.552	Debug	locationd (74)	com.apple.tracking-avoidance	Status	#TAStore not adding TASPAdvertisement due to irrelevant device type:<private>	
+00:24.495.572	Debug	locationd (74)	com.apple.locationd.Core	Harvester	{"msg":"#CLAvengerReconciler advertisement reconciled: ", "ownerUUID":<private>, "nonownerUUID":<private>, "address":<private>, "uuidMap":<private>}	
+00:24.495.703	Debug	locationd (74)	com.apple.locationd.Core	Harvester	{"msg":"#CLAvengerReconciler: creating CLAvengerScannerReconciledInformation", "reconciledInformation.description":<private>}	
+00:24.495.784	Info	locationd (74)	com.apple.locationd.Core	Harvester	{"msg":"prepareAdvertisementsForSPFinder", "avengerPublicKey":ce69a0cd035fe5bb8ec62d7c73ebf2dd46209c98006ababc25b56f7f, "timestamp":"<private>", "scantime":<private>, "latitude":"<private>", "longitude":"<private>", "altitude":"<private>", "rawHorizontalAccuracy":"<private>", "horizontalAccuracy":"<private>", "verticalAccuracy":"<private>", "speed":"<private>", "speedAccuracy":"<private>", "course":"<private>", "courseAccuracy":"<private>", "type":<private>, "integrity":<private>, "floor":<private>, "maxActivityBasedSpeedSinceLastLocation":"<private>", "maxActivityBasedSpeedSinceAdvertisement":"<private>", "subHarvester":11}	
+00:24.495.860	Info	locationd (74)	com.apple.locationd.Core	Core	{"msg":"markReceivingLocationInformation", "Client":com.apple.locationd.bundle-/System/Library/PrivateFrameworks/FindMyDevice.framework}	
+00:24.495.932	Info	locationd (74)	com.apple.locationd.Core	Harvester	{"msg":"prepareAdvertisementsForSPFinder: added beacon payload to fBeaconPayloadCache", "subHarvester":11}	
+00:24.495.972	Info	locationd (74)	com.apple.locationd.Core	Harvester	{"msg":"prepareAdvertisementsForSPFinder: added beacon payload to ActivityBasedBeaconPayloadCache for second geotagging", "subHarvester":11}	
+00:24.496.054	Info	locationd (74)	com.apple.locationd.Core	Harvester	{"msg":"pruneActivityBasedBeaconPayloadCache", "activityBasedBeaconPayloadCache count":24, "subHarvester":11}	
+00:24.496.092	Debug	locationd (74)	com.apple.CoreAnalytics.event	send	<private> <private>	
+00:24.496.213	Info	locationd (74)	com.apple.locationd.Core	Harvester	{"msg":"pruneActivityBasedBeaconPayloadCache", "prunedBeaconPayloads count":<private>, "subHarvester":11}	
+00:24.496.248	Default	locationd (74)	com.apple.locationd.Core	Harvester	{"msg":"processAdvertisementCache: completed process", "Remaining fAdvertisementCache.count":0, "fBeaconPayloadCache.count":1, "subHarvester":11}	
+00:24.496.271	Info	locationd (74)	com.apple.locationd.Core	Harvester	{"msg":"saveBeaconPayloadCacheToSPFinder", "fBeaconPayloadCache.count":<private>, "fIsCameraAppRunning":<private>, "subHarvester":11}	
+00:24.496.299	Default	locationd (74)	com.apple.icloud.SPFinder	advertisementCache	saveBeaconPayload: 1	
+00:24.496.317	Debug	analyticsd (110)	com.apple.analyticsd.critical	db	[Config Store] Retrieving transforms for event with name '<private>'	
+00:24.496.371	Debug	locationd (74)	com.apple.CoreAnalytics.event	send	<private> <private>	
+00:24.496.760	Debug	analyticsd (110)	com.apple.analyticsd.critical	xform	[Transform Factory] No Transform aggregation period specified.	
+00:24.496.807	Debug	analyticsd (110)	com.apple.analyticsd.critical	xform_cache	[Transform Cache] Cache miss. Loading <private> - <private> for input event <private>	
+00:24.496.866	Info	searchpartyd (241)	com.apple.findmy.framework.FindMyBase	transaction	Opened [TXN:SaveObservedAdvertisment.2E770ED4-96B3-4A18-883C-45078F6D09B0]	
+00:24.497.187	Debug	analyticsd (110)	com.apple.analyticsd.critical	xform	[Transform Factory] No Transform aggregation period specified.	
+00:24.497.220	Debug	analyticsd (110)	com.apple.analyticsd.critical	xform_cache	[Transform Cache] Cache miss. Loading <private> - <private> for input event <private>	
+00:24.497.246	Info	searchpartyd (241)	com.apple.icloud.searchpartyd	advertisementCache	observedAdvertisement: <private>	
+00:24.497.420	Debug	analyticsd (110)	com.apple.analyticsd.critical	xform	[Transform Cache] Eviction callback for transform <private> - <private>	
+00:24.497.424	Default	searchpartyd (241)	com.apple.icloud.searchpartyd	beaconStore	wildModeAssociationRecords(advertisement: <private>)	
+00:24.497.697	Debug	searchpartyd (241)	searchpartyd	Default	Found 0 records at <private>	
+00:24.497.878	Debug	analyticsd (110)	com.apple.analyticsd.critical	xform	[Transform Cache] Eviction callback for transform <private> - <private>	
+00:24.497.979	Info	searchpartyd (241)	com.apple.icloud.searchpartyd	observationStoring	"AdvertisementCacheService did not reconcile advertisement .wild(advt: ce69a0cd035fe5bb8ec62d7c73ebf2dd46209c98006ababc25b56f7f)!	
+00:24.498.018	Info	searchpartyd (241)	com.apple.icloud.searchpartyd	observationStoring	Ignoring status update for advertisement without beaconInformation.	
+00:24.498.290	Debug	analyticsd (110)	com.apple.analyticsd.critical	xform	[Transform Cache] Eviction callback for transform <private> - <private>	
+00:24.498.572	Debug	analyticsd (110)	com.apple.analyticsd.critical	xform	[Transform Cache] Eviction callback for transform <private> - <private>	
+00:24.498.847	Debug	analyticsd (110)	com.apple.analyticsd.critical	xform_cache	[Transform Cache] Cache performance for input event <private>: { transforms: 2, hit: 0, loaded: 2, inserted: 2}	
+00:24.498.952	Debug	searchpartyd (241)	com.apple.icloud.searchpartyd	observationStoring	insert(observedAdvertisement:): 1 ms	
+00:24.499.045	Info	searchpartyd (241)	com.apple.icloud.searchpartyd	publishScheduler	FindMyNetworkPublishActivityService maintaining existing criteria.	
+00:24.499.050	Debug	analyticsd (110)	com.apple.analyticsd.critical	db	[Config Store] Retrieving transforms for event with name '<private>'	
+00:24.499.165	Info	searchpartyd (241)	com.apple.findmy.framework.FindMyBase	transaction	Closed [TXN:SaveObservedAdvertisment.2E770ED4-96B3-4A18-883C-45078F6D09B0]	
+00:24.499.292	Debug	analyticsd (110)	com.apple.analyticsd.critical	xform	[Transform Factory] No Transform aggregation period specified.	
+00:24.499.327	Debug	analyticsd (110)	com.apple.analyticsd.critical	xform_cache	[Transform Cache] Cache miss. Loading <private> - <private> for input event <private>	
+00:24.499.491	Debug	analyticsd (110)	com.apple.analyticsd.critical	xform_cache	[Transform Cache] Cache performance for input event <private>: { transforms: 1, hit: 0, loaded: 1, inserted: 1}	
+00:24.500.089	Default	MTLCompilerService (1695)	MTLCompiler	Default	Compilation SUCCESS (ParentProcessName=Photos_1680) (TYPE=MTLBuildFunctions - pipeline): Time 4.6572 ms 	
+00:24.515.500	Default	MTLCompilerService (1695)	MTLCompiler	Default	Compilation BEGIN (ParentProcessName=Photos_1680) Build request: MTLSpecializeFunctionToArchive - function specialization	
+00:24.522.367	Default	MTLCompilerService (1695)	MTLCompiler	Default	Compilation SUCCESS (ParentProcessName=Photos_1680) (TYPE=MTLSpecializeFunctionToArchive - function specialization): Time 6.8367 ms 	
+00:24.522.540	Default	MTLCompilerService (1695)	MTLCompiler	Default	Compilation BEGIN (ParentProcessName=Photos_1680) Build request: MTLBuildFunctions - pipeline	
+00:24.535.778	Default	MTLCompilerService (1695)	MTLCompiler	Default	Compilation SUCCESS (ParentProcessName=Photos_1680) (TYPE=MTLBuildFunctions - pipeline): Time 13.2084 ms 	
+00:24.536.399	Default	MTLCompilerService (1695)	MTLCompiler	Default	Compilation BEGIN (ParentProcessName=Photos_1680) Build request: MTLSpecializeFunctionToArchive - function specialization	
+00:24.537.255	Default	MTLCompilerService (1695)	MTLCompiler	Default	Compilation SUCCESS (ParentProcessName=Photos_1680) (TYPE=MTLSpecializeFunctionToArchive - function specialization): Time 0.8390 ms 	
+00:24.537.687	Default	MTLCompilerService (1695)	MTLCompiler	Default	Compilation BEGIN (ParentProcessName=Photos_1680) Build request: MTLSpecializeFunctionToArchive - function specialization	
+00:24.538.573	Default	MTLCompilerService (1695)	MTLCompiler	Default	Compilation SUCCESS (ParentProcessName=Photos_1680) (TYPE=MTLSpecializeFunctionToArchive - function specialization): Time 0.8540 ms 	
+00:24.545.730	Debug	audiomxd (105)	com.apple.locationd.Motion	Motion	Ping timer fired, resetting watchdog	
+00:24.545.913	Debug	audiomxd (105)	com.apple.MediaSafetyNet	periodic	MediaSafetyNet state: UI(Elsewhere) Cam(N/A) Mic(Cold:<private>) Pill(Unknown) Kbd(Hidden) CameraException(None) consistency: Consistent	
+00:24.550.687	Info	backboardd (68)	com.apple.iohid	connection	ED34C5EF-9011-43E1-864D-A6D7DC7FD1B0: HID activity: 1 -> 0 (service:0x0 event:0)	
+00:24.550.804	Info	backboardd (68)	com.apple.iohid	connection	ED34C5EF-9011-43E1-864D-A6D7DC7FD1B0: iohideventsystem_client_dispatch_properties_changed:0x10004003	
+00:24.553.092	Debug	powerd (46)	com.apple.powerd	systemLoad	HID activity callback thru property callback. state:0
+	
+00:24.553.463	Debug	powerd (46)	com.apple.powerd	systemLoad	getUserInactiveDuration: rdActive:1 hidActive:0 assertionActivityValid:0 now:0x556c4  hid_ts:0x556bf assertion_ts:0x0
+	
+00:24.553.531	Debug	powerd (46)	com.apple.powerd	systemLoad	inactiveDuration:5 gUserActive.userActive:1
+	
+00:24.553.578	Debug	powerd (46)	com.apple.powerd	systemLoad	Global levels set to 0x1
+	
+00:24.553.627	Debug	powerd (46)	com.apple.powerd	systemLoad	getUserInactiveDuration: rdActive:1 hidActive:0 assertionActivityValid:0 now:0x556c4  hid_ts:0x556bf assertion_ts:0x0
+	
+00:24.553.667	Debug	powerd (46)	com.apple.powerd	systemLoad	Setting level 0x0 for pid 119	
+00:24.553.704	Debug	powerd (46)	com.apple.powerd	systemLoad	Sending new activity levels(0x0) to client 0x5b2118000(pid 119)
+	
+00:24.553.756	Debug	powerd (46)	com.apple.powerd	systemLoad	Client 0x5b2118a00(pid 254) activity level is already at 0x1
+	
+00:24.553.796	Debug	powerd (46)	com.apple.powerd	systemLoad	Client 0x5b2118780(pid 254) activity level is already at 0x1
+	
+00:24.553.830	Debug	powerd (46)	com.apple.powerd	systemLoad	Client 0x5b2118640(pid 65) activity level is already at 0x1
+	
+00:24.553.862	Debug	powerd (46)	com.apple.powerd	systemLoad	Client 0x5b2118500(pid 68) activity level is already at 0x1
+	
+00:24.553.940	Debug	powerd (46)	com.apple.powerd	systemLoad	Client 0x5b237d2c0(pid 1,452) activity level is already at 0x1
+	
+00:24.553.941	Default	liveactivitiesd (119)	com.apple.activitykit	pushServer	Device activity state may have changed to 0	
+00:24.553.985	Debug	powerd (46)	com.apple.powerd	systemLoad	nextIdleTimeout: 8 legacyNextIdleTimeout:300
+	
+00:24.554.082	Default	liveactivitiesd (119)	com.apple.activitykit	pushServer	Device is inactive; scheduling check after grace period	
+00:24.554.286	Default	liveactivitiesd (119)	com.apple.activitykit	pushServer	Device is inactive; scheduling activity check at 2024-11-18 04:09:30 +0000	
+00:24.554.460	Default	liveactivitiesd (119)	com.apple.activitykit	wake	Earliest nonwaking date from task "DeviceInactiveCheck": 2024-11-18T12:09:30+08:00, finalWakeTarget: 2024-11-18T12:09:30+08:00 891.0730	
+00:24.554.555	Default	liveactivitiesd (119)	com.apple.activitykit	wake	Earliest waking date from task "DeviceInactiveCheck": 2024-11-18T12:09:30+08:00, finalWakeTarget: 2024-11-18T12:09:30+08:00 891.0729	
+00:24.554.628	Default	liveactivitiesd (119)	com.apple.activitykit	wake	Scheduling nonwaking task for: 2024-11-18T12:09:30+08:00 in 891.0728s	
+00:24.554.747	Default	liveactivitiesd (119)	com.apple.activitykit	wake	Scheduling waking task for: 2024-11-18T12:09:30+08:00 in 891.0727s	
+00:24.554.819	Default	liveactivitiesd (119)	SessionFoundation	Default	Acquiring keep-alive with reason: wake scheduling	
+00:24.554.923	Default	liveactivitiesd (119)	SessionFoundation	Default	Keep-alive reasons: ["wake scheduling": 1]	
+00:24.554.949	Default	liveactivitiesd (119)	com.apple.activitykit	wake	Scheduling waking task for adjusted date: 2024-11-18T12:09:30+08:00 in 891.0725s	
+00:24.554.975	Default	liveactivitiesd (119)	com.apple.xpc.activity	Client	xpc_activity_register: com.apple.sessionkit.wake, criteria: dictionary	
+00:24.554.997	Default	liveactivitiesd (119)	com.apple.xpc.activity	Client	_xpc_activity_register: com.apple.sessionkit.wake (0xbf208d5e0), 0	
+00:24.555.014	Default	liveactivitiesd (119)	com.apple.xpc.activity	Client	xpc_activity_set_criteria: com.apple.sessionkit.wake (0xbf208d5e0), dict	
+00:24.555.072	Default	liveactivitiesd (119)	SessionFoundation	Default	Releasing keep-alive with reason: wake scheduling	
+00:24.555.120	Default	liveactivitiesd (119)	SessionFoundation	Default	Keep-alive reasons: [:]	
+00:24.555.663	Default	liveactivitiesd (119)	com.apple.xpc.activity	Client	xpc_activity_set_criteria, lower half: com.apple.sessionkit.wake (0xbf208d5e0), dict	
+00:24.556.048	Default	liveactivitiesd (119)	com.apple.xpc.activity	Client	_xpc_activity_set_criteria: com.apple.sessionkit.wake (0xbf208d5e0), dict	
+00:24.556.094	Default	liveactivitiesd (119)	com.apple.xpc.activity	Client	_xpc_activity_set_criteria: xpc_set_event com.apple.sessionkit.wake, 1	
+00:24.556.496	Info	liveactivitiesd (119)	libxpc.dylib	Default	Subscribed to event com.apple.sessionkit.wake using token 23,851	
+00:24.556.556	Default	liveactivitiesd (119)	com.apple.xpc.activity	Client	xpc_activity_set_criteria: com.apple.sessionkit.wake (0xbf208d5e0), setting state now to 1	
+00:24.556.670	Default	liveactivitiesd (119)	com.apple.xpc.activity	Client	_xpc_activity_set_state: com.apple.sessionkit.wake (0xbf208d5e0), 1	
+00:24.558.139	Default	MTLCompilerService (1695)	MTLCompiler	Default	Compilation BEGIN (ParentProcessName=Photos_1680) Build request: MTLBuildFunctions - pipeline	
+00:24.561.702	Default	UserEventAgent (31)	com.apple.xpc.activity	Internal	Creating on XPC add event: com.apple.sessionkit.wake	
+00:24.562.061	Default	UserEventAgent (31)	com.apple.xpc.activity	Internal	Created: com.apple.sessionkit.wake (0x98344d180)	
+00:24.562.349	Info	UserEventAgent (31)	com.apple.xpc.activity	Internal	Submitting: com.apple.sessionkit.wake:19130C (CTS Activity 0x98344d180)	
+00:24.562.430	Default	UserEventAgent (31)	com.apple.duetactivityscheduler	client	SUBMITTING: com.apple.sessionkit.wake:19130C	
+00:24.562.582	Default	UserEventAgent (31)	com.apple.duetactivityscheduler	activityRateLimiter	<private> is rate limited by submission rate limiter by 30 min from now	
+00:24.562.878	Default	UserEventAgent (31)	com.apple.xpc.activity	Activities	Registered: com.apple.sessionkit.wake (0x98344d180)	
+00:24.563.519	Debug	dasd (80)	com.apple.duetactivityscheduler	processRateLimiter	'com.apple.sessionkit.wake:19130C' is timewise eligible for rate limit configuration liveactivitiesd while device LPM state is 0	
+00:24.563.678	Debug	dasd (80)	com.apple.CoreAnalytics.event	send	<private> <private>	
+00:24.563.699	Default	dasd (80)	com.apple.duetactivityscheduler	default	Submitted: com.apple.sessionkit.wake:19130C at priority 30 (Mon Nov 18 12:24:39 2024 - Mon Nov 18 12:09:30 2024)	
+00:24.563.857	Debug	dasd (80)	com.apple.duetactivityscheduler	DependencyManager	Ignoring dependency monitoring for <private>; has not declared itself as involved in any chain	
+00:24.563.936	Debug	analyticsd (110)	com.apple.analyticsd.critical	db	[Config Store] Retrieving transforms for event with name '<private>'	
+00:24.564.314	Default	dasd (80)	com.apple.duetactivityscheduler	scoring	<private>: Optimal Score 0.5525 at <private> (Valid Until: <private>)	
+00:24.564.733	Debug	analyticsd (110)	com.apple.analyticsd.critical	xform	[Transform Factory] No Transform aggregation period specified.	
+00:24.564.785	Debug	analyticsd (110)	com.apple.analyticsd.critical	xform_cache	[Transform Cache] Cache miss. Loading <private> - <private> for input event <private>	
+00:24.567.702	Debug	analyticsd (110)	com.apple.analyticsd.critical	xform	[Transform Factory] No Transform aggregation period specified.	
+00:24.567.761	Debug	analyticsd (110)	com.apple.analyticsd.critical	xform_cache	[Transform Cache] Cache miss. Loading <private> - <private> for input event <private>	
+00:24.568.390	Debug	analyticsd (110)	com.apple.analyticsd.critical	xform_cache	[Transform Cache] Cache performance for input event <private>: { transforms: 2, hit: 0, loaded: 2, inserted: 2}	
+00:24.581.732	Debug	thermalmonitord (64)	libIOReport.dylib	Default	iterated 1 channels with 1 iterations	
+00:24.583.082	Debug	thermalmonitord (64)	libIOReport.dylib	Default	iterated 14 channels with 14 iterations	
+00:24.603.779	Default	MTLCompilerService (1695)	MTLCompiler	Default	Compilation SUCCESS (ParentProcessName=Photos_1680) (TYPE=MTLBuildFunctions - pipeline): Time 45.6080 ms 	
+00:24.604.394	Default	MTLCompilerService (1695)	MTLCompiler	Default	Compilation BEGIN (ParentProcessName=Photos_1680) Build request: MTLSpecializeFunctionToArchive - function specialization	
+00:24.605.293	Default	MTLCompilerService (1695)	MTLCompiler	Default	Compilation SUCCESS (ParentProcessName=Photos_1680) (TYPE=MTLSpecializeFunctionToArchive - function specialization): Time 0.8835 ms 	
+00:24.605.542	Default	MTLCompilerService (1695)	MTLCompiler	Default	Compilation BEGIN (ParentProcessName=Photos_1680) Build request: MTLSpecializeFunctionToArchive - function specialization	
+00:24.605.684	Debug	DTServiceHub (360)	DVTInstrumentsFoundation	Default	Data Size: 100,708, Rows Sent: 1,208, Stack depth: 4,345	
+00:24.606.456	Default	MTLCompilerService (1695)	MTLCompiler	Default	Compilation SUCCESS (ParentProcessName=Photos_1680) (TYPE=MTLSpecializeFunctionToArchive - function specialization): Time 0.8818 ms 	
+00:24.616.492	Default	MTLCompilerService (1695)	MTLCompiler	Default	Compilation BEGIN (ParentProcessName=Photos_1680) Build request: MTLBuildFunctions - pipeline	
+00:24.620.208	Default	MTLCompilerService (1695)	MTLCompiler	Default	Compilation SUCCESS (ParentProcessName=Photos_1680) (TYPE=MTLBuildFunctions - pipeline): Time 3.6863 ms 	
+00:24.621.042	Default	MTLCompilerService (1695)	MTLCompiler	Default	Compilation BEGIN (ParentProcessName=Photos_1680) Build request: MTLSpecializeFunctionToArchive - function specialization	
+00:24.630.114	Default	MTLCompilerService (1695)	MTLCompiler	Default	Compilation SUCCESS (ParentProcessName=Photos_1680) (TYPE=MTLSpecializeFunctionToArchive - function specialization): Time 9.0439 ms 	
+00:24.630.346	Default	MTLCompilerService (1695)	MTLCompiler	Default	Compilation BEGIN (ParentProcessName=Photos_1680) Build request: MTLBuildFunctions - pipeline	
+00:24.642.366	Default	MTLCompilerService (1695)	MTLCompiler	Default	Compilation SUCCESS (ParentProcessName=Photos_1680) (TYPE=MTLBuildFunctions - pipeline): Time 11.9894 ms 	
+00:24.642.881	Default	MTLCompilerService (1695)	MTLCompiler	Default	Compilation BEGIN (ParentProcessName=Photos_1680) Build request: MTLSpecializeFunctionToArchive - function specialization	
+00:24.643.706	Default	MTLCompilerService (1695)	MTLCompiler	Default	Compilation SUCCESS (ParentProcessName=Photos_1680) (TYPE=MTLSpecializeFunctionToArchive - function specialization): Time 0.8093 ms 	
+00:24.643.824	Default	MTLCompilerService (1695)	MTLCompiler	Default	Compilation BEGIN (ParentProcessName=Photos_1680) Build request: MTLSpecializeFunctionToArchive - function specialization	
+00:24.644.644	Default	MTLCompilerService (1695)	MTLCompiler	Default	Compilation SUCCESS (ParentProcessName=Photos_1680) (TYPE=MTLSpecializeFunctionToArchive - function specialization): Time 0.7928 ms 	
+00:24.644.986	Default	MTLCompilerService (1695)	MTLCompiler	Default	Compilation BEGIN (ParentProcessName=Photos_1680) Build request: MTLSpecializeFunctionToArchive - function specialization	
+00:24.645.678	Default	MTLCompilerService (1695)	MTLCompiler	Default	Compilation SUCCESS (ParentProcessName=Photos_1680) (TYPE=MTLSpecializeFunctionToArchive - function specialization): Time 0.6792 ms 	
+00:24.645.770	Default	MTLCompilerService (1695)	MTLCompiler	Default	Compilation BEGIN (ParentProcessName=Photos_1680) Build request: MTLSpecializeFunctionToArchive - function specialization	
+00:24.646.436	Default	MTLCompilerService (1695)	MTLCompiler	Default	Compilation SUCCESS (ParentProcessName=Photos_1680) (TYPE=MTLSpecializeFunctionToArchive - function specialization): Time 0.6536 ms 	
+00:24.666.494	Default	MTLCompilerService (1695)	MTLCompiler	Default	Compilation BEGIN (ParentProcessName=Photos_1680) Build request: MTLSpecializeFunctionToArchive - function specialization	
+00:24.672.391	Debug	backboardd (68)	com.apple.BackBoard	MotionEvents	Motion event usagePage:0xff0c usage:1 	
+00:24.672.546	Info	locationd (74)	com.apple.locationd.Motion	AOP	{"msg":"received AOP log", "log":72 Bytes}	
+00:24.675.227	Default	MTLCompilerService (1695)	MTLCompiler	Default	Compilation SUCCESS (ParentProcessName=Photos_1680) (TYPE=MTLSpecializeFunctionToArchive - function specialization): Time 8.7149 ms 	
+00:24.675.384	Default	MTLCompilerService (1695)	MTLCompiler	Default	Compilation BEGIN (ParentProcessName=Photos_1680) Build request: MTLBuildFunctions - pipeline	
+00:24.705.330	Default	MTLCompilerService (1695)	MTLCompiler	Default	Compilation SUCCESS (ParentProcessName=Photos_1680) (TYPE=MTLBuildFunctions - pipeline): Time 29.9300 ms 	
+00:24.705.836	Default	MTLCompilerService (1695)	MTLCompiler	Default	Compilation BEGIN (ParentProcessName=Photos_1680) Build request: MTLSpecializeFunctionToArchive - function specialization	
+00:24.706.751	Default	MTLCompilerService (1695)	MTLCompiler	Default	Compilation SUCCESS (ParentProcessName=Photos_1680) (TYPE=MTLSpecializeFunctionToArchive - function specialization): Time 0.8985 ms 	
+00:24.707.058	Default	MTLCompilerService (1695)	MTLCompiler	Default	Compilation BEGIN (ParentProcessName=Photos_1680) Build request: MTLSpecializeFunctionToArchive - function specialization	
+00:24.707.848	Default	MTLCompilerService (1695)	MTLCompiler	Default	Compilation SUCCESS (ParentProcessName=Photos_1680) (TYPE=MTLSpecializeFunctionToArchive - function specialization): Time 0.7753 ms 	
+00:24.721.095	Default	MTLCompilerService (1695)	MTLCompiler	Default	Compilation BEGIN (ParentProcessName=Photos_1680) Build request: MTLBuildFunctions - pipeline	
+00:24.725.413	Default	MTLCompilerService (1695)	MTLCompiler	Default	Compilation SUCCESS (ParentProcessName=Photos_1680) (TYPE=MTLBuildFunctions - pipeline): Time 4.3006 ms 	
+00:24.727.147	Default	MTLCompilerService (1695)	MTLCompiler	Default	Compilation BEGIN (ParentProcessName=Photos_1680) Build request: MTLSpecializeFunctionToArchive - function specialization	
+00:24.730.550	Debug	backboardd (68)	com.apple.BackBoard	MotionEvents	Motion event usagePage:0xff0c usage:1 	
+00:24.730.700	Debug	locationd (74)	com.apple.locationd.Motion	Motion	visitKFFilteredPressure,nowAP,753,594,879.6692,nowAOP,349,892,676,897,filteredPressure,102,628.3906,pressureTimestamp,349,889,956,575,kfElevation,-107.9627,wallTimePressureCorrected,753,594,876.9488,wallTimeKFCorrected,753,594,879.6352,temperatureDerivative,0.0000,absAltUnc,-0.0000	
+00:24.730.819	Debug	locationd (74)	com.apple.locationd.Motion	Altimeter	received KF filtered pressure from AOP,now,<private>,filteredPressureTimestamp,<private>,filteredPressure,<private>,kfTimestamp,<private>,kfElevation,<private>,kfPressure,<private> temperature,<private>,absAltUnc,<private>	
+00:24.730.875	Debug	locationd (74)	com.apple.locationd.Motion	Altimeter	{"msg":"kfPressure source updated with", "timestamp_s":"<private>", "kfPressure":"<private>", "kfElevation":"<private>", "absAltUncertainty":"<private>"}	
+00:24.731.998	Debug	SpringBoard (34)	com.apple.locationd.Motion	Motion	Ping timer fired, resetting watchdog	
+00:24.733.517	Default	MTLCompilerService (1695)	MTLCompiler	Default	Compilation SUCCESS (ParentProcessName=Photos_1680) (TYPE=MTLSpecializeFunctionToArchive - function specialization): Time 6.3475 ms 	
+00:24.733.706	Default	MTLCompilerService (1695)	MTLCompiler	Default	Compilation BEGIN (ParentProcessName=Photos_1680) Build request: MTLBuildFunctions - pipeline	
+00:24.734.366	Debug	backboardd (68)	com.apple.CoreBrightness.ColourSensorFilterPlugin	default	Color: X=166.7316(53.0723) Y=158.7535(50.5328) Z=61.0945(19.4470) 
+	
+00:24.734.445	Default	backboardd (68)	com.apple.CoreBrightness.ColourSensorFilterPlugin	default	[ALS] ts=48,694.1762 lux=177.7188<private> xy=(0.4313 0.4107) chs=[1,027.0000 2,792.0000 7,058.0000 10,163.0000 10,616.0000] CCT1=3,306.3772 gain=512x mode=<private> subsamples=24 rawLux=183.9540 nits=1,083 xTalk=[9 18 34 46 61] status=0xb copyEvent=0	
+00:24.734.580	Debug	locationd (74)	com.apple.locationd.Position	Position	AmbientLight,DecisionTree,x,186.6499,y,177.7188,z,68.3931,out,3	
+00:24.734.605	Debug	backboardd (68)	com.apple.CoreBrightness.CBColorModule.Primary	default	key=ALSIntegrationMode result=	
+00:24.734.642	Debug	locationd (74)	com.apple.locationd.Position	Position	AmbientLightDecisionTreeOutput,3	
+00:24.734.670	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[4]: 	
+00:24.734.711	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[2]: ALSIntegrationMode	
+00:24.734.760	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[2]: ALSIntegrationMode result=3	
+00:24.734.807	Debug	backboardd (68)	com.apple.CoreBrightness.CBABModuleiOS	default	key=ALSIntegrationMode result=3	
+00:24.734.847	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayContaineriOS	BuiltIn	key=ALSIntegrationMode result=3	
+00:24.734.890	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[4]: _plugInEnabled=1	
+00:24.734.928	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[4]: 0xdb4ccd900 0xdb61f9ff0	
+00:24.734.973	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[10]: 177.7188 	
+00:24.735.009	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[10]: als->_Esensor_device=177.7188	
+00:24.735.053	Debug	backboardd (68)	com.apple.CoreBrightness.CBALSEvent	default	Tristimulus values: XYZ[0]=59.4125, XYZ[1]=56.5696, XYZ[2]=21.7702 | CCT1=3,306.3772	
+00:24.735.095	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[2]: _luxFilter=3 als->_Ehistory_max=8	
+00:24.735.189	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[10]: Median filter computed on 8 samples	
+00:24.735.235	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	Median filter computed on 8 samples	
+00:24.735.320	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[10]: ts=48,694.1758 Esensor=175.4623 Emedian=167.9539	
+00:24.735.426	Info	backboardd (68)	com.apple.CoreBrightness.AABRear.CBRearALSModule	default	Copy Grimaldi Lux = 53.1979	
+00:24.735.481	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	E 167.9539, Ecapped 167.9539, EmaxCap -1.0000 => finalE 167.9539	
+00:24.735.568	Debug	backboardd (68)	com.apple.CoreBrightness.AABRear	default	AABRear: shouldUseRearLuxFrontLux called with (fLux:167.9539, rLux:53.1979, cap: 1,892.3230)	
+00:24.735.628	Debug	backboardd (68)	com.apple.CoreBrightness.AABRear	default	AABRear: using rear? 0	
+00:24.735.715	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	E 167.9539, Ecapped 167.9539, EmaxCap -1.0000 => finalE 167.9539	
+00:24.735.778	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayContaineriOS	BuiltIn	Notification block key=RLuxStats, value=<private>
+	
+00:24.735.834	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	Handle notification for key = RLuxStats and property = <private>	
+00:24.735.906	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayContaineriOS	BuiltIn	Notification block key=TrustedLux, value=167.9539
+	
+00:24.735.950	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	Handle notification for key = TrustedLux and property = 167.9539	
+00:24.736.078	Default	backboardd (68)	com.apple.coreanimation	Brightness	Display 1 commitBrightness sdr: -1.0000, headroom: -1.0000, ambient lux: 167.9539, filtered ambient: -1.0000, limit: -1.0000, low ambient strength: -1.0000, high ambient strength: -1.0000, brightness ctl disabled 18,446,744,073,709,551,615
+	
+00:24.736.098	Info	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	Set trusted lux = 167.9539	
+00:24.736.284	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayContaineriOS	BuiltIn	Notification block key=TrustedFrontLux, value=166.8913
+	
+00:24.736.331	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	Handle notification for key = TrustedFrontLux and property = 166.8913	
+00:24.736.377	Default	backboardd (68)	com.apple.CoreBrightness.AABC	default	trusted Lux: 167.9539, trusted front Lux: 167.9539, trusted capped Lux: 167.9539	
+00:24.736.451	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[10]: _Esensor_filtered=167.9539 _Esensor_trusted=167.9539 _Esensor_aggregated=167.9539	
+00:24.736.510	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayContaineriOS	BuiltIn	Notification block key=Lux, value=167.9539
+	
+00:24.736.579	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	Handle notification for key = Lux and property = 167.9539	
+00:24.736.692	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[10]: _Esensor_trusted=167.9539 _state=kAABStateAutoBrightness _proxState=kProxNone _touchIsObstucted=0 _settings._internal._dimPolicy=kDimPolicyFullDimming 3 _orientation=kIOHIDDisplayOrientationTypeAmbiguous	
+00:24.736.753	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	E 167.9539, Ecapped 167.9539, EmaxCap -1.0000 => finalE 167.9539	
+00:24.736.779	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[1/1] Esensor_device: 177.7188 als->_Esensor_filtered: 167.9539 _Esensor_trusted: 167.9539  L: 192.5042 L_reflected: 1.0692	
+00:24.736.803	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[10]: dimRestriction=kDimRestrictionUnrestricted	
+00:24.736.823	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	Superbright EDR restrictions [would be]: CLTM 1,512.3809, UPO 2,175.0000, bottom [lower] restriction 1.0000, nits cap hdr: 2,175.0000, after BDM: 1,600.0000	
+00:24.736.836	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	Ambient change - SetLibEDRBrightness - physicalBrightness:118.8318, maxLum: 1,600.0000, edrState: 0, lux: 167.9539, brightness boost: 1.1381
+	
+00:24.736.860	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	SetLibEDRBrightness to currentBrightness=118.8318, maxBrightness=1,600.0000, currentLux=167.9539, compensationBoost=1.1381	
+00:24.736.877	Debug	backboardd (68)	CoreBrightness	Default	CBEDRServerDisplayBrightness: display: 0 | target: 118.8318 | max: 1,600.0000 | ambient: 167.9539 | boost=1.1381	
+00:24.736.907	Info	backboardd (68)	libEDR	Default	libEDR - EDRServerSetDisplayBrightnessForDisplay: (display: 0, targetBrightness: 118.8318, maxLuminance: 1,600.0000, ambientIlluminance: 167.9539, brightnessScaler: 1.1381)
+	
+00:24.736.929	Info	backboardd (68)	libEDR	Default	libEDR - NotificationCallback: (type: kEDRNotifyBrightness, display: 0, brightness: 0.0743, backlight: 0.0743, edrScaler: 1.0000, maxLuminance: 1,600.0000, ambientIlluminance: 167.9539, brightnessScaler: 1.1381)
+	
+00:24.736.941	Info	backboardd (68)	libEDR	Default	libEDR - PostNotification: (display: 0, brightness: 0.0743, backlight: 0.0743, edrScaling: 1.0000, maxLuminance: 1,600.0000, ambientIlluminance: 167.9539, brightnessScaler: 1.1381)
+	
+00:24.736.970	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	Set capped lux to IOMFB 167.9539 (167.9539)	
+00:24.737.334	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[4]: 	
+00:24.737.356	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[200]: inputs: L=192.5042 (shouldRamp=true dimRestriction=kDimRestrictionUnrestricted _Esensor_trusted=167.9539) curveChanged=0	
+00:24.737.381	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[200]: _fastRampMode=0 dimRestriction=kDimRestrictionUnrestricted L_newtarget=192.5042 _L_current=76.2887 _L_minimum=192.4365	
+00:24.737.425	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	PLT	shallUpdateBacklight: Pstart=0.7645 Pcurrent=0.7645 Pnewtarget=0.7551 Pdelta=-0.0094 Pthreshold_dim=0.0500 (0.1000 * 0.5000) Pthreshold_brighten=0.1000 (0.1000 * 1.0000) plt_x=0.2500 plt_y=0.3700 plt_z=0.1000	
+00:24.737.466	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[200]: _L_target=205.5501 Pnewtarget=0.7551 Ptarget=0.7645 Pdelta=-0.0094  	
+00:24.737.505	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[200]: systemShallUpdateBacklight=false L_target=192.5042 timeConstant=0.0000	
+00:24.737.607	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	Handle notification for key = TrustedLux and property = 167.9539	
+00:24.737.731	Default	backboardd (68)	com.apple.coreanimation	Brightness	Display 1 commitBrightness sdr: -1.0000, headroom: -1.0000, ambient lux: 167.9539, filtered ambient: -1.0000, limit: -1.0000, low ambient strength: -1.0000, high ambient strength: -1.0000, brightness ctl disabled 18,446,744,073,709,551,615
+	
+00:24.737.757	Info	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	Set trusted lux = 167.9539	
+00:24.737.805	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayContaineriOS	BuiltIn	Notification block key=TrustedLux, value=167.9539
+	
+00:24.737.963	Debug	backboardd (68)	com.apple.CoreBrightness.CBALSEvent	default	Tristimulus values: XYZ[0]=59.4125, XYZ[1]=56.5696, XYZ[2]=21.7702 | CCT1=3,306.3772	
+00:24.738.015	Debug	backboardd (68)	com.apple.CoreBrightness.CBALSNode	default	<private>	
+00:24.738.063	Debug	backboardd (68)	com.apple.CoreBrightness.CBBrightestALSFilter	default	ALS events <private>	
+00:24.738.111	Info	backboardd (68)	com.apple.CoreBrightness.CBColorPolicyFilter	default	HarmonyPolicy: Sample IS  from mitigated region	
+00:24.738.151	Info	backboardd (68)	com.apple.CoreBrightness.CBColorPolicyFilter	default	HarmonyPolicy: BaselineHarmony: mitigatedStr, for (lux, nits): 177.0000, 1,083.0000 = 0.1300 (rounded)	
+00:24.738.190	Info	backboardd (68)	com.apple.CoreBrightness.CBColorPolicyFilter	default	HarmonyPolicy: Sample IS NOT from CE region	
+00:24.738.234	Info	backboardd (68)	com.apple.CoreBrightness.CBColorPolicyFilter	default	HarmonyPolicy: Incoming ALS sample, pushed to queue: <private>	
+00:24.738.298	Info	backboardd (68)	com.apple.CoreBrightness.CBColorPolicyFilter	default	HarmonyPolicy: _filteredALS: <private>, _filtered strength: 0.2700	
+00:24.738.335	Debug	backboardd (68)	com.apple.CoreBrightness.CBColorModule.Primary	default	ALS event with orientation = 1	
+00:24.738.376	Info	backboardd (68)	com.apple.CoreBrightness.CBColorModule.Primary	default	HarmonyPolicy: Using Baseline	
+00:24.738.412	Debug	backboardd (68)	com.apple.CoreBrightness.CBColorModule.Primary	default	input ambient color sample: xy = (0.4313;0.4107)	
+00:24.738.469	Debug	backboardd (68)	CoreBrightness	Default	LOWLUX 56.5696
+	
+00:24.738.533	Debug	backboardd (68)	CoreBrightness	Default	[ColorEffects.c:_CFXRestrictLowAmbientColor] xy=(0.4313,0.4107), CCT = 3,155.0000, CCT1 = 3,306.3772	
+00:24.738.585	Debug	backboardd (68)	CoreBrightness	Default	Restrict: (16.9130, 16.9130) -> (13.5189, 46.8408)
+	
+00:24.738.635	Debug	backboardd (68)	CoreBrightness	Default	60.9926 16.9130 58.6008 -> ANGLE 1.6825 -> BIN 2	
+00:24.738.685	Debug	backboardd (68)	CoreBrightness	Default	BIN 13: (0.4313, 0.4107) fitting in (0.4150, 0.3821)-(0.4373, 0.3893)-(0.4303, 0.4173)
+	
+00:24.738.754	Info	backboardd (68)	com.apple.CoreBrightness.CBColorModule.Primary	default	Set ambient color sample ALS event = [Orientation = 1; Illuminance = 177.000000; xy = (0.431299,0.410662); XYZ = (59.412525,56.569645,21.770191); CCT1 = 3306.377197; Integration time = 0.002906; Gain = 33554432; Obstructed = 0; First = 0, mitigation = 1, timestamp = 87739770]	
+00:24.738.903	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=RLuxStats value=<private>	
+00:24.738.954	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=RLuxStats property=<private>	
+00:24.739.004	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	passed for client 58881740544	
+00:24.739.169	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=<private> value=<private>	
+00:24.739.212	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=<private> property=<private>	
+00:24.739.261	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=TrustedLux value=167.9539	
+00:24.739.301	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=TrustedLux property=167.9539	
+00:24.739.325	Debug	PerfPowerServices (1452)	com.apple.CoreBrightness	default	key=<private> property=<private> queue=0x97ede5100 clientBlock=0x97e365e90	
+00:24.739.346	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	passed for client 58870513280	
+00:24.739.415	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=<private> value=167.9539	
+00:24.739.445	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=<private> property=167.9539	
+00:24.739.461	Info	PerfPowerServices (1452)	com.apple.CoreBrightness.BSCI	default	use_synchronous_remote=1	
+00:24.739.475	Debug	locationd (74)	com.apple.CoreBrightness	default	key=<private> property=167.9539 queue=0x838c59d80 clientBlock=0x838ae4840	
+00:24.739.478	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=TrustedFrontLux value=166.8913	
+00:24.739.541	Default	PerfPowerServices (1452)	com.apple.xpc	connection	[0x97ef066c0] activating connection: mach=1 listener=0 peer=0 name=com.apple.backlightd	
+00:24.739.552	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=TrustedFrontLux property=166.8913	
+00:24.739.577	Debug	locationd (74)	com.apple.locationd.Position	Outdoor	AmbientLight,context,<private>,startTime,<private>,lux,<private>	
+00:24.739.690	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=<private> value=166.8913	
+00:24.739.727	Default	PerfPowerServices (1452)	com.apple.CoreBrightness	default	Register notification block	
+00:24.739.782	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=<private> property=166.8913	
+00:24.739.901	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=Lux value=167.9539	
+00:24.739.933	Default	backboardd (68)	com.apple.xpc	connection	[0xdb508aa80] activating connection: mach=0 listener=0 peer=1 name=com.apple.backlightd.peer[1452].0xdb508aa80	
+00:24.740.029	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=Lux property=167.9539	
+00:24.740.118	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=<private> value=167.9539	
+00:24.740.187	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=<private> property=167.9539	
+00:24.740.242	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=TrustedLux value=167.9539	
+00:24.740.341	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=TrustedLux property=167.9539	
+00:24.740.378	Info	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	client=58903570112 key=<private>	
+00:24.740.380	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	passed for client 58870513280	
+00:24.740.459	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=<private> value=167.9539	
+00:24.740.509	Debug	locationd (74)	com.apple.CoreBrightness	default	key=<private> property=167.9539 queue=0x838c59d80 clientBlock=0x838ae4840	
+00:24.740.533	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=<private> property=167.9539	
+00:24.740.599	Debug	locationd (74)	com.apple.locationd.Position	Outdoor	AmbientLight,context,<private>,startTime,<private>,lux,<private>	
+00:24.740.600	Debug	backboardd (68)	com.apple.CoreBrightness.CBColorModule.Primary	default	key=<private> result=<private>	
+00:24.740.660	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayContaineriOS	BuiltIn	key=<private> result=<private>	
+00:24.740.744	Info	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=<private> result=<private>	
+00:24.741.013	Debug	PerfPowerServices (1452)	com.apple.CoreBrightness.Client	Default	BSC dealloc	
+00:24.741.062	Default	PerfPowerServices (1452)	com.apple.CoreBrightness	default	Register notification block	
+00:24.741.111	Default	PerfPowerServices (1452)	com.apple.xpc	connection	[0x97ef066c0] invalidated because the current process cancelled the connection by calling xpc_connection_cancel()	
+00:24.741.158	Default	backboardd (68)	com.apple.xpc	connection	[0xdb508aa80] invalidated because the client process (pid 1,452) either cancelled the connection or exited	
+00:24.741.166	Debug	PerfPowerServices (1452)	com.apple.powerlog	display	Received notification for CBrLuxStats: <private>	
+00:24.741.226	Debug	PerfPowerServices (1452)	com.apple.CoreBrightness.BSCI	default	BSCI dealloc	
+00:24.741.259	Default	PerfPowerServices (1452)	com.apple.CoreBrightness	default	Register notification block	
+00:24.757.047	Debug	backboardd (68)	com.apple.BackBoard	MotionEvents	Motion event usagePage:0xff0c usage:1 	
+00:24.757.198	Debug	locationd (74)	com.apple.locationd.Motion	AOP	MotionCoprocessor received TimeSync data machTimestamp,<private>,oscarTimestamp,<private>	
+00:24.759.072	Default	MTLCompilerService (1695)	MTLCompiler	Default	Compilation SUCCESS (ParentProcessName=Photos_1680) (TYPE=MTLBuildFunctions - pipeline): Time 25.3362 ms 	
+00:24.760.012	Default	MTLCompilerService (1695)	MTLCompiler	Default	Compilation BEGIN (ParentProcessName=Photos_1680) Build request: MTLBuildFunctions - pipeline	
+00:24.771.537	Default	backboardd (68)	com.apple.coreanimation	Brightness	Display 1 setting ambient lux to 167.9539
+	
+00:24.775.280	Default	MonoProxyTunnel (390)	com.apple.containermanager	unspecified	container_create_or_lookup_app_group_path_by_app_group_identifier: success	
+00:24.776.461	Debug	MonoProxyTunnel (390)	com.apple.CFBundle	resources	Resource lookup at <private>
+	Request       : InfoPlist type: strings
+	Result        : None
+	
+00:24.776.551	Debug	MonoProxyTunnel (390)	com.apple.CFBundle	resources	Resource lookup at <private>
+	Request       : InfoPlist type: stringsdict
+	Result        : None
+	
+00:24.785.506	Default	MTLCompilerService (1695)	MTLCompiler	Default	Compilation SUCCESS (ParentProcessName=Photos_1680) (TYPE=MTLBuildFunctions - pipeline): Time 25.4729 ms 	
+00:24.785.861	Default	MTLCompilerService (1695)	MTLCompiler	Default	Compilation BEGIN (ParentProcessName=Photos_1680) Build request: MTLSpecializeFunctionToArchive - function specialization	
+00:24.786.788	Default	MTLCompilerService (1695)	MTLCompiler	Default	Compilation SUCCESS (ParentProcessName=Photos_1680) (TYPE=MTLSpecializeFunctionToArchive - function specialization): Time 0.8979 ms 	
+00:24.787.082	Default	MTLCompilerService (1695)	MTLCompiler	Default	Compilation BEGIN (ParentProcessName=Photos_1680) Build request: MTLSpecializeFunctionToArchive - function specialization	
+00:24.787.980	Default	MTLCompilerService (1695)	MTLCompiler	Default	Compilation SUCCESS (ParentProcessName=Photos_1680) (TYPE=MTLSpecializeFunctionToArchive - function specialization): Time 0.8823 ms 	
+00:24.798.039	Default	MTLCompilerService (1695)	MTLCompiler	Default	Compilation BEGIN (ParentProcessName=Photos_1680) Build request: MTLBuildFunctions - pipeline	
+00:24.800.928	Info	bluetoothd (94)	com.apple.bluetooth	Stack.LE	 Invalid Dual mode support indication in AD flags 0x00000000.	
+00:24.801.036	Info	bluetoothd (94)	com.apple.bluetooth	Server.LE.Scan	Setting mfgr data:<private> len:29 id:4c	
+00:24.801.208	Default	bluetoothd (94)	com.apple.bluetooth	Server.LE.Scan	decryptProximityPairingPayload device:<private> address:<private>	
+00:24.801.265	Debug	bluetoothd (94)	com.apple.bluetooth	Server.LE.Scan	Found device "A91D708A-385E-46F0-E6C4-D8269F3F45FE Random CD:21:26:35:41:8D RSSI:-81 with data:RSSI: 0 dB (non-saturated), MFR Data: 4C 00 12 19 2A CA 1F 8D 54 B6 13 E3 63 56 85 F4 B2 14 AD 4E B1 31 46 91 44 3F 03 00 8D[AppleTypesBitmap:0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001000000000000000000], connectable, sourceCore: MainCore, IsELNAOn: 0, IsPassup: 0, IsFromSCCompensation0, IsCoexDenied0, 	
+00:24.801.327	Debug	bluetoothd (94)	com.apple.bluetooth	Server.LE.Scan	Show dup for given rule with puck type 0x12	
+00:24.801.364	Info	bluetoothd (94)	com.apple.bluetooth	Server.LE.Scan	Device "A91D708A-385E-46F0-E6C4-D8269F3F45FE" matched MFG data	
+00:24.801.401	Debug	bluetoothd (94)	com.apple.bluetooth	Server.LE.Scan	doesDeviceMatch: fAdvDataMap size:145 fMaxNumOfReportsInMap:200 fAdvDataMap size:145 Puck?:1 roomInMap:1	
+00:24.801.470	Debug	bluetoothd (94)	com.apple.bluetooth	Server.XPC	createXpcAdvData sending data:<private> length:29 originalLength:29 lenError:0	
+00:24.801.518	Debug	bluetoothd (94)	com.apple.bluetooth	Server.App	moreAvailable=0, isFromADVBuffer=0	
+00:24.801.741	Debug	bluetoothd (94)	com.apple.bluetooth	Server.LE.Scan	Show dup for given rule with puck type 0x12	
+00:24.801.779	Info	bluetoothd (94)	com.apple.bluetooth	Server.LE.Scan	Device "A91D708A-385E-46F0-E6C4-D8269F3F45FE" matched MFG data	
+00:24.801.821	Debug	bluetoothd (94)	com.apple.bluetooth	Server.LE.Scan	doesDeviceMatch: fAdvDataMap size:145 fMaxNumOfReportsInMap:200 fAdvDataMap size:145 Puck?:1 roomInMap:1	
+00:24.801.877	Debug	bluetoothd (94)	com.apple.bluetooth	Server.XPC	createXpcAdvData sending data:<private> length:29 originalLength:29 lenError:0	
+00:24.801.921	Debug	bluetoothd (94)	com.apple.bluetooth	Server.App	moreAvailable=0, isFromADVBuffer=0	
+00:24.801.934	Debug	locationd (74)	com.apple.locationd.Core	AvengerScanner	{"msg":"didDiscoverPeripheral", "ClientId":CLDurianService, "peripheral":<private>, "advertisementData":<private>}	
+00:24.802.027	Debug	locationd (74)	com.apple.locationd.Core	Harvester	{"msg":"#CLAvengerReconciler advertisement reconciled: ", "ownerUUID":<private>, "nonownerUUID":<private>, "address":<private>, "uuidMap":<private>}	
+00:24.802.088	Debug	bluetoothd (94)	com.apple.bluetooth	Server.LE.Scan	Show dup for given rule with puck type 0x12	
+00:24.802.100	Debug	locationd (74)	com.apple.locationd.Core	Harvester	{"msg":"#CLAvengerReconciler: creating CLAvengerScannerReconciledInformation", "reconciledInformation.description":<private>}	
+00:24.802.123	Info	bluetoothd (94)	com.apple.bluetooth	Server.LE.Scan	Device "A91D708A-385E-46F0-E6C4-D8269F3F45FE" matched MFG data	
+00:24.802.156	Debug	bluetoothd (94)	com.apple.bluetooth	Server.LE.Scan	doesDeviceMatch: fAdvDataMap size:145 fMaxNumOfReportsInMap:200 fAdvDataMap size:145 Puck?:1 roomInMap:1	
+00:24.802.208	Debug	bluetoothd (94)	com.apple.bluetooth	Server.XPC	createXpcAdvData sending data:<private> length:29 originalLength:29 lenError:0	
+00:24.802.232	Default	locationd (74)	com.apple.locationd.Position	Proximity	{"msg":"#durian onAvengerAdvertisement", "address":<private>, "date":Mon Nov 18 11:54:39 2024, "data":<private>, "status":<private>, "needsmaint":<private>, "isWild":<private>, "uuid":<private>}	
+00:24.802.250	Debug	bluetoothd (94)	com.apple.bluetooth	Server.App	moreAvailable=0, isFromADVBuffer=0	
+00:24.802.252	Debug	locationd (74)	com.apple.locationd.Core	AvengerScanner	{"msg":"didDiscoverPeripheral", "ClientId":CLSubHarvesterAvenger, "peripheral":<private>, "advertisementData":<private>}	
+00:24.802.334	Debug	locationd (74)	com.apple.locationd.Core	Harvester	{"msg":"#CLAvengerReconciler advertisement reconciled: ", "ownerUUID":<private>, "nonownerUUID":<private>, "address":<private>, "uuidMap":<private>}	
+00:24.802.394	Debug	locationd (74)	com.apple.locationd.Core	Harvester	{"msg":"#CLAvengerReconciler: creating CLAvengerScannerReconciledInformation", "reconciledInformation.description":<private>}	
+00:24.802.502	Default	locationd (74)	com.apple.locationd.Core	Harvester	{"msg":"onAvengerAdvertisementDetected: got avenger advertisement", "subHarvester":11}	
+00:24.802.504	Debug	bluetoothd (94)	com.apple.bluetooth	Server.LE.Scan	No match found for device "A91D708A-385E-46F0-E6C4-D8269F3F45FE"	
+00:24.802.550	Debug	bluetoothd (94)	com.apple.bluetooth	Server.LE.Scan	Show dup for given rule with puck type 0x12	
+00:24.802.600	Default	locationd (74)	com.apple.locationd.Core	Harvester	{"msg":"convertToSPAdvertisement", "address":<private>, "data":<private>, "date":<private>, "rssi":<private>, "status":<private>, "reserved":<private>, "subHarvester":11}	
+00:24.802.655	Debug	locationd (74)	com.apple.locationd.Core	AvengerScanner	{"msg":"didDiscoverPeripheral", "ClientId":CLTrackingAvoidanceService, "peripheral":<private>, "advertisementData":<private>}	
+00:24.802.669	Default	locationd (74)	com.apple.locationd.Core	Harvester	{"msg":"derivedPruneHarvest", "cacheSize":1, "beaconPayloadCacheSize":0, "subHarvester":11}	
+00:24.802.699	Info	bluetoothd (94)	com.apple.bluetooth	Server.LE.Scan	Device "A91D708A-385E-46F0-E6C4-D8269F3F45FE" matched MFG data	
+00:24.802.847	Debug	locationd (74)	com.apple.locationd.Core	Harvester	{"msg":"#CLAvengerReconciler advertisement reconciled: ", "ownerUUID":<private>, "nonownerUUID":<private>, "address":<private>, "uuidMap":<private>}	
+00:24.802.879	Debug	bluetoothd (94)	com.apple.bluetooth	Server.LE.Scan	doesDeviceMatch: fAdvDataMap size:96 fMaxNumOfReportsInMap:200 fAdvDataMap size:96 Puck?:1 roomInMap:1	
+00:24.802.960	Info	locationd (74)	com.apple.locationd.Core	Harvester	{"msg":"processAdvertisementCache with last location", "subHarvester":11}	
+00:24.803.049	Debug	bluetoothd (94)	com.apple.bluetooth	Server.XPC	createXpcAdvData sending data:<private> length:29 originalLength:29 lenError:0	
+00:24.803.086	Debug	locationd (74)	com.apple.locationd.Core	Harvester	{"msg":"#CLAvengerReconciler: creating CLAvengerScannerReconciledInformation", "reconciledInformation.description":<private>}	
+00:24.803.174	Debug	bluetoothd (94)	com.apple.bluetooth	Server.App	moreAvailable=0, isFromADVBuffer=0	
+00:24.803.228	Default	locationd (74)	com.apple.locationd.Core	Harvester	{"msg":"geotagSingleAdvertisement: advertisement within valid time window for location", "timeOffset":"-10.8601", "fCurrentTimeOffsetThreshold":"45.0000", "subHarvester":11}	
+00:24.803.407	Debug	locationd (74)	com.apple.locationd.Position	TrackingAvoidance	#ut received advertisement	
+00:24.803.459	Debug	bluetoothd (94)	com.apple.bluetooth	Server.LE.Scan	No match found for device "A91D708A-385E-46F0-E6C4-D8269F3F45FE"	
+00:24.803.477	Info	locationd (74)	com.apple.locationd.Core	Harvester	{"msg":"geotagAdvertisements: completed process", "fAdvertisementCache.count":1, "saveableAdvertisements.count":1, "purgeableAdvertisements.count":0, "subHarvester":11}	
+00:24.803.562	Debug	bluetoothd (94)	com.apple.bluetooth	Server.LE.Scan	Agents: com.apple.locationd-central-74-54 hashedUUIDs=0 Nbmatchrules=1 ServiceUUID=2 | com.apple.locationd-central-74-62 hashedUUIDs=0 Nbmatchrules=1 ServiceUUID=2 | com.apple.locationd-central-74-69 hashedUUIDs=0 Nbmatchrules=1 ServiceUUID=2 | com.apple.locationd-central-74-124 hashedUUIDs=0 Nbmatchrules=1 ServiceUUID=2 | 	
+00:24.803.613	Debug	locationd (74)	com.apple.locationd.Position	GeneralCLX	TaMetricEvent, onAvengerAdvertisement, id, <private>, <private>, <private>, 3	
+00:24.803.615	Debug	locationd (74)	com.apple.locationd.Core	AvengerScanner	{"msg":"didDiscoverPeripheral", "ClientId":CLAvengerObservationReporterService, "peripheral":<private>, "advertisementData":<private>}	
+00:24.803.706	Default	locationd (74)	com.apple.locationd.Core	Harvester	{"msg":"prepareAdvertisementsForSPFinder", "avengerPublicKey":0d212635418dca1f8d54b613e3635685f4b214ad4eb1314691443f03, "subHarvester":11}	
+00:24.803.780	Default	locationd (74)	com.apple.tracking-avoidance	Events	<private>	
+00:24.803.812	Debug	bluetoothd (94)	com.apple.CFBundle	strings	Bundle: <private>, key: bt_type_generic, value: , table: CBLocalizable, localizationNames: , result: Bluetooth Device	
+00:24.803.909	Debug	locationd (74)	com.apple.locationd.Core	Harvester	{"msg":"#CLAvengerReconciler advertisement reconciled: ", "ownerUUID":<private>, "nonownerUUID":<private>, "address":<private>, "uuidMap":<private>}	
+00:24.803.966	Debug	locationd (74)	com.apple.tracking-avoidance	Status	#TAStore WILD advertisement found, adding to store	
+00:24.804.328	Default	locationd (74)	com.apple.tracking-avoidance	Status	#TAStore adding:<private>	
+00:24.804.357	Info	locationd (74)	com.apple.locationd.Core	Harvester	{"msg":"prepareAdvertisementsForSPFinder", "avengerPublicKey":0d212635418dca1f8d54b613e3635685f4b214ad4eb1314691443f03, "timestamp":"<private>", "scantime":<private>, "latitude":"<private>", "longitude":"<private>", "altitude":"<private>", "rawHorizontalAccuracy":"<private>", "horizontalAccuracy":"<private>", "verticalAccuracy":"<private>", "speed":"<private>", "speedAccuracy":"<private>", "course":"<private>", "courseAccuracy":"<private>", "type":<private>, "integrity":<private>, "floor":<private>, "maxActivityBasedSpeedSinceLastLocation":"<private>", "maxActivityBasedSpeedSinceAdvertisement":"<private>", "subHarvester":11}	
+00:24.804.423	Debug	locationd (74)	com.apple.locationd.Core	Harvester	{"msg":"#CLAvengerReconciler: creating CLAvengerScannerReconciledInformation", "reconciledInformation.description":<private>}	
+00:24.804.430	Info	locationd (74)	com.apple.locationd.Core	Core	{"msg":"markReceivingLocationInformation", "Client":com.apple.locationd.bundle-/System/Library/PrivateFrameworks/FindMyDevice.framework}	
+00:24.804.521	Debug	locationd (74)	com.apple.tracking-avoidance	Status	#TAVisitState Considering to add <private> for snapshot	
+00:24.804.620	Info	locationd (74)	com.apple.locationd.Core	Harvester	{"msg":"prepareAdvertisementsForSPFinder: added beacon payload to fBeaconPayloadCache", "subHarvester":11}	
+00:24.804.668	Info	locationd (74)	com.apple.locationd.Core	Harvester	{"msg":"prepareAdvertisementsForSPFinder: added beacon payload to ActivityBasedBeaconPayloadCache for second geotagging", "subHarvester":11}	
+00:24.804.717	Info	locationd (74)	com.apple.locationd.Core	Harvester	{"msg":"pruneActivityBasedBeaconPayloadCache", "activityBasedBeaconPayloadCache count":24, "subHarvester":11}	
+00:24.804.783	Debug	locationd (74)	com.apple.CoreAnalytics.event	send	<private> <private>	
+00:24.804.825	Info	locationd (74)	com.apple.locationd.Core	Harvester	{"msg":"pruneActivityBasedBeaconPayloadCache", "prunedBeaconPayloads count":<private>, "subHarvester":11}	
+00:24.804.880	Default	locationd (74)	com.apple.locationd.Core	Harvester	{"msg":"processAdvertisementCache: completed process", "Remaining fAdvertisementCache.count":0, "fBeaconPayloadCache.count":1, "subHarvester":11}	
+00:24.804.960	Info	locationd (74)	com.apple.locationd.Core	Harvester	{"msg":"saveBeaconPayloadCacheToSPFinder", "fBeaconPayloadCache.count":<private>, "fIsCameraAppRunning":<private>, "subHarvester":11}	
+00:24.805.070	Default	locationd (74)	com.apple.icloud.SPFinder	advertisementCache	saveBeaconPayload: 1	
+00:24.805.569	Info	searchpartyd (241)	com.apple.findmy.framework.FindMyBase	transaction	Opened [TXN:SaveObservedAdvertisment.4374968B-2E12-4A9B-8677-3C086DFF6969]	
+00:24.805.924	Info	searchpartyd (241)	com.apple.icloud.searchpartyd	advertisementCache	observedAdvertisement: <private>	
+00:24.806.097	Default	searchpartyd (241)	com.apple.icloud.searchpartyd	beaconStore	wildModeAssociationRecords(advertisement: <private>)	
+00:24.806.109	Debug	analyticsd (110)	com.apple.analyticsd.critical	xform_cache	[Transform Cache] Cache performance for input event <private>: { transforms: 2, hit: 2, loaded: 0, inserted: 0}	
+00:24.806.398	Debug	searchpartyd (241)	searchpartyd	Default	Found 0 records at <private>	
+00:24.806.572	Default	MTLCompilerService (1695)	MTLCompiler	Default	Compilation SUCCESS (ParentProcessName=Photos_1680) (TYPE=MTLBuildFunctions - pipeline): Time 8.5168 ms 	
+00:24.806.675	Info	searchpartyd (241)	com.apple.icloud.searchpartyd	observationStoring	"AdvertisementCacheService did not reconcile advertisement .wild(advt: 0d212635418dca1f8d54b613e3635685f4b214ad4eb1314691443f03)!	
+00:24.806.697	Info	searchpartyd (241)	com.apple.icloud.searchpartyd	observationStoring	Ignoring status update for advertisement without beaconInformation.	
+00:24.807.469	Default	MTLCompilerService (1695)	MTLCompiler	Default	Compilation BEGIN (ParentProcessName=Photos_1680) Build request: MTLSpecializeFunctionToArchive - function specialization	
+00:24.807.829	Debug	searchpartyd (241)	com.apple.icloud.searchpartyd	observationStoring	insert(observedAdvertisement:): 1 ms	
+00:24.807.947	Info	searchpartyd (241)	com.apple.icloud.searchpartyd	publishScheduler	FindMyNetworkPublishActivityService maintaining existing criteria.	
+00:24.808.105	Info	searchpartyd (241)	com.apple.findmy.framework.FindMyBase	transaction	Closed [TXN:SaveObservedAdvertisment.4374968B-2E12-4A9B-8677-3C086DFF6969]	
+00:24.813.620	Default	MTLCompilerService (1695)	MTLCompiler	Default	Compilation SUCCESS (ParentProcessName=Photos_1680) (TYPE=MTLSpecializeFunctionToArchive - function specialization): Time 6.1228 ms 	
+00:24.813.808	Default	MTLCompilerService (1695)	MTLCompiler	Default	Compilation BEGIN (ParentProcessName=Photos_1680) Build request: MTLBuildFunctions - pipeline	
+00:24.845.292	Default	MTLCompilerService (1695)	MTLCompiler	Default	Compilation SUCCESS (ParentProcessName=Photos_1680) (TYPE=MTLBuildFunctions - pipeline): Time 31.4543 ms 	
+00:24.845.654	Debug	DTServiceHub (360)	DVTInstrumentsFoundation	Default	Data Size: 101,260, Rows Sent: 1,291, Stack depth: 4,360	
+00:24.846.314	Default	MTLCompilerService (1695)	MTLCompiler	Default	Compilation BEGIN (ParentProcessName=Photos_1680) Build request: MTLBuildFunctions - pipeline	
+00:24.876.636	Default	MTLCompilerService (1695)	MTLCompiler	Default	Compilation SUCCESS (ParentProcessName=Photos_1680) (TYPE=MTLBuildFunctions - pipeline): Time 30.3025 ms 	
+00:24.882.180	Debug	backboardd (68)	com.apple.BackBoard	MotionEvents	Motion event usagePage:0xff0c usage:1 	
+00:24.882.309	Debug	backboardd (68)	com.apple.BackBoard	MotionEvents	Motion event usagePage:0xff0c usage:1 	
+00:24.882.331	Info	locationd (74)	com.apple.locationd.Motion	AOP	{"msg":"received AOP log", "log":72 Bytes}	
+00:24.882.407	Info	locationd (74)	com.apple.locationd.Motion	AOP	{"msg":"received AOP log", "log":72 Bytes}	
+00:24.882.605	Debug	backboardd (68)	com.apple.BackBoard	MotionEvents	Motion event usagePage:0xff0c usage:1 	
+00:24.882.719	Debug	backboardd (68)	com.apple.BackBoard	MotionEvents	Motion event usagePage:0xff0c usage:1 	
+00:24.882.730	Info	locationd (74)	com.apple.locationd.Motion	Motion	Type,<private>,motionStateUpdate:Motion,4,conf,2,Mounted,1,MountedConf,2,exitState,<private>,turn,<private>,isVehicular,<private>,isMoving,<private>,seq,<private>,motionTypeString,<private>,startTime,753,594,879.8148,timestamp,<private>,startTimeUL,<private>,nowUL,<private> -- caltype,<private>,vm,<private>,standing,<private>,machinefrequency,<private>,strokefrequency,<private>,strokeAmplitude,<private>,strokepower,<private>,meanAngleX,<private>,pushVectorMagnitude,<private>,rawMotionType,4,rawConf,2,rawMotionTypeString,<private>,vehicularFlags:0,motionHint,<private>,gpsHint,<private>,basebandHint,<private>,wifiHint,<private>,btHint,<private>,workoutDetectionType,0,workoutDetectionTime,0.0000,vehicularConfidence,0,workoutDetectionTimeUL,<private>,workoutEscalationTime,<private>,MotionYouth,0,YouthClassificationReason,0,averageALSLux,18,446,744,073,709,551,615,vehicleType,0,vehicleShortTermMean,<private>	
+00:24.882.830	Info	locationd (74)	com.apple.locationd.Motion	AOP	{"msg":"received AOP log", "log":72 Bytes}	
+00:24.882.855	Debug	locationd (74)	com.apple.locationd.Motion	Motion	MotionState,Motion,From,<private>,To,<private>,conf,<private>,Mounted,From,<private>,To,<private>,conf,<private>,tilt,<private>,exitC,<private>,exitTime,<private>,startTime,<private>,timestamp,<private>,standing,<private>,rawMotionType,<private>,rawConfidence,<private>,motionHint,<private>,bbHint,<private>,wifiHint,<private>,btHint,<private>,gpsHint,<private>,vehicleType,<private>,tag,workoutDetectionType,<private>,workoutDetectionTime,<private>,workoutEscalationTime,<private>, YouthMotionState, <private>, <private>
+	
+00:24.882.862	Debug	locationd (74)	com.apple.locationd.Position	Outdoor	Activity,context,<private>,startTime,<private>,type,<private>,standing,<private>,angeX,<private>,vectorMag,<private>,strokeAmp,<private>,strokePwr,<private>,strokeFreq,<private>,machineFreq,<private>,pushVectorMag,<private>,epochType,<private>	
+00:24.882.926	Info	locationd (74)	com.apple.locationd.Position	Outdoor	Received motion state, startTime, <private>, activityType, <private>	
+00:24.882.942	Debug	locationd (74)	com.apple.locationd.Core	Notifier	{"msg":"notifyClientsWithData", "event":activity, "name":CLMotionState, "notification":0}	
+00:24.882.982	Debug	locationd (74)	com.apple.locationd.Position	Outdoor	Steps/activity sync, updateTime, <private>, hasSteps, <private>, stepCount, <private>, stepStartTime, <private>, hasActivity, <private>, activityType, <private>, activityStartTime, <private>	
+00:24.883.031	Info	locationd (74)	com.apple.locationd.Motion	IndoorOutdoor	IndoorOutdoor,ALSScan,context,<private>,lux,167.9539,t,753,594,879.6781	
+00:24.883.055	Debug	locationd (74)	com.apple.locationd.Core	Notifier	{"msg":"notifyClientsWithData", "event":activity, "name":CLMotionState, "notification":1}	
+00:24.883.087	Debug	locationd (74)	com.apple.locationd.Core	Notifier	{"msg":"CLWifiLocationProvider::onMotionNotification", "event":activity, "this":"35,309,686,784"}	
+00:24.883.147	Info	locationd (74)	com.apple.locationd.Position	Outdoor	ALSDaylightDetectorEstimate,lux,<private>,sunElevation,<private>,lowCnt,<private>,medCnt,<private>,highCnt,<private>,conf,<private>,confFilt,<private>,startTime,<private>, isAstronomicalDaytime, <private>	
+00:24.883.344	Debug	locationd (74)	com.apple.locationd.Core	Notifier	{"msg":"CLBarometricAltimeter::onMotionActivityNotification", "event":activity, "this":"35,305,742,336"}	
+00:24.883.384	Debug	locationd (74)	com.apple.locationd.Core	Notifier	{"msg":"CLGnssRefPosMaintenance::onMotionActivityNotification", "event":activity, "this":"35,306,950,400"}	
+00:24.883.402	Debug	locationd (74)	com.apple.locationd.Core	Notifier	{"msg":"CLMotionActivitySubscription::onMotionActivityNotification", "event":activity, "this":"35,309,864,576"}	
+00:24.883.432	Debug	locationd (74)	com.apple.locationd.Core	Notifier	{"msg":"CLNetworkLocationProvider::onMotionNotification", "event":activity, "this":"35,306,728,448"}	
+00:24.883.435	Debug	locationd (74)	com.apple.locationd.Core	Notifier	{"msg":"notifyClientsWithData", "event":activity, "name":CLMotionState, "notification":2}	
+00:24.883.476	Info	locationd (74)	com.apple.locationd.Motion	IndoorOutdoor	IndoorOutdoor,ALSScan,context,<private>,lux,167.9539,t,753,594,879.6791	
+00:24.883.539	Info	locationd (74)	com.apple.locationd.Position	Position	BaroAlt,motionActNoti,Type,3,Confidence,2	
+00:24.883.598	Debug	locationd (74)	com.apple.locationd.Position	WifiPosition	@WifiLogic, entry, motion	
+00:24.883.776	Default	locationd (74)	com.apple.locationd.Utility	QA	os_transaction created: (6,174,848,152) wifi1Event	
+00:24.883.814	Default	locationd (74)	com.apple.locationd.Position	Gnss	#GnssRefPosMaintenance,motionActivity,Type,3,isInVehicle,0	
+00:24.883.868	Debug	locationd (74)	com.apple.locationd.Core	Notifier	{"msg":"CLLocationController::onMotionNotification", "event":activity, "this":"35,304,865,792"}	
+00:24.883.908	Default	locationd (74)	com.apple.locationd.Position	WifiPosition	@WifiLogic, handleInput, System::CoarseMotion	
+00:24.883.941	Debug	locationd (74)	com.apple.LocationSupport	Connection	{"msg":"CLConnection::sendMessage", "name":kCLConnectionMessageMotionActivityUpdate}	
+00:24.884.028	Info	locationd (74)	com.apple.locationd.Position	Outdoor	ALSDaylightDetectorEstimate,lux,<private>,sunElevation,<private>,lowCnt,<private>,medCnt,<private>,highCnt,<private>,conf,<private>,confFilt,<private>,startTime,<private>, isAstronomicalDaytime, <private>	
+00:24.884.096	Debug	locationd (74)	com.apple.locationd.Core	Notifier	{"msg":"notifyClientsWithData", "event":activity, "name":CLMotionState, "notification":4}	
+00:24.884.138	Info	locationd (74)	com.apple.locationd.Motion	IndoorOutdoor	IndoorOutdoor,ALSResult,context,<private>,outputProb,0.2179,rawProb,0.2179,meanLux,284.9204,stdLux,59.6490,n,734,elevation,39.2981,hasLatLon,1	
+00:24.884.211	Debug	locationd (74)	com.apple.locationd.Core	Notifier	{"msg":"CLMotionActivitySubscription::onMotionActivityNotification", "event":activity, "this":"35,309,870,080"}	
+00:24.884.323	Debug	locationd (74)	com.apple.locationd.Motion	Workout	Activity,<private>,type,<private>,standing,<private>,angeX,<private>,vectorMag,<private>,strokeAmp,<private>,strokePwr,<private>,strokeFreq,<private>,machineFreq,<private>,pushVectorMag,<private>,epochType,<private>	
+00:24.884.391	Info	locationd (74)	com.apple.locationd.Motion	IndoorOutdoor	IndoorOutdoor,WifiModel,context,<private>,scanRange,135.0229,distanceTraveled,0.0000,numAps,75,invalidResult,1,stationaryProbability,0.9677,wifiRssiModelIndoorProbability,0.8417	
+00:24.884.391	Default	backboardd (68)	com.apple.AttentionAwareness	AttentionAwareness	48,694.3364: Device IS NOT stationary	
+00:24.884.584	Debug	locationd (74)	com.apple.LocationSupport	Connection	{"msg":"CLConnection::sendMessage", "name":kCLConnectionMessageMotionActivityUpdate}	
+00:24.884.625	Debug	locationd (74)	com.apple.locationd.Motion	IndoorOutdoor	in-out-metrics,context,<private>,stepDeltaDistance,<private>,gyroHeadingRadians,<private>,gpsDeltaDistance,<private>,gpsHeadingRadians,<private>,bodySum,<private>,fTurnEnv,<private>,fGPSTurnEnv,<private>,fResidScalar,<private>,fIMUDistanceX,<private>,fIMUDistanceY,<private>,fGPSDistanceX,<private>,fGPSDistanceY,<private>,fGpsWanderLLRBufferSum,<private>,fGpsLLRBufferSum,<private>,fGpsFixBufferSum,<private>,stepTimestamp,<private>,fGpsState,<private>	
+00:24.884.634	Debug	locationd (74)	com.apple.locationd.Position	LCFusion	#fusion,received motion state,<private>,mct_now,349,892.8312,start_time_cfat,753,594,879.8148,timestamp,48,694.3280,type,3,confidence,2,<private>	
+00:24.884.676	Default	locationd (74)	com.apple.locationd.Position	WifiPosition	WifiTimer, nextscan, 6, haveLoc, 1, codepath, Motion	
+00:24.884.706	Debug	locationd (74)	com.apple.locationd.Core	Notifier	{"msg":"CLMotionActivitySubscription::onMotionActivityNotification", "event":activity, "this":"35,309,877,184"}	
+00:24.884.721	Debug	locationd (74)	com.apple.locationd.Motion	IndoorOutdoor	IndoorOutdoor,context,<private>,[<private>][step],startTime,<private>,stepCount,<private>,stepDistance,<private>,rawStepDistance,<private>,	
+00:24.884.784	Debug	locationd (74)	com.apple.locationd.Motion	Workout	Background escalation manager not consuming more power than workout alerts	
+00:24.884.869	Debug	locationd (74)	com.apple.locationd.Motion	IndoorOutdoor	IndoorOutdoor,context,<private>,[<private>][turn-none],requestedSampleTime,<private>	
+00:24.885.061	Info	locationd (74)	com.apple.locationd.Motion	IndoorOutdoor	IndoorOutdoor,GPSResult,context,<private>,stepDeltaDistance,<private>,gpsDeltaDistance,<private>,fResidScalar,<private>,fIMUDistanceX,<private>,fIMUDistanceY,<private>,stepTimestamp,<private>,fGpsState,<private>,gpsDiscordanceProbability,<private>,gpsDiscordanceRawProbability,<private>,gpsDiscordance,<private>,numValidDiscordanceSamples,<private>,llrBufferSumProbability,<private>	
+00:24.885.183	Debug	locationd (74)	com.apple.locationd.Core	Notifier	{"msg":"CLMotionStateMediator::onStairsEscalationEnableDisable", "event":activity, "this":"35,306,348,544"}	
+00:24.885.194	Debug	locationd (74)	com.apple.LocationSupport	Connection	{"msg":"CLConnection::sendMessage", "name":kCLConnectionMessageMotionActivityUpdate}	
+00:24.885.223	Info	locationd (74)	com.apple.locationd.Position	Outdoor	CoreMotion model estimates, alsOutdoorProb, <private>, wifiIndoorProb, <private>, gpsOutdoorProb, <private>	
+00:24.885.254	Debug	locationd (74)	com.apple.locationd.Position	LCFusion	#motion,last known non-static dynamics mode used,mct,349,892.8312,current dynamics mode,1,last non-static dynamics mode,7,last non-static dynamics mct,349,890.9260	
+00:24.885.322	Debug	locationd (74)	com.apple.locationd.Core	Notifier	{"msg":"CLMotionActivitySubscription::onMotionActivityNotification", "event":activity, "this":"35,310,026,816"}	
+00:24.885.401	Debug	locationd (74)	com.apple.locationd.Motion	Workout	Sending stair escalation toggle update to the AOP,should enable,<private>	
+00:24.885.538	Debug	locationd (74)	com.apple.locationd.Motion	IndoorOutdoor	IndoorOutdoor detector running without turn detector.	
+00:24.885.669	Debug	locationd (74)	com.apple.LocationSupport	Connection	{"msg":"CLConnection::sendMessage", "name":kCLConnectionMessageMotionActivityUpdate}	
+00:24.885.757	Debug	locationd (74)	com.apple.locationd.Position	LCFusion	#motion,dynamics mode on motion update,mct,349,892.8312,type,3,confidence,2,old dynamics mode,1,new dynamics mode,7	
+00:24.885.839	Debug	locationd (74)	com.apple.locationd.Position	Outdoor	CLOutdoorEstimator,predict()	
+00:24.885.897	Debug	locationd (74)	com.apple.locationd.Position	LCFusion	KFCV:FilterStateLog,1,004,753,594,879.8146,349,892.8312,4,0,<private>,<private>,<private>,0.0000,-1.0000,589.7969,30.0102,0.0711,-1.0000,0.9499,1,2,0,predict state success	
+00:24.885.935	Debug	locationd (74)	com.apple.locationd.Position	Outdoor	CLOutdoorEstimator_TransitionProbability,transitionProbabilityIndoorGivenIndoor,<private>,transitionProbabilityOutdoorGivenOutdoor,<private>,EstimatorTimeCfaSec,<private>	
+00:24.886.020	Debug	locationd (74)	com.apple.locationd.Core	Notifier	{"msg":"CLMotionActivitySubscription::onMotionActivityNotification", "event":activity, "this":"35,310,032,320"}	
+00:24.886.172	Debug	SpringBoard (34)	com.apple.locationd.Motion	Pocket	Device Stationary?, <private>, Orientation, <private>, Proximity, <private>	
+00:24.886.192	Info	locationd (74)	com.apple.locationd.Position	WifiPosition	{"msg":"wifi location update request state change", "before":Request, type, none, lowPriority, no, requester, default, numOfRequestedScans, 0, timestamp, -1.0, age, 753594880.8, "after":Request, type, none, lowPriority, no, requester, default, numOfRequestedScans, 0, timestamp, -1.0, age, 753594880.8}	
+00:24.886.204	Debug	backboardd (68)	com.apple.BackBoard	MotionEvents	Motion event usagePage:0xff0c usage:1 	
+00:24.886.292	Info	locationd (74)	com.apple.locationd.Motion	AOP	{"msg":"received AOP log", "log":72 Bytes}	
+00:24.886.318	Debug	locationd (74)	com.apple.locationd.Motion	IndoorOutdoor	in-out-metrics,context,<private>,stepDeltaDistance,<private>,gyroHeadingRadians,<private>,gpsDeltaDistance,<private>,gpsHeadingRadians,<private>,bodySum,<private>,fTurnEnv,<private>,fGPSTurnEnv,<private>,fResidScalar,<private>,fIMUDistanceX,<private>,fIMUDistanceY,<private>,fGPSDistanceX,<private>,fGPSDistanceY,<private>,fGpsWanderLLRBufferSum,<private>,fGpsLLRBufferSum,<private>,fGpsFixBufferSum,<private>,stepTimestamp,<private>,fGpsState,<private>	
+00:24.886.457	Debug	locationd (74)	com.apple.locationd.Motion	IndoorOutdoor	IndoorOutdoor,context,<private>,[<private>][step],startTime,<private>,stepCount,<private>,stepDistance,<private>,rawStepDistance,<private>,	
+00:24.886.499	Debug	locationd (74)	com.apple.locationd.Position	Outdoor	CLOutdoorEstimator_updateOutdoorEstimate,startTime,<private>,mctTimestampSec,<private>,type,<private>,confidence,<private>,estimatedStateProbabilityOutdoor,<private>,isAstronomicalDaytime,<private>,daylightConfidence,<private>,EstimatorTimeCfaSec,<private>	
+00:24.886.556	Debug	locationd (74)	com.apple.locationd.Position	LCFusion	KFCV:FilterStateLog,1,004,753,594,879.8146,349,892.8312,4,0,<private>,<private>,<private>,0.0000,-1.0000,589.7969,30.0102,0.0711,-1.0000,0.9499,7,2,0,DynamicsMode-based propagation and update	
+00:24.886.593	Debug	locationd (74)	com.apple.locationd.Position	Outdoor	CLOutdoorEstimator_predict,startTime,<private>,mctTimestampSec,<private>,type,<private>,confidence,<private>,estimatedStateProbabilityOutdoor,<private>,isAstronomicalDaytime,<private>,daylightConfidence,<private>,EstimatorTimeCfaSec,<private>	
+00:24.886.650	Debug	locationd (74)	com.apple.locationd.Motion	IndoorOutdoor	IndoorOutdoor,context,<private>,[<private>][turn-none],requestedSampleTime,<private>	
+00:24.886.722	Default	locationd (74)	com.apple.locationd.Position	WifiPosition	{"msg":"CLWifi1SystemLogic::apply", "event":elapsed, "begin_mach":1,168,664,078,713, "end_mach":1,168,664,129,996, "elapsed_s":"0.0021", "event":System::CoarseMotion, "now_s":"753,594,879.8231"}	
+00:24.886.887	Info	locationd (74)	com.apple.locationd.Motion	IndoorOutdoor	IndoorOutdoor,GPSResult,context,<private>,stepDeltaDistance,<private>,gpsDeltaDistance,<private>,fResidScalar,<private>,fIMUDistanceX,<private>,fIMUDistanceY,<private>,stepTimestamp,<private>,fGpsState,<private>,gpsDiscordanceProbability,<private>,gpsDiscordanceRawProbability,<private>,gpsDiscordance,<private>,numValidDiscordanceSamples,<private>,llrBufferSumProbability,<private>	
+00:24.886.939	Debug	locationd (74)	com.apple.LocationSupport	Connection	{"msg":"CLConnection::sendMessage", "name":kCLConnectionMessageMotionActivityUpdate}	
+00:24.886.964	Default	locationd (74)	com.apple.locationd.Utility	QA	os_transaction releasing: (6,174,848,152) wifi1Event	
+00:24.886.979	Debug	locationd (74)	com.apple.locationd.Position	Outdoor	CLOutdoorEstimator,processEvidence(),Process ActivityState	
+00:24.887.099	Info	locationd (74)	com.apple.locationd.Motion	IndoorOutdoor	IndoorOutdoor,WifiModel,context,<private>,scanRange,134.9253,distanceTraveled,0.0000,numAps,75,invalidResult,1,stationaryProbability,0.9716,wifiRssiModelIndoorProbability,0.8417	
+00:24.887.187	Debug	locationd (74)	com.apple.locationd.Core	Notifier	{"msg":"CLMotionActivitySubscription::onMotionActivityNotification", "event":activity, "this":"35,310,030,528"}	
+00:24.887.227	Default	MTLCompilerService (1695)	MTLCompiler	Default	Compilation BEGIN (ParentProcessName=Photos_1680) Build request: MTLBuildFunctions - pipeline	
+00:24.887.369	Debug	locationd (74)	com.apple.locationd.Position	Position	CLMM, MotionState,type,3,confidence,2,mountedState,1,mountedConfidence,2,now,753,594,879.8232,propagation_us,2,738.0834	
+00:24.887.404	Debug	locationd (74)	com.apple.locationd.Position	Outdoor	CLOutdoorEstimator_ActivityState,evidenceCfatSec,<private>,motionActivityType,<private>,EstimatorTimeCfaSec,<private>,likelihoodObservationGivenOutdoor,<private>,likelihoodObservationGivenIndoor,<private>	
+00:24.887.460	Debug	locationd (74)	com.apple.locationd.Core	Notifier	{"msg":"CLFenceMonitorNotifier::onMotionStateNotification", "event":activity, "this":"35,305,070,936"}	
+00:24.887.480	Debug	locationd (74)	com.apple.locationd.Position	Outdoor	CLOutdoorEstimator_updateOutdoorEstimate,startTime,<private>,mctTimestampSec,<private>,type,<private>,confidence,<private>,estimatedStateProbabilityOutdoor,<private>,isAstronomicalDaytime,<private>,daylightConfidence,<private>,EstimatorTimeCfaSec,<private>	
+00:24.887.512	Debug	locationd (74)	com.apple.locationd.Position	Position	#CLProactiveLoc,active,0,feedMotionNotification,static,0,staticCheckpoint,0	
+00:24.887.570	Debug	locationd (74)	com.apple.locationd.Position	GeoFencing	Received motion state,static,<private>,walking,<private>,driving,<private>,inVehicle,<private>	
+00:24.887.644	Info	locationd (74)	com.apple.locationd.Motion	IndoorOutdoor	IndoorOutdoor,ALSResult,context,<private>,outputProb,-1.0000,rawProb,0.1819,meanLux,0.0000,stdLux,0.0000,n,0,elevation,-9,999.0000,hasLatLon,0	
+00:24.887.720	Info	locationd (74)	com.apple.locationd.Motion	IndoorOutdoor	IndoorOutdoor,probabilities,llr,0.4900,discordant,-1.0000,timeSinceStart,349,871.5562,totalDistance,0.0000,gpsOutdoor,-1.0000,wifiIndoor,0.8417,alsOutdoor,-1.0000,probability,0.2142,confidence,2,location,1	
+00:24.887.749	Debug	locationd (74)	com.apple.LocationSupport	Connection	{"msg":"CLConnection::sendMessage", "name":kCLConnectionMessageMotionActivityUpdate}	
+00:24.887.771	Default	locationd (74)	com.apple.locationd.Position	Position	#CLProactiveLoc,rvo,Motion,ped,0,veh,0,mov,1,stationary,0,likelyBoardedVeh,0,walkRunDur,0.0000	
+00:24.887.821	Debug	locationd (74)	com.apple.locationd.Core	Notifier	{"msg":"notifyClientsWithData", "event":activity, "name":CLMotionStateMediator, "notification":0}	
+00:24.887.848	Debug	locationd (74)	com.apple.locationd.Position	Outdoor	CLOutdoorEstimatorController_feedMotionActivity,activityStateEvidence,<private>,currentTime,<private>	
+00:24.887.891	Default	locationd (74)	com.apple.locationd.Position	Position	#CLProactiveLoc,rvo,updateOverrideVisit,visit,1,timeFromLastCheck,5.4114	
+00:24.887.950	Debug	locationd (74)	com.apple.locationd.Core	Notifier	{"msg":"CLMotionActivitySubscription::onMotionActivityNotification", "event":activity, "this":"35,310,536,256"}	
+00:24.887.967	Default	locationd (74)	com.apple.locationd.Position	Position	#CLProactiveLoc,rvo,visitExitLikely,0,inVisitLocUseful,0,wifi,1,io,0,motion,0,cdX,3.0619,cdY,0.6132,cdZ,2.6370,attemptsLeft,3,walkRun,0,currWalkRun,0,sigDur,349,826.2769,walkRunFrac,0.0000,wifiContDisassociated,0	
+00:24.888.000	Debug	locationd (74)	com.apple.locationd.Position	Outdoor	CLOutdoorEstimator_NoGnssLeechLocation,currentTime,<private>	
+00:24.888.140	Debug	locationd (74)	com.apple.locationd.Position	Outdoor	CLOutdoorEstimatorController,CLOutdoorEstimatorTurnOffGnssAvailability	
+00:24.888.173	Debug	locationd (74)	com.apple.LocationSupport	Connection	{"msg":"CLConnection::sendMessage", "name":kCLConnectionMessageMotionActivityUpdate}	
+00:24.888.173	Debug	locationd (74)	com.apple.locationd.Core	Notifier	{"msg":"CLStepCountNotifier::onMotionStateMediatorNotification", "event":activity, "this":"35,305,584,640"}	
+00:24.888.215	Debug	locationd (74)	com.apple.locationd.Position	Position	#LCStats,ThrPosUnc,static,0,time,349,892.8347	
+00:24.888.246	Debug	locationd (74)	com.apple.locationd.Position	Outdoor	CLOutdoorEstimator_OutdoorNoMapMatchingRouteHint,currentTime,<private>	
+00:24.888.283	Debug	locationd (74)	com.apple.locationd.Position	Position	#LCStats,ThrPosUnc,static,0,time,349,892.8348	
+00:24.888.319	Debug	locationd (74)	com.apple.locationd.Position	Outdoor	CLOutdoorEstimatorController,CLOutdoorEstimatorTurnOffCMGpsModelOutput	
+00:24.888.363	Info	locationd (74)	com.apple.locationd.Motion	Activity	MotionState, <private>, type, <private>, conf, <private>, mounted, <private>, startTime, <private>	
+00:24.888.393	Debug	locationd (74)	com.apple.locationd.Position	Outdoor	CLOutdoorEstimatorController,CLOutdoorEstimatorTurnOffCMWifiModelOutput	
+00:24.888.443	Debug	locationd (74)	com.apple.locationd.Core	Notifier	{"msg":"CLMotionActivitySubscription::onMotionActivityNotification", "event":activity, "this":"35,311,186,240"}	
+00:24.888.478	Debug	locationd (74)	com.apple.locationd.Core	Notifier	{"msg":"CLPipelineLocationProvider::onMotionState", "event":activity, "this":"35,307,577,600"}	
+00:24.888.504	Debug	locationd (74)	com.apple.locationd.Position	Outdoor	CLOutdoorEstimatorController,CLOutdoorEstimatorTurnOffCMAlsModelOutput	
+00:24.888.582	Debug	locationd (74)	com.apple.locationd.Core	Notifier	{"msg":"CLLocationController::onMotionStateMediatorNotification", "event":activity, "this":"35,304,865,792"}	
+00:24.888.652	Debug	locationd (74)	com.apple.locationd.Position	Outdoor	CLOutdoorEstimator_NoAlsEvidence,currentTime,<private>	
+00:24.888.661	Debug	locationd (74)	com.apple.LocationSupport	Connection	{"msg":"CLConnection::sendMessage", "name":kCLConnectionMessageMotionActivityUpdate}	
+00:24.888.667	Debug	locationd (74)	com.apple.locationd.Position	Position	#indoor-fitness-classifier, motion activity, <private>, internal activity, <private>	
+00:24.888.700	Debug	locationd (74)	com.apple.locationd.Position	LCFusion	Received motion state mediator activity notification,activity_type,2,confidence,2,is_historical,<private>,now_mct,349,892.8352,propagation_us,1.0417	
+00:24.888.734	Info	locationd (74)	com.apple.locationd.Position	Outdoor	CLOutdoorEstimator_HMM Estimate,startTime,<private>,mctTimestampSec,<private>,type, <private>,confidence,<private>,estimatedStateProbabilityOutdoor,<private>,isAstronomicalDaytime,<private>,daylightConfidence,<private>	
+00:24.888.770	Debug	locationd (74)	com.apple.locationd.Position	LCFusion	#fusion,received motion state,<private>,mct_now,349,892.8352,start_time_cfat,753,594,879.8148,timestamp,48,693.3727,type,2,confidence,2,<private>	
+00:24.888.839	Info	locationd (74)	com.apple.locationd.Position	Outdoor	DaylightEstimator,state,<private>,startTime,<private>	
+00:24.888.849	Debug	locationd (74)	com.apple.locationd.Position	LCFusion	#motion,dynamics mode on motion update,mct,349,892.8352,type,2,confidence,2,old dynamics mode,7,new dynamics mode,1	
+00:24.888.878	Debug	locationd (74)	com.apple.locationd.Position	GeneralCLX	<private> -- we're not in a runnable state (i.e. no clients; clients = <private>)	
+00:24.888.918	Debug	locationd (74)	com.apple.locationd.Core	Notifier	{"msg":"CLVehicleStateNotifier::onMotionStateUpdate", "event":activity, "this":"35,308,002,304"}	
+00:24.888.969	Debug	locationd (74)	com.apple.locationd.Core	Notifier	{"msg":"CLMotionActivitySubscription::onMotionActivityNotification", "event":activity, "this":"35,311,600,640"}	
+00:24.888.984	Debug	locationd (74)	com.apple.locationd.Motion	Activity	[MotionCues] suppressed vehicular	
+00:24.889.006	Default	safetyalertsd (91)	com.apple.safetyalertsd	general	{"msg":"#motion,cb"}	
+00:24.889.036	Debug	locationd (74)	com.apple.locationd.Motion	Calorimetry	ActivitySpectator,activity{State,<private>,Confidence,<private>,MountedState,<private>,MountedConfidence,<private>,exitState,<private>,estExitTime,<private>,startTime,<private>},nataliFeatures{fVectorMagnitude,<private>,fEpochType,<private>,fStanding,<private>,fMachineFrequency,<private>,fRowStrokeFrequency,<private>,fRowStrokeAmplitude,<private>,fRowStrokePower,<private>,fPushVectorMagnitude,<private>}	
+00:24.889.061	Debug	locationd (74)	com.apple.locationd.Position	LCFusion	KFCV:FilterStateLog,1,004,753,594,879.8187,349,892.8352,4,0,<private>,<private>,<private>,0.0000,-1.0000,589.7969,30.0102,0.3267,-1.0000,0.9540,7,2,0,predict state success	
+00:24.889.108	Debug	locationd (74)	com.apple.locationd.Core	Notifier	{"msg":"CLEmergencyController::onMotionNotification", "event":activity, "this":"35,307,570,688"}	
+00:24.889.169	Debug	locationd (74)	com.apple.locationd.Position	LCFusion	KFCV:FilterStateLog,1,004,753,594,879.8187,349,892.8352,4,0,<private>,<private>,<private>,0.0000,-1.0000,589.7969,30.0102,0.0961,-1.0000,0.0000,7,2,0,update with GSpeed success	
+00:24.889.200	Default	locationd (74)	com.apple.locationd.Position	Emergency	{"msg":"#EmergCon,handleAssistanceMotion,", "mountState":<private>}	
+00:24.889.240	Debug	locationd (74)	com.apple.locationd.Position	LCFusion	KFCV:FilterStateLog,1,004,753,594,879.8187,349,892.8352,4,0,<private>,<private>,<private>,0.0000,-1.0000,589.7969,30.0102,0.0961,-1.0000,0.0000,1,2,0,DynamicsMode-based propagation and update	
+00:24.889.259	Debug	locationd (74)	com.apple.LocationSupport	Connection	{"msg":"CLConnection::sendMessage", "name":kCLConnectionMessageMotionActivityUpdate}	
+00:24.889.287	Debug	locationd (74)	com.apple.locationd.Core	Notifier	{"msg":"CLKappaNotifier::onMotionStateUpdate", "event":activity, "this":"35,308,658,816"}	
+00:24.889.337	Debug	locationd (74)	com.apple.locationd.Position	LCFusion	#fusion,received outdoor update,mct_now,349,892.8359,start_time_cfat,753,594,879.8148,type,1,confidence,3,prob,0.0618	
+00:24.889.382	Debug	locationd (74)	com.apple.locationd.Motion	Calorimetry	<private> is ready at, <private>, timeout, <private>	
+00:24.889.418	Debug	locationd (74)	com.apple.locationd.Core	Notifier	{"msg":"CLHarvestControllerExternal::onMotionStateNotification", "event":activity, "this":"35,304,207,128"}	
+00:24.889.443	Info	locationd (74)	com.apple.locationd.Motion	Kappa	(onMotionStateUpdate) EventActivity; hints <private> <private> <private> <private> <private>	
+00:24.889.494	Info	locationd (74)	com.apple.locationd.Position	Outdoor	Update reached MotionStateMediator, startTime, <private>, mctTimestampSec, <private> type, <private>, confidence, <private>, estimatedStateProbabilityOutdoor, <private>, isAstronomicalDaytime, <private>, daylightConfidence, <private>	
+00:24.889.544	Debug	locationd (74)	com.apple.locationd.Core	Notifier	{"msg":"CLMotionActivitySubscription::onMotionActivityNotification", "event":activity, "this":"35,312,341,888"}	
+00:24.889.596	Debug	locationd (74)	com.apple.locationd.Core	Notifier	{"msg":"CLMotionStateObserver::onMotionStateMediatorNotification", "event":activity, "this":"35,305,637,376"}	
+00:24.889.740	Default	locationd (74)	com.apple.locationd.Core	Harvester	{"msg":"got motion state notification", "subHarvester":11}	
+00:24.889.755	Debug	locationd (74)	com.apple.LocationSupport	Connection	{"msg":"CLConnection::sendMessage", "name":kCLConnectionMessageMotionActivityUpdate}	
+00:24.889.787	Default	locationd (74)	com.apple.locationd.Core	Harvester	{"msg":"updated avenger harvester motion activity state", "fLastMotionActivity":2, "nextMotionActivity":3, "subHarvester":11}	
+00:24.889.846	Debug	locationd (74)	com.apple.locationd.Core	Notifier	{"msg":"CLMotionActivitySubscription::onMotionActivityNotification", "event":activity, "this":"35,312,353,024"}	
+00:24.889.863	Default	locationd (74)	com.apple.locationd.Core	Harvester	{"msg":"updateOperationalModeIfNecessary", "fCurrentTimeOffsetThreshold":"45.0000", "subHarvester":11}	
+00:24.889.924	Debug	locationd (74)	com.apple.locationd.Core	Harvester	{"msg":"Received motion state", "subHarvester":13, "data.activity.type":<private>, "current fIsMoving":<private>, "new isMoving":<private>}	
+00:24.889.981	Debug	locationd (74)	com.apple.locationd.Core	Harvester	{"msg":"received motion state notif", "subHarvester":8, "oldIsDriving":<private>, "newIsDriving":<private>}	
+00:24.890.023	Debug	locationd (74)	com.apple.LocationSupport	Connection	{"msg":"CLConnection::sendMessage", "name":kCLConnectionMessageMotionActivityUpdate}	
+00:24.890.198	Default	safetyalertsd (91)	com.apple.safetyalertsd	general	{"msg":"#motion,cb", "isStationary":<private>, "walking":<private>, "automotive":<private>, "cycling":<private>, "fMotionState":<private>}	
+00:24.890.435	Debug	contextstored (65)	com.apple.Biome	BiomeSource	Event donation to stream: Motion.Activity with timestamp: 753,594,879.8289	
+00:24.890.444	Debug	analyticsd (110)	com.apple.analyticsd.critical	query-state	[MotionStateResolver] motionState: <private>	
+00:24.890.608	Debug	backboardd (68)	com.apple.BackBoard	MotionEvents	Motion event usagePage:0xff0c usage:1 	
+00:24.890.659	Info	contextstored (65)	com.apple.Biome	BiomeCompute	Subscription marker exists: YES for stream: Motion.Activity using domain: User path: /private/var/mobile/Library/Biome/compute/sessions/F8BC9602-7A46-4644-8255-A3117CB8AD12/subscriptions/Motion.Activity	
+00:24.890.686	Info	locationd (74)	com.apple.locationd.Motion	AOP	{"msg":"received AOP log", "log":72 Bytes}	
+00:24.890.742	Debug	contextstored (65)	com.apple.Biome	BiomeCompute	BMComputeSourceClient send event with identifier Motion.Activity to compute server: com.apple.biome.compute.source	
+00:24.890.907	Debug	routined (37)	com.apple.CoreRoutine	MOTION ACTIVITY	caching RTMotionActivity, <private>	
+00:24.890.930	Debug	biomed (49)	com.apple.Biome	BiomeCompute	BMComputeSourceServerConnection send event with identifier <private>, event 	
+00:24.890.933	Debug	contextstored (65)	com.apple.CoreAnalytics.event	send	<private> <private>	
+00:24.891.030	Debug	biomed (49)	com.apple.Biome	BiomeCompute	Found current connection, resolving publisher server based on service name: com.apple.biome.compute.source	
+00:24.891.099	Debug	biomed (49)	com.apple.Biome	BiomeCompute	Found current connection, resolving publisher server based on service name: com.apple.biome.compute.source	
+00:24.891.127	Info	biomed (49)	com.apple.Biome	BiomeCompute	Using publisher server for domain: System, bookmark storage domain: User when processing new event write for stream <private> subscription count: 0, event: 	
+00:24.891.141	Debug	routined (37)	com.apple.CoreRoutine	MOTION ACTIVITY	2 activites in the last 30.0000 seconds	
+00:24.891.301	Debug	routined (37)	com.apple.CoreRoutine	MOTION ACTIVITY	1, <private>	
+00:24.891.331	Debug	routined (37)	com.apple.CoreRoutine	MOTION ACTIVITY	2, <private>	
+00:24.891.353	Debug	biomed (49)	com.apple.intelligenceplatform	views	SourceUpdater: Dropping notification for <private> - no listeners	
+00:24.891.482	Debug	analyticsd (110)	com.apple.analyticsd.critical	xform_cache	[Transform Cache] Cache performance for input event <private>: { transforms: 1, hit: 1, loaded: 0, inserted: 0}	
+00:24.892.490	Default	MTLCompilerService (1695)	MTLCompiler	Default	Compilation SUCCESS (ParentProcessName=Photos_1680) (TYPE=MTLBuildFunctions - pipeline): Time 5.2322 ms 	
+00:24.893.487	Default	MTLCompilerService (1695)	MTLCompiler	Default	Compilation BEGIN (ParentProcessName=Photos_1680) Build request: MTLBuildFunctions - pipeline	
+00:24.899.226	Debug	Unknown (0)	ApplePhoneBTM	Default	Full mode capture 1 1 d 1 t 1 f_f 0 f_r 0	
+00:24.911.454	Debug	locationd (74)	com.apple.locationd.Core	Core	{"msg":"Sending app status change notification"}	
+00:24.911.544	Debug	locationd (74)	com.apple.locationd.Core	Notifier	{"msg":"notifyClientsWithData", "event":activity, "name":CLClientManager, "notification":3}	
+00:24.924.069	Default	MTLCompilerService (1695)	MTLCompiler	Default	Compilation SUCCESS (ParentProcessName=Photos_1680) (TYPE=MTLBuildFunctions - pipeline): Time 30.5634 ms 	
+00:24.924.859	Default	MTLCompilerService (1695)	MTLCompiler	Default	Compilation BEGIN (ParentProcessName=Photos_1680) Build request: MTLBuildFunctions - pipeline	
+00:24.930.172	Default	MTLCompilerService (1695)	MTLCompiler	Default	Compilation SUCCESS (ParentProcessName=Photos_1680) (TYPE=MTLBuildFunctions - pipeline): Time 5.2816 ms 	
+00:24.936.737	Debug	symptomsd (207)	com.apple.symptomsd	other	OutrankFlowMonitor  _timerMaintenance timer expiry, active polling 1	
+00:24.936.791	Debug	symptomsd (207)	com.apple.symptomsd	other	OutrankFlowMonitor  _timerMaintenance timer expiry	
+00:24.936.811	Debug	symptomsd (207)	com.apple.symptomsd	other	OutrankFlowMonitor  _timerMaintenance timer expiry, gap is 349,874.1340 so kick off poll	
+00:24.936.959	Debug	symptomsd (207)	com.apple.symptomsd	other	RefreshScheduler, refreshDataUsageFor has delegate 0x100bb9bb0	
+00:24.937.262	Info	symptomsd (207)	com.apple.symptomsd	attribution	pollFlows started	
+00:24.937.494	Debug	symptomsd (207)	com.apple.symptomsd	analytics	skip typical flow processing for subflow 153,204	
+00:24.937.525	Debug	symptomsd (207)	com.apple.symptomsd	analytics	skip typical flow processing for subflow 153,203	
+00:24.937.548	Debug	symptomsd (207)	com.apple.symptomsd	analytics	skip typical flow processing for subflow 153,202	
+00:24.937.572	Debug	symptomsd (207)	com.apple.symptomsd	analytics	skip typical flow processing for subflow 153,180	
+00:24.937.625	Debug	symptomsd (207)	com.apple.symptomsd	analytics	skip typical flow processing for subflow 153,179	
+00:24.937.730	Debug	symptomsd (207)	com.apple.symptomsd	analytics	skip typical flow processing for subflow 153,178	
+00:24.937.763	Debug	symptomsd (207)	com.apple.symptomsd	analytics	skip typical flow processing for subflow 153,176	
+00:24.937.783	Debug	symptomsd (207)	com.apple.symptomsd	analytics	skip typical flow processing for subflow 153,174	
+00:24.937.842	Debug	symptomsd (207)	com.apple.symptomsd	analytics	Flow data on entry is DTServiceHub TCP6 flow id 153173 (refresh) so i/f 27 props 0x4001010 first 0 pkts rx 42 tx 10849, bytes 19148 117687779 cell 0 0 wifi 0 0 wired 21668 118338719 comp_bt 0 0 deltas 0 1925257 0 0 0 0 0 1937917 0 0 acct_deltas 0 0 0 0 0 1937917	
+00:24.937.896	Debug	symptomsd (207)	com.apple.symptomsd	attribution	flow is not closed. cache count 10
+src 153,173 snapshot: DTServiceHub TCP6 flow id 153173 (refresh) so i/f 27 props 0x4001010 first 0 pkts rx 42 tx 10849, bytes 19148 117687779 cell 0 0 wifi 0 0 wired 21668 118338719 comp_bt 0 0 deltas 0 1925257 0 0 0 0 0 1937917 0 0 acct_deltas 0 0 0 0 0 1937917
+flow: TrackedFlow 153173 Wired tcp6 flow owner (null) start 11:53:39.258 +0800 duration 60.619 trackers: self 0x0 - other 0x0 - rx pkts 42 tx pkts 10638	
+00:24.937.919	Debug	symptomsd (207)	com.apple.symptomsd	flow	Don't have a tracker for WiredEthernet interface type	
+00:24.937.959	Debug	symptomsd (207)	com.apple.symptomsd	analytics	_processFetchForName: Return existing cached Process for processName <private> type CacheTypeProcessName	
+00:24.937.998	Debug	symptomsd (207)	com.apple.symptomsd	analytics	found LU hint (mode: 0) for remoted: 0xcd8023d90, subscriber tag: 0	
+00:24.938.024	Default	symptomsd (207)	com.apple.symptomsd	analytics	Data Usage for remoted on flow 153,173 - WiFi in/out: 49981/197500, WiFi delta_in/delta_out: 0/0, Cell in/out: 0/0, Cell delta_in/delta_out: 0/0, RNF: 0, subscriber tag: 0, total duration: 60.6187	
+00:24.938.044	Debug	symptomsd (207)	com.apple.symptomsd	analytics	Data Usage for remoted on flow 153,173 - Wired in/out: 0/0, Wired delta_in/delta_out: 0/0, subscriber tag: 0, total duration: 60.6187	
+00:24.938.090	Debug	symptomsd (207)	com.apple.symptomsd	analytics	Flow data on entry is notification_proxy TCP6 flow id 152349 (refresh) so i/f 27 props 0x4001010 first 0 pkts rx 188 tx 2, bytes 676 484 cell 0 0 wifi 0 0 wired 11492 604 comp_bt 0 0 deltas 0 0 0 0 0 0 0 0 0 0 acct_deltas 0 0 0 0 0 0	
+00:24.938.132	Debug	symptomsd (207)	com.apple.symptomsd	attribution	flow is not closed. cache count 10
+src 152,349 snapshot: notification_proxy TCP6 flow id 152349 (refresh) so i/f 27 props 0x4001010 first 0 pkts rx 188 tx 2, bytes 676 484 cell 0 0 wifi 0 0 wired 11492 604 comp_bt 0 0 deltas 0 0 0 0 0 0 0 0 0 0 acct_deltas 0 0 0 0 0 0
+flow: TrackedFlow 152349 Wired tcp6 flow owner (null) start 11:51:21.784 +0800 duration 198.093 trackers: self 0x0 - other 0x0 - rx pkts 4 tx pkts 2	
+00:24.938.161	Debug	symptomsd (207)	com.apple.symptomsd	flow	Don't have a tracker for WiredEthernet interface type	
+00:24.938.281	Debug	symptomsd (207)	com.apple.symptomsd	analytics	Flow data on entry is remoted TCP6 flow id 152212 (refresh) so i/f 27 props 0x4001010 first 0 pkts rx 25 tx 23, bytes 4458 15626 cell 0 0 wifi 0 0 wired 5958 17006 comp_bt 0 0 deltas 0 0 0 0 0 0 0 0 0 0 acct_deltas 0 0 0 0 0 0	
+00:24.938.342	Debug	symptomsd (207)	com.apple.symptomsd	attribution	flow is not closed. cache count 10
+src 152,212 snapshot: remoted TCP6 flow id 152212 (refresh) so i/f 27 props 0x4001010 first 0 pkts rx 25 tx 23, bytes 4458 15626 cell 0 0 wifi 0 0 wired 5958 17006 comp_bt 0 0 deltas 0 0 0 0 0 0 0 0 0 0 acct_deltas 0 0 0 0 0 0
+flow: TrackedFlow 152212 Wired tcp6 flow owner (null) start 11:51:21.699 +0800 duration 198.178 trackers: self 0x0 - other 0x0 - rx pkts 25 tx pkts 23	
+00:24.938.362	Debug	symptomsd (207)	com.apple.symptomsd	flow	Don't have a tracker for WiredEthernet interface type	
+00:24.938.410	Debug	symptomsd (207)	com.apple.symptomsd	analytics	Flow data on entry is remotepairingdeviced TCP6 flow id 152178 (refresh) ch i/f 29 props 0x4000810 first 0 pkts rx 24879 tx 147786, bytes 1246564 192577245 cell 0 0 wifi 0 0 wired 4530976 201442905 comp_bt 0 0 deltas 11817 2028768 0 0 0 0 40197 2119488 0 0 acct_deltas 0 0 0 0 40197 2119488	
+00:24.938.455	Debug	symptomsd (207)	com.apple.symptomsd	attribution	flow is not closed. cache count 10
+src 152,178 snapshot: remotepairingdeviced TCP6 flow id 152178 (refresh) ch i/f 29 props 0x4000810 first 0 pkts rx 24879 tx 147786, bytes 1246564 192577245 cell 0 0 wifi 0 0 wired 4530976 201442905 comp_bt 0 0 deltas 11817 2028768 0 0 0 0 40197 2119488 0 0 acct_deltas 0 0 0 0 40197 2119488
+flow: TrackedFlow 152178 Wired tcp6 flow owner (null) start 11:51:21.665 +0800 duration 198.212 trackers: self 0x0 - other 0x0 - rx pkts 24664 tx pkts 146249	
+00:24.938.472	Debug	symptomsd (207)	com.apple.symptomsd	flow	Don't have a tracker for WiredEthernet interface type	
+00:24.938.494	Debug	symptomsd (207)	com.apple.symptomsd	analytics	_processFetchForName: Return existing cached Process for processName <private> type CacheTypeProcessName	
+00:24.938.512	Debug	symptomsd (207)	com.apple.symptomsd	analytics	found LU hint (mode: 0) for remotepairingdeviced: 0xcd81e77f0, subscriber tag: 0	
+00:24.938.532	Default	symptomsd (207)	com.apple.symptomsd	analytics	Data Usage for remotepairingdeviced on flow 152,178 - WiFi in/out: 314837/758120, WiFi delta_in/delta_out: 0/0, Cell in/out: 0/0, Cell delta_in/delta_out: 0/0, RNF: 0, subscriber tag: 0, total duration: 198.2125	
+00:24.938.548	Debug	symptomsd (207)	com.apple.symptomsd	analytics	Data Usage for remotepairingdeviced on flow 152,178 - Wired in/out: 0/0, Wired delta_in/delta_out: 0/0, subscriber tag: 0, total duration: 198.2125	
+00:24.938.586	Debug	symptomsd (207)	com.apple.symptomsd	analytics	Flow data on entry is remotepairingdeviced TCP6 flow id 151577 (refresh) so i/f 29 props 0x4000810 first 0 pkts rx 4 tx 5, bytes 983 3557 cell 0 0 wifi 0 0 wired 1223 3857 comp_bt 0 0 deltas 0 0 0 0 0 0 0 0 0 0 acct_deltas 0 0 0 0 0 0	
+00:24.938.621	Debug	symptomsd (207)	com.apple.symptomsd	attribution	flow is not closed. cache count 10
+src 151,577 snapshot: remotepairingdeviced TCP6 flow id 151577 (refresh) so i/f 29 props 0x4000810 first 0 pkts rx 4 tx 5, bytes 983 3557 cell 0 0 wifi 0 0 wired 1223 3857 comp_bt 0 0 deltas 0 0 0 0 0 0 0 0 0 0 acct_deltas 0 0 0 0 0 0
+flow: TrackedFlow 151577 Wired tcp6 flow owner (null) start 11:50:29.228 +0800 duration 250.650 trackers: self 0x0 - other 0x0 - rx pkts 4 tx pkts 5	
+00:24.938.635	Debug	symptomsd (207)	com.apple.symptomsd	flow	Don't have a tracker for WiredEthernet interface type	
+00:24.938.668	Debug	symptomsd (207)	com.apple.symptomsd	analytics	Flow data on entry is remoted TCP6 flow id 151465 (refresh) so i/f 29 props 0x2001010 first 0 pkts rx 0 tx 0, bytes 0 0 cell 0 0 wifi 0 0 wired 0 0 comp_bt 0 0 deltas 0 0 0 0 0 0 0 0 0 0 acct_deltas 0 0 0 0 0 0	
+00:24.938.706	Debug	symptomsd (207)	com.apple.symptomsd	attribution	flow is not closed. cache count 10
+src 151,465 snapshot: remoted TCP6 flow id 151465 (refresh) so i/f 29 props 0x2001010 first 0 pkts rx 0 tx 0, bytes 0 0 cell 0 0 wifi 0 0 wired 0 0 comp_bt 0 0 deltas 0 0 0 0 0 0 0 0 0 0 acct_deltas 0 0 0 0 0 0
+flow: TrackedFlow 151465 Wired tcp6 flow owner (null) start 11:50:18.008 +0800 duration 261.869 trackers: self 0x0 - other 0x0 - rx pkts 0 tx pkts 0	
+00:24.938.722	Debug	symptomsd (207)	com.apple.symptomsd	flow	Don't have a tracker for WiredEthernet interface type	
+00:24.938.756	Debug	symptomsd (207)	com.apple.symptomsd	analytics	Flow data on entry is remoted TCP6 flow id 151463 (refresh) so i/f 29 props 0x2001010 first 0 pkts rx 0 tx 0, bytes 0 0 cell 0 0 wifi 0 0 wired 0 0 comp_bt 0 0 deltas 0 0 0 0 0 0 0 0 0 0 acct_deltas 0 0 0 0 0 0	
+00:24.938.856	Debug	symptomsd (207)	com.apple.symptomsd	attribution	flow is not closed. cache count 10
+src 151,463 snapshot: remoted TCP6 flow id 151463 (refresh) so i/f 29 props 0x2001010 first 0 pkts rx 0 tx 0, bytes 0 0 cell 0 0 wifi 0 0 wired 0 0 comp_bt 0 0 deltas 0 0 0 0 0 0 0 0 0 0 acct_deltas 0 0 0 0 0 0
+flow: TrackedFlow 151463 Wired tcp6 flow owner (null) start 11:50:18.007 +0800 duration 261.871 trackers: self 0x0 - other 0x0 - rx pkts 0 tx pkts 0	
+00:24.938.895	Debug	symptomsd (207)	com.apple.symptomsd	flow	Don't have a tracker for WiredEthernet interface type	
+00:24.938.970	Debug	symptomsd (207)	com.apple.symptomsd	analytics	Flow data on entry is remoted TCP6 flow id 151273 (refresh) so i/f 29 props 0x8000810 first 0 pkts rx 116 tx 6, bytes 2174 3266 cell 0 0 wifi 0 0 wired 9134 3626 comp_bt 0 0 deltas 0 0 0 0 0 0 0 0 0 0 acct_deltas 0 0 0 0 0 0	
+00:24.939.029	Debug	symptomsd (207)	com.apple.symptomsd	attribution	flow is not closed. cache count 10
+src 151,273 snapshot: remoted TCP6 flow id 151273 (refresh) so i/f 29 props 0x8000810 first 0 pkts rx 116 tx 6, bytes 2174 3266 cell 0 0 wifi 0 0 wired 9134 3626 comp_bt 0 0 deltas 0 0 0 0 0 0 0 0 0 0 acct_deltas 0 0 0 0 0 0
+flow: TrackedFlow 151273 Wired tcp6 flow owner (null) start 11:50:17.002 +0800 duration 262.875 trackers: self 0x0 - other 0x0 - rx pkts 8 tx pkts 6	
+00:24.939.048	Debug	symptomsd (207)	com.apple.symptomsd	flow	Don't have a tracker for WiredEthernet interface type	
+00:24.939.101	Debug	symptomsd (207)	com.apple.symptomsd	analytics	Flow data on entry is mDNSResponder UDP4 flow id 106 (refresh) so i/f 28 props 0x810 first 0 pkts rx 11583 tx 11156, bytes 3047013 2546048 cell 0 0 wifi 28442 30071 wired 224011 0 comp_bt 0 0 deltas 0 0 0 0 0 0 0 0 0 0 acct_deltas 0 0 0 0 0 0	
+00:24.939.147	Debug	symptomsd (207)	com.apple.symptomsd	attribution	flow is not closed. cache count 10
+src 106 snapshot: mDNSResponder UDP4 flow id 106 (refresh) so i/f 28 props 0x810 first 0 pkts rx 11583 tx 11156, bytes 3047013 2546048 cell 0 0 wifi 28442 30071 wired 224011 0 comp_bt 0 0 deltas 0 0 0 0 0 0 0 0 0 0 acct_deltas 0 0 0 0 0 0
+flow: TrackedFlow 106 WiFi udp4 flow owner com.apple.datausage.dns.multicast start 10:43:26.270 +0800 duration 349873.607 trackers: self 0x0 - other 0x0 - rx pkts 11583 tx pkts 11156	
+00:24.939.190	Debug	symptomsd (207)	com.apple.symptomsd	analytics	Flow data on entry is mDNSResponder UDP6 flow id 105 (refresh) so i/f 28 props 0x810 first 0 pkts rx 12552 tx 11594, bytes 3028392 2631391 cell 0 0 wifi 32291 21896 wired 506405 84059 comp_bt 0 0 deltas 0 0 0 0 0 0 0 0 0 0 acct_deltas 0 0 0 0 0 0	
+00:24.939.248	Debug	symptomsd (207)	com.apple.symptomsd	attribution	flow is not closed. cache count 10
+src 105 snapshot: mDNSResponder UDP6 flow id 105 (refresh) so i/f 28 props 0x810 first 0 pkts rx 12552 tx 11594, bytes 3028392 2631391 cell 0 0 wifi 32291 21896 wired 506405 84059 comp_bt 0 0 deltas 0 0 0 0 0 0 0 0 0 0 acct_deltas 0 0 0 0 0 0
+flow: TrackedFlow 105 WiFi udp6 flow owner com.apple.datausage.dns.multicast start 10:43:26.275 +0800 duration 349873.603 trackers: self 0x0 - other 0x0 - rx pkts 12552 tx pkts 11594	
+00:24.939.308	Info	symptomsd (207)	com.apple.symptomsd	attribution	Netstats refresh complete	
+00:24.939.368	Debug	symptomsd (207)	com.apple.symptomsd	other	RefreshScheduler, didPollFlowsAt finds single shot with reference 0	
+00:24.939.436	Debug	symptomsd (207)	com.apple.symptomsd	other	OutrankFlowMonitor  _timerMaintenance timer expiry, requested poll completed	
+00:24.939.479	Debug	symptomsd (207)	com.apple.symptomsd	other	OutrankFlowMonitor  _timerMaintenance with polling 1 active 0	
+00:24.939.517	Debug	symptomsd (207)	com.apple.symptomsd	other	OutrankFlowMonitor  _timerMaintenance set timer expiry to 1.0000	
+00:24.942.367	Default	MTLCompilerService (1695)	MTLCompiler	Default	Compilation BEGIN (ParentProcessName=Photos_1680) Build request: MTLBuildFunctions - pipeline	
+00:24.948.339	Default	MTLCompilerService (1695)	MTLCompiler	Default	Compilation SUCCESS (ParentProcessName=Photos_1680) (TYPE=MTLBuildFunctions - pipeline): Time 5.9514 ms 	
+00:24.949.960	Default	MTLCompilerService (1695)	MTLCompiler	Default	Compilation BEGIN (ParentProcessName=Photos_1680) Build request: MTLSpecializeFunctionToArchive - function specialization	
+00:24.950.833	Default	MTLCompilerService (1695)	MTLCompiler	Default	Compilation SUCCESS (ParentProcessName=Photos_1680) (TYPE=MTLSpecializeFunctionToArchive - function specialization): Time 0.8564 ms 	
+00:24.951.141	Default	MTLCompilerService (1695)	MTLCompiler	Default	Compilation BEGIN (ParentProcessName=Photos_1680) Build request: MTLSpecializeFunctionToArchive - function specialization	
+00:24.951.858	Default	MTLCompilerService (1695)	MTLCompiler	Default	Compilation SUCCESS (ParentProcessName=Photos_1680) (TYPE=MTLSpecializeFunctionToArchive - function specialization): Time 0.7039 ms 	
+00:24.965.146	Default	MTLCompilerService (1695)	MTLCompiler	Default	Compilation BEGIN (ParentProcessName=Photos_1680) Build request: MTLBuildFunctions - pipeline	
+00:24.969.463	Default	MTLCompilerService (1695)	MTLCompiler	Default	Compilation SUCCESS (ParentProcessName=Photos_1680) (TYPE=MTLBuildFunctions - pipeline): Time 4.2997 ms 	
+00:24.970.127	Default	MTLCompilerService (1695)	MTLCompiler	Default	Compilation BEGIN (ParentProcessName=Photos_1680) Build request: MTLSpecializeFunctionToArchive - function specialization	
+00:24.970.484	Debug	DTServiceHub (360)	DVTInstrumentsFoundation	Default	Data Size: 101,118, Rows Sent: 1,356, Stack depth: 4,393	
+00:24.971.013	Default	MTLCompilerService (1695)	MTLCompiler	Default	Compilation SUCCESS (ParentProcessName=Photos_1680) (TYPE=MTLSpecializeFunctionToArchive - function specialization): Time 0.8588 ms 	
+00:24.971.250	Default	MTLCompilerService (1695)	MTLCompiler	Default	Compilation BEGIN (ParentProcessName=Photos_1680) Build request: MTLSpecializeFunctionToArchive - function specialization	
+00:24.971.997	Default	MTLCompilerService (1695)	MTLCompiler	Default	Compilation SUCCESS (ParentProcessName=Photos_1680) (TYPE=MTLSpecializeFunctionToArchive - function specialization): Time 0.7173 ms 	
+00:24.982.023	Default	MTLCompilerService (1695)	MTLCompiler	Default	Compilation BEGIN (ParentProcessName=Photos_1680) Build request: MTLBuildFunctions - pipeline	
+00:24.985.067	Debug	backboardd (68)	com.apple.CoreBrightness.ColourSensorFilterPlugin	default	Color: X=165.8230(52.7831) Y=157.9292(50.2704) Z=61.3328(19.5228) 
+	
+00:24.985.160	Default	backboardd (68)	com.apple.CoreBrightness.ColourSensorFilterPlugin	default	[ALS] ts=48,694.4262 lux=176.7961<private> xy=(0.4306 0.4101) chs=[1,027.0000 2,792.0000 7,009.0000 10,107.0000 10,540.0000] CCT1=3,312.1138 gain=512x mode=<private> subsamples=24 rawLux=183.0313 nits=1,083 xTalk=[9 18 34 46 61] status=0xb copyEvent=0	
+00:24.985.341	Debug	backboardd (68)	com.apple.CoreBrightness.CBColorModule.Primary	default	key=ALSIntegrationMode result=	
+00:24.985.363	Debug	locationd (74)	com.apple.locationd.Position	Position	AmbientLight,DecisionTree,x,185.6329,y,176.7961,z,68.6599,out,3	
+00:24.985.403	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[4]: 	
+00:24.985.438	Debug	locationd (74)	com.apple.locationd.Position	Position	AmbientLightDecisionTreeOutput,3	
+00:24.985.445	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[2]: ALSIntegrationMode	
+00:24.985.494	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[2]: ALSIntegrationMode result=3	
+00:24.985.535	Debug	backboardd (68)	com.apple.CoreBrightness.CBABModuleiOS	default	key=ALSIntegrationMode result=3	
+00:24.985.573	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayContaineriOS	BuiltIn	key=ALSIntegrationMode result=3	
+00:24.985.616	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[4]: _plugInEnabled=1	
+00:24.985.655	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[4]: 0xdb4ccd900 0xdb61f8230	
+00:24.985.702	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[10]: 176.7961 	
+00:24.985.739	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[10]: als->_Esensor_device=176.7961	
+00:24.985.783	Debug	backboardd (68)	com.apple.CoreBrightness.CBALSEvent	default	Tristimulus values: XYZ[0]=59.0888, XYZ[1]=56.2759, XYZ[2]=21.8551 | CCT1=3,312.1138	
+00:24.985.798	Default	MTLCompilerService (1695)	MTLCompiler	Default	Compilation SUCCESS (ParentProcessName=Photos_1680) (TYPE=MTLBuildFunctions - pipeline): Time 3.7453 ms 	
+00:24.985.868	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[2]: _luxFilter=3 als->_Ehistory_max=8	
+00:24.985.955	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[10]: Median filter computed on 8 samples	
+00:24.986.051	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	Median filter computed on 8 samples	
+00:24.986.092	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[10]: ts=48,694.4258 Esensor=176.6650 Emedian=170.3108	
+00:24.986.134	Info	backboardd (68)	com.apple.CoreBrightness.AABRear.CBRearALSModule	default	Copy Grimaldi Lux = 53.1979	
+00:24.986.173	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	E 170.3108, Ecapped 170.3108, EmaxCap -1.0000 => finalE 170.3108	
+00:24.986.193	Debug	backboardd (68)	com.apple.CoreBrightness.AABRear	default	AABRear: shouldUseRearLuxFrontLux called with (fLux:170.3108, rLux:53.1979, cap: 1,897.8463)	
+00:24.986.222	Debug	backboardd (68)	com.apple.CoreBrightness.AABRear	default	AABRear: using rear? 0	
+00:24.986.265	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	E 170.3108, Ecapped 170.3108, EmaxCap -1.0000 => finalE 170.3108	
+00:24.986.289	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayContaineriOS	BuiltIn	Notification block key=RLuxStats, value=<private>
+	
+00:24.986.307	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	Handle notification for key = RLuxStats and property = <private>	
+00:24.986.333	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayContaineriOS	BuiltIn	Notification block key=TrustedLux, value=170.3108
+	
+00:24.986.348	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	Handle notification for key = TrustedLux and property = 170.3108	
+00:24.986.401	Default	backboardd (68)	com.apple.coreanimation	Brightness	Display 1 commitBrightness sdr: -1.0000, headroom: -1.0000, ambient lux: 170.3108, filtered ambient: -1.0000, limit: -1.0000, low ambient strength: -1.0000, high ambient strength: -1.0000, brightness ctl disabled 18,446,744,073,709,551,615
+	
+00:24.986.404	Info	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	Set trusted lux = 170.3108	
+00:24.986.424	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayContaineriOS	BuiltIn	Notification block key=TrustedFrontLux, value=167.9539
+	
+00:24.986.464	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	Handle notification for key = TrustedFrontLux and property = 167.9539	
+00:24.986.472	Default	MTLCompilerService (1695)	MTLCompiler	Default	Compilation BEGIN (ParentProcessName=Photos_1680) Build request: MTLSpecializeFunctionToArchive - function specialization	
+00:24.986.482	Default	backboardd (68)	com.apple.CoreBrightness.AABC	default	trusted Lux: 170.3108, trusted front Lux: 170.3108, trusted capped Lux: 170.3108	
+00:24.986.495	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[10]: _Esensor_filtered=170.3108 _Esensor_trusted=170.3108 _Esensor_aggregated=170.3108	
+00:24.986.532	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayContaineriOS	BuiltIn	Notification block key=Lux, value=170.3108
+	
+00:24.986.611	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	Handle notification for key = Lux and property = 170.3108	
+00:24.986.683	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[10]: _Esensor_trusted=170.3108 _state=kAABStateAutoBrightness _proxState=kProxNone _touchIsObstucted=0 _settings._internal._dimPolicy=kDimPolicyFullDimming 3 _orientation=kIOHIDDisplayOrientationTypeAmbiguous	
+00:24.986.818	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	E 170.3108, Ecapped 170.3108, EmaxCap -1.0000 => finalE 170.3108	
+00:24.986.901	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[1/1] Esensor_device: 176.7961 als->_Esensor_filtered: 170.3108 _Esensor_trusted: 170.3108  L: 192.6542 L_reflected: 1.0842	
+00:24.986.969	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[10]: dimRestriction=kDimRestrictionUnrestricted	
+00:24.987.096	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	Superbright EDR restrictions [would be]: CLTM 1,512.3809, UPO 2,175.0000, bottom [lower] restriction 1.0000, nits cap hdr: 2,175.0000, after BDM: 1,600.0000	
+00:24.987.109	Debug	backboardd (68)	com.apple.BackBoard	MotionEvents	Motion event usagePage:0xff0c usage:1 	
+00:24.987.331	Info	locationd (74)	com.apple.CoreAnalytics	client	Dropping "com.apple.CoreMotion.MagnetometerStatistics" as it isn't used in any transform (not in the config or budgeted?)	
+00:24.987.359	Default	MTLCompilerService (1695)	MTLCompiler	Default	Compilation SUCCESS (ParentProcessName=Photos_1680) (TYPE=MTLSpecializeFunctionToArchive - function specialization): Time 0.8576 ms 	
+00:24.987.472	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	Ambient change - SetLibEDRBrightness - physicalBrightness:118.8318, maxLum: 1,600.0000, edrState: 0, lux: 170.3108, brightness boost: 1.1381
+	
+00:24.987.475	Default	MTLCompilerService (1695)	MTLCompiler	Default	Compilation BEGIN (ParentProcessName=Photos_1680) Build request: MTLSpecializeFunctionToArchive - function specialization	
+00:24.987.552	Debug	backboardd (68)	com.apple.CoreBrightness.Display	default	SetLibEDRBrightness to currentBrightness=118.8318, maxBrightness=1,600.0000, currentLux=170.3108, compensationBoost=1.1381	
+00:24.987.770	Debug	backboardd (68)	CoreBrightness	Default	CBEDRServerDisplayBrightness: display: 0 | target: 118.8318 | max: 1,600.0000 | ambient: 170.3108 | boost=1.1381	
+00:24.987.805	Info	backboardd (68)	libEDR	Default	libEDR - EDRServerSetDisplayBrightnessForDisplay: (display: 0, targetBrightness: 118.8318, maxLuminance: 1,600.0000, ambientIlluminance: 170.3108, brightnessScaler: 1.1381)
+	
+00:24.987.851	Info	backboardd (68)	libEDR	Default	libEDR - NotificationCallback: (type: kEDRNotifyBrightness, display: 0, brightness: 0.0743, backlight: 0.0743, edrScaler: 1.0000, maxLuminance: 1,600.0000, ambientIlluminance: 170.3108, brightnessScaler: 1.1381)
+	
+00:24.987.866	Info	backboardd (68)	libEDR	Default	libEDR - PostNotification: (display: 0, brightness: 0.0743, backlight: 0.0743, edrScaling: 1.0000, maxLuminance: 1,600.0000, ambientIlluminance: 170.3108, brightnessScaler: 1.1381)
+	
+00:24.987.888	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[4]: 	
+00:24.987.920	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[200]: inputs: L=192.6542 (shouldRamp=true dimRestriction=kDimRestrictionUnrestricted _Esensor_trusted=170.3108) curveChanged=0	
+00:24.987.936	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[200]: _fastRampMode=0 dimRestriction=kDimRestrictionUnrestricted L_newtarget=192.6542 _L_current=76.2887 _L_minimum=192.4365	
+00:24.987.959	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	PLT	shallUpdateBacklight: Pstart=0.7645 Pcurrent=0.7645 Pnewtarget=0.7552 Pdelta=-0.0093 Pthreshold_dim=0.0500 (0.1000 * 0.5000) Pthreshold_brighten=0.1000 (0.1000 * 1.0000) plt_x=0.2500 plt_y=0.3700 plt_z=0.1000	
+00:24.987.975	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[200]: _L_target=205.5501 Pnewtarget=0.7552 Ptarget=0.7645 Pdelta=-0.0093  	
+00:24.988.003	Debug	backboardd (68)	com.apple.CoreBrightness.AABC	default	[200]: systemShallUpdateBacklight=false L_target=192.6542 timeConstant=0.0000	
+00:24.988.045	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	Handle notification for key = TrustedLux and property = 170.3108	
+00:24.988.184	Info	backboardd (68)	com.apple.CoreBrightness.CBDisplayModuleiOS.1	default	Set trusted lux = 170.3108	
+00:24.988.223	Default	backboardd (68)	com.apple.coreanimation	Brightness	Display 1 setting ambient lux to 170.3108
+	
+00:24.988.308	Default	MTLCompilerService (1695)	MTLCompiler	Default	Compilation SUCCESS (ParentProcessName=Photos_1680) (TYPE=MTLSpecializeFunctionToArchive - function specialization): Time 0.8193 ms 	
+00:24.988.406	Debug	backboardd (68)	com.apple.CoreBrightness.CBALSEvent	default	Tristimulus values: XYZ[0]=59.0888, XYZ[1]=56.2759, XYZ[2]=21.8551 | CCT1=3,312.1138	
+00:24.988.461	Debug	backboardd (68)	com.apple.CoreBrightness.CBDisplayContaineriOS	BuiltIn	Notification block key=TrustedLux, value=170.3108
+	
+00:24.988.677	Debug	backboardd (68)	com.apple.CoreBrightness.CBALSNode	default	<private>	
+00:24.988.695	Default	MTLCompilerService (1695)	MTLCompiler	Default	Compilation BEGIN (ParentProcessName=Photos_1680) Build request: MTLSpecializeFunctionToArchive - function specialization	
+00:24.988.743	Debug	backboardd (68)	com.apple.CoreBrightness.CBBrightestALSFilter	default	ALS events <private>	
+00:24.988.899	Info	backboardd (68)	com.apple.CoreBrightness.CBColorPolicyFilter	default	HarmonyPolicy: Sample IS  from mitigated region	
+00:24.988.991	Default	backboardd (68)	com.apple.coreanimation	Brightness	Display 1 commitBrightness sdr: -1.0000, headroom: -1.0000, ambient lux: 170.3108, filtered ambient: -1.0000, limit: -1.0000, low ambient strength: -1.0000, high ambient strength: -1.0000, brightness ctl disabled 18,446,744,073,709,551,615
+	
+00:24.989.040	Info	backboardd (68)	com.apple.CoreBrightness.CBColorPolicyFilter	default	HarmonyPolicy: BaselineHarmony: mitigatedStr, for (lux, nits): 176.0000, 1,083.0000 = 0.1300 (rounded)	
+00:24.989.196	Info	backboardd (68)	com.apple.CoreBrightness.CBColorPolicyFilter	default	HarmonyPolicy: Sample IS NOT from CE region	
+00:24.989.252	Info	backboardd (68)	com.apple.CoreBrightness.CBColorPolicyFilter	default	HarmonyPolicy: Incoming ALS sample, pushed to queue: <private>	
+00:24.989.346	Info	backboardd (68)	com.apple.CoreBrightness.CBColorPolicyFilter	default	HarmonyPolicy: _filteredALS: <private>, _filtered strength: 0.2700	
+00:24.989.386	Debug	backboardd (68)	com.apple.CoreBrightness.CBColorModule.Primary	default	ALS event with orientation = 1	
+00:24.989.430	Default	MTLCompilerService (1695)	MTLCompiler	Default	Compilation SUCCESS (ParentProcessName=Photos_1680) (TYPE=MTLSpecializeFunctionToArchive - function specialization): Time 0.7229 ms 	
+00:24.989.477	Info	backboardd (68)	com.apple.CoreBrightness.CBColorModule.Primary	default	HarmonyPolicy: Using Baseline	
+00:24.989.515	Default	MTLCompilerService (1695)	MTLCompiler	Default	Compilation BEGIN (ParentProcessName=Photos_1680) Build request: MTLSpecializeFunctionToArchive - function specialization	
+00:24.989.604	Debug	backboardd (68)	com.apple.CoreBrightness.CBColorModule.Primary	default	input ambient color sample: xy = (0.4306;0.4101)	
+00:24.989.702	Debug	backboardd (68)	CoreBrightness	Default	LOWLUX 56.2759
+	
+00:24.989.723	Debug	backboardd (68)	CoreBrightness	Default	[ColorEffects.c:_CFXRestrictLowAmbientColor] xy=(0.4306,0.4101), CCT = 3,163.0000, CCT1 = 3,312.1138	
+00:24.989.741	Debug	backboardd (68)	CoreBrightness	Default	Restrict: (16.8685, 16.8685) -> (13.5781, 46.8243)
+	
+00:24.989.759	Debug	backboardd (68)	CoreBrightness	Default	60.5677 16.8685 58.1713 -> ANGLE 1.6813 -> BIN 2	
+00:24.989.776	Debug	backboardd (68)	CoreBrightness	Default	BIN 13: (0.4306, 0.4101) fitting in (0.4150, 0.3821)-(0.4373, 0.3893)-(0.4303, 0.4173)
+	
+00:24.989.810	Info	backboardd (68)	com.apple.CoreBrightness.CBColorModule.Primary	default	Set ambient color sample ALS event = [Orientation = 1; Illuminance = 176.000000; xy = (0.430614,0.410115); XYZ = (59.088802,56.275944,21.855120); CCT1 = 3312.113770; Integration time = 0.002906; Gain = 33554432; Obstructed = 0; First = 0, mitigation = 1, timestamp = 87740020]	
+00:24.989.861	Debug	backboardd (68)	com.apple.CoreBrightness.BLControl	default	key=RLuxStats value=<private>	
+00:24.989.878	Debug	backboardd (68)	com.apple.CoreBrightness.BrightnessSystemInternal	default	key=RLuxStats property=<private>	
